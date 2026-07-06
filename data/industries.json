@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ai-agent",
+    "name": "AI Agent",
+    "nameEn": "AI Agent",
+    "description": "AI Agents · Agent Frameworks · Automation",
+    "descriptionEn": "AI Agents · Agent Frameworks · Automation",
+    "icon": "bot"
+  },
+  {
+    "id": "embodied-ai",
+    "name": "具身智能",
+    "nameEn": "Embodied AI",
+    "description": "人形机器人 · ROS · 运动控制算法",
+    "descriptionEn": "Humanoid Robots · ROS · Motion Control Algorithms",
+    "icon": "robot"
+  },
+  {
+    "id": "ai",
+    "name": "AI 大模型",
+    "nameEn": "AI Foundation Models",
+    "description": "大模型 · NLP · 多模态",
+    "descriptionEn": "Large Language Models · NLP · Multimodal",
+    "icon": "brain"
+  },
+  {
+    "id": "web3",
+    "name": "Web3",
+    "nameEn": "Web3",
+    "description": "区块链 · DeFi · 分布式技术",
+    "descriptionEn": "Blockchain · DeFi · Distributed Systems",
+    "icon": "blocks"
+  },
+  {
+    "id": "semiconductor",
+    "name": "半导体",
+    "nameEn": "Semiconductor",
+    "description": "芯片设计 · 晶圆制造 · 封装测试",
+    "descriptionEn": "Chip Design · Wafer Manufacturing · Packaging & Testing",
+    "icon": "cpu"
+  },
+  {
+    "id": "smart-hardware",
+    "name": "智能硬件",
+    "nameEn": "Smart Hardware",
+    "description": "自动驾驶 · 无人机 · 智能家居",
+    "descriptionEn": "Autonomous Driving · Drones · Smart Home",
+    "icon": "cpu"
+  }
+]

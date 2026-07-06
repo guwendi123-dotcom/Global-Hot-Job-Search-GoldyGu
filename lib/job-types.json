@@ -1,0 +1,38 @@
+[
+  {
+    "id": "bd-sales",
+    "name": "BD & Sales",
+    "nameZh": "BD&销售",
+    "icon": "handshake"
+  },
+  {
+    "id": "mkt-growth",
+    "name": "MKT & Growth",
+    "nameZh": "市场&增长",
+    "icon": "trending-up"
+  },
+  {
+    "id": "research",
+    "name": "Research",
+    "nameZh": "研究类",
+    "icon": "microscope"
+  },
+  {
+    "id": "engineering",
+    "name": "Engineering",
+    "nameZh": "工程类",
+    "icon": "code"
+  },
+  {
+    "id": "algorithm",
+    "name": "Algorithm",
+    "nameZh": "算法类",
+    "icon": "brain"
+  },
+  {
+    "id": "cxo",
+    "name": "CXO",
+    "nameZh": "CXO岗位",
+    "icon": "crown"
+  }
+]

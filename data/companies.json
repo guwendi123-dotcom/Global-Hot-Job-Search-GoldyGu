@@ -1,0 +1,67 @@
+[
+  {
+    "id": "aitrip",
+    "industryId": "ai-agent",
+    "name": "AI旅行+本地生活APP",
+    "nameEn": "AI Travel + Local Lifestyle App",
+    "logo": "/logos/aitrip.png",
+    "description": "AI旅行+本地生活双场景平台，A轮融资1800万美元，创始团队来自 Copilot 和 Bing Chat 核心团队。",
+    "descriptionEn": "AI-powered travel and local lifestyle platform, Series A with $18M funding, founding team from Copilot and Bing Chat core team.",
+    "stage": "A轮",
+    "stageEn": "Series A",
+    "location": "美国/上海",
+    "locationEn": "US/Shanghai"
+  },
+  {
+    "id": "aianimation",
+    "industryId": "ai-agent",
+    "name": "AI动画创作工具",
+    "nameEn": "AI Animation Studio",
+    "logo": "/logos/aianimation.png",
+    "description": "全球首款专业级动画创作 AI Agent 工具，锦秋+高瓴押注，定位「AI 时代的皮克斯」。产品内置艺术总监、编剧、分镜、角色、场景、动画、音效 7 个专业 Agent 模拟真实动画工作室协同，用户一句话或一张图就能全自动出成片，解决传统 AI 视频「角色跑偏、只能出单镜头」的痛点，主要服务于自媒体、漫剧、广告、教育等内容生产者。",
+    "descriptionEn": "Worlds first professional animation creation AI Agent tool. Backed by Jinqiu and Gaorong, positioned as the Pixar of the AI era. Product includes 7 professional Agents (Art Director, Writer, Storyboard, Character, Scene, Animation, Sound) simulating real animation studio collaboration. Users can generate complete animated films with a single text or image, solving traditional AI video pain points like character drift and single-shot limitations. Serving content creators in self-media, comic ads, advertising, and education.",
+    "stage": "A+轮",
+    "stageEn": "Series A+",
+    "location": "洛杉矶/北京/上海",
+    "locationEn": "Los Angeles/Beijing/Shanghai"
+  },
+  {
+    "id": "robotex",
+    "industryId": "embodied-ai",
+    "name": "RobotEx 机器人",
+    "nameEn": "RobotEx",
+    "logo": "/logos/robotex.png",
+    "description": "国内领先的人形机器人公司，核心团队来自清华、MIT，已完成C轮融资。",
+    "descriptionEn": "Leading humanoid robot company in China, core team from Tsinghua University and MIT, Series C funding completed.",
+    "stage": "C轮",
+    "stageEn": "Series C",
+    "location": "北京·海淀区",
+    "locationEn": "Haidian, Beijing"
+  },
+  {
+    "id": "aithink",
+    "industryId": "ai",
+    "name": "AIThink 大模型",
+    "nameEn": "AIThink",
+    "logo": "/logos/aithink.png",
+    "description": "专注通用大模型研发，目标打造中国的OpenAI，已获得红杉、高瓴投资。",
+    "descriptionEn": "Focusing on general-purpose LLM development, aiming to become China's OpenAI, backed by Sequoia and Hillhouse.",
+    "stage": "B轮",
+    "stageEn": "Series B",
+    "location": "北京·中关村",
+    "locationEn": "Zhongguancun, Beijing"
+  },
+  {
+    "id": "driveauto",
+    "industryId": "smart-hardware",
+    "name": "DriveAuto 智驾",
+    "nameEn": "DriveAuto",
+    "logo": "/logos/driveauto.png",
+    "description": "L4级自动驾驶解决方案提供商，与多家主机厂达成量产合作。",
+    "descriptionEn": "L4 autonomous driving solution provider, with mass production partnerships established with multiple OEMs.",
+    "stage": "B+轮",
+    "stageEn": "Series B+",
+    "location": "上海·浦东",
+    "locationEn": "Pudong, Shanghai"
+  }
+]
