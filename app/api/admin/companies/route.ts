@@ -13,6 +13,19 @@ function saveCompanies(companies: any[]) {
   fs.writeFileSync(DATA_FILE, JSON.stringify(companies, null, 2));
 }
 
+// 自动补齐缺失的翻译
+function fillMissingTranslations(company: any) {
+  const filled = { ...company };
+
+  // 公司基本信息翻译补齐
+  if (!filled.nameEn && filled.name) filled.nameEn = filled.name;
+  if (!filled.descriptionEn && filled.description) filled.descriptionEn = filled.description;
+  if (!filled.stageEn && filled.stage) filled.stageEn = filled.stage;
+  if (!filled.locationEn && filled.location) filled.locationEn = filled.location;
+
+  return filled;
+}
+
 export async function GET() {
   const companies = getCompanies();
   return NextResponse.json({ companies });
@@ -21,8 +34,9 @@ export async function GET() {
 export async function POST(request: NextRequest) {
   try {
     const company = await request.json();
+    const filledCompany = fillMissingTranslations(company);
     const companies = getCompanies();
-    companies.push(company);
+    companies.push(filledCompany);
     saveCompanies(companies);
     return NextResponse.json({ success: true });
   } catch (error) {
@@ -33,10 +47,11 @@ export async function POST(request: NextRequest) {
 export async function PUT(request: NextRequest) {
   try {
     const company = await request.json();
+    const filledCompany = fillMissingTranslations(company);
     const companies = getCompanies();
     const index = companies.findIndex((c: any) => c.id === company.id);
     if (index !== -1) {
-      companies[index] = company;
+      companies[index] = filledCompany;
       saveCompanies(companies);
       return NextResponse.json({ success: true });
     }
