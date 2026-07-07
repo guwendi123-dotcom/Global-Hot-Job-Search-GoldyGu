@@ -63,5 +63,18 @@
     "stageEn": "Series B+",
     "location": "上海·浦东",
     "locationEn": "Pudong, Shanghai"
+  },
+  {
+    "id": "personal-agi",
+    "industryId": "ai-agent",
+    "name": "Personal AGI",
+    "nameEn": "Personal AGI",
+    "description": "打造属于每个人的 Personal AGI\n我们的愿景是 Personal AGI（个人通用人工智能）——为每个人、每个团队打造专属的 AI Agent OS，让智能融入真实的社交与工作场景，而非困在一个聊天框里。\n这款产品是面向个人与社交场景的 AI Agent OS——创作、分享、探索一切；我们从模型层、Agent Harness 到应用层进行全栈联合优化与创新——因为我们相信，Personal AGI 只会诞生于这样垂直整合的全栈创新之中。\n累计融资超 2000 万美金； 账上净现金超 5000 万美金；",
+    "descriptionEn": "",
+    "stage": "A轮",
+    "stageEn": "",
+    "location": "旧金山湾区/香港/日本/新加坡",
+    "locationEn": "",
+    "logo": ""
   }
 ]
