@@ -1,16 +1,28 @@
 import { NextRequest, NextResponse } from "next/server";
-import fs from "fs";
-import path from "path";
+import { getCompanies } from "@/lib/data";
 
-const DATA_FILE = path.join(process.cwd(), "data", "companies.json");
+const DATA_FILE = process.cwd() + "/data/companies.json";
 
-function getCompanies() {
-  const data = fs.readFileSync(DATA_FILE, "utf-8");
-  return JSON.parse(data);
+function getCompaniesFromFile() {
+  try {
+    const fs = require('fs');
+    if (fs.existsSync(DATA_FILE)) {
+      const data = fs.readFileSync(DATA_FILE, "utf-8");
+      return JSON.parse(data);
+    }
+  } catch (e) {
+    // 文件系统不可用
+  }
+  return getCompanies();
 }
 
-function saveCompanies(companies: any[]) {
-  fs.writeFileSync(DATA_FILE, JSON.stringify(companies, null, 2));
+function saveCompaniesToFile(companies: any[]) {
+  try {
+    const fs = require('fs');
+    fs.writeFileSync(DATA_FILE, JSON.stringify(companies, null, 2));
+  } catch (e) {
+    console.error("Cannot write to file in edge environment");
+  }
 }
 
 // 自动补齐缺失的翻译
@@ -27,7 +39,7 @@ function fillMissingTranslations(company: any) {
 }
 
 export async function GET() {
-  const companies = getCompanies();
+  const companies = getCompaniesFromFile();
   return NextResponse.json({ companies });
 }
 
@@ -35,9 +47,9 @@ export async function POST(request: NextRequest) {
   try {
     const company = await request.json();
     const filledCompany = fillMissingTranslations(company);
-    const companies = getCompanies();
+    const companies = getCompaniesFromFile();
     companies.push(filledCompany);
-    saveCompanies(companies);
+    saveCompaniesToFile(companies);
     return NextResponse.json({ success: true });
   } catch (error) {
     return NextResponse.json({ error: "Failed to create company" }, { status: 500 });
@@ -48,11 +60,11 @@ export async function PUT(request: NextRequest) {
   try {
     const company = await request.json();
     const filledCompany = fillMissingTranslations(company);
-    const companies = getCompanies();
+    const companies = getCompaniesFromFile();
     const index = companies.findIndex((c: any) => c.id === company.id);
     if (index !== -1) {
       companies[index] = filledCompany;
-      saveCompanies(companies);
+      saveCompaniesToFile(companies);
       return NextResponse.json({ success: true });
     }
     return NextResponse.json({ error: "Company not found" }, { status: 404 });
@@ -68,8 +80,8 @@ export async function DELETE(request: NextRequest) {
     if (!id) {
       return NextResponse.json({ error: "ID required" }, { status: 400 });
     }
-    const companies = getCompanies().filter((c: any) => c.id !== id);
-    saveCompanies(companies);
+    const companies = getCompaniesFromFile().filter((c: any) => c.id !== id);
+    saveCompaniesToFile(companies);
     return NextResponse.json({ success: true });
   } catch (error) {
     return NextResponse.json({ error: "Failed to delete company" }, { status: 500 });
