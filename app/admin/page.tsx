@@ -25,7 +25,7 @@ export default function AdminPage() {
   const [loading, setLoading] = useState(true);
 
   // 简单的密码验证（，生产环境应该用更安全的方式）
-  const ADMIN_PASSWORD = "goldy2024";
+  const ADMIN_PASSWORD = "guwendi123";
 
   useEffect(() => {
     // 检查是否已登录
