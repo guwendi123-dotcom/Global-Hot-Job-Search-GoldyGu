@@ -12,8 +12,16 @@
     "locationEn": "Beijing",
     "description": "负责机器人运动控制算法的研发，带领10人团队打造业界领先的双足机器人运动控制能力。\n\n**岗位职责：**\n1. 主导机器人运动控制算法架构设计与研发\n2. 协调硬件、软件团队实现算法落地\n3. 跟踪学术界最新成果，持续优化算法性能\n\n**岗位要求：**\n1. 计算机、自动化、机械电子相关专业博士或硕士\n2. 5年以上运动控制算法研发经验\n3. 熟悉 ROS、MoveIt 等机器人框架",
     "descriptionEn": "Lead the development of robot motion control algorithms.\n\n**Responsibilities:**\n1. Architect and develop robot motion control algorithms\n2. Coordinate with hardware and software teams\n3. Track latest academic research\n\n**Requirements:**\n1. PhD or Masters in related field\n2. 5+ years experience\n3. Familiar with ROS, MoveIt",
-    "tags": ["算法", "硕士", "北京"],
-    "tagsEn": ["Algorithm", "Master", "Beijing"],
+    "tags": [
+      "算法",
+      "硕士",
+      "北京"
+    ],
+    "tagsEn": [
+      "Algorithm",
+      "Master",
+      "Beijing"
+    ],
     "profile": {
       "salary": "80-120K·15薪",
       "salaryEn": "80-120K·15 months",
@@ -36,8 +44,16 @@
     "locationEn": "Beijing",
     "description": "研究并落地机器人视觉与强化学习算法。",
     "descriptionEn": "Research and implement robot vision and RL algorithms.",
-    "tags": ["深度学习", "博士", "北京"],
-    "tagsEn": ["Deep Learning", "PhD", "Beijing"],
+    "tags": [
+      "深度学习",
+      "博士",
+      "北京"
+    ],
+    "tagsEn": [
+      "Deep Learning",
+      "PhD",
+      "Beijing"
+    ],
     "profile": {
       "salary": "60-100K·15薪",
       "salaryEn": "60-100K·15 months",
@@ -60,15 +76,31 @@
     "locationEn": "Beijing",
     "description": "参与百亿参数大模型的预训练与微调工作。",
     "descriptionEn": "Participate in LLM pre-training and fine-tuning.",
-    "tags": ["LLM", "训练", "北京"],
-    "tagsEn": ["LLM", "Training", "Beijing"],
+    "tags": [
+      "LLM",
+      "训练",
+      "北京"
+    ],
+    "tagsEn": [
+      "LLM",
+      "Training",
+      "Beijing"
+    ],
     "profile": {
       "salary": "50-80K·15薪",
       "salaryEn": "50-80K·15 months",
       "experience": "3-5年",
       "experienceEn": "3-5 years",
-      "skills": ["PyTorch", "Python", "分布式系统"],
-      "skillsEn": ["PyTorch", "Python", "Distributed Systems"]
+      "skills": [
+        "PyTorch",
+        "Python",
+        "分布式系统"
+      ],
+      "skillsEn": [
+        "PyTorch",
+        "Python",
+        "Distributed Systems"
+      ]
     }
   },
   {
@@ -84,8 +116,14 @@
     "locationEn": "Beijing",
     "description": "负责大模型应用产品的规划与设计。",
     "descriptionEn": "Responsible for LLM product planning and design.",
-    "tags": ["产品", "北京"],
-    "tagsEn": ["Product", "Beijing"],
+    "tags": [
+      "产品",
+      "北京"
+    ],
+    "tagsEn": [
+      "Product",
+      "Beijing"
+    ],
     "profile": {
       "salary": "40-70K·14薪",
       "salaryEn": "40-70K·14 months",
@@ -106,8 +144,16 @@
     "locationEn": "Shanghai",
     "description": "负责自动驾驶车辆感知算法研发。",
     "descriptionEn": "Responsible for autonomous vehicle perception algorithm.",
-    "tags": ["感知", "算法", "上海"],
-    "tagsEn": ["Perception", "Algorithm", "Shanghai"],
+    "tags": [
+      "感知",
+      "算法",
+      "上海"
+    ],
+    "tagsEn": [
+      "Perception",
+      "Algorithm",
+      "Shanghai"
+    ],
     "profile": {
       "salary": "45-75K·14薪",
       "salaryEn": "45-75K·14 months",
@@ -128,8 +174,16 @@
     "locationEn": "San Francisco Bay Area",
     "description": "主导北美市场战略合作伙伴关系的全生命周期管理。\n\n**核心职责：**\n1. 生态搭建：主导北美市场战略合作伙伴关系的全生命周期管理（从寻源、谈判到落地），重点覆盖旅游、本地生活、移动出行、预订支付及新兴 AI 平台。\n2. 商业落地：负责制定 API 接入、分销合作、联盟营销及收益分成等商业条款；作为外部伙伴与内部产研团队的桥梁，推动产品集成与用户体验闭环。\n3. 跨界协同：联动产品、运营、财务及法务团队，监测合作数据，制定市场策略，代表公司在旅游科技与 AI 消费级应用领域发声。\n\n**任职要求：**\n- 经验：5年以上商务拓展/战略合作经验，有北美科技平台（出行、本地生活、支付、旅游、电商）背景者优先。\n- 能力：精通平台型业务逻辑，具备出色的商业谈判能力与跨部门协作能力；能在初创公司的快节奏和模糊环境中独立驱动项目。\n- 认知：深刻理解 API 生态、双边市场经济学及自建 vs 采购的决策逻辑；对 AI、对话式商务及 Agent 技术有浓厚兴趣。\n\n**加分项：**\n有初创公司 0-1 搭建合作生态的成功案例；熟悉旅游科技基建、嵌入式金融或 Agentic AI（智能体 AI）产品。\n\n**候选人画像参考：**\n1. 和 Stripe、OpenTable、Uber、Google、Apple、Visa、Booking 等平台建立过合作\n2. 有一定北美 Partner Network\n3. 做过 API、商业合作、GTM、生态合作\n4. 愿意自己去开拓资源，而不是等资源找上门",
     "descriptionEn": "Lead the full lifecycle management of strategic partnerships in the North American market.\n\n**Core Responsibilities:**\n1. Ecosystem Building: Lead full lifecycle management of strategic partner relationships in North America.\n2. Commercial Implementation: Responsible for formulating commercial terms.\n3. Cross-functional Collaboration: Coordinate with product, operations, finance, and legal teams.\n\n**Requirements:**\n- Experience: 5+ years in business development/strategic partnerships.\n- Capabilities: Expert in platform business logic, excellent negotiation skills.\n- Mindset: Deep understanding of API ecosystem.\n\n**Plus:**\nSuccessful case of building partnership ecosystem from 0-1 at a startup.",
-    "tags": ["商务", "BD", "Remote"],
-    "tagsEn": ["Business", "BD", "Remote"],
+    "tags": [
+      "商务",
+      "BD",
+      "Remote"
+    ],
+    "tagsEn": [
+      "Business",
+      "BD",
+      "Remote"
+    ],
     "profile": {
       "salary": "具竞争力薪酬+股权",
       "salaryEn": "Competitive Salary + Equity",
@@ -152,8 +206,16 @@
     "locationEn": "San Francisco Bay Area",
     "description": "从湾区起步，搭建本地用户网络：挖掘并培养高粘性早期用户、KOC 及城市大使，围绕美食、旅行、生活方式建立活跃的本地社群。\n\n线上线下双轮驱动：\n\n线上：运营社群阵地，设计新人引导机制，收集用户反馈反哺产品。\n\n线下：策划并执行市集、探店、城市漫步等本地活动，强化用户对产品的归属感。\n\n沉淀可复制的增长模型：建立大使计划 SOP 与城市拓展手册，为未来进军更多城市打下地基。\n\n任职要求：\n\n3 年以上社区运营、用户增长或本地活动策划经验，懂消费级产品的社区生长逻辑。\n\n具备极强的沟通力与执行力，能搞定从线上互动到线下活动的全链路运营。\n\n热爱探店、旅行、城市文化，适应初创公司快节奏；熟悉 Discord/Luma/Partiful 等工具者加分。\n\n有本地 KOL/KOC 资源，或有 AI 消费产品、生活方式品牌运营经验者优先。",
     "descriptionEn": "Build local user network from the Bay Area: discover and nurture high-retention early users, KOCs and city ambassadors, forming active local communities around food, travel and lifestyle.\n\nOnline-offline dual drive:\n\nOnline: Operate community platforms, design newcomer onboarding mechanisms, collect user feedback to improve products.\n\nOffline: Plan and execute markets, store visits, city walks and other local events to strengthen user belonging.\n\nBuild scalable growth model: establish ambassador program SOP and city expansion manual, laying foundation for future city expansion.\n\nRequirements:\n\n3+ years in community operations, user growth, or local event planning experience, understanding consumer product community growth logic.\n\nExcellent communication and execution skills, capable of handling full-chain operations from online interactions to offline events.\n\nPassion for store visits, travel, urban culture, adapted to fast-paced startup; familiar with Discord/Luma/Partiful tools is a plus.\n\nPreferred: local KOL/KOC resources, or AI consumer product/lifestyle brand operations experience.",
-    "tags": ["社区运营", "用户增长", "旧金山"],
-    "tagsEn": ["Community Ops", "User Growth", "San Francisco"],
+    "tags": [
+      "社区运营",
+      "用户增长",
+      "旧金山"
+    ],
+    "tagsEn": [
+      "Community Ops",
+      "User Growth",
+      "San Francisco"
+    ],
     "profile": {
       "salary": "具竞争力薪酬+股权",
       "salaryEn": "Competitive Salary + Equity",
@@ -178,8 +240,20 @@
     "locationEn": "Los Angeles/Shanghai",
     "description": "岗位概述：\n\n你将负责 OiiOii AI 动画创作工具的海外营销、品牌传播、创作者营销和关键合作伙伴开发。\n\n我们寻找具有全球营销经验、创业思维和强大突破能力的人才——能够开拓新市场、建立可复制的增长方法并在快速发展的环境中推动成果。\n\n核心职责：\n\n1. 全球营销战略与品牌定位\n- 为北美、日本及其他优先市场制定营销和传播战略\n- 定义目标用户、核心价值主张、传播场景和增长策略\n- 推动品牌知名度、用户增长和业务转化\n\n2. 创作者营销与内容分发\n- 领导海外 KOL / 创作者合作，包括筛选、规划、执行和绩效评估\n- 设计引人注目的内容主题、活动和病毒式传播角度\n- 在 YouTube、TikTok、Instagram、X 等主要平台扩大产品知名度\n\n3. 品牌内容与行业参与\n- 负责 OiiOii 海外官方渠道的内容规划，将产品更新、用户案例和创作场景转化为清晰面向市场的内容\n- 建立一致且独特的品牌声音\n- 规划海外展览、创作者活动 和行业合作，连接 AI、动画、电影、游戏、教育和创作者社区的资源\n\n4. B2B 合作伙伴关系与增长优化\n- 识别与海外动画工作室、电影工作室、游戏公司、MCN、教育机构、IP 所有者及其他潜在合作伙伴的合作机会\n- 推动从客户外联、需求发现、方案设计到试点执行的整个过程\n- 跟踪关键指标，包括曝光量、注册量、转化率、获客成本和合作伙伴线索\n- 根据数据和客户反馈优化渠道、内容、预算分配、合作伙伴战略和产品定位\n\n任职要求：\n\n- 具有海外营销、品牌传播、创作者增长、商务拓展或合作伙伴关系经验\n- 强烈理解全球社交平台、创作者营销、内容分发和用户获取能力\n- 能够开发 B2B 机会，识别客户需求，并推动从外联到执行的合作伙伴关系\n- 强大的战略思维、亲力亲为的执行和结果导向\n- 在快速变化或模糊环境中从 0 到 1 的构建经验\n- 英语流利；能够直接与海外创作者、客户、合作伙伴和媒体沟通\n- 对 AI、内容创作、动画、电影或创作者经济感兴趣\n\n优先考虑：\n\n- AI 工具、SaaS、创作者产品、内容平台或全球消费品经验\n- 北美、日本或其他海外市场营销或合作伙伴经验\n- 动画、电影、游戏、教育、MCN、IP 商业化或相关行业资源\n- 病毒内容、海外活动、B2B 合作伙伴关系或冷启动增长的成功案例\n- 创业经验，适应快节奏、模糊、跨职能的工作环境\n\n我们寻找的人：\n\n- 不仅仅是执行营销任务，而是能够识别真正增长突破的人\n- 不怕从零开始，澄清混乱问题，并将不确定的路径转化为可操作的增长机会\n\n画像：\n\n这是一个 Leader 岗位，汇报给海外业务负责人。",
     "descriptionEn": "Role Overview:\n\nYou will lead OiiOii's overseas marketing, brand communications, creator marketing, and key partnership development for our AI animation creation tool.\n\nWe are looking for someone with global marketing experience, startup mindset, and strong breakthrough capability — someone who can open up new markets, build repeatable growth methods, and drive results in a fast-moving environment.\n\nKey Responsibilities:\n\n1. Global Marketing Strategy & Brand Positioning\n- Develop marketing and communication strategies for key markets, including North America, Japan, and other priority regions\n- Define target users, core value propositions, communication scenarios, and growth strategies\n- Drive brand awareness, user growth, and business conversion\n\n2. Creator Marketing & Content Distribution\n- Lead overseas KOL / Creator partnerships, including selection, planning, execution, and performance review\n- Design compelling content themes, campaigns, and viral angles\n- Expand product visibility across YouTube, TikTok, Instagram, X, and other key platforms\n\n3. Brand Content & Industry Engagement\n- Own content planning for OiiOii's overseas official channels, turning product updates, user cases, and creation scenarios into clear market-facing content\n- Build a consistent and distinctive brand voice\n- Plan overseas exhibitions, creator events, and industry collaborations, connecting with resources across AI, animation, film, gaming, education, and creator communities\n\n4. B2B Partnerships & Growth Optimization\n- Identify partnership opportunities with overseas animation studios, film studios, gaming companies, MCNs, education institutions, IP owners, and other potential partners\n- Drive the full process from customer outreach, needs discovery, solution design, to pilot execution\n- Track key metrics including impressions, sign-ups, conversion, acquisition cost, and partnership leads\n- Optimize channels, content, budget allocation, partnership strategy, and product positioning based on data and customer feedback\n\nRequirements:\n\n- Experience in overseas marketing, brand communications, creator growth, BD, or partnerships\n- Strong understanding of global social platforms, creator marketing, content distribution, and user acquisition\n- Ability to develop B2B opportunities, identify customer needs, and drive partnerships from outreach to execution\n- Strong strategic thinking, hands-on execution, and result orientation\n- Experience building from 0 to 1 in fast-moving or ambiguous environments\n- Fluent in English; able to communicate directly with overseas creators, customers, partners, and media\n- Interest in AI, content creation, animation, film, or the creator economy\n\nNice to Have:\n\n- Experience in AI tools, SaaS, creator products, content platforms, or global consumer products\n- Marketing or partnership experience in North America, Japan, or other overseas markets\n- Resources in animation, film, gaming, education, MCN, IP commercialization, or related industries\n- Successful cases in viral content, overseas campaigns, B2B partnerships, or cold-start growth\n- Startup experience and comfort working in a fast-paced, ambiguous, cross-functional environment\n\nWho We Are Looking For:\n\n- Someone who is not just executing marketing tasks, but can identify real growth breakthroughs\n- Someone who is not afraid to build from zero, clarify messy problems, and turn uncertain paths into actionable growth opportunities\n\nProfile:\n\nThis is a Leader position, reporting to the Head of Overseas Business.",
-    "tags": ["营销", "品牌", "创作者", "洛杉矶", "上海"],
-    "tagsEn": ["Marketing", "Brand", "Creator", "Los Angeles", "Shanghai"],
+    "tags": [
+      "营销",
+      "品牌",
+      "创作者",
+      "洛杉矶",
+      "上海"
+    ],
+    "tagsEn": [
+      "Marketing",
+      "Brand",
+      "Creator",
+      "Los Angeles",
+      "Shanghai"
+    ],
     "profile": {
       "salary": "具竞争力薪酬+股权",
       "salaryEn": "Competitive Salary + Equity",
@@ -202,8 +276,20 @@
     "locationEn": "Los Angeles",
     "description": "岗位概述：\n\n你将负责 OiiOii AI 动画创作工具的北美社区运营与活动管理，推动社区增长、内容创意与线下活动执行。\n\n核心职责：\n\n1. 社区增长\n- 扩展并维护 Discord 合作伙伴网络\n- 执行联合营销活动和跨社区合作，推动用户获取和病毒式增长\n\n2. 内容与互动\n- 利用北美当地文化、潮流、梗图和节日，策划高质量的创意活动\n- 优化社区氛围，提高用户留存率和归属感\n\n3. 活动管理与 PR\n- 负责北美地区线下活动的端到端执行（展览、品牌沙龙、用户见面会）\n- 利用当地资源，最大限度地提升 PR 热度和品牌影响力\n\n任职要求：\n\n- 经验：3年以上海外社区运营或活动策划经验，有管理活跃 Discord 社区的成功经验（成员 10000+ 优先）\n- 文化适应性：X、Discord、Reddit 和 Instagram 重度用户，对北美梗图和网络流行趋势高度敏感\n- 合作技能：具备强大的 BD 和谈判能力，熟悉西方社区合作模式，拥有现有的 KOL 或项目网络\n- 运营能力：具备强大的线下活动项目管理能力，拥有供应商、场地和媒体的本地数据库\n- 语言能力：母语水平的英语能力和出色的文案撰写技巧，普通话流利以便与总部团队无缝沟通\n\n优先考虑：\n\n- 在全球中国品牌、Web3 项目或 AI 初创企业担任类似职位的经验\n- 作为深度 AI 内容创作者的背景，且在现有社区具有影响力\n- 成功举办北美线下行业沙龙或派对（100 人以上参会）的可靠历史\n\n画像：\n\n对标字节跳动 2-2～2-3 职级。提供 H1B transfer 支持。",
     "descriptionEn": "Role Overview:\n\nYou will be responsible for OiiOii's North American community operations and event management, driving community growth, content creation, and offline event execution.\n\nKey Responsibilities:\n\n1. Community Growth\n- Expand and maintain Discord partner network\n- Execute joint marketing campaigns and cross-community collaborations to drive user acquisition and viral growth\n\n2. Content & Engagement\n- Leverage North American local culture, trends, memes, and holidays to plan high-quality creative activities\n- Optimize community atmosphere to improve user retention and belonging\n\n3. Event Management & PR\n- End-to-end execution of offline events in North America (exhibitions, brand salons, user meetups)\n- Leverage local resources to maximize PR heat and brand influence\n\nRequirements:\n\n- Experience: 3+ years in overseas community operations or event planning, with successful experience managing active Discord communities (10,000+ members preferred)\n- Cultural adaptability: Heavy user of X, Discord, Reddit, and Instagram; highly sensitive to North American memes and online trends\n- Collaboration skills: Strong BD and negotiation skills; familiar with Western community collaboration models; existing network of KOLs or projects\n- Operations capability: Strong offline event project management capability; local database of vendors, venues, and media\n- Language: Native-level English proficiency and excellent copywriting skills; fluent in Mandarin for seamless communication with HQ team\n\nNice to Have:\n\n- Similar role experience at global Chinese brands, Web3 projects, or AI startups\n- Background as a deep AI content creator with influence in existing communities\n- Proven track record of successfully hosting North American offline industry salons or parties (100+ attendees)\n\nProfile:\n\nComparable to ByteDance's 2-2 to 2-3 level. H1B transfer support provided.",
-    "tags": ["社区运营", "活动运营", "洛杉矶", "Remote", "H1B"],
-    "tagsEn": ["Community Ops", "Events", "Los Angeles", "Remote", "H1B"],
+    "tags": [
+      "社区运营",
+      "活动运营",
+      "洛杉矶",
+      "Remote",
+      "H1B"
+    ],
+    "tagsEn": [
+      "Community Ops",
+      "Events",
+      "Los Angeles",
+      "Remote",
+      "H1B"
+    ],
     "profile": {
       "salary": "具竞争力薪酬+H1B支持",
       "salaryEn": "Competitive Salary + H1B Support",
@@ -212,5 +298,20 @@
       "language": "中英文流利",
       "languageEn": "Fluent in Chinese and English"
     }
+  },
+  {
+    "id": "job-1783408375444",
+    "companyId": "personal-agi",
+    "title": "",
+    "titleEn": "SMB Account Executive",
+    "description": "",
+    "descriptionEn": "About the role\nYou will be a founding member of our enterprise sales motion, selling Teamily AI for Teams to companies and teams of fewer than 50 people. You'll own the full sales cycle and help define the playbook that the next ten AEs will run.\nWhat you'll do\n- Own the full cycle — prospecting, discovery, demo, pilot, negotiation, and close — for SMB accounts.\n- Generate pipeline through outbound, inbound qualification, product-led signals, and community channels.\n- Run consultative discovery to map team workflows to Teamily AI's agentic capabilities, and land-and-expand within accounts.\n- Maintain rigorous CRM hygiene, forecast accurately, and consistently hit quota.\n- Feed customer insights back to product and shape our SMB go-to-market playbook from day one.\nWhat we look for\n- 5+ years of closing experience in SaaS / B2B AI / collaboration & productivity software (think Slack, Lark, Notion-style motions).\n- A track record of meeting or exceeding quota in high-velocity, transactional sales cycles.\n- Strong discovery and storytelling skills; comfortable demoing a technical AI product to both founders and operators.\n- Native-level English; Chinese proficiency is a plus.\n- Self-starter energy — you thrive with ambiguity and build process where none exists.",
+    "location": "旧金山湾区",
+    "locationEn": "San Francisco Bay Area",
+    "workMode": "",
+    "workModeEn": "hybrid/remote",
+    "tags": [],
+    "tagsEn": [],
+    "profile": {}
   }
 ]
