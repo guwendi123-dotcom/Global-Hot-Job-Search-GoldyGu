@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n";
 import { getJobs, getProfile } from "@/lib/data";
-import { ArrowLeft, Send, CheckCircle, Linkedin, Mail, Phone, MessageSquare } from "lucide-react";
+import { ArrowLeft, Send, CheckCircle, Linkedin, Mail, Phone, MessageSquare, Upload, X, FileText } from "lucide-react";
 
 export default function ContactPage() {
   const { language, t } = useI18n();
@@ -22,10 +22,52 @@ export default function ContactPage() {
     message: "",
   });
 
+  const [resume, setResume] = useState<File | null>(null);
+  const [resumeBase64, setResumeBase64] = useState<string>("");
+  const [resumeName, setResumeName] = useState<string>("");
+
   useEffect(() => {
     setJobs(getJobs());
     setProfile(getProfile());
   }, []);
+
+  // 处理文件上传
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    // 限制文件大小 5MB
+    if (file.size > 5 * 1024 * 1024) {
+      alert(language === "zh" ? "文件不能超过 5MB" : "File size must be less than 5MB");
+      return;
+    }
+
+    // 限制文件类型
+    const allowedTypes = [".pdf", ".doc", ".docx"];
+    const fileExt = file.name.substring(file.name.lastIndexOf(".")).toLowerCase();
+    if (!allowedTypes.includes(fileExt)) {
+      alert(language === "zh" ? "仅支持 PDF、DOC、DOCX 格式" : "Only PDF, DOC, DOCX formats are allowed");
+      return;
+    }
+
+    setResumeName(file.name);
+
+    // 转换为 base64
+    const reader = new FileReader();
+    reader.onloadend = () => {
+      const base64 = reader.result as string;
+      // 去除 base64 的 data URL 前缀，保留纯数据
+      const base64Data = base64.split(",")[1];
+      setResumeBase64(base64Data);
+    };
+    reader.readAsDataURL(file);
+  };
+
+  const removeResume = () => {
+    setResume(null);
+    setResumeBase64("");
+    setResumeName("");
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -35,7 +77,13 @@ export default function ContactPage() {
       const response = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          ...formData,
+          resume: resumeBase64 ? {
+            name: resumeName,
+            data: resumeBase64
+          } : null
+        }),
       });
 
       if (response.ok) {
@@ -70,6 +118,8 @@ export default function ContactPage() {
     messagePlaceholder: language === "zh"
       ? "告诉我你的背景、期望岗位或其他想说的话..."
       : "Tell me about your background, desired position, or anything else...",
+    resume: language === "zh" ? "上传简历" : "Upload Resume",
+    resumeHint: language === "zh" ? "支持 PDF、DOC、DOCX，不超过 5MB" : "Supports PDF, DOC, DOCX, max 5MB",
     submit: language === "zh" ? "提交" : "Submit",
     back: language === "zh" ? "返回首页" : "Back to Home",
     success: language === "zh" ? "提交成功！" : "Submitted Successfully!",
@@ -204,15 +254,51 @@ export default function ContactPage() {
               </select>
             </div>
 
+            {/* Resume Upload */}
+            <div>
+              <label className="block text-sm font-medium text-text-primary mb-2">
+                {trans.resume}
+              </label>
+
+              {resumeName ? (
+                <div className="flex items-center gap-3 p-4 bg-bg-primary rounded-xl border border-border">
+                  <FileText className="w-8 h-8 text-accent" />
+                  <span className="flex-1 text-sm text-text-primary truncate">{resumeName}</span>
+                  <button
+                    type="button"
+                    onClick={removeResume}
+                    className="p-1 text-text-secondary hover:text-red-500 transition-colors"
+                  >
+                    <X size={20} />
+                  </button>
+                </div>
+              ) : (
+                <label className="flex flex-col items-center justify-center w-full h-32 border-2 border-dashed border-border rounded-xl cursor-pointer hover:border-accent hover:bg-accent-light transition-colors">
+                  <div className="flex flex-col items-center justify-center pt-5 pb-6">
+                    <Upload className="w-8 h-8 text-text-secondary mb-2" />
+                    <p className="text-sm text-text-secondary">{trans.resume}</p>
+                    <p className="text-xs text-text-secondary mt-1">{trans.resumeHint}</p>
+                  </div>
+                  <input
+                    type="file"
+                    className="hidden"
+                    accept=".pdf,.doc,.docx"
+                    onChange={handleFileChange}
+                  />
+                </label>
+              )}
+            </div>
+
             {/* Message */}
             <div>
               <label className="block text-sm font-medium text-text-primary mb-2">
-                {trans.message}
+                {trans.message} <span className="text-red-500">*</span>
               </label>
               <div className="relative">
                 <MessageSquare className="absolute left-3 top-3 w-5 h-5 text-text-secondary" />
                 <textarea
                   rows={5}
+                  required
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   placeholder={trans.messagePlaceholder}

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { ArrowLeft, Lock, Eye, EyeOff, Download, Trash2, Linkedin, Mail, Phone, ExternalLink } from "lucide-react";
+import { ArrowLeft, Lock, Eye, EyeOff, Download, Trash2, Linkedin, Mail, Phone, ExternalLink, FileText } from "lucide-react";
 
 interface Submission {
   id: string;
@@ -13,6 +13,8 @@ interface Submission {
   linkedin?: string;
   interestedJob?: string;
   message: string;
+  hasResume?: boolean;
+  resumeName?: string | null;
 }
 
 export default function AdminPage() {
@@ -225,6 +227,13 @@ export default function AdminPage() {
                     <div className="flex items-center gap-2 text-sm">
                       <span className="text-text-secondary">感兴趣岗位:</span>
                       <span className="text-accent font-medium">{submission.interestedJob}</span>
+                    </div>
+                  )}
+                  {submission.hasResume && (
+                    <div className="flex items-center gap-2 text-sm">
+                      <FileText size={16} className="text-text-secondary" />
+                      <span className="text-text-secondary">简历:</span>
+                      <span className="text-accent font-medium">{submission.resumeName}</span>
                     </div>
                   )}
                 </div>
