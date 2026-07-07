@@ -1,8 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Phone, MessageCircle, Linkedin, Copy, Check } from "lucide-react";
+import { Mail, Phone, MessageCircle, Linkedin, Copy, Check, Send } from "lucide-react";
 import { useState } from "react";
+import Link from "next/link";
 import type { Profile } from "@/lib/data";
 import { useI18n } from "@/lib/i18n";
 
@@ -109,6 +110,14 @@ export default function Hero({ profile }: HeroProps) {
           <Mail size={18} />
           {t.contactMe}
         </a>
+        <Link
+          href="/contact"
+          style={{ cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.75rem 1.5rem', backgroundColor: 'white', color: '#1A1A1A', border: '2px solid #FF6B35', borderRadius: '9999px', transition: 'all 0.2s' }}
+          className="hover:bg-accent-light hover:text-accent font-medium"
+        >
+          <Send size={18} className="text-accent" />
+          {language === "zh" ? "留言给我" : "Leave a Message"}
+        </Link>
         <button
           onClick={() => copyToClipboard(profile.contact.phone, 'phone')}
           style={{ cursor: 'pointer', userSelect: 'all', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.75rem 1.5rem', backgroundColor: 'white', color: '#1A1A1A', border: '1px solid #E5E7EB', borderRadius: '9999px', transition: 'all 0.2s' }}
