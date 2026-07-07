@@ -3,16 +3,14 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { useParams } from "next/navigation";
 import { ArrowLeft, Mail, ChevronRight, DollarSign, Clock, Languages, GraduationCap, Code, Briefcase, Linkedin, MapPin, Building } from "lucide-react";
 import { getJob, getCompany, getProfile, getJobTypes, type Job, type Company } from "@/lib/data";
 import ProfileBadge from "@/components/ProfileBadge";
 import { useI18n } from "@/lib/i18n";
 
-interface PageProps {
-  params: { id: string };
-}
-
-export default function JobPage({ params }: PageProps) {
+export default function JobPage() {
+  const params = useParams();
   const { language, t } = useI18n();
   const [job, setJob] = useState<Job | null>(null);
   const [company, setCompany] = useState<Company | null>(null);
@@ -21,8 +19,9 @@ export default function JobPage({ params }: PageProps) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (params?.id) {
-      const jobData = getJob(params.id);
+    const id = params?.id as string;
+    if (id) {
+      const jobData = getJob(id);
       if (jobData) {
         setJob(jobData);
         setCompany(getCompany(jobData.companyId) || null);
@@ -204,10 +203,11 @@ export default function JobPage({ params }: PageProps) {
                         if (!line) return null;
 
                         // Numbered list (1., 2., 3.)
-                        if (line.match(/^\d+\.\s/)) {
+                        const numberMatch = line.match(/^\d+\./);
+                        if (numberMatch) {
                           return (
                             <div key={lineIndex} className="flex gap-3 pl-3">
-                              <span className="text-accent font-semibold">{line.match(/^\d+\./)[0]}</span>
+                              <span className="text-accent font-semibold">{numberMatch[0]}</span>
                               <span className="text-text-secondary">{line.replace(/^\d+\.\s*/, '')}</span>
                             </div>
                           );

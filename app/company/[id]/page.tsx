@@ -3,16 +3,14 @@
 import { useEffect, useState } from "react";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { useParams } from "next/navigation";
 import { ArrowLeft, MapPin, Building2 } from "lucide-react";
 import { getCompany, getJobsByCompany, getIndustry, getCompanies, type Company, type Job, type Industry } from "@/lib/data";
 import JobCard from "@/components/JobCard";
 import { useI18n } from "@/lib/i18n";
 
-interface PageProps {
-  params: { id: string };
-}
-
-export default function CompanyPage({ params }: PageProps) {
+export default function CompanyPage() {
+  const params = useParams();
   const { language, t } = useI18n();
   const [company, setCompany] = useState<Company | null>(null);
   const [jobs, setJobs] = useState<Job[]>([]);
@@ -20,11 +18,12 @@ export default function CompanyPage({ params }: PageProps) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (params?.id) {
-      const companyData = getCompany(params.id);
+    const id = params?.id as string;
+    if (id) {
+      const companyData = getCompany(id);
       if (companyData) {
         setCompany(companyData);
-        setJobs(getJobsByCompany(params.id));
+        setJobs(getJobsByCompany(id));
         setIndustry(getIndustry(companyData.industryId) || null);
       }
       setLoading(false);
