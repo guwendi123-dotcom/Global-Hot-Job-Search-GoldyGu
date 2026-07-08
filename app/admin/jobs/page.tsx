@@ -29,6 +29,7 @@ interface Job {
     skills?: string[];
     skillsEn?: string[];
   };
+  sort?: number;
 }
 
 interface Company {
@@ -121,6 +122,7 @@ export default function AdminJobsPage() {
       tags: [],
       tagsEn: [],
       profile: {},
+      sort: 999,
     });
     setIsCreating(true);
   };
@@ -184,6 +186,16 @@ export default function AdminJobsPage() {
                   onChange={(e) => setEditingJob({ ...editingJob, id: e.target.value })}
                   className="w-full px-4 py-2 rounded-xl border border-border focus:border-accent focus:outline-none"
                   disabled={!isCreating}
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-text-primary mb-1">排序权重 (数字越小越靠前)</label>
+                <input
+                  type="number"
+                  value={editingJob.sort || 999}
+                  onChange={(e) => setEditingJob({ ...editingJob, sort: parseInt(e.target.value) || 999 })}
+                  className="w-full px-4 py-2 rounded-xl border border-border focus:border-accent focus:outline-none"
+                  placeholder="999"
                 />
               </div>
               <div>
@@ -376,6 +388,9 @@ export default function AdminJobsPage() {
                 <div className="flex items-center gap-2 text-sm text-text-secondary mb-4">
                   <Briefcase size={14} />
                   {job.location}
+                </div>
+                <div className="flex items-center gap-2 text-sm text-orange-500 mb-4">
+                  排序: {job.sort || 999}
                 </div>
                 <div className="flex gap-2">
                   <button

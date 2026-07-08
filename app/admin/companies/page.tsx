@@ -16,6 +16,7 @@ interface Company {
   location: string;
   locationEn: string;
   logo: string;
+  sort?: number;
 }
 
 interface Industry {
@@ -105,6 +106,7 @@ export default function AdminCompaniesPage() {
       location: "",
       locationEn: "",
       logo: "",
+      sort: 999,
     });
     setIsCreating(true);
   };
@@ -156,6 +158,16 @@ export default function AdminCompaniesPage() {
                   onChange={(e) => setEditingCompany({ ...editingCompany, id: e.target.value })}
                   className="w-full px-4 py-2 rounded-xl border border-border focus:border-accent focus:outline-none"
                   disabled={!isCreating}
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-text-primary mb-1">排序权重 (数字越小越靠前)</label>
+                <input
+                  type="number"
+                  value={editingCompany.sort || 999}
+                  onChange={(e) => setEditingCompany({ ...editingCompany, sort: parseInt(e.target.value) || 999 })}
+                  className="w-full px-4 py-2 rounded-xl border border-border focus:border-accent focus:outline-none"
+                  placeholder="999"
                 />
               </div>
               <div>
@@ -303,8 +315,11 @@ export default function AdminCompaniesPage() {
                 <div className="flex items-center gap-2 text-sm text-text-secondary mb-2">
                   阶段: {company.stage}
                 </div>
-                <div className="flex items-center gap-2 text-sm text-text-secondary mb-4">
+                <div className="flex items-center gap-2 text-sm text-text-secondary mb-2">
                   地点: {company.location}
+                </div>
+                <div className="flex items-center gap-2 text-sm text-orange-500 mb-4">
+                  排序: {company.sort || 999}
                 </div>
                 <div className="flex gap-2">
                   <button

@@ -10,7 +10,8 @@
     "stage": "A轮",
     "stageEn": "Series A",
     "location": "美国/上海",
-    "locationEn": "US/Shanghai"
+    "locationEn": "US/Shanghai",
+    "sort": 10
   },
   {
     "id": "aianimation",
@@ -23,7 +24,8 @@
     "stage": "A+轮",
     "stageEn": "Series A+",
     "location": "洛杉矶/北京/上海",
-    "locationEn": "Los Angeles/Beijing/Shanghai"
+    "locationEn": "Los Angeles/Beijing/Shanghai",
+    "sort": 20
   },
   {
     "id": "robotex",
@@ -36,7 +38,8 @@
     "stage": "C轮",
     "stageEn": "Series C",
     "location": "北京·海淀区",
-    "locationEn": "Haidian, Beijing"
+    "locationEn": "Haidian, Beijing",
+    "sort": 30
   },
   {
     "id": "aithink",
@@ -49,7 +52,8 @@
     "stage": "B轮",
     "stageEn": "Series B",
     "location": "北京·中关村",
-    "locationEn": "Zhongguancun, Beijing"
+    "locationEn": "Zhongguancun, Beijing",
+    "sort": 40
   },
   {
     "id": "driveauto",
@@ -62,7 +66,8 @@
     "stage": "B+轮",
     "stageEn": "Series B+",
     "location": "上海·浦东",
-    "locationEn": "Pudong, Shanghai"
+    "locationEn": "Pudong, Shanghai",
+    "sort": 50
   },
   {
     "id": "personal-agi",
@@ -75,6 +80,7 @@
     "stageEn": "",
     "location": "旧金山湾区/香港/日本/新加坡",
     "locationEn": "",
-    "logo": ""
+    "logo": "",
+    "sort": 60
   }
 ]

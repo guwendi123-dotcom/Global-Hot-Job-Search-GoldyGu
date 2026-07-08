@@ -41,6 +41,7 @@ export interface Company {
   stageEn?: string;
   location: string;
   locationEn?: string;
+  sort?: number;
 }
 
 export interface JobProfile {
@@ -72,6 +73,7 @@ export interface Job {
   tags: string[];
   tagsEn?: string[];
   profile: JobProfile;
+  sort?: number;
 }
 
 export function getProfile(): Profile {
@@ -83,11 +85,11 @@ export function getIndustries(): Industry[] {
 }
 
 export function getCompanies(): Company[] {
-  return companiesData as Company[];
+  return (companiesData as Company[]).sort((a, b) => (a.sort || 999) - (b.sort || 999));
 }
 
 export function getJobs(): Job[] {
-  return jobsData as Job[];
+  return (jobsData as Job[]).sort((a, b) => (a.sort || 999) - (b.sort || 999));
 }
 
 export function getIndustry(id: string): Industry | undefined {
@@ -107,16 +109,16 @@ export function getCompaniesByIndustry(industryId: string): Company[] {
 }
 
 export function getJobsByCompany(companyId: string): Job[] {
-  return getJobs().filter(j => j.companyId === companyId);
+  return getJobs().filter(j => j.companyId === companyId).sort((a, b) => (a.sort || 999) - (b.sort || 999));
 }
 
 export function getJobsByIndustry(industryId: string): Job[] {
   const companyIds = getCompaniesByIndustry(industryId).map(c => c.id);
-  return getJobs().filter(j => companyIds.includes(j.companyId));
+  return getJobs().filter(j => companyIds.includes(j.companyId)).sort((a, b) => (a.sort || 999) - (b.sort || 999));
 }
 
 export function getJobsByType(jobType: string): Job[] {
-  return getJobs().filter(j => j.jobType === jobType);
+  return getJobs().filter(j => j.jobType === jobType).sort((a, b) => (a.sort || 999) - (b.sort || 999));
 }
 
 import jobTypesData from '@/lib/job-types.json';
