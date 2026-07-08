@@ -1,5 +1,40 @@
 [
   {
+    "id": "job-pa-smb-ae",
+    "companyId": "personal-agi",
+    "title": "SMB Account Executive",
+    "titleEn": "SMB Account Executive",
+    "jobType": "bd-sales",
+    "jobTypeEn": "BD & Sales",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "旧金山湾区",
+    "locationEn": "San Francisco Bay Area",
+    "description": "You will be a founding member of our enterprise sales motion, selling Teamily AI for Teams to companies and teams of fewer than 50 people. You'll own the full sales cycle and help define the playbook that the next ten AEs will run.\n\nWhat you'll do\n- Own the full cycle — prospecting, discovery, demo, pilot, negotiation, and close — for SMB accounts.\n- Generate pipeline through outbound, inbound qualification, product-led signals, and community channels.\n- Run consultative discovery to map team workflows to Teamily AI's agentic capabilities, and land-and-expand within accounts.\n- Maintain rigorous CRM hygiene, forecast accurately, and consistently hit quota.\n- Feed customer insights back to product and shape our SMB go-to-market playbook from day one.\n\nWhat we look for\n- 2–5+ years of closing experience in SaaS / B2B AI / collaboration & productivity software (think Slack, Lark, Notion-style motions).\n- A track record of meeting or exceeding quota in high-velocity, transactional sales cycles.\n- Strong discovery and storytelling skills; comfortable demoing a technical AI product to both founders and operators.\n- Native-level English; Chinese proficiency is a plus.\n- Self-starter energy — you thrive with ambiguity and build process where none exists.",
+    "descriptionEn": "You will be a founding member of our enterprise sales motion, selling Teamily AI for Teams to companies and teams of fewer than 50 people. You'll own the full sales cycle and help define the playbook that the next ten AEs will run.\n\nWhat you'll do\n- Own the full cycle — prospecting, discovery, demo, pilot, negotiation, and close — for SMB accounts.\n- Generate pipeline through outbound, inbound qualification, product-led signals, and community channels.\n- Run consultative discovery to map team workflows to Teamily AI's agentic capabilities, and land-and-expand within accounts.\n- Maintain rigorous CRM hygiene, forecast accurately, and consistently hit quota.\n- Feed customer insights back to product and shape our SMB go-to-market playbook from day one.\n\nWhat we look for\n- 2–5+ years of closing experience in SaaS / B2B AI / collaboration & productivity software (think Slack, Lark, Notion-style motions).\n- A track record of meeting or exceeding quota in high-velocity, transactional sales cycles.\n- Strong discovery and storytelling skills; comfortable demoing a technical AI product to both founders and operators.\n- Native-level English; Chinese proficiency is a plus.\n- Self-starter energy — you thrive with ambiguity and build process where none exists.",
+    "tags": [
+      "Sales",
+      "SMB",
+      "AI",
+      "旧金山湾区"
+    ],
+    "tagsEn": [
+      "Sales",
+      "SMB",
+      "AI",
+      "San Francisco Bay Area"
+    ],
+    "profile": {
+      "salary": "150-200K + Equity",
+      "salaryEn": "150-200K + Equity",
+      "experience": "2-5年",
+      "experienceEn": "2-5 years",
+      "language": "英语流利",
+      "languageEn": "Native-level English"
+    },
+    "sort": 10
+  },
+  {
     "id": "job-001",
     "companyId": "robotex",
     "title": "运动控制算法负责人",
@@ -29,7 +64,8 @@
       "experienceEn": "5-8 years",
       "language": "英语可作为工作语言",
       "languageEn": "English as working language"
-    }
+    },
+    "sort": 20
   },
   {
     "id": "job-002",
@@ -61,7 +97,8 @@
       "experienceEn": "3-5 years",
       "education": "博士及以上",
       "educationEn": "PhD or above"
-    }
+    },
+    "sort": 30
   },
   {
     "id": "job-003",
@@ -101,7 +138,8 @@
         "Python",
         "Distributed Systems"
       ]
-    }
+    },
+    "sort": 40
   },
   {
     "id": "job-004",
@@ -129,7 +167,8 @@
       "salaryEn": "40-70K·14 months",
       "experience": "3-5年",
       "experienceEn": "3-5 years"
-    }
+    },
+    "sort": 50
   },
   {
     "id": "job-005",
@@ -159,7 +198,8 @@
       "salaryEn": "45-75K·14 months",
       "experience": "2-5年",
       "experienceEn": "2-5 years"
-    }
+    },
+    "sort": 60
   },
   {
     "id": "job-006",
@@ -191,7 +231,8 @@
       "experienceEn": "5+ years",
       "language": "英语流利",
       "languageEn": "Fluent English"
-    }
+    },
+    "sort": 70
   },
   {
     "id": "job-007",
@@ -223,7 +264,8 @@
       "experienceEn": "3+ years",
       "language": "中文好",
       "languageEn": "Fluent Chinese"
-    }
+    },
+    "sort": 80
   },
   {
     "id": "job-008",
@@ -261,7 +303,8 @@
       "experienceEn": "5+ years",
       "language": "中英文流利",
       "languageEn": "Fluent in Chinese and English"
-    }
+    },
+    "sort": 90
   },
   {
     "id": "job-009",
@@ -297,7 +340,8 @@
       "experienceEn": "3+ years",
       "language": "中英文流利",
       "languageEn": "Fluent in Chinese and English"
-    }
+    },
+    "sort": 100
   },
   {
     "id": "job-1783408375444",
@@ -312,6 +356,7 @@
     "workModeEn": "hybrid/remote",
     "tags": [],
     "tagsEn": [],
-    "profile": {}
+    "profile": {},
+    "sort": 110
   }
 ]

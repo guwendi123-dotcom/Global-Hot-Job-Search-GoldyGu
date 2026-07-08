@@ -30,6 +30,12 @@
     "icon": "brain"
   },
   {
+    "id": "product-design",
+    "name": "Product & Design",
+    "nameZh": "产品&设计",
+    "icon": "palette"
+  },
+  {
     "id": "cxo",
     "name": "CXO",
     "nameZh": "CXO岗位",
