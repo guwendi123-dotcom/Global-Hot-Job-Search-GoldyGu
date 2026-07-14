@@ -40,5 +40,11 @@
     "name": "CXO",
     "nameZh": "CXO岗位",
     "icon": "crown"
+  },
+  {
+    "id": "pm",
+    "name": "PM",
+    "nameZh": "项目类",
+    "icon": "clipboard"
   }
 ]
