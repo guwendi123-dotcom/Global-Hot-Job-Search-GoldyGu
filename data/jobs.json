@@ -358,5 +358,108 @@
     "tagsEn": [],
     "profile": {},
     "sort": 110
+  },
+  {
+    "id": "gt-vp-platform",
+    "companyId": "global-travel",
+    "title": "平台产品VP",
+    "titleEn": "VP of Platform Product",
+    "jobType": "product-design",
+    "jobTypeEn": "Product & Design",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "深圳",
+    "locationEn": "Shenzhen",
+    "description": "负责公司全部平台产品团队的管理与战略规划\n\n岗位职责：\n1. 分管公司全部平台产品团队，制定产品战略\n2. 带领团队打造一流的平台产品\n3. 与CXO紧密协作，推动产品创新\n4. 负责产品团队的建设与人才培养\n\n岗位要求：\n1. 职级对标P10-P11\n2. 中英文熟练，能双语办公\n3. 有大型互联网平台产品管理经验\n4. 优秀的跨团队协调能力",
+    "descriptionEn": "Responsible for the management and strategic planning of all platform product teams\n\nResponsibilities:\n1. Oversee all platform product teams and formulate product strategy\n2. Lead the team to build world-class platform products\n3. Work closely with CXO to drive product innovation\n4. Build and develop the product team\n\nRequirements:\n1. Level equivalent to P10-P11\n2. Proficient in Chinese and English, able to work in bilingual\n3. Experience in managing large internet platform products\n4. Excellent cross-team coordination skills",
+    "tags": [
+      "产品",
+      "VP",
+      "深圳",
+      "P10-P11"
+    ],
+    "tagsEn": [
+      "Product",
+      "VP",
+      "Shenzhen",
+      "P10-P11"
+    ],
+    "profile": {
+      "salary": "150-250K+",
+      "salaryEn": "150-250K+",
+      "experience": "8-12年",
+      "experienceEn": "8-12 years",
+      "language": "中英文流利",
+      "languageEn": "Fluent in Chinese and English"
+    },
+    "sort": 1
+  },
+  {
+    "id": "gt-lead-chatbot",
+    "companyId": "global-travel",
+    "title": "Chatbot产品Leader",
+    "titleEn": "Chatbot Product Lead",
+    "jobType": "product-design",
+    "jobTypeEn": "Product & Design",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "深圳",
+    "locationEn": "Shenzhen",
+    "description": "负责现有Chatbot产品的规划与管理\n\n岗位职责：\n1. 负责Chatbot产品的整体规划与迭代\n2. 带领产品团队实现产品目标\n3. 与技术团队紧密协作，推动AI产品落地\n4. 跟踪产品数据，持续优化用户体验\n\n岗位要求：\n1. 职级对标P9\n2. 有Chatbot/AI产品经验优先\n3. 具备良好的产品思维和数据敏感度\n4. 较强的跨部门协调能力",
+    "descriptionEn": "Responsible for the planning and management of existing Chatbot products\n\nResponsibilities:\n1. Overall planning and iteration of Chatbot products\n2. Lead the product team to achieve product goals\n3. Work closely with technical team to drive AI product implementation\n4. Track product data and continuously optimize user experience\n\nRequirements:\n1. Level equivalent to P9\n2. Experience in Chatbot/AI products preferred\n3. Good product thinking and data sensitivity\n4. Strong cross-department coordination skills",
+    "tags": [
+      "产品",
+      "Chatbot",
+      "深圳",
+      "P9"
+    ],
+    "tagsEn": [
+      "Product",
+      "Chatbot",
+      "Shenzhen",
+      "P9"
+    ],
+    "profile": {
+      "salary": "80-150K",
+      "salaryEn": "80-150K",
+      "experience": "5-8年",
+      "experienceEn": "5-8 years",
+      "language": "中英文流利",
+      "languageEn": "Fluent in Chinese and English"
+    },
+    "sort": 2
+  },
+  {
+    "id": "gt-pmo",
+    "companyId": "global-travel",
+    "title": "PMO",
+    "titleEn": "PMO",
+    "jobType": "pm",
+    "jobTypeEn": "PM",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "深圳/香港",
+    "locationEn": "Shenzhen / Hong Kong",
+    "description": "辅助CTO推动公司AI变革\n\n岗位职责：\n1. 协助CTO规划公司AI转型战略\n2. 协调各团队推进AI项目落地\n3. 制定项目管理流程与规范\n4. 跟进项目进度，确保关键里程碑达成\n\n岗位要求：\n1. 有大型AI项目或数字化变革经验\n2. 优秀的项目管理能力\n3. 良好的沟通协调能力\n4. 能接受深圳或香港base",
+    "descriptionEn": "Assist CTO in driving company AI transformation\n\nResponsibilities:\n1. Assist CTO in planning AI transformation strategy\n2. Coordinate teams to drive AI project implementation\n3. Develop project management processes and standards\n4. Monitor project progress and ensure key milestones are met\n\nRequirements:\n1. Experience in large AI projects or digital transformation\n2. Excellent project management skills\n3. Good communication and coordination abilities\n4. Willing to be based in Shenzhen or Hong Kong",
+    "tags": [
+      "PMO",
+      "AI转型",
+      "深圳/香港"
+    ],
+    "tagsEn": [
+      "PMO",
+      "AI Transformation",
+      "Shenzhen/Hong Kong"
+    ],
+    "profile": {
+      "salary": "80-150K",
+      "salaryEn": "80-150K",
+      "experience": "5-10年",
+      "experienceEn": "5-10 years",
+      "language": "中英文流利",
+      "languageEn": "Fluent in Chinese and English"
+    },
+    "sort": 3
   }
 ]

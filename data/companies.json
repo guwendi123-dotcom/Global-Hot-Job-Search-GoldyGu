@@ -75,12 +75,26 @@
     "name": "Personal AGI",
     "nameEn": "Personal AGI",
     "description": "打造属于每个人的 Personal AGI\n我们的愿景是 Personal AGI（个人通用人工智能）——为每个人、每个团队打造专属的 AI Agent OS，让智能融入真实的社交与工作场景，而非困在一个聊天框里。\n这款产品是面向个人与社交场景的 AI Agent OS——创作、分享、探索一切；我们从模型层、Agent Harness 到应用层进行全栈联合优化与创新——因为我们相信，Personal AGI 只会诞生于这样垂直整合的全栈创新之中。\n累计融资超 2000 万美金； 账上净现金超 5000 万美金；",
-    "descriptionEn": "",
+    "descriptionEn": "Building Personal AGI for Everyone\n\nOur vision is Personal AGI (Personal General Artificial Intelligence) — to build an exclusive AI Agent OS for every individual and team, bringing intelligence into real social and work scenarios, rather than confining it within a chat box.\n\nThis product is an AI Agent OS for personal and social scenarios — creating, sharing, and exploring everything; we perform full-stack joint optimization and innovation from the model layer, Agent Harness to the application layer — because we believe Personal AGI can only emerge from such vertically integrated full-stack innovation.\n\nRaised over M in total financing; over M in net cash on hand.",
     "stage": "A轮",
-    "stageEn": "",
+    "stageEn": "Series A",
     "location": "旧金山湾区/香港/日本/新加坡",
-    "locationEn": "",
+    "locationEn": "San Francisco Bay Area / Hong Kong / Japan / Singapore",
     "logo": "",
     "sort": 60
+  },
+  {
+    "id": "global-travel",
+    "name": "全球化旅游平台",
+    "nameEn": "Global Travel Platform",
+    "industryId": "internet",
+    "description": "全球化综合出游服务平台\n核心业务以东南亚地区为主\n\n按 2024 年商品交易总额计算，为亚太最大的泛区域体验平台，连接旅行者与全球目的地体验服务商家，提供景点门票、特色活动、交通票务等非标准化旅游产品。\n\n红杉中国、经纬创投、博裕资本等知名机构多轮投资，融资总额近 10 亿美元。\n\n专注目的地体验预订服务，核心市场覆盖东南亚，为亚太地区领先的泛区域体验平台，业务遍及全球 4,200 余个目的地，提供约 31 万种体验项目。",
+    "descriptionEn": "Global Comprehensive Travel Service Platform\nCore business focused on Southeast Asia\n\nBased on 2024 GMV, we are the largest pan-regional experience platform in Asia-Pacific, connecting travelers with global destination experience service providers, offering non-standardized travel products such as attraction tickets, special activities, and transportation tickets.\n\nSequoia China, Matrix Partners, and Boyu Capital have invested in multiple rounds, with total financing approaching  billion.\n\nWe focus on destination experience booking services, with core markets covering Southeast Asia. We are a leading pan-regional experience platform in the Asia-Pacific region, with business spanning over 4,200 destinations globally and offering approximately 310,000 experience projects.",
+    "stage": "IPO筹备中",
+    "stageEn": "Preparing for IPO",
+    "location": "香港/深圳/新加坡",
+    "locationEn": "Hong Kong / Shenzhen / Singapore",
+    "logo": "",
+    "sort": 10
   }
 ]

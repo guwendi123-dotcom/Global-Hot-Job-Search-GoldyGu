@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 import { useI18n } from "@/lib/i18n";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Briefcase, TrendingUp, Microscope, Code, Brain, Crown, Palette } from "lucide-react";
+import { Briefcase, TrendingUp, Microscope, Code, Brain, Crown, Palette, Clipboard, Globe } from "lucide-react";
 
 export default function Home() {
   const [profile, setProfile] = useState<any>(null);
@@ -34,6 +34,8 @@ export default function Home() {
     brain: <Brain className="w-6 h-6" />,
     crown: <Crown className="w-6 h-6" />,
     palette: <Palette className="w-6 h-6" />,
+    clipboard: <Clipboard className="w-6 h-6" />,
+    globe: <Globe className="w-6 h-6" />,
   };
 
   return (

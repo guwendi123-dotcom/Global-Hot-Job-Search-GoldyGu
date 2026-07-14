@@ -46,5 +46,13 @@
     "description": "自动驾驶 · 无人机 · 智能家居",
     "descriptionEn": "Autonomous Driving · Drones · Smart Home",
     "icon": "cpu"
+  },
+  {
+    "id": "internet",
+    "name": "互联网",
+    "nameEn": "Internet",
+    "description": "互联网科技公司",
+    "descriptionEn": "Internet & Tech Companies",
+    "icon": "globe"
   }
 ]
