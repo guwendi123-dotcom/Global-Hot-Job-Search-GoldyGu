@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, Briefcase, TrendingUp, Microscope, Code, Brain, Crown } from "lucide-react";
+import { ArrowLeft, Briefcase, TrendingUp, Microscope, Code, Brain, Crown, Palette, Clipboard, Globe } from "lucide-react";
 import { getJobs, getJobTypes, getCompanies } from "@/lib/data";
 import JobCard from "@/components/JobCard";
 
@@ -11,6 +11,9 @@ const iconMap: Record<string, any> = {
   code: <Code className="w-6 h-6" />,
   brain: <Brain className="w-6 h-6" />,
   crown: <Crown className="w-6 h-6" />,
+  palette: <Palette className="w-6 h-6" />,
+  clipboard: <Clipboard className="w-6 h-6" />,
+  globe: <Globe className="w-6 h-6" />,
 };
 
 // Server component - direct props

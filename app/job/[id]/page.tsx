@@ -152,8 +152,8 @@ export default function JobPage() {
             </Link>
           )}
 
-          {/* Profile Badges */}
-          {(salary || experience || language_ || education) && (
+          {/* Profile Badges - Hidden as per user request */}
+          {/* {(salary || experience || language_ || education) && (
             <div className="flex flex-wrap gap-3 mb-8 pb-8 border-b border-border">
               {salary && (
                 <ProfileBadge icon={<DollarSign size={16} />} label={salary} />
@@ -168,7 +168,7 @@ export default function JobPage() {
                 <ProfileBadge icon={<Languages size={16} />} label={language_} />
               )}
             </div>
-          )}
+          )} */}
 
           {/* JD Content - Improved formatting */}
           <div className="space-y-6">

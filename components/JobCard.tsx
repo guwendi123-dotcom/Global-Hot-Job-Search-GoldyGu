@@ -56,8 +56,8 @@ export default function JobCard({ job, company, index }: JobCardProps) {
             ))}
           </div>
 
-          {/* Profile badges */}
-          <div className="flex flex-wrap gap-2">
+          {/* Profile badges - Hidden as per user request */}
+          {/* <div className="flex flex-wrap gap-2">
             {salary && (
               <ProfileBadge icon={<DollarSign size={14} />} label={salary} />
             )}
@@ -67,7 +67,7 @@ export default function JobCard({ job, company, index }: JobCardProps) {
             {job.profile.language && (
               <ProfileBadge icon={<Languages size={14} />} label={lang} />
             )}
-          </div>
+          </div> */}
         </div>
       </Link>
     </motion.div>
