@@ -482,12 +482,75 @@ ${prompt ? `修改诉求：${prompt}` : ""}
                     ))}
                   </div>
 
-                  {/* JSON 预览 */}
-                  <div className="bg-bg-primary rounded-xl p-4 max-h-[300px] overflow-auto">
-                    <pre className="text-xs font-mono whitespace-pre-wrap">
+                  {/* 卡片预览 - 渲染效果 */}
+                  <div className="bg-bg-primary rounded-xl p-4 max-h-[400px] overflow-auto">
+                    {(() => {
+                      try {
+                        const jsonData = JSON.parse(results[selectedResult]);
+                        const items = Array.isArray(jsonData) ? jsonData : [jsonData];
+
+                        return items.map((item: any, idx: number) => (
+                          <div key={idx} className="bg-white rounded-xl border border-border p-4 mb-4 last:mb-0">
+                            {contentType === "job" && (
+                              <>
+                                <div className="flex items-center justify-between mb-2">
+                                  <h3 className="font-semibold text-text-primary">{item.title || item.titleEn}</h3>
+                                  <span className="text-xs text-text-secondary">{item.location}</span>
+                                </div>
+                                <p className="text-sm text-text-secondary line-clamp-3">{item.description?.substring(0, 150)}...</p>
+                                <div className="flex gap-2 mt-3">
+                                  {item.tags?.slice(0, 3).map((tag: string, i: number) => (
+                                    <span key={i} className="text-xs px-2 py-1 bg-accent-light text-accent rounded-full">
+                                      {tag}
+                                    </span>
+                                  ))}
+                                </div>
+                              </>
+                            )}
+
+                            {contentType === "company" && (
+                              <>
+                                <div className="flex items-center justify-between mb-2">
+                                  <h3 className="font-semibold text-text-primary">{item.name || item.nameEn}</h3>
+                                  <span className="text-xs text-text-secondary">{item.stage}</span>
+                                </div>
+                                <p className="text-sm text-text-secondary line-clamp-3">{item.description?.substring(0, 150)}...</p>
+                                <div className="flex items-center gap-2 mt-3 text-xs text-text-secondary">
+                                  <span>📍 {item.location}</span>
+                                </div>
+                              </>
+                            )}
+
+                            {contentType === "industry" && (
+                              <>
+                                <div className="flex items-center justify-between mb-2">
+                                  <h3 className="font-semibold text-text-primary">{item.name || item.nameEn}</h3>
+                                </div>
+                                <p className="text-sm text-text-secondary line-clamp-3">{item.description?.substring(0, 150)}...</p>
+                              </>
+                            )}
+                          </div>
+                        ));
+                      } catch (e) {
+                        // 如果解析失败，显示原始代码
+                        return (
+                          <pre className="text-xs font-mono whitespace-pre-wrap">
+                            {results[selectedResult]}
+                          </pre>
+                        );
+                      }
+                    })()}
+                  </div>
+
+                  {/* JSON 代码 - 可折叠 */}
+                  <details className="mt-4">
+                    <summary className="text-sm text-text-secondary cursor-pointer hover:text-accent">
+                      查看原始 JSON
+                    </summary>
+                    <pre className="text-xs font-mono whitespace-pre-wrap mt-2 p-4 bg-gray-800 text-green-400 rounded-xl max-h-[200px] overflow-auto">
                       {results[selectedResult]}
                     </pre>
-                  </div>
+                  </details>
 
                   {/* 下载和复制按钮 */}
                   {publishSuccess ? (
