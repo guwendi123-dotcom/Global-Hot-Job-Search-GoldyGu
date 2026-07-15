@@ -237,7 +237,38 @@ ${prompt ? `修改诉求：${prompt}` : ""}
     }
   };
 
-  // 清除历史
+  
+// 直接发布到网站
+const handlePublish = async () => {
+    if (!results[selectedResult]) return;
+
+    try {
+      const jsonData = JSON.parse(results[selectedResult]);
+      
+      const response = await fetch('/api/ai-publish', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          type: contentType,
+          data: jsonData
+        })
+      });
+
+      const result = await response.json();
+      
+      if (result.success) {
+        setPublishSuccess(true);
+        alert(result.message + '，可以刷新网站查看');
+      } else {
+        setError(result.error || '发布失败');
+      }
+    } catch (err: any) {
+      setError('发布失败: ' + err.message);
+    }
+};
+
+
+// 清除历史
   const clearHistory = () => {
     if (confirm("确定清除所有历史记录吗？")) {
       setHistory([]);
@@ -565,40 +596,37 @@ ${prompt ? `修改诉求：${prompt}` : ""}
                     </pre>
                   </details>
 
-                  {/* 复制和下载按钮 */}
+                  {/* 操作按钮 */}
                   {publishSuccess ? (
                     <div className="flex items-center justify-center gap-2 p-4 bg-green-50 text-green-600 rounded-xl">
                       <Check size={20} />
-                      操作成功！复制成功后将内容粘贴到对应管理页面即可
+                      发布成功！可以刷新网站查看新内容
                     </div>
                   ) : (
                     <div className="space-y-3">
-                      <p className="text-sm text-text-secondary">
-                        复制或下载 JSON 后，去对应管理页面添加
-                      </p>
+                      <button
+                        onClick={handlePublish}
+                        disabled={loading}
+                        className="w-full flex items-center justify-center gap-2 px-6 py-4 bg-green-500 text-white rounded-xl hover:bg-green-600 disabled:opacity-50"
+                      >
+                        <Upload size={20} />
+                        直接发布到网站
+                      </button>
                       <div className="flex gap-3">
                         <button
                           onClick={handleCopy}
-                          className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-accent text-white rounded-xl hover:bg-orange-600"
+                          className="flex-1 flex items-center justify-center gap-2 px-4 py-3 border border-border text-text-secondary rounded-xl hover:border-accent"
                         >
-                          <Upload size={20} />
-                          复制内容
+                          <Upload size={16} />
+                          复制
                         </button>
                         <button
                           onClick={handleDownload}
-                          className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-blue-500 text-white rounded-xl hover:bg-blue-600"
+                          className="flex-1 flex items-center justify-center gap-2 px-4 py-3 border border-border text-text-secondary rounded-xl hover:border-accent"
                         >
-                          <Download size={20} />
-                          下载 JSON
+                          <Download size={16} />
+                          下载
                         </button>
-                      </div>
-                      <div className="flex gap-3">
-                        <a
-                          href={contentType === "job" ? "/admin/jobs" : contentType === "company" ? "/admin/companies" : "/admin"}
-                          className="flex-1 flex items-center justify-center gap-2 px-6 py-3 border border-border text-text-secondary rounded-xl hover:border-accent hover:text-accent text-center"
-                        >
-                          去{contentType === "job" ? "岗位管理" : contentType === "company" ? "公司管理" : "管理后台"}手动添加
-                        </a>
                       </div>
                     </div>
                   )}
