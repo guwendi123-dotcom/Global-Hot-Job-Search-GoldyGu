@@ -485,8 +485,25 @@ ${prompt ? `修改诉求：${prompt}` : ""}
                   {/* 卡片预览 - 渲染效果 */}
                   <div className="bg-bg-primary rounded-xl p-4 max-h-[400px] overflow-auto">
                     {(() => {
+                      let jsonData = null;
+                      let parseError = false;
+
+                      // 尝试提取 JSON
                       try {
-                        const jsonData = JSON.parse(results[selectedResult]);
+                        const raw = results[selectedResult];
+                        // 尝试找 ```json ... ``` 块
+                        const jsonMatch = raw.match(/```json\s*([\s\S]*?)\s*```/);
+                        if (jsonMatch) {
+                          jsonData = JSON.parse(jsonMatch[1]);
+                        } else {
+                          jsonData = JSON.parse(raw);
+                        }
+                      } catch (e) {
+                        parseError = true;
+                      }
+
+                      // 如果解析成功，显示卡片
+                      if (!parseError && jsonData) {
                         const items = Array.isArray(jsonData) ? jsonData : [jsonData];
 
                         return items.map((item: any, idx: number) => (
@@ -552,28 +569,41 @@ ${prompt ? `修改诉求：${prompt}` : ""}
                     </pre>
                   </details>
 
-                  {/* 下载和复制按钮 */}
+                  {/* 复制和下载按钮 */}
                   {publishSuccess ? (
                     <div className="flex items-center justify-center gap-2 p-4 bg-green-50 text-green-600 rounded-xl">
                       <Check size={20} />
-                      操作成功！
+                      操作成功！复制成功后将内容粘贴到对应管理页面即可
                     </div>
                   ) : (
-                    <div className="flex gap-3">
-                      <button
-                        onClick={handleCopy}
-                        className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-blue-500 text-white rounded-xl hover:bg-blue-600"
-                      >
-                        <Upload size={20} />
-                        复制到剪贴板
-                      </button>
-                      <button
-                        onClick={handleDownload}
-                        className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-green-500 text-white rounded-xl hover:bg-green-600"
-                      >
-                        <Download size={20} />
-                        下载 JSON
-                      </button>
+                    <div className="space-y-3">
+                      <p className="text-sm text-text-secondary">
+                        复制或下载 JSON 后，去对应管理页面添加
+                      </p>
+                      <div className="flex gap-3">
+                        <button
+                          onClick={handleCopy}
+                          className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-accent text-white rounded-xl hover:bg-orange-600"
+                        >
+                          <Upload size={20} />
+                          复制内容
+                        </button>
+                        <button
+                          onClick={handleDownload}
+                          className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-blue-500 text-white rounded-xl hover:bg-blue-600"
+                        >
+                          <Download size={20} />
+                          下载 JSON
+                        </button>
+                      </div>
+                      <div className="flex gap-3">
+                        <a
+                          href={contentType === "job" ? "/admin/jobs" : contentType === "company" ? "/admin/companies" : "/admin"}
+                          className="flex-1 flex items-center justify-center gap-2 px-6 py-3 border border-border text-text-secondary rounded-xl hover:border-accent hover:text-accent text-center"
+                        >
+                          去{contentType === "job" ? "岗位管理" : contentType === "company" ? "公司管理" : "管理后台"}手动添加
+                        </a>
+                      </div>
                     </div>
                   )}
                 </div>
