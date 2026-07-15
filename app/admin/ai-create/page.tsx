@@ -483,83 +483,79 @@ ${prompt ? `修改诉求：${prompt}` : ""}
                   </div>
 
                   {/* 卡片预览 - 渲染效果 */}
-                  <div className="bg-bg-primary rounded-xl p-4 max-h-[400px] overflow-auto">
+                  <div className="bg-bg-primary rounded-xl p-4 max-h-[300px] overflow-auto">
                     {(() => {
                       let jsonData = null;
                       let parseError = false;
+                      let errorMsg = '';
 
-                      // 尝试提取 JSON
                       try {
                         const raw = results[selectedResult];
-                        // 尝试找 ```json ... ``` 块
-                        const jsonMatch = raw.match(/```json\s*([\s\S]*?)\s*```/);
+                        const jsonMatch = raw.match(/```json\s*([\s\S]*?)```/);
                         if (jsonMatch) {
                           jsonData = JSON.parse(jsonMatch[1]);
-                        } else {
+                        } else if (raw.trim().startsWith('[')) {
                           jsonData = JSON.parse(raw);
+                        } else {
+                          parseError = true;
+                          errorMsg = '返回内容格式不正确';
                         }
                       } catch (e) {
                         parseError = true;
+                        errorMsg = 'JSON 解析失败: ' + (e as any).message;
                       }
 
-                      // 如果解析成功，显示卡片
-                      if (!parseError && jsonData) {
-                        const items = Array.isArray(jsonData) ? jsonData : [jsonData];
-
-                        return items.map((item: any, idx: number) => (
-                          <div key={idx} className="bg-white rounded-xl border border-border p-4 mb-4 last:mb-0">
-                            {contentType === "job" && (
-                              <>
-                                <div className="flex items-center justify-between mb-2">
-                                  <h3 className="font-semibold text-text-primary">{item.title || item.titleEn}</h3>
-                                  <span className="text-xs text-text-secondary">{item.location}</span>
-                                </div>
-                                <p className="text-sm text-text-secondary line-clamp-3">{item.description?.substring(0, 150)}...</p>
-                                <div className="flex gap-2 mt-3">
-                                  {item.tags?.slice(0, 3).map((tag: string, i: number) => (
-                                    <span key={i} className="text-xs px-2 py-1 bg-accent-light text-accent rounded-full">
-                                      {tag}
-                                    </span>
-                                  ))}
-                                </div>
-                              </>
-                            )}
-
-                            {contentType === "company" && (
-                              <>
-                                <div className="flex items-center justify-between mb-2">
-                                  <h3 className="font-semibold text-text-primary">{item.name || item.nameEn}</h3>
-                                  <span className="text-xs text-text-secondary">{item.stage}</span>
-                                </div>
-                                <p className="text-sm text-text-secondary line-clamp-3">{item.description?.substring(0, 150)}...</p>
-                                <div className="flex items-center gap-2 mt-3 text-xs text-text-secondary">
-                                  <span>📍 {item.location}</span>
-                                </div>
-                              </>
-                            )}
-
-                            {contentType === "industry" && (
-                              <>
-                                <div className="flex items-center justify-between mb-2">
-                                  <h3 className="font-semibold text-text-primary">{item.name || item.nameEn}</h3>
-                                </div>
-                                <p className="text-sm text-text-secondary line-clamp-3">{item.description?.substring(0, 150)}...</p>
-                              </>
-                            )}
-                          </div>
-                        ));
-                      } catch (e) {
-                        // 如果解析失败，显示原始代码
+                      if (parseError) {
                         return (
-                          <pre className="text-xs font-mono whitespace-pre-wrap">
-                            {results[selectedResult]}
-                          </pre>
+                          <div className="text-sm text-red-500 p-4 bg-red-50 rounded-lg">
+                            <p className="font-semibold mb-2">解析失败:</p>
+                            <p>{errorMsg}</p>
+                          </div>
                         );
                       }
+
+                      const items = Array.isArray(jsonData) ? jsonData : [jsonData];
+                      return items.map((item: any, idx: number) => (
+                        <div key={idx} className="bg-white rounded-xl border border-border p-4 mb-4 last:mb-0">
+                          {contentType === "job" && (
+                            <>
+                              <div className="flex items-center justify-between mb-2">
+                                <h3 className="font-semibold text-text-primary">{item.title || item.titleEn}</h3>
+                                <span className="text-xs text-text-secondary">{item.location}</span>
+                              </div>
+                              <p className="text-sm text-text-secondary line-clamp-3">{item.description?.substring(0, 150)}</p>
+                              <div className="flex gap-2 mt-3">
+                                {item.tags?.slice(0, 3).map((tag: string, i: number) => (
+                                  <span key={i} className="text-xs px-2 py-1 bg-accent-light text-accent rounded-full">{tag}</span>
+                                ))}
+                              </div>
+                            </>
+                          )}
+                          {contentType === "company" && (
+                            <>
+                              <div className="flex items-center justify-between mb-2">
+                                <h3 className="font-semibold text-text-primary">{item.name || item.nameEn}</h3>
+                                <span className="text-xs text-text-secondary">{item.stage}</span>
+                              </div>
+                              <p className="text-sm text-text-secondary line-clamp-3">{item.description?.substring(0, 150)}</p>
+                              <div className="flex items-center gap-2 mt-3 text-xs text-text-secondary">
+                                <span>📍 {item.location}</span>
+                              </div>
+                            </>
+                          )}
+                          {contentType === "industry" && (
+                            <>
+                              <div className="flex items-center justify-between mb-2">
+                                <h3 className="font-semibold text-text-primary">{item.name || item.nameEn}</h3>
+                              </div>
+                              <p className="text-sm text-text-secondary line-clamp-3">{item.description?.substring(0, 150)}</p>
+                            </>
+                          )}
+                        </div>
+                      ));
                     })()}
                   </div>
-
-                  {/* JSON 代码 - 可折叠 */}
+{/* JSON 代码 - 可折叠 */}
                   <details className="mt-4">
                     <summary className="text-sm text-text-secondary cursor-pointer hover:text-accent">
                       查看原始 JSON
