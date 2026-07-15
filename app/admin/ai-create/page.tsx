@@ -112,7 +112,7 @@ ${input}
 
 ${prompt ? `修改诉求：${prompt}` : ""}
 
-请生成 2-3 个不同版本的 JSON 供我选择。每个版本都要是最新的生成结果，不是之前版本的修改版本。`;
+请生成 2 个不同版本的 JSON 供我选择。`;
 
     try {
       const response = await fetch("https://api.siliconflow.cn/v1/chat/completions", {
@@ -122,7 +122,7 @@ ${prompt ? `修改诉求：${prompt}` : ""}
           "Authorization": `Bearer ${apiKey}`
         },
         body: JSON.stringify({
-          model: "Qwen/Qwen2.5-7B-Instruct",
+          model: "Qwen/Qwen2.5-1.8B-Instruct",
           messages: [
             {
               role: "system",
