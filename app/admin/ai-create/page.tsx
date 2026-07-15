@@ -122,7 +122,7 @@ ${prompt ? `修改诉求：${prompt}` : ""}
           "Authorization": `Bearer ${apiKey}`
         },
         body: JSON.stringify({
-          model: "Qwen/Qwen2.5-1.8B-Instruct",
+          model: "Qwen/Qwen2.5-7B-Instruct",
           messages: [
             {
               role: "system",
