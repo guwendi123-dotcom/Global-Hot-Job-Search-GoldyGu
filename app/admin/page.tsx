@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { ArrowLeft, Lock, Eye, EyeOff, Download, Trash2, Linkedin, Mail, Phone, ExternalLink, FileText, Briefcase, Building } from "lucide-react";
+import { ArrowLeft, Lock, Eye, EyeOff, Download, Trash2, Linkedin, Mail, Phone, ExternalLink, FileText, Briefcase, Building, Sparkles } from "lucide-react";
 
 interface Submission {
   id: string;
@@ -178,7 +178,7 @@ export default function AdminPage() {
         </div>
       </header>
 
-      <div className="max-w-6xl mx-auto px-4 py-8"><div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8"><Link href="/admin/jobs" className="bg-white rounded-2xl border border-border p-6 hover:shadow-md transition-shadow"><div className="flex items-center gap-4"><div className="w-12 h-12 rounded-xl bg-accent-light flex items-center justify-center text-accent"><Briefcase size={24}/></div><div><h3 className="font-semibold text-text-primary">岗位管理</h3><p className="text-sm text-text-secondary">增删改查岗位信息</p></div></div></Link><Link href="/admin/companies" className="bg-white rounded-2xl border border-border p-6 hover:shadow-md transition-shadow"><div className="flex items-center gap-4"><div className="w-12 h-12 rounded-xl bg-accent-light flex items-center justify-center text-accent"><Building size={24}/></div><div><h3 className="font-semibold text-text-primary">公司管理</h3><p className="text-sm text-text-secondary">增删改查公司信息</p></div></div></Link></div>
+      <div className="max-w-6xl mx-auto px-4 py-8"><div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8"><Link href="/admin/jobs" className="bg-white rounded-2xl border border-border p-6 hover:shadow-md transition-shadow"><div className="flex items-center gap-4"><div className="w-12 h-12 rounded-xl bg-accent-light flex items-center justify-center text-accent"><Briefcase size={24}/></div><div><h3 className="font-semibold text-text-primary">岗位管理</h3><p className="text-sm text-text-secondary">增删改查岗位信息</p></div></div></Link><Link href="/admin/companies" className="bg-white rounded-2xl border border-border p-6 hover:shadow-md transition-shadow"><div className="flex items-center gap-4"><div className="w-12 h-12 rounded-xl bg-accent-light flex items-center justify-center text-accent"><Building size={24}/></div><div><h3 className="font-semibold text-text-primary">公司管理</h3><p className="text-sm text-text-secondary">增删改查公司信息</p></div></div></Link><Link href="/admin/ai-create" className="bg-gradient-to-br from-accent-light to-orange-100 rounded-2xl border border-accent p-6 hover:shadow-md transition-shadow"><div className="flex items-center gap-4"><div className="w-12 h-12 rounded-xl bg-accent flex items-center justify-center text-white"><Sparkles size={24}/></div><div><h3 className="font-semibold text-text-primary">AI 创作助手</h3><p className="text-sm text-text-secondary">AI 生成岗位/公司/行业</p></div></div></Link></div>
         {loading ? (
           <div className="text-center py-12 text-text-secondary">加载中...</div>
         ) : submissions.length === 0 ? (
