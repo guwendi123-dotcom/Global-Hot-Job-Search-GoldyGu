@@ -1,5 +1,79 @@
 [
   {
+    "id": "maxinsights-data-partnership",
+    "companyId": "maxinsights",
+    "title": "数据合作经理",
+    "titleEn": "Data Partnership Manager",
+    "jobType": "mkt-growth,bd-sales",
+    "jobTypeEn": "MKT & Growth,BD & Sales",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "Bay Area / Los Angeles",
+    "locationEn": "Bay Area / Los Angeles",
+    "description": "岗位概述：我们正在寻找一位热情且执行力强的供应链BD负责人，负责拓展具身机器人数据采集场景和众包运营。您将参与构建和运营具身机器人数据采集的众包供应链模型，拓展现实场景中的数据采集机会，确保为具身AI模型训练提供高质量的多模态数据。\n\n核心职责：\n• 场景拓展与供应链生态建设：协助规划和执行具身机器人数据采集场景的拓展，深入一线发掘工厂、家庭、零售、医疗、物流等现实环境中的数据采集机会。参与构建和运营数据采集众包模式，协助管理多元化的数据采集员供应链。\n• 众包平台与数据流程管理：负责整个数据采集流程的日常运营，包括任务创建、采集执行、初筛和数据交付。与产品和技术团队合作，提供众包采集工具的用户体验反馈，推动工具迭代优化。\n• 运营赋能与规模化增长：协助制定覆盖更多地区和场景的规模化策略，提高数据网络的密度和产能。\n• 团队与供应商管理：负责日常构建、培训和管理小型数据运营团队，管理外部众包采集员和第三方数据服务供应商。\n\n岗位要求：\n• 本科及以上学历，计算机科学、通信、自动化、数据科学、管理等相关专业优先。\n• 3年以上供应链、BD、运营、项目管理或数据管理经验，至少1年团队管理经验。\n• 具备众包模式、共享经济或大规模本地推广活动执行经验。\n• 具备场景拓展意识和供应链思维。\n• 优秀的英语书面和口头沟通能力。",
+    "descriptionEn": "Job Overview: We are seeking a passionate and execution-driven Supply Chain BD leader to spearhead data collection scenario expansion and crowdsourced operations for embodied robotics. You will participate in building and operating a crowdsourcing supply chain model for embodied robot data collection, expanding data acquisition opportunities in real-world scenarios, and ensuring the delivery of high-quality, multimodal data for embodied AI model training.\n\nCore Responsibilities:\n- Scenario Expansion & Supply Chain Ecosystem Building: Assist in planning and executing the expansion of data collection scenarios for embodied robots, going deep into the frontline to uncover data collection opportunities in real-world environments such as factories, households, retail, healthcare, and logistics.\n- Crowdsourcing Platform & Data Pipeline Management: Take charge of the day-to-day operations of the entire data collection workflow. Collaborate with product and technical teams to drive iterative optimization of crowdsourced collection tools.\n- Operational Empowerment & Scaled Growth: Assist in formulating scaling strategies to cover more regions and scenarios, increasing the density and production capacity of the data network.\n- Team & Vendor Management: Responsible for building, training, and managing a small data operations team. Manage and coordinate external crowdsourced collectors and third-party data service vendors.\n\nJob Requirements:\n- Bachelor's degree or above in Computer Science, Communications, Automation, Data Science, Management, or related fields.\n- 3+ years of experience in supply chain, BD, operations, project management, or data management, including at least 1 year of team management experience.\n- Hands-on experience in crowdsourcing models, the sharing economy, or managing large-scale localized rollouts.\n- Excellent verbal and written communication skills in English.",
+    "tags": [
+      "具身智能",
+      "数据",
+      "BD",
+      "供应链",
+      "美国"
+    ],
+    "tagsEn": [
+      "Embodied AI",
+      "Data",
+      "BD",
+      "Supply Chain",
+      "USA"
+    ],
+    "profile": {
+      "salary": "竞争力薪酬",
+      "salaryEn": "Competitive Salary",
+      "experience": "3-5年",
+      "experienceEn": "3-5 years",
+      "language": "英语",
+      "languageEn": "English"
+    },
+    "sort": 1
+  },
+  {
+    "id": "mexc-growth-product",
+    "companyId": "mexc",
+    "title": "高级用户增长产品/运营",
+    "titleEn": "Senior Growth Product Manager/Operations",
+    "jobType": "mkt-growth,product-design",
+    "jobTypeEn": "MKT & Growth,Product & Design",
+    "workMode": "remote",
+    "workModeEn": "Remote",
+    "location": "全球Remote",
+    "locationEn": "Global Remote",
+    "description": "所属部门：现货交易事业部 (MEXC Exchange - Spot Division)\n\n我们致力于为用户提供简单易用的加密货币交易服务，秉持\"你最简单的加密货币之路\"的核心定位。目前服务全球 170+ 个国家和地区，拥有超过 4000 万用户。在 MEXC，你将加入一个高速发展、充满创新活力的国际化团队，与我们一起推动业务向更高峰迈进。\n\n核心职责：\n• 流量增长与转化：负责 MEXC 现货交易业务的全球用户增长，通过用户运营、活动运营等手段，提升新用户注册转化及存量用户交易活跃度。\n• 创新玩法策划：结合加密货币市场热点和用户心理，设计并落地创新性的交易活动与玩法，打造具有行业影响力的标杆案例。\n• 数据分析与策略迭代：深度挖掘用户行为数据，建立增长模型，通过数据驱动不断优化运营策略，提升投入产出比（ROI）。\n• 跨部门协作：协同产品、市场、设计团队，推动增长方案的落地实施，确保项目高效推进。\n\n我们提供：\n• 全球化视野：与来自世界各地的优秀同事共事，拓展国际视野。\n• 有竞争力的薪酬：支付能力充足，提供行业领先的薪资及绩效激励。\n• 灵活的工作环境：支持全球 Remote，享受自由的工作方式。",
+    "descriptionEn": "Department: Spot Trading Division (MEXC Exchange - Spot Division)\n\nWe are committed to providing users with simple and easy-to-use cryptocurrency trading services, adhering to our core mission of 'Your Simplest Path to Cryptocurrency'. Currently serving over 170 countries and regions globally with more than 40 million users. At MEXC, you will join a fast-growing, innovative international team and push our business to new heights together.\n\nKey Responsibilities:\n• Traffic Growth & Conversion: Responsible for global user growth of MEXC Spot trading business, improving new user registration conversion and existing user trading activity through user operations and activity operations.\n• Innovative Campaign Planning: Design and implement innovative trading activities and gameplay based on cryptocurrency market trends and user psychology, creating benchmark cases with industry influence.\n• Data Analysis & Strategy Iteration: Deeply analyze user behavior data, establish growth models, and continuously optimize operational strategies through data-driven approaches to improve ROI.\n• Cross-functional Collaboration: Collaborate with product, marketing, and design teams to implement growth solutions and ensure efficient project execution.\n\nWhat We Offer:\n• Global Perspective: Work with outstanding colleagues from around the world and expand your international vision.\n• Competitive Compensation: Strong payment ability, providing industry-leading salary and performance incentives.\n• Flexible Work Environment: Support Global Remote, enjoy a free way of working.",
+    "tags": [
+      "Web3",
+      "用户增长",
+      "产品运营",
+      "Remote",
+      "新加坡"
+    ],
+    "tagsEn": [
+      "Web3",
+      "Growth",
+      "Product Operations",
+      "Remote",
+      "Singapore"
+    ],
+    "profile": {
+      "salary": "竞争力薪酬",
+      "salaryEn": "Competitive Salary",
+      "experience": "3-5年",
+      "experienceEn": "3-5 years",
+      "language": "英语/中文",
+      "languageEn": "English/Chinese"
+    },
+    "sort": 1
+  },
+  {
     "id": "job-pa-smb-ae",
     "companyId": "personal-agi",
     "title": "SMB Account Executive",
@@ -344,22 +418,6 @@
     "sort": 100
   },
   {
-    "id": "job-1783408375444",
-    "companyId": "personal-agi",
-    "title": "",
-    "titleEn": "SMB Account Executive",
-    "description": "",
-    "descriptionEn": "About the role\nYou will be a founding member of our enterprise sales motion, selling Teamily AI for Teams to companies and teams of fewer than 50 people. You'll own the full sales cycle and help define the playbook that the next ten AEs will run.\nWhat you'll do\n- Own the full cycle — prospecting, discovery, demo, pilot, negotiation, and close — for SMB accounts.\n- Generate pipeline through outbound, inbound qualification, product-led signals, and community channels.\n- Run consultative discovery to map team workflows to Teamily AI's agentic capabilities, and land-and-expand within accounts.\n- Maintain rigorous CRM hygiene, forecast accurately, and consistently hit quota.\n- Feed customer insights back to product and shape our SMB go-to-market playbook from day one.\nWhat we look for\n- 5+ years of closing experience in SaaS / B2B AI / collaboration & productivity software (think Slack, Lark, Notion-style motions).\n- A track record of meeting or exceeding quota in high-velocity, transactional sales cycles.\n- Strong discovery and storytelling skills; comfortable demoing a technical AI product to both founders and operators.\n- Native-level English; Chinese proficiency is a plus.\n- Self-starter energy — you thrive with ambiguity and build process where none exists.",
-    "location": "旧金山湾区",
-    "locationEn": "San Francisco Bay Area",
-    "workMode": "",
-    "workModeEn": "hybrid/remote",
-    "tags": [],
-    "tagsEn": [],
-    "profile": {},
-    "sort": 110
-  },
-  {
     "id": "gt-vp-platform",
     "companyId": "global-travel",
     "title": "平台产品VP",
@@ -457,6 +515,160 @@
       "salaryEn": "80-150K",
       "experience": "5-10年",
       "experienceEn": "5-10 years",
+      "language": "中英文流利",
+      "languageEn": "Fluent in Chinese and English"
+    },
+    "sort": 3
+  },
+  {
+    "id": "aianimation-global-marketing-designer",
+    "companyId": "aianimation",
+    "title": "Global Marketing Designer",
+    "titleEn": "Global Marketing Designer",
+    "jobType": "product-design",
+    "jobTypeEn": "Product & Design",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "洛杉矶/上海",
+    "locationEn": "Los Angeles/Shanghai",
+    "description": "岗位概述：\n我们正在寻找一位热爱设计、对AI行业充满好奇的Global Marketing Designer，加入OiiOii AI动画创作工具的海外市场团队。你将负责OiiOii海外市场营销的视觉设计工作，包括但不限于Google、Meta、TikTok、X等平台的广告创意制作与迭代。\n\n核心职责：\n• 负责OiiOii AI海外市场营销的视觉设计，包括但不限于Google、Meta、TikTok、X等平台的广告创意制作与迭代\n• 根据不同市场的用户特点（如欧美、美国、日本等）设计符合当地审美习惯的营销创意，持续优化广告的点击率（CTR）和转化效果\n• 负责线上营销活动相关的视觉设计，包括社交媒体推广图、产品宣传创意、官网Banner、EDM、落地页等\n• 负责线下展会和品牌活动的物料设计，包括 Booth 视觉、展板、海报、宣传册、周边商品、礼品包装等品牌创意\n• 与海外团队紧密协作，快速响应业务需求，结合海外设计趋势和AI行业动态，持续产出高质量的营销创意和视觉方案，提升品牌影响力和营销效果\n\n岗位要求：\n• 本科及以上学历，视觉传达、平面设计或其他相关专业优先；1年以上营销设计、平面设计或视觉设计相关工作经验，有互联网、AI或出海行业经验优先\n• 熟练使用Photoshop、Illustrator、Figma、Premiere Pro、After Effects等设计工具，能够独立完成营销视觉设计和视频剪辑任务\n• 具有良好的审美能力，对海外互联网产品的设计风格和营销视觉有较强的理解力，有广告创意设计经验，熟悉广告创意的优化逻辑和用户点击心理\n• 具有良好的沟通能力、团队协作能力和执行力，能够适应快节奏的迭代工作节奏，按时高质量完成设计任务\n• 提交简历时请附上个人作品集\n\n加分项：\n• 有AI产品、SaaS、互联网出海公司经验，熟悉Google Ads、Meta Ads、TikTok Ads等海外广告创意设计\n• 熟悉欧美、美国、日本等海外市场用户的审美和营销设计风格，有海外品牌或增长营销的相关设计经验\n• 熟悉Midjourney、Nano Banana、GPT Image、Seedream等AI模型和工具，能够将其应用于设计效率提升和创意内容生产\n\n我们希望你：\n• 热爱设计，对AI行业充满好奇\n• 善于学习，愿意尝试新的设计风格和AI工具\n• 注重细节，对作品质量有较高要求\n• 具有营销思维，不仅关注\"设计是否好看\"，更关注\"是否能带来增长和转化\"",
+    "descriptionEn": "Role Overview:\nWe are looking for a passionate Global Marketing Designer who loves design and is curious about the AI industry to join OiiOii AI's overseas marketing team. You will be responsible for the visual design of OiiOii's overseas marketing, including but not limited to the production and iteration of advertising creatives for platforms such as Google, Meta, TikTok, X, etc.\n\nCore Responsibilities:\n1. Responsible for the visual design of OiiOii AI's overseas marketing, including but not limited to the production and iteration of advertising creatives for platforms such as Google, Meta, TikTok, X, etc.\n2. Design marketing creatives that meet local aesthetics based on the user characteristics of different markets (such as Europe, the United States, Japan, etc.), and continuously optimize the click-through rate (CTR) and conversion effectiveness of advertisements.\n3. Responsible for visual design related to online marketing activities, including social media promotional images, product promotional creatives, official website banners, EDMs, landing pages, etc.\n4. Responsible for the design of materials for offline exhibitions and brand events, including brand creatives such as booth visuals, roll-up banners, posters, brochures, merchandise, gift packaging, etc.\n5. Collaborate closely with overseas teams, respond quickly to business needs, combine overseas design trends and AI industry dynamics, continuously produce high-quality marketing creatives and visual solutions, and enhance brand influence and marketing effectiveness.\n\nJob Requirements:\n1. Bachelor's degree or above, with majors in visual communication, graphic design, or other related fields preferred; 1 year or more of relevant work experience in marketing design, graphic design, or visual design, and those with experience in the internet, AI, or overseas expansion industries preferred.\n2. Proficient in using design tools such as Photoshop, Illustrator, Figma, Premiere Pro, After Effects, etc., and able to independently complete marketing visual design and video editing tasks.\n3. Has good aesthetic ability, a strong understanding of the design styles and marketing visuals of overseas internet products, experience in advertising creative design, and is familiar with the optimization logic of advertising creatives and user click psychology.\n4. Possesses good communication skills, teamwork abilities, and execution capabilities, can adapt to the fast-paced iterative work rhythm, and complete design tasks on time with high quality.\n5. Please attach your personal portfolio when submitting your resume.\n\nBonus Points:\n1. Has experience in AI products, SaaS, and internet companies expanding overseas, and is familiar with the design of overseas advertising creatives such as Google Ads, Meta Ads, and TikTok Ads.\n2. Familiar with the aesthetics and marketing design styles of users in overseas markets such as Europe, the United States, and Japan, and has relevant design experience in overseas brands or growth marketing.\n3. Familiar with AI models and tools such as Midjourney, Nano Banana, GPT Image, and Seedream, and able to apply them to design efficiency improvement and creative content production.\n\nWe hope you have:\n1. Passionate about design and full of curiosity about the AI industry.\n2. Good at learning and willing to try new design styles and AI tools.\n3. Pays attention to details and has high requirements for the quality of works.\n4. Have marketing thinking, not only focusing on \"whether the design is good-looking\", but also on \"whether it can drive growth and conversion\".",
+    "tags": [
+      "设计",
+      "营销",
+      "视觉",
+      "洛杉矶",
+      "上海",
+      "AI"
+    ],
+    "tagsEn": [
+      "Design",
+      "Marketing",
+      "Visual",
+      "Los Angeles",
+      "Shanghai",
+      "AI"
+    ],
+    "profile": {
+      "salary": "具竞争力薪酬+股权",
+      "salaryEn": "Competitive Salary + Equity",
+      "experience": "1年以上",
+      "experienceEn": "1+ years",
+      "language": "中英文流利",
+      "languageEn": "Fluent in Chinese and English"
+    },
+    "sort": 110
+  },
+  {
+    "id": "saparo-fullstack-engineer",
+    "companyId": "saparo",
+    "title": "全栈前端工程师 / 技术负责人",
+    "titleEn": "Full-Stack Frontend Engineer / Tech Lead",
+    "jobType": "engineering",
+    "jobTypeEn": "Engineering",
+    "workMode": "remote,on-site",
+    "workModeEn": "Remote / On-site",
+    "location": "杭州/北美Remote",
+    "locationEn": "Hangzhou / North America Remote",
+    "description": "岗位概述：\n你将全权负责产品前端架构设计与全链路开发，结合 AI Agent 交互能力优化北美用户使用体验，联动后端落地比价、购物、订单核心功能，完成性能优化、组件工程化建设，支撑海外产品快速迭代，直接向 CEO 汇报。\n\n你将负责：\n• 产品前端架构设计、浏览器端页面开发，保障多页面兼容、流畅稳定，搭建通用组件与前端工程体系\n• 结合 AI Agent 交互流程开发页面，协同后端完成比价、采购、订单等核心业务功能联调上线\n• 持续做前端性能优化、线上故障排查，迭代前端底层技术架构\n• 配合产品、增长团队开发活动页、海外社区相关页面，贴合北美海外用户交互习惯\n• 跟进前沿前端与 AI 交互技术，沉淀技术文档，支撑业务规模化拓展\n\n硬性要求：\n• 985/211 本科及以上，计算机 / 软件工程相关专业，35 周岁以内\n• 拥有大厂前端研发经历，精通 HTML/CSS/JS、Vue/React 主流框架，熟悉浏览器底层、性能调优、跨端适配\n• 具备复杂海外 C 端产品完整前端落地经验，代码规范，具备独立问题排查、跨团队协作能力\n\n加分项：\n• 有北美海外 C 端产品前端开发实战经验\n• 掌握前端自动化、低代码、前端监控体系搭建\n• 参与过百万用户级 Web 产品前端建设\n• 有创业公司或高速增长产品团队经验\n\n工作方式：\nAI-native、扁平无多层管理，全员独立贡献者，异步书面优先，只看落地产出与业务数据，不考核工时。",
+    "descriptionEn": "Role Overview:\nYou will be fully responsible for product frontend architecture design and full-stack development, combining AI Agent interaction capabilities to optimize North American user experience. Work with backend to implement core features like price comparison, shopping, and order management. Complete performance optimization and component engineering, supporting rapid overseas product iteration, reporting directly to CEO.\n\nWhat You'll Own:\n• Product frontend architecture design and browser-side page development\n• AI Agent interaction flow development with backend integration\n• Frontend performance optimization and bug fixes\n• Activity pages and community pages for North American users\n• Frontend technology research and documentation\n\nMust-Have:\n• 985/211 bachelor's or above in CS/Software Engineering, under 35\n• Large company frontend experience, proficient in HTML/CSS/JS, Vue/React\n• Experience shipping complex overseas C-end products\n\nNice-to-Have:\n• North American C-end product experience\n• Frontend automation, low-code, monitoring systems\n• Million-user web product experience",
+    "tags": [
+      "AI Agent",
+      "前端",
+      "全栈",
+      "杭州",
+      "Remote",
+      "北美"
+    ],
+    "tagsEn": [
+      "AI Agent",
+      "Frontend",
+      "Full-Stack",
+      "Hangzhou",
+      "Remote",
+      "North America"
+    ],
+    "profile": {
+      "salary": "竞争力薪酬+股权",
+      "salaryEn": "Competitive Salary + Equity",
+      "experience": "3-5年",
+      "experienceEn": "3-5 years",
+      "language": "中英文流利",
+      "languageEn": "Fluent in Chinese and English"
+    },
+    "sort": 1
+  },
+  {
+    "id": "saparo-growth-lead",
+    "companyId": "saparo",
+    "title": "有机增长负责人",
+    "titleEn": "Organic Growth Lead",
+    "jobType": "mkt-growth",
+    "jobTypeEn": "MKT & Growth",
+    "workMode": "remote,on-site",
+    "workModeEn": "Remote / On-site",
+    "location": "杭州/北美",
+    "locationEn": "Hangzhou / North America",
+    "description": "岗位概述：\n你将用最新的 Agent 工具自主搭建自动化工作流，在北美原生社区做有机增长——把目标用户带进产品、跑通病毒裂变、并把社区一线信号回流给产品。你直接向 COO 汇报，是公司增长命脉的第一责任人。\n\n你将负责：\n• 社区有机增长：在 Reddit、Slickdeals、Discord、X、Telegram、TikTok 等北美原生渠道建立影响力，用有价值的内容和真实互动，把北美 deal/省钱人群转化为用户\n• Agent 自动化工作流：用 Agent 工具把一切重复工作搭成自动化——社区监控、内容草拟、表现分析、反馈归类\n• 裂变循环：设计并运营病毒增长机制——省钱成绩卡、推荐返现、分销网络\n• 用户反馈回流：搭建社区反馈机制，把社区一线信号结构化，定期同步给产品与运营\n• 实验与迭代：以指标驱动，持续跑 A/B 实验，快速迭代渠道、素材、增长钩子\n\n硬性要求：\n• 热爱折腾最新 Agent 产品、有实绩：对最新 Agent 工具有旺盛求知欲，能把重复工作亲手搭成自动化流程\n• 英语母语级 + 美国省钱文化融入力：深刻理解美国 deal/cashback/信用卡/省钱社区文化\n• 快速学习特定行业知识的能力：能在陌生品类/规则上快速建立专业度\n• 数据素养：能自己定义并追踪漏斗指标、设计实验、读懂分析数据\n• 平台 ToS 与品牌安全判断力：懂各社区规则与红线，绝不用会封号的黑帽手段\n\n加分项：\n• 已在 deal/frugal 社区有真实存在或影响力\n• 文案、叙事或短视频内容能力\n• 熟悉推荐/裂变/分销机制的设计与运营\n\n工作方式：\nAI-native、零管理层、全员 IC，异步书面优先，看产出与指标而非工时。",
+    "descriptionEn": "Role Overview:\nYou'll use the latest Agent tooling to autonomously build automation workflows that drive organic growth across North American communities — bringing target users into the product, building viral loops, and channeling frontline community signal back into the product. You report directly to the COO and own the company's organic growth engine.\n\nWhat You'll Own:\n• Organic community growth on Reddit, Slickdeals, Discord, X, Telegram, TikTok\n• Agent automation workflows for community monitoring, content drafting, performance analysis\n• Viral loops: savings scorecards, referral rewards, distribution network\n• Community feedback loop into product\n• Metric-driven A/B experiments and fast iteration\n\nMust-Have:\n• Obsessed with latest Agent tools, with proof of automation work\n• Native-level English + US savings-culture fluency\n• Fast learner of domain knowledge\n• Data literacy and experiment design\n• Platform ToS and brand-safety judgment\n\nNice-to-Have:\n• Existing presence in deal/frugal communities\n• Copywriting or short-form video skills\n• Referral/viral mechanics design experience\n\nHow We Work:\nAI-native, zero management layers, everyone an IC. Async-written-first; we measure output and metrics, not hours.",
+    "tags": [
+      "增长",
+      "社区运营",
+      "AI Agent",
+      "北美",
+      "Remote"
+    ],
+    "tagsEn": [
+      "Growth",
+      "Community Ops",
+      "AI Agent",
+      "North America",
+      "Remote"
+    ],
+    "profile": {
+      "salary": "竞争力薪酬+股权",
+      "salaryEn": "Competitive Salary + Equity",
+      "experience": "3-5年",
+      "experienceEn": "3-5 years",
+      "language": "英语流利",
+      "languageEn": "Fluent English"
+    },
+    "sort": 2
+  },
+  {
+    "id": "saparo-deals-operations",
+    "companyId": "saparo",
+    "title": "优惠运营经理",
+    "titleEn": "Deals & Offers Operations Manager",
+    "jobType": "mkt-growth",
+    "jobTypeEn": "MKT & Growth",
+    "workMode": "remote",
+    "workModeEn": "Remote",
+    "location": "北美Remote",
+    "locationEn": "North America Remote",
+    "description": "岗位概述：\n优惠运营是产品价值创造的心脏。你负责把「怎么帮用户省到最多钱」这件事系统化、规模化——从 deal 的发现、验证，到与品牌方/联盟网络的直连合作，再到把 domain know-how 沉淀成可复制、可交付给 Agent 执行的知识资产。你直接向 CEO 汇报。\n\n你将负责：\n• 优惠货盘运营：建立并运营 deal/coupon/cashback 货盘——负责全网优惠信息的发现、验证、维护，对其准确性、时效性与可履约性负责\n• 品牌与联盟直连：对接联盟网络（Rakuten Advertising/CJ/Impact/Awin 等）与品牌方，谈返现比例、独家 code、直连合作\n• 省钱知识库沉淀：把 deal-finding 的 domain know-how 结构化为知识库，供 Agent 调用、供团队复用\n• 叠加策略与品类运营：设计跨维度优惠叠加的最优路径（券+返现+卡权益+礼品卡+会员价），做核心品类运营与重点节点 campaign\n• 数据与质量：定义并追踪省钱交付指标，以指标驱动持续优化货盘质量\n\n硬性要求：\n• 北美优惠领域实操经验：在 Honey/Rakuten/RetailMeNot/Capital One Shopping/Ibotta/TopCashback/Slickdeals 等平台有一线运营经验\n• 联盟营销与品牌 BD 能力：熟悉联盟网络运作与佣金/归因机制，能独立对接品牌方与联盟\n• 对省钱交付质量的极致 ownership：对 deal 的准确性、时效性、可履约性有强标准\n• 数据素养：能自己定义并追踪漏斗与质量指标\n\n加分项：\n• 有品牌/商户直连合作、或联盟返现谈判的可量化成功案例\n• 熟悉 affiliate 追踪、归因与佣金结算的技术链路\n• 能用 Agent 工具把重复运营工作搭成自动化\n• 中英双语，能同时对接北美品牌方与中文团队\n\n工作方式：\nAI-native、零管理层、全员 IC，异步书面优先，看产出与指标而非工时。",
+    "descriptionEn": "Role Overview:\nDeals & Offers Operations is the heart of our value creation. You will systematize and scale how we help users save the most money — from discovering and validating deals, to building direct partnerships with brands and affiliate networks, to codifying domain knowledge into reusable assets for Agents. Report directly to CEO.\n\nWhat You'll Own:\n• Deals/coupons/cashback inventory management and operations\n• Brand and affiliate network partnerships (Rakuten, CJ, Impact, Awin)\n• Savings knowledge base creation for Agent consumption\n• Multi-dimensional savings stacking strategy\n• Delivery quality metrics and continuous optimization\n\nMust-Have:\n• Hands-on experience with North American deals platforms (Honey, Rakuten, RetailMeNot, etc.)\n• Affiliate marketing and brand BD capabilities\n• Obsessive ownership over deal accuracy and deliverability\n• Data literacy and metric tracking\n\nNice-to-Have:\n• Quantifiable success in brand/affiliate partnership deals\n• Technical understanding of affiliate tracking and attribution\n• Experience building automation with Agent tools\n• Bilingual in Chinese and English\n\nHow We Work:\nAI-native, zero management layers, everyone an IC. Async-written-first; we measure output and metrics, not hours.",
+    "tags": [
+      "运营",
+      "优惠",
+      "BD",
+      "北美",
+      "Remote",
+      "AI Agent"
+    ],
+    "tagsEn": [
+      "Operations",
+      "Deals",
+      "BD",
+      "North America",
+      "Remote",
+      "AI Agent"
+    ],
+    "profile": {
+      "salary": "竞争力薪酬+股权",
+      "salaryEn": "Competitive Salary + Equity",
+      "experience": "3-5年",
+      "experienceEn": "3-5 years",
       "language": "中英文流利",
       "languageEn": "Fluent in Chinese and English"
     },

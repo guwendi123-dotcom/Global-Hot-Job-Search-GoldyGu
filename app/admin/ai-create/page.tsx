@@ -518,29 +518,62 @@ const handlePublish = async () => {
                     {(() => {
                       let jsonData = null;
                       let parseError = false;
-                      let errorMsg = '';
+                      let rawJson = '';
 
                       try {
                         const raw = results[selectedResult];
-                        const jsonMatch = raw.match(/```json\s*([\s\S]*?)```/);
-                        if (jsonMatch) {
-                          jsonData = JSON.parse(jsonMatch[1]);
-                        } else if (raw.trim().startsWith('[')) {
-                          jsonData = JSON.parse(raw);
-                        } else {
-                          parseError = true;
-                          errorMsg = '返回内容格式不正确';
+
+                        // 提取代码块
+                        const codeBlockMatch = raw.match(/```(?:json)?\s*([\s\S]*?)```/);
+                        let jsonStr = codeBlockMatch ? codeBlockMatch[1].trim() : raw;
+
+                        // 尝试多种方式解析
+                        const parseAttempts = [
+                          () => JSON.parse(jsonStr),
+                          () => JSON.parse(jsonStr.replace(/,\s*}/g, '}').replace(/,\s*\]/g, ']')),
+                          () => JSON.parse(jsonStr.replace(/"\s*"/g, '"').replace(/"\s*,/g, '",')),
+                          () => {
+                            // 查找 [ 或 { 开始的位置
+                            const startIdx = jsonStr.indexOf('[');
+                            const objIdx = jsonStr.indexOf('{');
+                            const start = startIdx >= 0 && (objIdx < 0 || startIdx < objIdx) ? startIdx : objIdx;
+                            if (start >= 0) {
+                              // 找到匹配的结束括号
+                              let depth = 0;
+                              let endIdx = -1;
+                              for (let i = start; i < jsonStr.length; i++) {
+                                if (jsonStr[i] === '[' || jsonStr[i] === '{') depth++;
+                                if (jsonStr[i] === ']' || jsonStr[i] === '}') depth--;
+                                if (depth === 0) { endIdx = i + 1; break; }
+                              }
+                              if (endIdx > 0) {
+                                return JSON.parse(jsonStr.slice(start, endIdx));
+                              }
+                            }
+                            throw new Error('No valid JSON found');
+                          }
+                        ];
+
+                        for (const attempt of parseAttempts) {
+                          try {
+                            jsonData = attempt();
+                            jsonStr = typeof jsonData === 'string' ? jsonData : JSON.stringify(jsonData);
+                            break;
+                          } catch (e) {
+                            continue;
+                          }
                         }
-                      } catch (e) {
+
+                        rawJson = jsonStr;
+                      } catch (e: any) {
                         parseError = true;
-                        errorMsg = 'JSON 解析失败: ' + (e as any).message;
                       }
 
-                      if (parseError) {
+                      if (!jsonData || parseError) {
                         return (
                           <div className="text-sm text-red-500 p-4 bg-red-50 rounded-lg">
-                            <p className="font-semibold mb-2">解析失败:</p>
-                            <p>{errorMsg}</p>
+                            <p className="font-semibold mb-2">AI 返回的 JSON 数据格式损坏</p>
+                            <p className="text-xs">这是 AI 模型输出的问题，建议重新生成或尝试不同的输入</p>
                           </div>
                         );
                       }

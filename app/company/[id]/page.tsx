@@ -5,7 +5,16 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { ArrowLeft, MapPin, Building2 } from "lucide-react";
-import { getCompany, getJobsByCompany, getIndustry, getCompanies, type Company, type Job, type Industry } from "@/lib/data";
+import {
+  getCompany,
+  getJobsByCompanySync,
+  getIndustry,
+  getCompaniesSync,
+  getIndustriesSync,
+  type Company,
+  type Job,
+  type Industry
+} from "@/lib/data";
 import JobCard from "@/components/JobCard";
 import { useI18n } from "@/lib/i18n";
 
@@ -20,10 +29,11 @@ export default function CompanyPage() {
   useEffect(() => {
     const id = params?.id as string;
     if (id) {
+      // 使用同步版本作为后备
       const companyData = getCompany(id);
       if (companyData) {
         setCompany(companyData);
-        setJobs(getJobsByCompany(id));
+        setJobs(getJobsByCompanySync(id));
         setIndustry(getIndustry(companyData.industryId) || null);
       }
       setLoading(false);
@@ -49,7 +59,6 @@ export default function CompanyPage() {
     );
   }
 
-  // Bilingual content
   const name = language === "zh" ? company.name : (company.nameEn || company.name);
   const description = language === "zh" ? company.description : (company.descriptionEn || company.description);
   const stage = language === "zh" ? company.stage : (company.stageEn || company.stage);
@@ -58,7 +67,6 @@ export default function CompanyPage() {
 
   return (
     <main className="min-h-screen bg-bg-primary">
-      {/* Header */}
       <header className="bg-white border-b border-border">
         <div className="max-w-5xl mx-auto px-4 py-4">
           <Link
@@ -71,7 +79,6 @@ export default function CompanyPage() {
         </div>
       </header>
 
-      {/* Company Hero */}
       <section className="bg-white border-b border-border">
         <div className="max-w-5xl mx-auto px-4 py-16">
           <div className="flex items-start gap-6">
@@ -108,7 +115,6 @@ export default function CompanyPage() {
         </div>
       </section>
 
-      {/* Jobs */}
       <section className="max-w-5xl mx-auto px-4 py-16">
         <h2 className="text-2xl font-bold text-text-primary mb-8 font-display">
           {t.jobs} ({jobs.length})

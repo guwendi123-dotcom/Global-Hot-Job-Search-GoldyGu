@@ -80,45 +80,36 @@ export function getProfile(): Profile {
   return profileData as Profile;
 }
 
-export function getIndustries(): Industry[] {
+export function getIndustriesSync(): Industry[] {
   return industriesData as Industry[];
 }
 
-export function getCompanies(): Company[] {
+export function getCompaniesSync(): Company[] {
   return (companiesData as Company[]).sort((a, b) => (a.sort || 999) - (b.sort || 999));
 }
 
-export function getJobs(): Job[] {
+export function getJobsSync(): Job[] {
   return (jobsData as Job[]).sort((a, b) => (a.sort || 999) - (b.sort || 999));
 }
 
 export function getIndustry(id: string): Industry | undefined {
-  return getIndustries().find(i => i.id === id);
+  return getIndustriesSync().find(i => i.id === id);
 }
 
 export function getCompany(id: string): Company | undefined {
-  return getCompanies().find(c => c.id === id);
+  return getCompaniesSync().find(c => c.id === id);
 }
 
 export function getJob(id: string): Job | undefined {
-  return getJobs().find(j => j.id === id);
-}
-
-export function getCompaniesByIndustry(industryId: string): Company[] {
-  return getCompanies().filter(c => c.industryId === industryId);
-}
-
-export function getJobsByCompany(companyId: string): Job[] {
-  return getJobs().filter(j => j.companyId === companyId).sort((a, b) => (a.sort || 999) - (b.sort || 999));
-}
-
-export function getJobsByIndustry(industryId: string): Job[] {
-  const companyIds = getCompaniesByIndustry(industryId).map(c => c.id);
-  return getJobs().filter(j => companyIds.includes(j.companyId)).sort((a, b) => (a.sort || 999) - (b.sort || 999));
+  return getJobsSync().find(j => j.id === id);
 }
 
 export function getJobsByType(jobType: string): Job[] {
-  return getJobs().filter(j => j.jobType === jobType).sort((a, b) => (a.sort || 999) - (b.sort || 999));
+  return getJobsSync().filter(j => j.jobType === jobType).sort((a, b) => (a.sort || 999) - (b.sort || 999));
+}
+
+export function getJobsByCompanySync(companyId: string): Job[] {
+  return getJobsSync().filter(j => j.companyId === companyId).sort((a, b) => (a.sort || 999) - (b.sort || 999));
 }
 
 import jobTypesData from '@/lib/job-types.json';
@@ -136,4 +127,55 @@ export function getJobTypes(): JobType[] {
 
 export function getJobType(id: string): JobType | undefined {
   return getJobTypes().find(t => t.id === id);
+}
+
+// 客户端使用的异步函数 - 从 API 获取动态数据
+export async function getCompanies(): Promise<Company[]> {
+  try {
+    const res = await fetch('/api/admin/companies', { cache: 'no-store' });
+    const data = await res.json();
+    return (data.companies || []).sort((a: Company, b: Company) => (a.sort || 999) - (b.sort || 999));
+  } catch (e) {
+    console.error('Failed to fetch companies:', e);
+    return getCompaniesSync();
+  }
+}
+
+export async function getJobs(): Promise<Job[]> {
+  try {
+    const res = await fetch('/api/admin/jobs', { cache: 'no-store' });
+    const data = await res.json();
+    return (data.jobs || []).sort((a: Job, b: Job) => (a.sort || 999) - (b.sort || 999));
+  } catch (e) {
+    console.error('Failed to fetch jobs:', e);
+    return getJobsSync();
+  }
+}
+
+export async function getIndustries(): Promise<Industry[]> {
+  try {
+    const res = await fetch('/api/admin/industries', { cache: 'no-store' });
+    const data = await res.json();
+    return data.industries || [];
+  } catch (e) {
+    console.error('Failed to fetch industries:', e);
+    return getIndustriesSync();
+  }
+}
+
+export async function getCompaniesByIndustry(industryId: string): Promise<Company[]> {
+  const companies = await getCompanies();
+  return companies.filter(c => c.industryId === industryId);
+}
+
+export async function getJobsByCompany(companyId: string): Promise<Job[]> {
+  const jobs = await getJobs();
+  return jobs.filter(j => j.companyId === companyId).sort((a, b) => (a.sort || 999) - (b.sort || 999));
+}
+
+export async function getJobsByIndustry(industryId: string): Promise<Job[]> {
+  const companies = await getCompaniesByIndustry(industryId);
+  const companyIds = companies.map(c => c.id);
+  const jobs = await getJobs();
+  return jobs.filter(j => companyIds.includes(j.companyId)).sort((a, b) => (a.sort || 999) - (b.sort || 999));
 }
