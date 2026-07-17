@@ -26,6 +26,26 @@ interface Translations {
   back: string;
   noJobs: string;
   noCompanies: string;
+  // Home page
+  collapseJobList: string;
+  expandJobList: string;
+  job: string;
+  company: string;
+  category: string;
+  lastUpdated: string;
+  newest: string;
+  hot: string;
+  recommended: string;
+  page: string;
+  totalPages: string;
+  previousPage: string;
+  nextPage: string;
+  jobsCount: string;
+  // Jobs page
+  browseByCategory: string;
+  allJobs: string;
+  jobPositions: string;
+  backToHome: string;
 }
 
 export const translations: Record<Language, Translations> = {
@@ -51,6 +71,26 @@ export const translations: Record<Language, Translations> = {
     back: "返回",
     noJobs: "暂无岗位",
     noCompanies: "暂无公司",
+    // Home page
+    collapseJobList: "收起岗位列表",
+    expandJobList: "查看全部岗位",
+    job: "岗位",
+    company: "公司",
+    category: "分类",
+    lastUpdated: "更新时间",
+    newest: "最新",
+    hot: "热门",
+    recommended: "推荐",
+    page: "第",
+    totalPages: "页，共",
+    previousPage: "上一页",
+    nextPage: "下一页",
+    jobsCount: "个岗位",
+    // Jobs page
+    browseByCategory: "按分类浏览",
+    allJobs: "全部岗位",
+    jobPositions: "个岗位",
+    backToHome: "返回首页",
   },
   en: {
     industryTrack: "Industries",
@@ -74,6 +114,26 @@ export const translations: Record<Language, Translations> = {
     back: "Back",
     noJobs: "No jobs available",
     noCompanies: "No companies available",
+    // Home page
+    collapseJobList: "Collapse Job List",
+    expandJobList: "View All Jobs",
+    job: "Job",
+    company: "Company",
+    category: "Category",
+    lastUpdated: "Last Updated",
+    newest: "New",
+    hot: "Hot",
+    recommended: "Recommended",
+    page: "Page",
+    totalPages: "of",
+    previousPage: "Previous",
+    nextPage: "Next",
+    jobsCount: "jobs",
+    // Jobs page
+    browseByCategory: "Browse by Category",
+    allJobs: "All Jobs",
+    jobPositions: "positions",
+    backToHome: "Back to Home",
   },
 };
 

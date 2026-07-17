@@ -1,7 +1,10 @@
-import { notFound } from "next/navigation";
+"use client";
+
 import Link from "next/link";
 import { ArrowLeft, Briefcase, TrendingUp, Microscope, Code, Brain, Crown, Palette, Clipboard, Globe } from "lucide-react";
-import { getJobs, getJobTypes, getCompanies } from "@/lib/data";
+import { getJobsSync, getJobTypes, getCompaniesSync } from "@/lib/data";
+import { useI18n } from "@/lib/i18n";
+import { useEffect, useState } from "react";
 import JobCard from "@/components/JobCard";
 
 const iconMap: Record<string, any> = {
@@ -16,34 +19,37 @@ const iconMap: Record<string, any> = {
   globe: <Globe className="w-6 h-6" />,
 };
 
-// Server component - direct props
 export default function JobsPage({
   searchParams,
 }: {
   searchParams: Promise<{ type?: string }>;
 }) {
-  return <JobsContent searchParams={searchParams} />;
-}
+  const [params, setParams] = useState<{ type?: string }>({});
+  const { language, t } = useI18n();
+  const [jobs, setJobs] = useState<any[]>([]);
+  const [companies, setCompanies] = useState<any[]>([]);
+  const [jobTypes, setJobTypes] = useState<any[]>([]);
 
-async function JobsContent({
-  searchParams,
-}: {
-  searchParams: Promise<{ type?: string }>;
-}) {
-  const params = await searchParams;
+  useEffect(() => {
+    searchParams.then(p => setParams(p));
+    setJobs(getJobsSync());
+    setCompanies(getCompaniesSync());
+    setJobTypes(getJobTypes());
+  }, [searchParams]);
+
   const typeParam = params.type;
 
-  const jobs = getJobs();
-  const companies = getCompanies();
-  const jobTypes = getJobTypes();
-
-  // Filter jobs by type
+  // Filter jobs by type - support comma-separated types
   const filteredJobs = typeParam
-    ? jobs.filter((job) => job.jobType === typeParam || job.jobTypeEn === typeParam)
+    ? jobs.filter((job) => {
+        const jobTypes = job.jobType ? job.jobType.split(",").map((t: string) => t.trim()) : [];
+        const jobTypesEn = job.jobTypeEn ? job.jobTypeEn.split(",").map((t: string) => t.trim()) : [];
+        return jobTypes.includes(typeParam) || jobTypesEn.includes(typeParam);
+      })
     : jobs;
 
   // Get current job type info
-  const currentType = typeParam ? jobTypes.find((t) => t.id === typeParam) : null;
+  const currentType = typeParam ? jobTypes.find((type) => type.id === typeParam) : null;
 
   return (
     <main className="min-h-screen bg-bg-primary">
@@ -55,7 +61,7 @@ async function JobsContent({
             className="inline-flex items-center gap-2 text-text-secondary hover:text-accent transition-colors"
           >
             <ArrowLeft size={18} />
-            返回首页
+            {t.backToHome}
           </Link>
         </div>
       </header>
@@ -64,11 +70,11 @@ async function JobsContent({
       <section className="bg-white border-b border-border py-8">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-lg font-semibold text-text-primary mb-4">
-            按分类浏览
+            {t.browseByCategory}
           </h2>
           <div className="flex flex-wrap gap-3">
             {jobTypes.map((type) => {
-              const name = type.nameZh;
+              const name = language === "zh" ? type.nameZh : type.name;
               const isActive = type.id === typeParam;
 
               return (
@@ -94,10 +100,10 @@ async function JobsContent({
       <section className="max-w-5xl mx-auto px-4 py-16">
         <div className="flex items-center justify-between mb-8">
           <h1 className="text-3xl font-bold text-text-primary font-handwriting">
-            {currentType?.nameZh || "全部岗位"}
+            {currentType ? (language === "zh" ? currentType.nameZh : currentType.name) : t.allJobs}
           </h1>
           <span className="text-text-secondary">
-            {filteredJobs.length} 个岗位
+            {filteredJobs.length} {t.jobsCount}
           </span>
         </div>
 
@@ -112,7 +118,7 @@ async function JobsContent({
           </div>
         ) : (
           <div className="text-center py-16">
-            <p className="text-text-secondary text-lg">暂无岗位</p>
+            <p className="text-text-secondary text-lg">{t.noJobs}</p>
           </div>
         )}
       </section>

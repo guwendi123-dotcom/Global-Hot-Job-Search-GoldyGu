@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n";
-import { getJobs, getProfile } from "@/lib/data";
+import { getJobsSync, getProfile } from "@/lib/data";
 import { ArrowLeft, Send, CheckCircle, Linkedin, Mail, Phone, MessageSquare, Upload, X, FileText } from "lucide-react";
 
 export default function ContactPage() {
@@ -27,7 +27,7 @@ export default function ContactPage() {
   const [resumeName, setResumeName] = useState<string>("");
 
   useEffect(() => {
-    setJobs(getJobs());
+    setJobs(getJobsSync());
     setProfile(getProfile());
   }, []);
 

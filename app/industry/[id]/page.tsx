@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, ChevronRight } from "lucide-react";
-import { getIndustry, getCompaniesByIndustry, getIndustries } from "@/lib/data";
+import { getIndustry, getCompaniesSync, getIndustriesSync } from "@/lib/data";
 import CompanyCard from "@/components/CompanyCard";
 import type { Metadata } from "next";
 
@@ -10,7 +10,7 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-  const industries = getIndustries();
+  const industries = getIndustriesSync();
   return industries.map((industry) => ({
     id: industry.id,
   }));
@@ -29,12 +29,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function IndustryPage({ params }: PageProps) {
   const { id } = await params;
   const industry = getIndustry(id);
-  
+
   if (!industry) {
     notFound();
   }
-  
-  const companies = getCompaniesByIndustry(id);
+
+  // 使用同步版本
+  const companies = getCompaniesSync().filter(c => c.industryId === id);
   
   return (
     <main className="min-h-screen bg-bg-primary">
