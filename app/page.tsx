@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 import { useI18n } from "@/lib/i18n";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Briefcase, TrendingUp, Microscope, Code, Brain, Crown, Palette, Clipboard, Globe, Clock, MapPin, Building2 } from "lucide-react";
+import { Briefcase, TrendingUp, Microscope, Code, Brain, Crown, Palette, Clipboard, Globe, Clock, MapPin, Building2, X } from "lucide-react";
 
 export default function Home() {
   const [profile, setProfile] = useState<any>(null);
@@ -20,6 +20,50 @@ export default function Home() {
   const [currentPage, setCurrentPage] = useState(1);
   const ITEMS_PER_PAGE = 7;
   const { language, t } = useI18n();
+
+  // 地点筛选状态
+  const [selectedLocations, setSelectedLocations] = useState<string[]>([]);
+
+  // 地点分组定义
+  const locationGroups = [
+    { id: "china", name: "中国国内", nameEn: "China", icon: "🇨🇳", keywords: ["北京", "上海", "深圳", "杭州", "苏州"] },
+    { id: "sf-bay", name: "旧金山湾区", nameEn: "San Francisco Bay Area", icon: "🌉", keywords: ["旧金山", "湾区", "Bay Area", "San Francisco", "Santa Clara"] },
+    { id: "la", name: "洛杉矶", nameEn: "Los Angeles", icon: "🌴", keywords: ["洛杉矶", "Los Angeles"] },
+    { id: "mtv", name: "山景城", nameEn: "Mountain View", icon: "🏔️", keywords: ["山景城", "Mountain View", "MTV"] },
+    { id: "hk", name: "香港", nameEn: "Hong Kong", icon: "🏙️", keywords: ["香港", "Hong Kong"] },
+    { id: "remote", name: "Remote/远程", nameEn: "Remote", icon: "🏠", keywords: ["Remote", "远程", "全球"] },
+  ];
+
+  // 判断岗位是否匹配选中的地点
+  const isJobMatchLocation = (job: any, selected: string[]) => {
+    if (selected.length === 0) return true;
+    const loc = job.location || "";
+    const locEn = job.locationEn || "";
+    return selected.some(groupId => {
+      const group = locationGroups.find(g => g.id === groupId);
+      if (!group) return false;
+      return group.keywords.some(kw => loc.includes(kw) || locEn.includes(kw));
+    });
+  };
+
+  // 切换地点选择
+  const toggleLocation = (groupId: string) => {
+    setSelectedLocations(prev =>
+      prev.includes(groupId)
+        ? prev.filter(id => id !== groupId)
+        : [...prev, groupId]
+    );
+    setCurrentPage(1);
+  };
+
+  // 清除所有筛选
+  const clearLocationFilter = () => {
+    setSelectedLocations([]);
+    setCurrentPage(1);
+  };
+
+  // 筛选后的岗位
+  const filteredJobs = jobs.filter(job => isJobMatchLocation(job, selectedLocations));
 
   useEffect(() => {
     setProfile(getProfile());
@@ -68,19 +112,62 @@ export default function Home() {
     <main className="min-h-screen bg-bg-primary">
       <Hero profile={profile} />
 
-      {/* Toggle Job Table Button */}
+      {/* Toggle Job Table Button and Location Filter */}
       <section className="max-w-6xl mx-auto px-4 pt-8">
-        <button
-          onClick={() => setShowJobTable(!showJobTable)}
-          className="flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-full hover:bg-orange-600 transition-colors"
-        >
-          <Briefcase size={18} />
-          {showJobTable ? t.collapseJobList : t.expandJobList}
-        </button>
+        <div className="flex flex-wrap items-center gap-4">
+          <button
+            onClick={() => setShowJobTable(!showJobTable)}
+            className="flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-full hover:bg-orange-600 transition-colors"
+          >
+            <Briefcase size={18} />
+            {showJobTable ? t.collapseJobList : t.expandJobList}
+          </button>
+
+          {/* Location Filter */}
+          {showJobTable && (
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="text-sm text-text-secondary mr-2">
+                {language === "zh" ? "地点:" : "Location:"}
+              </span>
+              {locationGroups.map(group => (
+                <button
+                  key={group.id}
+                  onClick={() => toggleLocation(group.id)}
+                  className={`flex items-center gap-1 px-3 py-2 text-sm rounded-full border transition-all ${
+                    selectedLocations.includes(group.id)
+                      ? "bg-accent text-white border-accent"
+                      : "bg-white text-text-secondary border-border hover:border-accent"
+                  }`}
+                >
+                  <span>{group.icon}</span>
+                  <span>{language === "zh" ? group.name : group.nameEn}</span>
+                </button>
+              ))}
+              {selectedLocations.length > 0 && (
+                <button
+                  onClick={clearLocationFilter}
+                  className="flex items-center gap-1 px-3 py-2 text-sm rounded-full border border-red-300 text-red-500 hover:bg-red-50 transition-all"
+                >
+                  <X size={14} />
+                  {language === "zh" ? "清除" : "Clear"}
+                </button>
+              )}
+            </div>
+          )}
+        </div>
+
+        {/* Job Count Info */}
+        {showJobTable && selectedLocations.length > 0 && (
+          <div className="mt-4 text-sm text-text-secondary">
+            {language === "zh"
+              ? `显示 ${filteredJobs.length} 个岗位（总共 ${jobs.length} 个）`
+              : `Showing ${filteredJobs.length} jobs (${jobs.length} total)`}
+          </div>
+        )}
 
         {/* Job Table with Pagination */}
         {showJobTable && (
-          <div className="mt-6 bg-white rounded-2xl border border-border overflow-hidden">
+          <div className="mt-4 bg-white rounded-2xl border border-border overflow-hidden">
             <div className="overflow-x-auto">
               <table className="w-full">
                 <thead>
@@ -154,12 +241,12 @@ export default function Home() {
             </div>
 
             {/* Pagination */}
-            {jobs.length > ITEMS_PER_PAGE && (
+            {filteredJobs.length > ITEMS_PER_PAGE && (
               <div className="flex items-center justify-between px-6 py-4 border-t border-bg-primary">
                 <span className="text-sm text-text-secondary">
                   {language === "zh"
-                    ? `第 ${currentPage} 页，共 ${Math.ceil(jobs.length / ITEMS_PER_PAGE)} 页`
-                    : `Page ${currentPage} of ${Math.ceil(jobs.length / ITEMS_PER_PAGE)}`
+                    ? `第 ${currentPage} 页，共 ${Math.ceil(filteredJobs.length / ITEMS_PER_PAGE)} 页`
+                    : `Page ${currentPage} of ${Math.ceil(filteredJobs.length / ITEMS_PER_PAGE)}`
                   }
                 </span>
                 <div className="flex gap-2">
@@ -171,8 +258,8 @@ export default function Home() {
                     {t.previousPage}
                   </button>
                   <button
-                    onClick={() => setCurrentPage(p => Math.min(Math.ceil(jobs.length / ITEMS_PER_PAGE), p + 1))}
-                    disabled={currentPage >= Math.ceil(jobs.length / ITEMS_PER_PAGE)}
+                    onClick={() => setCurrentPage(p => Math.min(Math.ceil(filteredJobs.length / ITEMS_PER_PAGE), p + 1))}
+                    disabled={currentPage >= Math.ceil(filteredJobs.length / ITEMS_PER_PAGE)}
                     className="px-4 py-2 text-sm bg-accent text-white rounded-lg hover:bg-orange-600 disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     {t.nextPage}
