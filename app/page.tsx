@@ -26,12 +26,23 @@ export default function Home() {
 
   // 地点分组定义
   const locationGroups = [
-    { id: "china", name: "中国国内", nameEn: "China", icon: "🇨🇳", keywords: ["北京", "上海", "深圳", "杭州", "苏州"] },
-    { id: "sf-bay", name: "旧金山湾区", nameEn: "San Francisco Bay Area", icon: "🌉", keywords: ["旧金山", "湾区", "Bay Area", "San Francisco", "Santa Clara"] },
+    // 🇨🇳 中国
+    { id: "beijing", name: "北京", nameEn: "Beijing", icon: "🏯", keywords: ["北京"] },
+    { id: "shanghai-hz", name: "上海/杭州", nameEn: "Shanghai / Hangzhou", icon: "🏙️", keywords: ["上海", "杭州"] },
+    { id: "gz-sz", name: "广州/深圳", nameEn: "Guangzhou / Shenzhen", icon: "🌆", keywords: ["广州", "深圳"] },
+    // 🇺🇸 美国 - 旧金山湾区
+    { id: "sf-north-bay", name: "北湾", nameEn: "North Bay", icon: "🌲", keywords: ["马林", "纳帕", "索诺马", "索拉诺", "Marin", "Napa", "Sonoma", "Solano", "North Bay"] },
+    { id: "sf-city", name: "旧金山市", nameEn: "San Francisco", icon: "🌉", keywords: ["旧金山", "San Francisco"] },
+    { id: "sf-east-bay", name: "东湾", nameEn: "East Bay", icon: "🏗️", keywords: ["奥克兰", "伯克利", "弗里蒙特", "Oakland", "Berkeley", "Fremont", "East Bay"] },
+    { id: "sf-silicon-valley", name: "硅谷", nameEn: "Silicon Valley", icon: "💻", keywords: ["圣何塞", "圣克拉拉", "库比蒂诺", "森尼韦尔", "帕罗奥图", "山景城", "San Jose", "Santa Clara", "Cupertino", "Sunnyvale", "Palo Alto", "Mountain View", "Silicon Valley", "MTV"] },
+    // 🇺🇸 美国 - 其他
     { id: "la", name: "洛杉矶", nameEn: "Los Angeles", icon: "🌴", keywords: ["洛杉矶", "Los Angeles"] },
-    { id: "mtv", name: "山景城", nameEn: "Mountain View", icon: "🏔️", keywords: ["山景城", "Mountain View", "MTV"] },
-    { id: "hk", name: "香港", nameEn: "Hong Kong", icon: "🏙️", keywords: ["香港", "Hong Kong"] },
-    { id: "remote", name: "Remote/远程", nameEn: "Remote", icon: "🏠", keywords: ["Remote", "远程", "全球"] },
+    { id: "hk", name: "香港", nameEn: "Hong Kong", icon: "🇭🇰", keywords: ["香港", "Hong Kong"] },
+    // 🌍 其他地区
+    { id: "europe", name: "欧洲", nameEn: "Europe", icon: "🏰", keywords: ["欧洲", "Europe", "UK", "英国", "德国", "法国", "London"] },
+    { id: "se-asia", name: "东南亚", nameEn: "Southeast Asia", icon: "🌴", keywords: ["东南亚", "Singapore", "新加坡", "吉隆坡", "曼谷", "越南", "Thailand", "Malaysia"] },
+    // 🏠 Remote
+    { id: "remote", name: "Remote/远程", nameEn: "Remote", icon: "🏠", keywords: ["Remote", "远程", "全球", "Global"] },
   ];
 
   // 判断岗位是否匹配选中的地点
@@ -180,7 +191,7 @@ export default function Home() {
                   </tr>
                 </thead>
                 <tbody>
-                  {jobs.slice((currentPage - 1) * ITEMS_PER_PAGE, currentPage * ITEMS_PER_PAGE).map((job, index) => {
+                  {filteredJobs.slice((currentPage - 1) * ITEMS_PER_PAGE, currentPage * ITEMS_PER_PAGE).map((job, index) => {
                     const sortLabel = job.sort <= 5 ? t.newest : job.sort <= 20 ? t.hot : t.recommended;
                     const rowIndex = (currentPage - 1) * ITEMS_PER_PAGE + index;
                     return (
