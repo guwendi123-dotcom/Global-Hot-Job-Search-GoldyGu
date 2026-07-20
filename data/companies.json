@@ -10,7 +10,7 @@
     "stageEn": "Preparing for IPO",
     "location": "香港/深圳/新加坡",
     "locationEn": "Hong Kong / Shenzhen / Singapore",
-    "logo": "/logos/klook.png",
+    "logo": "/logos/klook.png?v=2",
     "sort": 5
   },
   {
@@ -46,7 +46,7 @@
     "industryId": "ai-agent",
     "name": "AI旅行+本地生活APP",
     "nameEn": "AI Travel + Local Lifestyle App",
-    "logo": "/logos/wanderboat.ico",
+    "logo": "/logos/wanderboat.ico?v=2",
     "description": "AI旅行+本地生活双场景平台",
     "descriptionEn": "AI-powered travel and local lifestyle platform",
     "stage": "A轮",
@@ -60,7 +60,7 @@
     "industryId": "ai-agent",
     "name": "AI动画创作工具",
     "nameEn": "AI Animation Studio",
-    "logo": "/logos/oiioii.ico",
+    "logo": "/logos/oiioii.ico?v=2",
     "description": "全球首款专业级动画创作AI Agent工具",
     "descriptionEn": "World's first professional animation creation AI Agent tool",
     "stage": "A+轮",
@@ -136,7 +136,7 @@
     "stageEn": "Series A",
     "location": "旧金山湾区",
     "locationEn": "San Francisco Bay Area",
-    "logo": "/logos/teamily.ico",
+    "logo": "/logos/teamily.ico?v=2",
     "sort": 60
   },
   {
