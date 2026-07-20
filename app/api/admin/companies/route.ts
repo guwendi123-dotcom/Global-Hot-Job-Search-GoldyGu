@@ -13,24 +13,22 @@ export async function GET() {
 }
 
 export async function POST(request: NextRequest) {
-  return NextResponse.json({
-    success: true,
-    message: "保存成功请通知管理员将数据添加到 data/companies.json"
-  });
+  return NextResponse.json(
+    { error: "Company mutations are disabled. Update data/companies.json through the reviewed publishing workflow." },
+    { status: 405, headers: { Allow: "GET" } }
+  );
 }
 
 export async function PUT(request: NextRequest) {
-  return NextResponse.json({
-    success: true,
-    message: "保存成功请通知管理员将数据添加到 data/companies.json"
-  });
+  return NextResponse.json(
+    { error: "Company mutations are disabled." },
+    { status: 405, headers: { Allow: "GET" } }
+  );
 }
 
 export async function DELETE(request: NextRequest) {
-  const { searchParams } = new URL(request.url);
-  const id = searchParams.get("id");
-  return NextResponse.json({
-    success: true,
-    message: "删除成功请通知管理员从 data/companies.json 移除 id=" + id
-  });
+  return NextResponse.json(
+    { error: "Company mutations are disabled." },
+    { status: 405, headers: { Allow: "GET" } }
+  );
 }

@@ -12,13 +12,22 @@ export async function GET() {
 }
 
 export async function POST(request: NextRequest) {
-  return NextResponse.json({ success: true, message: "请手动添加到 data/industries.json" });
+  return NextResponse.json(
+    { error: "Industry mutations are disabled. Update data/industries.json through the reviewed publishing workflow." },
+    { status: 405, headers: { Allow: "GET" } }
+  );
 }
 
 export async function PUT(request: NextRequest) {
-  return NextResponse.json({ success: true });
+  return NextResponse.json(
+    { error: "Industry mutations are disabled." },
+    { status: 405, headers: { Allow: "GET" } }
+  );
 }
 
 export async function DELETE(request: NextRequest) {
-  return NextResponse.json({ success: true, message: "删除成功" });
+  return NextResponse.json(
+    { error: "Industry mutations are disabled." },
+    { status: 405, headers: { Allow: "GET" } }
+  );
 }
