@@ -20,8 +20,10 @@ export default function Hero({ profile, jobCount, companyCount, industryCount }:
           <div className="flex flex-wrap gap-3 mt-5">
             <a href="#jobs" className="primary-pill">{language === "zh" ? "浏览全部岗位" : "Browse all jobs"}<ArrowRight size={17} /></a>
             <Link href="/contact" className="secondary-pill">{language === "zh" ? "联系咕咕" : "Contact Goldy"}</Link>
-            <button type="button" onClick={() => setShowWechat(true)} className="secondary-pill"><MessageCircle size={17} />{language === "zh" ? "加咕咕微信" : "Goldy’s WeChat"}</button>
-            <a href={profile.contact.linkedin} target="_blank" rel="noreferrer" className="secondary-pill"><Linkedin size={17} />LinkedIn</a>
+            <span className="inline-flex gap-3">
+              <button type="button" onClick={() => setShowWechat(true)} className="secondary-pill"><MessageCircle size={17} />Wechat</button>
+              <a href={profile.contact.linkedin} target="_blank" rel="noreferrer" className="secondary-pill"><Linkedin size={17} />LinkedIn</a>
+            </span>
           </div>
           <div className="flex flex-wrap gap-3 mt-6">
             <span className="trust-chip"><Globe2 size={16} />{language === "zh" ? "全球科技招聘" : "Global tech hiring"}</span>
