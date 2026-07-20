@@ -29,15 +29,14 @@ export default function Home() {
     // 🇨🇳 中国
     { id: "beijing", name: "北京", nameEn: "Beijing", icon: "🏯", keywords: ["北京"] },
     { id: "shanghai-hz", name: "上海/杭州", nameEn: "Shanghai / Hangzhou", icon: "🏙️", keywords: ["上海", "杭州"] },
-    { id: "gz-sz", name: "广州/深圳", nameEn: "Guangzhou / Shenzhen", icon: "🌆", keywords: ["广州", "深圳"] },
+    { id: "gz-sz", name: "广州/深圳", nameEn: "Guangzhou / Shenzhen", icon: "🌆", keywords: ["广州", "深圳", "香港"] },
     // 🇺🇸 美国 - 旧金山湾区
     { id: "sf-north-bay", name: "北湾", nameEn: "North Bay", icon: "🌲", keywords: ["马林", "纳帕", "索诺马", "索拉诺", "Marin", "Napa", "Sonoma", "Solano", "North Bay"] },
-    { id: "sf-city", name: "旧金山市", nameEn: "San Francisco", icon: "🌉", keywords: ["旧金山", "San Francisco"] },
+    { id: "sf-city", name: "旧金山市", nameEn: "San Francisco", icon: "🌉", keywords: ["旧金山", "San Francisco", "湾区", "Bay Area"] },
     { id: "sf-east-bay", name: "东湾", nameEn: "East Bay", icon: "🏗️", keywords: ["奥克兰", "伯克利", "弗里蒙特", "Oakland", "Berkeley", "Fremont", "East Bay"] },
-    { id: "sf-silicon-valley", name: "硅谷", nameEn: "Silicon Valley", icon: "💻", keywords: ["圣何塞", "圣克拉拉", "库比蒂诺", "森尼韦尔", "帕罗奥图", "山景城", "San Jose", "Santa Clara", "Cupertino", "Sunnyvale", "Palo Alto", "Mountain View", "Silicon Valley", "MTV"] },
+    { id: "sf-silicon-valley", name: "硅谷", nameEn: "Silicon Valley", icon: "💻", keywords: ["圣何塞", "圣克拉拉", "库比蒂诺", "森尼韦尔", "帕罗奥图", "山景城", "San Jose", "Santa Clara", "Cupertino", "Sunnyvale", "Palo Alto", "Mountain View", "Silicon Valley", "MTV", "North America", "北美", "美国"] },
     // 🇺🇸 美国 - 其他
     { id: "la", name: "洛杉矶", nameEn: "Los Angeles", icon: "🌴", keywords: ["洛杉矶", "Los Angeles"] },
-    { id: "hk", name: "香港", nameEn: "Hong Kong", icon: "🇭🇰", keywords: ["香港", "Hong Kong"] },
     // 🌍 其他地区
     { id: "europe", name: "欧洲", nameEn: "Europe", icon: "🏰", keywords: ["欧洲", "Europe", "UK", "英国", "德国", "法国", "London"] },
     { id: "se-asia", name: "东南亚", nameEn: "Southeast Asia", icon: "🌴", keywords: ["东南亚", "Singapore", "新加坡", "吉隆坡", "曼谷", "越南", "Thailand", "Malaysia"] },
