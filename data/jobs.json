@@ -784,5 +784,42 @@
       "languageEn": "Fluent English"
     },
     "sort": 3
+  },
+  {
+    "id": "maxinsights-data-ops-director",
+    "companyId": "maxinsights",
+    "title": "数据运营总监",
+    "titleEn": "Director of Data Operations",
+    "jobType": "operations",
+    "jobTypeEn": "Operations",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "上海/圣何塞",
+    "locationEn": "Shanghai / San Jose",
+    "description": "岗位概述：\n负责MaxInsights数据运营团队的整体管理和战略规划。您将领导数据采集、清洗、标注等运营流程，优化数据质量和生产效率，管理分布式数据运营团队，并与产品和工程团队紧密协作。\n\n核心职责：\n• 负责数据运营团队的整体管理和战略规划\n• 领导数据采集、清洗、标注等运营流程的优化\n• 优化数据质量和生产效率，确保数据交付满足AI模型训练需求\n• 管理分布式数据运营团队，包括内部团队和众包供应商\n• 建立和完善数据运营流程和SOP\n• 与产品和工程团队协作，确保数据需求得到满足\n• 跟踪关键指标，持续改进运营效率\n\n任职要求：\n• 5年以上数据运营、众包运营或AI数据相关经验\n• 有团队管理经验优先\n• 优秀的数据分析能力和指标驱动思维\n• 强大的跨部门协作和沟通能力\n• 英语流利，可作为工作语言\n• 对具身智能和AI数据领域有浓厚兴趣",
+    "descriptionEn": "Job Overview:\nResponsible for the overall management and strategic planning of MaxInsights data operations team. You will lead data collection, cleaning, labeling and other operation processes, optimize data quality and production efficiency, manage distributed data operations teams, and collaborate closely with product and engineering teams.\n\nCore Responsibilities:\n• Overall management and strategic planning of data operations team\n• Lead optimization of data collection, cleaning, labeling and other operation processes\n• Optimize data quality and production efficiency to ensure data delivery meets AI model training needs\n• Manage distributed data operations teams including internal teams and crowdsourcing vendors\n• Establish and improve data operation processes and SOPs\n• Collaborate with product and engineering teams to ensure data requirements are met\n• Track key metrics and continuously improve operational efficiency\n\nRequirements:\n• 5+ years experience in data operations, crowdsourcing operations, or AI data\n• Team management experience preferred\n• Strong data analysis and metric-driven thinking\n• Excellent cross-functional collaboration and communication skills\n• Fluent in English, able to work in English\n• Strong interest in embodied AI and AI data field",
+    "tags": [
+      "数据运营",
+      "运营",
+      "具身智能",
+      "AI数据",
+      "总监"
+    ],
+    "tagsEn": [
+      "Data Operations",
+      "Operations",
+      "Embodied AI",
+      "AI Data",
+      "Director"
+    ],
+    "profile": {
+      "salary": "竞争力薪酬+股权",
+      "salaryEn": "Competitive Salary + Equity",
+      "experience": "5年以上",
+      "experienceEn": "5+ years",
+      "language": "英语流利",
+      "languageEn": "Fluent English"
+    },
+    "sort": 1
   }
 ]
