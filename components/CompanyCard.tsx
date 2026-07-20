@@ -27,25 +27,28 @@ export default function CompanyCard({ company, index }: CompanyCardProps) {
     >
       <Link href={`/company/${company.id}`}>
         <div className="group bg-bg-card rounded-2xl p-6 border border-border hover:border-accent hover:shadow-lg transition-all cursor-pointer h-full">
-          {/* Logo placeholder */}
-          <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center text-2xl mb-4 group-hover:scale-105 transition-transform">
-            🏢
+          <div className="w-14 h-14 rounded-2xl bg-white border border-border flex items-center justify-center mb-4 group-hover:scale-105 transition-transform overflow-hidden shadow-sm">
+            {company.logo ? (
+              <img src={company.logo} alt="" className="w-10 h-10 object-contain" />
+            ) : (
+              <span className="text-lg font-bold text-accent">{name.slice(0, 1).toUpperCase()}</span>
+            )}
           </div>
 
-          <h3 className="text-lg font-semibold text-text-primary mb-2 group-hover:text-accent transition-colors font-handwriting">
+          <h3 className="text-lg font-semibold text-text-primary mb-2 group-hover:text-accent transition-colors">
             {name}
           </h3>
 
-          <p className="text-text-secondary text-sm mb-4 line-clamp-2 font-handwriting">
+          <p className="text-text-secondary text-sm mb-4 line-clamp-2 leading-relaxed">
             {description}
           </p>
 
           <div className="flex gap-4 text-xs text-text-secondary">
-            <span className="flex items-center gap-1 font-handwriting">
+            <span className="flex items-center gap-1">
               <Building2 size={14} />
               {stage}
             </span>
-            <span className="flex items-center gap-1 font-handwriting">
+            <span className="flex items-center gap-1">
               <MapPin size={14} />
               {location}
             </span>

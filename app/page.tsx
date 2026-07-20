@@ -18,6 +18,7 @@ export default function Home() {
   const [jobs, setJobs] = useState<any[]>([]);
   const [showJobTable, setShowJobTable] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
+  const [searchQuery, setSearchQuery] = useState("");
   const ITEMS_PER_PAGE = 7;
   const { language, t } = useI18n();
 
@@ -73,7 +74,14 @@ export default function Home() {
   };
 
   // 筛选后的岗位
-  const filteredJobs = jobs.filter(job => isJobMatchLocation(job, selectedLocations));
+  const filteredJobs = jobs.filter(job => {
+    if (!isJobMatchLocation(job, selectedLocations)) return false;
+    const query = searchQuery.trim().toLowerCase();
+    if (!query) return true;
+    const matchedCompany = companies.find(company => company.id === job.companyId);
+    return [job.title, job.titleEn, job.location, job.locationEn, matchedCompany?.name, matchedCompany?.nameEn, ...(job.tags || []), ...(job.tagsEn || [])]
+      .filter(Boolean).join(" ").toLowerCase().includes(query);
+  });
 
   useEffect(() => {
     setProfile(getProfile());
@@ -123,7 +131,14 @@ export default function Home() {
       <Hero profile={profile} />
 
       {/* Toggle Job Table Button and Location Filter */}
-      <section className="max-w-6xl mx-auto px-4 pt-8">
+      <section id="jobs" className="max-w-6xl mx-auto px-4 pt-8 scroll-mt-24">
+        <div className="mb-6">
+          <p className="text-sm font-semibold text-accent mb-2">{language === "zh" ? "实时更新" : "Updated regularly"}</p>
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
+            <div><h2 className="text-3xl md:text-4xl font-bold tracking-tight">{language === "zh" ? "找到适合你的下一份工作" : "Find your next role"}</h2><p className="text-text-secondary mt-2">{jobs.length} {language === "zh" ? "个真实在招岗位" : "active opportunities"}</p></div>
+            <input value={searchQuery} onChange={(e) => { setSearchQuery(e.target.value); setCurrentPage(1); }} placeholder={language === "zh" ? "搜索岗位、公司或关键词" : "Search roles, companies or skills"} className="w-full md:w-80 px-5 py-3 rounded-full bg-white border border-border focus:border-accent focus:outline-none shadow-sm" />
+          </div>
+        </div>
         <div className="flex flex-wrap items-center gap-4">
           <button
             onClick={() => setShowJobTable(!showJobTable)}
@@ -177,7 +192,29 @@ export default function Home() {
 
         {/* Job Table with Pagination */}
         {showJobTable && (
-          <div className="mt-4 bg-white rounded-2xl border border-border overflow-hidden">
+          <>
+          <div className="md:hidden mt-4 grid gap-3">
+            {filteredJobs.slice((currentPage - 1) * ITEMS_PER_PAGE, currentPage * ITEMS_PER_PAGE).map((job) => (
+              <Link key={job.id} href={`/job/${job.id}`} className="block bg-white rounded-2xl border border-border p-5 hover:border-accent hover:shadow-md">
+                <div className="flex justify-between gap-3"><div><p className="text-xs text-text-secondary mb-1">{getCompanyName(job.companyId)}</p><h3 className="font-semibold text-lg">{language === "zh" ? job.title : job.titleEn || job.title}</h3></div><span className="text-accent">→</span></div>
+                <div className="flex items-center gap-2 mt-4 text-sm text-text-secondary"><MapPin size={14} />{language === "zh" ? job.location : job.locationEn}</div>
+                <div className="flex flex-wrap gap-2 mt-3">{(language === "zh" ? job.tags : job.tagsEn || job.tags).slice(0, 3).map((tag: string) => <span key={tag} className="text-xs px-2.5 py-1 rounded-full bg-accent-light text-accent">{tag}</span>)}</div>
+              </Link>
+            ))}
+            {filteredJobs.length === 0 && (
+              <div className="rounded-2xl border border-border bg-white px-5 py-10 text-center text-text-secondary">
+                {language === "zh" ? "没有找到匹配岗位，试试其他关键词或地点。" : "No matching roles. Try another keyword or location."}
+              </div>
+            )}
+            {filteredJobs.length > ITEMS_PER_PAGE && (
+              <div className="flex items-center justify-between pt-2">
+                <button onClick={() => setCurrentPage(p => Math.max(1, p - 1))} disabled={currentPage === 1} className="px-4 py-2 text-sm bg-white border border-border rounded-full disabled:opacity-40">{t.previousPage}</button>
+                <span className="text-sm text-text-secondary">{currentPage} / {Math.ceil(filteredJobs.length / ITEMS_PER_PAGE)}</span>
+                <button onClick={() => setCurrentPage(p => Math.min(Math.ceil(filteredJobs.length / ITEMS_PER_PAGE), p + 1))} disabled={currentPage >= Math.ceil(filteredJobs.length / ITEMS_PER_PAGE)} className="px-4 py-2 text-sm bg-accent text-white rounded-full disabled:opacity-40">{t.nextPage}</button>
+              </div>
+            )}
+          </div>
+          <div className="hidden md:block mt-4 bg-white rounded-2xl border border-border overflow-hidden">
             <div className="overflow-x-auto">
               <table className="w-full">
                 <thead>
@@ -278,12 +315,13 @@ export default function Home() {
               </div>
             )}
           </div>
+          </>
         )}
       </section>
 
       {/* Job Types Section */}
-      <section className="max-w-5xl mx-auto px-4 py-16">
-        <h2 className="text-3xl font-bold text-text-primary mb-8 font-handwriting">
+      <section className="max-w-5xl mx-auto px-4 py-16 scroll-mt-24">
+        <h2 className="text-3xl font-bold text-text-primary mb-8">
           {language === "zh" ? "岗位分类" : "Job Categories"}
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
@@ -310,8 +348,8 @@ export default function Home() {
       </section>
 
       {/* Featured Companies Section */}
-      <section className="max-w-5xl mx-auto px-4 py-16">
-        <h2 className="text-3xl font-bold text-text-primary mb-8 font-handwriting">
+      <section id="companies" className="max-w-5xl mx-auto px-4 py-16 scroll-mt-24">
+        <h2 className="text-3xl font-bold text-text-primary mb-8">
           {t.team}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -322,8 +360,8 @@ export default function Home() {
       </section>
 
       {/* Industries Section */}
-      <section className="max-w-5xl mx-auto px-4 py-16">
-        <h2 className="text-3xl font-bold text-text-primary mb-8 font-handwriting">
+      <section id="industries" className="max-w-5xl mx-auto px-4 py-16 scroll-mt-24">
+        <h2 className="text-3xl font-bold text-text-primary mb-8">
           {t.industryTrack}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

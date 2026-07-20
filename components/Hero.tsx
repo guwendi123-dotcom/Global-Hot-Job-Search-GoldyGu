@@ -36,7 +36,7 @@ export default function Hero({ profile }: HeroProps) {
   const bio = language === "zh" ? profile.bio : profile.bioEn || profile.bio;
 
   return (
-    <section className="min-h-[70vh] flex flex-col justify-center items-center text-center px-4 py-20 relative overflow-hidden">
+    <section className="flex flex-col justify-center items-center text-center px-4 py-14 md:py-20 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-5 pointer-events-none">
         <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -52,7 +52,7 @@ export default function Hero({ profile }: HeroProps) {
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.5 }}
-        className="w-32 h-32 rounded-full bg-gradient-to-br from-accent to-orange-400 flex items-center justify-center text-6xl mb-6 shadow-lg select-none"
+        className="w-20 h-20 rounded-2xl bg-gradient-to-br from-accent to-orange-400 flex items-center justify-center text-4xl mb-5 shadow-lg select-none rotate-2"
       >
         🐰
       </motion.div>
@@ -61,10 +61,9 @@ export default function Hero({ profile }: HeroProps) {
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.1, duration: 0.5 }}
-        className="text-4xl md:text-5xl font-bold text-text-primary mb-2 font-handwriting"
-        style={{ fontFamily: '"ZCOOL XiaoWei", serif' }}
+        className="text-4xl md:text-6xl font-bold text-text-primary mb-3 tracking-tight"
       >
-        {profile.name} (咕咕)
+        {language === "zh" ? "连接全球科技人才与机会" : "Global tech talent meets opportunity"}
       </motion.h1>
 
       <motion.p
@@ -80,8 +79,7 @@ export default function Hero({ profile }: HeroProps) {
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.3, duration: 0.5 }}
-        className="text-lg text-text-secondary max-w-md mb-2 font-handwriting"
-        style={{ fontFamily: '"ZCOOL XiaoWei", serif' }}
+        className="text-lg text-text-secondary max-w-2xl mb-3"
       >
         {tagline}
       </motion.p>
@@ -90,10 +88,9 @@ export default function Hero({ profile }: HeroProps) {
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.4, duration: 0.5 }}
-        className="text-text-secondary max-w-lg mb-8 whitespace-pre-line text-sm leading-relaxed font-handwriting"
-        style={{ fontFamily: '"ZCOOL XiaoWei", serif' }}
+        className="text-text-secondary max-w-2xl mb-7 whitespace-pre-line text-sm leading-relaxed"
       >
-        {bio}
+        {language === "zh" ? "聚焦 AI Agent、具身智能、Web3 与全球化科技公司，持续更新真实在招岗位。" : "Curated roles across AI agents, embodied AI, Web3 and global technology companies."}
       </motion.div>
 
       <motion.div

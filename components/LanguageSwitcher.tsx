@@ -1,18 +1,28 @@
 "use client";
 
 import { useI18n } from "@/lib/i18n";
+import Link from "next/link";
 
 export default function LanguageSwitcher() {
   const { language, setLanguage } = useI18n();
 
   return (
-    <div className="fixed top-4 right-4 z-50 flex items-center gap-2">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-border/80 bg-white/90 backdrop-blur-xl">
+      <div className="max-w-6xl mx-auto h-16 px-4 flex items-center justify-between gap-4">
+        <Link href="/" className="font-bold text-xl tracking-tight">Goldy<span className="text-accent">Hire</span></Link>
+        <nav className="hidden md:flex items-center gap-6 text-sm text-text-secondary">
+          <Link href="/#jobs" className="hover:text-accent">{language === "zh" ? "找岗位" : "Jobs"}</Link>
+          <Link href="/#companies" className="hover:text-accent">{language === "zh" ? "合作公司" : "Companies"}</Link>
+          <Link href="/#industries" className="hover:text-accent">{language === "zh" ? "行业" : "Industries"}</Link>
+          <Link href="/contact" className="hover:text-accent">{language === "zh" ? "联系咕咕" : "Contact"}</Link>
+        </nav>
+        <div className="flex items-center gap-1 bg-bg-primary rounded-full p-1">
       <button
         onClick={() => setLanguage("zh")}
         className={`px-3 py-1.5 rounded-full text-sm font-medium transition-all ${
           language === "zh"
             ? "bg-accent text-white"
-            : "bg-white text-text-secondary border border-border hover:border-accent"
+            : "text-text-secondary hover:text-accent"
         }`}
       >
         中文
@@ -22,11 +32,13 @@ export default function LanguageSwitcher() {
         className={`px-3 py-1.5 rounded-full text-sm font-medium transition-all ${
           language === "en"
             ? "bg-accent text-white"
-            : "bg-white text-text-secondary border border-border hover:border-accent"
+            : "text-text-secondary hover:text-accent"
         }`}
       >
         EN
       </button>
-    </div>
+        </div>
+      </div>
+    </header>
   );
 }
