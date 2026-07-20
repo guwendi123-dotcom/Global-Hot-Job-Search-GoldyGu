@@ -14,7 +14,7 @@ export default function Footer({ profile }: { profile: Profile }) {
           <img src="/art/goldy-hero.png" alt="" />
           <div><h2>{language === "zh" ? "信任是每一次合作的起点" : "Trust starts every partnership"}</h2><p>{language === "zh" ? "咕咕专注连接全球优秀科技人才与有远见的团队，用真诚与专业，助力彼此成就更多可能。" : "Connecting exceptional global technology talent with ambitious teams."}</p></div>
           <Link href="/contact" className="primary-pill">{language === "zh" ? "和咕咕聊聊" : "Talk to Goldy"}<ArrowRight size={17} /></Link>
-          <img src="/art/cat-white.png" alt="" className="footer-cat" />
+          <img src="/art/cat-white-final.png" alt="" className="footer-cat" />
         </div>
       </section>
       <footer className="border-t border-ink/10 px-5 py-10">

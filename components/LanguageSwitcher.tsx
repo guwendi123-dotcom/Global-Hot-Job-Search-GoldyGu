@@ -12,7 +12,7 @@ export default function LanguageSwitcher() {
         <Link href="/" className="font-bold text-2xl tracking-tight text-ink">GoldyHire<span className="text-coral">✦</span></Link>
         <nav className="hidden md:flex items-center gap-7 text-sm font-semibold text-ink">
           <Link href="/#jobs" className="hover:text-accent">{language === "zh" ? "找岗位" : "Jobs"}</Link>
-          <Link href="/#companies" className="hover:text-accent">{language === "zh" ? "合作公司" : "Companies"}</Link>
+          <Link href="/companies" className="hover:text-accent">{language === "zh" ? "合作公司" : "Companies"}</Link>
           <Link href="/#industries" className="hover:text-accent">{language === "zh" ? "行业" : "Industries"}</Link>
           <Link href="/contact" className="hover:text-accent">{language === "zh" ? "联系咕咕" : "Contact"}</Link>
         </nav>

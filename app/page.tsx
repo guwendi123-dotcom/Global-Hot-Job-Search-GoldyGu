@@ -59,7 +59,7 @@ export default function Home() {
       <Hero profile={profile} jobCount={jobs.length} companyCount={companies.length} industryCount={industries.length} />
 
       <section id="jobs" className="relative max-w-6xl mx-auto px-5 pt-10 md:pt-16 scroll-mt-24">
-        <img src="/art/cat-sitting.png" alt="" className="hidden md:block w-[82px] h-[90px] object-cover rounded-2xl ml-5 mb-2" />
+        <img src="/art/cat-sitting-final.png" alt="" className="hidden md:block w-[82px] h-[116px] object-contain ml-8 mb-2" />
         <div className="flex items-end justify-between gap-4 mb-5">
           <div>
             <p className="eyebrow">{language === "zh" ? "每天发现新机会" : "Fresh opportunities"}</p>
@@ -123,7 +123,7 @@ export default function Home() {
 
         {filteredJobs.length === 0 && <div className="empty-state">{language === "zh" ? "没有找到匹配岗位，换个关键词试试。" : "No matching roles. Try another search."}</div>}
         <div className="flex justify-center mt-6"><Link href="/jobs" className="primary-pill">{language === "zh" ? "查看全部岗位" : "View all jobs"}<ArrowRight size={17} /></Link></div>
-        <img src="/art/cat-sleeping.png?v=2" alt="" className="hidden md:block w-[100px] h-[78px] object-cover rounded-2xl ml-auto mr-8 -mt-12" />
+        <img src="/art/cat-sleeping-final.png" alt="" className="hidden md:block w-[118px] h-[92px] object-contain ml-auto mr-8 -mt-12" />
       </section>
 
       <section id="industries" className="max-w-6xl mx-auto px-5 py-14 scroll-mt-24">
@@ -143,7 +143,7 @@ export default function Home() {
           {featuredCompanies.map((company, index) => <CompanyCard key={company.id} company={company} index={index} jobCount={jobs.filter((job) => job.companyId === company.id).length} />)}
         </div>
         <div className="text-center mt-7">
-          <Link href="/jobs" className="primary-pill">{language === "zh" ? "查看全部公司与岗位" : "View all companies and jobs"}<ArrowRight size={17} /></Link>
+          <Link href="/companies" className="primary-pill">{language === "zh" ? "查看全部公司" : "View all companies"}<ArrowRight size={17} /></Link>
           <p className="text-xs text-text-secondary mt-3">{language === "zh" ? "更多合作公司及岗位持续更新" : "More companies and roles are added regularly"}</p>
         </div>
       </section>
