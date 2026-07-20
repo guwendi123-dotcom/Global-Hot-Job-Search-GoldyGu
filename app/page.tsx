@@ -123,7 +123,7 @@ export default function Home() {
 
         {filteredJobs.length === 0 && <div className="empty-state">{language === "zh" ? "没有找到匹配岗位，换个关键词试试。" : "No matching roles. Try another search."}</div>}
         <div className="flex justify-center mt-6"><Link href="/jobs" className="primary-pill">{language === "zh" ? "查看全部岗位" : "View all jobs"}<ArrowRight size={17} /></Link></div>
-        <img src="/art/cat-sleeping.png" alt="" className="hidden md:block w-[100px] h-[78px] object-cover rounded-2xl ml-auto mr-8 -mt-12" />
+        <img src="/art/cat-sleeping.png?v=2" alt="" className="hidden md:block w-[100px] h-[78px] object-cover rounded-2xl ml-auto mr-8 -mt-12" />
       </section>
 
       <section id="industries" className="max-w-6xl mx-auto px-5 py-14 scroll-mt-24">
