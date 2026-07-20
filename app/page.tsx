@@ -59,7 +59,7 @@ export default function Home() {
       <Hero profile={profile} jobCount={jobs.length} companyCount={companies.length} industryCount={industries.length} />
 
       <section id="jobs" className="relative max-w-6xl mx-auto px-5 pt-10 md:pt-16 scroll-mt-24">
-        <img src="/art/cat-sitting-final.png" alt="" className="hidden md:block w-[82px] h-[116px] object-contain ml-8 mb-2" />
+        <img src="/art/cat-sitting-final.png" alt="" className="pointer-events-none absolute left-8 -top-[72px] hidden h-[116px] w-[82px] object-contain md:block" />
         <div className="flex items-end justify-between gap-4 mb-5">
           <div>
             <p className="eyebrow">{language === "zh" ? "每天发现新机会" : "Fresh opportunities"}</p>

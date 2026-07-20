@@ -12,7 +12,7 @@ export default function Hero({ profile, jobCount, companyCount, industryCount }:
       <div className="grid md:grid-cols-[1.05fr_.95fr] items-center gap-8">
         <div>
           <span className="hero-kicker"><span className="status-dot" />{language === "zh" ? "全球科技招聘 · 持续更新" : "Global tech hiring · Updated regularly"}</span>
-          <h1 className="hero-title">{language === "zh" ? <>连接全球科技<br />人才与机会</> : <>Global tech talent<br />meets opportunity</>}</h1>
+          <h1 className={`hero-title ${language === "en" ? "hero-title-en" : ""}`}>{language === "zh" ? <>连接全球科技<br />人才与机会</> : <>Global tech talent<br />meets opportunity</>}</h1>
           <p className="hero-copy">{language === "zh" ? "聚焦 AI Agent、具身智能、Web3 与全球化科技公司，发现真实、持续更新的职业机会。" : "Curated opportunities across AI agents, embodied AI, Web3 and global technology companies."}</p>
           <a href="#jobs" className="hero-search"><Search size={19} /><span>{language === "zh" ? "搜索岗位、公司或关键词" : "Search roles, companies or skills"}</span></a>
           <div className="flex flex-wrap gap-3 mt-5">
