@@ -1,23 +1,27 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
-import { ArrowRight, Globe2, RefreshCw, Search } from "lucide-react";
+import { ArrowRight, Globe2, Linkedin, MessageCircle, RefreshCw, Search, X } from "lucide-react";
 import type { Profile } from "@/lib/data";
 import { useI18n } from "@/lib/i18n";
 
 export default function Hero({ profile, jobCount, companyCount, industryCount }: { profile: Profile; jobCount: number; companyCount: number; industryCount: number }) {
   const { language } = useI18n();
+  const [showWechat, setShowWechat] = useState(false);
   return (
     <section className="max-w-6xl mx-auto px-5 pt-12 md:pt-20 pb-5">
       <div className="grid md:grid-cols-[1.05fr_.95fr] items-center gap-8">
         <div>
           <span className="hero-kicker"><span className="status-dot" />{language === "zh" ? "全球科技招聘 · 持续更新" : "Global tech hiring · Updated regularly"}</span>
-          <h1 className={`hero-title ${language === "en" ? "hero-title-en" : ""}`}>{language === "zh" ? <>连接全球科技<br />人才与机会</> : <>Global tech talent<br />meets opportunity</>}</h1>
+          <h1 className={`hero-title ${language === "en" ? "hero-title-en" : ""}`}>{language === "zh" ? <>连接全球科技<br />人才与机会</> : <><span>Global tech talent</span><br /><span>meets opportunity</span></>}</h1>
           <p className="hero-copy">{language === "zh" ? "聚焦 AI Agent、具身智能、Web3 与全球化科技公司，发现真实、持续更新的职业机会。" : "Curated opportunities across AI agents, embodied AI, Web3 and global technology companies."}</p>
           <a href="#jobs" className="hero-search"><Search size={19} /><span>{language === "zh" ? "搜索岗位、公司或关键词" : "Search roles, companies or skills"}</span></a>
           <div className="flex flex-wrap gap-3 mt-5">
             <a href="#jobs" className="primary-pill">{language === "zh" ? "浏览全部岗位" : "Browse all jobs"}<ArrowRight size={17} /></a>
             <Link href="/contact" className="secondary-pill">{language === "zh" ? "联系咕咕" : "Contact Goldy"}</Link>
+            <button type="button" onClick={() => setShowWechat(true)} className="secondary-pill"><MessageCircle size={17} />{language === "zh" ? "加咕咕微信" : "Goldy’s WeChat"}</button>
+            <a href={profile.contact.linkedin} target="_blank" rel="noreferrer" className="secondary-pill"><Linkedin size={17} />LinkedIn</a>
           </div>
           <div className="flex flex-wrap gap-3 mt-6">
             <span className="trust-chip"><Globe2 size={16} />{language === "zh" ? "全球科技招聘" : "Global tech hiring"}</span>
@@ -34,6 +38,17 @@ export default function Hero({ profile, jobCount, companyCount, industryCount }:
         <div><strong>{industryCount || "7"}</strong><span>{language === "zh" ? "行业方向" : "Industry tracks"}</span></div>
         <div><strong><Globe2 /></strong><span>{language === "zh" ? "全球机会" : "Global reach"}</span></div>
       </div>
+
+      {showWechat && (
+        <div className="wechat-modal" role="dialog" aria-modal="true" aria-labelledby="wechat-title" onClick={() => setShowWechat(false)}>
+          <div className="wechat-card" onClick={(event) => event.stopPropagation()}>
+            <button type="button" className="wechat-close" onClick={() => setShowWechat(false)} aria-label={language === "zh" ? "关闭微信二维码" : "Close WeChat QR code"}><X size={20} /></button>
+            <h2 id="wechat-title">{language === "zh" ? "扫码添加咕咕微信" : "Scan to add Goldy on WeChat"}</h2>
+            <img src="/wechat-goldy.png" alt={language === "zh" ? "咕咕的微信二维码" : "Goldy’s WeChat QR code"} />
+            <p>{language === "zh" ? `微信号：${profile.contact.wechat}` : `WeChat ID: ${profile.contact.wechat}`}</p>
+          </div>
+        </div>
+      )}
     </section>
   );
 }

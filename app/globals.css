@@ -75,7 +75,8 @@ button, input, select { font: inherit; }
 .hero-kicker { display: inline-flex; align-items: center; gap: .5rem; margin-bottom: 1.25rem; }
 .status-dot { display: inline-block; width: .5rem; height: .5rem; border-radius: 999px; background: #f47b68; margin-right: .35rem; }
 .hero-title { color: var(--ink); font-size: clamp(3rem, 6vw, 5.25rem); line-height: 1.02; letter-spacing: -.055em; font-weight: 800; }
-.hero-title-en { font-size: clamp(2.65rem, 5.25vw, 4.6rem); }
+.hero-title-en { font-size: clamp(2.15rem, 4vw, 3.45rem); letter-spacing: -.045em; }
+.hero-title-en span { white-space: nowrap; }
 .hero-copy { color: var(--text-secondary); max-width: 38rem; margin-top: 1.5rem; font-size: 1.04rem; line-height: 1.9; }
 .hero-search { display: flex; align-items: center; gap: .75rem; max-width: 31rem; border: 1px solid rgba(16,36,62,.35); background: rgba(255,255,255,.68); padding: .9rem 1rem; border-radius: 12px; color: var(--text-secondary); margin-top: 1.7rem; }
 .primary-pill, .secondary-pill { display: inline-flex; align-items: center; justify-content: center; gap: .55rem; border-radius: 999px; padding: .78rem 1.35rem; font-size: .9rem; font-weight: 700; }
@@ -83,6 +84,12 @@ button, input, select { font: inherit; }
 .primary-pill:hover { transform: translateY(-2px); box-shadow: 0 14px 28px rgba(16,36,62,.18); }
 .secondary-pill { border: 1px solid rgba(16,36,62,.2); color: var(--ink); background: rgba(255,255,255,.6); }
 .trust-chip { display: inline-flex; align-items: center; gap: .5rem; border: 1px solid #e9c46a; background: #fff4c9; color: var(--ink); padding: .6rem .85rem; border-radius: 10px; }
+.wechat-modal { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; padding: 1.25rem; background: rgba(16,36,62,.58); backdrop-filter: blur(5px); }
+.wechat-card { position: relative; width: min(92vw, 390px); padding: 1.6rem; border: 1px solid rgba(16,36,62,.18); border-radius: 22px; background: #fffaf2; box-shadow: 0 24px 70px rgba(16,36,62,.28); text-align: center; }
+.wechat-card h2 { color: var(--ink); font-size: 1.25rem; font-weight: 800; }
+.wechat-card img { width: 100%; margin-top: 1rem; border-radius: 14px; }
+.wechat-card p { margin-top: .85rem; color: var(--text-secondary); font-size: .85rem; }
+.wechat-close { position: absolute; right: .7rem; top: .7rem; display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; color: var(--ink); background: #fff; border: 1px solid rgba(16,36,62,.15); }
 .metrics-row { display: grid; grid-template-columns: repeat(4,1fr); gap: 1rem; max-width: 52rem; margin: 2rem auto 0; padding: 1.7rem 0; }
 .metrics-row > div { display: flex; flex-direction: column; align-items: center; border-right: 1px solid rgba(16,36,62,.15); }
 .metrics-row > div:last-child { border-right: 0; }
@@ -131,7 +138,7 @@ table tbody tr:hover { background: #fff5e9; }
 
 @media (max-width: 767px) {
   .hero-title { font-size: 3.15rem; }
-  .hero-title-en { font-size: 2.7rem; }
+  .hero-title-en { font-size: clamp(2rem, 9vw, 2.45rem); }
   .metrics-row { grid-template-columns: repeat(2,1fr); }
   .metrics-row > div:nth-child(2) { border-right: 0; }
   .company-card { min-height: 0; }

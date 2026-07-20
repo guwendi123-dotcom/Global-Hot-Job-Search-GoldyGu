@@ -59,7 +59,7 @@ export default function Home() {
       <Hero profile={profile} jobCount={jobs.length} companyCount={companies.length} industryCount={industries.length} />
 
       <section id="jobs" className="relative max-w-6xl mx-auto px-5 pt-10 md:pt-16 scroll-mt-24">
-        <img src="/art/cat-sitting-final.png" alt="" className="pointer-events-none absolute left-8 -top-[72px] hidden h-[116px] w-[82px] object-contain md:block" />
+        <img src="/art/cat-sitting-v3.png" alt="" className="pointer-events-none absolute left-8 -top-[88px] hidden h-[116px] w-[82px] object-contain md:block" />
         <div className="flex items-end justify-between gap-4 mb-5">
           <div>
             <p className="eyebrow">{language === "zh" ? "每天发现新机会" : "Fresh opportunities"}</p>
@@ -123,7 +123,7 @@ export default function Home() {
 
         {filteredJobs.length === 0 && <div className="empty-state">{language === "zh" ? "没有找到匹配岗位，换个关键词试试。" : "No matching roles. Try another search."}</div>}
         <div className="flex justify-center mt-6"><Link href="/jobs" className="primary-pill">{language === "zh" ? "查看全部岗位" : "View all jobs"}<ArrowRight size={17} /></Link></div>
-        <img src="/art/cat-sleeping-final.png" alt="" className="hidden md:block w-[118px] h-[92px] object-contain ml-auto mr-8 -mt-12" />
+        <img src="/art/cat-sleeping-v3.png" alt="" className="hidden md:block w-[118px] h-[92px] object-contain ml-auto mr-8 -mt-12" />
       </section>
 
       <section id="industries" className="max-w-6xl mx-auto px-5 py-14 scroll-mt-24">
