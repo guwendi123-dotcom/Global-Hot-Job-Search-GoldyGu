@@ -98,6 +98,20 @@
     "sort": 40
   },
   {
+    "id": "nirva",
+    "industryId": "smart-hardware",
+    "name": "Nirva",
+    "nameEn": "Nirva",
+    "logo": "",
+    "description": "Nirva 是全球最具美感、也最具洞察力的 AI 可穿戴首饰——第一款真正为全天佩戴而设计的 AI 设备。成立约3个月即获 Best of CES 2026 及「最佳 CES 创业公司」奖项。主打 AI 可穿戴首饰类产品，如智能耳环、项链等，聚焦生活化场景，如日记记录、自我认知辅助、情感陪伴。Pre-seed 轮由美国 South Park Commons（SPC）领投，金额为 40 万美元，并承诺后续跟投 60 万美元，总计约 100 万美元。",
+    "descriptionEn": "Nirva is the world's most beautiful and insightful AI wearable jewelry — the first AI device truly designed for all-day wear. Founded ~3 months ago, Nirva won Best of CES 2026 and 'Best CES Startup' award. The company focuses on AI wearable jewelry products such as smart earrings and necklaces, targeting life-oriented scenarios like journaling, self-awareness assistance, and emotional companionship. Pre-seed round led by US-based South Park Commons (SPC) with $400k investment and $600k committed follow-on, totaling ~$1M.",
+    "stage": "Pre-seed",
+    "stageEn": "Pre-seed",
+    "location": "湾区/深圳",
+    "locationEn": "Bay Area / Shenzhen",
+    "sort": 15
+  },
+  {
     "id": "driveauto",
     "industryId": "smart-hardware",
     "name": "DriveAuto 智驾",
