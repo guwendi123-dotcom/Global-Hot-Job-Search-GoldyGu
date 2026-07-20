@@ -138,5 +138,19 @@
     "locationEn": "Hangzhou / North America Remote",
     "logo": "",
     "sort": 5
+  },
+  {
+    "id": "sudo",
+    "industryId": "embodied-ai",
+    "name": "Sudo AI",
+    "nameEn": "Sudo AI",
+    "description": "Sudo AI 成立于2024年，是全球增长最快的具身智能独角兽之一，估值超20亿美元。投资方包括阿里巴巴、腾讯、宁德时代(GL Ventures)、IDG资本等。公司于2026年4月发布#sudo R1，是软硬件全栈自研的机器人系统，核心为基于纯仿真训练的操作基础模型（以物体抓取为核心）。完全无需真实世界数据、人类演示或逐物体微调，即可实现对从未见过的物体的高可靠抓取，60分钟连续测试接近100%成功率。",
+    "descriptionEn": "Sudo AI, founded in 2024, is one of the fastest-growing embodied AI unicorns globally, with a valuation exceeding $2 billion. Investors include Alibaba, Tencent, CATL (Ningde Times), GL Ventures, IDG Capital, and others. The company launched #sudo R1 in April 2026, a fully self-developed robotics system featuring an operation foundation model trained purely in simulation (centered on object grasping). Without real-world data, human demonstrations, or per-object fine-tuning, it achieves high-reliability grasping of unseen objects with near 100% success rate in 60-minute continuous testing.",
+    "stage": "独角兽",
+    "stageEn": "Unicorn",
+    "location": "上海/美国山景城",
+    "locationEn": "Shanghai / Mountain View, USA",
+    "logo": "",
+    "sort": 1
   }
 ]

@@ -46,5 +46,11 @@
     "name": "PM",
     "nameZh": "项目类",
     "icon": "clipboard"
+  },
+  {
+    "id": "operations",
+    "name": "Operations",
+    "nameZh": "运营类",
+    "icon": "settings"
   }
 ]
