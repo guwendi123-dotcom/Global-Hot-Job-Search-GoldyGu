@@ -1,373 +1,150 @@
 "use client";
 
-import { getProfile, getIndustriesSync, getCompaniesSync, getJobTypes, getJobsSync } from "@/lib/data";
+import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
+import { ArrowRight, ChevronDown, MapPin, Search, Sparkles } from "lucide-react";
+import { getCompaniesSync, getIndustriesSync, getJobsSync, getJobTypes, getProfile } from "@/lib/data";
 import Hero from "@/components/Hero";
-import IndustryCard from "@/components/IndustryCard";
 import CompanyCard from "@/components/CompanyCard";
+import IndustryCard from "@/components/IndustryCard";
 import Footer from "@/components/Footer";
 import { useI18n } from "@/lib/i18n";
-import { useEffect, useState } from "react";
-import Link from "next/link";
-import { Briefcase, TrendingUp, Microscope, Code, Brain, Crown, Palette, Clipboard, Globe, Clock, MapPin, Building2, X } from "lucide-react";
+
+const ITEMS_PER_PAGE = 8;
 
 export default function Home() {
+  const { language } = useI18n();
   const [profile, setProfile] = useState<any>(null);
   const [industries, setIndustries] = useState<any[]>([]);
   const [companies, setCompanies] = useState<any[]>([]);
-  const [jobTypes, setJobTypes] = useState<any[]>([]);
   const [jobs, setJobs] = useState<any[]>([]);
-  const [showJobTable, setShowJobTable] = useState(true);
-  const [currentPage, setCurrentPage] = useState(1);
-  const [searchQuery, setSearchQuery] = useState("");
-  const ITEMS_PER_PAGE = 7;
-  const { language, t } = useI18n();
-
-  // 地点筛选状态
-  const [selectedLocations, setSelectedLocations] = useState<string[]>([]);
-
-  // 地点分组定义
-  const locationGroups = [
-    // 🇨🇳 中国
-    { id: "beijing", name: "北京", nameEn: "Beijing", icon: "🏯", keywords: ["北京"] },
-    { id: "shanghai-hz", name: "上海/杭州", nameEn: "Shanghai / Hangzhou", icon: "🏙️", keywords: ["上海", "杭州"] },
-    { id: "gz-sz", name: "广州/深圳", nameEn: "Guangzhou / Shenzhen", icon: "🌆", keywords: ["广州", "深圳", "香港"] },
-    // 🇺🇸 美国 - 旧金山湾区
-    { id: "sf-north-bay", name: "北湾", nameEn: "North Bay", icon: "🌲", keywords: ["马林", "纳帕", "索诺马", "索拉诺", "Marin", "Napa", "Sonoma", "Solano", "North Bay"] },
-    { id: "sf-city", name: "旧金山市", nameEn: "San Francisco", icon: "🌉", keywords: ["旧金山", "San Francisco", "湾区", "Bay Area"] },
-    { id: "sf-east-bay", name: "东湾", nameEn: "East Bay", icon: "🏗️", keywords: ["奥克兰", "伯克利", "弗里蒙特", "Oakland", "Berkeley", "Fremont", "East Bay"] },
-    { id: "sf-silicon-valley", name: "硅谷", nameEn: "Silicon Valley", icon: "💻", keywords: ["圣何塞", "圣克拉拉", "库比蒂诺", "森尼韦尔", "帕罗奥图", "山景城", "San Jose", "Santa Clara", "Cupertino", "Sunnyvale", "Palo Alto", "Mountain View", "Silicon Valley", "MTV", "North America", "北美", "美国"] },
-    // 🇺🇸 美国 - 其他
-    { id: "la", name: "洛杉矶", nameEn: "Los Angeles", icon: "🌴", keywords: ["洛杉矶", "Los Angeles"] },
-    // 🌍 其他地区
-    { id: "europe", name: "欧洲", nameEn: "Europe", icon: "🏰", keywords: ["欧洲", "Europe", "UK", "英国", "德国", "法国", "London"] },
-    { id: "se-asia", name: "东南亚", nameEn: "Southeast Asia", icon: "🌴", keywords: ["东南亚", "Singapore", "新加坡", "吉隆坡", "曼谷", "越南", "Thailand", "Malaysia"] },
-    // 🏠 Remote
-    { id: "remote", name: "Remote/远程", nameEn: "Remote", icon: "🏠", keywords: ["Remote", "远程", "全球", "Global"] },
-  ];
-
-  // 判断岗位是否匹配选中的地点
-  const isJobMatchLocation = (job: any, selected: string[]) => {
-    if (selected.length === 0) return true;
-    const loc = job.location || "";
-    const locEn = job.locationEn || "";
-    return selected.some(groupId => {
-      const group = locationGroups.find(g => g.id === groupId);
-      if (!group) return false;
-      return group.keywords.some(kw => loc.includes(kw) || locEn.includes(kw));
-    });
-  };
-
-  // 切换地点选择
-  const toggleLocation = (groupId: string) => {
-    setSelectedLocations(prev =>
-      prev.includes(groupId)
-        ? prev.filter(id => id !== groupId)
-        : [...prev, groupId]
-    );
-    setCurrentPage(1);
-  };
-
-  // 清除所有筛选
-  const clearLocationFilter = () => {
-    setSelectedLocations([]);
-    setCurrentPage(1);
-  };
-
-  // 筛选后的岗位
-  const filteredJobs = jobs.filter(job => {
-    if (!isJobMatchLocation(job, selectedLocations)) return false;
-    const query = searchQuery.trim().toLowerCase();
-    if (!query) return true;
-    const matchedCompany = companies.find(company => company.id === job.companyId);
-    return [job.title, job.titleEn, job.location, job.locationEn, matchedCompany?.name, matchedCompany?.nameEn, ...(job.tags || []), ...(job.tagsEn || [])]
-      .filter(Boolean).join(" ").toLowerCase().includes(query);
-  });
+  const [jobTypes, setJobTypes] = useState<any[]>([]);
+  const [query, setQuery] = useState("");
+  const [location, setLocation] = useState("");
+  const [jobType, setJobType] = useState("");
 
   useEffect(() => {
     setProfile(getProfile());
     setIndustries(getIndustriesSync());
     setCompanies(getCompaniesSync());
+    setJobs(getJobsSync());
     setJobTypes(getJobTypes());
-    // 获取岗位并按 sort 排序（sort 越小越新）
-    const allJobs = getJobsSync();
-    const sortedJobs = [...allJobs].sort((a, b) => (a.sort || 999) - (b.sort || 999));
-    setJobs(sortedJobs);
   }, []);
+
+  const filteredJobs = useMemo(() => jobs.filter((job) => {
+    const company = companies.find((item) => item.id === job.companyId);
+    const haystack = [job.title, job.titleEn, company?.name, company?.nameEn, job.location, job.locationEn, ...(job.tags || [])].join(" ").toLowerCase();
+    const matchesQuery = !query.trim() || haystack.includes(query.trim().toLowerCase());
+    const matchesLocation = !location || `${job.location} ${job.locationEn}`.includes(location);
+    const matchesType = !jobType || job.jobType?.split(",").map((item: string) => item.trim()).includes(jobType);
+    return matchesQuery && matchesLocation && matchesType;
+  }), [jobs, companies, query, location, jobType]);
 
   if (!profile) return null;
 
-  const iconMap: Record<string, any> = {
-    handshake: <Briefcase className="w-6 h-6" />,
-    "trending-up": <TrendingUp className="w-6 h-6" />,
-    microscope: <Microscope className="w-6 h-6" />,
-    code: <Code className="w-6 h-6" />,
-    brain: <Brain className="w-6 h-6" />,
-    crown: <Crown className="w-6 h-6" />,
-    palette: <Palette className="w-6 h-6" />,
-    clipboard: <Clipboard className="w-6 h-6" />,
-    globe: <Globe className="w-6 h-6" />,
+  const companyName = (id: string) => {
+    const company = companies.find((item) => item.id === id);
+    return language === "zh" ? company?.name || id : company?.nameEn || company?.name || id;
   };
 
-  // 获取公司名称
-  const getCompanyName = (companyId: string) => {
-    const company = companies.find(c => c.id === companyId);
-    if (!company) return companyId;
-    return language === "zh" ? company.name : (company.nameEn || company.name);
+  const typeName = (id: string) => {
+    const type = jobTypes.find((item) => item.id === id);
+    return language === "zh" ? type?.nameZh || id : type?.name || id;
   };
 
-  // 获取岗位分类名称
-  const getJobTypeNames = (jobType: string) => {
-    if (!jobType) return "";
-    const types = jobType.split(",");
-    return types.map(type => {
-      const found = jobTypes.find(t => t.id === type.trim());
-      if (!found) return type.trim();
-      return language === "zh" ? found.nameZh : found.name;
-    }).join(", ");
-  };
+  const featuredCompanies = companies.slice(0, 8);
 
   return (
     <main className="min-h-screen bg-bg-primary">
-      <Hero profile={profile} />
+      <Hero profile={profile} jobCount={jobs.length} companyCount={companies.length} industryCount={industries.length} />
 
-      {/* Toggle Job Table Button and Location Filter */}
-      <section id="jobs" className="max-w-6xl mx-auto px-4 pt-8 scroll-mt-24">
-        <div className="mb-6">
-          <p className="text-sm font-semibold text-accent mb-2">{language === "zh" ? "实时更新" : "Updated regularly"}</p>
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
-            <div><h2 className="text-3xl md:text-4xl font-bold tracking-tight">{language === "zh" ? "找到适合你的下一份工作" : "Find your next role"}</h2><p className="text-text-secondary mt-2">{jobs.length} {language === "zh" ? "个真实在招岗位" : "active opportunities"}</p></div>
-            <input value={searchQuery} onChange={(e) => { setSearchQuery(e.target.value); setCurrentPage(1); }} placeholder={language === "zh" ? "搜索岗位、公司或关键词" : "Search roles, companies or skills"} className="w-full md:w-80 px-5 py-3 rounded-full bg-white border border-border focus:border-accent focus:outline-none shadow-sm" />
+      <section id="jobs" className="relative max-w-6xl mx-auto px-5 pt-10 md:pt-16 scroll-mt-24">
+        <img src="/art/cat-sitting.png" alt="" className="hidden md:block w-[82px] h-[90px] object-cover rounded-2xl ml-5 mb-2" />
+        <div className="flex items-end justify-between gap-4 mb-5">
+          <div>
+            <p className="eyebrow">{language === "zh" ? "每天发现新机会" : "Fresh opportunities"}</p>
+            <h2 className="section-title">{language === "zh" ? "最新在招岗位" : "Latest opportunities"}</h2>
           </div>
+          <p className="hidden md:block text-sm text-text-secondary">{language === "zh" ? `共 ${filteredJobs.length} 个岗位` : `${filteredJobs.length} roles`}</p>
         </div>
-        <div className="flex flex-wrap items-center gap-4">
-          <button
-            onClick={() => setShowJobTable(!showJobTable)}
-            className="flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-full hover:bg-orange-600 transition-colors"
-          >
-            <Briefcase size={18} />
-            {showJobTable ? t.collapseJobList : t.expandJobList}
-          </button>
 
-          {/* Location Filter */}
-          {showJobTable && (
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="text-sm text-text-secondary mr-2">
-                {language === "zh" ? "地点:" : "Location:"}
-              </span>
-              {locationGroups.map(group => (
-                <button
-                  key={group.id}
-                  onClick={() => toggleLocation(group.id)}
-                  className={`flex items-center gap-1 px-3 py-2 text-sm rounded-full border transition-all ${
-                    selectedLocations.includes(group.id)
-                      ? "bg-accent text-white border-accent"
-                      : "bg-white text-text-secondary border-border hover:border-accent"
-                  }`}
-                >
-                  <span>{group.icon}</span>
-                  <span>{language === "zh" ? group.name : group.nameEn}</span>
-                </button>
+        <div className="grid md:grid-cols-[1fr_180px_180px] gap-3 mb-4">
+          <label className="filter-control">
+            <Search size={18} />
+            <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder={language === "zh" ? "搜索岗位、公司或关键词" : "Search roles, companies or skills"} aria-label={language === "zh" ? "搜索岗位" : "Search jobs"} />
+          </label>
+          <label className="filter-control">
+            <MapPin size={17} />
+            <select value={location} onChange={(event) => setLocation(event.target.value)} aria-label={language === "zh" ? "筛选地点" : "Filter location"}>
+              <option value="">{language === "zh" ? "全部地点" : "All locations"}</option>
+              {["北京", "上海", "深圳", "杭州", "香港", "新加坡", "Remote"].map((item) => <option key={item} value={item}>{item}</option>)}
+            </select>
+            <ChevronDown size={15} />
+          </label>
+          <label className="filter-control">
+            <Sparkles size={17} />
+            <select value={jobType} onChange={(event) => setJobType(event.target.value)} aria-label={language === "zh" ? "筛选岗位方向" : "Filter role type"}>
+              <option value="">{language === "zh" ? "岗位方向" : "Role type"}</option>
+              {jobTypes.map((type) => <option key={type.id} value={type.id}>{language === "zh" ? type.nameZh : type.name}</option>)}
+            </select>
+            <ChevronDown size={15} />
+          </label>
+        </div>
+
+        <div className="hidden md:block overflow-hidden rounded-2xl border border-ink/15 bg-white/65">
+          <table className="w-full text-sm">
+            <thead className="bg-white/70 text-text-secondary">
+              <tr><th>{language === "zh" ? "岗位" : "Role"}</th><th>{language === "zh" ? "公司" : "Company"}</th><th>{language === "zh" ? "方向" : "Track"}</th><th>{language === "zh" ? "地点" : "Location"}</th><th>{language === "zh" ? "更新" : "Updated"}</th><th aria-label="查看详情" /></tr>
+            </thead>
+            <tbody>
+              {filteredJobs.slice(0, ITEMS_PER_PAGE).map((job, index) => (
+                <tr key={job.id}>
+                  <td><Link href={`/job/${job.id}`} className="font-semibold hover:text-accent">{language === "zh" ? job.title : job.titleEn || job.title}</Link></td>
+                  <td>{companyName(job.companyId)}</td>
+                  <td>{typeName(job.jobType?.split(",")[0]?.trim())}</td>
+                  <td>{language === "zh" ? job.location : job.locationEn || job.location}</td>
+                  <td><span className="status-dot" />{index < 3 ? (language === "zh" ? "最新" : "New") : (language === "zh" ? "持续招聘" : "Hiring")}</td>
+                  <td><Link href={`/job/${job.id}`} aria-label={`查看 ${job.title}`} className="table-arrow"><ArrowRight size={17} /></Link></td>
+                </tr>
               ))}
-              {selectedLocations.length > 0 && (
-                <button
-                  onClick={clearLocationFilter}
-                  className="flex items-center gap-1 px-3 py-2 text-sm rounded-full border border-red-300 text-red-500 hover:bg-red-50 transition-all"
-                >
-                  <X size={14} />
-                  {language === "zh" ? "清除" : "Clear"}
-                </button>
-              )}
-            </div>
-          )}
+            </tbody>
+          </table>
         </div>
 
-        {/* Job Count Info */}
-        {showJobTable && selectedLocations.length > 0 && (
-          <div className="mt-4 text-sm text-text-secondary">
-            {language === "zh"
-              ? `显示 ${filteredJobs.length} 个岗位（总共 ${jobs.length} 个）`
-              : `Showing ${filteredJobs.length} jobs (${jobs.length} total)`}
-          </div>
-        )}
-
-        {/* Job Table with Pagination */}
-        {showJobTable && (
-          <>
-          <div className="md:hidden mt-4 grid gap-3">
-            {filteredJobs.slice((currentPage - 1) * ITEMS_PER_PAGE, currentPage * ITEMS_PER_PAGE).map((job) => (
-              <Link key={job.id} href={`/job/${job.id}`} className="block bg-white rounded-2xl border border-border p-5 hover:border-accent hover:shadow-md">
-                <div className="flex justify-between gap-3"><div><p className="text-xs text-text-secondary mb-1">{getCompanyName(job.companyId)}</p><h3 className="font-semibold text-lg">{language === "zh" ? job.title : job.titleEn || job.title}</h3></div><span className="text-accent">→</span></div>
-                <div className="flex items-center gap-2 mt-4 text-sm text-text-secondary"><MapPin size={14} />{language === "zh" ? job.location : job.locationEn}</div>
-                <div className="flex flex-wrap gap-2 mt-3">{(language === "zh" ? job.tags : job.tagsEn || job.tags).slice(0, 3).map((tag: string) => <span key={tag} className="text-xs px-2.5 py-1 rounded-full bg-accent-light text-accent">{tag}</span>)}</div>
-              </Link>
-            ))}
-            {filteredJobs.length === 0 && (
-              <div className="rounded-2xl border border-border bg-white px-5 py-10 text-center text-text-secondary">
-                {language === "zh" ? "没有找到匹配岗位，试试其他关键词或地点。" : "No matching roles. Try another keyword or location."}
-              </div>
-            )}
-            {filteredJobs.length > ITEMS_PER_PAGE && (
-              <div className="flex items-center justify-between pt-2">
-                <button onClick={() => setCurrentPage(p => Math.max(1, p - 1))} disabled={currentPage === 1} className="px-4 py-2 text-sm bg-white border border-border rounded-full disabled:opacity-40">{t.previousPage}</button>
-                <span className="text-sm text-text-secondary">{currentPage} / {Math.ceil(filteredJobs.length / ITEMS_PER_PAGE)}</span>
-                <button onClick={() => setCurrentPage(p => Math.min(Math.ceil(filteredJobs.length / ITEMS_PER_PAGE), p + 1))} disabled={currentPage >= Math.ceil(filteredJobs.length / ITEMS_PER_PAGE)} className="px-4 py-2 text-sm bg-accent text-white rounded-full disabled:opacity-40">{t.nextPage}</button>
-              </div>
-            )}
-          </div>
-          <div className="hidden md:block mt-4 bg-white rounded-2xl border border-border overflow-hidden">
-            <div className="overflow-x-auto">
-              <table className="w-full">
-                <thead>
-                  <tr className="bg-bg-primary border-b border-border">
-                    <th className="text-left px-6 py-4 text-sm font-semibold text-text-primary">{t.job}</th>
-                    <th className="text-left px-6 py-4 text-sm font-semibold text-text-primary">{t.company}</th>
-                    <th className="text-left px-6 py-4 text-sm font-semibold text-text-primary">{t.category}</th>
-                    <th className="text-left px-6 py-4 text-sm font-semibold text-text-primary">{t.location}</th>
-                    <th className="text-left px-6 py-4 text-sm font-semibold text-text-primary">{t.lastUpdated}</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {filteredJobs.slice((currentPage - 1) * ITEMS_PER_PAGE, currentPage * ITEMS_PER_PAGE).map((job, index) => {
-                    const sortLabel = job.sort <= 5 ? t.newest : job.sort <= 20 ? t.hot : t.recommended;
-                    const rowIndex = (currentPage - 1) * ITEMS_PER_PAGE + index;
-                    return (
-                      <tr
-                        key={job.id}
-                        className={`border-b border-border hover:bg-accent-light/30 transition-colors ${
-                          rowIndex % 2 === 0 ? "bg-white" : "bg-bg-primary/30"
-                        }`}
-                      >
-                        <td className="px-6 py-4">
-                          <Link href={`/job/${job.id}`} className="hover:text-accent">
-                            <div className="font-semibold text-text-primary">{job.title}</div>
-                            <div className="text-sm text-text-secondary">{job.titleEn}</div>
-                          </Link>
-                        </td>
-                        <td className="px-6 py-4">
-                          <div className="flex items-center gap-2">
-                            <Building2 size={14} className="text-text-secondary" />
-                            <span className="text-text-primary">{getCompanyName(job.companyId)}</span>
-                          </div>
-                        </td>
-                        <td className="px-6 py-4">
-                          <div className="flex flex-wrap gap-1">
-                            {job.jobType?.split(",").map((type: string) => {
-                              const typeId = type.trim();
-                              const found = jobTypes.find(t => t.id === typeId);
-                              return found ? (
-                                <span
-                                  key={typeId}
-                                  className="px-2 py-1 text-xs bg-accent-light text-accent rounded-full"
-                                >
-                                  {language === "zh" ? found.nameZh : found.name}
-                                </span>
-                              ) : null;
-                            })}
-                          </div>
-                        </td>
-                        <td className="px-6 py-4">
-                          <div className="flex items-center gap-1 text-sm text-text-secondary">
-                            <MapPin size={14} />
-                            {language === "zh" ? job.location : job.locationEn}
-                          </div>
-                        </td>
-                        <td className="px-6 py-4">
-                          <span className={`px-2 py-1 text-xs rounded-full ${
-                            sortLabel === "最新" ? "bg-green-100 text-green-600" :
-                            sortLabel === "热门" ? "bg-orange-100 text-orange-600" :
-                            "bg-gray-100 text-gray-600"
-                          }`}>
-                            {sortLabel}
-                          </span>
-                        </td>
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
-            </div>
-
-            {/* Pagination */}
-            {filteredJobs.length > ITEMS_PER_PAGE && (
-              <div className="flex items-center justify-between px-6 py-4 border-t border-bg-primary">
-                <span className="text-sm text-text-secondary">
-                  {language === "zh"
-                    ? `第 ${currentPage} 页，共 ${Math.ceil(filteredJobs.length / ITEMS_PER_PAGE)} 页`
-                    : `Page ${currentPage} of ${Math.ceil(filteredJobs.length / ITEMS_PER_PAGE)}`
-                  }
-                </span>
-                <div className="flex gap-2">
-                  <button
-                    onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
-                    disabled={currentPage === 1}
-                    className="px-4 py-2 text-sm bg-bg-primary text-text-secondary rounded-lg hover:bg-accent-light disabled:opacity-50 disabled:cursor-not-allowed"
-                  >
-                    {t.previousPage}
-                  </button>
-                  <button
-                    onClick={() => setCurrentPage(p => Math.min(Math.ceil(filteredJobs.length / ITEMS_PER_PAGE), p + 1))}
-                    disabled={currentPage >= Math.ceil(filteredJobs.length / ITEMS_PER_PAGE)}
-                    className="px-4 py-2 text-sm bg-accent text-white rounded-lg hover:bg-orange-600 disabled:opacity-50 disabled:cursor-not-allowed"
-                  >
-                    {t.nextPage}
-                  </button>
-                </div>
-              </div>
-            )}
-          </div>
-          </>
-        )}
-      </section>
-
-      {/* Job Types Section */}
-      <section className="max-w-5xl mx-auto px-4 py-16 scroll-mt-24">
-        <h2 className="text-3xl font-bold text-text-primary mb-8">
-          {language === "zh" ? "岗位分类" : "Job Categories"}
-        </h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-          {jobTypes.map((type, index) => {
-            const name = language === "zh" ? type.nameZh : type.name;
-            return (
-              <Link
-                key={type.id}
-                href={`/jobs?type=${type.id}`}
-                className="group"
-              >
-                <div className="bg-white rounded-2xl p-6 border border-border hover:border-accent hover:shadow-lg transition-all cursor-pointer text-center">
-                  <div className="w-12 h-12 mx-auto mb-3 rounded-xl bg-accent-light flex items-center justify-center text-accent group-hover:scale-110 transition-transform">
-                    {iconMap[type.icon] || <Briefcase className="w-6 h-6" />}
-                  </div>
-                  <h3 className="text-sm font-semibold text-text-primary group-hover:text-accent transition-colors">
-                    {name}
-                  </h3>
-                </div>
-              </Link>
-            );
-          })}
-        </div>
-      </section>
-
-      {/* Featured Companies Section */}
-      <section id="companies" className="max-w-5xl mx-auto px-4 py-16 scroll-mt-24">
-        <h2 className="text-3xl font-bold text-text-primary mb-8">
-          {t.team}
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {companies.map((company, index) => (
-            <CompanyCard key={company.id} company={company} index={index} />
+        <div className="grid md:hidden gap-3">
+          {filteredJobs.slice(0, ITEMS_PER_PAGE).map((job) => (
+            <Link key={job.id} href={`/job/${job.id}`} className="mobile-job-card">
+              <div><span>{companyName(job.companyId)}</span><h3>{language === "zh" ? job.title : job.titleEn || job.title}</h3></div>
+              <p><MapPin size={14} />{language === "zh" ? job.location : job.locationEn || job.location}</p>
+              <ArrowRight className="text-ink" size={20} />
+            </Link>
           ))}
         </div>
+
+        {filteredJobs.length === 0 && <div className="empty-state">{language === "zh" ? "没有找到匹配岗位，换个关键词试试。" : "No matching roles. Try another search."}</div>}
+        <div className="flex justify-center mt-6"><Link href="/jobs" className="primary-pill">{language === "zh" ? "查看全部岗位" : "View all jobs"}<ArrowRight size={17} /></Link></div>
+        <img src="/art/cat-sleeping.png" alt="" className="hidden md:block w-[100px] h-[78px] object-cover rounded-2xl ml-auto mr-8 -mt-12" />
       </section>
 
-      {/* Industries Section */}
-      <section id="industries" className="max-w-5xl mx-auto px-4 py-16 scroll-mt-24">
-        <h2 className="text-3xl font-bold text-text-primary mb-8">
-          {t.industryTrack}
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {industries.map((industry, index) => (
-            <IndustryCard key={industry.id} industry={industry} index={index} />
-          ))}
+      <section id="industries" className="max-w-6xl mx-auto px-5 py-14 scroll-mt-24">
+        <p className="eyebrow">{language === "zh" ? "按赛道探索" : "Explore by track"}</p>
+        <h2 className="section-title mb-6">{language === "zh" ? "探索行业" : "Explore industries"}</h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+          {industries.map((industry, index) => <IndustryCard key={industry.id} industry={industry} index={index} compact />)}
+        </div>
+      </section>
+
+      <section id="companies" className="max-w-6xl mx-auto px-5 pb-14 scroll-mt-24">
+        <div className="flex items-end justify-between gap-4 mb-6">
+          <div><p className="eyebrow">{language === "zh" ? "精选创新团队" : "Selected teams"}</p><h2 className="section-title">{language === "zh" ? "精选合作公司" : "Featured companies"}</h2></div>
+          <span className="hidden md:block text-sm text-text-secondary">{language === "zh" ? "更多公司与岗位持续更新" : "More teams added regularly"}</span>
+        </div>
+        <div className="grid md:grid-cols-2 gap-4">
+          {featuredCompanies.map((company, index) => <CompanyCard key={company.id} company={company} index={index} jobCount={jobs.filter((job) => job.companyId === company.id).length} />)}
+        </div>
+        <div className="text-center mt-7">
+          <Link href="/jobs" className="primary-pill">{language === "zh" ? "查看全部公司与岗位" : "View all companies and jobs"}<ArrowRight size={17} /></Link>
+          <p className="text-xs text-text-secondary mt-3">{language === "zh" ? "更多合作公司及岗位持续更新" : "More companies and roles are added regularly"}</p>
         </div>
       </section>
 

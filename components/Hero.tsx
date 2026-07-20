@@ -1,149 +1,39 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { Mail, Phone, MessageCircle, Linkedin, Copy, Check, Send } from "lucide-react";
-import { useState } from "react";
 import Link from "next/link";
+import { ArrowRight, Globe2, RefreshCw, Search } from "lucide-react";
 import type { Profile } from "@/lib/data";
 import { useI18n } from "@/lib/i18n";
 
-interface HeroProps {
-  profile: Profile;
-}
-
-export default function Hero({ profile }: HeroProps) {
-  const [copiedPhone, setCopiedPhone] = useState(false);
-  const [copiedWechat, setCopiedWechat] = useState(false);
-  const { t, language } = useI18n();
-
-  const copyToClipboard = async (text: string, type: 'phone' | 'wechat') => {
-    try {
-      await navigator.clipboard.writeText(text);
-      if (type === 'phone') {
-        setCopiedPhone(true);
-        setTimeout(() => setCopiedPhone(false), 2000);
-      } else {
-        setCopiedWechat(true);
-        setTimeout(() => setCopiedWechat(false), 2000);
-      }
-    } catch (err) {
-      console.error('Failed to copy:', err);
-    }
-  };
-
-  const title = language === "zh" ? profile.title : profile.titleEn || profile.title;
-  const tagline = language === "zh" ? profile.tagline : profile.taglineEn || profile.tagline;
-  const bio = language === "zh" ? profile.bio : profile.bioEn || profile.bio;
-
+export default function Hero({ profile, jobCount, companyCount, industryCount }: { profile: Profile; jobCount: number; companyCount: number; industryCount: number }) {
+  const { language } = useI18n();
   return (
-    <section className="flex flex-col justify-center items-center text-center px-4 py-14 md:py-20 relative overflow-hidden">
-      {/* Background decoration */}
-      <div className="absolute inset-0 opacity-5 pointer-events-none">
-        <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-          <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
-            <path d="M 10 0 L 0 0 0 10" fill="none" stroke="currentColor" strokeWidth="0.5"/>
-          </pattern>
-          <rect width="100" height="100" fill="url(#grid)"/>
-        </svg>
+    <section className="max-w-6xl mx-auto px-5 pt-12 md:pt-20 pb-5">
+      <div className="grid md:grid-cols-[1.05fr_.95fr] items-center gap-8">
+        <div>
+          <span className="hero-kicker"><span className="status-dot" />{language === "zh" ? "全球科技招聘 · 持续更新" : "Global tech hiring · Updated regularly"}</span>
+          <h1 className="hero-title">{language === "zh" ? <>连接全球科技<br />人才与机会</> : <>Global tech talent<br />meets opportunity</>}</h1>
+          <p className="hero-copy">{language === "zh" ? "聚焦 AI Agent、具身智能、Web3 与全球化科技公司，发现真实、持续更新的职业机会。" : "Curated opportunities across AI agents, embodied AI, Web3 and global technology companies."}</p>
+          <a href="#jobs" className="hero-search"><Search size={19} /><span>{language === "zh" ? "搜索岗位、公司或关键词" : "Search roles, companies or skills"}</span></a>
+          <div className="flex flex-wrap gap-3 mt-5">
+            <a href="#jobs" className="primary-pill">{language === "zh" ? "浏览全部岗位" : "Browse all jobs"}<ArrowRight size={17} /></a>
+            <Link href="/contact" className="secondary-pill">{language === "zh" ? "联系咕咕" : "Contact Goldy"}</Link>
+          </div>
+          <div className="flex flex-wrap gap-3 mt-6">
+            <span className="trust-chip"><Globe2 size={16} />{language === "zh" ? "全球科技招聘" : "Global tech hiring"}</span>
+            <span className="trust-chip"><RefreshCw size={16} />{language === "zh" ? "持续更新岗位" : "Fresh opportunities"}</span>
+          </div>
+        </div>
+        <div className="relative">
+          <img src="/art/goldy-hero.png" alt={language === "zh" ? "咕咕和三只猫的插画" : "Goldy with three cats"} className="w-full rounded-[42%_42%_18%_18%]" />
+        </div>
       </div>
-
-      {/* Avatar - Rabbit Emoji */}
-      <motion.div
-        initial={{ scale: 0.8, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 0.5 }}
-        className="w-20 h-20 rounded-2xl bg-gradient-to-br from-accent to-orange-400 flex items-center justify-center text-4xl mb-5 shadow-lg select-none rotate-2"
-      >
-        🐰
-      </motion.div>
-
-      <motion.h1
-        initial={{ y: 20, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.1, duration: 0.5 }}
-        className="text-4xl md:text-6xl font-bold text-text-primary mb-3 tracking-tight"
-      >
-        {language === "zh" ? "连接全球科技人才与机会" : "Global tech talent meets opportunity"}
-      </motion.h1>
-
-      <motion.p
-        initial={{ y: 20, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.2, duration: 0.5 }}
-        className="text-xl text-accent font-medium mb-4"
-      >
-        {title}
-      </motion.p>
-
-      <motion.p
-        initial={{ y: 20, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.3, duration: 0.5 }}
-        className="text-lg text-text-secondary max-w-2xl mb-3"
-      >
-        {tagline}
-      </motion.p>
-
-      <motion.div
-        initial={{ y: 20, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.4, duration: 0.5 }}
-        className="text-text-secondary max-w-2xl mb-7 whitespace-pre-line text-sm leading-relaxed"
-      >
-        {language === "zh" ? "聚焦 AI Agent、具身智能、Web3 与全球化科技公司，持续更新真实在招岗位。" : "Curated roles across AI agents, embodied AI, Web3 and global technology companies."}
-      </motion.div>
-
-      <motion.div
-        initial={{ y: 20, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.5, duration: 0.5 }}
-        className="flex gap-4 flex-wrap justify-center"
-      >
-        <a
-          href={`mailto:${profile.contact.email}`}
-          style={{ cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.75rem 1.5rem', backgroundColor: '#FF6B35', color: 'white', borderRadius: '9999px', transition: 'all 0.2s', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' }}
-          className="hover:bg-orange-600 hover:shadow-lg"
-        >
-          <Mail size={18} />
-          {t.contactMe}
-        </a>
-        <Link
-          href="/contact"
-          style={{ cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.75rem 1.5rem', backgroundColor: 'white', color: '#1A1A1A', border: '2px solid #FF6B35', borderRadius: '9999px', transition: 'all 0.2s' }}
-          className="hover:bg-accent-light hover:text-accent font-medium"
-        >
-          <Send size={18} className="text-accent" />
-          {language === "zh" ? "留言给我" : "Leave a Message"}
-        </Link>
-        <button
-          onClick={() => copyToClipboard(profile.contact.phone, 'phone')}
-          style={{ cursor: 'pointer', userSelect: 'all', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.75rem 1.5rem', backgroundColor: 'white', color: '#1A1A1A', border: '1px solid #E5E7EB', borderRadius: '9999px', transition: 'all 0.2s' }}
-          className="hover:border-accent hover:text-accent"
-        >
-          <Phone size={18} />
-          {copiedPhone ? <Check size={18} /> : <Copy size={14} />}
-          <span style={{ userSelect: 'all' }}>{profile.contact.phone}</span>
-        </button>
-        <button
-          onClick={() => copyToClipboard(profile.contact.wechat, 'wechat')}
-          style={{ cursor: 'pointer', userSelect: 'all', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.75rem 1.5rem', backgroundColor: 'white', color: '#1A1A1A', border: '1px solid #E5E7EB', borderRadius: '9999px', transition: 'all 0.2s' }}
-          className="hover:border-accent hover:text-accent"
-        >
-          <MessageCircle size={18} />
-          {copiedWechat ? <Check size={18} /> : <Copy size={14} />}
-          <span style={{ userSelect: 'all', fontSize: '0.875rem' }}>{profile.contact.wechat}</span>
-        </button>
-        <a
-          href={profile.contact.linkedin}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.75rem 1.5rem', backgroundColor: 'white', color: '#1A1A1A', border: '1px solid #E5E7EB', borderRadius: '9999px', transition: 'all 0.2s' }}
-          className="hover:border-accent hover:text-accent"
-        >
-          <Linkedin size={18} />
-          LinkedIn
-        </a>
-      </motion.div>
+      <div className="metrics-row">
+        <div><strong>{jobCount || "60"}+</strong><span>{language === "zh" ? "在招岗位" : "Open roles"}</span></div>
+        <div><strong>{companyCount || "12"}</strong><span>{language === "zh" ? "合作公司" : "Companies"}</span></div>
+        <div><strong>{industryCount || "7"}</strong><span>{language === "zh" ? "行业方向" : "Industry tracks"}</span></div>
+        <div><strong><Globe2 /></strong><span>{language === "zh" ? "全球机会" : "Global reach"}</span></div>
+      </div>
     </section>
   );
 }

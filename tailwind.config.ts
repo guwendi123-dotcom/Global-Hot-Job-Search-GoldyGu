@@ -10,18 +10,20 @@ const config: Config = {
     extend: {
       colors: {
         bg: {
-          primary: "#F7F6F3",
+          primary: "#FFF9F2",
           card: "#FFFFFF",
         },
         text: {
-          primary: "#1A1A1A",
-          secondary: "#6B7280",
+          primary: "#10243E",
+          secondary: "#667085",
         },
         accent: {
-          DEFAULT: "#FF6B35",
+          DEFAULT: "#F47B68",
           light: "#FFF0EB",
         },
-        border: "#E5E7EB",
+        border: "#DED7CE",
+        ink: "#10243E",
+        coral: "#F47B68",
       },
       fontFamily: {
         display: ['var(--font-clash)', "system-ui", "sans-serif"],
