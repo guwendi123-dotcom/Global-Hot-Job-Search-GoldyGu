@@ -29,9 +29,11 @@ const ZONES: Zone[] = [
 ];
 
 const ROLES = ["候选人", "面试官", "HR", "猎头", "其他"];
-const QUICK_LOCATIONS = ["中国", "美西", "美东", "美国中部", "英国", "欧洲中部", "印度", "新加坡", "日本", "澳洲东部", "巴西", "墨西哥"];
+const QUICK_LOCATIONS = ["中国", "中国台湾", "马来西亚", "美西", "美东", "美国中部", "英国", "欧洲中部", "印度", "新加坡", "日本", "澳洲东部", "巴西", "墨西哥"];
 const LOCATION_RULES: { keywords: string[]; zone: string; name: string }[] = [
   { keywords: ["sunnyvale", "美国湾区", "旧金山湾区", "湾区", "硅谷", "silicon valley", "san francisco bay area", "san jose", "圣何塞", "mountain view", "palo alto", "cupertino", "旧金山", "san francisco"], zone: "America/Los_Angeles", name: "美国湾区 / Sunnyvale" },
+  { keywords: ["中国台湾", "台湾", "taiwan", "台北", "taipei", "高雄", "kaohsiung", "台中", "taichung", "新竹", "hsinchu"], zone: "Asia/Taipei", name: "中国台湾" },
+  { keywords: ["马来西亚", "大马", "malaysia", "吉隆坡", "kuala lumpur", "槟城", "penang", "新山", "johor bahru"], zone: "Asia/Kuala_Lumpur", name: "马来西亚 / 吉隆坡" },
   { keywords: ["中国", "中国时间", "上海", "北京", "china time", "beijing", "shanghai"], zone: "Asia/Shanghai", name: "中国 / 北京" },
   { keywords: ["纽约", "new york", "nyc", "美东", "美国东部"], zone: "America/New_York", name: "纽约" },
   { keywords: ["伦敦", "london", "英国", "uk"], zone: "Europe/London", name: "英国 / 伦敦" },
@@ -58,6 +60,7 @@ const ZONE_COORDS: Record<string, [number, number]> = {
   "America/Mexico_City": [19.43, -99.13], "America/Chicago": [41.88, -87.63], "America/Denver": [39.74, -104.99],
   "America/Toronto": [43.65, -79.38], "America/Vancouver": [49.28, -123.12], "Europe/Paris": [48.86, 2.35],
   "Asia/Tokyo": [35.68, 139.69], "Asia/Singapore": [1.35, 103.82], "Asia/Hong_Kong": [22.32, 114.17],
+  "Asia/Taipei": [25.03, 121.57], "Asia/Kuala_Lumpur": [3.14, 101.69],
   "Australia/Sydney": [-33.87, 151.21], "Asia/Dubai": [25.20, 55.27], "Asia/Kolkata": [19.08, 72.88],
 };
 
@@ -75,7 +78,9 @@ async function resolveLocation(input: string): Promise<{ zone: string; name: str
     if (!response.ok) return null;
     const data = await response.json() as { results?: Array<{ name: string; country?: string; admin1?: string; timezone: string; latitude?: number; longitude?: number }> };
     const best = data.results?.find((item) => item.timezone);
-    return best ? { zone: best.timezone, name: [best.name, best.admin1, best.country].filter(Boolean).filter((x, i, a) => a.indexOf(x) === i).join(" · "), latitude: best.latitude, longitude: best.longitude } : null;
+    if (!best) return null;
+    const country = /^(Taiwan|台湾)$/i.test(best.country || "") ? "中国台湾" : best.country;
+    return { zone: best.timezone, name: [best.name, best.admin1, country].filter(Boolean).filter((x, i, a) => a.indexOf(x) === i).join(" · "), latitude: best.latitude, longitude: best.longitude };
   } catch { return null; }
 }
 
