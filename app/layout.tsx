@@ -46,7 +46,6 @@ export default function RootLayout({
         />
         <I18nProvider>
           <LanguageSwitcher />
-          <div className="h-16" aria-hidden="true" />
           {children}
         </I18nProvider>
       </body>
