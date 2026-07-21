@@ -29,11 +29,13 @@ const ZONES: Zone[] = [
 ];
 
 const ROLES = ["候选人", "面试官", "HR", "猎头", "其他"];
-const QUICK_LOCATIONS = ["中国", "中国台湾", "马来西亚", "美西", "美东", "美国中部", "英国", "欧洲中部", "印度", "新加坡", "日本", "澳洲东部", "巴西", "墨西哥"];
+const QUICK_LOCATIONS = ["中国", "日本", "巴西", "墨西哥", "美西", "美东", "英国", "卢森堡"];
 const LOCATION_RULES: { keywords: string[]; zone: string; name: string }[] = [
   { keywords: ["sunnyvale", "美国湾区", "旧金山湾区", "湾区", "硅谷", "silicon valley", "san francisco bay area", "san jose", "圣何塞", "mountain view", "palo alto", "cupertino", "旧金山", "san francisco"], zone: "America/Los_Angeles", name: "美国湾区 / Sunnyvale" },
   { keywords: ["中国台湾", "台湾", "taiwan", "台北", "taipei", "高雄", "kaohsiung", "台中", "taichung", "新竹", "hsinchu"], zone: "Asia/Taipei", name: "中国台湾" },
   { keywords: ["马来西亚", "大马", "malaysia", "吉隆坡", "kuala lumpur", "槟城", "penang", "新山", "johor bahru"], zone: "Asia/Kuala_Lumpur", name: "马来西亚 / 吉隆坡" },
+  { keywords: ["印度尼西亚", "印尼", "indonesia", "雅加达", "jakarta", "巴厘岛", "bali", "泗水", "surabaya"], zone: "Asia/Jakarta", name: "印度尼西亚 / 雅加达" },
+  { keywords: ["卢森堡", "luxembourg"], zone: "Europe/Luxembourg", name: "卢森堡" },
   { keywords: ["中国", "中国时间", "上海", "北京", "china time", "beijing", "shanghai"], zone: "Asia/Shanghai", name: "中国 / 北京" },
   { keywords: ["纽约", "new york", "nyc", "美东", "美国东部"], zone: "America/New_York", name: "纽约" },
   { keywords: ["伦敦", "london", "英国", "uk"], zone: "Europe/London", name: "英国 / 伦敦" },
@@ -61,6 +63,7 @@ const ZONE_COORDS: Record<string, [number, number]> = {
   "America/Toronto": [43.65, -79.38], "America/Vancouver": [49.28, -123.12], "Europe/Paris": [48.86, 2.35],
   "Asia/Tokyo": [35.68, 139.69], "Asia/Singapore": [1.35, 103.82], "Asia/Hong_Kong": [22.32, 114.17],
   "Asia/Taipei": [25.03, 121.57], "Asia/Kuala_Lumpur": [3.14, 101.69],
+  "Asia/Jakarta": [-6.21, 106.85], "Europe/Luxembourg": [49.61, 6.13],
   "Australia/Sydney": [-33.87, 151.21], "Asia/Dubai": [25.20, 55.27], "Asia/Kolkata": [19.08, 72.88],
 };
 
@@ -72,6 +75,10 @@ function resolvePreset(input: string) {
 async function resolveLocation(input: string): Promise<{ zone: string; name: string; latitude?: number; longitude?: number } | null> {
   const preset = resolvePreset(input);
   if (preset) { const coords = ZONE_COORDS[preset.zone]; return { zone: preset.zone, name: preset.name, latitude: coords?.[0], longitude: coords?.[1] }; }
+  try {
+    new Intl.DateTimeFormat("en", { timeZone: input.trim() }).format();
+    return { zone: input.trim(), name: input.trim() };
+  } catch {}
   try {
     const url = `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(input.trim())}&count=5&language=zh&format=json`;
     const response = await fetch(url);
