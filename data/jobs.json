@@ -950,5 +950,84 @@
       ]
     },
     "sort": 1
+  },
+  {
+    "id": "global-content-community-ios-engineer",
+    "companyId": "global-creator-community",
+    "title": "iOS 软件工程师",
+    "titleEn": "iOS Software Engineer",
+    "jobType": "engineering",
+    "jobTypeEn": "Engineering",
+    "workMode": "办公方式面议",
+    "workModeEn": "Work arrangement to be discussed",
+    "location": "旧金山湾区",
+    "locationEn": "Bay Area",
+    "description": "关于团队：\n这是一家快速增长的全球生活方式内容社区平台，正在组建面向国际市场的客户端研发团队，为全球用户打造优质的移动产品体验。你将参与 iOS 客户端核心功能研发，并与美国、新加坡及亚洲多地团队协作。\n\n工作职责：\n• 设计、开发和维护 iOS 客户端核心业务模块，覆盖内容消费、内容发布及创作者工具等方向。\n• 面向北美及全球用户优化产品体验，包括启动速度、流畅度、包体积及弱网性能。\n• 推动海外差异化功能从 0 到 1 落地，包括本地化交互、多语言适配及隐私、未成年人保护等区域合规能力。\n• 与产品、设计、后端及算法团队紧密协作，快速迭代并保障线上质量；参与代码评审与技术方案设计。\n• 建设和完善客户端基础设施，包括稳定性监控、性能追踪、A/B 实验框架及 CI/CD 流程。\n• 探索 AI 辅助研发与端上智能场景的落地。\n\n任职要求：\n• 计算机相关专业本科及以上学历，3 年以上 iOS 开发经验。\n• 精通 Swift/Objective-C，熟悉 UIKit/SwiftUI、内存管理与性能调优。\n• 有百万级以上 DAU 大型 App 的开发及线上问题处理经验，理解组件化、模块化及跨端等客户端架构设计。\n• 具备扎实的计算机基础，包括数据结构、算法、网络和操作系统。\n• 中英文可作为工作语言，能够与跨时区团队高效协作。\n\n加分项：\n• 有社区、社交或内容类产品经验，理解 UGC 产品的客户端技术特点。\n• 有全球化产品经验，熟悉多语言、多时区及 GDPR、CCPA、COPPA 等隐私合规适配。\n• 有 Flutter、React Native 跨端经验或动态化框架建设经验。\n• 有音视频、图像处理或端智能方向积累。\n• 有活跃的开源贡献或技术写作经验。",
+    "descriptionEn": "About the Team:\nThis is a fast-growing global lifestyle content community platform building a client engineering team for international markets. The team crafts high-quality mobile experiences for users worldwide and collaborates across the United States, Singapore, and Asia.\n\nResponsibilities:\n• Design, build, and maintain core iOS modules covering content consumption, content creation, and creator tools.\n• Optimize the experience for North American and global users, including launch time, smoothness, binary size, and weak-network performance.\n• Drive 0-to-1 development of market-specific features, including localized interactions, multi-language support, privacy, minor protection, and other regional compliance capabilities.\n• Partner closely with product, design, backend, and algorithm teams to iterate quickly while maintaining production quality; participate in code reviews and technical design.\n• Strengthen client infrastructure, including stability monitoring, performance tracing, A/B experimentation, and CI/CD pipelines.\n• Explore AI-assisted development workflows and on-device intelligence.\n\nRequirements:\n• Bachelor's degree or above in Computer Science or a related field, with 3+ years of iOS development experience.\n• Proficiency in Swift/Objective-C and solid knowledge of UIKit/SwiftUI, memory management, and performance tuning.\n• Experience shipping and operating large-scale apps with 1M+ DAU and a strong understanding of modularization, componentization, and cross-platform client architecture.\n• Solid foundations in data structures, algorithms, networking, and operating systems.\n• Ability to work effectively in both English and Chinese across time zones.\n\nNice to Have:\n• Experience with community, social, or content products and an understanding of UGC-specific client challenges.\n• Experience with global products, multi-language and multi-time-zone support, and privacy compliance such as GDPR, CCPA, and COPPA.\n• Flutter, React Native, or dynamic framework development experience.\n• Background in audio/video, image processing, or on-device machine learning.\n• Active open-source contributions or technical writing.",
+    "tags": ["iOS", "Swift", "移动客户端", "全球化产品", "湾区"],
+    "tagsEn": ["iOS", "Swift", "Mobile Client", "Global Products", "Bay Area"],
+    "profile": {
+      "experience": "3年以上",
+      "experienceEn": "3+ years",
+      "education": "计算机相关专业本科及以上",
+      "educationEn": "Bachelor's degree or above in Computer Science or related field",
+      "language": "中英文",
+      "languageEn": "English and Chinese",
+      "skills": ["Swift/Objective-C", "UIKit/SwiftUI", "性能优化", "客户端架构"],
+      "skillsEn": ["Swift/Objective-C", "UIKit/SwiftUI", "Performance Tuning", "Client Architecture"]
+    },
+    "sort": 1
+  },
+  {
+    "id": "global-content-community-android-engineer",
+    "companyId": "global-creator-community",
+    "title": "Android 软件工程师",
+    "titleEn": "Android Software Engineer",
+    "jobType": "engineering",
+    "jobTypeEn": "Engineering",
+    "workMode": "办公方式面议",
+    "workModeEn": "Work arrangement to be discussed",
+    "location": "旧金山湾区",
+    "locationEn": "Bay Area",
+    "description": "关于团队：\n这是一家快速增长的全球生活方式内容社区平台，正在组建面向国际市场的客户端研发团队，为全球用户打造优质的移动产品体验。你将参与 Android 客户端核心功能研发，并与美国、新加坡及亚洲多地团队协作。\n\n工作职责：\n• 设计、开发和维护 Android 客户端核心业务模块，覆盖内容消费、内容发布及创作者工具等方向。\n• 面向北美及全球用户优化产品体验，包括启动速度、流畅度、包体积及弱网性能。\n• 推动海外差异化功能从 0 到 1 落地，包括本地化交互、多语言适配及隐私、未成年人保护等区域合规能力。\n• 与产品、设计、后端及算法团队紧密协作，快速迭代并保障线上质量；参与代码评审与技术方案设计。\n• 建设和完善客户端基础设施，包括稳定性监控、性能追踪、A/B 实验框架及 CI/CD 流程。\n• 探索 AI 辅助研发与端上智能场景的落地。\n\n任职要求：\n• 计算机相关专业本科及以上学历，3 年以上 Android 开发经验。\n• 精通 Kotlin/Java，熟悉 Jetpack、多线程与渲染优化。\n• 有百万级以上 DAU 大型 App 的开发及线上问题处理经验，理解组件化、模块化及跨端等客户端架构设计。\n• 具备扎实的计算机基础，包括数据结构、算法、网络和操作系统。\n• 中英文可作为工作语言，能够与跨时区团队高效协作。\n\n加分项：\n• 有社区、社交或内容类产品经验，理解 UGC 产品的客户端技术特点。\n• 有全球化产品经验，熟悉多语言、多时区及 GDPR、CCPA、COPPA 等隐私合规适配。\n• 有 Flutter、React Native 跨端经验或动态化框架建设经验。\n• 有音视频、图像处理或端智能方向积累。\n• 有活跃的开源贡献或技术写作经验。",
+    "descriptionEn": "About the Team:\nThis is a fast-growing global lifestyle content community platform building a client engineering team for international markets. The team crafts high-quality mobile experiences for users worldwide and collaborates across the United States, Singapore, and Asia.\n\nResponsibilities:\n• Design, build, and maintain core Android modules covering content consumption, content creation, and creator tools.\n• Optimize the experience for North American and global users, including launch time, smoothness, binary size, and weak-network performance.\n• Drive 0-to-1 development of market-specific features, including localized interactions, multi-language support, privacy, minor protection, and other regional compliance capabilities.\n• Partner closely with product, design, backend, and algorithm teams to iterate quickly while maintaining production quality; participate in code reviews and technical design.\n• Strengthen client infrastructure, including stability monitoring, performance tracing, A/B experimentation, and CI/CD pipelines.\n• Explore AI-assisted development workflows and on-device intelligence.\n\nRequirements:\n• Bachelor's degree or above in Computer Science or a related field, with 3+ years of Android development experience.\n• Proficiency in Kotlin/Java, with strong knowledge of Jetpack, concurrency, and rendering optimization.\n• Experience shipping and operating large-scale apps with 1M+ DAU and a strong understanding of modularization, componentization, and cross-platform client architecture.\n• Solid foundations in data structures, algorithms, networking, and operating systems.\n• Ability to work effectively in both English and Chinese across time zones.\n\nNice to Have:\n• Experience with community, social, or content products and an understanding of UGC-specific client challenges.\n• Experience with global products, multi-language and multi-time-zone support, and privacy compliance such as GDPR, CCPA, and COPPA.\n• Flutter, React Native, or dynamic framework development experience.\n• Background in audio/video, image processing, or on-device machine learning.\n• Active open-source contributions or technical writing.",
+    "tags": ["Android", "Kotlin", "移动客户端", "全球化产品", "湾区"],
+    "tagsEn": ["Android", "Kotlin", "Mobile Client", "Global Products", "Bay Area"],
+    "profile": {
+      "experience": "3年以上",
+      "experienceEn": "3+ years",
+      "education": "计算机相关专业本科及以上",
+      "educationEn": "Bachelor's degree or above in Computer Science or related field",
+      "language": "中英文",
+      "languageEn": "English and Chinese",
+      "skills": ["Kotlin/Java", "Jetpack", "性能优化", "客户端架构"],
+      "skillsEn": ["Kotlin/Java", "Jetpack", "Performance Tuning", "Client Architecture"]
+    },
+    "sort": 1
+  },
+  {
+    "id": "global-content-community-strategy-operations-leader",
+    "companyId": "global-creator-community",
+    "title": "战略与运营负责人",
+    "titleEn": "Strategy & Operations Leader",
+    "jobType": "operations",
+    "jobTypeEn": "Operations",
+    "workMode": "混合办公，每周至少3天到岗",
+    "workModeEn": "Hybrid, 3+ days per week in office",
+    "location": "纽约",
+    "locationEn": "New York",
+    "description": "关于团队：\n这是一家拥有超过 4 亿用户的全球内容与生活方式社区平台。平台以真实的人类经验和用户分享为核心，正处于全球化发展的重要阶段。\n\n岗位介绍：\n战略与运营负责人将连接公司高层愿景与日常执行。我们寻找一位系统性思考者，为社区、市场及创意团队推动战略路线图和运营目标，诊断组织瓶颈，并设计可规模化的流程以实现可衡量的增长。\n\n核心职责：\n• 推动年度及季度业务规划，将高层愿景转化为务实的运营路线图。\n• 依据公司长期使命，为业务团队设计职能目标及可衡量的 KPI。\n• 开发 KPI 追踪工具与模型，将原始数据转化为面向管理团队的叙事性洞察，并主动推动 AI 在组织中的应用。\n• 与财务团队协作主导年度及补充预算流程，确保资源投入到高回报且符合季度目标的项目。\n• 牵头跨团队协作，部署可规模化的系统以提升组织效率。\n• 识别现有工作流中的低效环节，通过自动化或流程精简提升团队速度与产出。\n• 管理外部合作机构的关系、工作流和交付。\n• 领导业务变革项目，协调跨团队利益相关方，推动新运营标准的高采用率。\n\n任职要求：\n• 6–10 年以上战略、业务运营或相关经验；有市场、品牌、GTM 或咨询经验者优先。\n• 能够处理缺乏既有方法论的问题，将复杂方向转化为清晰策略和可执行目标。\n• 能将战略路线图转化为简洁文档，并面向不同受众有效沟通。\n• 热衷于建设和扩张创始团队及其文化，有相关经验者优先。\n• 能在没有直接汇报关系的情况下推动跨团队协作，并影响高管和合作伙伴。\n• 具备跨文化同理心和成熟度，能够连接多元文化背景的全球团队。\n• 能通过数据洞察识别差距与机会，并主动推动 AI 在组织中的应用。\n• 具备项目管理和变革管理能力。\n• 具有创业者思维和建设者精神，真正享受快速的 0 到 1 环境。\n\n薪酬与福利：\n• 总薪酬最高可谈至 80 万美元，实际方案将严格依据候选人的岗位级别、资历、技能和经验确定。\n• 具有竞争力的限制性股票、年度绩效奖金和综合福利。\n• 每年17天带薪休假及10天带薪病假。\n• 根据州法律提供育儿假。\n• Cigna 医疗、牙科和视力保险，公司承担员工100%的保费。\n• 提供含雇主匹配的 401(k) 退休计划。\n• 可自愿选择定期寿险、意外险、伤残险、重大疾病险和住院津贴险。",
+    "descriptionEn": "About the Team:\nThis is a global content and lifestyle community platform trusted by more than 400 million users. Built around real human experience and authentic sharing, the platform is now entering an important stage of international growth.\n\nAbout the Role:\nThe Strategy & Operations Leader will serve as the connective tissue between high-level vision and daily execution. This role is best suited for a systems thinker who can drive strategic roadmaps and operational goals for Community, Marketing, and Creative teams, diagnose organizational bottlenecks, and design scalable processes that produce measurable growth.\n\nCore Responsibilities:\n• Drive annual and quarterly business planning, translating high-level vision into a pragmatic operational roadmap.\n• Design functional goals and measurable KPIs for business teams in alignment with the company's long-term mission.\n• Develop tools and models to track KPIs, translate raw data into narrative insights for the executive team, and proactively drive AI adoption across the organization.\n• Lead annual and supplemental budgeting with Finance, ensuring capital is deployed toward high-ROI initiatives aligned with quarterly goals.\n• Lead cross-functional orchestration and deploy scalable systems that improve organizational efficiency and collaboration.\n• Identify inefficiencies in current workflows and implement automated or streamlined systems to improve team velocity and output.\n• Manage relationships, workflows, and delivery with external partner agencies.\n• Lead business change initiatives across stakeholders and drive adoption of new operational standards.\n\nQualifications:\n• 6–10+ years of experience in strategy, business operations, or a relevant field; marketing, branding, GTM, or consulting experience is preferred.\n• Exceptional ability to solve problems without an existing playbook and turn complex directions into clear strategies and actionable goals.\n• Ability to translate strategic roadmaps into concise documentation and communication for diverse audiences.\n• Passion for building and scaling a founding team and its culture; relevant experience is a plus.\n• Ability to lead cross-functional collaboration and influence senior executives and partners without direct authority.\n• Strong empathy and maturity in bridging cultural backgrounds within a truly global and diverse team.\n• Ability to identify gaps and opportunities through data-driven insights and proactively drive AI applications.\n• Confidence in project management and change management.\n• An entrepreneurial mindset and builder mentality, with genuine excitement for a fast-paced 0-to-1 environment.\n\nCompensation and Benefits:\n• Total compensation may be discussed up to $800,000, with the final package strictly calibrated to the candidate's level, qualifications, skills, and experience.\n• Competitive equity package, annual performance bonus, and comprehensive benefits.\n• 17 days of PTO and 10 days of paid sick leave per year.\n• Parental leave in accordance with applicable state law.\n• Comprehensive Cigna medical, dental, and vision coverage, with 100% of employee premiums covered by the company.\n• 401(k) retirement plan with employer matching.\n• Optional supplemental term life, accidental, disability, critical illness, and hospital indemnity insurance.",
+    "tags": ["战略运营", "业务规划", "组织效率", "全球化", "纽约"],
+    "tagsEn": ["Strategy & Operations", "Business Planning", "Organizational Efficiency", "Global Growth", "New York"],
+    "profile": {
+      "experience": "6–10年以上",
+      "experienceEn": "6–10+ years",
+      "language": "英语",
+      "languageEn": "English",
+      "skills": ["战略规划", "业务运营", "项目管理", "变革管理", "跨团队协作"],
+      "skillsEn": ["Strategic Planning", "Business Operations", "Project Management", "Change Management", "Cross-functional Leadership"]
+    },
+    "sort": 1
   }
 ]
