@@ -83,7 +83,7 @@ export default function CompanyPage() {
         <div className="max-w-5xl mx-auto px-4 py-16">
           <div className="flex items-start gap-6">
             <div className="w-20 h-20 rounded-2xl bg-white border border-border shadow-sm flex items-center justify-center text-3xl flex-shrink-0 overflow-hidden">
-              {company.logo ? <img src={company.logo} alt="" className="w-14 h-14 object-contain" /> : "🏢"}
+              {company.logo ? <img src={company.logo} alt="" className="w-14 h-14 object-contain" /> : company.logoEmoji || "🏢"}
             </div>
             <div>
               <h1 className="text-4xl font-bold text-text-primary mb-2 font-display">

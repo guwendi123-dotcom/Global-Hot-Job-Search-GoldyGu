@@ -35,6 +35,7 @@ export interface Company {
   name: string;
   nameEn?: string;
   logo: string;
+  logoEmoji?: string;
   description: string;
   descriptionEn?: string;
   stage: string;

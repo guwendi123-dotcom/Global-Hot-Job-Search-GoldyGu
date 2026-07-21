@@ -16,7 +16,7 @@ export default function CompanyCard({ company, index, jobCount = 0 }: { company:
   return (
     <Link href={`/company/${company.id}`} className={`company-card ${tones[index % tones.length]}`}>
       <div className="company-logo">
-        {company.logo ? <img src={company.logo} alt="" /> : <Building2 size={28} />}
+        {company.logo ? <img src={company.logo} alt="" /> : company.logoEmoji ? <span className="text-3xl" aria-hidden="true">{company.logoEmoji}</span> : <Building2 size={28} />}
       </div>
       <div className="min-w-0 flex-1">
         <h3>{name}</h3>
