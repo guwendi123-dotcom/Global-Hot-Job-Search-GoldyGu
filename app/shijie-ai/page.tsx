@@ -111,6 +111,20 @@ function pretty(date: Date, zone: string, seconds = false) {
   }).format(date).replace("星期", "周");
 }
 
+function englishRange(start: Date, end: Date | null, zone: string) {
+  const formatter = new Intl.DateTimeFormat("en-US", { timeZone: zone, weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit", hour12: true });
+  return end ? formatter.formatRange(start, end) : formatter.format(start);
+}
+
+function englishPlace(place: Place) {
+  const names: Record<string, string> = {
+    "Asia/Shanghai": "China", "Asia/Taipei": "Taiwan, China", "Asia/Tokyo": "Japan", "Asia/Kuala_Lumpur": "Malaysia",
+    "Asia/Jakarta": "Indonesia", "America/Los_Angeles": "U.S. West Coast", "America/New_York": "U.S. East Coast",
+    "Europe/London": "UK", "Europe/Luxembourg": "Luxembourg", "America/Sao_Paulo": "Brazil", "America/Mexico_City": "Mexico",
+  };
+  return names[place.zone] || place.zone.split("/").pop()?.replaceAll("_", " ") || place.query;
+}
+
 function localToUtc(year: number, month: number, day: number, hour: number, minute: number, zone: string) {
   let guess = Date.UTC(year, month - 1, day, hour, minute);
   for (let i = 0; i < 3; i++) {
@@ -280,8 +294,8 @@ export default function Home() {
   const targetTimeText = convertRows[1] ? `${convertRows[1].start}${convertRows[1].end ? ` 至 ${convertRows[1].end}` : ""}` : "待转换时间";
   const sourceTimeWithPlace = `${sourceTimeText}（${sourcePlace.name}时间）`;
   const targetTimeWithPlace = `${targetTimeText}（${targetPlaces[0]?.name || "目标地点"}时间）`;
-  const sourceTimeEnglish = `${sourceTimeText} (${sourcePlace.name} local time)`;
-  const targetTimeEnglish = `${targetTimeText} (${targetPlaces[0]?.name || "target location"} local time)`;
+  const sourceTimeEnglish = parsed ? `${englishRange(parsed.start, parsed.end, sourcePlace.zone)} (${englishPlace(sourcePlace)}, ${zoneName(parsed.start, sourcePlace.zone)})` : "Time TBD";
+  const targetTimeEnglish = parsed && targetPlaces[0] ? `${englishRange(parsed.start, parsed.end, targetPlaces[0].zone)} (${englishPlace(targetPlaces[0])}, ${zoneName(parsed.start, targetPlaces[0].zone)})` : "Time TBD";
   const messages: Record<string, Record<string, string>> = {
     中文: {
       候选人: candidateScenario === "询问是否方便"
@@ -292,10 +306,10 @@ export default function Home() {
     },
     English: {
       候选人: candidateScenario === "询问是否方便"
-        ? `Hi ${candidateName} 👋 The interviewer is available at ${sourceTimeEnglish}, which is ${targetTimeEnglish} in your location. Would this time work for you? If not, please share a suitable time window and we'll help coordinate 😊`
-        : `Hi ${candidateName} 👋 Your interview has been confirmed for ${targetTimeEnglish}. Please keep an eye out for the interview invitation and check the details once it arrives. If you don't receive it, let us know and we'll follow up for you 😊`,
-      HR: `Hi 👋 ${candidateName} is available at ${sourceTimeEnglish}, which is ${targetTimeEnglish} in the interviewer's location. Could you please help coordinate the interviewer's availability? Once confirmed, please keep us posted so we can remind the candidate to check the invitation. Thank you 🙏`,
-      面试官: `Hi 👋 ${candidateName} is available at ${sourceTimeEnglish}, which is ${targetTimeEnglish} in your location. Would this time work for you? If not, please share another suitable time window and we'll coordinate with the candidate 😊`,
+        ? `Hi ${candidateName} 👋 The interviewer is available at ${sourceTimeEnglish}. This is ${targetTimeEnglish} for you. Does this slot work? If not, please share a few suitable slots and we'll coordinate 😊`
+        : `Hi ${candidateName} 👋 Your interview is confirmed for ${targetTimeEnglish}. Please check the invite and confirm the details. If it doesn't arrive, let us know and we'll follow up 😊`,
+      HR: `Hi 👋 ${candidateName} is available at ${sourceTimeEnglish}, equivalent to ${targetTimeEnglish} for the interviewer. Please help align with the interviewer's schedule and keep us posted once confirmed. We'll remind the candidate to check the invite. Thanks 🙏`,
+      面试官: `Hi 👋 ${candidateName} is available at ${sourceTimeEnglish}, equivalent to ${targetTimeEnglish} for you. Does this slot work? If not, please share a few alternatives and we'll coordinate with the candidate 😊`,
     },
   };
   const currentSky = skyPhase(clock, nowPlace.zone, solar);
