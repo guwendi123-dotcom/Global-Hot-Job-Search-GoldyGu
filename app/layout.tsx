@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 import { I18nProvider } from "@/lib/i18n";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
@@ -36,6 +37,13 @@ export default function RootLayout({
   return (
     <html lang="zh-CN">
       <body className="font-body antialiased">
+        <Script
+          id="cloudflare-web-analytics"
+          type="module"
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token":"273d8ed385834c1c82a65998be2b3acc"}'
+          strategy="afterInteractive"
+        />
         <I18nProvider>
           <LanguageSwitcher />
           <div className="h-16" aria-hidden="true" />
