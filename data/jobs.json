@@ -1,5 +1,50 @@
 [
   {
+    "id": "aitrip-machine-learning-engineer",
+    "companyId": "aitrip",
+    "title": "机器学习工程师",
+    "titleEn": "Machine Learning Engineer",
+    "jobType": "engineering,algorithm,research",
+    "jobTypeEn": "Engineering,Algorithm,Research",
+    "workMode": "待确认",
+    "workModeEn": "TBD",
+    "location": "地点待确认",
+    "locationEn": "Location TBD",
+    "description": "岗位介绍：\n我们正在招聘机器学习工程师，负责构建搜索、推荐和多模态检索系统背后的核心智能能力。\n\n这是一个具有高影响力、强调实践的岗位，适合希望将机器学习、深度学习和生成式 AI 应用于大规模真实产品问题的工程师。你将参与检索、排序、相关性、内容理解、Embedding 和多模态模型相关工作，并将研究思路转化为能够改善用户体验和业务指标的生产系统。\n\n核心职责：\n• 构建并部署用于搜索、推荐和内容发现的机器学习模型。\n• 改进文本、图像、视频和结构化数据的多模态检索能力。\n• 针对实际生产场景开发和微调大语言模型及视觉语言模型。\n• 解决查询理解、召回、排序、Embedding 和 RAG 等相关性问题。\n• 设计实验、分析结果，并推动关键业务指标获得可衡量的提升。\n• 处理大规模数据，构建实用且具备可扩展性的机器学习系统。\n\n任职要求：\n• 具备将机器学习应用于搜索、推荐、广告、Feed 排序或相关性优化的扎实经验。\n• 具备机器学习、深度学习、自然语言处理或多模态学习方面的扎实基础。\n• 有检索、排序、Embedding、相关性优化或 RAG 的实践经验。\n• 有多模态模型经验者优先。\n• 熟悉 SFT、LoRA、PEFT、RLHF 或 DPO 等大模型微调方法者优先。\n• 具备扎实的 Python、Go 或 C++ 编程能力。\n• 能够适应快速变化、强调自主负责的创业团队环境。",
+    "descriptionEn": "About the Role:\nWe are hiring Machine Learning Engineers to build the core intelligence behind our search, recommendation, and multimodal retrieval systems.\n\nThis is a high-impact, hands-on role for engineers who want to apply machine learning, deep learning, and generative AI to real product problems at scale. You will work on retrieval, ranking, relevance, content understanding, embeddings, and multimodal models, and help turn research ideas into production systems that improve user experience and business metrics.\n\nResponsibilities:\n• Build and deploy ML models for search, recommendation, and discovery.\n• Improve multimodal retrieval across text, image, video, and structured data.\n• Develop and fine-tune LLMs and vision-language models for production use cases.\n• Work on relevance problems including query understanding, recall, ranking, embeddings, and RAG.\n• Run experiments, analyze results, and drive measurable improvements in KPIs.\n• Process large-scale data and build practical, scalable ML systems.\n\nRequirements:\n• Strong experience in machine learning applied to search, recommendation, ads, feed ranking, or relevance.\n• Strong fundamentals in ML, deep learning, NLP, or multimodal learning.\n• Hands-on experience with retrieval, ranking, embeddings, relevance optimization, or RAG.\n• Experience with multimodal models is strongly preferred.\n• Familiarity with LLM fine-tuning methods such as SFT, LoRA, PEFT, RLHF, or DPO is a plus.\n• Strong programming skills in Python, Go, or C++.\n• Comfortable working in a fast-moving, high-ownership startup environment.",
+    "tags": [
+      "机器学习",
+      "搜索推荐",
+      "多模态",
+      "LLM",
+      "RAG"
+    ],
+    "tagsEn": [
+      "Machine Learning",
+      "Search & Recommendation",
+      "Multimodal",
+      "LLM",
+      "RAG"
+    ],
+    "profile": {
+      "skills": [
+        "Python / Go / C++",
+        "检索与排序",
+        "Embedding",
+        "多模态模型",
+        "LLM 微调"
+      ],
+      "skillsEn": [
+        "Python / Go / C++",
+        "Retrieval & Ranking",
+        "Embeddings",
+        "Multimodal Models",
+        "LLM Fine-tuning"
+      ]
+    },
+    "sort": 1
+  },
+  {
     "id": "maxinsights-data-partnership",
     "companyId": "maxinsights",
     "title": "数据合作经理",
