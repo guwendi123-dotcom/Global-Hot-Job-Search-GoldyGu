@@ -8,8 +8,8 @@
     "jobTypeEn": "Engineering,Algorithm,Research",
     "workMode": "待确认",
     "workModeEn": "TBD",
-    "location": "地点待确认",
-    "locationEn": "Location TBD",
+    "location": "美国 Sunnyvale",
+    "locationEn": "Sunnyvale, USA",
     "description": "岗位介绍：\n我们正在招聘机器学习工程师，负责构建搜索、推荐和多模态检索系统背后的核心智能能力。\n\n这是一个具有高影响力、强调实践的岗位，适合希望将机器学习、深度学习和生成式 AI 应用于大规模真实产品问题的工程师。你将参与检索、排序、相关性、内容理解、Embedding 和多模态模型相关工作，并将研究思路转化为能够改善用户体验和业务指标的生产系统。\n\n核心职责：\n• 构建并部署用于搜索、推荐和内容发现的机器学习模型。\n• 改进文本、图像、视频和结构化数据的多模态检索能力。\n• 针对实际生产场景开发和微调大语言模型及视觉语言模型。\n• 解决查询理解、召回、排序、Embedding 和 RAG 等相关性问题。\n• 设计实验、分析结果，并推动关键业务指标获得可衡量的提升。\n• 处理大规模数据，构建实用且具备可扩展性的机器学习系统。\n\n任职要求：\n• 具备将机器学习应用于搜索、推荐、广告、Feed 排序或相关性优化的扎实经验。\n• 具备机器学习、深度学习、自然语言处理或多模态学习方面的扎实基础。\n• 有检索、排序、Embedding、相关性优化或 RAG 的实践经验。\n• 有多模态模型经验者优先。\n• 熟悉 SFT、LoRA、PEFT、RLHF 或 DPO 等大模型微调方法者优先。\n• 具备扎实的 Python、Go 或 C++ 编程能力。\n• 能够适应快速变化、强调自主负责的创业团队环境。",
     "descriptionEn": "About the Role:\nWe are hiring Machine Learning Engineers to build the core intelligence behind our search, recommendation, and multimodal retrieval systems.\n\nThis is a high-impact, hands-on role for engineers who want to apply machine learning, deep learning, and generative AI to real product problems at scale. You will work on retrieval, ranking, relevance, content understanding, embeddings, and multimodal models, and help turn research ideas into production systems that improve user experience and business metrics.\n\nResponsibilities:\n• Build and deploy ML models for search, recommendation, and discovery.\n• Improve multimodal retrieval across text, image, video, and structured data.\n• Develop and fine-tune LLMs and vision-language models for production use cases.\n• Work on relevance problems including query understanding, recall, ranking, embeddings, and RAG.\n• Run experiments, analyze results, and drive measurable improvements in KPIs.\n• Process large-scale data and build practical, scalable ML systems.\n\nRequirements:\n• Strong experience in machine learning applied to search, recommendation, ads, feed ranking, or relevance.\n• Strong fundamentals in ML, deep learning, NLP, or multimodal learning.\n• Hands-on experience with retrieval, ranking, embeddings, relevance optimization, or RAG.\n• Experience with multimodal models is strongly preferred.\n• Familiarity with LLM fine-tuning methods such as SFT, LoRA, PEFT, RLHF, or DPO is a plus.\n• Strong programming skills in Python, Go, or C++.\n• Comfortable working in a fast-moving, high-ownership startup environment.",
     "tags": [
@@ -901,6 +901,53 @@
       "experienceEn": "3-10 years",
       "language": "英语",
       "languageEn": "English"
+    },
+    "sort": 1
+  },
+  {
+    "id": "global-creator-community-growth-manager",
+    "companyId": "global-creator-community",
+    "title": "创作者增长与社区经理",
+    "titleEn": "Creator Growth & Community Manager",
+    "jobType": "mkt-growth,operations",
+    "jobTypeEn": "MKT & Growth,Operations",
+    "workMode": "混合办公，每周至少3天到岗",
+    "workModeEn": "Hybrid, 3+ days per week in office",
+    "location": "旧金山湾区",
+    "locationEn": "Bay Area",
+    "description": "岗位介绍：\n我们正在建设新一代全球创作者社区，寻找一位创作者增长与社区经理，通过可规模化的社区项目、增长计划和高影响力的创作者体验，推动创作者获取、激活与长期留存。\n\n这不是一个传统的活动执行岗位。我们希望你能够将社区视为增长引擎，把创作者关系、社区项目和本地化计划转化为可规模化的自然增长。你将在塑造全球创作者如何发现平台、参与社区并实现成长的过程中发挥关键作用。\n\n工作职责：\n• 负责重点国际市场的创作者增长计划，推动创作者获取、活跃和长期留存。\n• 设计并执行可规模化的社区项目，包括创作者见面会、大使计划、校园计划、创作者峰会和推荐计划。\n• 建立并维护不同垂类创作者关系，帮助创作者在社区中取得成功并持续成长。\n• 与产品、增长、内容和合作团队紧密协作，识别增长机会并转化为可执行项目。\n• 制定社区增长策略，增强创作者归属感、提升内容创作，并推动生态可持续增长。\n• 分析项目表现和创作者行为，优化增长漏斗、活跃度和留存指标。\n• 探索新的自然增长渠道、社区驱动增长模式和创作者倡导项目。\n• 建立可复制到不同市场的运营框架和工作手册。\n\n任职要求：\n• 3年以上增长、社区、创作者合作、创作者运营、市场或相关领域经验。\n• 深入理解创作者生态、社交平台、在线社区和用户增长机制。\n• 有设计和规模化运营社区项目、创作者计划、大使计划或创作者活动的经验。\n• 具备数据驱动思维，能够使用洞察制定策略并衡量成效。\n• 优秀的项目管理和跨团队协作能力。\n• 具有创业精神、善于整合资源，并能适应快速变化的工作环境。\n\n加分项：\n• 有社交平台、创作者经济、社区驱动产品或消费互联网公司经验。\n• 有创作者增长、推荐计划、社区驱动增长或大使网络经验。\n• 已建立与创作者社区、高校、学生组织或本地社区的合作关系。\n\n薪酬与福利：\n• 年基本薪资范围：110,000-230,000美元，具体薪酬将根据候选人的资历、技能、能力和经验确定。\n• 具有竞争力的限制性股票、年度绩效奖金和综合福利。\n• 每年17天带薪休假及10天带薪病假。\n• 根据州法律提供育儿假：纽约州12周 / 加州8周。\n• Cigna医疗、牙科和视力保险，公司承担员工100%的保费。\n• 提供含雇主匹配的401(k)退休计划。\n• 可自愿选择定期寿险、意外险、伤残险、重大疾病险和住院津贴险。",
+    "descriptionEn": "About the Role:\nWe are building the next generation of global creator communities. We are looking for a Creator Growth & Community Manager who can drive creator acquisition, activation, and retention through scalable community programs, growth initiatives, and high-impact creator experiences.\n\nThis is not a traditional events role. We are looking for someone who sees community as a growth engine and can turn creator relationships, community programs, and local initiatives into scalable organic growth. You will play a key role in shaping how creators discover, engage with, and grow within the global community.\n\nWhat You Will Do:\n• Lead creator growth initiatives across key international markets, driving creator acquisition, engagement, and long-term retention.\n• Design and execute scalable community programs, including creator meetups, ambassador programs, campus programs, creator summits, and referral initiatives.\n• Build and nurture relationships with creators across different verticals, helping them succeed and grow within the community.\n• Partner closely with Product, Growth, Content, and Partnerships teams to identify growth opportunities and translate them into actionable programs.\n• Develop community growth strategies that strengthen creator belonging, increase content creation, and foster sustainable ecosystem growth.\n• Analyze program performance and creator behavior to optimize growth funnels, engagement, and retention metrics.\n• Identify and experiment with new organic growth channels, community-led growth models, and creator advocacy programs.\n• Build scalable operational frameworks and playbooks that can be replicated across markets.\n\nWhat We Are Looking For:\n• 3+ years of experience in Growth, Community, Creator Partnerships, Creator Operations, Marketing, or related fields.\n• Strong understanding of creator ecosystems, social platforms, online communities, and user growth dynamics.\n• Experience designing and scaling community programs, creator initiatives, ambassador programs, or creator-focused events.\n• Data-driven mindset with the ability to use insights to inform strategy and measure success.\n• Excellent project management and cross-functional collaboration skills.\n• Highly entrepreneurial, resourceful, and comfortable operating in fast-moving environments.\n\nNice to Have:\n• Experience at a social platform, creator economy company, community-driven product, or consumer internet company.\n• Experience with creator growth, referral programs, community-led growth, or ambassador networks.\n• Existing relationships with creator communities, universities, student organizations, or local communities.\n\nCompensation and Benefits:\n• Annual base salary range: $110,000-$230,000. Compensation may vary based on qualifications, skills, competencies, and experience.\n• Competitive equity package (RSUs), annual performance bonus, and comprehensive benefits.\n• 17 days of PTO and 10 days of paid sick leave per year.\n• Parental leave in accordance with state law: 12 weeks in NY / 8 weeks in CA.\n• Comprehensive Cigna medical, dental, and vision coverage, with 100% of employee premiums covered by the company.\n• 401(k) retirement plan with employer matching.\n• Optional supplemental term life, accidental, disability, critical illness, and hospital indemnity insurance.",
+    "tags": [
+      "创作者增长",
+      "社区运营",
+      "市场增长",
+      "国际市场",
+      "湾区"
+    ],
+    "tagsEn": [
+      "Creator Growth",
+      "Community Operations",
+      "Marketing Growth",
+      "International Markets",
+      "Bay Area"
+    ],
+    "profile": {
+      "experience": "3年以上",
+      "experienceEn": "3+ years",
+      "skills": [
+        "创作者生态",
+        "社区增长",
+        "项目管理",
+        "数据分析",
+        "跨团队协作"
+      ],
+      "skillsEn": [
+        "Creator Ecosystems",
+        "Community Growth",
+        "Project Management",
+        "Data Analysis",
+        "Cross-functional Collaboration"
+      ]
     },
     "sort": 1
   }

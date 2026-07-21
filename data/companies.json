@@ -166,5 +166,19 @@
     "locationEn": "Shanghai / Mountain View, USA",
     "logo": "",
     "sort": 1
+  },
+  {
+    "id": "global-creator-community",
+    "industryId": "internet",
+    "name": "全球内容社区平台",
+    "nameEn": "Global Content Community Platform",
+    "description": "成熟的全球化内容社区平台，已建立覆盖多元垂类的活跃创作者生态，并持续拓展国际市场。团队致力于通过社区、内容与产品能力，帮助全球创作者建立影响力并实现长期成长。",
+    "descriptionEn": "An established global content community platform with an active creator ecosystem spanning diverse verticals and a growing international presence. The team helps creators build influence and achieve long-term growth through community, content, and product capabilities.",
+    "stage": "成熟全球化平台",
+    "stageEn": "Established Global Platform",
+    "location": "纽约 / 旧金山湾区",
+    "locationEn": "NYC / Bay Area",
+    "logo": "",
+    "sort": 12
   }
 ]
