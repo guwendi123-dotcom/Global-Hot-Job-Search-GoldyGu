@@ -14,6 +14,14 @@ export default function LanguageSwitcher() {
           <Link href="/#jobs" className="hover:text-accent">{language === "zh" ? "找岗位" : "Jobs"}</Link>
           <Link href="/companies" className="hover:text-accent">{language === "zh" ? "合作公司" : "Companies"}</Link>
           <Link href="/#industries" className="hover:text-accent">{language === "zh" ? "行业" : "Industries"}</Link>
+          <Link
+            href="https://shijie-ai.goldy-gugugu.chatgpt.site"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-1 hover:text-accent"
+          >
+            {language === "zh" ? "时界 AI" : "Time AI"}<span className="text-coral text-[10px]">✦</span>
+          </Link>
           <Link href="/contact" className="hover:text-accent">{language === "zh" ? "联系咕咕" : "Contact"}</Link>
         </nav>
         <div className="flex items-center gap-1 border border-ink/15 bg-white/60 rounded-full p-1">
