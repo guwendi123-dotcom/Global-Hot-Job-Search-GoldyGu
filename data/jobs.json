@@ -82,6 +82,49 @@
     "sort": 1
   },
   {
+    "id": "maxinsights-technical-project-manager",
+    "companyId": "maxinsights",
+    "title": "技术项目经理",
+    "titleEn": "Technical Project Manager",
+    "jobType": "pm",
+    "jobTypeEn": "PM",
+    "workMode": "待确认",
+    "workModeEn": "TBD",
+    "location": "待确认",
+    "locationEn": "TBD",
+    "description": "我们的使命：\nMaxInsights 通过端到端数据解决方案平台，帮助机器人基础模型公司获取大规模、高质量且可扩展的具身智能训练数据。前沿实验室正在竞相构建通用机器人，而高质量训练数据是当前的核心瓶颈。我们正在建设数据采集系统、仿真引擎、运营能力及软件工具链，帮助合作伙伴持续推动行业发展。\n\n工作职责：\n• 端到端项目交付：负责复杂机器人数据采集与标注项目的完整生命周期，从前期客户需求对齐、方案设计到最终交付。确保数据集生产满足客户严格的 SLA 和准确率标准，同时管理内部成本及进度目标。\n• 数据解决方案与规范设计：深入理解客户的机器人模型训练需求，包括传感器、数据模态和动作空间。将模糊的学术及商业需求转化为具体、高精度的数据采集、仿真和标注规范。\n• 全球跨职能协调：担任项目的核心协调枢纽，连接美国、中国和东南亚团队，协同工程、数据运营、算法及全球标注团队，推动跨时区的顺畅执行。\n• 质量控制与进度监控：搭建并监控数据生产管线的实时追踪系统。",
+    "descriptionEn": "Our Mission:\nAt MaxInsights, we enable Robotics Foundation Model companies to access massive, high-quality, scalable training data for embodied AI through our end-to-end data solution platform. Frontier labs are racing to build general-purpose robots, and high-quality training data is the bottleneck. We are building the data collection systems, simulation engines, operational capabilities, and software toolchain to help our partners drive the field forward.\n\nWhat You'll Do:\n• End-to-End Project Delivery: Own the full lifecycle of complex robotics data collection and annotation projects—from initial client alignment and solution design to final delivery. Ensure dataset production meets strict client SLAs and accuracy standards while managing internal cost and timeline targets.\n• Data Solution & Spec Design: Deeply understand clients' robotic model training needs, including sensors, modalities, and action spaces. Translate ambiguous academic and commercial requirements into concrete, high-precision data collection, simulation, and annotation specifications.\n• Global Cross-Functional Coordination: Serve as the central program hub coordinating teams across the US, China, and Southeast Asia. Bring together engineering, data operations, algorithms, and global annotation teams to drive seamless execution across time zones.\n• Quality Control & Progress Monitoring: Build and monitor real-time tracking systems for data production pipelines.",
+    "tags": [
+      "具身智能",
+      "技术项目管理",
+      "数据交付",
+      "跨国协作",
+      "机器人"
+    ],
+    "tagsEn": [
+      "Embodied AI",
+      "Technical Program Management",
+      "Data Delivery",
+      "Global Collaboration",
+      "Robotics"
+    ],
+    "profile": {
+      "skills": [
+        "端到端项目交付",
+        "数据规范设计",
+        "跨职能协调",
+        "质量与进度管理"
+      ],
+      "skillsEn": [
+        "End-to-End Delivery",
+        "Data Specification Design",
+        "Cross-functional Coordination",
+        "Quality & Timeline Management"
+      ]
+    },
+    "sort": 2
+  },
+  {
     "id": "mexc-growth-product",
     "companyId": "mexc",
     "title": "高级用户增长产品/运营",
