@@ -52,7 +52,7 @@ const LOCATION_RULES: { keywords: string[]; zone: string; name: string }[] = [
   { keywords: ["东京", "tokyo", "日本"], zone: "Asia/Tokyo", name: "东京" },
   { keywords: ["新加坡", "singapore"], zone: "Asia/Singapore", name: "新加坡" },
   { keywords: ["香港", "hong kong"], zone: "Asia/Hong_Kong", name: "香港" },
-  { keywords: ["悉尼", "sydney", "澳洲东部", "澳大利亚东部", "australia east"], zone: "Australia/Sydney", name: "澳洲东部 / 悉尼" },
+  { keywords: ["悉尼", "sydney", "澳大利亚", "澳洲", "australia", "澳洲东部", "澳大利亚东部", "australia east"], zone: "Australia/Sydney", name: "澳大利亚 / 悉尼" },
   { keywords: ["迪拜", "dubai", "阿联酋"], zone: "Asia/Dubai", name: "迪拜" },
   { keywords: ["孟买", "mumbai", "印度", "india", "班加罗尔", "bengaluru", "bangalore"], zone: "Asia/Kolkata", name: "印度" },
 ];
