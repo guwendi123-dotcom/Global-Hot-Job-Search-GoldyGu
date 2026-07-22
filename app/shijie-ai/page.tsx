@@ -184,6 +184,13 @@ function skyPhase(date: Date, zone: string, solar: { sunrise: string; sunset: st
   return { key: "dusk", label: "暮色", note: "天空正在入夜" };
 }
 
+function chineseHour(value: string) {
+  const digits: Record<string, number> = { 零: 0, 〇: 0, 一: 1, 二: 2, 两: 2, 三: 3, 四: 4, 五: 5, 六: 6, 七: 7, 八: 8, 九: 9 };
+  if (!value.includes("十")) return digits[value] ?? Number(value);
+  const [left, right] = value.split("十");
+  return (left ? digits[left] : 1) * 10 + (right ? digits[right] : 0);
+}
+
 function parseNatural(input: string, zone: string) {
   const now = new Date();
   const todayParts = parts(now, zone);
@@ -204,7 +211,8 @@ function parseNatural(input: string, zone: string) {
       }
     }
   }
-  let hours = [...lower.matchAll(/(\d{1,2})(?::|点)(?:(\d{1,2})|(半)|(一刻|三刻))?/g)].map((m) => ({
+  const normalizedTime = lower.replace(/([零〇一二两三四五六七八九十]{1,3})点/g, (_, value: string) => `${chineseHour(value)}点`);
+  let hours = [...normalizedTime.matchAll(/(\d{1,2})(?::|点)(?:(\d{1,2})|(半)|(一刻|三刻))?/g)].map((m) => ({
     h: +m[1], m: m[2] ? +m[2] : m[3] ? 30 : m[4] === "三刻" ? 45 : m[4] ? 15 : 0,
   }));
   if (!hours.length) {
