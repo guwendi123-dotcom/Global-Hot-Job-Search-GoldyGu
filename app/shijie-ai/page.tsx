@@ -30,8 +30,13 @@ const ZONES: Zone[] = [
 
 const ROLES = ["候选人", "面试官", "HR", "猎头", "其他"];
 const QUICK_LOCATIONS = ["中国", "日本", "巴西", "墨西哥", "美西", "美东", "英国", "卢森堡"];
+const CHINA_REGIONS = ["北京", "天津", "上海", "重庆", "河北", "山西", "辽宁", "吉林", "黑龙江", "江苏", "浙江", "安徽", "福建", "江西", "山东", "河南", "湖北", "湖南", "广东", "海南", "四川", "贵州", "云南", "陕西", "甘肃", "青海", "内蒙古", "广西", "宁夏", "西藏"];
 type TimezoneChoice = { label: string; zone: string; name: string };
 const REGION_CHOICES: { aliases: string[]; choices: TimezoneChoice[] }[] = [
+  { aliases: ["新疆", "新疆时间", "乌鲁木齐", "urumqi", "xinjiang"], choices: [
+    { label: "中国标准时间 · UTC+8", zone: "Asia/Shanghai", name: "中国新疆（中国标准时间）" },
+    { label: "新疆时间 · UTC+6", zone: "Asia/Urumqi", name: "中国新疆（新疆时间）" },
+  ] },
   { aliases: ["美国", "美国时间", "usa", "united states", "us"], choices: [
     { label: "美东 · 纽约", zone: "America/New_York", name: "美国东部 / 纽约" }, { label: "美中 · 芝加哥", zone: "America/Chicago", name: "美国中部 / 芝加哥" },
     { label: "山地 · 丹佛", zone: "America/Denver", name: "美国山地 / 丹佛" }, { label: "美西 · 洛杉矶", zone: "America/Los_Angeles", name: "美国西部 / 洛杉矶" },
@@ -51,13 +56,14 @@ const LOCATION_RULES: { keywords: string[]; zone: string; name: string }[] = [
   { keywords: ["马来西亚", "大马", "malaysia", "吉隆坡", "kuala lumpur", "槟城", "penang", "新山", "johor bahru"], zone: "Asia/Kuala_Lumpur", name: "马来西亚 / 吉隆坡" },
   { keywords: ["印度尼西亚", "印尼", "indonesia", "雅加达", "jakarta", "巴厘岛", "bali", "泗水", "surabaya"], zone: "Asia/Jakarta", name: "印度尼西亚 / 雅加达" },
   { keywords: ["卢森堡", "luxembourg"], zone: "Europe/Luxembourg", name: "卢森堡" },
+  { keywords: ["西藏", "拉萨", "tibet", "lhasa"], zone: "Asia/Shanghai", name: "中国西藏 / 拉萨" },
   { keywords: ["中国", "中国时间", "上海", "北京", "china time", "beijing", "shanghai"], zone: "Asia/Shanghai", name: "中国 / 北京" },
   { keywords: ["纽约", "new york", "nyc", "美东", "美国东部"], zone: "America/New_York", name: "纽约" },
   { keywords: ["伦敦", "london", "英国", "uk"], zone: "Europe/London", name: "英国 / 伦敦" },
   { keywords: ["欧洲中部", "中欧", "central europe", "cet"], zone: "Europe/Berlin", name: "欧洲中部" },
   { keywords: ["巴西", "brazil", "圣保罗", "são paulo", "sao paulo", "里约"], zone: "America/Sao_Paulo", name: "巴西 / 圣保罗" },
   { keywords: ["墨西哥城", "mexico city", "墨西哥", "mexico"], zone: "America/Mexico_City", name: "墨西哥城" },
-  { keywords: ["洛杉矶", "los angeles", "la", "美西", "美国西部", "西雅图", "seattle"], zone: "America/Los_Angeles", name: "美国西部" },
+  { keywords: ["洛杉矶", "los angeles", "la", "美西", "美国西部", "西雅图", "seattle", "加州", "加利福尼亚", "california"], zone: "America/Los_Angeles", name: "美国太平洋时间 / 加州" },
   { keywords: ["芝加哥", "chicago", "美国中部", "美中"], zone: "America/Chicago", name: "美国中部" },
   { keywords: ["美国山地", "美山", "mountain time", "denver", "丹佛"], zone: "America/Denver", name: "美国山地时间" },
   { keywords: ["多伦多", "toronto"], zone: "America/Toronto", name: "多伦多" },
@@ -79,7 +85,7 @@ const ZONE_COORDS: Record<string, [number, number]> = {
   "Asia/Tokyo": [35.68, 139.69], "Asia/Singapore": [1.35, 103.82], "Asia/Hong_Kong": [22.32, 114.17],
   "Asia/Taipei": [25.03, 121.57], "Asia/Kuala_Lumpur": [3.14, 101.69],
   "Asia/Jakarta": [-6.21, 106.85], "Europe/Luxembourg": [49.61, 6.13],
-  "Australia/Sydney": [-33.87, 151.21], "Asia/Dubai": [25.20, 55.27], "Asia/Kolkata": [19.08, 72.88],
+  "Australia/Sydney": [-33.87, 151.21], "Asia/Urumqi": [43.83, 87.62], "Asia/Dubai": [25.20, 55.27], "Asia/Kolkata": [19.08, 72.88],
 };
 
 function resolvePreset(input: string) {
@@ -88,6 +94,8 @@ function resolvePreset(input: string) {
 }
 
 async function resolveLocation(input: string): Promise<{ zone: string; name: string; latitude?: number; longitude?: number } | null> {
+  const chinaRegion = CHINA_REGIONS.find((region) => input.includes(region));
+  if (chinaRegion) return { zone: "Asia/Shanghai", name: `中国${chinaRegion}`, latitude: 35.86, longitude: 104.20 };
   const preset = resolvePreset(input);
   if (preset) { const coords = ZONE_COORDS[preset.zone]; return { zone: preset.zone, name: preset.name, latitude: coords?.[0], longitude: coords?.[1] }; }
   try {
@@ -196,7 +204,9 @@ function parseNatural(input: string, zone: string) {
       }
     }
   }
-  let hours = [...lower.matchAll(/(\d{1,2})(?::|点)(\d{1,2})?/g)].map((m) => ({ h: +m[1], m: +(m[2] || 0) }));
+  let hours = [...lower.matchAll(/(\d{1,2})(?::|点)(?:(\d{1,2})|(半)|(一刻|三刻))?/g)].map((m) => ({
+    h: +m[1], m: m[2] ? +m[2] : m[3] ? 30 : m[4] === "三刻" ? 45 : m[4] ? 15 : 0,
+  }));
   if (!hours.length) {
     if (/上午|morning/.test(lower)) hours = [{ h: 9, m: 0 }, { h: 12, m: 0 }];
     else if (/下午|afternoon/.test(lower)) hours = [{ h: 13, m: 0 }, { h: 17, m: 0 }];
