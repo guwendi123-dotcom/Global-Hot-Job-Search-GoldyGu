@@ -70,20 +70,6 @@
     "sort": 20
   },
   {
-    "id": "robotex",
-    "industryId": "embodied-ai",
-    "name": "RobotEx 机器人",
-    "nameEn": "RobotEx",
-    "logo": "/logos/robotex.png",
-    "description": "国内领先的人形机器人公司",
-    "descriptionEn": "Leading humanoid robot company in China",
-    "stage": "C轮",
-    "stageEn": "Series C",
-    "location": "北京·海淀区",
-    "locationEn": "Haidian, Beijing",
-    "sort": 30
-  },
-  {
     "id": "nirva",
     "industryId": "smart-hardware",
     "name": "Nirva",
