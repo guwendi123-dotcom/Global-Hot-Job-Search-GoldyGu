@@ -37,6 +37,9 @@ main { min-height:100vh; }
 .quick-locations small { color:var(--muted);font-size:10px;margin-right:3px; }
 .quick-locations button { border:1px solid rgba(16,36,62,.16);background:#fffaf4;color:#536174;border-radius:999px;padding:6px 10px;font-size:11px; }
 .quick-locations button:hover { border-color:#f47b68;background:#fff0eb;color:#b65345; }
+.timezone-choices { display:flex;flex-wrap:wrap;gap:7px;margin-top:10px;padding:10px;border-radius:10px;background:#fff7ed;border:1px solid rgba(244,123,104,.22); }
+.timezone-choices button { border:1px solid rgba(16,36,62,.18);background:white;color:var(--ink);border-radius:8px;padding:7px 10px;font-size:11px; }
+.timezone-choices button:hover { border-color:#f47b68;color:#b65345; }
 input,select { width:100%;border:1px solid rgba(16,36,62,.22);border-radius:11px;background:rgba(255,255,255,.82);color:var(--ink);padding:13px 14px;outline:none;transition:.2s; }
 input:focus,select:focus { border-color:#f47b68;box-shadow:0 0 0 3px rgba(244,123,104,.12); }
 .examples { color:var(--muted);font-size:12px;line-height:1.6;margin:-8px 0 22px; }

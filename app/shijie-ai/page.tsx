@@ -30,6 +30,21 @@ const ZONES: Zone[] = [
 
 const ROLES = ["候选人", "面试官", "HR", "猎头", "其他"];
 const QUICK_LOCATIONS = ["中国", "日本", "巴西", "墨西哥", "美西", "美东", "英国", "卢森堡"];
+type TimezoneChoice = { label: string; zone: string; name: string };
+const REGION_CHOICES: { aliases: string[]; choices: TimezoneChoice[] }[] = [
+  { aliases: ["美国", "美国时间", "usa", "united states", "us"], choices: [
+    { label: "美东 · 纽约", zone: "America/New_York", name: "美国东部 / 纽约" }, { label: "美中 · 芝加哥", zone: "America/Chicago", name: "美国中部 / 芝加哥" },
+    { label: "山地 · 丹佛", zone: "America/Denver", name: "美国山地 / 丹佛" }, { label: "美西 · 洛杉矶", zone: "America/Los_Angeles", name: "美国西部 / 洛杉矶" },
+  ] },
+  { aliases: ["澳大利亚", "澳洲", "australia"], choices: [
+    { label: "东部 · 悉尼", zone: "Australia/Sydney", name: "澳大利亚东部 / 悉尼" }, { label: "东部 · 布里斯班", zone: "Australia/Brisbane", name: "澳大利亚东部 / 布里斯班" },
+    { label: "中部 · 阿德莱德", zone: "Australia/Adelaide", name: "澳大利亚中部 / 阿德莱德" }, { label: "西部 · 珀斯", zone: "Australia/Perth", name: "澳大利亚西部 / 珀斯" },
+  ] },
+  { aliases: ["加拿大", "canada"], choices: [
+    { label: "东部 · 多伦多", zone: "America/Toronto", name: "加拿大东部 / 多伦多" }, { label: "中部 · 温尼伯", zone: "America/Winnipeg", name: "加拿大中部 / 温尼伯" },
+    { label: "山地 · 卡尔加里", zone: "America/Edmonton", name: "加拿大山地 / 卡尔加里" }, { label: "西部 · 温哥华", zone: "America/Vancouver", name: "加拿大西部 / 温哥华" },
+  ] },
+];
 const LOCATION_RULES: { keywords: string[]; zone: string; name: string }[] = [
   { keywords: ["sunnyvale", "美国湾区", "旧金山湾区", "湾区", "硅谷", "silicon valley", "san francisco bay area", "san jose", "圣何塞", "mountain view", "palo alto", "cupertino", "旧金山", "san francisco"], zone: "America/Los_Angeles", name: "美国湾区 / Sunnyvale" },
   { keywords: ["中国台湾", "台湾", "taiwan", "台北", "taipei", "高雄", "kaohsiung", "台中", "taichung", "新竹", "hsinchu"], zone: "Asia/Taipei", name: "中国台湾" },
@@ -52,7 +67,7 @@ const LOCATION_RULES: { keywords: string[]; zone: string; name: string }[] = [
   { keywords: ["东京", "tokyo", "日本"], zone: "Asia/Tokyo", name: "东京" },
   { keywords: ["新加坡", "singapore"], zone: "Asia/Singapore", name: "新加坡" },
   { keywords: ["香港", "hong kong"], zone: "Asia/Hong_Kong", name: "香港" },
-  { keywords: ["悉尼", "sydney", "澳大利亚", "澳洲", "australia", "澳洲东部", "澳大利亚东部", "australia east"], zone: "Australia/Sydney", name: "澳大利亚 / 悉尼" },
+  { keywords: ["悉尼", "sydney", "澳洲东部", "澳大利亚东部", "australia east"], zone: "Australia/Sydney", name: "澳大利亚 / 悉尼" },
   { keywords: ["迪拜", "dubai", "阿联酋"], zone: "Asia/Dubai", name: "迪拜" },
   { keywords: ["孟买", "mumbai", "印度", "india", "班加罗尔", "bengaluru", "bangalore"], zone: "Asia/Kolkata", name: "印度" },
 ];
@@ -198,15 +213,19 @@ function parseNatural(input: string, zone: string) {
 function LocationInput({ place, onChange, label, compact = false }: { place: Place; onChange: (place: Place) => void; label: string; compact?: boolean }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [choices, setChoices] = useState<TimezoneChoice[]>([]);
   async function confirm(query = place.query) {
     if (!query.trim()) { setError("请先输入一个地点"); return; }
+    const region = REGION_CHOICES.find((item) => item.aliases.includes(query.trim().toLowerCase()));
+    if (region) { setChoices(region.choices); setError("该地区横跨多个时区，请选择具体区域"); onChange({ ...place, query, confirmed: false }); return; }
+    setChoices([]);
     setLoading(true); setError("");
     const match = await resolveLocation(query);
     setLoading(false);
     if (!match) { setError("暂时没找到这个地点，请补充城市或国家后再试"); return; }
     onChange({ query, zone: match.zone, name: match.name, confirmed: true, latitude: match.latitude, longitude: match.longitude });
   }
-  return <div className={`field location-field ${compact ? "compact" : ""}`}><span>{label}</span><div className="location-input"><span>⌖</span><input value={place.query} onChange={(e) => { onChange({ ...place, query: e.target.value, confirmed: false }); setError(""); }} onKeyDown={(e) => e.key === "Enter" && confirm()} placeholder="输入城市、国家或地区，如 Sunnyvale、美国湾区" /><button type="button" onClick={() => confirm()} disabled={loading}>{loading ? "识别中" : "确定"}</button></div><div className={`resolved ${place.confirmed ? "ok" : error ? "warn" : "idle"}`}>{place.confirmed ? `✓ 已匹配：${place.name} · ${place.zone}` : error || "输入后点击确定，我来匹配正确时区"}</div>{!compact && <div className="quick-locations"><small>常用</small>{QUICK_LOCATIONS.map((item) => <button type="button" key={item} onClick={() => { onChange({ ...place, query: item, confirmed: false }); confirm(item); }}>{item}</button>)}</div>}</div>;
+  return <div className={`field location-field ${compact ? "compact" : ""}`}><span>{label}</span><div className="location-input"><span>⌖</span><input value={place.query} onChange={(e) => { onChange({ ...place, query: e.target.value, confirmed: false }); setError(""); setChoices([]); }} onKeyDown={(e) => e.key === "Enter" && confirm()} placeholder="输入城市、国家或地区，如 Sunnyvale、美国" /><button type="button" onClick={() => confirm()} disabled={loading}>{loading ? "识别中" : "确定"}</button></div><div className={`resolved ${place.confirmed ? "ok" : error ? "warn" : "idle"}`}>{place.confirmed ? `✓ 已匹配：${place.name} · ${place.zone}` : error || "输入后点击确定，我来匹配正确时区"}</div>{choices.length > 0 && <div className="timezone-choices">{choices.map((choice) => <button type="button" key={choice.zone} onClick={() => { const coords = ZONE_COORDS[choice.zone]; onChange({ query: place.query, zone: choice.zone, name: choice.name, confirmed: true, latitude: coords?.[0], longitude: coords?.[1] }); setChoices([]); setError(""); }}>{choice.label}</button>)}</div>}{!compact && <div className="quick-locations"><small>常用</small>{QUICK_LOCATIONS.map((item) => <button type="button" key={item} onClick={() => { onChange({ ...place, query: item, confirmed: false }); confirm(item); }}>{item}</button>)}</div>}</div>;
 }
 
 function CopyButton({ text, label = "复制" }: { text: string; label?: string }) {
