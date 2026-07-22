@@ -181,5 +181,34 @@
     "logo": "",
     "logoEmoji": "📕",
     "sort": 12
+  },
+  {
+    "id": "global-ai-creative-agent",
+    "industryId": "ai-agent",
+    "name": "全球 AI 创意设计 Agent 平台",
+    "nameEn": "Global AI Creative Design Agent Platform",
+    "logo": "/logos/creative-design-agent.webp",
+    "description": "全球领先的 AI 原生创意科技公司，核心产品以设计 Agent 重构从品牌视觉、营销素材到完整创意工作流的生产方式。公司产品生态已服务超过 3,000 万用户，累计融资近 3 亿美元，估值超过 20 亿美元，拥有成熟的多模态 AI 技术、全球化产品能力和快速扩张的国际市场团队。",
+    "descriptionEn": "A leading AI-native creative technology company redefining how branding, visual design, marketing assets, and end-to-end creative workflows are produced through design agents. Its product ecosystem serves more than 30 million users. With nearly US$300 million in funding and a valuation exceeding US$2 billion, the company combines mature multimodal AI capabilities with strong global product execution and a rapidly expanding international team.",
+    "stage": "独角兽",
+    "stageEn": "Unicorn",
+    "location": "上海 / 旧金山 / 纽约 / 东京 / 首尔",
+    "locationEn": "Shanghai / San Francisco / New York / Tokyo / Seoul",
+    "sort": 3
+  },
+  {
+    "id": "novvy",
+    "industryId": "ai-agent",
+    "name": "Novvy",
+    "nameEn": "Novvy",
+    "logo": "",
+    "logoEmoji": "📈",
+    "description": "硅谷 AI 创业公司，创始团队来自 Google Ads、Meta Ads 与 Meta Superintelligence Labs，致力于构建 AI 时代的新一代广告商业化基础设施。团队规模不足 10 人，已融资约 600 万美元；供给侧已连接头部出海短剧产品，覆盖超过 1,000 万 DAU，预算侧已连接头部休闲游戏及电商平台，可触达广告预算超过 1 亿美元，并获得多位广告科技行业资深创业者与投资人的支持。",
+    "descriptionEn": "A Silicon Valley AI startup founded by veterans of Google Ads, Meta Ads, and Meta Superintelligence Labs, building next-generation monetization infrastructure for AI-native content and entertainment. The team has fewer than 10 people and has raised approximately US$6 million. On the supply side, it works with leading global short-drama products reaching more than 10 million DAU; on the demand side, it connects with top casual-game and e-commerce advertisers with access to over US$100 million in budget, backed by experienced advertising technology founders and investors.",
+    "stage": "早期融资约 600 万美元",
+    "stageEn": "Early Stage · Approx. US$6M Raised",
+    "location": "上海·徐汇滨江",
+    "locationEn": "Xuhui Riverside, Shanghai",
+    "sort": 4
   }
 ]
