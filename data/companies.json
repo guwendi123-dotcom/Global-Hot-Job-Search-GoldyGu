@@ -197,6 +197,21 @@
     "sort": 3
   },
   {
+    "id": "vidawheel",
+    "industryId": "ai-agent",
+    "name": "VidaWheel",
+    "nameEn": "VidaWheel",
+    "logo": "",
+    "logoEmoji": "🌙",
+    "description": "以女性主义为核心理念的灵性疗愈科技品牌，以神女能量珠宝、智能软硬件和 AI 疗愈产品为载体，结合荣格心理学与古希腊女神原型叙事，为职场女性提供有尊严、有文化深度的心理支持。品牌正在建设全球女性互助社群 Queendom.S，连接女性主义者、身心疗愈者与女性社区，并将部分收入捐赠给全球女性公益组织。",
+    "descriptionEn": "A feminist spiritual-wellness technology brand combining goddess-inspired jewelry, intelligent hardware, software, and AI-guided healing experiences. Grounded in Jungian psychology and Greek goddess archetypes, it provides culturally thoughtful, dignified emotional support for women. Its global mutual-support community, Queendom.S, connects feminists, wellness practitioners, and women's communities, while a portion of brand revenue supports women's nonprofit organizations worldwide.",
+    "stage": "Pre-A轮",
+    "stageEn": "Pre-Series A",
+    "location": "深圳 / 美国Remote",
+    "locationEn": "Shenzhen / USA Remote",
+    "sort": 6
+  },
+  {
     "id": "novvy",
     "industryId": "ai-agent",
     "name": "Novvy",
