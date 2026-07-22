@@ -84,20 +84,6 @@
     "sort": 30
   },
   {
-    "id": "aithink",
-    "industryId": "ai",
-    "name": "AIThink 大模型",
-    "nameEn": "AIThink",
-    "logo": "/logos/aithink.png",
-    "description": "专注通用大模型研发",
-    "descriptionEn": "Focusing on general-purpose LLM development",
-    "stage": "B轮",
-    "stageEn": "Series B",
-    "location": "北京·中关村",
-    "locationEn": "Zhongguancun, Beijing",
-    "sort": 40
-  },
-  {
     "id": "nirva",
     "industryId": "smart-hardware",
     "name": "Nirva",
@@ -110,20 +96,6 @@
     "location": "湾区/深圳",
     "locationEn": "Bay Area / Shenzhen",
     "sort": 15
-  },
-  {
-    "id": "driveauto",
-    "industryId": "smart-hardware",
-    "name": "DriveAuto 智驾",
-    "nameEn": "DriveAuto",
-    "logo": "/logos/driveauto.png",
-    "description": "L4级自动驾驶解决方案提供商",
-    "descriptionEn": "L4 autonomous driving solution provider",
-    "stage": "B+轮",
-    "stageEn": "Series B+",
-    "location": "上海·浦东",
-    "locationEn": "Pudong, Shanghai",
-    "sort": 50
   },
   {
     "id": "personal-agi",
