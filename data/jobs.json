@@ -1101,5 +1101,28 @@
     "tagsEn": ["Marketing Lead", "North America", "Brand Growth", "Creator Marketing", "Remote"],
     "profile": {"experience": "5年以上营销，3年以上管理", "experienceEn": "5+ years marketing, 3+ years management", "language": "英语流利", "languageEn": "Fluent English", "skills": ["海外营销战略", "团队管理", "投放", "达人合作"], "skillsEn": ["International Marketing Strategy", "Team Leadership", "Paid Media", "Creator Partnerships"]},
     "sort": 5
+  },
+  {
+    "id": "aianimation-senior-product-designer",
+    "companyId": "aianimation",
+    "title": "资深产品设计师",
+    "titleEn": "Senior Product Designer",
+    "jobType": "product-design",
+    "jobTypeEn": "Product & Design",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "北京",
+    "locationEn": "Beijing",
+    "description": "职位描述：\n• 负责核心创作功能从 0 到 1 的产品设计与持续迭代。\n• 参与产品主架构及商业化体验的设计与迭代。\n• 推动设计系统的持续迭代、规范建设与日常维护。\n\n职位要求：\n• 具备从交互体验到 UI 视觉设计的完整能力。\n• 拥有良好的设计思维与审美，懂得平衡效率与趣味。\n• 能在不确定性中寻找确定性，也能在确定性中持续质疑其合理性。\n• 喜欢深入思考和钻研，愿意反复打磨令人着迷的设计细节。\n• 对信息敏感，擅长把握信息在界面呈现中的层级、密度与分寸感。\n• 对工具型产品有发自内心的兴趣。\n• 熟练使用 Figma，以及任何能够提升工作质量和效率的 AI 工具。\n• 具备国际化视野或相关项目经验。",
+    "descriptionEn": "Responsibilities:\n• Lead the 0-to-1 design and continuous iteration of core creative features.\n• Shape and evolve the product's primary architecture and monetization experiences.\n• Drive the ongoing evolution, documentation, and maintenance of the design system.\n\nRequirements:\n• End-to-end capability spanning interaction design and polished UI visual design.\n• Strong design thinking and aesthetic judgment, with an ability to balance efficiency and delight.\n• Comfortable finding clarity in ambiguity while continuing to question assumptions once a direction appears settled.\n• Curious and detail-oriented, with the patience to deeply explore and refine compelling design details.\n• Highly sensitive to information hierarchy, density, and the appropriate amount of content presented in an interface.\n• Genuine enthusiasm for tool-based products.\n• Proficiency with Figma and any AI tools that strengthen design quality and productivity.\n• International perspective or relevant global product experience.",
+    "tags": ["产品设计", "交互设计", "UI设计", "设计系统", "AI创作工具", "北京"],
+    "tagsEn": ["Product Design", "Interaction Design", "UI Design", "Design Systems", "AI Creative Tools", "Beijing"],
+    "profile": {
+      "skills": ["Figma", "交互体验", "UI视觉", "设计系统", "AI工具"],
+      "skillsEn": ["Figma", "Interaction Design", "UI Design", "Design Systems", "AI Tools"],
+      "experience": "资深",
+      "experienceEn": "Senior level"
+    },
+    "sort": 120
   }
 ]
