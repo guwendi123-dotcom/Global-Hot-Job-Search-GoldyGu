@@ -1,0 +1,34 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "main": ".open-next/worker.js",
+  "name": "headhunter-portfolio",
+  "workers_dev": true,
+  "compatibility_date": "2026-07-07",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+  "routes": [
+    "goldyhire.com/*",
+    "www.goldyhire.com/*"
+  ],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "services": [
+    {
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "headhunter-portfolio"
+    }
+  ],
+  "images": {
+    "binding": "IMAGES"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "HEADHUNTER_DATA",
+      "id": "49ce5f1fc2f24e63b808bb6aecab5df7"
+    }
+  ]
+}
