@@ -6,8 +6,10 @@
 - 唯一 GitHub 仓库：`https://github.com/guwendi123-dotcom/Global-Hot-Job-Search-GoldyGu`
 - 正式网站：`https://www.goldyhire.com`
 - Cloudflare Worker：`headhunter-portfolio`
+- 恢复新版 UI 的主线基准提交：`016e70ef0edfe8d06a3ed350df8df83154cdab23`
 
 不要使用用户主目录或其他同名目录中的旧代码。开始修改前，必须确认当前目录与上面的路径完全一致，并检查 Git 状态与远端版本。
+正确页面应包含米白色新版 UI、Goldy 与三只猫主插画、公司目录，以及 Wechat 和 LinkedIn 入口；如果这些特征不存在，必须停止发布并检查版本。
 
 ## 内容数据
 
