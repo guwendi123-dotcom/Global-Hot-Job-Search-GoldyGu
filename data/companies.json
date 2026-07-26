@@ -170,6 +170,21 @@
     "sort": 6
   },
   {
+    "id": "actionx",
+    "industryId": "ai-agent",
+    "name": "ActionX",
+    "nameEn": "ActionX",
+    "logo": "",
+    "logoEmoji": "⚡",
+    "description": "ActionX 成立于 2026 年，是一家全球化 AI Native 公司，已获得硅谷风险投资机构等数百万美元天使轮投资。创始团队兼具顶尖多模态算法研究与连续创业经验，曾参与 MSRA 多模态大模型研究，并主导过百万用户级 AI 产品从 0 到 1 的研发与商业化。公司当前以 CodeX 切入广告投放与卖家增长场景，通过 Agent 打通 Insight、Creative 与 Data 闭环，构建面向全球市场的 AI 原生商业增长基础设施。公司在北京和美国均设有主体。",
+    "descriptionEn": "Founded in 2026, ActionX is a global AI-native company backed by several million US dollars in angel funding from Silicon Valley venture investors and other institutions. Its founding team combines frontier multimodal AI research with repeatedly validated 0-to-1 entrepreneurship, including experience in multimodal foundation-model research and building AI products that reached more than one million users. Its current product, CodeX, serves advertising and seller-growth workflows, using agents to connect Insight, Creative, and Data into an end-to-end commercial growth loop. The company operates entities in both Beijing and the United States.",
+    "stage": "数百万美元天使轮",
+    "stageEn": "Multi-million-dollar Angel Round",
+    "location": "北京 / 美国",
+    "locationEn": "Beijing / United States",
+    "sort": 2
+  },
+  {
     "id": "novvy",
     "industryId": "ai-agent",
     "name": "Novvy",
@@ -183,5 +198,20 @@
     "location": "上海·徐汇滨江",
     "locationEn": "Xuhui Riverside, Shanghai",
     "sort": 4
+  },
+  {
+    "id": "global-ai-creator-marketing-platform",
+    "industryId": "ai-agent",
+    "name": "全球 AI 达人营销平台",
+    "nameEn": "Global AI Creator Marketing Platform",
+    "logo": "",
+    "logoEmoji": "🎯",
+    "description": "全球领先的 AI 原生达人营销双边平台，汇聚超过 5 万名认证科技创作者，并服务快速成长的 AI、消费电子、电商与游戏品牌。团队分布北美与亚洲，核心成员来自全球领先科技企业和连续创业团队，在欧美市场与中国品牌出海市场均拥有专业 GTM 能力，致力于以 AI 建设更高效、智能、透明的达人营销基础设施。",
+    "descriptionEn": "A leading AI-native two-sided creator marketing platform connecting more than 50,000 verified technology creators with fast-growing AI, consumer electronics, e-commerce, and gaming brands. Its North America and Asia-based team combines global technology and repeat-founder experience, building more efficient, intelligent, and transparent infrastructure for creator marketing.",
+    "stage": "高速增长期",
+    "stageEn": "High-growth Stage",
+    "location": "北京总部 / 北美 / 中国多地",
+    "locationEn": "Beijing HQ / North America / Multiple China Locations",
+    "sort": 5
   }
 ]
