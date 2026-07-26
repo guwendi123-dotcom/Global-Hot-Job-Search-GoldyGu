@@ -1,5 +1,50 @@
 [
   {
+    "id": "aitrip-machine-learning-engineer",
+    "companyId": "aitrip",
+    "title": "机器学习工程师",
+    "titleEn": "Machine Learning Engineer",
+    "jobType": "engineering,algorithm,research",
+    "jobTypeEn": "Engineering,Algorithm,Research",
+    "workMode": "待确认",
+    "workModeEn": "TBD",
+    "location": "美国 Sunnyvale",
+    "locationEn": "Sunnyvale, USA",
+    "description": "岗位介绍：\n我们正在招聘机器学习工程师，负责构建搜索、推荐和多模态检索系统背后的核心智能能力。\n\n这是一个具有高影响力、强调实践的岗位，适合希望将机器学习、深度学习和生成式 AI 应用于大规模真实产品问题的工程师。你将参与检索、排序、相关性、内容理解、Embedding 和多模态模型相关工作，并将研究思路转化为能够改善用户体验和业务指标的生产系统。\n\n核心职责：\n• 构建并部署用于搜索、推荐和内容发现的机器学习模型。\n• 改进文本、图像、视频和结构化数据的多模态检索能力。\n• 针对实际生产场景开发和微调大语言模型及视觉语言模型。\n• 解决查询理解、召回、排序、Embedding 和 RAG 等相关性问题。\n• 设计实验、分析结果，并推动关键业务指标获得可衡量的提升。\n• 处理大规模数据，构建实用且具备可扩展性的机器学习系统。\n\n任职要求：\n• 具备将机器学习应用于搜索、推荐、广告、Feed 排序或相关性优化的扎实经验。\n• 具备机器学习、深度学习、自然语言处理或多模态学习方面的扎实基础。\n• 有检索、排序、Embedding、相关性优化或 RAG 的实践经验。\n• 有多模态模型经验者优先。\n• 熟悉 SFT、LoRA、PEFT、RLHF 或 DPO 等大模型微调方法者优先。\n• 具备扎实的 Python、Go 或 C++ 编程能力。\n• 能够适应快速变化、强调自主负责的创业团队环境。",
+    "descriptionEn": "About the Role:\nWe are hiring Machine Learning Engineers to build the core intelligence behind our search, recommendation, and multimodal retrieval systems.\n\nThis is a high-impact, hands-on role for engineers who want to apply machine learning, deep learning, and generative AI to real product problems at scale. You will work on retrieval, ranking, relevance, content understanding, embeddings, and multimodal models, and help turn research ideas into production systems that improve user experience and business metrics.\n\nResponsibilities:\n• Build and deploy ML models for search, recommendation, and discovery.\n• Improve multimodal retrieval across text, image, video, and structured data.\n• Develop and fine-tune LLMs and vision-language models for production use cases.\n• Work on relevance problems including query understanding, recall, ranking, embeddings, and RAG.\n• Run experiments, analyze results, and drive measurable improvements in KPIs.\n• Process large-scale data and build practical, scalable ML systems.\n\nRequirements:\n• Strong experience in machine learning applied to search, recommendation, ads, feed ranking, or relevance.\n• Strong fundamentals in ML, deep learning, NLP, or multimodal learning.\n• Hands-on experience with retrieval, ranking, embeddings, relevance optimization, or RAG.\n• Experience with multimodal models is strongly preferred.\n• Familiarity with LLM fine-tuning methods such as SFT, LoRA, PEFT, RLHF, or DPO is a plus.\n• Strong programming skills in Python, Go, or C++.\n• Comfortable working in a fast-moving, high-ownership startup environment.",
+    "tags": [
+      "机器学习",
+      "搜索推荐",
+      "多模态",
+      "LLM",
+      "RAG"
+    ],
+    "tagsEn": [
+      "Machine Learning",
+      "Search & Recommendation",
+      "Multimodal",
+      "LLM",
+      "RAG"
+    ],
+    "profile": {
+      "skills": [
+        "Python / Go / C++",
+        "检索与排序",
+        "Embedding",
+        "多模态模型",
+        "LLM 微调"
+      ],
+      "skillsEn": [
+        "Python / Go / C++",
+        "Retrieval & Ranking",
+        "Embeddings",
+        "Multimodal Models",
+        "LLM Fine-tuning"
+      ]
+    },
+    "sort": 1
+  },
+  {
     "id": "maxinsights-data-partnership",
     "companyId": "maxinsights",
     "title": "数据合作经理",
@@ -35,6 +80,49 @@
       "languageEn": "English"
     },
     "sort": 1
+  },
+  {
+    "id": "maxinsights-technical-project-manager",
+    "companyId": "maxinsights",
+    "title": "技术项目经理",
+    "titleEn": "Technical Project Manager",
+    "jobType": "pm",
+    "jobTypeEn": "PM",
+    "workMode": "待确认",
+    "workModeEn": "TBD",
+    "location": "待确认",
+    "locationEn": "TBD",
+    "description": "我们的使命：\nMaxInsights 通过端到端数据解决方案平台，帮助机器人基础模型公司获取大规模、高质量且可扩展的具身智能训练数据。前沿实验室正在竞相构建通用机器人，而高质量训练数据是当前的核心瓶颈。我们正在建设数据采集系统、仿真引擎、运营能力及软件工具链，帮助合作伙伴持续推动行业发展。\n\n工作职责：\n• 端到端项目交付：负责复杂机器人数据采集与标注项目的完整生命周期，从前期客户需求对齐、方案设计到最终交付。确保数据集生产满足客户严格的 SLA 和准确率标准，同时管理内部成本及进度目标。\n• 数据解决方案与规范设计：深入理解客户的机器人模型训练需求，包括传感器、数据模态和动作空间。将模糊的学术及商业需求转化为具体、高精度的数据采集、仿真和标注规范。\n• 全球跨职能协调：担任项目的核心协调枢纽，连接美国、中国和东南亚团队，协同工程、数据运营、算法及全球标注团队，推动跨时区的顺畅执行。\n• 质量控制与进度监控：搭建并监控数据生产管线的实时追踪系统。",
+    "descriptionEn": "Our Mission:\nAt MaxInsights, we enable Robotics Foundation Model companies to access massive, high-quality, scalable training data for embodied AI through our end-to-end data solution platform. Frontier labs are racing to build general-purpose robots, and high-quality training data is the bottleneck. We are building the data collection systems, simulation engines, operational capabilities, and software toolchain to help our partners drive the field forward.\n\nWhat You'll Do:\n• End-to-End Project Delivery: Own the full lifecycle of complex robotics data collection and annotation projects—from initial client alignment and solution design to final delivery. Ensure dataset production meets strict client SLAs and accuracy standards while managing internal cost and timeline targets.\n• Data Solution & Spec Design: Deeply understand clients' robotic model training needs, including sensors, modalities, and action spaces. Translate ambiguous academic and commercial requirements into concrete, high-precision data collection, simulation, and annotation specifications.\n• Global Cross-Functional Coordination: Serve as the central program hub coordinating teams across the US, China, and Southeast Asia. Bring together engineering, data operations, algorithms, and global annotation teams to drive seamless execution across time zones.\n• Quality Control & Progress Monitoring: Build and monitor real-time tracking systems for data production pipelines.",
+    "tags": [
+      "具身智能",
+      "技术项目管理",
+      "数据交付",
+      "跨国协作",
+      "机器人"
+    ],
+    "tagsEn": [
+      "Embodied AI",
+      "Technical Program Management",
+      "Data Delivery",
+      "Global Collaboration",
+      "Robotics"
+    ],
+    "profile": {
+      "skills": [
+        "端到端项目交付",
+        "数据规范设计",
+        "跨职能协调",
+        "质量与进度管理"
+      ],
+      "skillsEn": [
+        "End-to-End Delivery",
+        "Data Specification Design",
+        "Cross-functional Coordination",
+        "Quality & Timeline Management"
+      ]
+    },
+    "sort": 2
   },
   {
     "id": "mexc-growth-product",
@@ -107,173 +195,6 @@
       "languageEn": "Native-level English"
     },
     "sort": 10
-  },
-  {
-    "id": "job-001",
-    "companyId": "robotex",
-    "title": "运动控制算法负责人",
-    "titleEn": "Motion Control Algorithm Lead",
-    "jobType": "algorithm",
-    "jobTypeEn": "algorithm",
-    "workMode": "on-site",
-    "workModeEn": "on-site",
-    "location": "北京",
-    "locationEn": "Beijing",
-    "description": "负责机器人运动控制算法的研发，带领10人团队打造业界领先的双足机器人运动控制能力。\n\n**岗位职责：**\n1. 主导机器人运动控制算法架构设计与研发\n2. 协调硬件、软件团队实现算法落地\n3. 跟踪学术界最新成果，持续优化算法性能\n\n**岗位要求：**\n1. 计算机、自动化、机械电子相关专业博士或硕士\n2. 5年以上运动控制算法研发经验\n3. 熟悉 ROS、MoveIt 等机器人框架",
-    "descriptionEn": "Lead the development of robot motion control algorithms.\n\n**Responsibilities:**\n1. Architect and develop robot motion control algorithms\n2. Coordinate with hardware and software teams\n3. Track latest academic research\n\n**Requirements:**\n1. PhD or Masters in related field\n2. 5+ years experience\n3. Familiar with ROS, MoveIt",
-    "tags": [
-      "算法",
-      "硕士",
-      "北京"
-    ],
-    "tagsEn": [
-      "Algorithm",
-      "Master",
-      "Beijing"
-    ],
-    "profile": {
-      "salary": "80-120K·15薪",
-      "salaryEn": "80-120K·15 months",
-      "experience": "5-8年",
-      "experienceEn": "5-8 years",
-      "language": "英语可作为工作语言",
-      "languageEn": "English as working language"
-    },
-    "sort": 20
-  },
-  {
-    "id": "job-002",
-    "companyId": "robotex",
-    "title": "深度学习研究员",
-    "titleEn": "Deep Learning Researcher",
-    "jobType": "research",
-    "jobTypeEn": "research",
-    "workMode": "on-site",
-    "workModeEn": "on-site",
-    "location": "北京",
-    "locationEn": "Beijing",
-    "description": "研究并落地机器人视觉与强化学习算法。",
-    "descriptionEn": "Research and implement robot vision and RL algorithms.",
-    "tags": [
-      "深度学习",
-      "博士",
-      "北京"
-    ],
-    "tagsEn": [
-      "Deep Learning",
-      "PhD",
-      "Beijing"
-    ],
-    "profile": {
-      "salary": "60-100K·15薪",
-      "salaryEn": "60-100K·15 months",
-      "experience": "3-5年",
-      "experienceEn": "3-5 years",
-      "education": "博士及以上",
-      "educationEn": "PhD or above"
-    },
-    "sort": 30
-  },
-  {
-    "id": "job-003",
-    "companyId": "aithink",
-    "title": "大模型训练工程师",
-    "titleEn": "LLM Training Engineer",
-    "jobType": "engineering",
-    "jobTypeEn": "engineering",
-    "workMode": "on-site",
-    "workModeEn": "on-site",
-    "location": "北京",
-    "locationEn": "Beijing",
-    "description": "参与百亿参数大模型的预训练与微调工作。",
-    "descriptionEn": "Participate in LLM pre-training and fine-tuning.",
-    "tags": [
-      "LLM",
-      "训练",
-      "北京"
-    ],
-    "tagsEn": [
-      "LLM",
-      "Training",
-      "Beijing"
-    ],
-    "profile": {
-      "salary": "50-80K·15薪",
-      "salaryEn": "50-80K·15 months",
-      "experience": "3-5年",
-      "experienceEn": "3-5 years",
-      "skills": [
-        "PyTorch",
-        "Python",
-        "分布式系统"
-      ],
-      "skillsEn": [
-        "PyTorch",
-        "Python",
-        "Distributed Systems"
-      ]
-    },
-    "sort": 40
-  },
-  {
-    "id": "job-004",
-    "companyId": "aithink",
-    "title": "AI 产品经理",
-    "titleEn": "AI Product Manager",
-    "jobType": "mkt-growth",
-    "jobTypeEn": "mkt-growth",
-    "workMode": "on-site",
-    "workModeEn": "on-site",
-    "location": "北京",
-    "locationEn": "Beijing",
-    "description": "负责大模型应用产品的规划与设计。",
-    "descriptionEn": "Responsible for LLM product planning and design.",
-    "tags": [
-      "产品",
-      "北京"
-    ],
-    "tagsEn": [
-      "Product",
-      "Beijing"
-    ],
-    "profile": {
-      "salary": "40-70K·14薪",
-      "salaryEn": "40-70K·14 months",
-      "experience": "3-5年",
-      "experienceEn": "3-5 years"
-    },
-    "sort": 50
-  },
-  {
-    "id": "job-005",
-    "companyId": "driveauto",
-    "title": "自动驾驶感知算法工程师",
-    "titleEn": "Autonomous Driving Perception Algorithm Engineer",
-    "jobType": "algorithm",
-    "jobTypeEn": "algorithm",
-    "workMode": "on-site",
-    "workModeEn": "on-site",
-    "location": "上海",
-    "locationEn": "Shanghai",
-    "description": "负责自动驾驶车辆感知算法研发。",
-    "descriptionEn": "Responsible for autonomous vehicle perception algorithm.",
-    "tags": [
-      "感知",
-      "算法",
-      "上海"
-    ],
-    "tagsEn": [
-      "Perception",
-      "Algorithm",
-      "Shanghai"
-    ],
-    "profile": {
-      "salary": "45-75K·14薪",
-      "salaryEn": "45-75K·14 months",
-      "experience": "2-5年",
-      "experienceEn": "2-5 years"
-    },
-    "sort": 60
   },
   {
     "id": "job-006",
@@ -391,8 +312,8 @@
     "workModeEn": "Remote/Hybrid",
     "location": "洛杉矶",
     "locationEn": "Los Angeles",
-    "description": "岗位概述：\n\n你将负责 OiiOii AI 动画创作工具的北美社区运营与活动管理，推动社区增长、内容创意与线下活动执行。\n\n核心职责：\n\n1. 社区增长\n- 扩展并维护 Discord 合作伙伴网络\n- 执行联合营销活动和跨社区合作，推动用户获取和病毒式增长\n\n2. 内容与互动\n- 利用北美当地文化、潮流、梗图和节日，策划高质量的创意活动\n- 优化社区氛围，提高用户留存率和归属感\n\n3. 活动管理与 PR\n- 负责北美地区线下活动的端到端执行（展览、品牌沙龙、用户见面会）\n- 利用当地资源，最大限度地提升 PR 热度和品牌影响力\n\n任职要求：\n\n- 经验：3年以上海外社区运营或活动策划经验，有管理活跃 Discord 社区的成功经验（成员 10000+ 优先）\n- 文化适应性：X、Discord、Reddit 和 Instagram 重度用户，对北美梗图和网络流行趋势高度敏感\n- 合作技能：具备强大的 BD 和谈判能力，熟悉西方社区合作模式，拥有现有的 KOL 或项目网络\n- 运营能力：具备强大的线下活动项目管理能力，拥有供应商、场地和媒体的本地数据库\n- 语言能力：母语水平的英语能力和出色的文案撰写技巧，普通话流利以便与总部团队无缝沟通\n\n优先考虑：\n\n- 在全球中国品牌、Web3 项目或 AI 初创企业担任类似职位的经验\n- 作为深度 AI 内容创作者的背景，且在现有社区具有影响力\n- 成功举办北美线下行业沙龙或派对（100 人以上参会）的可靠历史\n\n画像：\n\n对标字节跳动 2-2～2-3 职级。提供 H1B transfer 支持。",
-    "descriptionEn": "Role Overview:\n\nYou will be responsible for OiiOii's North American community operations and event management, driving community growth, content creation, and offline event execution.\n\nKey Responsibilities:\n\n1. Community Growth\n- Expand and maintain Discord partner network\n- Execute joint marketing campaigns and cross-community collaborations to drive user acquisition and viral growth\n\n2. Content & Engagement\n- Leverage North American local culture, trends, memes, and holidays to plan high-quality creative activities\n- Optimize community atmosphere to improve user retention and belonging\n\n3. Event Management & PR\n- End-to-end execution of offline events in North America (exhibitions, brand salons, user meetups)\n- Leverage local resources to maximize PR heat and brand influence\n\nRequirements:\n\n- Experience: 3+ years in overseas community operations or event planning, with successful experience managing active Discord communities (10,000+ members preferred)\n- Cultural adaptability: Heavy user of X, Discord, Reddit, and Instagram; highly sensitive to North American memes and online trends\n- Collaboration skills: Strong BD and negotiation skills; familiar with Western community collaboration models; existing network of KOLs or projects\n- Operations capability: Strong offline event project management capability; local database of vendors, venues, and media\n- Language: Native-level English proficiency and excellent copywriting skills; fluent in Mandarin for seamless communication with HQ team\n\nNice to Have:\n\n- Similar role experience at global Chinese brands, Web3 projects, or AI startups\n- Background as a deep AI content creator with influence in existing communities\n- Proven track record of successfully hosting North American offline industry salons or parties (100+ attendees)\n\nProfile:\n\nComparable to ByteDance's 2-2 to 2-3 level. H1B transfer support provided.",
+    "description": "岗位概述：\n\n你将负责 OiiOii AI 动画创作工具的北美社区运营与活动管理，推动社区增长、内容创意与线下活动执行。\n\n核心职责：\n\n1. 社区增长\n- 扩展并维护 Discord 合作伙伴网络\n- 执行联合营销活动和跨社区合作，推动用户获取和病毒式增长\n\n2. 内容与互动\n- 利用北美当地文化、潮流、梗图和节日，策划高质量的创意活动\n- 优化社区氛围，提高用户留存率和归属感\n\n3. 活动管理与 PR\n- 负责北美地区线下活动的端到端执行（展览、品牌沙龙、用户见面会）\n- 利用当地资源，最大限度地提升 PR 热度和品牌影响力\n\n任职要求：\n\n- 经验：3年以上海外社区运营或活动策划经验，有管理活跃 Discord 社区的成功经验（成员 10000+ 优先）\n- 文化适应性：X、Discord、Reddit 和 Instagram 重度用户，对北美梗图和网络流行趋势高度敏感\n- 合作技能：具备强大的 BD 和谈判能力，熟悉西方社区合作模式，拥有现有的 KOL 或项目网络\n- 运营能力：具备强大的线下活动项目管理能力，拥有供应商、场地和媒体的本地数据库\n- 语言能力：母语水平的英语能力和出色的文案撰写技巧，普通话流利以便与总部团队无缝沟通\n\n优先考虑：\n\n- 在全球化科技品牌或 AI 初创企业担任类似职位的经验\n- 作为深度 AI 内容创作者的背景，且在现有社区具有影响力\n- 成功举办北美线下行业沙龙或派对（100 人以上参会）的可靠历史\n\n画像：\n\n对标字节跳动 2-2～2-3 职级。提供 H1B transfer 支持。",
+    "descriptionEn": "Role Overview:\n\nYou will be responsible for OiiOii's North American community operations and event management, driving community growth, content creation, and offline event execution.\n\nKey Responsibilities:\n\n1. Community Growth\n- Expand and maintain Discord partner network\n- Execute joint marketing campaigns and cross-community collaborations to drive user acquisition and viral growth\n\n2. Content & Engagement\n- Leverage North American local culture, trends, memes, and holidays to plan high-quality creative activities\n- Optimize community atmosphere to improve user retention and belonging\n\n3. Event Management & PR\n- End-to-end execution of offline events in North America (exhibitions, brand salons, user meetups)\n- Leverage local resources to maximize PR heat and brand influence\n\nRequirements:\n\n- Experience: 3+ years in overseas community operations or event planning, with successful experience managing active Discord communities (10,000+ members preferred)\n- Cultural adaptability: Heavy user of X, Discord, Reddit, and Instagram; highly sensitive to North American memes and online trends\n- Collaboration skills: Strong BD and negotiation skills; familiar with Western community collaboration models; existing network of KOLs or projects\n- Operations capability: Strong offline event project management capability; local database of vendors, venues, and media\n- Language: Native-level English proficiency and excellent copywriting skills; fluent in Mandarin for seamless communication with HQ team\n\nNice to Have:\n\n- Similar role experience at global technology brands or AI startups\n- Background as a deep AI content creator with influence in existing communities\n- Proven track record of successfully hosting North American offline industry salons or parties (100+ attendees)\n\nProfile:\n\nComparable to ByteDance's 2-2 to 2-3 level. H1B transfer support provided.",
     "tags": [
       "社区运营",
       "活动运营",
@@ -566,10 +487,10 @@
     "titleEn": "Full-Stack Frontend Engineer / Tech Lead",
     "jobType": "engineering",
     "jobTypeEn": "Engineering",
-    "workMode": "remote,on-site",
-    "workModeEn": "Remote / On-site",
-    "location": "杭州/北美Remote",
-    "locationEn": "Hangzhou / North America Remote",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "杭州",
+    "locationEn": "Hangzhou",
     "description": "岗位概述：\n你将全权负责产品前端架构设计与全链路开发，结合 AI Agent 交互能力优化北美用户使用体验，联动后端落地比价、购物、订单核心功能，完成性能优化、组件工程化建设，支撑海外产品快速迭代，直接向 CEO 汇报。\n\n你将负责：\n• 产品前端架构设计、浏览器端页面开发，保障多页面兼容、流畅稳定，搭建通用组件与前端工程体系\n• 结合 AI Agent 交互流程开发页面，协同后端完成比价、采购、订单等核心业务功能联调上线\n• 持续做前端性能优化、线上故障排查，迭代前端底层技术架构\n• 配合产品、增长团队开发活动页、海外社区相关页面，贴合北美海外用户交互习惯\n• 跟进前沿前端与 AI 交互技术，沉淀技术文档，支撑业务规模化拓展\n\n硬性要求：\n• 985/211 本科及以上，计算机 / 软件工程相关专业，35 周岁以内\n• 拥有大厂前端研发经历，精通 HTML/CSS/JS、Vue/React 主流框架，熟悉浏览器底层、性能调优、跨端适配\n• 具备复杂海外 C 端产品完整前端落地经验，代码规范，具备独立问题排查、跨团队协作能力\n\n加分项：\n• 有北美海外 C 端产品前端开发实战经验\n• 掌握前端自动化、低代码、前端监控体系搭建\n• 参与过百万用户级 Web 产品前端建设\n• 有创业公司或高速增长产品团队经验\n\n工作方式：\nAI-native、扁平无多层管理，全员独立贡献者，异步书面优先，只看落地产出与业务数据，不考核工时。",
     "descriptionEn": "Role Overview:\nYou will be fully responsible for product frontend architecture design and full-stack development, combining AI Agent interaction capabilities to optimize North American user experience. Work with backend to implement core features like price comparison, shopping, and order management. Complete performance optimization and component engineering, supporting rapid overseas product iteration, reporting directly to CEO.\n\nWhat You'll Own:\n• Product frontend architecture design and browser-side page development\n• AI Agent interaction flow development with backend integration\n• Frontend performance optimization and bug fixes\n• Activity pages and community pages for North American users\n• Frontend technology research and documentation\n\nMust-Have:\n• 985/211 bachelor's or above in CS/Software Engineering, under 35\n• Large company frontend experience, proficient in HTML/CSS/JS, Vue/React\n• Experience shipping complex overseas C-end products\n\nNice-to-Have:\n• North American C-end product experience\n• Frontend automation, low-code, monitoring systems\n• Million-user web product experience",
     "tags": [
@@ -577,16 +498,14 @@
       "前端",
       "全栈",
       "杭州",
-      "Remote",
-      "北美"
+      "北美业务"
     ],
     "tagsEn": [
       "AI Agent",
       "Frontend",
       "Full-Stack",
       "Hangzhou",
-      "Remote",
-      "North America"
+      "North American Market"
     ],
     "profile": {
       "salary": "竞争力薪酬+股权",
@@ -605,25 +524,25 @@
     "titleEn": "Organic Growth Lead",
     "jobType": "mkt-growth",
     "jobTypeEn": "MKT & Growth",
-    "workMode": "remote,on-site",
-    "workModeEn": "Remote / On-site",
-    "location": "杭州/北美",
-    "locationEn": "Hangzhou / North America",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "杭州",
+    "locationEn": "Hangzhou",
     "description": "岗位概述：\n你将用最新的 Agent 工具自主搭建自动化工作流，在北美原生社区做有机增长——把目标用户带进产品、跑通病毒裂变、并把社区一线信号回流给产品。你直接向 COO 汇报，是公司增长命脉的第一责任人。\n\n你将负责：\n• 社区有机增长：在 Reddit、Slickdeals、Discord、X、Telegram、TikTok 等北美原生渠道建立影响力，用有价值的内容和真实互动，把北美 deal/省钱人群转化为用户\n• Agent 自动化工作流：用 Agent 工具把一切重复工作搭成自动化——社区监控、内容草拟、表现分析、反馈归类\n• 裂变循环：设计并运营病毒增长机制——省钱成绩卡、推荐返现、分销网络\n• 用户反馈回流：搭建社区反馈机制，把社区一线信号结构化，定期同步给产品与运营\n• 实验与迭代：以指标驱动，持续跑 A/B 实验，快速迭代渠道、素材、增长钩子\n\n硬性要求：\n• 热爱折腾最新 Agent 产品、有实绩：对最新 Agent 工具有旺盛求知欲，能把重复工作亲手搭成自动化流程\n• 英语母语级 + 美国省钱文化融入力：深刻理解美国 deal/cashback/信用卡/省钱社区文化\n• 快速学习特定行业知识的能力：能在陌生品类/规则上快速建立专业度\n• 数据素养：能自己定义并追踪漏斗指标、设计实验、读懂分析数据\n• 平台 ToS 与品牌安全判断力：懂各社区规则与红线，绝不用会封号的黑帽手段\n\n加分项：\n• 已在 deal/frugal 社区有真实存在或影响力\n• 文案、叙事或短视频内容能力\n• 熟悉推荐/裂变/分销机制的设计与运营\n\n工作方式：\nAI-native、零管理层、全员 IC，异步书面优先，看产出与指标而非工时。",
     "descriptionEn": "Role Overview:\nYou'll use the latest Agent tooling to autonomously build automation workflows that drive organic growth across North American communities — bringing target users into the product, building viral loops, and channeling frontline community signal back into the product. You report directly to the COO and own the company's organic growth engine.\n\nWhat You'll Own:\n• Organic community growth on Reddit, Slickdeals, Discord, X, Telegram, TikTok\n• Agent automation workflows for community monitoring, content drafting, performance analysis\n• Viral loops: savings scorecards, referral rewards, distribution network\n• Community feedback loop into product\n• Metric-driven A/B experiments and fast iteration\n\nMust-Have:\n• Obsessed with latest Agent tools, with proof of automation work\n• Native-level English + US savings-culture fluency\n• Fast learner of domain knowledge\n• Data literacy and experiment design\n• Platform ToS and brand-safety judgment\n\nNice-to-Have:\n• Existing presence in deal/frugal communities\n• Copywriting or short-form video skills\n• Referral/viral mechanics design experience\n\nHow We Work:\nAI-native, zero management layers, everyone an IC. Async-written-first; we measure output and metrics, not hours.",
     "tags": [
       "增长",
       "社区运营",
       "AI Agent",
-      "北美",
-      "Remote"
+      "杭州",
+      "北美业务"
     ],
     "tagsEn": [
       "Growth",
       "Community Ops",
       "AI Agent",
-      "North America",
-      "Remote"
+      "Hangzhou",
+      "North American Market"
     ],
     "profile": {
       "salary": "竞争力薪酬+股权",
@@ -858,5 +777,1046 @@
       "languageEn": "English"
     },
     "sort": 1
+  },
+  {
+    "id": "global-creator-community-growth-manager",
+    "companyId": "global-creator-community",
+    "title": "创作者增长与社区经理",
+    "titleEn": "Creator Growth & Community Manager",
+    "jobType": "mkt-growth,operations",
+    "jobTypeEn": "MKT & Growth,Operations",
+    "workMode": "混合办公，每周至少3天到岗",
+    "workModeEn": "Hybrid, 3+ days per week in office",
+    "location": "旧金山湾区",
+    "locationEn": "Bay Area",
+    "description": "岗位介绍：\n我们正在建设新一代全球创作者社区，寻找一位创作者增长与社区经理，通过可规模化的社区项目、增长计划和高影响力的创作者体验，推动创作者获取、激活与长期留存。\n\n这不是一个传统的活动执行岗位。我们希望你能够将社区视为增长引擎，把创作者关系、社区项目和本地化计划转化为可规模化的自然增长。你将在塑造全球创作者如何发现平台、参与社区并实现成长的过程中发挥关键作用。\n\n工作职责：\n• 负责重点国际市场的创作者增长计划，推动创作者获取、活跃和长期留存。\n• 设计并执行可规模化的社区项目，包括创作者见面会、大使计划、校园计划、创作者峰会和推荐计划。\n• 建立并维护不同垂类创作者关系，帮助创作者在社区中取得成功并持续成长。\n• 与产品、增长、内容和合作团队紧密协作，识别增长机会并转化为可执行项目。\n• 制定社区增长策略，增强创作者归属感、提升内容创作，并推动生态可持续增长。\n• 分析项目表现和创作者行为，优化增长漏斗、活跃度和留存指标。\n• 探索新的自然增长渠道、社区驱动增长模式和创作者倡导项目。\n• 建立可复制到不同市场的运营框架和工作手册。\n\n任职要求：\n• 3年以上增长、社区、创作者合作、创作者运营、市场或相关领域经验。\n• 深入理解创作者生态、社交平台、在线社区和用户增长机制。\n• 有设计和规模化运营社区项目、创作者计划、大使计划或创作者活动的经验。\n• 具备数据驱动思维，能够使用洞察制定策略并衡量成效。\n• 优秀的项目管理和跨团队协作能力。\n• 具有创业精神、善于整合资源，并能适应快速变化的工作环境。\n\n加分项：\n• 有社交平台、创作者经济、社区驱动产品或消费互联网公司经验。\n• 有创作者增长、推荐计划、社区驱动增长或大使网络经验。\n• 已建立与创作者社区、高校、学生组织或本地社区的合作关系。\n\n薪酬与福利：\n• 年基本薪资范围：110,000-230,000美元，具体薪酬将根据候选人的资历、技能、能力和经验确定。\n• 具有竞争力的限制性股票、年度绩效奖金和综合福利。\n• 每年17天带薪休假及10天带薪病假。\n• 根据州法律提供育儿假：纽约州12周 / 加州8周。\n• Cigna医疗、牙科和视力保险，公司承担员工100%的保费。\n• 提供含雇主匹配的401(k)退休计划。\n• 可自愿选择定期寿险、意外险、伤残险、重大疾病险和住院津贴险。",
+    "descriptionEn": "About the Role:\nWe are building the next generation of global creator communities. We are looking for a Creator Growth & Community Manager who can drive creator acquisition, activation, and retention through scalable community programs, growth initiatives, and high-impact creator experiences.\n\nThis is not a traditional events role. We are looking for someone who sees community as a growth engine and can turn creator relationships, community programs, and local initiatives into scalable organic growth. You will play a key role in shaping how creators discover, engage with, and grow within the global community.\n\nWhat You Will Do:\n• Lead creator growth initiatives across key international markets, driving creator acquisition, engagement, and long-term retention.\n• Design and execute scalable community programs, including creator meetups, ambassador programs, campus programs, creator summits, and referral initiatives.\n• Build and nurture relationships with creators across different verticals, helping them succeed and grow within the community.\n• Partner closely with Product, Growth, Content, and Partnerships teams to identify growth opportunities and translate them into actionable programs.\n• Develop community growth strategies that strengthen creator belonging, increase content creation, and foster sustainable ecosystem growth.\n• Analyze program performance and creator behavior to optimize growth funnels, engagement, and retention metrics.\n• Identify and experiment with new organic growth channels, community-led growth models, and creator advocacy programs.\n• Build scalable operational frameworks and playbooks that can be replicated across markets.\n\nWhat We Are Looking For:\n• 3+ years of experience in Growth, Community, Creator Partnerships, Creator Operations, Marketing, or related fields.\n• Strong understanding of creator ecosystems, social platforms, online communities, and user growth dynamics.\n• Experience designing and scaling community programs, creator initiatives, ambassador programs, or creator-focused events.\n• Data-driven mindset with the ability to use insights to inform strategy and measure success.\n• Excellent project management and cross-functional collaboration skills.\n• Highly entrepreneurial, resourceful, and comfortable operating in fast-moving environments.\n\nNice to Have:\n• Experience at a social platform, creator economy company, community-driven product, or consumer internet company.\n• Experience with creator growth, referral programs, community-led growth, or ambassador networks.\n• Existing relationships with creator communities, universities, student organizations, or local communities.\n\nCompensation and Benefits:\n• Annual base salary range: $110,000-$230,000. Compensation may vary based on qualifications, skills, competencies, and experience.\n• Competitive equity package (RSUs), annual performance bonus, and comprehensive benefits.\n• 17 days of PTO and 10 days of paid sick leave per year.\n• Parental leave in accordance with state law: 12 weeks in NY / 8 weeks in CA.\n• Comprehensive Cigna medical, dental, and vision coverage, with 100% of employee premiums covered by the company.\n• 401(k) retirement plan with employer matching.\n• Optional supplemental term life, accidental, disability, critical illness, and hospital indemnity insurance.",
+    "tags": [
+      "创作者增长",
+      "社区运营",
+      "市场增长",
+      "国际市场",
+      "湾区"
+    ],
+    "tagsEn": [
+      "Creator Growth",
+      "Community Operations",
+      "Marketing Growth",
+      "International Markets",
+      "Bay Area"
+    ],
+    "profile": {
+      "experience": "3年以上",
+      "experienceEn": "3+ years",
+      "skills": [
+        "创作者生态",
+        "社区增长",
+        "项目管理",
+        "数据分析",
+        "跨团队协作"
+      ],
+      "skillsEn": [
+        "Creator Ecosystems",
+        "Community Growth",
+        "Project Management",
+        "Data Analysis",
+        "Cross-functional Collaboration"
+      ]
+    },
+    "sort": 1
+  },
+  {
+    "id": "global-content-community-ios-engineer",
+    "companyId": "global-creator-community",
+    "title": "iOS 软件工程师",
+    "titleEn": "iOS Software Engineer",
+    "jobType": "engineering",
+    "jobTypeEn": "Engineering",
+    "workMode": "办公方式面议",
+    "workModeEn": "Work arrangement to be discussed",
+    "location": "纽约",
+    "locationEn": "New York City",
+    "description": "关于团队：\n这是一家快速增长的全球生活方式内容社区平台，正在组建面向国际市场的客户端研发团队，为全球用户打造优质的移动产品体验。你将参与 iOS 客户端核心功能研发，并与美国、新加坡及亚洲多地团队协作。\n\n工作职责：\n• 设计、开发和维护 iOS 客户端核心业务模块，覆盖内容消费、内容发布及创作者工具等方向。\n• 面向北美及全球用户优化产品体验，包括启动速度、流畅度、包体积及弱网性能。\n• 推动海外差异化功能从 0 到 1 落地，包括本地化交互、多语言适配及隐私、未成年人保护等区域合规能力。\n• 与产品、设计、后端及算法团队紧密协作，快速迭代并保障线上质量；参与代码评审与技术方案设计。\n• 建设和完善客户端基础设施，包括稳定性监控、性能追踪、A/B 实验框架及 CI/CD 流程。\n• 探索 AI 辅助研发与端上智能场景的落地。\n\n任职要求：\n• 计算机相关专业本科及以上学历，3 年以上 iOS 开发经验。\n• 精通 Swift/Objective-C，熟悉 UIKit/SwiftUI、内存管理与性能调优。\n• 有百万级以上 DAU 大型 App 的开发及线上问题处理经验，理解组件化、模块化及跨端等客户端架构设计。\n• 具备扎实的计算机基础，包括数据结构、算法、网络和操作系统。\n• 中英文可作为工作语言，能够与跨时区团队高效协作。\n\n加分项：\n• 有社区、社交或内容类产品经验，理解 UGC 产品的客户端技术特点。\n• 有全球化产品经验，熟悉多语言、多时区及 GDPR、CCPA、COPPA 等隐私合规适配。\n• 有 Flutter、React Native 跨端经验或动态化框架建设经验。\n• 有音视频、图像处理或端智能方向积累。\n• 有活跃的开源贡献或技术写作经验。",
+    "descriptionEn": "About the Team:\nThis is a fast-growing global lifestyle content community platform building a client engineering team for international markets. The team crafts high-quality mobile experiences for users worldwide and collaborates across the United States, Singapore, and Asia.\n\nResponsibilities:\n• Design, build, and maintain core iOS modules covering content consumption, content creation, and creator tools.\n• Optimize the experience for North American and global users, including launch time, smoothness, binary size, and weak-network performance.\n• Drive 0-to-1 development of market-specific features, including localized interactions, multi-language support, privacy, minor protection, and other regional compliance capabilities.\n• Partner closely with product, design, backend, and algorithm teams to iterate quickly while maintaining production quality; participate in code reviews and technical design.\n• Strengthen client infrastructure, including stability monitoring, performance tracing, A/B experimentation, and CI/CD pipelines.\n• Explore AI-assisted development workflows and on-device intelligence.\n\nRequirements:\n• Bachelor's degree or above in Computer Science or a related field, with 3+ years of iOS development experience.\n• Proficiency in Swift/Objective-C and solid knowledge of UIKit/SwiftUI, memory management, and performance tuning.\n• Experience shipping and operating large-scale apps with 1M+ DAU and a strong understanding of modularization, componentization, and cross-platform client architecture.\n• Solid foundations in data structures, algorithms, networking, and operating systems.\n• Ability to work effectively in both English and Chinese across time zones.\n\nNice to Have:\n• Experience with community, social, or content products and an understanding of UGC-specific client challenges.\n• Experience with global products, multi-language and multi-time-zone support, and privacy compliance such as GDPR, CCPA, and COPPA.\n• Flutter, React Native, or dynamic framework development experience.\n• Background in audio/video, image processing, or on-device machine learning.\n• Active open-source contributions or technical writing.",
+    "tags": [
+      "iOS",
+      "Swift",
+      "移动客户端",
+      "全球化产品",
+      "纽约"
+    ],
+    "tagsEn": [
+      "iOS",
+      "Swift",
+      "Mobile Client",
+      "Global Products",
+      "New York City"
+    ],
+    "profile": {
+      "experience": "3年以上",
+      "experienceEn": "3+ years",
+      "education": "计算机相关专业本科及以上",
+      "educationEn": "Bachelor's degree or above in Computer Science or related field",
+      "language": "中英文",
+      "languageEn": "English and Chinese",
+      "skills": [
+        "Swift/Objective-C",
+        "UIKit/SwiftUI",
+        "性能优化",
+        "客户端架构"
+      ],
+      "skillsEn": [
+        "Swift/Objective-C",
+        "UIKit/SwiftUI",
+        "Performance Tuning",
+        "Client Architecture"
+      ]
+    },
+    "sort": 1
+  },
+  {
+    "id": "global-content-community-android-engineer",
+    "companyId": "global-creator-community",
+    "title": "Android 软件工程师",
+    "titleEn": "Android Software Engineer",
+    "jobType": "engineering",
+    "jobTypeEn": "Engineering",
+    "workMode": "办公方式面议",
+    "workModeEn": "Work arrangement to be discussed",
+    "location": "纽约",
+    "locationEn": "New York City",
+    "description": "关于团队：\n这是一家快速增长的全球生活方式内容社区平台，正在组建面向国际市场的客户端研发团队，为全球用户打造优质的移动产品体验。你将参与 Android 客户端核心功能研发，并与美国、新加坡及亚洲多地团队协作。\n\n工作职责：\n• 设计、开发和维护 Android 客户端核心业务模块，覆盖内容消费、内容发布及创作者工具等方向。\n• 面向北美及全球用户优化产品体验，包括启动速度、流畅度、包体积及弱网性能。\n• 推动海外差异化功能从 0 到 1 落地，包括本地化交互、多语言适配及隐私、未成年人保护等区域合规能力。\n• 与产品、设计、后端及算法团队紧密协作，快速迭代并保障线上质量；参与代码评审与技术方案设计。\n• 建设和完善客户端基础设施，包括稳定性监控、性能追踪、A/B 实验框架及 CI/CD 流程。\n• 探索 AI 辅助研发与端上智能场景的落地。\n\n任职要求：\n• 计算机相关专业本科及以上学历，3 年以上 Android 开发经验。\n• 精通 Kotlin/Java，熟悉 Jetpack、多线程与渲染优化。\n• 有百万级以上 DAU 大型 App 的开发及线上问题处理经验，理解组件化、模块化及跨端等客户端架构设计。\n• 具备扎实的计算机基础，包括数据结构、算法、网络和操作系统。\n• 中英文可作为工作语言，能够与跨时区团队高效协作。\n\n加分项：\n• 有社区、社交或内容类产品经验，理解 UGC 产品的客户端技术特点。\n• 有全球化产品经验，熟悉多语言、多时区及 GDPR、CCPA、COPPA 等隐私合规适配。\n• 有 Flutter、React Native 跨端经验或动态化框架建设经验。\n• 有音视频、图像处理或端智能方向积累。\n• 有活跃的开源贡献或技术写作经验。",
+    "descriptionEn": "About the Team:\nThis is a fast-growing global lifestyle content community platform building a client engineering team for international markets. The team crafts high-quality mobile experiences for users worldwide and collaborates across the United States, Singapore, and Asia.\n\nResponsibilities:\n• Design, build, and maintain core Android modules covering content consumption, content creation, and creator tools.\n• Optimize the experience for North American and global users, including launch time, smoothness, binary size, and weak-network performance.\n• Drive 0-to-1 development of market-specific features, including localized interactions, multi-language support, privacy, minor protection, and other regional compliance capabilities.\n• Partner closely with product, design, backend, and algorithm teams to iterate quickly while maintaining production quality; participate in code reviews and technical design.\n• Strengthen client infrastructure, including stability monitoring, performance tracing, A/B experimentation, and CI/CD pipelines.\n• Explore AI-assisted development workflows and on-device intelligence.\n\nRequirements:\n• Bachelor's degree or above in Computer Science or a related field, with 3+ years of Android development experience.\n• Proficiency in Kotlin/Java, with strong knowledge of Jetpack, concurrency, and rendering optimization.\n• Experience shipping and operating large-scale apps with 1M+ DAU and a strong understanding of modularization, componentization, and cross-platform client architecture.\n• Solid foundations in data structures, algorithms, networking, and operating systems.\n• Ability to work effectively in both English and Chinese across time zones.\n\nNice to Have:\n• Experience with community, social, or content products and an understanding of UGC-specific client challenges.\n• Experience with global products, multi-language and multi-time-zone support, and privacy compliance such as GDPR, CCPA, and COPPA.\n• Flutter, React Native, or dynamic framework development experience.\n• Background in audio/video, image processing, or on-device machine learning.\n• Active open-source contributions or technical writing.",
+    "tags": [
+      "Android",
+      "Kotlin",
+      "移动客户端",
+      "全球化产品",
+      "纽约"
+    ],
+    "tagsEn": [
+      "Android",
+      "Kotlin",
+      "Mobile Client",
+      "Global Products",
+      "New York City"
+    ],
+    "profile": {
+      "experience": "3年以上",
+      "experienceEn": "3+ years",
+      "education": "计算机相关专业本科及以上",
+      "educationEn": "Bachelor's degree or above in Computer Science or related field",
+      "language": "中英文",
+      "languageEn": "English and Chinese",
+      "skills": [
+        "Kotlin/Java",
+        "Jetpack",
+        "性能优化",
+        "客户端架构"
+      ],
+      "skillsEn": [
+        "Kotlin/Java",
+        "Jetpack",
+        "Performance Tuning",
+        "Client Architecture"
+      ]
+    },
+    "sort": 1
+  },
+  {
+    "id": "global-content-community-strategy-operations-leader",
+    "companyId": "global-creator-community",
+    "title": "战略与运营负责人",
+    "titleEn": "Strategy & Operations Leader",
+    "jobType": "operations",
+    "jobTypeEn": "Operations",
+    "workMode": "混合办公，每周至少3天到岗",
+    "workModeEn": "Hybrid, 3+ days per week in office",
+    "location": "纽约",
+    "locationEn": "New York",
+    "description": "关于团队：\n这是一家拥有超过 4 亿用户的全球内容与生活方式社区平台。平台以真实的人类经验和用户分享为核心，正处于全球化发展的重要阶段。\n\n岗位介绍：\n战略与运营负责人将连接公司高层愿景与日常执行。我们寻找一位系统性思考者，为社区、市场及创意团队推动战略路线图和运营目标，诊断组织瓶颈，并设计可规模化的流程以实现可衡量的增长。\n\n核心职责：\n• 推动年度及季度业务规划，将高层愿景转化为务实的运营路线图。\n• 依据公司长期使命，为业务团队设计职能目标及可衡量的 KPI。\n• 开发 KPI 追踪工具与模型，将原始数据转化为面向管理团队的叙事性洞察，并主动推动 AI 在组织中的应用。\n• 与财务团队协作主导年度及补充预算流程，确保资源投入到高回报且符合季度目标的项目。\n• 牵头跨团队协作，部署可规模化的系统以提升组织效率。\n• 识别现有工作流中的低效环节，通过自动化或流程精简提升团队速度与产出。\n• 管理外部合作机构的关系、工作流和交付。\n• 领导业务变革项目，协调跨团队利益相关方，推动新运营标准的高采用率。\n\n任职要求：\n• 6–10 年以上战略、业务运营或相关经验；有市场、品牌、GTM 或咨询经验者优先。\n• 能够处理缺乏既有方法论的问题，将复杂方向转化为清晰策略和可执行目标。\n• 能将战略路线图转化为简洁文档，并面向不同受众有效沟通。\n• 热衷于建设和扩张创始团队及其文化，有相关经验者优先。\n• 能在没有直接汇报关系的情况下推动跨团队协作，并影响高管和合作伙伴。\n• 具备跨文化同理心和成熟度，能够连接多元文化背景的全球团队。\n• 能通过数据洞察识别差距与机会，并主动推动 AI 在组织中的应用。\n• 具备项目管理和变革管理能力。\n• 具有创业者思维和建设者精神，真正享受快速的 0 到 1 环境。\n\n薪酬与福利：\n• 总薪酬最高可谈至 80 万美元，实际方案将严格依据候选人的岗位级别、资历、技能和经验确定。\n• 具有竞争力的限制性股票、年度绩效奖金和综合福利。\n• 每年17天带薪休假及10天带薪病假。\n• 根据州法律提供育儿假。\n• Cigna 医疗、牙科和视力保险，公司承担员工100%的保费。\n• 提供含雇主匹配的 401(k) 退休计划。\n• 可自愿选择定期寿险、意外险、伤残险、重大疾病险和住院津贴险。",
+    "descriptionEn": "About the Team:\nThis is a global content and lifestyle community platform trusted by more than 400 million users. Built around real human experience and authentic sharing, the platform is now entering an important stage of international growth.\n\nAbout the Role:\nThe Strategy & Operations Leader will serve as the connective tissue between high-level vision and daily execution. This role is best suited for a systems thinker who can drive strategic roadmaps and operational goals for Community, Marketing, and Creative teams, diagnose organizational bottlenecks, and design scalable processes that produce measurable growth.\n\nCore Responsibilities:\n• Drive annual and quarterly business planning, translating high-level vision into a pragmatic operational roadmap.\n• Design functional goals and measurable KPIs for business teams in alignment with the company's long-term mission.\n• Develop tools and models to track KPIs, translate raw data into narrative insights for the executive team, and proactively drive AI adoption across the organization.\n• Lead annual and supplemental budgeting with Finance, ensuring capital is deployed toward high-ROI initiatives aligned with quarterly goals.\n• Lead cross-functional orchestration and deploy scalable systems that improve organizational efficiency and collaboration.\n• Identify inefficiencies in current workflows and implement automated or streamlined systems to improve team velocity and output.\n• Manage relationships, workflows, and delivery with external partner agencies.\n• Lead business change initiatives across stakeholders and drive adoption of new operational standards.\n\nQualifications:\n• 6–10+ years of experience in strategy, business operations, or a relevant field; marketing, branding, GTM, or consulting experience is preferred.\n• Exceptional ability to solve problems without an existing playbook and turn complex directions into clear strategies and actionable goals.\n• Ability to translate strategic roadmaps into concise documentation and communication for diverse audiences.\n• Passion for building and scaling a founding team and its culture; relevant experience is a plus.\n• Ability to lead cross-functional collaboration and influence senior executives and partners without direct authority.\n• Strong empathy and maturity in bridging cultural backgrounds within a truly global and diverse team.\n• Ability to identify gaps and opportunities through data-driven insights and proactively drive AI applications.\n• Confidence in project management and change management.\n• An entrepreneurial mindset and builder mentality, with genuine excitement for a fast-paced 0-to-1 environment.\n\nCompensation and Benefits:\n• Total compensation may be discussed up to $800,000, with the final package strictly calibrated to the candidate's level, qualifications, skills, and experience.\n• Competitive equity package, annual performance bonus, and comprehensive benefits.\n• 17 days of PTO and 10 days of paid sick leave per year.\n• Parental leave in accordance with applicable state law.\n• Comprehensive Cigna medical, dental, and vision coverage, with 100% of employee premiums covered by the company.\n• 401(k) retirement plan with employer matching.\n• Optional supplemental term life, accidental, disability, critical illness, and hospital indemnity insurance.",
+    "tags": [
+      "战略运营",
+      "业务规划",
+      "组织效率",
+      "全球化",
+      "纽约"
+    ],
+    "tagsEn": [
+      "Strategy & Operations",
+      "Business Planning",
+      "Organizational Efficiency",
+      "Global Growth",
+      "New York"
+    ],
+    "profile": {
+      "experience": "6–10年以上",
+      "experienceEn": "6–10+ years",
+      "language": "英语",
+      "languageEn": "English",
+      "skills": [
+        "战略规划",
+        "业务运营",
+        "项目管理",
+        "变革管理",
+        "跨团队协作"
+      ],
+      "skillsEn": [
+        "Strategic Planning",
+        "Business Operations",
+        "Project Management",
+        "Change Management",
+        "Cross-functional Leadership"
+      ]
+    },
+    "sort": 1
+  },
+  {
+    "id": "global-ai-creative-agent-model-partnerships-manager",
+    "companyId": "global-ai-creative-agent",
+    "title": "AI 模型生态合作经理（北美）",
+    "titleEn": "Partnerships Manager, AI Model Ecosystem — North America",
+    "jobType": "bd-sales",
+    "jobTypeEn": "BD & Sales",
+    "workMode": "旧金山湾区办公",
+    "workModeEn": "San Francisco Bay Area based",
+    "location": "旧金山湾区",
+    "locationEn": "San Francisco Bay Area",
+    "description": "岗位介绍：\n这是一家服务数千万用户、融资近 3 亿美元、估值超 20 亿美元的全球 AI 原生创意科技公司。该岗位是北美团队的关键商务拓展角色，专注于 AI 模型生态合作。你将连接商务、产品与市场团队，与前沿模型提供商及其合作网络建立高级别关系，争取创业扶持、算力与 API 额度、联合营销、优先体验和技术支持等战略资源。\n\n工作职责：\n• 建立并维护与全球领先模型提供商的合作、创业项目及开发者关系团队的直接联系，担任公司的主要生态接口。\n• 识别并争取最符合公司发展阶段的合作资源，包括 credits、联合营销、案例展示、优先 API 访问及技术支持。\n• 主导 credits、联合推广及产品集成等合作谈判，能够设计非标准化合作条款。\n• 代表公司参加模型厂商活动、Demo Day、开发者大会及合作伙伴项目，提前建立生态影响力。\n• 与产品、增长和市场团队协作，将生态资源转化为联合营销、成本节省、技术集成、产品曝光及高效获客。\n• 维护潜在与进行中的合作管线，量化每项合作带来的增长或成本价值。\n\n任职要求：\n• 5 年以上商务拓展、战略合作或开发者关系经验，有快速发展的科技或平台型企业经验优先。\n• 有科技行业合作项目的发掘、谈判及长期管理经验，并具备可验证的成果。\n• 能快速建立高级别信任关系，并在竞争激烈的生态中争取优先资源。\n• 熟悉科技合作与创业扶持项目的常见机制，包括 credits、联合营销、开发者关系和优先体验。\n• 具备创造性交易能力，能在缺少固定模板时设计合作结构并推动落地。\n• 能与技术和商业受众进行高质量沟通，对 AI 模型能力和 API 架构具有足够的技术理解。\n• 常驻旧金山湾区或愿意搬迁。\n\n加分项：\n• 曾在模型提供商、AI 基础设施或 API 公司负责创业生态、合作或开发者关系。\n• 有通过联合销售直接带来用户增长或成本节省的经验。\n• 拥有 AI 领域 VC、加速器或生态合作网络。\n\n公司坚持平等就业原则，依据候选人的能力与经验进行评估。",
+    "descriptionEn": "About the Role:\nJoin a global AI-native creative technology company serving tens of millions of users, backed by nearly US$300 million in funding and valued above US$2 billion. This is a key North America business development role focused on the AI model ecosystem. Operating across BD, Product, and Marketing, you will build senior relationships with frontier model providers and secure strategic resources such as startup credits, co-marketing, early access, and technical support.\n\nWhat You Will Do:\n• Build direct relationships with partnerships, startup, and developer-relations teams at leading model providers and serve as the company's primary ecosystem contact.\n• Identify and secure the programs most valuable at the company's growth stage, including credits, co-marketing, showcase placements, priority API access, and technical office hours.\n• Lead deal cycles for credits, joint promotion, and integration partnerships, creating non-standard terms when appropriate.\n• Represent the company at model-provider events, demo days, developer conferences, and partner programs.\n• Translate ecosystem access into concrete outcomes with Product, Growth, and Marketing, including campaigns, cost savings, integrations, featured placements, and efficient user acquisition.\n• Maintain a clear partnership pipeline and report the measurable growth or cost impact of each relationship.\n\nWhat We Are Looking For:\n• 5+ years in business development, strategic partnerships, or developer relations, ideally in a fast-moving technology or platform environment.\n• A demonstrated record of sourcing, negotiating, and managing technology partnerships.\n• Proven ability to build senior-level trust and secure preferential access in competitive ecosystems.\n• Working knowledge of startup credits, co-marketing, developer-relations, and early-access programs.\n• Strong deal-making instincts and comfort constructing creative terms without a fixed playbook.\n• Exceptional communication with both technical and business audiences, plus sufficient fluency in AI model capabilities and API structures.\n• Based in the San Francisco Bay Area or willing to relocate.\n\nNice to Have:\n• Experience at a model provider, AI infrastructure company, or API platform in partnerships, startup programs, or developer relations.\n• Co-selling experience that directly produced user growth or cost savings.\n• Existing relationships with AI-focused VCs and accelerators.\n\nThe company is an equal opportunity employer and evaluates applicants based on qualifications and experience.",
+    "tags": [
+      "AI 模型生态",
+      "战略合作",
+      "商务拓展",
+      "北美",
+      "旧金山"
+    ],
+    "tagsEn": [
+      "AI Model Ecosystem",
+      "Strategic Partnerships",
+      "Business Development",
+      "North America",
+      "San Francisco"
+    ],
+    "profile": {
+      "experience": "5年以上",
+      "experienceEn": "5+ years",
+      "language": "英语",
+      "languageEn": "English",
+      "skills": [
+        "战略合作",
+        "商务谈判",
+        "开发者生态",
+        "AI API"
+      ],
+      "skillsEn": [
+        "Strategic Partnerships",
+        "Deal Negotiation",
+        "Developer Ecosystems",
+        "AI APIs"
+      ]
+    },
+    "sort": 1
+  },
+  {
+    "id": "global-ai-creative-agent-growth-marketing-manager",
+    "companyId": "global-ai-creative-agent",
+    "title": "北美增长与整合营销经理",
+    "titleEn": "Growth & Integrated Marketing Manager, North America",
+    "jobType": "mkt-growth",
+    "jobTypeEn": "MKT & Growth",
+    "workMode": "旧金山湾区办公",
+    "workModeEn": "San Francisco Bay Area based",
+    "location": "旧金山湾区",
+    "locationEn": "San Francisco Bay Area",
+    "description": "岗位介绍：\n负责公司 AI 创意 Agent 在北美市场的全漏斗营销，直接拥有品牌信息、内容策略以及 PR、社交媒体、创作者/KOL 合作和付费获客等渠道的执行责任。该岗位将参与建立产品在北美的品牌身份和用户增长体系，并与产品、增长、设计及全球市场团队紧密协作。\n\n工作职责：\n• 规划并执行覆盖品牌、产品发布、PR、社交媒体、创作者合作和付费增长的整合营销项目。\n• 负责北美市场的产品卖点、品牌口号和故事线，将产品价值转化为符合西方 AI 原生用户语境的内容与营销活动。\n• 发掘并管理本地创作者、KOL、代理商和媒体合作伙伴，持续跟踪文化趋势与合作机会。\n• 将 AI 工具应用到内容制作、本地化、营销执行和优化的完整工作流。\n• 监测北美 AI 产品、创作者生态、市场趋势和竞争格局，将洞察转化为增长策略。\n• 跟踪漏斗转化、获客成本、互动和留存，在创意质量与可衡量业务结果之间取得平衡。\n\n任职要求：\n• 5 年以上消费科技或软件公司的整合营销、增长、品牌或内容营销经验，订阅、App 或平台产品经验优先。\n• 具备覆盖品牌、内容、社交、创作者/KOL 和付费渠道的全漏斗能力。\n• 有亲自主导面向北美消费者的营销活动、品牌信息或定位案例。\n• 理解 Web 产品的获客、激活、转化和留存机制，能使用数据指导决策。\n• 具备优秀的故事表达和内容判断力，能够为本地市场原生创作内容。\n• 执行力强，能在快速、早期阶段的团队中承担充分责任。\n• 英语母语或流利，中文能力可作为跨区域协作加分项。\n• 常驻旧金山湾区或愿意搬迁。\n\n加分项：有 AI 原生产品、创意工具或效率软件营销经验；从 0 到 1 建设区域市场；拥有北美设计、创意或 AI 领域创作者和媒体资源。",
+    "descriptionEn": "About the Role:\nLead full-funnel marketing in North America for a global AI creative agent, with direct ownership of brand messaging, content strategy, PR, social, creator/KOL partnerships, and paid acquisition. You will help establish the product's regional brand identity and user-growth engine while partnering closely with Product, Growth, Design, and the global marketing team.\n\nWhat You Will Do:\n• Plan and execute integrated initiatives spanning brand, launches, PR, social, creator partnerships, and paid growth.\n• Own North America selling points, slogans, and storylines, translating product value into culturally native content for a Western AI-native audience.\n• Recruit and manage local creators, KOLs, agencies, and media partners while tracking cultural and creator trends.\n• Apply AI throughout content creation, localization, campaign execution, and optimization.\n• Monitor AI products, creator ecosystems, market trends, and competitive dynamics, turning insight into growth strategy.\n• Track funnel conversion, acquisition cost, engagement, and retention, balancing creative quality with measurable impact.\n\nWhat We Are Looking For:\n• 5+ years in integrated, growth, brand, or content marketing at a consumer technology or software company; subscription, app, or platform experience is preferred.\n• Full-funnel capability across brand, content, social, creator/KOL, and paid channels.\n• A clear portfolio of campaigns, messaging, or positioning personally led for North American consumers.\n• Understanding of web-product acquisition, activation, conversion, and retention, with comfort using performance data.\n• Strong storytelling and content instincts, creating for the market rather than simply translating content.\n• Hands-on execution and high ownership in a fast-paced early-stage environment.\n• Native or fluent English; Mandarin is a plus for cross-regional work.\n• Based in the San Francisco Bay Area or willing to relocate.\n\nNice to Have: experience marketing AI-native products, creative tools, or productivity software; building a regional market from zero; or relationships with North American creators and media in design, creative, and AI communities.",
+    "tags": [
+      "北美市场",
+      "整合营销",
+      "增长",
+      "创作者生态",
+      "旧金山"
+    ],
+    "tagsEn": [
+      "North America",
+      "Integrated Marketing",
+      "Growth",
+      "Creator Ecosystem",
+      "San Francisco"
+    ],
+    "profile": {
+      "experience": "5年以上",
+      "experienceEn": "5+ years",
+      "language": "英语母语或流利",
+      "languageEn": "Native or fluent English",
+      "skills": [
+        "全漏斗营销",
+        "品牌内容",
+        "创作者营销",
+        "数据分析"
+      ],
+      "skillsEn": [
+        "Full-funnel Marketing",
+        "Brand & Content",
+        "Creator Marketing",
+        "Analytics"
+      ]
+    },
+    "sort": 1
+  },
+  {
+    "id": "global-ai-creative-agent-product-manager",
+    "companyId": "global-ai-creative-agent",
+    "title": "AI Agent 产品经理",
+    "titleEn": "AI Agent Product Manager",
+    "jobType": "product-design",
+    "jobTypeEn": "Product & Design",
+    "workMode": "上海办公",
+    "workModeEn": "Shanghai based",
+    "location": "上海",
+    "locationEn": "Shanghai",
+    "description": "岗位职责：\n• 定义 AI 创意 Agent 的效果标准与强化学习奖励机制，将文生图、文生视频能力在美学质量、语义对齐和技术质量等维度转化为可量化产品指标。\n• 设计奖励模型训练数据的采集策略与标注规范，确保奖励信号反映用户价值和商业目标。\n• 建立多模态评估框架，结合自动化指标与 Human-in-the-Loop 流程，并维护覆盖核心场景和潜在风险的 Testset。\n• 基于评估与产品数据，与模型研究团队共同制定 RL 训练策略和模型迭代路线图，推动能力转化为产品体验。\n• 持续监控模型表现，识别瓶颈并建立用户反馈到模型优化需求的快速闭环。\n• 协同模型、业务及内外部专家，统一模型效果与产品目标。\n\n任职要求：\n• 本科及以上学历，2 年以上 AI 模型或产品经验。\n• 有模型评估指标设计及人机评估流程经验，有 RLHF/RLAIF 调优经验者优先。\n• 热爱 AIGC，熟悉文生图技术与主流生成式模型，对生成效果敏感。\n• 逻辑清晰、数据驱动，能够使用 SQL 做数据探索与指标追踪。\n• 沟通能力优秀，能向不同受众解释复杂技术概念。\n\n加分项：具备平面设计、品牌视觉或社交媒体图像领域知识；有创业经历；英文书面与口语流利。",
+    "descriptionEn": "Responsibilities:\n• Define quality standards and reinforcement-learning reward mechanisms for an AI creative agent, translating text-to-image and text-to-video performance across aesthetics, semantic alignment, and technical quality into measurable product metrics.\n• Design reward-model training-data collection strategies and annotation guidelines so reward signals reflect user value and business goals.\n• Build multimodal evaluation frameworks combining automated metrics with Human-in-the-Loop workflows, and maintain test sets covering core scenarios and potential risks.\n• Partner with model researchers to define RL training strategies and model roadmaps, turning improved capabilities into better product experiences.\n• Monitor model performance, identify bottlenecks, and build a fast feedback loop from users to actionable model improvements.\n• Align model, business, and expert stakeholders around quality and product objectives.\n\nRequirements:\n• Bachelor's degree or above and 2+ years of AI model or product experience.\n• Experience designing model-evaluation metrics and human evaluation workflows; RLHF or RLAIF optimization experience is preferred.\n• Strong interest in AIGC, familiarity with text-to-image technology and leading generative models, and excellent sensitivity to output quality.\n• Clear, data-driven thinking and the ability to use SQL for exploration and metric tracking.\n• Excellent communication and an ability to explain complex technical concepts to different audiences.\n\nNice to Have: domain knowledge in graphic design, brand visual systems, or social imagery; startup experience; fluent written and spoken English.",
+    "tags": [
+      "AI Agent",
+      "产品经理",
+      "多模态评估",
+      "RLHF",
+      "上海"
+    ],
+    "tagsEn": [
+      "AI Agent",
+      "Product Management",
+      "Multimodal Evaluation",
+      "RLHF",
+      "Shanghai"
+    ],
+    "profile": {
+      "experience": "2年以上",
+      "experienceEn": "2+ years",
+      "education": "本科及以上",
+      "educationEn": "Bachelor's degree or above",
+      "skills": [
+        "模型评估",
+        "RLHF/RLAIF",
+        "SQL",
+        "AIGC"
+      ],
+      "skillsEn": [
+        "Model Evaluation",
+        "RLHF/RLAIF",
+        "SQL",
+        "AIGC"
+      ]
+    },
+    "sort": 1
+  },
+  {
+    "id": "global-ai-creative-agent-regional-integrated-marketing-manager",
+    "companyId": "global-ai-creative-agent",
+    "title": "区域整合营销经理",
+    "titleEn": "Regional Integrated Marketing Manager",
+    "jobType": "mkt-growth",
+    "jobTypeEn": "MKT & Growth",
+    "workMode": "区域办公室办公",
+    "workModeEn": "Regional office based",
+    "location": "上海 / 东京港区 / 旧金山 / 首尔",
+    "locationEn": "Shanghai / Minato, Tokyo / San Francisco / Seoul",
+    "description": "岗位介绍：\n负责公司 AI 创意 Agent 在重点国际市场的增长，与区域市场和 GTM 团队协作，推动覆盖品牌、内容、社交、创作者及增长的全漏斗整合营销，帮助产品在当地建立领先的 AI 原生创意品牌。该岗位适合兼具创意和执行力、喜欢从 0 到 1 建设、关注 AI、创作者和数字文化的人。\n\n工作职责：\n• 领导品牌、产品发布、社交、创作者、PR 和社区等整合营销项目，与产品、增长、设计及商务团队保持一致。\n• 为创作者、设计师、企业和 AI 原生社区制定本地化内容与社交策略，建设当地品牌影响力。\n• 建立并管理创作者、KOL、代理商、媒体及生态合作伙伴关系，捕捉文化趋势与合作机会。\n• 将 AI 应用于内容制作、本地化、营销自动化、执行和优化。\n• 研究当地市场、AI 发展、创作者生态和竞争格局，将洞察转化为营销策略与增长机会。\n• 独立提出符合本地文化的营销创意、活动概念和内容角度。\n• 跟踪品牌、内容、社交和增长指标，持续用数据优化。\n\n任职要求：\n• 3–6 年整合营销、品牌、内容、增长或区域营销经验。\n• 具备品牌建设、内容策略、社交媒体、创作者营销和活动执行的全漏斗能力。\n• 能同时推动品牌认知与可衡量业务结果。\n• 深入理解当地数字平台、媒体和创作者生态，具备文化敏感度及趋势判断力。\n• 优秀的故事表达、内容策略和营销创意能力。\n• 具有 AI-native 思维，愿意将 AI 应用于营销工作流。\n• 执行力强、适应快速且模糊的创业环境。\n• 当地语言母语或流利，并具备中文或英文跨区域沟通能力；日本、韩国、欧洲等市场本地化经验优先。",
+    "descriptionEn": "About the Role:\nDrive growth for an AI creative agent in a key international market. Working with Regional Marketing and GTM, you will own full-funnel integrated marketing across brand, content, social, creators, and growth, helping establish a category-leading AI-native creative platform. This role is designed for a creative, execution-focused builder passionate about AI, creators, and digital culture.\n\nWhat You Will Do:\n• Lead integrated initiatives across brand, launches, social, creators, PR, and community in partnership with Product, Growth, Design, and Commercial teams.\n• Develop localized content and social strategies for creators, designers, businesses, and AI-native communities.\n• Build relationships with creators, KOLs, agencies, media, and ecosystem partners while identifying cultural and collaboration opportunities.\n• Apply AI across content creation, localization, automation, campaign execution, and optimization.\n• Translate local market, AI, creator, and competitive intelligence into actionable strategies and regional growth opportunities.\n• Independently develop culturally resonant campaign ideas, creative concepts, and content angles.\n• Measure brand, content, social, and growth performance and optimize through data.\n\nWhat We Are Looking For:\n• 3–6 years in integrated, brand, content, growth, or regional marketing.\n• Full-funnel capability across brand building, content strategy, social, creator marketing, and campaign execution.\n• Proven ability to build awareness and measurable business outcomes.\n• Deep understanding of local digital platforms, media, and creator ecosystems, with strong cultural and trend sensitivity.\n• Strong storytelling, content strategy, and campaign ideation.\n• An AI-native mindset and interest or experience applying AI to marketing workflows.\n• Hands-on execution, adaptability, ownership, and comfort in fast-moving startup environments.\n• Native or fluent local-market language plus strong Chinese or English; localization experience in Japan, Korea, Europe, or other international markets is a plus.",
+    "tags": [
+      "区域市场",
+      "整合营销",
+      "创作者营销",
+      "AI Native",
+      "全球化"
+    ],
+    "tagsEn": [
+      "Regional Marketing",
+      "Integrated Marketing",
+      "Creator Marketing",
+      "AI Native",
+      "Global Markets"
+    ],
+    "profile": {
+      "experience": "3–6年",
+      "experienceEn": "3–6 years",
+      "language": "当地语言及中文或英文",
+      "languageEn": "Local language plus Chinese or English",
+      "skills": [
+        "整合营销",
+        "内容策略",
+        "创作者生态",
+        "活动策划"
+      ],
+      "skillsEn": [
+        "Integrated Marketing",
+        "Content Strategy",
+        "Creator Ecosystems",
+        "Campaign Ideation"
+      ]
+    },
+    "sort": 1
+  },
+  {
+    "id": "global-ai-creative-agent-regional-marketing-head",
+    "companyId": "global-ai-creative-agent",
+    "title": "区域市场负责人",
+    "titleEn": "Regional Marketing Head",
+    "jobType": "mkt-growth",
+    "jobTypeEn": "MKT & Growth",
+    "workMode": "区域办公室办公",
+    "workModeEn": "Regional office based",
+    "location": "上海 / 东京港区 / 首尔",
+    "locationEn": "Shanghai / Minato, Tokyo / Seoul",
+    "description": "岗位介绍：\n负责公司 AI 创意 Agent 在重点国际市场的整体增长，制定本地 GTM 战略，建设品类领先的 AI 原生品牌，并通过本地化营销、创作者生态和 AI 驱动的营销活动推动用户增长。这是一个高度创业型岗位，适合享受从 0 到 1 建设区域业务的人。\n\n工作职责：\n• 负责目标市场端到端 GTM 战略，制定市场进入计划、区域优先级和年度营销路线图。\n• 领导产品发布和整合营销，从 0 到 1 推动市场采用并扩张，负责品牌认知、用户获取和营销 ROI。\n• 根据当地用户行为、文化和数字生态，在自然增长、付费、创作者、社区和合作渠道建立可规模化的增长策略。\n• 通过实验、数据分析和持续迭代优化营销表现。\n• 通过品牌营销、社交媒体、PR、创作者计划和社区活动建立领先的 AI 原生创意品牌。\n• 建立本地内容策略及与创作者、KOL、代理商、媒体和生态伙伴的长期关系。\n• 在内容制作、本地化、营销优化、工作流自动化和效果分析中全面应用 AI。\n\n任职要求：\n• 7 年以上区域市场、增长、产品营销或 GTM 经验，有在当地市场从 0 到 1 建设产品或品牌的成功经验。\n• 理解 AI、SaaS、创作者经济、设计工具或科技产品，能将产品能力转化为本地市场策略。\n• 深入理解当地数字生态、媒体、创作者经济和消费者行为。\n• 兼具商业思维和品牌、增长、创作者营销及整合活动的实操经验。\n• 数据驱动，能基于用户洞察、营销表现和 ROI 持续测试迭代。\n• 具有创业精神、自驱力和资源整合能力，适应高增长团队。\n• 当地语言母语或流利，并具备中文或英文跨区域沟通能力；拥有当地创作者、媒体或合作网络优先。\n\n公司坚持平等就业原则，依据候选人的能力与经验进行评估。",
+    "descriptionEn": "About the Role:\nOwn growth for an AI creative agent across a key international market. You will define local go-to-market strategy, build a category-leading AI-native brand, and drive user growth through localized marketing, creator ecosystems, and AI-powered campaigns. This is a highly entrepreneurial role for someone who enjoys building from zero.\n\nWhat You Will Do:\n• Own end-to-end regional GTM strategy, including market-entry plans, priorities, and annual roadmaps aligned with global objectives.\n• Lead product launches and integrated marketing from 0-to-1 adoption through scalable growth, owning brand awareness, acquisition, and marketing ROI.\n• Build scalable organic, paid, creator, community, and partnership growth strategies tailored to local culture and digital ecosystems.\n• Optimize performance through experimentation, analytics, and continuous iteration.\n• Establish a leading AI-native creative brand through integrated brand marketing, social, PR, creator programs, and community initiatives.\n• Develop localized content strategy and long-term relationships with creators, KOLs, agencies, media, and ecosystem partners.\n• Apply AI throughout content creation, localization, campaign optimization, workflow automation, and performance analysis.\n\nWhat We Are Looking For:\n• 7+ years in regional, growth, product marketing, or GTM, with proven success building products or brands in a local market.\n• Strong understanding of AI, SaaS, the creator economy, design tools, or technology products.\n• Deep knowledge of local digital ecosystems, creators, media, and consumer behavior.\n• Commercial judgment and hands-on experience across brand, growth, creator marketing, and integrated campaigns.\n• Data-driven decision-making based on user insight, marketing performance, and ROI.\n• Entrepreneurial, resourceful, self-directed, and comfortable building from scratch in a fast-growing startup.\n• Native or fluent local-market language plus strong Chinese or English; established local creator, media, or partner networks are a plus.\n\nThe company is an equal opportunity employer and evaluates applicants based on qualifications and experience.",
+    "tags": [
+      "区域负责人",
+      "GTM",
+      "增长",
+      "品牌建设",
+      "创作者生态"
+    ],
+    "tagsEn": [
+      "Regional Lead",
+      "GTM",
+      "Growth",
+      "Brand Building",
+      "Creator Ecosystem"
+    ],
+    "profile": {
+      "experience": "7年以上",
+      "experienceEn": "7+ years",
+      "language": "当地语言及中文或英文",
+      "languageEn": "Local language plus Chinese or English",
+      "skills": [
+        "区域GTM",
+        "增长战略",
+        "品牌营销",
+        "团队建设"
+      ],
+      "skillsEn": [
+        "Regional GTM",
+        "Growth Strategy",
+        "Brand Marketing",
+        "Market Building"
+      ]
+    },
+    "sort": 1
+  },
+  {
+    "id": "novvy-senior-business-development-manager",
+    "companyId": "novvy",
+    "title": "资深商务拓展经理/专家（电商、游戏、短剧）",
+    "titleEn": "Senior Business Development Manager / Expert — E-commerce, Gaming & Short Drama",
+    "jobType": "bd-sales",
+    "jobTypeEn": "BD & Sales",
+    "workMode": "上海办公",
+    "workModeEn": "Shanghai based",
+    "location": "上海·徐汇滨江",
+    "locationEn": "Xuhui Riverside, Shanghai",
+    "description": "核心定位：\n这是广告平台效果广告变现的核心先锋岗位。我们寻找一位长期深耕电商、游戏或短剧买量市场，自带核心资源、理解行业需求并能快速产生业务结果的商务专家。你将把客户预算需求与平台的 AI 原生内容流量能力精准匹配，推动消耗和营收增长。\n\n岗位职责：\n• 依托行业资源，快速引入电商品牌与白牌、游戏发行与买量团队、短剧承制方、分销方及版权方等大客户，完成触达、谈判和签约闭环。\n• 深入理解客户在电商大促、游戏首发、短剧爆款推广等节点的买量痛点，结合平台流量制定起量和跑量方案。\n• 经营高层级客户关系，在多渠道竞争中持续提升广告预算份额、客单价和复投率。\n• 监测行业投流趋势、素材方向及竞品动态，将市场需求反馈给产品和运营团队，推动广告产品迭代。\n• 协同运营、优化、审核和财务团队，保障大客户广告高效上线、合规消耗和按时回款。\n\n任职要求：\n• 硬性要求：在游戏、电商或短剧至少 1–2 个领域拥有成熟资源，能直接触达买量负责人、优化总监或企业决策人，并在入职后快速激活预算。\n• 深入理解效果广告竞价与行业 KPI，包括短剧首日 ROI/充值回收、游戏回本/LTV/CPA、电商 GMV/ROAS。\n• 本科及以上学历，3–5 年以上互联网广告平台、DSP 或核心代理商大客户拓展/销售经验。\n• 高度目标导向和自驱，能够在高压环境中独立开拓市场，对消耗和营收结果负责。\n• 具备优秀的商业谈判、方案策划和跨部门推进能力。\n\n加分项：在头部媒体平台担任同类岗位并取得优秀业绩；熟悉游戏和短剧投流、变现及分发全链路；有从 0 到 1 开拓细分客户市场的案例。\n\n薪酬：具有竞争力的底薪与上不封顶的高额提成。",
+    "descriptionEn": "Role Overview:\nThis is a frontline commercial role responsible for performance-advertising monetization. We are looking for a business development expert with established resources across e-commerce, gaming, or short-drama user acquisition who can quickly connect advertiser demand with the platform's AI-native content inventory and drive step-change growth in spend and revenue.\n\nResponsibilities:\n• Activate industry relationships to bring in e-commerce brands and sellers, game publishers and UA teams, and short-drama studios, distributors, and rights holders, owning the full cycle from outreach through negotiation and signing.\n• Diagnose acquisition challenges around e-commerce promotions, game launches, and short-drama campaigns, then design tailored scaling strategies based on platform inventory.\n• Build executive relationships and expand share of wallet, average account value, and repeat spend in a competitive multi-channel environment.\n• Monitor buying trends, creative direction, and competitors, translating market feedback into advertising-product improvements with Product and Operations.\n• Coordinate Operations, Optimization, Review, and Finance to ensure efficient launch, compliant spend, and timely collections.\n\nRequirements:\n• Mandatory: mature relationships in at least one or two of gaming, e-commerce, or short drama, with direct access to UA leaders, optimization heads, or company decision-makers and an ability to activate spend quickly.\n• Deep fluency in performance-ad auction dynamics and category KPIs, including first-day ROI and payback for short drama, payback/LTV/CPA for gaming, and GMV/ROAS for e-commerce.\n• Bachelor's degree or above and 3–5+ years in key-account BD or sales at an internet advertising platform, DSP, or major agency.\n• Highly target-driven, self-directed, resilient under pressure, and accountable for spend and revenue.\n• Excellent commercial negotiation, pitching, and cross-functional execution.\n\nNice to Have: strong results in a similar role at a leading media platform; deep knowledge of gaming or short-drama acquisition, monetization, and distribution; or a proven 0-to-1 record building a vertical client portfolio.\n\nCompensation: competitive base salary plus high, uncapped commission.",
+    "tags": [
+      "商务拓展",
+      "广告销售",
+      "电商",
+      "游戏",
+      "短剧",
+      "上海"
+    ],
+    "tagsEn": [
+      "Business Development",
+      "Ad Sales",
+      "E-commerce",
+      "Gaming",
+      "Short Drama",
+      "Shanghai"
+    ],
+    "profile": {
+      "salary": "竞争力底薪 + 高额提成（上不封顶）",
+      "salaryEn": "Competitive base + high uncapped commission",
+      "experience": "3–5年以上",
+      "experienceEn": "3–5+ years",
+      "education": "本科及以上",
+      "educationEn": "Bachelor's degree or above",
+      "skills": [
+        "效果广告",
+        "大客户销售",
+        "资源拓展",
+        "商务谈判"
+      ],
+      "skillsEn": [
+        "Performance Advertising",
+        "Enterprise Sales",
+        "Relationship Development",
+        "Negotiation"
+      ]
+    },
+    "sort": 1
+  },
+  {
+    "id": "vidawheel-social-media-content-operations",
+    "companyId": "vidawheel",
+    "title": "社媒与内容运营",
+    "titleEn": "Social Media & Content Operations",
+    "jobType": "operations,mkt-growth",
+    "jobTypeEn": "Operations,MKT & Growth",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "深圳",
+    "locationEn": "Shenzhen",
+    "description": "岗位职责：\n• 负责 Instagram、TikTok 等欧美社媒平台的内容调研、竞品分析、选题规划、内容日历、创作发布、互动维护与数据复盘。\n• 负责 Meta 广告素材策略、脚本、拍摄剪辑、英文文案、封面优化及 A/B 测试，提升 CTR 与转化。\n• 分析社媒与广告爆款逻辑，沉淀可复用的脚本、话术、节奏和封面方法。\n• 协同营销负责人优化受众、素材和文案，提升 ROI、降低 CAC。\n• 监控曝光、互动、涨粉、引流、CTR、CPC、CVR 和 ROAS，按周迭代内容策略。\n• 围绕女性 AI 疗愈软件、智能硬件及目标用户偏好，持续输出高信任、高转化且品牌一致的内容。\n\n任职要求：\n• 1–2 年欧美社媒内容运营或 Meta 广告创意经验，有疗愈、DTC 或消费电子背景优先。\n• 能独立完成英文文案、脚本、标题及广告文案。\n• 掌握剪辑、构图、封面、节奏及爆款内容逻辑。\n• 理解 Meta 广告及素材对 CTR/CVR 的影响，具备 A/B 测试思维。\n• 数据敏感，兼顾社媒增长与广告素材效果。\n• 审美贴合欧美女性用户，擅长疗愈、情绪与减压内容表达。\n• 执行力强，能独立完成内容与广告素材全流程。\n\n福利：精品创业团队；弹性工作时间；双休及法定节假日；入职缴纳五险一金；女性友好、无内耗的工作环境。",
+    "descriptionEn": "Responsibilities:\n• Own end-to-end content operations for Instagram, TikTok, and other Western social platforms, including research, competitive analysis, editorial planning, publishing, community engagement, and performance reviews.\n• Develop Meta ad creative strategy, scripts, shoots, edits, English copy, covers, and A/B testing directions to improve CTR and conversion.\n• Analyze winning organic and paid content, turning insights into reusable scripts, messaging, pacing, and cover frameworks.\n• Partner with the marketing lead to improve audiences, creatives, copy, ROI, and CAC.\n• Track social and paid metrics including reach, engagement, follower growth, traffic, CTR, CPC, CVR, and ROAS, then iterate weekly.\n• Create trustworthy, high-converting content for women's AI wellness software and smart-hardware scenarios while maintaining brand consistency.\n\nRequirements:\n• 1–2 years in Western-market social content or Meta advertising creative; wellness, DTC, or consumer-electronics experience is preferred.\n• Strong independent English copywriting and scripting skills.\n• Hands-on editing, composition, cover design, pacing, and viral-content instincts.\n• Understanding of Meta advertising, CTR/CVR creative drivers, and A/B testing.\n• Strong analytical judgment and ability to own both organic growth and paid creative outcomes.\n• Aesthetic sensitivity to Western women and confidence communicating wellness, emotion, and stress-relief themes.\n\nBenefits: flexible hours, weekends and statutory holidays off, social insurance and housing fund from day one, and a women-friendly entrepreneurial team without internal politics.",
+    "tags": [
+      "社媒运营",
+      "内容运营",
+      "Meta广告",
+      "欧美市场",
+      "女性疗愈"
+    ],
+    "tagsEn": [
+      "Social Media",
+      "Content Operations",
+      "Meta Ads",
+      "Western Markets",
+      "Women's Wellness"
+    ],
+    "profile": {
+      "experience": "1–2年",
+      "experienceEn": "1–2 years",
+      "language": "英语内容创作",
+      "languageEn": "English content creation",
+      "skills": [
+        "Instagram/TikTok",
+        "广告素材",
+        "剪辑",
+        "数据复盘"
+      ],
+      "skillsEn": [
+        "Instagram/TikTok",
+        "Ad Creative",
+        "Video Editing",
+        "Performance Analysis"
+      ]
+    },
+    "sort": 1
+  },
+  {
+    "id": "vidawheel-influencer-marketing",
+    "companyId": "vidawheel",
+    "title": "达人营销",
+    "titleEn": "Influencer Marketing Manager",
+    "jobType": "mkt-growth,operations",
+    "jobTypeEn": "MKT & Growth,Operations",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "深圳",
+    "locationEn": "Shenzhen",
+    "description": "岗位职责：\n• 负责欧美市场达人营销全链路，包括策略规划、目标拆解、爆款脚本、合作洽谈、上线跟进、数据复盘与资源库沉淀。\n• 拓展欧美媒体资源，负责新闻稿、媒体专访、品牌报道、口碑维护及舆情监控。\n• 策划话题事件、挑战赛、热点及节日营销，联动达人与媒体实现破圈传播。\n• 统一达人、PR 和事件营销的品牌调性，聚焦疗愈、女性与情绪价值。\n• 跟踪达人 ROI、媒体曝光、事件声量和引流转化，持续优化策略。\n• 协同社媒及用户运营形成完整 Campaign 闭环，提升下载、激活和付费转化。\n\n任职要求：\n• 1–3 年欧美达人运营、PR 或事件营销经验，有 DTC、消费电子、女性健康或疗愈品牌经验优先。\n• 英语流利，可直接对接欧美达人、媒体和机构。\n• 理解达人爆款逻辑、PR 媒体规则及事件造势方法。\n• 有欧美达人或媒体资源优先。\n• 策划与执行能力强，能独立操盘整合传播 Campaign 并承担声量与转化指标。\n\n福利：弹性工作、双休、法定节假日及带薪年假；入职缴纳五险一金；团队女性友好、授权充分、鼓励创新。",
+    "descriptionEn": "Responsibilities:\n• Own the full Western-market influencer marketing lifecycle, from strategy and goals through creative briefs, negotiation, launch, performance reviews, and relationship-database development.\n• Expand media relationships and manage press releases, interviews, brand coverage, reputation, and issue monitoring.\n• Create cultural moments, challenges, trend-led campaigns, and seasonal activations that unite creators and media.\n• Maintain a consistent brand voice across influencer, PR, and event work around women's wellness and emotional value.\n• Measure influencer ROI, earned reach, conversation volume, traffic, and conversion, continuously optimizing strategy.\n• Partner with social and user operations to improve downloads, activation, and paid conversion across the campaign funnel.\n\nRequirements:\n• 1–3 years in Western-market influencer operations, PR, or event marketing; DTC, consumer electronics, women's health, or wellness experience is preferred.\n• Fluent English and ability to work directly with Western creators, media, and agencies.\n• Strong understanding of creator content, media relations, and event-led amplification.\n• Existing creator or media relationships are a plus.\n• Strong planning and execution skills, with the ability to independently lead integrated campaigns and own reach and conversion goals.\n\nBenefits include flexible hours, weekends and public holidays off, paid annual leave, social insurance and housing fund, meaningful ownership, and a women-friendly culture.",
+    "tags": [
+      "达人营销",
+      "PR",
+      "事件营销",
+      "欧美市场",
+      "整合传播"
+    ],
+    "tagsEn": [
+      "Influencer Marketing",
+      "PR",
+      "Event Marketing",
+      "Western Markets",
+      "Integrated Campaigns"
+    ],
+    "profile": {
+      "experience": "1–3年",
+      "experienceEn": "1–3 years",
+      "language": "英语流利",
+      "languageEn": "Fluent English",
+      "skills": [
+        "达人合作",
+        "媒体公关",
+        "Campaign策划",
+        "数据复盘"
+      ],
+      "skillsEn": [
+        "Creator Partnerships",
+        "Media Relations",
+        "Campaign Strategy",
+        "Performance Analysis"
+      ]
+    },
+    "sort": 2
+  },
+  {
+    "id": "vidawheel-performance-marketing",
+    "companyId": "vidawheel",
+    "title": "广告投放",
+    "titleEn": "Performance Marketing Manager",
+    "jobType": "mkt-growth",
+    "jobTypeEn": "MKT & Growth",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "深圳",
+    "locationEn": "Shenzhen",
+    "description": "岗位职责：\n• 负责 Meta、Google 广告账户全流程投放与优化，制定投放策略和预算方案，完成拉新与转化目标。\n• 以数据为导向监控投放指标，通过 A/B 测试迭代素材与定向，持续优化 CPA、ROAS 等核心指标并输出复盘报告。\n• 跟进平台规则和市场变化，处理账户异常，协同团队产出广告素材并沉淀投放经验。\n\n任职要求：\n• 3 年以上 Meta、Google 双平台 C 端产品投放经验，拥有北美市场成功案例，并可提供可核验的消耗、转化和投产数据。\n• 独立操盘过大额预算账户，擅长账户冷启动及规模化放量，精通人群定向、出价与转化优化。\n• 熟练使用 GA4 等工具进行数据追踪与归因，具备优秀的数据复盘和问题解决能力。\n• 英语能力良好。",
+    "descriptionEn": "Responsibilities:\n• Own end-to-end Meta and Google advertising, including strategy, budgeting, acquisition, conversion, and ongoing optimization.\n• Monitor performance, run A/B tests across creative and targeting, improve CPA and ROAS, and produce actionable performance reviews.\n• Stay current on platform policy and market changes, resolve account issues, collaborate on high-quality creative, and build repeatable media-buying practices.\n\nRequirements:\n• 3+ years managing consumer campaigns across both Meta and Google, with successful North American cases and verifiable spend, conversion, and return data.\n• Proven ownership of large-budget accounts, including cold starts and scaled spend; strong command of targeting, bidding, and conversion optimization.\n• Proficiency with GA4 and related tracking and attribution tools, plus strong analytical and problem-solving skills.\n• Good English proficiency.",
+    "tags": [
+      "广告投放",
+      "Meta",
+      "Google Ads",
+      "北美市场",
+      "ROAS"
+    ],
+    "tagsEn": [
+      "Performance Marketing",
+      "Meta",
+      "Google Ads",
+      "North America",
+      "ROAS"
+    ],
+    "profile": {
+      "experience": "3年以上",
+      "experienceEn": "3+ years",
+      "language": "英语良好",
+      "languageEn": "Good English",
+      "skills": [
+        "Meta Ads",
+        "Google Ads",
+        "GA4",
+        "数据归因"
+      ],
+      "skillsEn": [
+        "Meta Ads",
+        "Google Ads",
+        "GA4",
+        "Attribution"
+      ]
+    },
+    "sort": 3
+  },
+  {
+    "id": "vidawheel-ai-agent-engineer",
+    "companyId": "vidawheel",
+    "title": "AI Agent 工程师",
+    "titleEn": "AI Agent Engineer",
+    "jobType": "engineering",
+    "jobTypeEn": "Engineering",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "深圳",
+    "locationEn": "Shenzhen",
+    "description": "岗位职责：\n• 参与 AI Agent 陪伴场景的业务设计、交互流程、后台逻辑开发。\n• 搭建 Agent Memory 记忆体系及 A2A 多智能体交互链路。\n• 参与 RAG、大模型应用和智能业务流程的后端设计、开发与联调。\n• 参与全栈协作，完成需求拆解、技术方案、编码落地与线上问题排查。\n• 合理使用 AI 工具提升效率，同时保持独立技术判断和原生编码能力。\n\n任职要求：\n• 全日制本科及以上学历，3 年以上后端或全栈开发经验，有 AI 应用或 AI Agent 落地经验。\n• 熟练掌握 Go、Java、Python 或 Node 中至少一种后端语言，能独立完成技术选型。\n• 熟悉 RAG、向量数据库、LangChain 等 AI 应用框架，理解原理及实际场景。\n• 熟悉微服务、数据库、缓存、消息队列等后端能力。\n• 能使用 AI 辅助编码，但保持扎实的原生编码和技术判断能力。\n• 有疗愈类 C 端 App 或 A2A 项目经验者优先。",
+    "descriptionEn": "Responsibilities:\n• Design and build AI companion experiences, interaction flows, and backend logic.\n• Develop Agent Memory systems and agent-to-agent multi-agent interaction pipelines.\n• Design, implement, and integrate RAG, large-model applications, and intelligent business workflows.\n• Collaborate across the stack on requirements, architecture, implementation, and production troubleshooting.\n• Use AI development tools thoughtfully while maintaining independent technical judgment and strong native coding fundamentals.\n\nRequirements:\n• Full-time bachelor's degree or above, 3+ years in backend or full-stack engineering, and hands-on AI application or AI Agent delivery experience.\n• Strong proficiency in at least one of Go, Java, Python, or Node, with the ability to make independent technology choices.\n• Practical understanding of RAG, vector databases, LangChain, and related AI application frameworks.\n• Strong foundations in microservices, databases, caching, and message queues.\n• Ability to use AI coding tools without sacrificing engineering fundamentals.\n• Consumer wellness app or A2A project experience is strongly preferred.",
+    "tags": [
+      "AI Agent",
+      "RAG",
+      "Agent Memory",
+      "A2A",
+      "后端开发"
+    ],
+    "tagsEn": [
+      "AI Agent",
+      "RAG",
+      "Agent Memory",
+      "A2A",
+      "Backend Engineering"
+    ],
+    "profile": {
+      "experience": "3年以上",
+      "experienceEn": "3+ years",
+      "education": "本科及以上",
+      "educationEn": "Bachelor's degree or above",
+      "skills": [
+        "Go/Java/Python/Node",
+        "RAG",
+        "向量数据库",
+        "LangChain"
+      ],
+      "skillsEn": [
+        "Go/Java/Python/Node",
+        "RAG",
+        "Vector Databases",
+        "LangChain"
+      ]
+    },
+    "sort": 4
+  },
+  {
+    "id": "vidawheel-head-of-marketing-us",
+    "companyId": "vidawheel",
+    "title": "美国营销负责人",
+    "titleEn": "Head of Marketing, USA",
+    "jobType": "mkt-growth",
+    "jobTypeEn": "MKT & Growth",
+    "workMode": "remote",
+    "workModeEn": "Remote",
+    "location": "美国 Remote",
+    "locationEn": "USA Remote",
+    "description": "岗位职责：\n• 制定海外整体营销战略与年度目标，主导北美品牌推广、流量投放、达人合作及活动运营。\n• 拓展海外渠道和媒体资源，统筹预算与效果复盘，把控获客成本，完成增长及营收目标。\n• 管理营销团队，推进本地化营销落地，结合市场和竞品持续优化方案。\n• 联动内部各部门，推动营销内容、活动与产品深度结合，提升品牌影响力和市场份额。\n\n任职要求：\n• 5 年以上海外营销经验及 3 年以上团队管理经验，熟悉北美市场；消费品或智能硬件经验加分，有成功案例优先。\n• 精通海外投放、社媒运营、达人合作等营销模式，具备完整项目操盘和业绩达成能力。\n• 英语流利，可独立开展海外商务对接和内容工作。\n• 数据敏感、目标导向，具备较强抗压能力。\n\n待遇与福利：公司已完成 Pre-A 轮融资，资金健康；弹性工作；周末双休；疗愈主题团队活动；团队氛围融洽简单。",
+    "descriptionEn": "Responsibilities:\n• Define international marketing strategy and annual goals, leading North American brand building, paid acquisition, creator partnerships, and campaign operations.\n• Expand channel and media relationships, own budgets and performance reviews, control acquisition costs, and deliver growth and revenue targets.\n• Lead the marketing team and local execution, continuously improving plans through market and competitive insight.\n• Coordinate across internal teams to connect content and campaigns with the product, strengthening brand influence and market share.\n\nRequirements:\n• 5+ years in international marketing and 3+ years managing teams, with deep North American market knowledge; consumer or smart-hardware experience and proven success cases are preferred.\n• Strong command of international paid media, social operations, creator partnerships, and end-to-end campaign ownership.\n• Fluent English and ability to independently manage international partnerships and content.\n• Highly analytical, goal-oriented, and resilient.\n\nBenefits: Pre-Series A funding with healthy finances, flexible work, weekends off, wellness-focused team activities, and a collaborative culture.",
+    "tags": [
+      "营销负责人",
+      "北美市场",
+      "品牌增长",
+      "达人营销",
+      "Remote"
+    ],
+    "tagsEn": [
+      "Marketing Lead",
+      "North America",
+      "Brand Growth",
+      "Creator Marketing",
+      "Remote"
+    ],
+    "profile": {
+      "experience": "5年以上营销，3年以上管理",
+      "experienceEn": "5+ years marketing, 3+ years management",
+      "language": "英语流利",
+      "languageEn": "Fluent English",
+      "skills": [
+        "海外营销战略",
+        "团队管理",
+        "投放",
+        "达人合作"
+      ],
+      "skillsEn": [
+        "International Marketing Strategy",
+        "Team Leadership",
+        "Paid Media",
+        "Creator Partnerships"
+      ]
+    },
+    "sort": 5
+  },
+  {
+    "id": "aianimation-senior-product-designer",
+    "companyId": "aianimation",
+    "title": "资深产品设计师",
+    "titleEn": "Senior Product Designer",
+    "jobType": "product-design",
+    "jobTypeEn": "Product & Design",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "北京",
+    "locationEn": "Beijing",
+    "description": "职位描述：\n• 负责核心创作功能从 0 到 1 的产品设计与持续迭代。\n• 参与产品主架构及商业化体验的设计与迭代。\n• 推动设计系统的持续迭代、规范建设与日常维护。\n\n职位要求：\n• 具备从交互体验到 UI 视觉设计的完整能力。\n• 拥有良好的设计思维与审美，懂得平衡效率与趣味。\n• 能在不确定性中寻找确定性，也能在确定性中持续质疑其合理性。\n• 喜欢深入思考和钻研，愿意反复打磨令人着迷的设计细节。\n• 对信息敏感，擅长把握信息在界面呈现中的层级、密度与分寸感。\n• 对工具型产品有发自内心的兴趣。\n• 熟练使用 Figma，以及任何能够提升工作质量和效率的 AI 工具。\n• 具备国际化视野或相关项目经验。",
+    "descriptionEn": "Responsibilities:\n• Lead the 0-to-1 design and continuous iteration of core creative features.\n• Shape and evolve the product's primary architecture and monetization experiences.\n• Drive the ongoing evolution, documentation, and maintenance of the design system.\n\nRequirements:\n• End-to-end capability spanning interaction design and polished UI visual design.\n• Strong design thinking and aesthetic judgment, with an ability to balance efficiency and delight.\n• Comfortable finding clarity in ambiguity while continuing to question assumptions once a direction appears settled.\n• Curious and detail-oriented, with the patience to deeply explore and refine compelling design details.\n• Highly sensitive to information hierarchy, density, and the appropriate amount of content presented in an interface.\n• Genuine enthusiasm for tool-based products.\n• Proficiency with Figma and any AI tools that strengthen design quality and productivity.\n• International perspective or relevant global product experience.",
+    "tags": [
+      "产品设计",
+      "交互设计",
+      "UI设计",
+      "设计系统",
+      "AI创作工具",
+      "北京"
+    ],
+    "tagsEn": [
+      "Product Design",
+      "Interaction Design",
+      "UI Design",
+      "Design Systems",
+      "AI Creative Tools",
+      "Beijing"
+    ],
+    "profile": {
+      "skills": [
+        "Figma",
+        "交互体验",
+        "UI视觉",
+        "设计系统",
+        "AI工具"
+      ],
+      "skillsEn": [
+        "Figma",
+        "Interaction Design",
+        "UI Design",
+        "Design Systems",
+        "AI Tools"
+      ],
+      "experience": "资深",
+      "experienceEn": "Senior level"
+    },
+    "sort": 120
+  },
+  {
+    "id": "aianimation-global-user-growth",
+    "companyId": "aianimation",
+    "title": "海外用户增长",
+    "titleEn": "Global User Growth",
+    "jobType": "mkt-growth",
+    "jobTypeEn": "MKT & Growth",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "上海",
+    "locationEn": "Shanghai",
+    "description": "岗位职责：\n• 负责 Google、Facebook（Meta）、TikTok 等主流海外广告平台的日常投放与优化，独立完成账户搭建、受众定位、预算分配及出价策略调整。\n• 在 CPI、CPA、ROI、ROAS、LTV 等核心指标约束下，为不同核心市场制定差异化投放策略，持续扩大投放规模，对用户增长及后续付费结果负责。\n• 深入理解产品卖点和各地区用户画像，制定分区域创意方案；与设计团队协作推动视频、图片、文案等素材快速产出与迭代。\n• 实时监控 CTR、CVR、消耗、留存和付费等指标，及时调整定向及出价，定期输出广告效果分析并沉淀经验。\n• 研究竞品投放策略与媒体政策变化，探索 AIGC 在视频脚本、多语言文案等素材生产中的应用，挖掘新流量机会和增长渠道。\n\n任职要求：\n• 本科及以上学历，1 年以上独立操作 Google Ads、Facebook 和 TikTok 等海外广告平台的实操经验。\n• 熟悉海外广告投放完整流程，对拉新、促活、回收等目标有成熟方法；理解归因逻辑，有相关投放工具经验优先。\n• 英语读写熟练，能够以英语作为工作语言进行日常沟通和商务协作。\n• 对数据高度敏感，能使用数据分析工具快速定位并解决问题，逻辑清晰、学习能力强。\n• 抗压能力强，能够适应出海投放节奏及周末、节假日的灵活数据监控，责任心强、结果导向。\n• 有海外留学或工作经历，熟悉北美、日本、东南亚等市场的用户习惯与文化背景者优先；具备跨时区、跨文化协作经验者优先。",
+    "descriptionEn": "Responsibilities:\n• Own daily campaign execution and optimization across Google, Facebook (Meta), TikTok, and other leading international advertising platforms, including account setup, audience targeting, budget allocation, and bidding strategy.\n• Develop market-specific acquisition strategies under CPI, CPA, ROI, ROAS, and LTV targets, scale spend efficiently, and take ownership of acquired-user volume and downstream monetization.\n• Translate product value and regional user insight into market-specific creative strategies, partnering with Design to rapidly produce and iterate video, image, and copy assets.\n• Monitor CTR, CVR, spend, retention, and payment performance in real time, adjust targeting and bids promptly, and produce regular performance analyses and reusable learnings.\n• Track competitor strategy and platform policy changes, explore AIGC for video scripts and multilingual copy, and identify new traffic opportunities and growth channels.\n\nQualifications:\n• Bachelor's degree or above and 1+ year of hands-on experience independently managing Google Ads, Facebook, TikTok, or similar international advertising platforms.\n• Strong command of the full overseas media-buying workflow and mature approaches to acquisition, activation, and payback; attribution knowledge and campaign-tool experience are preferred.\n• Strong written and spoken English, with the ability to use English for daily work and business collaboration.\n• Highly analytical, able to diagnose issues quickly with data tools, with clear logic and strong learning agility.\n• Resilient, accountable, and results-oriented, with flexibility to monitor campaign data on weekends and holidays when needed.\n• Overseas study or work experience and familiarity with North America, Japan, Southeast Asia, or other target markets are preferred; cross-time-zone and cross-cultural collaboration experience is a plus.",
+    "tags": [
+      "海外用户增长",
+      "Google Ads",
+      "Meta Ads",
+      "TikTok Ads",
+      "效果广告",
+      "上海"
+    ],
+    "tagsEn": [
+      "Global User Growth",
+      "Google Ads",
+      "Meta Ads",
+      "TikTok Ads",
+      "Performance Marketing",
+      "Shanghai"
+    ],
+    "profile": {
+      "experience": "1年以上",
+      "experienceEn": "1+ year",
+      "education": "本科及以上",
+      "educationEn": "Bachelor's degree or above",
+      "language": "英语可作为工作语言",
+      "languageEn": "English as a working language",
+      "skills": [
+        "海外广告投放",
+        "数据分析",
+        "归因",
+        "素材策略"
+      ],
+      "skillsEn": [
+        "International Paid Media",
+        "Data Analysis",
+        "Attribution",
+        "Creative Strategy"
+      ]
+    },
+    "sort": 130
+  },
+  {
+    "id": "actionx-founding-global-growth-lead",
+    "companyId": "actionx",
+    "title": "创始海外增长负责人",
+    "titleEn": "Founding Global User Growth Lead / VP Growth",
+    "jobType": "mkt-growth,cxo",
+    "jobTypeEn": "MKT & Growth,CXO",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "北京",
+    "locationEn": "Beijing",
+    "description": "岗位定位：\n这是公司核心创始增长席位，直接负责 AI 产品从 0 到 1 的全球化增长与商业化验证。你将建立完整的海外增长体系，亲自管理投放预算、验证渠道、优化转化，并与创始人及产品团队共同定义产品和 GTM 方向。\n\n工作职责：\n• 作为创始增长负责人，制定公司 AI 产品的全球用户增长战略、目标与阶段性路线图。\n• 独立负责产品从 0 到 1 的海外增长，统筹付费投放、内容增长、创意迭代、渠道拓展、转化和商业化闭环。\n• 亲自管理并持续扩大投放预算，在 CAC、ROI、ROAS、LTV、留存和付费等指标约束下实现可持续规模增长。\n• 搭建数据驱动的增长体系，包括归因、漏斗监控、实验设计、数据复盘和增长模型。\n• 深入理解广告投放与卖家增长场景，将一线用户及市场洞察反馈到产品定义和 Agent 能力迭代。\n• 建设和管理高执行力的全球增长团队，与产品、算法、工程和创意团队协同推进结果。\n• 探索 AI 在洞察、素材生成、投放优化和商业化工作流中的新应用。\n\n任职要求：\n• 本科及以上学历，海外学习或工作背景优先。\n• 3 年以上出海全链路增长实战，拥有从 0 到 1 和规模化增长的可验证成果。\n• 必须亲自操盘过海外广告投放预算，熟悉流量获取、素材测试、转化优化、归因和数据复盘。\n• 能独立搭建增长体系并解决核心增长问题，而不只是管理外部代理商。\n• 数据驱动，理解产品、增长与商业化之间的联动关系。\n• 探索欲强、开放、对 AI 高度敏感，能够在高不确定性环境中对结果负责。\n• 英语可作为工作语言，能够参与跨文化业务沟通。\n\n加分项：\n• 有 AI、广告科技、SaaS、电商或创作者工具产品增长经验。\n• 曾负责大额投放预算、海外产品商业化或全球 GTM。\n• 有早期创业团队、Founding Growth 或增长负责人经历。\n\n我们提供：核心创始席位、直接参与业务决策；具有竞争力的现金薪酬和项目期权；与连续创业者及 AI Native 团队共同从 0 到 1 构建全球产品。",
+    "descriptionEn": "Role Overview:\nThis is a founding growth leadership seat with direct ownership of 0-to-1 global growth and commercialization for an AI-native product. You will build the international growth system, personally manage paid-media budgets, validate channels, improve conversion, and shape product and GTM direction with the founders and product team.\n\nResponsibilities:\n• Define global user-growth strategy, goals, and milestone roadmaps as the founding growth leader.\n• Own the full 0-to-1 international growth journey across paid acquisition, content, creative iteration, channels, conversion, and monetization.\n• Personally manage and scale advertising budgets while delivering sustainable growth against CAC, ROI, ROAS, LTV, retention, and payment targets.\n• Build the analytics foundation for attribution, funnel monitoring, experimentation, performance reviews, and growth modeling.\n• Translate frontline insight from advertising and seller-growth scenarios into product definition and agent-capability improvements.\n• Build and lead a high-execution global growth team across Product, Algorithms, Engineering, and Creative.\n• Explore AI-native workflows for insight, creative generation, media optimization, and commercialization.\n\nQualifications:\n• Bachelor's degree or above; overseas study or work experience is preferred.\n• 3+ years of full-funnel international growth experience with verifiable 0-to-1 and scaled-growth outcomes.\n• Hands-on ownership of international paid-media budgets and strong command of acquisition, creative testing, conversion, attribution, and performance analysis.\n• Ability to independently build a growth system and solve core growth problems rather than only manage agencies.\n• Data-driven product judgment and an understanding of how growth and monetization reinforce each other.\n• Exploratory, open, highly engaged with AI, and accountable for results amid uncertainty.\n• Professional working English and confidence in cross-cultural business collaboration.\n\nNice to Have: AI, AdTech, SaaS, e-commerce, or creator-tool growth experience; ownership of significant media budgets or global GTM; and early-stage, Founding Growth, or VP Growth experience.\n\nWhat We Offer: a core founding seat with real decision-making influence, competitive cash compensation and project equity, and the opportunity to build a global AI-native product from zero with experienced repeat founders.",
+    "tags": [
+      "Founding Growth",
+      "海外增长",
+      "VP Growth",
+      "广告投放",
+      "商业化",
+      "北京"
+    ],
+    "tagsEn": [
+      "Founding Growth",
+      "Global Growth",
+      "VP Growth",
+      "Paid Acquisition",
+      "Monetization",
+      "Beijing"
+    ],
+    "profile": {
+      "experience": "3年以上出海全链路增长",
+      "experienceEn": "3+ years full-funnel global growth",
+      "education": "本科及以上",
+      "educationEn": "Bachelor's degree or above",
+      "language": "英语工作语言",
+      "languageEn": "Professional working English",
+      "skills": [
+        "0-1增长",
+        "海外投放",
+        "增长体系",
+        "数据分析",
+        "团队建设"
+      ],
+      "skillsEn": [
+        "0-to-1 Growth",
+        "International Paid Media",
+        "Growth Systems",
+        "Analytics",
+        "Team Building"
+      ]
+    },
+    "sort": 1
+  },
+  {
+    "id": "actionx-full-stack-engineer-ai-product",
+    "companyId": "actionx",
+    "title": "全栈开发工程师（AI 产品方向）",
+    "titleEn": "Full-Stack Engineer, AI Products",
+    "jobType": "engineering",
+    "jobTypeEn": "Engineering",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "北京",
+    "locationEn": "Beijing",
+    "description": "岗位定位：\n作为项目开发负责人，负责公司 Multi-Agent 核心产品从 0 到 1 的开发、上线和持续迭代，并与创始人共同探索 AI Native 产品与组织形态。\n\n工作职责：\n• 负责 Multi-Agent 核心产品的全栈架构、研发、部署、上线和迭代。\n• 与产品团队共同定义 AI Native 产品形态并持续打磨用户体验。\n• 建设任务编排、工具调用、上下文管理、记忆系统、权限控制、人机协同和失败恢复等 Agent 核心能力。\n• 使用 Codex、Claude Code 等 AI Coding 工具提升研发效率，并建立适合团队的 AI Native 开发流程。\n• 参与研发流程、协作方式、自动化工作流及 AI Native 组织建设。\n• 建立清晰的工程规范，包括 Git 工作流、CI/CD、监控告警、安全与回滚机制。\n\n任职要求：\n• 约 3–7 年开发经验，至少完整负责过一个商业项目或独立产品从开发到上线和持续迭代。\n• 前端或后端背景均可，但需具备完整全栈能力，能够独立完成产品开发、部署和上线。\n• 熟练使用 Codex、Claude Code 等 AI Coding 工具，并曾借助 AI Coding 独立完成完整项目。\n• 熟悉 Node.js、Python、Go 或 Java 中至少一种后端技术栈，以及 React、Next.js 或 Vue 中至少一种前端框架。\n• 熟悉 RESTful API，并了解 GraphQL、WebSocket、SSE、异步任务队列等通信模式。\n• 熟悉 PostgreSQL、MySQL、MongoDB 或 Redis，理解索引、事务、数据建模和性能优化。\n• 理解 Agent 架构、LLM API、Prompt Engineering、Function/Tool Calling、流式响应与结构化输出。\n• 熟悉至少一种云服务或部署平台，掌握 Git、CI/CD、环境变量、日志监控和基础安全实践。\n• 探索欲强、开放，愿意挑战 0 到 1；英语可作为工作语言。\n\n加分项：\n• 有可展示的开源项目、独立产品、Agent 项目或 MCP Server/Client。\n• 有创业公司、早期团队、技术负责人或独立开发者经验。\n• 有 OpenClaw、MCP、LangChain、LlamaIndex、AutoGen、CrewAI、Dify、n8n 或 Flowise 实践。\n• 有移动端、桌面端、RAG、插件系统、工作流编排、任务调度或权限系统经验。\n\n你能得到：产品 0 到 1 的核心席位与业务决策参与权；年薪与项目期权；由连续创业者带队的高效 AI Native 团队；Multi-Agent、AI Coding、MCP 和 AI Native 组织的前沿实践机会。",
+    "descriptionEn": "Role Overview:\nServe as the project engineering owner for the company's core Multi-Agent product, taking it from 0 to 1 through launch and continuous iteration while helping the founders explore AI-native product and organizational models.\n\nResponsibilities:\n• Own full-stack architecture, development, deployment, launch, and iteration for the core Multi-Agent product.\n• Co-define AI-native product experiences with Product and continuously improve usability.\n• Build core agent capabilities including orchestration, tool use, context management, memory, permissions, human-in-the-loop controls, and failure recovery.\n• Use Codex, Claude Code, and other AI coding tools to accelerate delivery and establish AI-native engineering practices.\n• Help shape engineering processes, collaboration models, automation, and the broader AI-native organization.\n• Establish strong engineering foundations across Git workflows, CI/CD, observability, security, and rollback.\n\nQualifications:\n• Roughly 3–7 years of software-development experience and ownership of at least one complete commercial or independent product from development through launch and iteration.\n• Frontend or backend roots are both welcome, but you must have genuine full-stack capability and independently deliver and deploy products.\n• Strong proficiency with Codex, Claude Code, or comparable AI coding tools, with at least one independently delivered AI-assisted project.\n• Proficiency in at least one backend stack among Node.js, Python, Go, or Java, and one frontend framework among React, Next.js, or Vue.\n• Familiarity with RESTful APIs plus common communication patterns such as GraphQL, WebSocket, SSE, and asynchronous queues.\n• Experience with PostgreSQL, MySQL, MongoDB, or Redis and sound judgment around indexing, transactions, modeling, and performance.\n• Understanding of agent architecture, LLM APIs, prompt engineering, function/tool calling, streaming, and structured outputs.\n• Experience with at least one cloud or deployment platform plus Git, CI/CD, environment management, observability, and basic security.\n• Exploratory, open, comfortable with 0-to-1 ambiguity, and able to work in English.\n\nNice to Have: open-source or independent projects; startup, early-team, tech-lead, or indie-hacker experience; OpenClaw, MCP, LangChain, LlamaIndex, AutoGen, CrewAI, Dify, n8n, or Flowise; mobile/desktop development; RAG, plugin systems, workflow orchestration, scheduling, or permissions.\n\nWhat You Get: a core 0-to-1 product seat with meaningful decision influence, salary plus project equity, an efficient AI-native team led by repeat founders, and hands-on exposure to Multi-Agent systems, AI coding, MCP, and AI-native organization design.",
+    "tags": [
+      "全栈开发",
+      "Multi-Agent",
+      "AI Coding",
+      "MCP",
+      "北京"
+    ],
+    "tagsEn": [
+      "Full-Stack",
+      "Multi-Agent",
+      "AI Coding",
+      "MCP",
+      "Beijing"
+    ],
+    "profile": {
+      "experience": "3–7年",
+      "experienceEn": "3–7 years",
+      "language": "英语工作语言",
+      "languageEn": "Professional working English",
+      "skills": [
+        "React/Next.js/Vue",
+        "Node/Python/Go/Java",
+        "Agent架构",
+        "CI/CD",
+        "Codex/Claude Code"
+      ],
+      "skillsEn": [
+        "React/Next.js/Vue",
+        "Node/Python/Go/Java",
+        "Agent Architecture",
+        "CI/CD",
+        "Codex/Claude Code"
+      ]
+    },
+    "sort": 2
+  },
+  {
+    "id": "actionx-algorithm-engineer-ai-product",
+    "companyId": "actionx",
+    "title": "算法工程师（AI 产品方向）",
+    "titleEn": "Algorithm Engineer, AI Products",
+    "jobType": "algorithm,engineering",
+    "jobTypeEn": "Algorithm,Engineering",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "北京",
+    "locationEn": "Beijing",
+    "description": "岗位定位：\n作为早期核心成员，为 AI Native 产品构建可落地的模型、Agent 与智能工作流解决方案，参与产品从 0 到 1 的定义、研发和商业化验证。\n\n工作职责：\n• 根据业务场景设计并落地单模型、Agent 或智能工作流算法方案。\n• 完成模型复现、预训练、微调、部署及 Prompt 优化。\n• 设计和实现 Multi-Agent 架构、动态记忆、任务规划、工具调用和 Prompt 工程。\n• 与产品及工程团队共同定义并迭代 AI Native 产品，持续打磨效果与体验。\n• 使用 Claude、Codex、ComfyUI、Dify 等工具提升算法工程效率，并完成端到端项目交付。\n• 与创始人共同探索 AI Native 研发流程和组织建设。\n\n任职要求：\n• 本科及以上学历，1–5 年算法或 AI 产品工程经验。\n• 能够独立完成算法复现、微调和部署，熟悉经典多模态模型和主流大模型基础架构。\n• 具备完整算法工程实践能力，熟练使用 Claude、Codex、ComfyUI、Dify 等工具，并借助 AI Coding 完成过完整项目。\n• 有实际 Multi-Agent 产品经验，以及 Agent、记忆系统和 Prompt 工程的完整实践。\n• 探索欲强、开放，敢于挑战 0 到 1；英语可作为工作语言。\n\n加分项：\n• 有开源项目、OpenClaw、MCP 或 Agent 架构贡献。\n• 有创业公司、早期团队或 0 到 1 项目经验。\n• 有计算机顶会论文或 ACM 竞赛经历。\n• 有完整多 Agent 架构或实时多模态模型经验。\n\n你能得到：早期核心席位和业务决策参与权；年薪与项目期权；由连续创业者带队的高效 AI Native 团队；从算法、Agent 到产品商业化的完整实践机会。",
+    "descriptionEn": "Role Overview:\nJoin as an early core team member building deployable model, agent, and intelligent-workflow solutions for AI-native products, with direct involvement in 0-to-1 product definition, engineering, and commercial validation.\n\nResponsibilities:\n• Design and ship single-model, agent, or intelligent-workflow solutions for real business scenarios.\n• Reproduce, pre-train, fine-tune, deploy, and optimize models and prompts.\n• Design and implement Multi-Agent architecture, dynamic memory, task planning, tool use, and prompt engineering.\n• Co-define and iterate AI-native products with Product and Engineering, improving both model quality and user experience.\n• Use Claude, Codex, ComfyUI, Dify, and related tools to accelerate algorithm engineering and deliver complete projects.\n• Help the founders explore AI-native research, development, and organizational workflows.\n\nQualifications:\n• Bachelor's degree or above and 1–5 years of algorithm or AI product-engineering experience.\n• Independent ability to reproduce, fine-tune, and deploy models, with familiarity across established multimodal models and mainstream foundation-model architectures.\n• Complete algorithm-engineering practice, proficiency with Claude, Codex, ComfyUI, Dify, or similar tools, and delivery of at least one full AI-coding-assisted project.\n• Hands-on Multi-Agent product experience with practical agent, memory, and prompt-engineering work.\n• Exploratory, open, ready for 0-to-1 challenges, and able to work in English.\n\nNice to Have: open-source, OpenClaw, MCP, or agent-architecture contributions; startup or early-team experience; top computer-science conference publications or ACM competition experience; and full Multi-Agent or real-time multimodal-model experience.\n\nWhat You Get: an early core seat with real input into business decisions, salary plus project equity, an efficient AI-native team led by repeat founders, and end-to-end exposure from algorithms and agents to product commercialization.",
+    "tags": [
+      "算法工程",
+      "多模态",
+      "Multi-Agent",
+      "模型微调",
+      "Prompt Engineering",
+      "北京"
+    ],
+    "tagsEn": [
+      "Algorithm Engineering",
+      "Multimodal",
+      "Multi-Agent",
+      "Model Fine-tuning",
+      "Prompt Engineering",
+      "Beijing"
+    ],
+    "profile": {
+      "experience": "1–5年",
+      "experienceEn": "1–5 years",
+      "education": "本科及以上",
+      "educationEn": "Bachelor's degree or above",
+      "language": "英语工作语言",
+      "languageEn": "Professional working English",
+      "skills": [
+        "多模态模型",
+        "Agent架构",
+        "模型微调部署",
+        "ComfyUI/Dify",
+        "Codex/Claude"
+      ],
+      "skillsEn": [
+        "Multimodal Models",
+        "Agent Architecture",
+        "Model Fine-tuning & Deployment",
+        "ComfyUI/Dify",
+        "Codex/Claude"
+      ]
+    },
+    "sort": 3
+  },
+  {
+    "id": "global-ai-creator-marketing-sales-director",
+    "companyId": "global-ai-creator-marketing-platform",
+    "title": "出海销售负责人 / 核心销售",
+    "titleEn": "China-to-Global Sales Lead / Sales Director",
+    "jobType": "bd-sales",
+    "jobTypeEn": "BD & Sales",
+    "workMode": "remote",
+    "workModeEn": "Remote Friendly",
+    "location": "深圳 / 杭州 / 上海（可远程）",
+    "locationEn": "Shenzhen / Hangzhou / Shanghai (Remote Friendly)",
+    "description": "岗位职责：\n• 开发并签约中国出海品牌客户，完成销售目标。\n• 聚焦 AI、消费电子、电商、游戏等行业，建立客户资源网络。\n• 挖掘中大型客户需求，推动达人营销及 AI 营销解决方案落地。\n• 建立并运营代理商渠道，与客户成功及运营团队协同推动续费和预算增长。\n• 沉淀行业解决方案，提升平台市场影响力。\n\n任职要求：\n• 在 AI/SaaS、消费电子、电商或游戏至少一个行业拥有成熟品牌资源，能够触达市场、品牌或增长负责人。\n• 有代理商渠道搭建或管理经验，熟悉中国出海营销生态。\n• 具备 ToB 大客户销售能力，可独立完成开发、方案、谈判和签约。\n• 具备产品思维和结果意识，能够从客户 ROI 出发提供解决方案；英语可作为工作语言者优先。\n\n加分项：达人营销、全球品牌营销或成熟代理商资源；曾负责千万级营销预算或大型客户合作。\n\n我们提供：高自由度创业环境、高底薪 + 高佣金 + 股权激励，以及参与建设全球 AI 原生达人营销平台的机会。",
+    "descriptionEn": "Own enterprise sales for China-to-global brands across AI, consumer electronics, e-commerce, and gaming. Build direct customer and agency-channel pipelines, lead the full cycle from discovery and solution design through negotiation and closing, and partner with customer success to grow renewals and budgets. Candidates should bring strong industry relationships, enterprise sales experience, channel-building ability, product thinking, and a results-oriented approach. Influencer marketing, global brand marketing, major agency resources, and ownership of large marketing budgets are strong advantages. Competitive base salary, uncapped commission, and equity are offered.",
+    "tags": ["出海销售", "大客户", "达人营销", "渠道建设", "可远程"],
+    "tagsEn": ["Global Sales", "Enterprise Sales", "Creator Marketing", "Channel Development", "Remote Friendly"],
+    "profile": {
+      "experience": "资深 / 负责人级",
+      "experienceEn": "Senior / Lead level",
+      "language": "英语可作为工作语言优先",
+      "languageEn": "Professional English preferred",
+      "skills": ["ToB销售", "代理商渠道", "商务谈判", "出海营销"],
+      "skillsEn": ["B2B Sales", "Agency Channels", "Negotiation", "Global Marketing"]
+    },
+    "sort": 1
+  },
+  {
+    "id": "global-ai-creator-marketing-china-social-media-operations",
+    "companyId": "global-ai-creator-marketing-platform",
+    "title": "中国出海市场社媒运营",
+    "titleEn": "China-to-Global Social Media Operations",
+    "jobType": "operations,mkt-growth",
+    "jobTypeEn": "Operations, MKT & Growth",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "北京",
+    "locationEn": "Beijing",
+    "description": "岗位职责：\n• 负责小红书、微信公众号、视频号等中国社媒平台运营。\n• 围绕出海营销、达人营销、AI 应用和行业案例完成选题、制作与发布。\n• 将产品能力、客户案例和行业洞察转化为易理解、可传播的内容。\n• 研究出海品牌、竞品和行业热点，结合数据持续优化内容策略。\n• 与销售、产品和客户团队协作沉淀一线素材，并使用 AI 提升内容生产效率。\n\n任职要求：\n• 有社媒、内容、品牌市场或出海营销经验。\n• 理解力强，内容判断和审美在线，熟悉中国主流内容平台。\n• 文案具体、有观点，能够独立推进选题、制作、发布和复盘。\n• 对中国品牌出海、AI、达人营销或海外市场有兴趣，并能深度使用 AI 工具。\n\n加分项：服务过出海品牌、跨境电商、AI 或 SaaS 公司；有账号从 0 到 1、视频剪辑、视觉设计或英文内容经验。本岗位计划招聘 2 人。",
+    "descriptionEn": "Own Chinese social channels including Xiaohongshu, WeChat Official Accounts, and WeChat Channels. Turn global marketing, creator economy, AI applications, customer stories, and industry insights into credible, engaging content. Research market trends, optimize through performance data, collaborate with Sales and Product, and use AI deeply across research and production. Strong content judgment, writing, aesthetics, ownership, and familiarity with China-to-global brands are expected. Two openings.",
+    "tags": ["社媒运营", "内容运营", "品牌出海", "AI内容", "北京"],
+    "tagsEn": ["Social Media", "Content Operations", "Global Expansion", "AI Content", "Beijing"],
+    "profile": {
+      "experience": "有相关实操经验",
+      "experienceEn": "Relevant hands-on experience",
+      "skills": ["小红书", "微信公众号", "视频号", "内容策划", "AI工具"],
+      "skillsEn": ["Xiaohongshu", "WeChat", "Content Strategy", "AI Tools"]
+    },
+    "sort": 2
+  },
+  {
+    "id": "global-ai-creator-marketing-backend-engineer",
+    "companyId": "global-ai-creator-marketing-platform",
+    "title": "后端研发工程师（数据与 AI 应用方向）",
+    "titleEn": "Backend Engineer, Data & AI Applications",
+    "jobType": "engineering",
+    "jobTypeEn": "Engineering",
+    "workMode": "on-site",
+    "workModeEn": "On-site",
+    "location": "北京",
+    "locationEn": "Beijing",
+    "description": "工作职责：\n• 参与 AI Agent、达人匹配、内容理解和智能推荐等核心产品的后端研发。\n• 将大模型接入真实业务，设计 Prompt、上下文、工具调用、任务编排、结果校验及可观测评估链路。\n• 建设创作者内容、社媒数据、客户需求和履约数据的采集、清洗、存储、搜索、召回与分析能力。\n• 负责核心业务系统、稳定 API 和可扩展服务架构，持续优化性能、并发与稳定性。\n• 与产品、算法和业务团队共同定义问题，在交付速度、工程质量和长期架构之间合理取舍。\n\n任职要求：\n• 计算机或相关专业背景，计算机基础扎实。\n• 熟练掌握 Python、Go、Java 至少一种，熟悉 MySQL/PostgreSQL、Redis 和消息队列。\n• 能独立设计和开发中等复杂度服务，对数据质量、一致性和链路可追溯性有判断。\n• 使用过主流大模型 API，对 LLM 应用开发有实际理解或强烈兴趣。\n• 学习快、逻辑清晰、结果导向，愿意推动问题完整闭环。\n\n加分项：Agent、RAG、Workflow、推荐或搜索系统；数据采集与平台；向量数据库、Embedding、模型评估或推理优化；0 到 1 产品、开源项目或高速成长团队经验。本岗位计划招聘 1–2 人。",
+    "descriptionEn": "Build backend systems for AI agents, creator matching, content understanding, recommendations, and data-intensive workflows. Integrate LLMs with prompts, context management, tool use, orchestration, validation, observability, and evaluation. Develop reliable data pipelines, search and retrieval services, scalable APIs, and core business systems. Strong fundamentals, proficiency in Python, Go, or Java, experience with relational databases, Redis, messaging, system design, and hands-on familiarity with mainstream LLM APIs are expected. Agent, RAG, workflow, recommendation, search, vector database, and 0-to-1 product experience are advantages. One to two openings.",
+    "tags": ["后端研发", "AI Agent", "数据系统", "LLM应用", "北京"],
+    "tagsEn": ["Backend Engineering", "AI Agent", "Data Systems", "LLM Applications", "Beijing"],
+    "profile": {
+      "education": "计算机或相关专业",
+      "educationEn": "Computer Science or related field",
+      "skills": ["Python/Go/Java", "数据库", "LLM API", "系统设计", "数据工程"],
+      "skillsEn": ["Python/Go/Java", "Databases", "LLM APIs", "System Design", "Data Engineering"]
+    },
+    "sort": 3
   }
 ]
