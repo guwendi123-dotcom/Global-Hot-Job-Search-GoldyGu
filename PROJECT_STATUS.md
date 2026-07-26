@@ -3,10 +3,11 @@
 最后确认日期：2026-07-26
 
 - 正式站点：<https://www.goldyhire.com>
-- 当前 Cloudflare Version ID：`633ffd1e-e219-4438-b131-caa654f4e723`
+- 当前 Cloudflare Version ID：`2c9477e8-f7ae-442d-a0d9-0ee211a18c9c`
 - 当前数据量：15 家公司、44 个岗位、7 个行业
 - 最近新增：脱敏的“全球 AI 达人营销平台”及 3 个岗位
 - 最近发布验证：公司页和 3 个岗位详情页均返回 HTTP 200
+- 详情页由服务器直接读取主数据并输出，避免 Cloudflare 静态缓存缺失导致 404。
 
 ## 重要提醒
 
