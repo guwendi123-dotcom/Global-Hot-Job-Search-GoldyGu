@@ -3,13 +3,20 @@
 import Link from "next/link";
 import { ArrowLeft, Building2 } from "lucide-react";
 import CompanyCard from "@/components/CompanyCard";
-import { getCompaniesSync, getJobsSync } from "@/lib/data";
+import { getCompanies, getJobs } from "@/lib/data";
 import { useI18n } from "@/lib/i18n";
+import { useEffect, useState } from "react";
 
 export default function CompaniesPage() {
   const { language } = useI18n();
-  const companies = getCompaniesSync();
-  const jobs = getJobsSync();
+  const [companies, setCompanies] = useState<any[]>([]);
+  const [jobs, setJobs] = useState<any[]>([]);
+  useEffect(() => {
+    Promise.all([getCompanies(), getJobs()]).then(([nextCompanies, nextJobs]) => {
+      setCompanies(nextCompanies);
+      setJobs(nextJobs);
+    });
+  }, []);
 
   return (
     <main className="min-h-screen bg-bg-primary">

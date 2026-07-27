@@ -16,6 +16,7 @@ interface Company {
   location: string;
   locationEn: string;
   logo: string;
+  logoEmoji?: string;
   sort?: number;
 }
 
@@ -31,6 +32,7 @@ export default function AdminCompaniesPage() {
   const [isCreating, setIsCreating] = useState(false);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
+  const [notice, setNotice] = useState("");
 
   useEffect(() => {
     fetchData();
@@ -42,6 +44,7 @@ export default function AdminCompaniesPage() {
         fetch("/api/admin/companies"),
         fetch("/api/admin/industries"),
       ]);
+      if (!companiesRes.ok || !industriesRes.ok) throw new Error("加载失败");
       const companiesData = await companiesRes.json();
       const industriesData = await industriesRes.json();
       setCompanies(companiesData.companies || []);
@@ -65,12 +68,14 @@ export default function AdminCompaniesPage() {
         body: JSON.stringify(editingCompany),
       });
 
+      const data = await response.json().catch(() => ({}));
       if (response.ok) {
         await fetchData();
         setEditingCompany(null);
         setIsCreating(false);
+        setNotice("公司已保存，前台已同步更新");
       } else {
-        alert("保存失败");
+        alert(data.error || "保存失败");
       }
     } catch (error) {
       console.error("Failed to save:", error);
@@ -84,16 +89,20 @@ export default function AdminCompaniesPage() {
     if (!confirm("确定要删除这个公司吗？")) return;
 
     try {
-      await fetch(`/api/admin/companies?id=${id}`, { method: "DELETE" });
+      const response = await fetch(`/api/admin/companies?id=${encodeURIComponent(id)}`, { method: "DELETE" });
+      const data = await response.json().catch(() => ({}));
+      if (!response.ok) return alert(data.error || "删除失败");
       await fetchData();
+      setNotice("公司已删除");
     } catch (error) {
       console.error("Failed to delete:", error);
       alert("删除失败");
     }
   };
 
-  const createNewCompany = () => {
-    const newId = `company-${Date.now()}`;
+  const createNewCompany = async () => {
+    const response = await fetch("/api/admin/next-id?type=company", { cache: "no-store" });
+    const { id: newId = "" } = await response.json();
     setEditingCompany({
       id: newId,
       industryId: industries[0]?.id || "",
@@ -106,6 +115,7 @@ export default function AdminCompaniesPage() {
       location: "",
       locationEn: "",
       logo: "",
+      logoEmoji: "🏢",
       sort: 999,
     });
     setIsCreating(true);
@@ -151,7 +161,7 @@ export default function AdminCompaniesPage() {
             <h2 className="text-lg font-semibold text-text-primary mb-4">基本信息</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
-                <label className="block text-sm font-medium text-text-primary mb-1">ID</label>
+                <label className="block text-sm font-medium text-text-primary mb-1">公司编号</label>
                 <input
                   type="text"
                   value={editingCompany.id}
@@ -159,6 +169,7 @@ export default function AdminCompaniesPage() {
                   className="w-full px-4 py-2 rounded-xl border border-border focus:border-accent focus:outline-none"
                   disabled={!isCreating}
                 />
+                <p className="text-xs text-text-secondary mt-1">自动按 company-001、company-002 顺序生成；发布后不可修改。</p>
               </div>
               <div>
                 <label className="block text-sm font-medium text-text-primary mb-1">排序权重 (数字越小越靠前)</label>
@@ -248,6 +259,16 @@ export default function AdminCompaniesPage() {
                   className="w-full px-4 py-2 rounded-xl border border-border focus:border-accent focus:outline-none"
                 />
               </div>
+              <div>
+                <label className="block text-sm font-medium text-text-primary mb-1">Logo Emoji（没有图片时显示）</label>
+                <input
+                  type="text"
+                  value={editingCompany.logoEmoji || ""}
+                  onChange={(e) => setEditingCompany({ ...editingCompany, logoEmoji: e.target.value })}
+                  placeholder="🏢"
+                  className="w-full px-4 py-2 rounded-xl border border-border focus:border-accent focus:outline-none"
+                />
+              </div>
             </div>
           </div>
 
@@ -300,6 +321,7 @@ export default function AdminCompaniesPage() {
       </header>
 
       <div className="max-w-6xl mx-auto px-4 py-8">
+        {notice && <div className="mb-5 rounded-xl border border-green-200 bg-green-50 px-4 py-3 text-sm text-green-800">{notice}</div>}
         {companies.length === 0 ? (
           <div className="text-center py-12 text-text-secondary">暂无公司</div>
         ) : (

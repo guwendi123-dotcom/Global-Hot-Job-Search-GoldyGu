@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { ArrowLeft, Briefcase, TrendingUp, Microscope, Code, Brain, Crown, Palette, Clipboard, Globe } from "lucide-react";
-import { getJobsSync, getJobTypes, getCompaniesSync } from "@/lib/data";
+import { getJobs, getJobTypes, getCompanies } from "@/lib/data";
 import { useI18n } from "@/lib/i18n";
 import { useEffect, useState } from "react";
 import JobCard from "@/components/JobCard";
@@ -32,9 +32,11 @@ export default function JobsPage({
 
   useEffect(() => {
     searchParams.then(p => setParams(p));
-    setJobs(getJobsSync());
-    setCompanies(getCompaniesSync());
     setJobTypes(getJobTypes());
+    Promise.all([getJobs(), getCompanies()]).then(([nextJobs, nextCompanies]) => {
+      setJobs(nextJobs);
+      setCompanies(nextCompanies);
+    });
   }, [searchParams]);
 
   const typeParam = params.type;

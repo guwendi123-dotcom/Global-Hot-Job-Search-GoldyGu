@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { ArrowRight, ChevronDown, MapPin, Search, Sparkles } from "lucide-react";
-import { getCompaniesSync, getIndustriesSync, getJobsSync, getJobTypes, getProfile } from "@/lib/data";
+import { getCompanies, getIndustries, getJobs, getJobTypes, getProfile } from "@/lib/data";
 import Hero from "@/components/Hero";
 import CompanyCard from "@/components/CompanyCard";
 import IndustryCard from "@/components/IndustryCard";
@@ -25,10 +25,12 @@ export default function Home() {
 
   useEffect(() => {
     setProfile(getProfile());
-    setIndustries(getIndustriesSync());
-    setCompanies(getCompaniesSync());
-    setJobs(getJobsSync());
     setJobTypes(getJobTypes());
+    Promise.all([getIndustries(), getCompanies(), getJobs()]).then(([nextIndustries, nextCompanies, nextJobs]) => {
+      setIndustries(nextIndustries);
+      setCompanies(nextCompanies);
+      setJobs(nextJobs);
+    });
   }, []);
 
   const filteredJobs = useMemo(() => jobs.filter((job) => {

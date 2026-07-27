@@ -20,6 +20,8 @@
 
 所有公司和岗位内容以这三个 `data/` 文件为准。客户要求脱敏时，不得在中英文公司介绍、岗位说明、标签、URL ID 或图片文字中出现真实公司名或产品名。
 
+管理后台启用后，Cloudflare KV 中的 `content:companies`、`content:jobs`、`content:industries` 是线上实时内容源，项目内 JSON 是首次初始化与故障回退数据。不得用部署动作清空或覆盖 KV。后台使用方式见 `ADMIN_GUIDE.md`。
+
 ## 发布流程
 
 1. 读取本文件和 `PROJECT_STATUS.md`。

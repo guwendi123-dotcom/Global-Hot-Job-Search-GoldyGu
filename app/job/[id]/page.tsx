@@ -5,7 +5,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { useParams } from "next/navigation";
 import { ArrowLeft, Mail, ChevronRight, DollarSign, Clock, Languages, GraduationCap, Code, Briefcase, Linkedin, MapPin, Building } from "lucide-react";
-import { getJob, getCompany, getProfile, getJobTypes, type Job, type Company } from "@/lib/data";
+import { getJobs, getCompanies, getProfile, getJobTypes, type Job, type Company } from "@/lib/data";
 import ProfileBadge from "@/components/ProfileBadge";
 import { useI18n } from "@/lib/i18n";
 
@@ -21,14 +21,14 @@ export default function JobPage() {
   useEffect(() => {
     const id = params?.id as string;
     if (id) {
-      const jobData = getJob(id);
-      if (jobData) {
+      Promise.all([getJobs(), getCompanies()]).then(([jobs, companies]) => {
+        const jobData = jobs.find((item) => item.id === id) || null;
         setJob(jobData);
-        setCompany(getCompany(jobData.companyId) || null);
+        setCompany(jobData ? companies.find((item) => item.id === jobData.companyId) || null : null);
         setProfile(getProfile());
         setJobTypes(getJobTypes());
-      }
-      setLoading(false);
+        setLoading(false);
+      });
     }
   }, [params?.id]);
 

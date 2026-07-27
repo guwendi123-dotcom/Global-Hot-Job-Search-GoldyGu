@@ -9,6 +9,8 @@ interface Job {
   companyId: string;
   title: string;
   titleEn: string;
+  jobType?: string;
+  jobTypeEn?: string;
   description: string;
   descriptionEn: string;
   location: string;
@@ -45,6 +47,7 @@ export default function AdminJobsPage() {
   const [isCreating, setIsCreating] = useState(false);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
+  const [notice, setNotice] = useState("");
 
   useEffect(() => {
     fetchData();
@@ -56,6 +59,7 @@ export default function AdminJobsPage() {
         fetch("/api/admin/jobs"),
         fetch("/api/admin/companies"),
       ]);
+      if (!jobsRes.ok || !companiesRes.ok) throw new Error("加载失败");
       const jobsData = await jobsRes.json();
       const companiesData = await companiesRes.json();
       setJobs(jobsData.jobs || []);
@@ -79,12 +83,14 @@ export default function AdminJobsPage() {
         body: JSON.stringify(editingJob),
       });
 
+      const data = await response.json().catch(() => ({}));
       if (response.ok) {
         await fetchData();
         setEditingJob(null);
         setIsCreating(false);
+        setNotice("岗位已保存，前台已同步更新");
       } else {
-        alert("保存失败");
+        alert(data.error || "保存失败");
       }
     } catch (error) {
       console.error("Failed to save:", error);
@@ -98,21 +104,28 @@ export default function AdminJobsPage() {
     if (!confirm("确定要删除这个岗位吗？")) return;
 
     try {
-      await fetch(`/api/admin/jobs?id=${id}`, { method: "DELETE" });
+      const response = await fetch(`/api/admin/jobs?id=${encodeURIComponent(id)}`, { method: "DELETE" });
+      const data = await response.json().catch(() => ({}));
+      if (!response.ok) return alert(data.error || "删除失败");
       await fetchData();
+      setNotice("岗位已删除");
     } catch (error) {
       console.error("Failed to delete:", error);
       alert("删除失败");
     }
   };
 
-  const createNewJob = () => {
-    const newId = `job-${Date.now()}`;
+  const createNewJob = async () => {
+    const companyId = companies[0]?.id || "";
+    const response = await fetch(`/api/admin/next-id?type=job&companyId=${encodeURIComponent(companyId)}`, { cache: "no-store" });
+    const { id: newId = "" } = await response.json();
     setEditingJob({
       id: newId,
-      companyId: companies[0]?.id || "",
+      companyId,
       title: "",
       titleEn: "",
+      jobType: "",
+      jobTypeEn: "",
       description: "",
       descriptionEn: "",
       location: "",
@@ -170,7 +183,13 @@ export default function AdminJobsPage() {
                 <label className="block text-sm font-medium text-text-primary mb-1">公司</label>
                 <select
                   value={editingJob.companyId}
-                  onChange={(e) => setEditingJob({ ...editingJob, companyId: e.target.value })}
+                  onChange={async (e) => {
+                    const companyId = e.target.value;
+                    if (!isCreating) return setEditingJob({ ...editingJob, companyId });
+                    const response = await fetch(`/api/admin/next-id?type=job&companyId=${encodeURIComponent(companyId)}`, { cache: "no-store" });
+                    const data = await response.json();
+                    setEditingJob({ ...editingJob, companyId, id: data.id || editingJob.id });
+                  }}
                   className="w-full px-4 py-2 rounded-xl border border-border focus:border-accent focus:outline-none"
                 >
                   {companies.map(c => (
@@ -179,7 +198,7 @@ export default function AdminJobsPage() {
                 </select>
               </div>
               <div>
-                <label className="block text-sm font-medium text-text-primary mb-1">ID</label>
+                <label className="block text-sm font-medium text-text-primary mb-1">岗位编号</label>
                 <input
                   type="text"
                   value={editingJob.id}
@@ -187,6 +206,7 @@ export default function AdminJobsPage() {
                   className="w-full px-4 py-2 rounded-xl border border-border focus:border-accent focus:outline-none"
                   disabled={!isCreating}
                 />
+                <p className="text-xs text-text-secondary mt-1">按“公司编号-job-001”自动生成；发布后不可修改。</p>
               </div>
               <div>
                 <label className="block text-sm font-medium text-text-primary mb-1">排序权重 (数字越小越靠前)</label>
@@ -213,6 +233,26 @@ export default function AdminJobsPage() {
                   type="text"
                   value={editingJob.titleEn}
                   onChange={(e) => setEditingJob({ ...editingJob, titleEn: e.target.value })}
+                  className="w-full px-4 py-2 rounded-xl border border-border focus:border-accent focus:outline-none"
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-text-primary mb-1">岗位分类编号</label>
+                <input
+                  type="text"
+                  value={editingJob.jobType || ""}
+                  onChange={(e) => setEditingJob({ ...editingJob, jobType: e.target.value })}
+                  placeholder="如 engineering 或 operations,mkt-growth"
+                  className="w-full px-4 py-2 rounded-xl border border-border focus:border-accent focus:outline-none"
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-text-primary mb-1">分类英文显示</label>
+                <input
+                  type="text"
+                  value={editingJob.jobTypeEn || ""}
+                  onChange={(e) => setEditingJob({ ...editingJob, jobTypeEn: e.target.value })}
+                  placeholder="Engineering"
                   className="w-full px-4 py-2 rounded-xl border border-border focus:border-accent focus:outline-none"
                 />
               </div>
@@ -342,6 +382,16 @@ export default function AdminJobsPage() {
                   className="w-full px-4 py-2 rounded-xl border border-border focus:border-accent focus:outline-none"
                 />
               </div>
+              <div className="grid md:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-sm font-medium text-text-primary mb-1">中文标签（逗号分隔）</label>
+                  <input value={(editingJob.tags || []).join(", ")} onChange={(e) => setEditingJob({ ...editingJob, tags: e.target.value.split(/[,，]/).map(v => v.trim()).filter(Boolean) })} className="w-full px-4 py-2 rounded-xl border border-border focus:border-accent focus:outline-none" />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-text-primary mb-1">英文标签（逗号分隔）</label>
+                  <input value={(editingJob.tagsEn || []).join(", ")} onChange={(e) => setEditingJob({ ...editingJob, tagsEn: e.target.value.split(/[,，]/).map(v => v.trim()).filter(Boolean) })} className="w-full px-4 py-2 rounded-xl border border-border focus:border-accent focus:outline-none" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -369,6 +419,7 @@ export default function AdminJobsPage() {
       </header>
 
       <div className="max-w-6xl mx-auto px-4 py-8">
+        {notice && <div className="mb-5 rounded-xl border border-green-200 bg-green-50 px-4 py-3 text-sm text-green-800">{notice}</div>}
         {jobs.length === 0 ? (
           <div className="text-center py-12 text-text-secondary">暂无岗位</div>
         ) : (

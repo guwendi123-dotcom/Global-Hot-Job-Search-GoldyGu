@@ -6,11 +6,9 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { ArrowLeft, MapPin, Building2 } from "lucide-react";
 import {
-  getCompany,
-  getJobsByCompanySync,
-  getIndustry,
-  getCompaniesSync,
-  getIndustriesSync,
+  getCompanies,
+  getJobs,
+  getIndustries,
   type Company,
   type Job,
   type Industry
@@ -29,14 +27,13 @@ export default function CompanyPage() {
   useEffect(() => {
     const id = params?.id as string;
     if (id) {
-      // 使用同步版本作为后备
-      const companyData = getCompany(id);
-      if (companyData) {
+      Promise.all([getCompanies(), getJobs(), getIndustries()]).then(([companies, allJobs, industries]) => {
+        const companyData = companies.find((item) => item.id === id) || null;
         setCompany(companyData);
-        setJobs(getJobsByCompanySync(id));
-        setIndustry(getIndustry(companyData.industryId) || null);
-      }
-      setLoading(false);
+        setJobs(allJobs.filter((item) => item.companyId === id));
+        setIndustry(companyData ? industries.find((item) => item.id === companyData.industryId) || null : null);
+        setLoading(false);
+      });
     }
   }, [params?.id]);
 
