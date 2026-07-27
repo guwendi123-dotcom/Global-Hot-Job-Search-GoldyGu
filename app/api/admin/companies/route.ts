@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { requestIsAdmin } from "@/lib/admin-auth";
 import { readCompanies, readIndustries, readJobs, validId, writeCollection } from "@/lib/admin-store";
+import { sortCompaniesByWeeklyViews } from "@/lib/analytics-store";
 import type { Company } from "@/lib/data";
 
 const unauthorized = () => NextResponse.json({ error: "请先登录管理后台" }, { status: 401 });
@@ -34,7 +35,7 @@ async function validate(company: Company, originalId?: string) {
 }
 
 export async function GET() {
-  const companies = (await readCompanies()).sort((a, b) => (a.sort || 999) - (b.sort || 999));
+  const companies = await sortCompaniesByWeeklyViews(await readCompanies());
   return NextResponse.json({ companies }, { headers: { "Cache-Control": "no-store" } });
 }
 

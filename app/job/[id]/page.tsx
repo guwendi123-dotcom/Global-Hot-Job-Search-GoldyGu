@@ -32,6 +32,25 @@ export default function JobPage() {
     }
   }, [params?.id]);
 
+  useEffect(() => {
+    if (!job?.id) return;
+    const day = new Date().toISOString().slice(0, 10);
+    const storageKey = `goldyhire:job-view:${job.id}:${day}`;
+    if (window.localStorage.getItem(storageKey)) return;
+
+    fetch("/api/analytics/job-view", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ jobId: job.id }),
+      keepalive: true,
+    })
+      .then((response) => response.ok ? response.json() : null)
+      .then((result) => {
+        if (result?.counted) window.localStorage.setItem(storageKey, "1");
+      })
+      .catch(() => {});
+  }, [job?.id]);
+
   if (loading) {
     return (
       <main className="min-h-screen bg-bg-primary flex items-center justify-center">

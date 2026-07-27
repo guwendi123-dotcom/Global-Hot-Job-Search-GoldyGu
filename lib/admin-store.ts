@@ -12,12 +12,12 @@ const seeds: Record<CollectionName, unknown[]> = {
   industries: industriesSeed,
 };
 
-type GoldyKV = {
+export type GoldyKV = {
   get<T>(key: string, type: "json"): Promise<T | null>;
-  put(key: string, value: string): Promise<void>;
+  put(key: string, value: string, options?: { expirationTtl?: number }): Promise<void>;
 };
 
-function getKv(): GoldyKV | null {
+export function getKv(): GoldyKV | null {
   try {
     const { env } = getCloudflareContext();
     return (env as CloudflareEnv).HEADHUNTER_DATA || null;

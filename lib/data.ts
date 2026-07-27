@@ -135,7 +135,7 @@ export async function getCompanies(): Promise<Company[]> {
   try {
     const res = await fetch('/api/admin/companies', { cache: 'no-store' });
     const data = await res.json();
-    return (data.companies || []).sort((a: Company, b: Company) => (a.sort || 999) - (b.sort || 999));
+    return data.companies || [];
   } catch (e) {
     console.error('Failed to fetch companies:', e);
     return getCompaniesSync();
