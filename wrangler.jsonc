@@ -8,6 +8,10 @@
     "nodejs_compat",
     "global_fetch_strictly_public"
   ],
+  "vars": {
+    "CLOUDFLARE_ACCOUNT_ID": "f45f9163e487de1656b3905cb93e2333",
+    "CLOUDFLARE_ANALYTICS_SITE_TAG": "4bbebdbe483647a9845a19fa353cf804"
+  },
   "routes": [
     "goldyhire.com/*",
     "www.goldyhire.com/*"

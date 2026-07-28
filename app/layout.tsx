@@ -3,6 +3,7 @@ import Script from "next/script";
 import "./globals.css";
 import { I18nProvider } from "@/lib/i18n";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import AnalyticsTracker from "@/components/AnalyticsTracker";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.goldyhire.com"),
@@ -45,6 +46,7 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
         <I18nProvider>
+          <AnalyticsTracker />
           <LanguageSwitcher />
           {children}
         </I18nProvider>

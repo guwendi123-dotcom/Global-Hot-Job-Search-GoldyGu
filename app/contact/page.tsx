@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ArrowLeft, Linkedin, Mail, Send } from "lucide-react";
 import { getJobsSync, getProfile } from "@/lib/data";
 import { useI18n } from "@/lib/i18n";
+import { sendAnalyticsEvent } from "@/components/AnalyticsTracker";
 
 export default function ContactPage() {
   const { language } = useI18n();
@@ -16,6 +17,7 @@ export default function ContactPage() {
 
   const submit = (event: React.FormEvent) => {
     event.preventDefault();
+    sendAnalyticsEvent("contact_email", form.interestedJob || "contact-form");
     const job = jobs.find((item) => item.id === form.interestedJob);
     const subject = job
       ? `${language === "zh" ? "岗位咨询" : "Job inquiry"}: ${job.titleEn || job.title}`
@@ -81,8 +83,8 @@ export default function ContactPage() {
             </button>
           </form>
           <div className="grid sm:grid-cols-2 gap-3 mt-5">
-            <a href={`mailto:${profile.contact.email}`} className="inline-flex justify-center items-center gap-2 px-4 py-3 rounded-full border border-border hover:border-accent"><Mail size={17} /> Email</a>
-            <a href={profile.contact.linkedin} target="_blank" rel="noopener noreferrer" className="inline-flex justify-center items-center gap-2 px-4 py-3 rounded-full border border-border hover:border-accent"><Linkedin size={17} /> LinkedIn</a>
+            <a onClick={() => sendAnalyticsEvent("contact_email", "contact-page")} href={`mailto:${profile.contact.email}`} className="inline-flex justify-center items-center gap-2 px-4 py-3 rounded-full border border-border hover:border-accent"><Mail size={17} /> Email</a>
+            <a onClick={() => sendAnalyticsEvent("contact_linkedin", "contact-page")} href={profile.contact.linkedin} target="_blank" rel="noopener noreferrer" className="inline-flex justify-center items-center gap-2 px-4 py-3 rounded-full border border-border hover:border-accent"><Linkedin size={17} /> LinkedIn</a>
           </div>
         </div>
       </section>

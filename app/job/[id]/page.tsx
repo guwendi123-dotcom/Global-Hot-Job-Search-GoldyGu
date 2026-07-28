@@ -8,6 +8,7 @@ import { ArrowLeft, Mail, ChevronRight, DollarSign, Clock, Languages, Graduation
 import { getJobs, getCompanies, getProfile, getJobTypes, type Job, type Company } from "@/lib/data";
 import ProfileBadge from "@/components/ProfileBadge";
 import { useI18n } from "@/lib/i18n";
+import { sendAnalyticsEvent } from "@/components/AnalyticsTracker";
 
 export default function JobPage() {
   const params = useParams();
@@ -292,6 +293,7 @@ export default function JobPage() {
               </div>
               <a
                 href={profile?.contact?.linkedin}
+                onClick={() => sendAnalyticsEvent("contact_linkedin", job.id)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-full hover:bg-orange-600 transition-colors shadow-md"

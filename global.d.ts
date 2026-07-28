@@ -9,6 +9,9 @@ declare global {
     WORKER_SELF_REFERENCE: unknown;
     ADMIN_PASSWORD?: string;
     ADMIN_SESSION_TOKEN?: string;
+    CLOUDFLARE_ANALYTICS_TOKEN?: string;
+    CLOUDFLARE_ACCOUNT_ID?: string;
+    CLOUDFLARE_ANALYTICS_SITE_TAG?: string;
   }
 }
 

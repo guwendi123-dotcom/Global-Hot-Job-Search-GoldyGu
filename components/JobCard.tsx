@@ -6,6 +6,7 @@ import Link from "next/link";
 import type { Job, Company } from "@/lib/data";
 import ProfileBadge from "./ProfileBadge";
 import { useI18n } from "@/lib/i18n";
+import { sendAnalyticsEvent } from "@/components/AnalyticsTracker";
 
 interface JobCardProps {
   job: Job;
@@ -30,7 +31,7 @@ export default function JobCard({ job, company, index }: JobCardProps) {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: index * 0.1, duration: 0.4 }}
     >
-      <Link href={`/job/${job.id}`}>
+      <Link href={`/job/${job.id}`} onClick={() => sendAnalyticsEvent("company_to_job", company?.id || "jobs-list")}>
         <div className="group bg-bg-card rounded-2xl p-6 border border-border hover:border-accent hover:shadow-lg transition-all cursor-pointer h-full">
           <div className="flex justify-between items-start mb-4">
             <div>

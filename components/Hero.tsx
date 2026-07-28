@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ArrowRight, Globe2, Linkedin, MessageCircle, RefreshCw, Search, X } from "lucide-react";
 import type { Profile } from "@/lib/data";
 import { useI18n } from "@/lib/i18n";
+import { sendAnalyticsEvent } from "@/components/AnalyticsTracker";
 
 export default function Hero({ profile, jobCount, companyCount, industryCount }: { profile: Profile; jobCount: number; companyCount: number; industryCount: number }) {
   const { language } = useI18n();
@@ -21,8 +22,8 @@ export default function Hero({ profile, jobCount, companyCount, industryCount }:
             <a href="#jobs" className="primary-pill">{language === "zh" ? "浏览全部岗位" : "Browse all jobs"}<ArrowRight size={17} /></a>
             <Link href="/contact" className="secondary-pill">{language === "zh" ? "联系咕咕" : "Contact Goldy"}</Link>
             <span className="inline-flex gap-3">
-              <button type="button" onClick={() => setShowWechat(true)} className="secondary-pill"><MessageCircle size={17} />Wechat</button>
-              <a href={profile.contact.linkedin} target="_blank" rel="noreferrer" className="secondary-pill"><Linkedin size={17} />LinkedIn</a>
+              <button type="button" onClick={() => { setShowWechat(true); sendAnalyticsEvent("wechat_qr_open", "home"); }} className="secondary-pill"><MessageCircle size={17} />Wechat</button>
+              <a href={profile.contact.linkedin} onClick={() => sendAnalyticsEvent("contact_linkedin", "home")} target="_blank" rel="noreferrer" className="secondary-pill"><Linkedin size={17} />LinkedIn</a>
             </span>
           </div>
           <div className="flex flex-wrap gap-3 mt-6">
