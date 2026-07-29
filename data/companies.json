@@ -213,5 +213,20 @@
     "location": "北京总部 / 北美 / 中国多地",
     "locationEn": "Beijing HQ / North America / Multiple China Locations",
     "sort": 5
+  },
+  {
+    "id": "vord-ai",
+    "industryId": "ai-agent",
+    "name": "Vord AI",
+    "nameEn": "Vord AI",
+    "logo": "",
+    "logoEmoji": "🔐",
+    "description": "早期隐私优先 AI 对话产品，通过统一界面连接 Claude、GPT、Gemini 与开放权重模型。与依赖服务条款承诺的常见方案不同，其基础设施只基于元数据完成路由，不接触用户输入内容，将隐私保护建立在产品架构本身。团队致力于为工作沟通、法律与医疗问题及敏感创意场景提供兼具主流产品体验与强隐私保障的 AI 工具。",
+    "descriptionEn": "An early-stage, privacy-first AI chat product that provides access to Claude, GPT, Gemini, and open-weight models through one interface. Its infrastructure routes on metadata without seeing prompt contents, grounding the privacy guarantee in architecture rather than policy promises. The team is building a mainstream-quality experience for sensitive work conversations, legal and medical questions, and private ideas.",
+    "stage": "早期创业",
+    "stageEn": "Early Stage",
+    "location": "全球远程（优先亚太，也考虑美国）",
+    "locationEn": "Global Remote (APAC preferred; US considered)",
+    "sort": 6
   }
 ]
