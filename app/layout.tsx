@@ -27,6 +27,13 @@ export const metadata: Metadata = {
     title: "GoldyHire｜全球科技人才与岗位机会",
     description: "AI Agent、具身智能、Web3 与全球科技公司的真实招聘机会。",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32", type: "image/x-icon" },
+      { url: "/icon.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
+  },
   robots: { index: true, follow: true },
 };
 
