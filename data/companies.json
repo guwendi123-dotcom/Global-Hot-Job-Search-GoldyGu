@@ -243,5 +243,19 @@
     "location": "上海 / 纽约",
     "locationEn": "Shanghai / New York City",
     "sort": 7
+  },
+  {
+    "id": "global-physical-ai-data-simulation-platform",
+    "industryId": "embodied-ai",
+    "name": "全球 Physical AI 数据与仿真平台",
+    "nameEn": "Global Physical AI Data & Simulation Platform",
+    "logo": "/logos/physical-ai-data-simulation.png",
+    "description": "全球领先的 Physical AI 数据与仿真基础设施公司，围绕 3D 仿真数据、仿真遥操作与自动驾驶合成数据三大方向，提供从数据采集、策略训练、仿真评测到 Sim2Real 部署的全流程解决方案。公司已完成多轮大额融资，年营收突破亿元，并与全球头部芯片、大模型、机器人、汽车及工业企业建立合作，规模化交付与商业化能力已得到市场验证。",
+    "descriptionEn": "A leading Physical AI data and simulation infrastructure company spanning three core areas: 3D simulation data, simulation-based teleoperation, and synthetic data for autonomous driving. It provides end-to-end solutions from data collection and policy training to simulation evaluation and Sim2Real deployment. The company has completed multiple major funding rounds, surpassed RMB 100 million in annual revenue, and works with leading global chip, foundation-model, robotics, automotive, and industrial companies, demonstrating validated commercial and large-scale delivery capabilities.",
+    "stage": "多轮大额融资",
+    "stageEn": "Multiple Major Funding Rounds",
+    "location": "",
+    "locationEn": "",
+    "sort": 3
   }
 ]
