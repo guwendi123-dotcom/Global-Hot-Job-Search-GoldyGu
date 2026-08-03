@@ -2479,5 +2479,57 @@
       "skillsEn": ["Technical SEO", "Multilingual SEO", "hreflang", "Google Analytics", "Search Console", "GEO"]
     },
     "sort": 1
+  },
+  {
+    "id": "industrial-mobile-manipulation-platform-job-001",
+    "companyId": "industrial-mobile-manipulation-platform",
+    "title": "机器人技术项目经理",
+    "titleEn": "Technical Program Manager, Robotics",
+    "jobType": "pm",
+    "jobTypeEn": "PM",
+    "workMode": "全职 On-site",
+    "workModeEn": "Full-time On-site",
+    "location": "Fremont, California",
+    "locationEn": "Fremont, California",
+    "description": "岗位介绍：\n公司正在打造面向物流、零售与制造业的通用移动操作机器人，覆盖卡车卸货、移动码垛和机器上下料等真实工业场景。机器人系统融合感知、规划、控制、硬件、运营及客户工作流。该岗位直接汇报 CTO，负责推动最高优先级机器人项目从概念、原型、验证到量产导入（NPI）和客户部署的集成执行。项目负责人对各自交付物负责，技术负责人对技术和团队负责；你负责整体项目对齐、透明度和持续推进。\n\n岗位职责：\n• 并行推动多个软硬件机器人项目，覆盖概念开发、验证、量产导入和现场部署。\n• 与项目 Owner 和团队负责人跟踪承诺，确保风险、阻塞和范围变化在影响里程碑前被识别并解决。\n• 推动技术范围、可靠性、进度、资源、成本与客户优先级之间的权衡和及时决策，同时尊重工程负责人的技术所有权。\n• 将现场需求连接到研发计划，协调工程、测试、运营和客户团队完成验收及稳定运行。\n• 明确跨软件、硬件、测试、部署和运营问题的责任人与下一步。\n• 结合历史交付、工程带宽、KPI 与风险趋势，提高路线图承诺的现实性并向管理层提供简洁更新。\n\n任职要求：\n• 3 年以上跨团队技术或工程项目管理经验。\n• 2 年以上复杂软硬件产品搭建、集成、测试或调试的工程实践。\n• 能搭建并管理覆盖范围、里程碑、关键路径、预算、资源、依赖、验收标准和恢复方案的集成项目计划。\n• 精通集成排期、关键路径、预算、资源规划、风险管理和里程碑定义。\n• 能在没有正式管理权限的情况下影响决策、明确责任并推动执行。\n• 沟通能力强，熟悉 Jira、Confluence 或同类工具。\n• 能够在现场与工程团队和实体机器人协作。\n\n加分项：机器人、自动驾驶、工业自动化或仓储自动化经验；客户部署或系统验收经验；工程、计算机、机器人或相关技术学位。\n\n为什么加入：\n• 产品真正部署到客户现场，工作成果会进入规模化生产环境。\n• 团队拥有多项机器人专利、顶级论文及最佳论文荣誉。\n• 旗舰机器人连续获得北美头部物流自动化展会创新奖及全球机器人创新奖。\n• 团队高速成长，岗位从第一天起拥有真实责任和广阔发展空间。\n• 提供有意义的股权激励。\n\n福利：家庭综合医疗保险、灵活带薪休假、带薪病假、401(k) 支持及每日餐补。\n\n申请方式：通过 LinkedIn 联系 Goldy，并提交简历及相关材料。",
+    "descriptionEn": "About the Role:\nThe company builds general-purpose mobile manipulators for real industrial applications across logistics, retail, and manufacturing, including trailer unloading, mobile palletizing, and machine tending. Its systems combine perception, planning, controls, hardware, operations, and customer workflows. Reporting directly to the CTO, you will drive integrated execution of the highest-priority robotics programs from concept development and prototyping through validation, production/NPI, and customer deployment. Project owners retain ownership of their deliverables and engineering leads retain technical and people ownership; you own overall program alignment, visibility, and follow-through.\n\nWhat You'll Do:\n• Drive multiple concurrent software and hardware robotics programs from concept through validation, production/NPI, and deployment.\n• Track commitments with project owners and team leads, surfacing risks, blockers, and scope changes before milestones are affected.\n• Facilitate tradeoffs across technical scope, reliability, schedule, resources, cost, and customer priorities without taking technical ownership from engineering leads.\n• Connect field requirements to development plans and coordinate Engineering, Testing, Operations, and customer-facing teams through acceptance and stabilization.\n• Resolve cross-functional gaps by making ownership and next steps explicit across Software, Hardware, Testing, Deployment, and Operations.\n• Use delivery history, engineering bandwidth, KPIs, and risk trends to support realistic roadmap commitments and concise leadership updates.\n\nRequired Skills:\n• 3+ years of technical or engineering program management across multiple teams.\n• 2+ years of hands-on engineering experience building, integrating, testing, or debugging complex hardware-software products.\n• Experience building integrated plans covering scope, milestones, critical paths, budgets, resources, dependencies, acceptance criteria, and recovery actions.\n• Strong scheduling, budgeting, resource planning, risk management, and milestone-definition skills.\n• Ability to influence decisions, clarify ownership, and drive execution without formal authority.\n• Strong communication and experience with Jira, Confluence, or comparable tools.\n• Comfortable working onsite with engineering teams and physical robots.\n\nNice to Have: robotics, autonomous systems, industrial automation, or warehouse automation; customer deployment or system acceptance; technical degree in Engineering, Computer Science, Robotics, or a related field.\n\nWhy Join:\n• Work ships to real customer sites and runs in production at scale.\n• The team has a strong patent, publication, and best-paper record.\n• The flagship robot has earned consecutive innovation awards at major North American logistics-automation shows and a global robotics innovation award.\n• A fast-growing team offers real ownership and room to expand your scope.\n• Every team member receives meaningful equity.\n\nBenefits: comprehensive family health insurance, flexible PTO, paid sick leave, 401(k) plan support, and a daily meal credit.\n\nHow to Apply: contact Goldy on LinkedIn and submit your resume and relevant materials.",
+    "tags": ["机器人项目管理", "软硬件系统", "NPI", "客户部署", "Fremont"],
+    "tagsEn": ["Robotics Program Management", "Hardware-Software Systems", "NPI", "Customer Deployment", "Fremont"],
+    "profile": {
+      "salary": "USD 140K–190K / 年 + 股权",
+      "salaryEn": "US$140K–190K/year + Equity",
+      "experience": "3年以上项目管理 + 2年以上工程实践",
+      "experienceEn": "3+ years program management + 2+ years engineering",
+      "skills": ["集成项目计划", "风险管理", "机器人部署", "Jira / Confluence", "跨团队推进"],
+      "skillsEn": ["Integrated Program Planning", "Risk Management", "Robotics Deployment", "Jira / Confluence", "Cross-functional Execution"]
+    },
+    "sort": 1
+  },
+  {
+    "id": "industrial-mobile-manipulation-platform-job-002",
+    "companyId": "industrial-mobile-manipulation-platform",
+    "title": "市场营销负责人",
+    "titleEn": "Marketing Lead",
+    "jobType": "mkt-growth",
+    "jobTypeEn": "MKT & Growth",
+    "workMode": "全职 On-site",
+    "workModeEn": "Full-time On-site",
+    "location": "Fremont, California",
+    "locationEn": "Fremont, California",
+    "description": "岗位介绍：\n这是公司当前核心的市场岗位，强调亲自执行。品牌策略与声音目前由联合创始团队掌握，你将把方向转化为跨渠道的高质量内容和增长成果，持续塑造公司面向工业客户、合作伙伴和市场的表达。岗位将从 Marketing Manager 的执行范围开始，随着交付能力逐步扩展至市场策略、预算与团队管理。\n\n岗位职责：\n• 摄影与视频：亲自拍摄机器人现场照片和视频，或完成脚本、分镜并指导专业拍摄；能够判断最能体现商业价值的关键画面。\n• 社交媒体：负责各平台账号和增长，用统一品牌语气持续发布，将现场素材转化为稳定内容流。\n• 网站：持续优化网站页面、CTA 和内容，以高质量销售线索和 Pipeline 为目标，而非只追求视觉效果。\n• 邮件：撰写并发送周期性更新和客户培育邮件，包括维持目标客户关注度的季度更新。\n• 活动：端到端负责行业展会，从展位、信息表达和现场执行，到会后线索跟进与销售转化。\n• 随岗位成长逐步承担投资人叙事、PR 和更大范围的市场策略。\n\n任职要求：\n• 3–4 年市场经验，并有真实上线的作品或项目可展示；咨询背景可以，但需愿意从建议走向亲自建设。\n• 聪明、自驱，能快速理解模糊问题并独立承担责任；重视实际交付而不是只做计划。\n• 优秀的英文写作能力，能在工业客户可信表达与简洁有力的品牌文案之间切换。\n• 具备 Account-Based Marketing 经验，能支持面向明确目标客户的 B2B 销售过程，与销售协作拿下并持续拓展客户。\n• 对摄影和视频有真实判断力，或能把客户问题转化为指导拍摄的清晰分镜。\n• 能在没有成熟 Playbook、大预算或大团队的情况下建立营销机制。\n\n加分项：仓储、物流、供应链、制造或其他工业场景经验；实体产品或硬件营销经验；早期创业公司第一或第二位市场成员经验。\n\n为什么加入：产品已进入真实客户现场；团队拥有强技术和学术积累；旗舰机器人获得多项行业创新奖；团队高速成长并提供有意义的股权。\n\n福利：家庭综合医疗保险、带薪休假、带薪病假、401(k) 支持及每日餐补。\n\n申请方式：通过 LinkedIn 联系 Goldy，并提交作品、简历及相关材料。",
+    "descriptionEn": "About the Role:\nThis is the company's core hands-on marketing seat. Strategy and voice currently live with the co-founding team, and your job is to turn that direction into excellent work across every channel while owning how the company shows up to industrial buyers, partners, and the market. The role begins with the execution scope of a Marketing Manager and can quickly expand into strategy, budget, and team ownership as you deliver.\n\nWhat You'll Do:\n• Photography and video: shoot robots in action yourself or storyboard and art-direct a videographer, recognizing the moments that communicate real commercial value.\n• Social: own and grow the company's presence across platforms, writing in a consistent voice and turning field footage into a steady content stream.\n• Website: iterate pages, calls to action, and content to generate qualified sales leads and pipeline, not merely visual polish.\n• Email: write recurring updates and nurture programs, including quarterly communications that keep target accounts warm.\n• Events: run trade-show presence end to end, from booth and messaging through follow-up that converts conversations into pipeline.\n• Grow over time into investor narrative, PR, and a larger role in marketing strategy.\n\nWhat We're Looking For:\n• 3–4 years of marketing experience with real shipped work to show. Consulting experience is welcome if you want to move from advising to building.\n• Smart, driven, and highly accountable, able to orient quickly in ambiguity and measure yourself by what ships.\n• Excellent English writing with the range to sound credible to industrial operations buyers and sharp in concise brand communication.\n• Account-based marketing experience supporting B2B sales into named accounts and working with Sales to land and grow customers.\n• A strong eye for photography and video, or the ability to translate a customer problem into a clear storyboard.\n• Comfort building the marketing engine without an established playbook, large budget, or large team.\n\nNice to Have: warehouse, logistics, supply chain, manufacturing, or other industrial exposure; physical-product or hardware marketing; experience as an early startup's first or second marketing hire.\n\nWhy Join: the product operates at real customer sites; the team combines deep technical and academic strength; the flagship robot has earned multiple industry innovation awards; the company is growing quickly and offers meaningful equity.\n\nBenefits: comprehensive family health insurance, PTO, paid sick leave, 401(k) plan support, and a daily meal credit.\n\nHow to Apply: contact Goldy on LinkedIn and submit your portfolio, resume, and relevant materials.",
+    "tags": ["B2B营销", "ABM", "工业机器人", "内容制作", "Fremont"],
+    "tagsEn": ["B2B Marketing", "ABM", "Industrial Robotics", "Content Production", "Fremont"],
+    "profile": {
+      "salary": "USD 110K–170K / 年 + 股权",
+      "salaryEn": "US$110K–170K/year + Equity",
+      "experience": "3–4年",
+      "experienceEn": "3–4 years",
+      "language": "优秀英文写作与沟通",
+      "languageEn": "Excellent English writing and communication",
+      "skills": ["Account-Based Marketing", "摄影与视频", "B2B内容", "网站转化", "展会运营"],
+      "skillsEn": ["Account-Based Marketing", "Photo & Video", "B2B Content", "Website Conversion", "Trade Shows"]
+    },
+    "sort": 2
   }
 ]

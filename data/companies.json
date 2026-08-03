@@ -271,5 +271,19 @@
     "location": "上海 / 全球市场",
     "locationEn": "Shanghai / Global Markets",
     "sort": 4
+  },
+  {
+    "id": "industrial-mobile-manipulation-platform",
+    "industryId": "embodied-ai",
+    "name": "工业移动操作机器人平台",
+    "nameEn": "Industrial Mobile Manipulation Robotics Platform",
+    "logo": "/logos/industrial-mobile-manipulation-platform.png?v=2",
+    "description": "专注于工业场景通用移动操作机器人的 Physical AI 公司，核心团队来自全球头部工业机器人企业与 UC Berkeley 机器人研究体系，曾将 AI 码垛、抓取等能力从研发推进至商业化。团队累计拥有 25 项机器人专利、6 项 IEEE 最佳论文或提名奖及 100 余篇顶级会议论文。其旗舰机器人融合 AMR 移动底座、力感知协作机械臂、真空末端执行器与 AI 感知及运动规划系统，面向卡车卸货、移动码垛、机器上下料等非结构化工业任务；自研工业物理智能操作系统支持实时感知、自主决策、现场适应与持续学习。产品已进入真实客户现场，并连续获得北美头部物流自动化展会创新奖及全球机器人创新奖。",
+    "descriptionEn": "A Physical AI company building general-purpose mobile manipulators for industrial environments. Its core team combines experience from a global industrial-robotics leader with UC Berkeley robotics research and has taken AI palletizing and picking systems from research to commercialization. Collectively, the team holds 25 robotics patents, six IEEE best-paper or finalist honors, and more than 100 publications in leading venues. Its flagship robot integrates an AMR base, a force-sensing collaborative arm, a vacuum end effector, and AI perception and motion planning for unstructured tasks such as trailer unloading, mobile palletizing, and machine tending. A proprietary industrial physical-intelligence operating layer enables perception, autonomous decisions, real-time adaptation, and continuous learning. The system is deployed at real customer sites and has earned consecutive innovation awards at major North American logistics-automation shows as well as a global robotics innovation award.",
+    "stage": "Seed · 累计融资约 1,770 万美元",
+    "stageEn": "Seed · Approx. US$17.7M Raised",
+    "location": "Fremont, California",
+    "locationEn": "Fremont, California",
+    "sort": 3
   }
 ]
