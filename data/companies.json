@@ -257,5 +257,19 @@
     "location": "",
     "locationEn": "",
     "sort": 3
+  },
+  {
+    "id": "global-online-travel-hotel-platform",
+    "industryId": "internet",
+    "name": "全球在线旅行与酒店预订平台",
+    "nameEn": "Global Online Travel & Hotel Platform",
+    "logo": "/logos/global-online-travel-hotel-platform.png",
+    "description": "全球领先的一站式在线旅行服务平台，以技术连接旅行者与全球酒店、交通、目的地及其他旅行服务。平台拥有成熟的国际化产品体系、多语言与多币种服务能力，并持续通过搜索、内容、数据和本地化运营提升全球用户的旅行预订体验。",
+    "descriptionEn": "A leading global one-stop online travel platform connecting travelers with hotels, transportation, destinations, and other travel services through technology. The platform operates a mature international product ecosystem with multilingual and multi-currency capabilities, continuously improving global travel discovery and booking through search, content, data, and localization.",
+    "stage": "全球上市互联网平台",
+    "stageEn": "Global Public Internet Platform",
+    "location": "上海 / 全球市场",
+    "locationEn": "Shanghai / Global Markets",
+    "sort": 4
   }
 ]

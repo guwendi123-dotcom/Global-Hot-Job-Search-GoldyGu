@@ -2454,5 +2454,30 @@
     "tagsEn": ["Triage", "Data Quality", "Python", "Issue Prioritization", "Process Improvement"],
     "profile": {"skills": ["问题分诊", "数据分析", "Python", "团队管理", "流程设计"], "skillsEn": ["Issue Triage", "Data Analysis", "Python", "Team Leadership", "Process Design"]},
     "sort": 9
+  },
+  {
+    "id": "global-online-travel-hotel-platform-job-001",
+    "companyId": "global-online-travel-hotel-platform",
+    "title": "市场营销 SEO 经理",
+    "titleEn": "Marketing SEO Manager",
+    "jobType": "mkt-growth",
+    "jobTypeEn": "MKT & Growth",
+    "workMode": "上海办公，具体安排面议",
+    "workModeEn": "Shanghai-based; work arrangement to be discussed",
+    "location": "上海",
+    "locationEn": "Shanghai",
+    "description": "岗位介绍：\n负责全球酒店业务的 SEO 策略、技术落地与自然流量增长，覆盖酒店列表页、目的地页、搜索结果页和酒店详情页。该岗位汇报 SEO 负责人，需要主动联动产品、研发与内容团队推动项目落地。英语必须能够作为日常工作语言。\n\n岗位职责：\n\nSEO 策略与自然流量增长\n• 制定并落地可规模化的 SEO 策略，提升酒店、目的地及搜索结果页的自然流量。\n• 通过关键词调研、搜索意图分析和内容拓展挖掘增长机会。\n\n酒店搜索排名优化\n• 面向全球市场提升酒店列表页、目的地页和酒店详情页的搜索排名与曝光。\n• 优化内链布局、页面模板、站内 SEO 要素及结构化数据。\n\n技术 SEO 与网站架构\n• 协同研发团队优化抓取效率、收录覆盖、页面速度、URL 结构、站点架构和 Schema 结构化数据。\n• 推动 SEO 最佳实践融入产品和平台开发流程。\n\n多语言与国际化 SEO\n• 主导全球市场多语言 SEO 策略。\n• 负责 hreflang、国际站点架构（国家域名、子域名或子目录）及本地化 SEO 方案。\n• 保障多语言、多区域站点的搜索表现稳定。\n\n竞品与市场分析\n• 研究主流在线旅游平台的 SEO 策略，识别自然搜索曝光缺口和增长机会。\n\n数据监控与效果分析\n• 搭建并维护 SEO 数据看板，监控关键词排名、自然流量、收录覆盖、点击率及自然流量转化。\n• 依托数据洞察持续迭代 SEO 策略。\n\nGEO 与 AI 搜索优化\n• 研究并落地生成式引擎优化（GEO），提升 AI 搜索场景中的曝光。\n• 针对生成式搜索结果和新兴 AI 搜索界面优化内容。\n\n跨团队协同推进\n• 主动联动产品、研发和内容团队推进 SEO 项目。\n• 推动 SEO 需求纳入产品路线图和技术开发规划。\n\n任职要求：\n• 6 年及以上 SEO 经验，具备大型网站 SEO 操盘经验。\n• 在线旅游平台、旅游行业或交易平台经验优先。\n• 精通技术 SEO 及 HTML、CSS、JavaScript、SQL、JSON、API 等网页技术。\n• 能与研发团队深度协作并推动技术方案上线。\n• 具备多语言、多区域站点 SEO 实操经验。\n• 熟悉 hreflang 和国际化站点架构。\n• 熟练使用 Google Analytics、Google Search Console 等分析工具。\n• 能将数据洞察转化为可执行的 SEO 方案。\n• 英语必须能够作为工作语言，可独立参与跨区域沟通、阅读技术资料并输出专业文档。",
+    "descriptionEn": "About the Role:\nOwn SEO strategy, technical implementation, and organic growth for the global hotel business across hotel listings, destination pages, search result pages, and hotel detail pages. Reporting to the SEO Lead, you will proactively drive execution across Product, Engineering, and Content. Professional English is a must and must be usable as a daily working language.\n\nResponsibilities:\n\nSEO Strategy & Organic Growth\n• Develop and execute scalable SEO strategies to grow organic traffic across hotel, destination, and search result pages.\n• Identify opportunities through keyword research, search-intent analysis, and content expansion.\n\nHotel Search Ranking Optimization\n• Improve rankings and visibility for hotel listings, destination pages, and hotel detail pages across global markets.\n• Optimize internal linking, page templates, on-page SEO, and structured data.\n\nTechnical SEO & Site Architecture\n• Partner with Engineering to improve crawl efficiency, indexation coverage, page speed, URL structure, site architecture, and Schema markup.\n• Ensure SEO best practices are integrated into product and platform development.\n\nMultilingual & International SEO\n• Lead multilingual SEO strategies for global markets.\n• Manage hreflang, international site structures including ccTLDs, subdomains, and subfolders, and localized SEO strategies.\n• Maintain consistent search performance across languages and regions.\n\nCompetitive & Market Analysis\n• Analyze major online-travel competitors to identify gaps and organic-search growth opportunities.\n\nSEO Data Tracking & Performance Analysis\n• Build and maintain dashboards covering keyword rankings, organic traffic, index coverage, click-through rate, and organic conversion.\n• Use data insights to continuously improve SEO strategy.\n\nGEO & AI Search Optimization\n• Explore and implement Generative Engine Optimization strategies to increase visibility in AI-driven search.\n• Optimize content for emerging AI search interfaces and generative results.\n\nCross-Functional Leadership\n• Proactively drive SEO initiatives across Product, Engineering, and Content.\n• Embed SEO requirements into product roadmaps and technical development plans.\n\nQualifications:\n• 6+ years of SEO experience with proven ownership of large-scale websites.\n• Experience in online travel, travel marketplaces, or transaction platforms is preferred.\n• Strong technical SEO and web-technology knowledge across HTML, CSS, JavaScript, SQL, JSON, and APIs.\n• Ability to work closely with Engineering and deliver technical implementations.\n• Hands-on multilingual and multi-region SEO experience.\n• Strong knowledge of hreflang and international site architecture.\n• Proficiency with Google Analytics, Google Search Console, and related analytics tools.\n• Ability to turn data into actionable SEO strategies.\n• Professional English is mandatory for cross-regional communication, technical research, and professional documentation.",
+    "tags": ["酒店SEO", "国际化SEO", "技术SEO", "GEO", "上海"],
+    "tagsEn": ["Hotel SEO", "International SEO", "Technical SEO", "GEO", "Shanghai"],
+    "profile": {
+      "experience": "6年以上",
+      "experienceEn": "6+ years",
+      "language": "英语必须可作为工作语言",
+      "languageEn": "Professional working English required",
+      "skills": ["技术SEO", "多语言SEO", "hreflang", "Google Analytics", "Search Console", "GEO"],
+      "skillsEn": ["Technical SEO", "Multilingual SEO", "hreflang", "Google Analytics", "Search Console", "GEO"]
+    },
+    "sort": 1
   }
 ]
