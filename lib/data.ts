@@ -2,6 +2,7 @@ import profileData from '@/config/profile.json';
 import industriesData from '@/data/industries.json';
 import companiesData from '@/data/companies.json';
 import jobsData from '@/data/jobs.json';
+import { sanitizePublicJob } from '@/lib/public-content';
 
 export interface Profile {
   name: string;
@@ -90,7 +91,7 @@ export function getCompaniesSync(): Company[] {
 }
 
 export function getJobsSync(): Job[] {
-  return (jobsData as Job[]).sort((a, b) => (a.sort || 999) - (b.sort || 999));
+  return (jobsData as Job[]).map(sanitizePublicJob).sort((a, b) => (a.sort || 999) - (b.sort || 999));
 }
 
 export function getIndustry(id: string): Industry | undefined {

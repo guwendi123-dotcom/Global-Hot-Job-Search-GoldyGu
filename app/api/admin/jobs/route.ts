@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { requestIsAdmin } from "@/lib/admin-auth";
 import { readCompanies, readJobs, validId, writeCollection } from "@/lib/admin-store";
 import type { Job } from "@/lib/data";
+import { sanitizePublicJob } from "@/lib/public-content";
 
 const unauthorized = () => NextResponse.json({ error: "请先登录管理后台" }, { status: 401 });
 
@@ -53,9 +54,12 @@ async function validate(job: Job, originalId?: string) {
   return "";
 }
 
-export async function GET() {
+export async function GET(request: NextRequest) {
   const jobs = (await readJobs()).sort((a, b) => (a.sort || 999) - (b.sort || 999));
-  return NextResponse.json({ jobs }, { headers: { "Cache-Control": "no-store" } });
+  return NextResponse.json(
+    { jobs: requestIsAdmin(request) ? jobs : jobs.map(sanitizePublicJob) },
+    { headers: { "Cache-Control": "no-store" } }
+  );
 }
 
 export async function POST(request: NextRequest) {

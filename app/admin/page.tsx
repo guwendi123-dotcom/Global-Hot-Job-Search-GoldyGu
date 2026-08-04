@@ -4,7 +4,7 @@ import Link from "next/link";
 import { BarChart3, Building2, BriefcaseBusiness, Download, Layers3, LogOut } from "lucide-react";
 
 const cards = [
-  { href: "/admin/companies", title: "公司管理", copy: "新增、编辑、删除公司并设置行业与排序", icon: Building2 },
+  { href: "/admin/companies", title: "公司管理", copy: "维护公开代称、真实公司名、Logo、行业与排序", icon: Building2 },
   { href: "/admin/jobs", title: "岗位管理", copy: "发布岗位，保存后立即在前台显示", icon: BriefcaseBusiness },
   { href: "/admin/industries", title: "行业管理", copy: "维护行业分类、名称和介绍", icon: Layers3 },
   { href: "/admin/analytics", title: "数据看板", copy: "查看访问趋势、热门岗位公司与流量来源", icon: BarChart3 },

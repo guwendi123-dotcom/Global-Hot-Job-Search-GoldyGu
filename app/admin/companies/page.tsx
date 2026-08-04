@@ -18,6 +18,7 @@ interface Company {
   logo: string;
   logoEmoji?: string;
   sort?: number;
+  realName?: string;
 }
 
 interface Industry {
@@ -40,14 +41,17 @@ export default function AdminCompaniesPage() {
 
   const fetchData = async () => {
     try {
-      const [companiesRes, industriesRes] = await Promise.all([
+      const [companiesRes, industriesRes, identitiesRes] = await Promise.all([
         fetch("/api/admin/companies"),
         fetch("/api/admin/industries"),
+        fetch("/api/admin/company-identities"),
       ]);
-      if (!companiesRes.ok || !industriesRes.ok) throw new Error("加载失败");
+      if (!companiesRes.ok || !industriesRes.ok || !identitiesRes.ok) throw new Error("加载失败");
       const companiesData = await companiesRes.json();
       const industriesData = await industriesRes.json();
-      setCompanies(companiesData.companies || []);
+      const identitiesData = await identitiesRes.json();
+      const realNames = new Map((identitiesData.identities || []).map((item: { companyId: string; realName: string }) => [item.companyId, item.realName]));
+      setCompanies((companiesData.companies || []).map((company: Company) => ({ ...company, realName: realNames.get(company.id) || "" })));
       setIndustries(industriesData.industries || []);
     } catch (error) {
       console.error("Failed to fetch data:", error);
@@ -70,6 +74,12 @@ export default function AdminCompaniesPage() {
 
       const data = await response.json().catch(() => ({}));
       if (response.ok) {
+        const identityResponse = await fetch("/api/admin/company-identities", {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ companyId: editingCompany.id, realName: editingCompany.realName || "暂未提供" }),
+        });
+        if (!identityResponse.ok) throw new Error("真实名称保存失败");
         await fetchData();
         setEditingCompany(null);
         setIsCreating(false);
@@ -92,6 +102,7 @@ export default function AdminCompaniesPage() {
       const response = await fetch(`/api/admin/companies?id=${encodeURIComponent(id)}`, { method: "DELETE" });
       const data = await response.json().catch(() => ({}));
       if (!response.ok) return alert(data.error || "删除失败");
+      await fetch(`/api/admin/company-identities?companyId=${encodeURIComponent(id)}`, { method: "DELETE" });
       await fetchData();
       setNotice("公司已删除");
     } catch (error) {
@@ -117,6 +128,7 @@ export default function AdminCompaniesPage() {
       logo: "",
       logoEmoji: "🏢",
       sort: 999,
+      realName: "",
     });
     setIsCreating(true);
   };
@@ -210,6 +222,17 @@ export default function AdminCompaniesPage() {
                   onChange={(e) => setEditingCompany({ ...editingCompany, nameEn: e.target.value })}
                   className="w-full px-4 py-2 rounded-xl border border-border focus:border-accent focus:outline-none"
                 />
+              </div>
+              <div className="md:col-span-2 rounded-xl border border-amber-200 bg-amber-50 p-4">
+                <label className="block text-sm font-semibold text-amber-900 mb-1">真实公司名（仅管理后台可见）</label>
+                <input
+                  type="text"
+                  value={editingCompany.realName || ""}
+                  onChange={(e) => setEditingCompany({ ...editingCompany, realName: e.target.value })}
+                  placeholder="填写真实公司名；不会出现在公开网站"
+                  className="w-full px-4 py-2 rounded-xl border border-amber-200 bg-white focus:border-accent focus:outline-none"
+                />
+                <p className="text-xs text-amber-800 mt-2">此字段独立保存，不会写入公开公司资料或岗位页面。</p>
               </div>
               <div>
                 <label className="block text-sm font-medium text-text-primary mb-1">融资阶段 (中文)</label>
@@ -321,6 +344,9 @@ export default function AdminCompaniesPage() {
       </header>
 
       <div className="max-w-6xl mx-auto px-4 py-8">
+        <div className="mb-5 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+          真实公司名仅在登录后的管理后台显示；公开网站只展示脱敏代称。
+        </div>
         {notice && <div className="mb-5 rounded-xl border border-green-200 bg-green-50 px-4 py-3 text-sm text-green-800">{notice}</div>}
         {companies.length === 0 ? (
           <div className="text-center py-12 text-text-secondary">暂无公司</div>
@@ -333,6 +359,10 @@ export default function AdminCompaniesPage() {
                     <h3 className="font-semibold text-text-primary">{company.name}</h3>
                     <p className="text-sm text-text-secondary">{company.nameEn}</p>
                   </div>
+                </div>
+                <div className="rounded-lg bg-amber-50 border border-amber-100 px-3 py-2 mb-3">
+                  <p className="text-xs text-amber-700">真实公司名 · 仅后台</p>
+                  <p className="text-sm font-semibold text-amber-950">{company.realName || "暂未填写"}</p>
                 </div>
                 <div className="flex items-center gap-2 text-sm text-text-secondary mb-2">
                   阶段: {company.stage}

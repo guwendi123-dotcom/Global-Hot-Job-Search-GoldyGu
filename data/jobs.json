@@ -45,8 +45,8 @@
     "sort": 1
   },
   {
-    "id": "maxinsights-data-partnership",
-    "companyId": "maxinsights",
+    "id": "embodied-ai-training-data-platform-job-001",
+    "companyId": "embodied-ai-training-data-platform",
     "title": "数据合作经理",
     "titleEn": "Data Partnership Manager",
     "jobType": "mkt-growth,bd-sales",
@@ -82,8 +82,8 @@
     "sort": 1
   },
   {
-    "id": "maxinsights-technical-project-manager",
-    "companyId": "maxinsights",
+    "id": "embodied-ai-training-data-platform-job-002",
+    "companyId": "embodied-ai-training-data-platform",
     "title": "技术项目经理",
     "titleEn": "Technical Project Manager",
     "jobType": "pm",
@@ -125,8 +125,8 @@
     "sort": 2
   },
   {
-    "id": "mexc-growth-product",
-    "companyId": "mexc",
+    "id": "global-crypto-spot-platform-job-001",
+    "companyId": "global-crypto-spot-platform",
     "title": "高级用户增长产品/运营",
     "titleEn": "Senior Growth Product Manager/Operations",
     "jobType": "mkt-growth,product-design,operations",
@@ -483,8 +483,8 @@
     "sort": 110
   },
   {
-    "id": "saparo-fullstack-engineer",
-    "companyId": "saparo",
+    "id": "ai-shopping-agent-platform-job-001",
+    "companyId": "ai-shopping-agent-platform",
     "title": "全栈前端工程师 / 技术负责人",
     "titleEn": "Full-Stack Frontend Engineer / Tech Lead",
     "jobType": "engineering",
@@ -520,8 +520,8 @@
     "sort": 1
   },
   {
-    "id": "saparo-growth-lead",
-    "companyId": "saparo",
+    "id": "ai-shopping-agent-platform-job-002",
+    "companyId": "ai-shopping-agent-platform",
     "title": "有机增长负责人",
     "titleEn": "Organic Growth Lead",
     "jobType": "mkt-growth",
@@ -557,8 +557,8 @@
     "sort": 2
   },
   {
-    "id": "saparo-deals-operations",
-    "companyId": "saparo",
+    "id": "ai-shopping-agent-platform-job-003",
+    "companyId": "ai-shopping-agent-platform",
     "title": "优惠运营经理",
     "titleEn": "Deals & Offers Operations Manager",
     "jobType": "mkt-growth",
@@ -596,8 +596,8 @@
     "sort": 3
   },
   {
-    "id": "sudo-brand-manager",
-    "companyId": "sudo",
+    "id": "simulation-trained-robotics-platform-job-001",
+    "companyId": "simulation-trained-robotics-platform",
     "title": "北美品牌公关经理",
     "titleEn": "North America Brand Communications Manager",
     "jobType": "bd-sales,mkt-growth",
@@ -633,8 +633,8 @@
     "sort": 1
   },
   {
-    "id": "sudo-devops-manager",
-    "companyId": "sudo",
+    "id": "simulation-trained-robotics-platform-job-002",
+    "companyId": "simulation-trained-robotics-platform",
     "title": "开发者中心运营经理",
     "titleEn": "Developer Center Operations Manager",
     "jobType": "operations",
@@ -670,8 +670,8 @@
     "sort": 2
   },
   {
-    "id": "sudo-fa-engineer",
-    "companyId": "sudo",
+    "id": "simulation-trained-robotics-platform-job-003",
+    "companyId": "simulation-trained-robotics-platform",
     "title": "机器人现场应用工程师 FAE",
     "titleEn": "Robotics Field Application Engineer (FAE)",
     "jobType": "engineering",
@@ -707,8 +707,8 @@
     "sort": 3
   },
   {
-    "id": "maxinsights-data-ops-director",
-    "companyId": "maxinsights",
+    "id": "embodied-ai-training-data-platform-job-003",
+    "companyId": "embodied-ai-training-data-platform",
     "title": "数据运营总监",
     "titleEn": "Director of Data Operations",
     "jobType": "operations",
@@ -744,8 +744,8 @@
     "sort": 1
   },
   {
-    "id": "nirva-ios-engineer",
-    "companyId": "nirva",
+    "id": "ai-wearable-jewelry-company-job-001",
+    "companyId": "ai-wearable-jewelry-company",
     "title": "iOS Engineer",
     "titleEn": "iOS Engineer",
     "jobType": "engineering",
@@ -1257,8 +1257,8 @@
     "sort": 1
   },
   {
-    "id": "novvy-senior-business-development-manager",
-    "companyId": "novvy",
+    "id": "ai-native-ad-monetization-network-job-001",
+    "companyId": "ai-native-ad-monetization-network",
     "title": "资深商务拓展经理/专家（电商、游戏、短剧）",
     "titleEn": "Senior Business Development Manager / Expert — E-commerce, Gaming & Short Drama",
     "jobType": "bd-sales",
@@ -1308,8 +1308,8 @@
     "sort": 1
   },
   {
-    "id": "vidawheel-social-media-content-operations",
-    "companyId": "vidawheel",
+    "id": "women-ai-wellness-brand-job-001",
+    "companyId": "women-ai-wellness-brand",
     "title": "社媒与内容运营",
     "titleEn": "Social Media & Content Operations",
     "jobType": "operations,mkt-growth",
@@ -1355,8 +1355,8 @@
     "sort": 1
   },
   {
-    "id": "vidawheel-influencer-marketing",
-    "companyId": "vidawheel",
+    "id": "women-ai-wellness-brand-job-002",
+    "companyId": "women-ai-wellness-brand",
     "title": "达人营销",
     "titleEn": "Influencer Marketing Manager",
     "jobType": "mkt-growth,operations",
@@ -1402,8 +1402,8 @@
     "sort": 2
   },
   {
-    "id": "vidawheel-performance-marketing",
-    "companyId": "vidawheel",
+    "id": "women-ai-wellness-brand-job-003",
+    "companyId": "women-ai-wellness-brand",
     "title": "广告投放",
     "titleEn": "Performance Marketing Manager",
     "jobType": "mkt-growth",
@@ -1449,8 +1449,8 @@
     "sort": 3
   },
   {
-    "id": "vidawheel-ai-agent-engineer",
-    "companyId": "vidawheel",
+    "id": "women-ai-wellness-brand-job-004",
+    "companyId": "women-ai-wellness-brand",
     "title": "AI Agent 工程师",
     "titleEn": "AI Agent Engineer",
     "jobType": "engineering",
@@ -1496,8 +1496,8 @@
     "sort": 4
   },
   {
-    "id": "vidawheel-head-of-marketing-us",
-    "companyId": "vidawheel",
+    "id": "women-ai-wellness-brand-job-005",
+    "companyId": "women-ai-wellness-brand",
     "title": "美国营销负责人",
     "titleEn": "Head of Marketing, USA",
     "jobType": "mkt-growth",
@@ -1643,8 +1643,8 @@
     "sort": 130
   },
   {
-    "id": "actionx-founding-global-growth-lead",
-    "companyId": "actionx",
+    "id": "ai-native-recommendation-infrastructure-job-001",
+    "companyId": "ai-native-recommendation-infrastructure",
     "title": "创始海外增长负责人",
     "titleEn": "Founding Global User Growth Lead / VP Growth",
     "jobType": "mkt-growth,cxo",
@@ -1696,8 +1696,8 @@
     "sort": 1
   },
   {
-    "id": "actionx-full-stack-engineer-ai-product",
-    "companyId": "actionx",
+    "id": "ai-native-recommendation-infrastructure-job-002",
+    "companyId": "ai-native-recommendation-infrastructure",
     "title": "全栈开发工程师（AI 产品方向）",
     "titleEn": "Full-Stack Engineer, AI Products",
     "jobType": "engineering",
@@ -1745,8 +1745,8 @@
     "sort": 2
   },
   {
-    "id": "actionx-algorithm-engineer-ai-product",
-    "companyId": "actionx",
+    "id": "ai-native-recommendation-infrastructure-job-003",
+    "companyId": "ai-native-recommendation-infrastructure",
     "title": "算法工程师（AI 产品方向）",
     "titleEn": "Algorithm Engineer, AI Products",
     "jobType": "algorithm,engineering",
@@ -1942,8 +1942,8 @@
     "sort": 2
   },
   {
-    "id": "vidawheel-job-001",
-    "companyId": "vidawheel",
+    "id": "women-ai-wellness-brand-job-006",
+    "companyId": "women-ai-wellness-brand",
     "title": "美国达人与明星合作负责人",
     "titleEn": "US Creator & Celebrity Partnerships Lead",
     "jobType": "mkt-growth,bd-sales",
@@ -1967,8 +1967,8 @@
     "sort": 6
   },
   {
-    "id": "vidawheel-job-002",
-    "companyId": "vidawheel",
+    "id": "women-ai-wellness-brand-job-007",
+    "companyId": "women-ai-wellness-brand",
     "title": "美国 B2B 渠道销售与战略合作负责人",
     "titleEn": "US B2B Channel Sales & Partnerships Lead",
     "jobType": "bd-sales",
@@ -1992,8 +1992,8 @@
     "sort": 7
   },
   {
-    "id": "vidawheel-job-003",
-    "companyId": "vidawheel",
+    "id": "women-ai-wellness-brand-job-008",
+    "companyId": "women-ai-wellness-brand",
     "title": "美国本土活动与现场营销经理",
     "titleEn": "US Events & Field Marketing Manager",
     "jobType": "operations,mkt-growth",
@@ -2017,8 +2017,8 @@
     "sort": 8
   },
   {
-    "id": "vidawheel-job-004",
-    "companyId": "vidawheel",
+    "id": "women-ai-wellness-brand-job-009",
+    "companyId": "women-ai-wellness-brand",
     "title": "美国资深软件产品经理（AI 陪伴方向）",
     "titleEn": "Senior Product Manager, AI Companion",
     "jobType": "product-design",
@@ -2042,8 +2042,8 @@
     "sort": 9
   },
   {
-    "id": "vidawheel-job-005",
-    "companyId": "vidawheel",
+    "id": "women-ai-wellness-brand-job-010",
+    "companyId": "women-ai-wellness-brand",
     "title": "美国 UI/UX 与 IP 设计师",
     "titleEn": "US UI/UX & IP Designer",
     "jobType": "product-design",
@@ -2067,8 +2067,8 @@
     "sort": 10
   },
   {
-    "id": "vord-ai-job-001",
-    "companyId": "vord-ai",
+    "id": "privacy-first-ai-chat-platform-job-001",
+    "companyId": "privacy-first-ai-chat-platform",
     "title": "增长负责人",
     "titleEn": "Growth Lead",
     "jobType": "mkt-growth",

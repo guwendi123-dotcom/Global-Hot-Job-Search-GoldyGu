@@ -7,6 +7,35 @@ const SNAPSHOT_KEY = "analytics:company-ranking:weekly";
 
 type DailyViews = Record<string, number>;
 
+const LEGACY_JOB_IDS: Record<string, string> = {
+  "maxinsights-data-partnership": "embodied-ai-training-data-platform-job-001",
+  "maxinsights-technical-project-manager": "embodied-ai-training-data-platform-job-002",
+  "maxinsights-data-ops-director": "embodied-ai-training-data-platform-job-003",
+  "mexc-growth-product": "global-crypto-spot-platform-job-001",
+  "nirva-ios-engineer": "ai-wearable-jewelry-company-job-001",
+  "saparo-fullstack-engineer": "ai-shopping-agent-platform-job-001",
+  "saparo-growth-lead": "ai-shopping-agent-platform-job-002",
+  "saparo-deals-operations": "ai-shopping-agent-platform-job-003",
+  "sudo-brand-manager": "simulation-trained-robotics-platform-job-001",
+  "sudo-devops-manager": "simulation-trained-robotics-platform-job-002",
+  "sudo-fa-engineer": "simulation-trained-robotics-platform-job-003",
+  "vidawheel-social-media-content-operations": "women-ai-wellness-brand-job-001",
+  "vidawheel-influencer-marketing": "women-ai-wellness-brand-job-002",
+  "vidawheel-performance-marketing": "women-ai-wellness-brand-job-003",
+  "vidawheel-ai-agent-engineer": "women-ai-wellness-brand-job-004",
+  "vidawheel-head-of-marketing-us": "women-ai-wellness-brand-job-005",
+  "vidawheel-job-001": "women-ai-wellness-brand-job-006",
+  "vidawheel-job-002": "women-ai-wellness-brand-job-007",
+  "vidawheel-job-003": "women-ai-wellness-brand-job-008",
+  "vidawheel-job-004": "women-ai-wellness-brand-job-009",
+  "vidawheel-job-005": "women-ai-wellness-brand-job-010",
+  "actionx-founding-global-growth-lead": "ai-native-recommendation-infrastructure-job-001",
+  "actionx-full-stack-engineer-ai-product": "ai-native-recommendation-infrastructure-job-002",
+  "actionx-algorithm-engineer-ai-product": "ai-native-recommendation-infrastructure-job-003",
+  "novvy-senior-business-development-manager": "ai-native-ad-monetization-network-job-001",
+  "vord-ai-job-001": "privacy-first-ai-chat-platform-job-001",
+};
+
 type CompanyRanking = {
   week: string;
   generatedAt: string;
@@ -52,7 +81,7 @@ function stableCompanyOrder(companies: Company[], jobs: Job[], dailyViews: Daily
 
   for (const day of dailyViews) {
     for (const [jobId, rawCount] of Object.entries(day)) {
-      const companyId = jobCompany.get(jobId);
+      const companyId = jobCompany.get(LEGACY_JOB_IDS[jobId] || jobId);
       if (companyId && companyId in counts) counts[companyId] += Math.max(0, Number(rawCount) || 0);
     }
   }
