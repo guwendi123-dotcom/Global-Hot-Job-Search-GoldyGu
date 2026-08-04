@@ -236,7 +236,7 @@
     "industryId": "ai-agent",
     "name": "全球主动式 AI 生活平台",
     "nameEn": "Global Proactive AI Lifestyle Platform",
-    "logo": "",
+    "logo": "/logos/proactive-ai-lifestyle-platform.webp",
     "logoEmoji": "🪄",
     "description": "一家面向欧美与东南亚等全球市场的 ToC AI 创业公司，正在打造以生活方式为核心的主动式 AI 助手。产品通过长期理解用户的日常习惯、兴趣偏好与生活场景，主动提供本地生活建议，并逐步协助完成预约、订购和行程安排等任务，让 AI Agent 不只回答问题，也能真正参与用户的日常生活。",
     "descriptionEn": "A consumer AI startup serving global markets across North America, Europe, and Southeast Asia. The team is building a proactive lifestyle assistant that learns users' routines, interests, and preferences over time, recommends relevant local experiences, and helps complete tasks such as reservations, ordering, and planning. The goal is to make an AI agent that participates meaningfully in everyday life rather than merely answering questions.",
