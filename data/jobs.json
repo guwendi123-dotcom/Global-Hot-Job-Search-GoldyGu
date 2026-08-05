@@ -2531,5 +2531,30 @@
       "skillsEn": ["Account-Based Marketing", "Photo & Video", "B2B Content", "Website Conversion", "Trade Shows"]
     },
     "sort": 2
+  },
+  {
+    "id": "leading-internet-intelligent-input-team-job-001",
+    "companyId": "leading-internet-intelligent-input-team",
+    "title": "AI 产品经理",
+    "titleEn": "AI Product Manager",
+    "jobType": "product-design",
+    "jobTypeEn": "Product & Design",
+    "workMode": "广州办公，具体安排面议",
+    "workModeEn": "Guangzhou-based; work arrangement to be discussed",
+    "location": "广州",
+    "locationEn": "Guangzhou",
+    "description": "岗位介绍：\n加入头部互联网公司的国民级智能输入产品团队，负责 AI 方向的产品探索与落地。该岗位既需要扎实的 C 端用户洞察，也需要较强的技术理解和参与能力，能够深入模型、算法与工程细节，与技术团队共同定义产品方案和效果标准。\n\n岗位职责：\n• 负责智能输入产品 AI 方向的产品策划，围绕大语言模型（LLM）、Agent、多模态交互、语音识别与合成（ASR / TTS）等前沿技术，探索 AI 在文字输入、智能表达、语音交互和内容创作等核心场景中的创新方案。\n• 深入研究用户在输入全链路中的真实需求、表达习惯和使用场景，设计端到端产品解决方案并推动落地，持续提升输入效率与表达体验。\n• 结合业务目标定义模型效果标准与评测体系，协同算法、工程和设计团队推进模型迭代、策略优化及数据飞轮建设。\n• 深入参与技术方案讨论，理解模型能力边界、数据与工程约束，在用户价值、技术可行性和产品体验之间作出合理判断。\n• 持续跟踪大模型、AI 交互与智能输入领域的前沿趋势和竞品动态，提出创新产品策略并推动从 0 到 1 验证。\n\n任职要求：\n• 本科及以上学历，211 院校及以上或同等优秀教育背景。\n• 1 年及以上产品工作经验；有算法工作经验者优先。\n• 有 C 端 AI 产品经验，熟悉 LLM、Agent、多模态交互或语音交互（ASR / TTS）至少一个方向的产品化落地；来自头部大模型产品、AI 助手或同类智能输入产品团队者优先。\n• 对 AI 和大模型技术有强烈兴趣与持续探索意愿，能够快速理解前沿技术并转化为可落地的产品方案。\n• 技术理解力强，愿意深入算法与工程细节；在原有工作中曾深度参与技术方案、模型效果或评测策略者优先。\n• 具备出色的 C 端用户思维，对用户输入行为、表达需求和交互体验有敏锐洞察，能够通过数据分析和用户研究驱动决策。\n• 系统性思考和问题拆解能力强，逻辑清晰，能够独立推动复杂产品模块从 0 到 1。\n• 对文字、语音和内容创作场景有审美与感受力，能够为模型制定符合真实使用场景的任务目标和效果标准。\n• 执行力与推动力强，能高效协同算法、工程、设计、测试等多角色团队，并适应高要求、快节奏的工作环境。\n\n目标画像：\n优先关注来自成熟 AI 助手、大模型应用或智能输入类产品的候选人。核心不是单纯做需求管理，而是同时具备用户洞察、AI 产品探索能力和深入技术细节的意愿与能力。",
+    "descriptionEn": "About the Role:\nJoin a national-scale intelligent input product team within a leading internet company and own AI product exploration and delivery. This role requires strong consumer insight together with meaningful technical depth: you should be able to engage with model, algorithm, and engineering details and work closely with technical teams to define product solutions and quality standards.\n\nResponsibilities:\n• Lead AI product planning for an intelligent input product, exploring applications of LLMs, agents, multimodal interaction, automatic speech recognition, and text-to-speech across text input, intelligent expression, voice interaction, and content creation.\n• Study real user needs, expression habits, and end-to-end input journeys; design and deliver complete product solutions that improve efficiency and expression quality.\n• Define model quality standards and evaluation frameworks based on business goals, partnering with Algorithm, Engineering, and Design on model iteration, strategy optimization, and data flywheels.\n• Participate deeply in technical solution discussions, understand model limitations and data or engineering constraints, and balance user value, feasibility, and product experience.\n• Track advances and competitors in foundation models, AI interaction, and intelligent input, proposing innovative strategies and validating them from zero to one.\n\nQualifications:\n• Bachelor's degree or above from a strong university; 211-level institutions or equivalent academic background preferred.\n• 1+ years of product experience; prior algorithm experience is a plus.\n• Consumer AI product experience with practical delivery experience in at least one area: LLMs, agents, multimodal interaction, ASR, or TTS. Experience with leading foundation-model assistants or intelligent-input products is preferred.\n• Strong curiosity about AI and the ability to turn emerging technology into practical product solutions.\n• High technical fluency and willingness to engage with algorithm and engineering details; experience contributing to technical design, model quality, or evaluation strategy is preferred.\n• Strong consumer-product judgment and insight into input behavior, expression needs, and interaction quality, using data and research to guide decisions.\n• Excellent systems thinking and problem decomposition, with the ability to own complex modules from zero to one.\n• Sensitivity to language, voice, and content-creation experiences, with the judgment to define model goals that match real user scenarios.\n• Strong execution and cross-functional leadership across Algorithm, Engineering, Design, and QA in a fast-paced environment.\n\nIdeal Profile:\nCandidates from established AI assistants, foundation-model applications, or intelligent-input products are especially relevant. The key is not requirement coordination alone, but the combination of user insight, AI product exploration, and the willingness and ability to go deep into technical details.",
+    "tags": ["AI 产品", "LLM", "Agent", "C端产品", "广州"],
+    "tagsEn": ["AI Product", "LLM", "Agent", "Consumer Product", "Guangzhou"],
+    "profile": {
+      "experience": "1年以上产品经验",
+      "experienceEn": "1+ years of product experience",
+      "education": "本科及以上，211院校及以上或同等优秀背景",
+      "educationEn": "Bachelor's or above; 211-level or equivalent preferred",
+      "skills": ["C端用户洞察", "LLM / Agent", "AI评测", "技术方案参与", "0-1产品探索"],
+      "skillsEn": ["Consumer Insight", "LLM / Agents", "AI Evaluation", "Technical Product Collaboration", "0-to-1 Product Exploration"]
+    },
+    "sort": 1
   }
 ]

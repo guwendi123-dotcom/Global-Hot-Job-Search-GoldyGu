@@ -287,5 +287,20 @@
     "location": "Fremont, California",
     "locationEn": "Fremont, California",
     "sort": 3
+  },
+  {
+    "id": "leading-internet-intelligent-input-team",
+    "industryId": "internet",
+    "name": "头部互联网智能输入产品团队",
+    "nameEn": "Leading Internet Intelligent Input Product Team",
+    "logo": "",
+    "logoEmoji": "⌨️",
+    "description": "来自头部互联网公司的国民级输入产品团队，服务大规模 C 端用户，拥有成熟的产品、算法与工程协作体系。团队正在围绕大语言模型、Agent、多模态交互、语音识别与合成等前沿能力，探索 AI 在文字输入、智能表达、语音交互与内容创作等高频场景中的产品化落地，为用户提供更自然、高效且个性化的表达体验。",
+    "descriptionEn": "A national-scale intelligent input product team within a leading internet company, serving a large consumer user base with mature product, algorithm, and engineering capabilities. The team is exploring product applications of large language models, agents, multimodal interaction, speech recognition, and speech synthesis across high-frequency scenarios including text input, intelligent expression, voice interaction, and content creation.",
+    "stage": "头部互联网 · 成熟业务",
+    "stageEn": "Leading Internet Company · Established Product",
+    "location": "广州",
+    "locationEn": "Guangzhou",
+    "sort": 5
   }
 ]
