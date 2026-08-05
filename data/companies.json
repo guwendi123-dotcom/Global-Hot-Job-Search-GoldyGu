@@ -302,5 +302,20 @@
     "location": "广州",
     "locationEn": "Guangzhou",
     "sort": 5
+  },
+  {
+    "id": "consumer-ai-creative-expression-platform",
+    "industryId": "ai-agent",
+    "name": "C 端 AI 创意表达平台",
+    "nameEn": "Consumer AI Creative Expression Platform",
+    "logo": "/logos/consumer-ai-creative-expression-platform.jpg",
+    "logoEmoji": "🎨",
+    "description": "成立于 2025 年的明星 AI 创业团队，专注面向大众用户的多模态创意表达产品，通过 AI 降低漫画、图像与叙事内容的创作门槛，让普通用户也能完成高质量 UGC 创作。首款产品已验证自然流量与用户需求，更多 AI Native 产品正在保密孵化。创始团队拥有头部互联网 C 端 AI 产品从 0 到 1 的成功经验，核心成员多数来自一线科技公司，技术负责人兼具顶尖院校、大厂与创业经历。公司已获得头部 VC 与大型互联网战略投资方的千万美元级天使轮融资，资金可支持未来 2–3 年有序扩张及自研模型训练；团队规模约 100 人，在同轮次 AI 应用创业公司中处于领先位置。",
+    "descriptionEn": "A high-profile AI startup founded in 2025 and focused on multimodal creative-expression products for consumers. Its products lower the barrier to creating comics, images, and narrative content, enabling everyday users to produce high-quality UGC. The first product has validated organic acquisition and user demand, with additional AI-native products in confidential incubation. The founding team has proven zero-to-one experience in consumer AI at a leading internet company, while the broader team combines top-university, big-tech, and startup backgrounds. The company has raised a US$10M-level angel round from a leading VC and a major internet strategic investor, providing 2–3 years of runway for disciplined expansion and in-house model development. The team is approximately 100 people and ranks among the strongest companies at its stage.",
+    "stage": "千万美元级天使轮 · 约 100 人",
+    "stageEn": "US$10M-level Angel Round · Approx. 100 People",
+    "location": "上海",
+    "locationEn": "Shanghai",
+    "sort": 6
   }
 ]
