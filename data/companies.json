@@ -317,5 +317,20 @@
     "location": "上海",
     "locationEn": "Shanghai",
     "sort": 6
+  },
+  {
+    "id": "global-ai-handwriting-productivity-platform",
+    "industryId": "internet",
+    "name": "全球 AI 手写与知识生产力平台",
+    "nameEn": "Global AI Handwriting & Knowledge Productivity Platform",
+    "logo": "",
+    "logoEmoji": "📝",
+    "description": "总部位于伦敦的科技独角兽，旗下数字笔记与知识生产力产品拥有数千万全球用户，曾位列全球 iPad 付费应用年度下载榜首，商业化与营收增长表现稳健。公司正在上海组建中国区创始团队，围绕无限画布、数字手写、记录、学习与协作场景打造 AI Native 解决方案。团队成员主要来自一线互联网公司，决策链条短，提供先进模型与充足 AI 工具资源；依托成熟品牌、全球渠道及健康现金流，可在无融资压力下持续投入长期产品建设。",
+    "descriptionEn": "A London-headquartered technology unicorn whose digital note-taking and knowledge-productivity products serve tens of millions of users worldwide and have ranked first among paid iPad apps by annual global downloads. The profitable, high-growth company is building a founding China team in Shanghai to develop AI-native solutions for infinite-canvas, handwriting, learning, note-taking, and collaboration scenarios. The team combines talent from leading internet companies, short decision paths, access to frontier models and generous AI tooling, a globally established brand, strong distribution, and the financial stability to invest for the long term without fundraising pressure.",
+    "stage": "伦敦科技独角兽 · 稳健高增长",
+    "stageEn": "London Technology Unicorn · Profitable High Growth",
+    "location": "上海徐汇滨江",
+    "locationEn": "Xuhui Riverside, Shanghai",
+    "sort": 7
   }
 ]
