@@ -22,6 +22,13 @@
 
 管理后台启用后，Cloudflare KV 中的 `content:companies`、`content:jobs`、`content:industries` 是线上实时内容源，项目内 JSON 是首次初始化与故障回退数据。不得用部署动作清空或覆盖 KV。后台使用方式见 `ADMIN_GUIDE.md`。
 
+## 真实公司名称（严格保密）
+
+- 线上真实名称只保存在 Cloudflare KV 的 `admin:company-identities`，仅登录后的管理后台可见。
+- 本机协作备份位于 `.private/company-identities.json`，该目录已被 Git 忽略，Codex 与 Claude 可以在本机读取，但绝不能提交、上传或粘贴到公开页面。
+- `data/company-identities.json` 只能保留空数组 `[]` 作为公开仓库模板，禁止写入任何真实公司名或产品名。
+- 新增或修改真实名称时，应通过管理后台保存，并同步更新本机 `.private/company-identities.json`；不得把私密映射同步到 GitHub。
+
 ## 发布流程
 
 1. 读取本文件和 `PROJECT_STATUS.md`。

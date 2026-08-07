@@ -29,6 +29,8 @@
 - 后台数据保存在 Cloudflare KV，不会因网站重新部署而丢失。
 - 后台首页可下载全部数据备份。
 - 管理密码只保存在 Cloudflare Secret，不写入 GitHub。
+- 真实公司名称只保存在后台 KV，并在本机 `.private/company-identities.json` 留有 Git 忽略的私密备份。
+- 公开仓库中的 `data/company-identities.json` 必须始终保持为空，不得提交真实公司或产品名称。
 
 ## 公司展示顺序
 

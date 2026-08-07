@@ -36,6 +36,7 @@ next-env.d.ts
 # Secrets
 *secret*
 *password*
+.private/
 
 # Claude
 .claude/
