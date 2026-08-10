@@ -332,5 +332,20 @@
     "location": "上海徐汇滨江",
     "locationEn": "Xuhui Riverside, Shanghai",
     "sort": 7
+  },
+  {
+    "id": "global-top10-digital-asset-platform",
+    "industryId": "web3",
+    "name": "全球 Top 10 数字资产平台",
+    "nameEn": "Global Top 10 Digital Asset Platform",
+    "logo": "",
+    "logoEmoji": "🔷",
+    "description": "全球头部数字资产与金融基础设施平台，服务超过 8,000 万用户，业务覆盖 180 多个国家和地区。平台围绕数字资产交易、支付、财富管理、托管、机构服务与 Web3 基础设施构建完整生态，并持续探索 Crypto、TradFi 与 AI 的融合。公司在欧洲、中东等主要市场持续推进合规布局，拥有全球化、多语言、全天候服务能力。团队由来自金融、科技、区块链与 AI 领域的国际化人才组成，强调用户优先、高效执行、持续创新和全球协作，为复杂金融系统提供大规模、高可用的技术与产品能力。",
+    "descriptionEn": "A global top-10 digital asset and financial infrastructure platform serving more than 80 million users across over 180 countries and regions. Its ecosystem spans digital-asset trading, payments, wealth management, custody, institutional services, and Web3 infrastructure, with continued investment at the intersection of crypto, traditional finance, and AI. The company is advancing regulated operations across major European and Middle Eastern markets and provides global, multilingual, around-the-clock services. Its international team brings together talent from finance, technology, blockchain, and AI, with a culture centered on users, high performance, continuous improvement, and bold execution at global scale.",
+    "stage": "全球 Top 10 · 成熟国际化平台",
+    "stageEn": "Global Top 10 · Established International Platform",
+    "location": "吉隆坡 / 阿布扎比 / 香港",
+    "locationEn": "Kuala Lumpur / Abu Dhabi / Hong Kong",
+    "sort": 4
   }
 ]
