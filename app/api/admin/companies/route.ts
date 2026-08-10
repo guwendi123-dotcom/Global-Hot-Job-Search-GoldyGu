@@ -21,6 +21,7 @@ function normalize(input: Partial<Company>): Company {
     location: String(input.location || "").trim(),
     locationEn: String(input.locationEn || "").trim(),
     sort: Number.isFinite(Number(input.sort)) ? Number(input.sort) : 999,
+    createdAt: String(input.createdAt || "").trim() || undefined,
   };
 }
 
@@ -42,6 +43,7 @@ export async function GET() {
 export async function POST(request: NextRequest) {
   if (!requestIsAdmin(request)) return unauthorized();
   const company = normalize(await request.json());
+  company.createdAt = company.createdAt || new Date().toISOString();
   const error = await validate(company);
   if (error) return NextResponse.json({ error }, { status: 400 });
   const companies = await readCompanies();
@@ -60,6 +62,7 @@ export async function PUT(request: NextRequest) {
   const companies = await readCompanies();
   const index = companies.findIndex((item) => item.id === originalId);
   if (index < 0) return NextResponse.json({ error: "公司不存在" }, { status: 404 });
+  company.createdAt = company.createdAt || companies[index].createdAt || new Date().toISOString();
   companies[index] = company;
   await writeCollection("companies", companies);
   return NextResponse.json({ success: true, company });

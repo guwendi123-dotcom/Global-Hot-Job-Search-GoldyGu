@@ -44,6 +44,7 @@ export interface Company {
   location: string;
   locationEn?: string;
   sort?: number;
+  createdAt?: string;
 }
 
 export interface JobProfile {
@@ -76,6 +77,7 @@ export interface Job {
   tagsEn?: string[];
   profile: JobProfile;
   sort?: number;
+  createdAt?: string;
 }
 
 export function getProfile(): Profile {

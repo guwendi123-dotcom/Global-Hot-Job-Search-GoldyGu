@@ -32,6 +32,7 @@ interface Job {
     skillsEn?: string[];
   };
   sort?: number;
+  createdAt?: string;
 }
 
 interface Company {

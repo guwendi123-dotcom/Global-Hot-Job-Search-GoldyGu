@@ -41,6 +41,7 @@ function normalize(input: Partial<Job>): Job {
       skillsEn: list(profile.skillsEn),
     },
     sort: Number.isFinite(Number(input.sort)) ? Number(input.sort) : 999,
+    createdAt: String(input.createdAt || "").trim() || undefined,
   };
 }
 
@@ -65,6 +66,7 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   if (!requestIsAdmin(request)) return unauthorized();
   const job = normalize(await request.json());
+  job.createdAt = job.createdAt || new Date().toISOString();
   const error = await validate(job);
   if (error) return NextResponse.json({ error }, { status: 400 });
   const jobs = await readJobs();
@@ -83,6 +85,7 @@ export async function PUT(request: NextRequest) {
   const jobs = await readJobs();
   const index = jobs.findIndex((item) => item.id === originalId);
   if (index < 0) return NextResponse.json({ error: "岗位不存在" }, { status: 404 });
+  job.createdAt = job.createdAt || jobs[index].createdAt || new Date().toISOString();
   jobs[index] = job;
   await writeCollection("jobs", jobs);
   return NextResponse.json({ success: true, job });

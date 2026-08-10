@@ -19,6 +19,7 @@ interface Company {
   logoEmoji?: string;
   sort?: number;
   realName?: string;
+  createdAt?: string;
 }
 
 interface Industry {

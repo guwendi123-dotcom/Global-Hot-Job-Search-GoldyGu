@@ -1310,6 +1310,7 @@
   {
     "id": "ai-native-ad-monetization-network-job-002",
     "companyId": "ai-native-ad-monetization-network",
+    "createdAt": "2026-08-10T12:45:00.000Z",
     "title": "广告变现负责人（游戏 / 工具类出海）",
     "titleEn": "Head of Ad Monetization — Global Gaming & Utility Apps",
     "jobType": "operations,mkt-growth,bd-sales",
@@ -2974,6 +2975,7 @@
   {
     "id": "global-top10-digital-asset-platform-job-001",
     "companyId": "global-top10-digital-asset-platform",
+    "createdAt": "2026-08-10T12:00:00.000Z",
     "title": "平台产品负责人 / 平台产品专家",
     "titleEn": "Head of Platform Product / Platform Product Expert",
     "jobType": "product-design,pm,cxo",
@@ -2992,6 +2994,7 @@
   {
     "id": "global-top10-digital-asset-platform-job-002",
     "companyId": "global-top10-digital-asset-platform",
+    "createdAt": "2026-08-10T12:00:00.000Z",
     "title": "CRM 产品专家",
     "titleEn": "CRM Product Expert",
     "jobType": "product-design,pm",
@@ -3010,6 +3013,7 @@
   {
     "id": "global-top10-digital-asset-platform-job-003",
     "companyId": "global-top10-digital-asset-platform",
+    "createdAt": "2026-08-10T12:00:00.000Z",
     "title": "高级数据分析师（理财产品）",
     "titleEn": "Senior Data Analyst, Earn Products",
     "jobType": "operations,algorithm",
@@ -3028,6 +3032,7 @@
   {
     "id": "global-top10-digital-asset-platform-job-004",
     "companyId": "global-top10-digital-asset-platform",
+    "createdAt": "2026-08-10T12:00:00.000Z",
     "title": "资深 PMO",
     "titleEn": "Senior PMO",
     "jobType": "operations,pm",
@@ -3046,6 +3051,7 @@
   {
     "id": "global-top10-digital-asset-platform-job-005",
     "companyId": "global-top10-digital-asset-platform",
+    "createdAt": "2026-08-10T12:00:00.000Z",
     "title": "高级数据分析师（支付）",
     "titleEn": "Senior Data Analyst, Payments",
     "jobType": "operations,algorithm",
@@ -3064,6 +3070,7 @@
   {
     "id": "global-top10-digital-asset-platform-job-006",
     "companyId": "global-top10-digital-asset-platform",
+    "createdAt": "2026-08-10T12:00:00.000Z",
     "title": "首席 AI Agent 开发工程师 / 架构师",
     "titleEn": "Principal AI Agent Development Engineer / Architect",
     "jobType": "engineering,algorithm",
@@ -3082,6 +3089,7 @@
   {
     "id": "global-top10-digital-asset-platform-job-007",
     "companyId": "global-top10-digital-asset-platform",
+    "createdAt": "2026-08-10T12:00:00.000Z",
     "title": "首席后端开发工程师（C++）",
     "titleEn": "Principal Backend Development Engineer, C++",
     "jobType": "engineering",
@@ -3100,6 +3108,7 @@
   {
     "id": "global-top10-digital-asset-platform-job-008",
     "companyId": "global-top10-digital-asset-platform",
+    "createdAt": "2026-08-10T12:00:00.000Z",
     "title": "首席 / 负责人级 Java 开发工程师（区块链）",
     "titleEn": "Principal / Lead Java Development Engineer, Blockchain",
     "jobType": "engineering",

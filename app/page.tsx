@@ -19,6 +19,7 @@ export default function Home() {
   const [companies, setCompanies] = useState<any[]>([]);
   const [jobs, setJobs] = useState<any[]>([]);
   const [jobTypes, setJobTypes] = useState<any[]>([]);
+  const [homeRanking, setHomeRanking] = useState<{ jobOrder: string[]; companyOrder: string[] }>({ jobOrder: [], companyOrder: [] });
   const [query, setQuery] = useState("");
   const [location, setLocation] = useState("");
   const [jobType, setJobType] = useState("");
@@ -26,21 +27,43 @@ export default function Home() {
   useEffect(() => {
     setProfile(getProfile());
     setJobTypes(getJobTypes());
-    Promise.all([getIndustries(), getCompanies(), getJobs()]).then(([nextIndustries, nextCompanies, nextJobs]) => {
+    Promise.all([
+      getIndustries(),
+      getCompanies(),
+      getJobs(),
+      fetch("/api/home-ranking", { cache: "no-store" }).then((response) => response.ok ? response.json() : { jobOrder: [], companyOrder: [] }),
+    ]).then(([nextIndustries, nextCompanies, nextJobs, nextRanking]) => {
       setIndustries(nextIndustries);
       setCompanies(nextCompanies);
       setJobs(nextJobs);
+      setHomeRanking({ jobOrder: nextRanking.jobOrder || [], companyOrder: nextRanking.companyOrder || [] });
     });
   }, []);
 
-  const filteredJobs = useMemo(() => jobs.filter((job) => {
+  const rankedJobs = useMemo(() => {
+    const rank = new Map(homeRanking.jobOrder.map((id, index) => [id, index]));
+    return [...jobs].sort((a, b) =>
+      ((rank.get(a.id) ?? Number.MAX_SAFE_INTEGER) - (rank.get(b.id) ?? Number.MAX_SAFE_INTEGER))
+      || ((a.sort ?? 999) - (b.sort ?? 999))
+    );
+  }, [jobs, homeRanking.jobOrder]);
+
+  const rankedCompanies = useMemo(() => {
+    const rank = new Map(homeRanking.companyOrder.map((id, index) => [id, index]));
+    return [...companies].sort((a, b) =>
+      ((rank.get(a.id) ?? Number.MAX_SAFE_INTEGER) - (rank.get(b.id) ?? Number.MAX_SAFE_INTEGER))
+      || ((a.sort ?? 999) - (b.sort ?? 999))
+    );
+  }, [companies, homeRanking.companyOrder]);
+
+  const filteredJobs = useMemo(() => rankedJobs.filter((job) => {
     const company = companies.find((item) => item.id === job.companyId);
     const haystack = [job.title, job.titleEn, company?.name, company?.nameEn, job.location, job.locationEn, ...(job.tags || [])].join(" ").toLowerCase();
     const matchesQuery = !query.trim() || haystack.includes(query.trim().toLowerCase());
     const matchesLocation = !location || `${job.location} ${job.locationEn}`.includes(location);
     const matchesType = !jobType || job.jobType?.split(",").map((item: string) => item.trim()).includes(jobType);
     return matchesQuery && matchesLocation && matchesType;
-  }), [jobs, companies, query, location, jobType]);
+  }), [rankedJobs, companies, query, location, jobType]);
 
   if (!profile) return null;
 
@@ -54,7 +77,7 @@ export default function Home() {
     return language === "zh" ? type?.nameZh || id : type?.name || id;
   };
 
-  const featuredCompanies = companies.slice(0, 8);
+  const featuredCompanies = rankedCompanies.slice(0, 8);
 
   return (
     <main className="min-h-screen bg-bg-primary">
@@ -65,7 +88,7 @@ export default function Home() {
         <div className="flex items-end justify-between gap-4 mb-5">
           <div>
             <p className="eyebrow">{language === "zh" ? "每天发现新机会" : "Fresh opportunities"}</p>
-            <h2 className="section-title">{language === "zh" ? "最新在招岗位" : "Latest opportunities"}</h2>
+            <h2 className="section-title">{language === "zh" ? "热门与最新岗位" : "Trending & fresh opportunities"}</h2>
           </div>
           <p className="hidden md:block text-sm text-text-secondary">{language === "zh" ? `共 ${filteredJobs.length} 个岗位` : `${filteredJobs.length} roles`}</p>
         </div>
@@ -105,7 +128,7 @@ export default function Home() {
                   <td>{companyName(job.companyId)}</td>
                   <td>{typeName(job.jobType?.split(",")[0]?.trim())}</td>
                   <td>{language === "zh" ? job.location : job.locationEn || job.location}</td>
-                  <td><span className="status-dot" />{index < 3 ? (language === "zh" ? "最新" : "New") : (language === "zh" ? "持续招聘" : "Hiring")}</td>
+                  <td><span className="status-dot" />{index < 3 ? (language === "zh" ? "推荐" : "Featured") : (language === "zh" ? "持续招聘" : "Hiring")}</td>
                   <td><Link href={`/job/${job.id}`} aria-label={`查看 ${job.title}`} className="table-arrow"><ArrowRight size={17} /></Link></td>
                 </tr>
               ))}
@@ -138,7 +161,7 @@ export default function Home() {
 
       <section id="companies" className="max-w-6xl mx-auto px-5 pb-14 scroll-mt-24">
         <div className="flex items-end justify-between gap-4 mb-6">
-          <div><p className="eyebrow">{language === "zh" ? "精选创新团队" : "Selected teams"}</p><h2 className="section-title">{language === "zh" ? "精选合作公司" : "Featured companies"}</h2></div>
+          <div><p className="eyebrow">{language === "zh" ? "近期关注与新团队" : "Trending and new teams"}</p><h2 className="section-title">{language === "zh" ? "热门合作公司" : "Trending companies"}</h2></div>
           <span className="hidden md:block text-sm text-text-secondary">{language === "zh" ? "更多公司与岗位持续更新" : "More teams added regularly"}</span>
         </div>
         <div className="grid md:grid-cols-2 gap-4">
