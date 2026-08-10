@@ -1308,6 +1308,53 @@
     "sort": 1
   },
   {
+    "id": "ai-native-ad-monetization-network-job-002",
+    "companyId": "ai-native-ad-monetization-network",
+    "title": "广告变现负责人（游戏 / 工具类出海）",
+    "titleEn": "Head of Ad Monetization — Global Gaming & Utility Apps",
+    "jobType": "operations,mkt-growth,bd-sales",
+    "jobTypeEn": "Operations, MKT & Growth, BD & Sales",
+    "workMode": "上海办公",
+    "workModeEn": "Shanghai based",
+    "location": "上海·徐汇滨江",
+    "locationEn": "Xuhui Riverside, Shanghai",
+    "description": "岗位定位：\n加入一家硅谷 AI 广告创业公司，负责游戏及工具类出海 App 的 Publisher 侧广告变现。团队由全球头部广告平台与 AI 研究团队背景的成员创立，正在为短剧、AI Entertainment 等新兴内容形态构建下一代原生广告商业化基础设施。你将作为早期核心成员，推动广告 SDK 接入，并从零搭建 Publisher 侧产品策略与变现方案。\n\n岗位职责：\n• 负责游戏、工具类出海 App 的广告变现合作，推动平台广告 SDK 的接入、测试与上线。\n• 深入理解 Publisher 当前的广告变现结构，结合平台能力制定可执行的变现优化方案。\n• 管理已接入 Publisher 的变现表现，持续优化 eCPM、填充率、ARPDAU 等核心指标。\n• 对接并研究 AppLovin MAX、穿山甲、Mintegral、AdMob 等主流广告平台，掌握行业机制与变现趋势。\n• 参与 Publisher 侧产品策略、数据体系和商业化方案的从零搭建，推动产品与合作闭环。\n\n任职要求：\n• 3 年以上游戏或工具类出海 App 广告变现经验，有独立操盘变现收入的实际案例。\n• 熟悉主流广告 SDK 接入流程，深入了解 AppLovin MAX、穿山甲、Mintegral、AdMob 等平台机制。\n• 熟练掌握 Waterfall 与 Bidding 策略，对 eCPM、填充率、ARPDAU、LTV 等指标高度敏感。\n• 具备较强的数据分析和问题定位能力，能够快速调整变现策略并验证结果。\n• 有北美、欧洲或东南亚等海外市场广告变现经验者优先。\n• 英语能够流畅进行工作沟通者优先。",
+    "descriptionEn": "Role Overview:\nJoin a Silicon Valley AI advertising startup to lead publisher-side monetization for globally distributed gaming and utility apps. Founded by veterans of leading global advertising platforms and AI research teams, the company is building next-generation native advertising infrastructure for emerging formats such as short-form drama and AI entertainment. As an early core team member, you will drive advertising SDK integrations and help build publisher product strategy and monetization solutions from the ground up.\n\nResponsibilities:\n• Develop monetization partnerships with global gaming and utility apps, driving the platform's advertising SDK integration, testing, and launch.\n• Diagnose each publisher's current monetization setup and design actionable optimization plans using the platform's capabilities.\n• Own monetization performance for integrated publishers and continuously improve eCPM, fill rate, ARPDAU, and related metrics.\n• Work with and monitor major advertising platforms including AppLovin MAX, Pangle, Mintegral, and AdMob, staying current on platform mechanics and industry trends.\n• Help build publisher-side product strategy, data systems, and monetization playbooks from zero, connecting product development with commercial outcomes.\n\nRequirements:\n• 3+ years of advertising monetization experience for globally distributed gaming or utility apps, with proven ownership of monetization revenue.\n• Strong familiarity with mainstream advertising SDK integrations and deep knowledge of AppLovin MAX, Pangle, Mintegral, and AdMob.\n• Hands-on expertise in waterfall and bidding strategies, with strong sensitivity to eCPM, fill rate, ARPDAU, and LTV.\n• Strong data analysis and problem-solving ability, with a track record of rapidly adjusting and validating monetization strategies.\n• Experience monetizing traffic in North America, Europe, or Southeast Asia is preferred.\n• Professional English communication skills are preferred.",
+    "tags": [
+      "广告变现",
+      "游戏出海",
+      "工具类App",
+      "广告SDK",
+      "上海"
+    ],
+    "tagsEn": [
+      "Ad Monetization",
+      "Global Gaming",
+      "Utility Apps",
+      "Advertising SDK",
+      "Shanghai"
+    ],
+    "profile": {
+      "experience": "3年以上",
+      "experienceEn": "3+ years",
+      "language": "英语流畅优先",
+      "languageEn": "Professional English preferred",
+      "skills": [
+        "Waterfall / Bidding",
+        "AppLovin MAX",
+        "Mintegral / AdMob",
+        "eCPM / ARPDAU优化"
+      ],
+      "skillsEn": [
+        "Waterfall / Bidding",
+        "AppLovin MAX",
+        "Mintegral / AdMob",
+        "eCPM / ARPDAU Optimization"
+      ]
+    },
+    "sort": 2
+  },
+  {
     "id": "women-ai-wellness-brand-job-001",
     "companyId": "women-ai-wellness-brand",
     "title": "社媒与内容运营",
