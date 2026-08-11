@@ -364,5 +364,21 @@
     "location": "欧美 / 深圳（主体筹备中）",
     "locationEn": "Europe & North America / Shenzhen entity in formation",
     "sort": 5
+  },
+  {
+    "id": "global-ai-smart-hardware-productivity-platform",
+    "createdAt": "2026-08-11T06:37:49.000Z",
+    "industryId": "smart-hardware",
+    "name": "全球 AI 智能硬件与生产力平台",
+    "nameEn": "Global AI Smart Hardware & Productivity Platform",
+    "logo": "/logos/global-ai-smart-hardware-productivity-platform.png",
+    "logoEmoji": "🎙️",
+    "description": "一家总部位于旧金山、面向全球专业人士的 AI 智能硬件与生产力公司，通过软硬件结合的方式捕捉、结构化并沉淀现实世界对话中的信息，帮助用户提升思考、决策与执行效率。产品自 2023 年推出以来已服务超过 200 万名全球用户。公司坚持自举发展并已实现盈利，在约三年内达到约 2.5 亿美元收入运行率，商业化与全球扩张速度突出。平台已建立 ISO 27001、ISO 27701、SOC 2、GDPR、EN 18031 与 HIPAA 等安全、隐私及合规体系。美国团队目前约 8 人，强调本地产品闭环，同时与国内工程及供应链团队协作推进量产，正在定义下一代人机智能交互入口。",
+    "descriptionEn": "A San Francisco-based AI smart-hardware and productivity company serving professionals worldwide. Its integrated hardware-and-software products capture, structure, and compound intelligence from real-world conversations to help users think better, decide faster, and execute with clarity. Since launching in 2023, the products have been adopted by more than two million users globally. The bootstrapped and profitable company reached an approximately US$250 million revenue run rate in about three years and is expanding rapidly across global markets. It has established comprehensive security and privacy programs spanning ISO 27001, ISO 27701, SOC 2, GDPR, EN 18031, and HIPAA. The US team currently has approximately eight members and owns a strong local product loop while partnering with engineering and supply-chain teams in China for mass production, with the ambition to define the next generation of human-AI interfaces.",
+    "stage": "自举盈利 · 约 2.5 亿美元收入运行率",
+    "stageEn": "Bootstrapped & Profitable · Approx. US$250M Revenue Run Rate",
+    "location": "San Francisco / Palo Alto",
+    "locationEn": "San Francisco / Palo Alto",
+    "sort": 6
   }
 ]
