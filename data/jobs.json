@@ -3344,5 +3344,143 @@
       ]
     },
     "sort": 13
+  },
+  {
+    "id": "global-tech-ai-resource-procurement-platform-job-001",
+    "companyId": "global-tech-ai-resource-procurement-platform",
+    "createdAt": "2026-08-11T12:30:00.000Z",
+    "title": "AI 大模型资源采购专家",
+    "titleEn": "AI Model Resource Procurement Specialist",
+    "jobType": "operations,product-design",
+    "jobTypeEn": "Operations,Product & Design",
+    "workMode": "杭州办公；中高级专家职级，计划招聘 2–3 人",
+    "workModeEn": "Hangzhou-based; mid-to-senior expert level, 2–3 openings",
+    "location": "杭州",
+    "locationEn": "Hangzhou",
+    "description": "岗位背景：\n随着集团内大模型训练和 AI 应用快速扩张，业务需要持续采购外部模型 API、MaaS 服务、企业账号、调用额度及相关技术能力。本岗位既要理解模型与产品，也要完成供应商评估、商务采购和交付管理，让外部 AI 能力能够稳定、合规且具有成本效率地进入内部业务。\n\n岗位职责：\n• 负责大模型 API、MaaS 平台、企业账号、调用额度及相关 AI 技术服务的市场研究、供应商开拓和采购交付。\n• 深入理解内部产品、算法和工程团队的使用场景，将模型能力需求转化为清晰的技术、商务、SLA、安全与合规规格。\n• 从效果、延迟、稳定性、上下文能力、并发限制、成本、数据安全、部署方式和服务支持等维度建立选型与评估体系。\n• 推动 POC、比选、商务谈判、合同、接入、验收、续约和成本优化，对完整采购生命周期负责。\n• 建立模型资源地图、供应商池和价格基准，跟踪国内外模型与 MaaS 市场变化，及时识别替代方案和供应风险。\n• 协同产品、算法、工程、安全、法务、财务及采购团队，推动复杂项目按期落地。\n\n任职要求：\n• 具备大模型、MaaS、AI 应用、技术采购、产品、算法解决方案或生态商务相关经验。\n• 理解 LLM API 与 MaaS 的基本产品和技术逻辑，包括模型效果、Token/计费、限流、上下文、RAG/微调、可用性及数据安全。\n• 能把技术需求转化为采购标准，兼具产品判断、商业分析、谈判和项目推进能力。\n• 能与算法工程师、产品团队和供应商技术团队进行有效沟通，并在多方目标间完成取舍。\n• 有复杂供应商管理、企业服务采购或跨境 AI 资源合作经验者优先。\n\n参考人才背景（仅用于帮助理解画像，不构成定向挖猎名单）：\n• 国内外 MaaS 平台、模型服务商或 AI 基础设施公司的产品、算法、解决方案及商业岗位。\n• 头部模型公司，例如字节、腾讯、智谱、MiniMax、月之暗面、DeepSeek 等相关团队。\n• 在金融、教育、医疗、营销、企业服务等垂直领域推动 AI 应用落地的产品经理。",
+    "descriptionEn": "Role Context:\nAs model training and AI applications scale across the group, the business needs reliable access to external model APIs, MaaS platforms, enterprise accounts, usage credits, and related technical capabilities. This role combines technical product judgment with sourcing, commercial negotiation, and delivery ownership.\n\nResponsibilities:\n• Source and procure model APIs, MaaS services, enterprise accounts, capacity credits, and related AI services.\n• Translate internal product, research, and engineering use cases into technical, commercial, SLA, security, and compliance requirements.\n• Build evaluation frameworks covering quality, latency, reliability, context, rate limits, cost, data security, deployment, and support.\n• Own POCs, vendor selection, negotiation, contracting, integration, acceptance, renewal, and cost optimization.\n• Maintain a model-resource landscape, supplier pipeline, and pricing benchmarks while managing supply risk.\n• Coordinate Product, AI, Engineering, Security, Legal, Finance, and Procurement.\n\nRequirements:\nExperience across LLMs, MaaS, AI applications, technical procurement, product, AI solutions, or ecosystem partnerships; practical understanding of LLM APIs and MaaS economics; strong technical-to-commercial translation, negotiation, and program ownership.\n\nReference backgrounds only—not a targeted poaching list: product, AI, solutions, or commercial talent from MaaS and AI-infrastructure providers; relevant teams at model companies such as ByteDance, Tencent, Zhipu AI, MiniMax, Moonshot AI, and DeepSeek; or product managers building AI applications in vertical industries.",
+    "tags": [
+      "大模型采购",
+      "MaaS",
+      "模型API",
+      "供应商管理",
+      "杭州"
+    ],
+    "tagsEn": [
+      "AI Model Procurement",
+      "MaaS",
+      "Model APIs",
+      "Vendor Management",
+      "Hangzhou"
+    ],
+    "profile": {
+      "experience": "中高级专家；大模型、MaaS、AI应用或技术采购经验",
+      "experienceEn": "Mid-to-senior expert with LLM, MaaS, AI application, or technical procurement experience",
+      "skills": [
+        "模型选型",
+        "技术采购",
+        "商务谈判",
+        "跨团队交付"
+      ],
+      "skillsEn": [
+        "Model Evaluation",
+        "Technical Procurement",
+        "Commercial Negotiation",
+        "Cross-functional Delivery"
+      ]
+    },
+    "sort": 1
+  },
+  {
+    "id": "global-tech-ai-resource-procurement-platform-job-002",
+    "companyId": "global-tech-ai-resource-procurement-platform",
+    "createdAt": "2026-08-11T12:31:00.000Z",
+    "title": "AI Native 采购解决方案专家",
+    "titleEn": "AI-Native Procurement Solutions Expert",
+    "jobType": "product-design,operations",
+    "jobTypeEn": "Product & Design,Operations",
+    "workMode": "杭州办公；资深专家职级，计划招聘 2–3 人",
+    "workModeEn": "Hangzhou-based; senior expert level, 2–3 openings",
+    "location": "杭州",
+    "locationEn": "Hangzhou",
+    "description": "岗位背景：\n传统采购覆盖需求提出、寻源、供应商准入、询比价、合同、验收、结算和风险管理等复杂环节。本岗位需要把大模型、Agent、RAG、知识库和自动化工作流真正接入采购系统，重构工作流程与协作范式，而不是只做单点工具或概念验证。\n\n岗位职责：\n• 梳理采购全链路，识别高频、耗时、依赖人工判断且适合 AI 改造的关键场景。\n• 规划并落地采购 Copilot、Agent、智能寻源、需求理解、供应商分析、询比价辅助、合同审阅和风险提示等产品能力。\n• 将采购知识、业务规则、权限与合规边界转化为可执行的产品机制、知识库、Prompt、工具调用和工作流。\n• 负责需求分析、产品方案、原型、PRD、技术协同、上线验证与持续迭代，对使用率和业务结果负责。\n• 推动 AI 能力与采购、供应商、合同、财务及企业协同系统集成，建立人工确认、审计追踪、异常处理和权限控制机制。\n• 建立效率、周期、准确率、采用率、成本节约和风险控制指标，通过数据持续优化。\n• 协调采购、业务、产品、算法、研发、法务和财务团队，推动组织级变革落地。\n\n任职要求：\n• 具备采购域产品、供应链产品、B2B 交易平台、企业服务或复杂后台系统经验。\n• 有完整产品生命周期和跨部门项目交付能力，能处理复杂流程、权限、数据和系统集成问题。\n• 理解 LLM、Agent、RAG 和工作流自动化的能力边界，有 AI 产品或自动化项目落地经验优先。\n• 熟悉采购、供应商管理、合同、订单、结算或供应链协同中的至少一个核心环节。\n• 逻辑清晰、抽象能力强，能够将非标准人工经验沉淀为可规模化的系统能力。\n\n参考人才背景（仅用于帮助理解画像，不构成定向挖猎名单）：\n• 互联网大厂采购域或企业内部平台的产品经理。\n• 供应链、B2B 交易、企业 SaaS、合同及供应商管理领域的产品经理。",
+    "descriptionEn": "Role Context:\nProcurement spans intake, sourcing, supplier onboarding, RFx, contracting, acceptance, settlement, and risk. This role applies LLMs, agents, RAG, knowledge systems, and workflow automation to redesign the operating model—not merely add isolated tools or demos.\n\nResponsibilities:\n• Map the end-to-end procurement journey and identify high-value AI automation opportunities.\n• Build procurement copilots and agents for intelligent sourcing, requirement understanding, supplier analysis, RFx support, contract review, and risk signals.\n• Translate procurement knowledge, rules, permissions, and compliance boundaries into product mechanisms, prompts, tools, and workflows.\n• Own discovery, product design, prototypes, specifications, engineering delivery, adoption, and iteration.\n• Integrate AI with procurement, supplier, contract, finance, and collaboration systems, including human approval, auditability, exception handling, and access controls.\n• Measure cycle time, accuracy, adoption, savings, and risk outcomes.\n\nRequirements:\nExperience in procurement products, supply chain, B2B transactions, enterprise SaaS, or complex internal platforms; strong end-to-end product delivery and systems thinking; familiarity with LLM, agent, RAG, or workflow automation; and the ability to convert non-standard operational expertise into scalable product capabilities.\n\nReference backgrounds only—not a targeted poaching list: procurement-domain product managers at large internet companies, or product leaders from supply-chain, B2B transaction, enterprise SaaS, contract, and supplier-management platforms.",
+    "tags": [
+      "AI采购系统",
+      "Agent",
+      "供应链产品",
+      "B2B交易",
+      "杭州"
+    ],
+    "tagsEn": [
+      "AI Procurement Systems",
+      "Agents",
+      "Supply-chain Products",
+      "B2B Transactions",
+      "Hangzhou"
+    ],
+    "profile": {
+      "experience": "资深产品专家；采购、供应链、B2B或企业平台经验",
+      "experienceEn": "Senior product expert with procurement, supply-chain, B2B, or enterprise-platform experience",
+      "skills": [
+        "AI工作流",
+        "采购系统",
+        "复杂产品设计",
+        "组织级推进"
+      ],
+      "skillsEn": [
+        "AI Workflows",
+        "Procurement Systems",
+        "Complex Product Design",
+        "Enterprise Change"
+      ]
+    },
+    "sort": 2
+  },
+  {
+    "id": "global-tech-ai-resource-procurement-platform-job-003",
+    "companyId": "global-tech-ai-resource-procurement-platform",
+    "createdAt": "2026-08-11T12:32:00.000Z",
+    "title": "大模型训练数据采购专家",
+    "titleEn": "AI Training Data Procurement Specialist",
+    "jobType": "operations,bd-sales",
+    "jobTypeEn": "Operations,Sales & Business Development",
+    "workMode": "杭州办公；资深专家职级，计划招聘 2–3 人",
+    "workModeEn": "Hangzhou-based; senior expert level, 2–3 openings",
+    "location": "杭州",
+    "locationEn": "Hangzhou",
+    "description": "岗位背景：\n大模型训练、微调与评测需要持续获得合法合规、质量稳定、覆盖充分的数据。本岗位负责标准化数据集与定制化语料的采购，将算法团队的训练目标转化为可采购、可验收、可复用的数据规格，并建立覆盖资源发现、商务合作、合规审查、质量验收和长期供应的完整体系。\n\n岗位职责：\n• 负责文本、图像、音频、视频及行业数据等标准化数据集和定制化语料的寻源、采购与交付。\n• 与模型、算法和评测团队协作，将训练、微调、对齐与评测需求拆解为语言、领域、模态、规模、质量、时效、授权和验收标准。\n• 开拓并管理数据交易所、数据服务商、行业机构、内容与版权资源方等多元供应渠道。\n• 负责供应商尽调、方案比选、商务谈判、合同、交付、验收、结算和持续质量管理。\n• 与法务、安全和数据治理团队协作，审核数据来源、权属授权、个人信息、隐私保护、跨境及使用范围，降低合规风险。\n• 建立数据资源目录、供应商池、价格基准、质量记录与复用机制，提升数据采购效率和资产沉淀。\n• 识别供给缺口和交付风险，推动定制采集、加工、标注或替代方案落地。\n\n任职要求：\n• 具备数据评测、数据采购、数据 BD、数据资源运营、数据服务或训练数据项目经验。\n• 理解大模型训练、微调、对齐或评测中的数据需求，能够将算法目标转化为数据规格和验收标准。\n• 具备出色的资源开拓、商务谈判、项目管理和跨团队沟通能力。\n• 对数据质量、版权、授权、个人信息保护和数据合规具有较强意识。\n• 有多模态数据、行业语料、跨语言数据、公共数据或大型定制数据项目经验者优先。\n\n参考人才背景（仅用于帮助理解画像，不构成定向挖猎名单）：\n• 互联网大厂的数据评测、数据 BD、数据资源运营、训练数据或数据治理岗位。\n• 国央企数据服务商、各省市数据交易所及类似库帕斯的数据资源服务机构。",
+    "descriptionEn": "Role Context:\nTraining, fine-tuning, alignment, and evaluation require legally sourced, reliable, representative data. This role sources standardized datasets and customized corpora, translates model objectives into procurable and testable specifications, and builds the full system from resource discovery and commercial partnership through compliance, quality acceptance, and long-term supply.\n\nResponsibilities:\n• Source and procure standardized and custom text, image, audio, video, and industry datasets.\n• Translate training, fine-tuning, alignment, and evaluation needs into language, domain, modality, scale, quality, licensing, and acceptance specifications.\n• Develop supply channels across data exchanges, data-service companies, industry institutions, and content or rights holders.\n• Own supplier diligence, evaluation, negotiation, contracting, delivery, acceptance, settlement, and quality management.\n• Partner with Legal, Security, and Data Governance on provenance, rights, privacy, cross-border considerations, and permitted use.\n• Build resource catalogs, supplier pools, pricing benchmarks, quality histories, and reuse mechanisms.\n• Resolve supply gaps through custom collection, processing, annotation, or alternative solutions.\n\nRequirements:\nExperience in data evaluation, data procurement, data BD, data-resource operations, data services, or training-data programs; practical understanding of model-training and evaluation data; strong sourcing, negotiation, delivery, and compliance judgment. Multimodal, multilingual, industry-corpus, public-data, or large custom-data experience is preferred.\n\nReference backgrounds only—not a targeted poaching list: data evaluation, data BD, resource operations, training-data, or governance roles at major internet companies; and state-owned data-service providers, provincial or municipal data exchanges, and comparable data-resource institutions.",
+    "tags": [
+      "训练数据",
+      "语料采购",
+      "数据BD",
+      "数据合规",
+      "杭州"
+    ],
+    "tagsEn": [
+      "Training Data",
+      "Corpus Procurement",
+      "Data BD",
+      "Data Compliance",
+      "Hangzhou"
+    ],
+    "profile": {
+      "experience": "资深专家；数据评测、数据BD、资源运营或采购经验",
+      "experienceEn": "Senior expert with data evaluation, data BD, resource operations, or procurement experience",
+      "skills": [
+        "数据寻源",
+        "语料规格",
+        "供应商管理",
+        "数据合规"
+      ],
+      "skillsEn": [
+        "Data Sourcing",
+        "Corpus Specifications",
+        "Vendor Management",
+        "Data Compliance"
+      ]
+    },
+    "sort": 3
   }
 ]
