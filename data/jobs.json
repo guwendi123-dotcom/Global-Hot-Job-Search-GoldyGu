@@ -2687,19 +2687,46 @@
   {
     "id": "consumer-ai-creative-expression-platform-job-004",
     "companyId": "consumer-ai-creative-expression-platform",
-    "title": "AI Native 产品经理",
-    "titleEn": "AI Native Product Manager",
+    "title": "AI 用户产品经理",
+    "titleEn": "AI Consumer Product Manager",
     "jobType": "product-design",
     "jobTypeEn": "Product & Design",
     "workMode": "上海办公，具体安排面议",
     "workModeEn": "Shanghai-based; work arrangement to be discussed",
     "location": "上海",
     "locationEn": "Shanghai",
-    "description": "岗位职责：\n• 负责 UGC 组织的 AI Native 产品规划，可聚焦用户产品或模型产品方向。\n• 深入创作者从灵感、生成、编辑到发布的完整链路，识别高价值问题并设计 AI 原生解决方案。\n• 将模型能力转化为用户可理解、可控制、可持续使用的产品体验，设计 Prompt、工作流、交互与效果反馈机制。\n• 联动算法、工程、设计和运营完成需求拆解、原型验证、上线及数据复盘，对核心使用率、创作成功率和留存负责。\n• 建立模型效果与用户价值结合的评测框架，持续推动产品和模型迭代。\n\n任职要求：\n• 2 年以上互联网或 AI 产品经验，有 C 端 UGC、内容创作或生成式 AI 产品经验优先。\n• 深度使用主流 AI 产品和创作工具，理解模型能力边界及常见不稳定性。\n• 用户洞察与产品 Sense 强，能把模糊问题快速转化为原型和实验。\n• 数据驱动、执行力强，能在高不确定性的 0 到 1 环境中推动跨团队交付。\n• 有模型评测、Agent、工作流、多模态或创作者工具经验者加分。",
-    "descriptionEn": "Own AI-native products for a UGC organization across either user-product or model-product tracks. Understand the full creator journey, turn model capabilities into controllable experiences, design prompts and workflows, run rapid prototypes, and own adoption, creation success, and retention. Requires 2+ years in internet or AI products, strong consumer judgment, hands-on use of AI creative tools, understanding of model limitations, and proven zero-to-one execution. Evaluation, agents, multimodal workflows, or creator-tool experience is a plus.",
-    "tags": ["AI产品", "UGC", "多模态", "创作者工具", "上海"],
-    "tagsEn": ["AI Product", "UGC", "Multimodal", "Creator Tools", "Shanghai"],
-    "profile": {"experience": "2年以上", "experienceEn": "2+ years", "skills": ["C端产品", "AI工作流", "模型评测", "0-1产品"], "skillsEn": ["Consumer Product", "AI Workflows", "Model Evaluation", "0-to-1 Product"]},
+    "description": "岗位职责：\n• 深入理解 C 端用户需求与痛点，负责 AI 原生用户产品从需求洞察、方案设计、原型验证到上线迭代的完整过程。\n• 将模型能力转化为用户可理解、可控制且体验流畅的产品方案，设计 Prompt、工作流、交互与效果反馈机制。\n• 使用 Vibe Coding 与 AI Coding 工具快速完成基础原型或 Demo，在开发前验证产品逻辑、关键体验和技术可行性。\n• 结合用户行为和产品数据发现问题，持续优化核心使用率、创作成功率、用户体验与留存。\n• 将业务目标拆解为清晰的产品任务，与设计、研发、算法及运营团队高效协作，推动项目按计划交付。\n• 持续跟踪 AI 产品及交互范式的发展，在快速变化的环境中判断机会并推动落地。\n\n任职要求：\n• 用户思维突出，能够精准洞察 C 端需求，并完成结构化分析与拆解。\n• 产品基本功扎实，理解 AI 工作流，能够输出逻辑清晰、体验流畅的产品方案。\n• 具备 Vibe Coding、AI Coding 或快速原型能力，能够独立制作基础 Prototype / Demo。\n• 具备数据分析意识，能够通过数据判断问题并推动产品优化。\n• 同理心、逻辑思维和想象力均处于良好水平，且至少一项能力突出。\n• 业务理解、全局视角和项目管理能力强，能协调多团队推动复杂项目。\n• 对 AI 行业保持热情，自驱、执行力强，能够适应高不确定性和项目压力。\n\n加分项：有 C 端 UGC、内容创作、生成式 AI、多模态、Agent 或创作者工具产品经验；有完整的 0 到 1 产品案例。",
+    "descriptionEn": "Responsibilities:\n• Own consumer AI products from user insight and concept design through prototyping, launch, and iteration.\n• Translate model capabilities into intuitive and controllable experiences across prompts, workflows, interactions, and feedback loops.\n• Use vibe coding and AI coding tools to build lightweight prototypes or demos that validate logic, experience, and feasibility before development.\n• Use product and behavior data to improve adoption, creation success, user experience, and retention.\n• Translate business goals into clear product work and drive delivery across Design, Engineering, AI, and Operations.\n• Track emerging AI-product and interaction patterns and turn the right opportunities into shipped experiences.\n\nRequirements:\n• Exceptional consumer insight and structured problem analysis.\n• Strong product fundamentals, understanding of AI workflows, and the ability to design coherent end-to-end experiences.\n• Hands-on vibe-coding, AI-coding, or rapid-prototyping capability.\n• Data literacy and the ability to use evidence to improve products.\n• Strong empathy, logic, and imagination, with at least one of these capabilities standing out.\n• Business judgment, systems thinking, program leadership, cross-functional communication, ownership, and resilience.\n\nPreferred: consumer UGC, creative tools, generative AI, multimodal systems, agents, creator products, or a complete zero-to-one launch.",
+    "tags": [
+      "AI用户产品",
+      "Vibe Coding",
+      "C端产品",
+      "AI工作流",
+      "上海"
+    ],
+    "tagsEn": [
+      "AI Consumer Product",
+      "Vibe Coding",
+      "Consumer Product",
+      "AI Workflows",
+      "Shanghai"
+    ],
+    "profile": {
+      "experience": "AI或互联网产品经验；优秀0-1案例优先",
+      "experienceEn": "AI or internet product experience; strong zero-to-one work preferred",
+      "skills": [
+        "用户洞察",
+        "Vibe Coding",
+        "AI工作流",
+        "数据驱动"
+      ],
+      "skillsEn": [
+        "User Insight",
+        "Vibe Coding",
+        "AI Workflows",
+        "Data-driven Product"
+      ]
+    },
     "sort": 4
   },
   {
@@ -3225,5 +3252,97 @@
       "skillsEn": ["Regional Product Marketing", "AI Software", "Product Launches", "Sales Enablement"]
     },
     "sort": 3
+  },
+  {
+    "id": "consumer-ai-creative-expression-platform-job-012",
+    "companyId": "consumer-ai-creative-expression-platform",
+    "createdAt": "2026-08-11T10:30:00.000Z",
+    "title": "AI 产品设计师",
+    "titleEn": "AI Product Designer",
+    "jobType": "product-design",
+    "jobTypeEn": "Product & Design",
+    "workMode": "上海办公，具体安排面议",
+    "workModeEn": "Shanghai-based; work arrangement to be discussed",
+    "location": "上海",
+    "locationEn": "Shanghai",
+    "description": "岗位职责：\n• 负责 AI 产品从 0 到 1 的产品设计，覆盖用户研究、产品定义、信息架构、交互设计与体验打磨。\n• 将高度模糊的问题快速拆解，通过原型、Demo 和用户反馈持续验证产品方向。\n• 与 AI 全栈工程师深度协作，共同完成产品设计、实现和迭代，而非传统上下游交接模式。\n• 深入理解用户行为，持续优化每一个影响用户感受的细节，并通过做减法保持产品清晰易用。\n• 关注 AI 产品、交互和模型能力的发展趋势，将新的技术能力快速转化为真实用户价值。\n\n任职要求：\n• 产品 Sense 出色，不只思考“怎么做”，也能判断“为什么做”和“是否值得做”。\n• 能独立完成产品逻辑与体验设计，并与工程师平等讨论产品及技术方案。\n• 对用户体验有敏锐判断，理解优秀交互背后的原则，避免无效功能堆叠。\n• 信息架构、交互设计和产品表达能力强，能够快速输出高质量方案。\n• 面对不确定性能够主动形成假设、快速验证并持续迭代。\n\n加分项：\n• 有创业、内部孵化或 Side Project 等完整 0 到 1 产品经历。\n• 有 AI 产品设计经验，理解大语言模型与多模态模型的优势和边界。\n• 熟练使用 Figma、Cursor、Claude Code、Codex 等 AI Native 工具。\n• 对产品细节要求高，能兼顾用户价值、体验质量与商业目标。\n• 拥有公开作品集、设计文章、个人项目或其他可展示成果。",
+    "descriptionEn": "Responsibilities:\n• Design AI products from zero to one across user research, product definition, information architecture, interaction design, and experience craft.\n• Break down ambiguous problems quickly and validate direction through prototypes, demos, and user feedback.\n• Work as a true product-building partner with AI full-stack engineers across design, implementation, and iteration.\n• Understand behavior deeply, refine every important detail, and simplify rather than accumulate features.\n• Turn emerging AI and interaction capabilities into meaningful user value.\n\nRequirements:\n• Exceptional product sense and judgment about why a product or feature should exist.\n• Ability to define product logic independently and debate solutions with engineers as an equal partner.\n• Strong user-experience judgment, interaction principles, information architecture, and product communication.\n• Ability to form hypotheses and iterate quickly under high uncertainty.\n\nPreferred: complete zero-to-one product experience; AI product design and understanding of LLM or multimodal boundaries; proficiency with Figma, Cursor, Claude Code, Codex, or similar AI-native tools; excellent craft; and a public portfolio, writing, or personal projects.",
+    "tags": [
+      "AI产品设计",
+      "0-1产品",
+      "交互设计",
+      "AI Native",
+      "上海"
+    ],
+    "tagsEn": [
+      "AI Product Design",
+      "Zero-to-One",
+      "Interaction Design",
+      "AI Native",
+      "Shanghai"
+    ],
+    "profile": {
+      "experience": "完整产品设计经验；0-1经历优先",
+      "experienceEn": "End-to-end product design; zero-to-one experience preferred",
+      "skills": [
+        "产品Sense",
+        "交互设计",
+        "原型验证",
+        "AI Native工具"
+      ],
+      "skillsEn": [
+        "Product Sense",
+        "Interaction Design",
+        "Rapid Prototyping",
+        "AI-native Tools"
+      ]
+    },
+    "sort": 12
+  },
+  {
+    "id": "consumer-ai-creative-expression-platform-job-013",
+    "companyId": "consumer-ai-creative-expression-platform",
+    "createdAt": "2026-08-11T10:31:00.000Z",
+    "title": "模型策略产品经理（互动内容）",
+    "titleEn": "Model Strategy Product Manager, Interactive Content",
+    "jobType": "product-design",
+    "jobTypeEn": "Product & Design",
+    "workMode": "上海办公，具体安排面议",
+    "workModeEn": "Shanghai-based; work arrangement to be discussed",
+    "location": "上海",
+    "locationEn": "Shanghai",
+    "description": "岗位职责：\n• 负责 AI 互动内容方向，结合前沿 AI 能力探索娱乐内容的新形态、新玩法和新增长机会。\n• 基于对轻度游戏和泛娱乐生态的理解，定义核心内容品类、互动玩法及可准出的效果标准。\n• 设计并搭建互动内容核心 Agent 工作流，对关键链路和最终内容体验负责。\n• 建设标准化 Benchmark 评测集、评测方案和量化标准，持续评估并优化模型内容效果。\n• 通过 Prompt 调优、数据治理和用户反馈回流，与算法团队共同推动模型微调与迭代，建立效果优化闭环。\n• 协调算法、工程、设计和内容团队，独立推动互动内容项目从 0 到 1 上线。\n\n任职要求：\n• 2 年以上 AI 模型策略产品经验，具备 AI Native 思维，理解大模型与 Agent 的能力边界。\n• 具备 Agent 链路搭建、模型评测体系建设、Prompt 优化等核心策略实践。\n• 逻辑清晰、执行力强，能独立推进 0 到 1 项目并完成跨团队协作。\n• 日常关注或体验轻度游戏，理解小游戏和泛娱乐用户的核心需求。\n\n加分项：有游戏内容平台、互动娱乐或 UGC 游戏生态经验；熟悉轻度游戏玩法设计、内容评测、模型微调或多模态生成。",
+    "descriptionEn": "Responsibilities:\n• Own AI interactive-content strategy and explore new entertainment formats, gameplay, and growth opportunities enabled by frontier AI.\n• Define core content categories, interactive mechanics, and release-quality standards through a strong understanding of casual gaming and entertainment ecosystems.\n• Design and build the core agent workflows behind interactive content.\n• Establish benchmark datasets, evaluation methods, and quantitative standards for model-generated experiences.\n• Create a model-improvement loop through prompt optimization, data governance, user feedback, and close collaboration with AI researchers.\n• Lead cross-functional zero-to-one delivery across AI, Engineering, Design, and Content.\n\nRequirements:\n• 2+ years in AI model-strategy products, with AI-native judgment and understanding of LLM and agent boundaries.\n• Hands-on experience with agent workflows, model evaluation, benchmarks, and prompt optimization.\n• Strong logic, execution, ownership, and cross-functional leadership in zero-to-one projects.\n• Genuine familiarity with casual games and interactive-entertainment user needs.\n\nPreferred: game-content platforms, interactive entertainment, UGC gaming ecosystems, gameplay design, model tuning, or multimodal generation.",
+    "tags": [
+      "互动内容",
+      "模型策略",
+      "Agent工作流",
+      "模型评测",
+      "上海"
+    ],
+    "tagsEn": [
+      "Interactive Content",
+      "Model Strategy",
+      "Agent Workflows",
+      "Model Evaluation",
+      "Shanghai"
+    ],
+    "profile": {
+      "experience": "2年以上AI模型策略产品经验",
+      "experienceEn": "2+ years in AI model-strategy products",
+      "skills": [
+        "Agent链路",
+        "Benchmark评测",
+        "Prompt优化",
+        "轻度游戏"
+      ],
+      "skillsEn": [
+        "Agent Workflows",
+        "Benchmark Evaluation",
+        "Prompt Optimization",
+        "Casual Games"
+      ]
+    },
+    "sort": 13
   }
 ]
