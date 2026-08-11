@@ -348,5 +348,21 @@
     "location": "吉隆坡 / 阿布扎比 / 香港",
     "locationEn": "Kuala Lumpur / Abu Dhabi / Hong Kong",
     "sort": 4
+  },
+  {
+    "id": "ai-consumer-intelligence-marketing-platform",
+    "createdAt": "2026-08-11T04:00:00.000Z",
+    "industryId": "ai-agent",
+    "name": "AI 消费智能与营销 Agent 平台",
+    "nameEn": "AI Consumer Intelligence & Marketing Agent Platform",
+    "logo": "",
+    "logoEmoji": "🎯",
+    "description": "一家面向欧美市场的 AI Marketing 公司，依托其在欧洲电商领域长期积累的大规模自有销售数据，与持续运行的 AI 商业实验共同训练消费垂直模型，提升对消费者需求、内容、交易与市场趋势的理解和预测能力，并以模型与真实商业数据双轮驱动，为 C 端用户和 B 端品牌提供更智能、精准的决策支持。其关联内容与达人业务自 2022 年起深耕欧洲电商，已签约 2,000 余名欧洲本土创作者，沉淀 8,000 余名合作达人资源，并服务超过 900 个品牌，处于欧洲电商内容营销头部阵营。公司当前估值约人民币 10 亿元，已在欧美开展业务，并计划在中国深圳同步设立主体，建设全球化 AI 产品与研发团队。",
+    "descriptionEn": "An AI marketing company serving European and North American markets. It combines large-scale proprietary European commerce and sales data with continuous AI-driven business experiments to train vertical consumer-intelligence models, improving the understanding and prediction of demand, content performance, transactions, and market trends. This model-and-data flywheel supports smarter decisions for both consumers and brands. Its affiliated creator-commerce operation has worked across European e-commerce since 2022, with more than 2,000 contracted local creators, a network of over 8,000 creators, and more than 900 brand clients, placing it among the leading commerce-focused creator organizations in Europe. The company is valued at approximately RMB 1 billion, operates across Western markets, and is preparing a Shenzhen entity to build a global AI product and engineering organization.",
+    "stage": "估值约人民币 10 亿元",
+    "stageEn": "Approx. RMB 1B Valuation",
+    "location": "欧美 / 深圳（主体筹备中）",
+    "locationEn": "Europe & North America / Shenzhen entity in formation",
+    "sort": 5
   }
 ]

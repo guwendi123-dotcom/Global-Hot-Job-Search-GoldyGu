@@ -4,9 +4,9 @@ import { getKv, readCompanies, readJobs } from "@/lib/admin-store";
 const WINDOW_DAYS = 30;
 const DAILY_TTL_SECONDS = 45 * 24 * 60 * 60;
 const SNAPSHOT_KEY = "analytics:company-ranking:weekly";
-const HOME_SNAPSHOT_KEY = "analytics:homepage-ranking:weekly-v3";
+const HOME_SNAPSHOT_KEY = "analytics:homepage-ranking:weekly-v4";
 const HEAT_WEIGHT = 20;
-const FRESHNESS_WEIGHT = 70;
+const FRESHNESS_WEIGHT = 90;
 
 type DailyViews = Record<string, number>;
 
