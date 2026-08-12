@@ -396,5 +396,21 @@
     "location": "杭州",
     "locationEn": "Hangzhou",
     "sort": 27
+  },
+  {
+    "id": "global-ai-visual-storytelling-platform",
+    "createdAt": "2026-08-12T02:30:00.000Z",
+    "industryId": "ai",
+    "name": "全球 AI 视觉叙事创作平台",
+    "nameEn": "Global AI Visual Storytelling Platform",
+    "logo": "",
+    "logoEmoji": "🎨",
+    "description": "一家高速增长的全球 AI 视觉叙事创作平台，由前头部科技公司创业者创立，面向全球创作者、内容团队与专业用户，提供覆盖图像、视频、角色、音频和完整故事生产的一体化创作体验。平台已从早期 AI 图像发现与生成工具，持续演进为支持角色一致性、视觉编辑、视频生成与故事创作的完整产品矩阵。2025 年公司收入增长约 7 倍，ARR 从约 1,050 万美元增长至超过 7,000 万美元，月活用户超过 800 万，并完成由知名美元基金领投的 3,500 万美元 A 轮融资。团队保持精干、高速和产品驱动，已经验证全球用户需求与订阅商业模式，现阶段的核心任务是把强产品势能进一步升级为全球品牌、创作者生态和可持续增长体系。",
+    "descriptionEn": "A fast-growing global AI visual-storytelling platform founded by former leaders from a top technology company. It serves creators, content teams, and professionals with an integrated experience spanning image, video, characters, audio, and end-to-end story creation. The product has evolved from an early AI-image discovery and generation tool into a broader creative suite supporting character consistency, visual editing, video generation, and storytelling workflows. In 2025, revenue grew approximately sevenfold, ARR expanded from about US$10.5 million to more than US$70 million, monthly active users surpassed eight million, and the company raised a US$35 million Series A led by a prominent US venture firm. The lean, product-driven team has already validated global demand and subscription monetization; its next chapter is to turn strong product momentum into an enduring global brand, creator ecosystem, and scalable growth engine.",
+    "stage": "A 轮 · 3,500 万美元融资 · ARR 超 7,000 万美元",
+    "stageEn": "Series A · US$35M Raised · US$70M+ ARR",
+    "location": "San Carlos, CA",
+    "locationEn": "San Carlos, CA",
+    "sort": 28
   }
 ]
