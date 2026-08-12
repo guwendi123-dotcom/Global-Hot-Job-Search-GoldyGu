@@ -412,5 +412,21 @@
     "location": "San Carlos, CA",
     "locationEn": "San Carlos, CA",
     "sort": 28
+  },
+  {
+    "id": "next-generation-agi-model-agent-platform",
+    "createdAt": "2026-08-12T04:00:00.000Z",
+    "industryId": "ai-agent",
+    "name": "新一代 AGI 模型与 Agent 平台",
+    "nameEn": "Next-Generation AGI Model & Agent Platform",
+    "logo": "",
+    "logoEmoji": "🧠",
+    "description": "一家新成立的中国新一代 AGI 模型公司，面向率先采用人工智能的知识工作者，探索研究、创作、决策、协作与执行等高价值场景中的数量级效率提升。团队已聚集高密度的模型研究、工程与产品人才，并拥有支撑前沿探索的算力和研发资源。公司并非只在基础模型之上构建简单应用，而是推动模型能力、Agent Harness 与真实用户任务共同演进，致力于定义前沿模型进入复杂工作流的最佳接口。现阶段处于核心产品与品牌从 0 到 1 的关键时期，早期成员能够直接参与技术路线、产品体验、开发者生态和全球传播体系的建设。",
+    "descriptionEn": "A newly established next-generation AGI model company in China, focused on delivering order-of-magnitude productivity gains for pioneering knowledge workers across research, creation, decision-making, collaboration, and execution. The team brings together high-density model research, engineering, and product talent with the compute and resources required for frontier development. Rather than building a thin application layer, it is co-evolving model capabilities, Agent Harness infrastructure, and real-world user tasks to define the best interface between frontier intelligence and complex workflows. The company is at a pivotal zero-to-one stage across product, developer ecosystem, and brand, giving early team members meaningful influence over technology, experience, and global adoption.",
+    "stage": "早期核心团队 · 模型与 Agent 协同研发",
+    "stageEn": "Early Core Team · Model-Agent Co-development",
+    "location": "北京 / 深圳 / 上海",
+    "locationEn": "Beijing / Shenzhen / Shanghai",
+    "sort": 29
   }
 ]

@@ -3532,5 +3532,77 @@
       ]
     },
     "sort": 1
+  },
+  {
+    "id": "next-generation-agi-model-agent-platform-job-001",
+    "companyId": "next-generation-agi-model-agent-platform",
+    "createdAt": "2026-08-12T04:01:00.000Z",
+    "title": "社交媒体运营（国内 / 海外）",
+    "titleEn": "Social Media Operations (China / Global)",
+    "jobType": "mkt-growth,operations",
+    "jobTypeEn": "Marketing & Growth, Operations",
+    "workMode": "北京办公；可根据经验侧重国内或海外方向",
+    "workModeEn": "Beijing-based; scope may focus on China or global markets",
+    "location": "北京",
+    "locationEn": "Beijing",
+    "description": "岗位介绍：\n加入一家处于早期核心阶段的新一代 AGI 模型公司，把前沿模型能力转化为大众愿意理解、讨论和传播的故事。这个岗位既需要真正关注 AI 技术变化，也需要理解社交媒体的内容机制、传播路径和意见领袖生态。\n\n岗位职责：\n• 持续追踪大模型与 Agent 领域的前沿进展、行业动向和社交传播路径，分析话题如何被点燃、由谁推动以及为何出圈。\n• 将复杂的技术突破和产品能力翻译成清晰、有记忆点且有传播力的叙事，围绕产品发布与日常运营制定内容和传播策略。\n• 深入理解小红书、公众号等国内平台以及主流海外社交平台的内容调性、算法逻辑、用户习惯和传播机制。\n• 针对不同平台完成差异化选题、内容表达、发布节奏和互动设计，而不是简单复制同一套素材。\n• 挖掘、触达并维护国内外技术达人、KOL 和行业创作者，推动合作、内容共创与长期关系建设。\n• 复盘内容表现、达人合作和传播链路，沉淀可复用的选题判断、叙事框架和运营方法。\n\n任职要求：\n• 对前沿 AI、大模型与 Agent 有真实理解和长期热情，能够判断内容时机与传播机会；重度使用前沿 AI 工具者优先。\n• 具备传播叙事和策略能力，能够把复杂技术讲成不同受众愿意理解和转发的内容。\n• 至少具备一个社交媒体平台的实际运营经验，有可说明的内容或增长案例。\n• 对热点、社区氛围、内容审美和传播节奏敏感，兼具独立判断与快速执行能力。\n\n加分项：\n• 有技术达人或 KOL 挖掘、触达、合作与内容共创经验。\n• 海外方向候选人具备海外学习、工作或生活经历，英语可作为工作语言。\n• 能独立使用 AI 工具创作具有传播力的图文、视频或互动内容。\n• 有大模型、AI 产业媒体或前沿科技内容经历。\n\n岗位亮点：\n• 直接参与新一代 AGI 模型公司的品牌与传播体系从 0 到 1。\n• 深度接触模型研究、Agent 产品和开发者生态，不是外围品牌执行岗位。\n• 国内与海外传播方向均有空间，能够建立跨平台、跨文化的技术叙事能力。",
+    "descriptionEn": "Role Overview:\nJoin an early-stage next-generation AGI model company and turn frontier model capabilities into stories that people can understand, discuss, and share. This role requires both genuine curiosity about AI progress and strong judgment about social platforms, narratives, and opinion-leader ecosystems.\n\nWhat You Will Do:\n• Track frontier developments across LLMs and agents, studying how technical topics spread, who ignites them, and why they break through.\n• Translate complex technical and product capabilities into clear, memorable narratives for launches and always-on communications.\n• Develop platform-native strategies across major Chinese and global social channels, adapting topics, formats, timing, and interaction mechanics to each audience.\n• Identify, engage, and build relationships with technical creators and KOLs in China and overseas, driving partnerships and content co-creation.\n• Analyze content, creator collaborations, and propagation paths to build repeatable editorial and distribution playbooks.\n\nWhat We Look For:\n• Genuine understanding of and passion for frontier AI, LLMs, and agents; heavy users of advanced AI tools are preferred.\n• Strong narrative and communications judgment, with the ability to make complex technology accessible without losing substance.\n• Hands-on operating experience on at least one social platform and clear examples of content or growth outcomes.\n• Strong sensitivity to trends, community dynamics, content quality, and timing.\n\nPreferred:\nTechnical creator/KOL partnerships; overseas study, work, or living experience and professional English for the global track; AI-assisted content creation; or experience in AI and technology media.",
+    "tags": ["AI传播", "社交媒体", "技术内容", "KOL合作", "国内与海外", "北京"],
+    "tagsEn": ["AI Communications", "Social Media", "Technical Content", "KOL Partnerships", "China & Global", "Beijing"],
+    "profile": {
+      "experience": "不限年限，更看重实际传播案例与 AI 理解",
+      "experienceEn": "No fixed years; evidence of execution and AI understanding matters most",
+      "skills": ["AI趋势判断", "传播叙事", "社媒运营", "KOL合作", "内容策划"],
+      "skillsEn": ["AI Trend Judgment", "Narrative Strategy", "Social Operations", "KOL Partnerships", "Content Strategy"]
+    },
+    "sort": 1
+  },
+  {
+    "id": "next-generation-agi-model-agent-platform-job-002",
+    "companyId": "next-generation-agi-model-agent-platform",
+    "createdAt": "2026-08-12T04:02:00.000Z",
+    "title": "Agent Harness 产品负责人",
+    "titleEn": "Product Lead, Agent Harness",
+    "jobType": "product-design",
+    "jobTypeEn": "Product & Design",
+    "workMode": "北京、深圳或上海办公",
+    "workModeEn": "Based in Beijing, Shenzhen, or Shanghai",
+    "location": "北京 / 深圳 / 上海",
+    "locationEn": "Beijing / Shenzhen / Shanghai",
+    "description": "岗位介绍：\n这是一个极具拓荒性质的核心产品岗位。你将负责定义前沿模型能力与真实用户任务之间的最佳接口，推动 Agent Harness 与模型共同进化，让智能体能够可靠地进入研究、创作、决策、协作和执行等复杂工作流。我们寻找的不是传统写 PRD 的产品经理，而是既能深入框架源码、理解模型行为，又能敏锐捕捉开发者与高价值用户痛点的技术型产品负责人。\n\n岗位职责：\n• 规划 Agent Harness 产品的演进路线，跳出现有框架局限，基于多步复杂任务执行轨迹定义下一代产品壁垒与交互形态。\n• 与模型研究和工程团队紧密协作，从 Harness 视角推动模型能力适配，将技术突破转化为稳定、可验证的真实体验。\n• 深入真实高价值场景定义任务与成功标准，不盲目追求基准跑分，而是衡量 Agent 是否真正解决用户问题。\n• 分析开源社区、开发者和用户社群中的高噪反馈，提取高价值信号并推动产品敏捷迭代。\n• 建立覆盖任务轨迹、成功率、质量、成本、延迟和体验的数据验证机制。\n• 使用 AI Coding 快速完成原型、技术验证与 UI/UX 交互方案，推动从洞察到上线的完整闭环。\n\n任职要求：\n• 3 年以上相关经验；特别优秀者不受年限限制。逻辑清晰、技术视野广，能在高复杂度和高不确定性中闭环推进。\n• 是 Claude Code、Codex、Cursor 等 Agent 工具的高强度用户，对模型行为和开发者体验有高标准。\n• 软件开发基础扎实，能使用 AI Agent 工具完成高质量编程，并快速进入陌生技术栈。\n• 有能力阅读、拆解并逆向分析主流 Agent 框架源码，理解其架构、执行链路与关键取舍。\n• 熟悉 LLM API、KV Cache、Agent Loop、Tool Use、Reasoning、Planning、MCP、Memory 等核心机制。\n• 对 Prompt、Context 与 Harness Engineering 有成体系的实践经验。\n• 具备数据与设计素养，能建立验证机制并独立完成产品原型和体验设计。\n• 能用中英文与全球开源生态沟通，并把复杂技术理念转化为团队共识。\n\n加分项：\n• 有一人公司或小团队 0 到 1 产品闭环经验。\n• 拥有高质量开源作品，或在主流开源社区有代码级贡献。\n• 与顶尖 AI 研究人员有深度协作经验，具备优秀科研品味。\n• 在计算机、数据科学相关赛事获奖，或发表过高水平论文。\n\n岗位亮点：\n• 负责模型公司最接近真实用户价值的 Agent 核心方向，而非外围应用。\n• 与模型研究团队共同定义能力边界、训练反馈与产品形态。\n• 早期负责人席位，对技术路线、产品体验和开发者生态拥有真实影响力。",
+    "descriptionEn": "Role Overview:\nThis is a highly exploratory core product role defining the best interface between frontier model capabilities and real user tasks. You will co-evolve Agent Harness infrastructure with model research so agents can reliably operate across complex workflows in research, creation, decision-making, collaboration, and execution. This is not a conventional PRD-only PM role; it requires source-level technical depth, strong judgment about model behavior, and exceptional sensitivity to developer and high-value user needs.\n\nWhat You Will Do:\n• Own the Agent Harness roadmap and define next-generation product moats and interactions through deep analysis of multi-step task trajectories.\n• Partner closely with model researchers and engineers to adapt Harness and model capabilities together, translating breakthroughs into reliable user outcomes.\n• Define real-world tasks and success criteria, prioritizing actual user value over benchmark scores.\n• Distill high-value signals from noisy open-source, developer, and user feedback.\n• Build measurement across task trajectories, success, quality, cost, latency, and experience.\n• Use AI Coding to prototype, validate technical ideas, and design interaction flows from insight through launch.\n\nWhat We Look For:\n• 3+ years of relevant experience, with exceptions for outstanding candidates; strong systems thinking and execution in ambiguity.\n• Heavy use of Claude Code, Codex, Cursor, or similar agent tools, with high standards for model behavior and developer experience.\n• Strong software foundations and the ability to enter unfamiliar stacks quickly with AI assistance.\n• Ability to inspect and reverse-engineer mainstream agent frameworks at the source-code level.\n• Practical command of LLM APIs, KV Cache, Agent Loops, Tool Use, Reasoning, Planning, MCP, Memory, Prompt, Context, and Harness Engineering.\n• Strong data and design judgment, including validation systems and independent UI/UX prototyping.\n• Ability to communicate with the global open-source ecosystem in Chinese and English.\n\nPreferred:\nOne-person-company or zero-to-one small-team experience, meaningful open-source contributions, collaboration with leading AI researchers, or strong competition and publication credentials.",
+    "tags": ["Agent Harness", "技术产品", "LLM", "MCP", "开发者体验", "多城市"],
+    "tagsEn": ["Agent Harness", "Technical Product", "LLM", "MCP", "Developer Experience", "Multiple Cities"],
+    "profile": {
+      "experience": "3年以上；特别优秀者不限年限",
+      "experienceEn": "3+ years; exceptional candidates considered regardless of tenure",
+      "skills": ["Agent Harness", "框架源码", "LLM机制", "AI Coding", "产品闭环"],
+      "skillsEn": ["Agent Harness", "Framework Internals", "LLM Systems", "AI Coding", "Product Ownership"]
+    },
+    "sort": 2
+  },
+  {
+    "id": "next-generation-agi-model-agent-platform-job-003",
+    "companyId": "next-generation-agi-model-agent-platform",
+    "createdAt": "2026-08-12T04:03:00.000Z",
+    "title": "AI Native 产品与品牌设计师",
+    "titleEn": "AI-Native Product & Brand Designer",
+    "jobType": "product-design",
+    "jobTypeEn": "Product & Design",
+    "workMode": "北京办公；首位设计师 / Founding Designer",
+    "workModeEn": "Beijing-based; first and founding designer",
+    "location": "北京",
+    "locationEn": "Beijing",
+    "description": "岗位介绍：\n作为公司的首位设计师，你定义的不是单个项目，而是一家新一代 AGI 模型公司被世界感知和理解的方式。你将同时主导品牌视觉与 AI 产品体验，从 0 到 1 建立视觉语言，并探索如何让复杂的模型和 Agent 能力以自然、优雅且有辨识度的方式进入用户工作流。\n\n岗位职责：\n• 定义并持续演进公司的审美标准和完整视觉体系，覆盖品牌形象、官网、发布物料、社交内容、周边与线下触点。\n• 负责 AI 产品的 UI/UX、视觉和交互设计，让前沿模型能力以清晰、可信和高品质的方式服务用户。\n• 将复杂技术、产品能力与公司愿景转化为有感染力的视觉叙事。\n• 与创始团队、产品、模型研究和工程团队深度协作，在早期阶段共同定义产品形态。\n• 重度使用 AIGC 与 Agent 工具提高研究、概念生成、原型、视觉生产和交付效率。\n• 探索尚未被充分定义的 AI Native 交互和品牌表达方式，持续建立可复用的设计系统与方法。\n\n任职要求：\n• 设计、美术教育、游戏设计或相关专业本科及以上学历。\n• 在国内外中大型科技公司具备完整的产品 UI/UX 与平面、品牌或视觉设计经验。\n• 审美和原创能力出众，能够从 0 到 1 定义一套有辨识度且可扩展的视觉语言。\n• 在熟练使用传统设计工具的基础上，至少有一年重度使用 AIGC 工具进行文字、图像或视频生产的经验。\n• 熟悉 Claude Cowork、Codex、OpenClaw、Hermes Agent 或同类 AI Native 工具，并能把工具真正融入设计工作流。\n• 热爱 AI 技术，相信 AI 将成为新时代的核心生产力，并愿意长期探索其产品与设计范式。\n• 拥有高质量作品集，能够清晰说明作品背后的判断、取舍和系统性思考。\n\n岗位亮点：\n• 公司的第一位设计师，能够从源头定义品牌、产品与设计系统。\n• 与模型研究及 Agent 产品团队直接协作，把前沿能力转化为真实体验。\n• 不局限于执行既定需求，而是参与公司审美标准、产品方向与全球表达的共同建设。",
+    "descriptionEn": "Role Overview:\nAs the company's first designer, you will define not just a project but how a next-generation AGI model company is perceived and understood. You will lead both brand expression and AI product experience, building a visual language from zero and exploring how complex model and agent capabilities can enter real workflows with clarity, elegance, and distinction.\n\nWhat You Will Do:\n• Define and evolve the company's visual standards across brand identity, website, launches, social content, merchandise, and physical touchpoints.\n• Own UI/UX, visual, and interaction design for AI products, making frontier capabilities clear, trustworthy, and delightful.\n• Translate complex technology, product value, and company vision into compelling visual narratives.\n• Partner deeply with founders, Product, model research, and Engineering to shape early product direction.\n• Use AIGC and agent tools throughout research, concepting, prototyping, visual production, and delivery.\n• Explore new AI-native interaction and brand patterns while building reusable design systems.\n\nWhat We Look For:\n• Bachelor's degree or above in Design, Art Education, Game Design, or a related field.\n• Complete product UI/UX plus graphic, visual, or brand design experience at a mid-sized or large technology company in China or overseas.\n• Outstanding taste and originality, with the ability to create a distinctive and scalable visual language from zero.\n• At least one year of intensive AIGC use across text, image, or video production in addition to strong traditional design skills.\n• Fluency with Claude Cowork, Codex, OpenClaw, Hermes Agent, or comparable AI-native tools as part of a real design workflow.\n• Deep enthusiasm for AI and a high-quality portfolio supported by clear, systematic design reasoning.\n\nWhy Join:\nBecome the first designer with direct influence over brand, product, and design systems, working alongside model research and Agent product teams to translate frontier intelligence into real user experiences.",
+    "tags": ["Founding Designer", "产品设计", "品牌设计", "AI Native", "UI/UX", "北京"],
+    "tagsEn": ["Founding Designer", "Product Design", "Brand Design", "AI Native", "UI/UX", "Beijing"],
+    "profile": {
+      "experience": "完整产品 UI/UX 与品牌视觉经验；至少 1 年重度 AIGC 实践",
+      "experienceEn": "End-to-end UI/UX and brand experience; 1+ year of intensive AIGC practice",
+      "skills": ["视觉体系", "UI/UX", "品牌叙事", "AIGC工作流", "0到1设计"],
+      "skillsEn": ["Visual Systems", "UI/UX", "Brand Narrative", "AIGC Workflows", "Zero-to-One Design"]
+    },
+    "sort": 3
   }
 ]
