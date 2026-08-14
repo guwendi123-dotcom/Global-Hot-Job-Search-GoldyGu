@@ -428,5 +428,21 @@
     "location": "北京 / 深圳 / 上海",
     "locationEn": "Beijing / Shenzhen / Shanghai",
     "sort": 29
+  },
+  {
+    "id": "frontier-confidential-ai-computing-platform",
+    "createdAt": "2026-08-14T04:00:00.000Z",
+    "industryId": "ai",
+    "name": "前沿密态计算与 AI 数据安全平台",
+    "nameEn": "Frontier Confidential AI Computing Platform",
+    "logo": "",
+    "logoEmoji": "🔐",
+    "description": "一家由国内顶尖高校计算机团队孵化的前沿 AI 数据安全公司，长期专注高性能密态计算，致力于解决 AI 训练、推理与数据协作中的隐私和安全难题。团队将传统密态计算的高额性能损耗压缩至个位数倍，在无需依赖硬件可信执行环境的情况下，同时兼顾理论安全性、工程效率与通用性，并兼容 PyTorch、TensorFlow 等主流 AI 框架。公司曾获得国家级创新创业赛事冠军，并获多家国家级媒体报道；成立半年内完成数千万元人民币天使轮融资，估值达到数亿元人民币。团队由国内外顶尖高校 AI 实验室专家及头部互联网公司人才组成，处于技术产品化和全球市场从 0 到 1 的关键阶段，早期成员拥有较高决策空间、股权激励和直接参与行业基础设施建设的机会。",
+    "descriptionEn": "A frontier AI data-security company incubated by a computer science team from a leading Chinese university. It develops high-performance confidential computing for privacy-preserving AI training, inference, and data collaboration. The team has reduced the traditionally severe performance overhead of encrypted computation to a single-digit multiple without relying on hardware trusted execution environments, while preserving strong security, engineering efficiency, broad applicability, and compatibility with mainstream frameworks such as PyTorch and TensorFlow. The company has won a national innovation competition and received coverage from major national media. Within six months of formation, it completed an angel round worth tens of millions of RMB at a valuation of several hundred million RMB. Its team combines AI-lab experts from leading universities with experienced talent from major technology companies and is now moving from technical breakthrough to productization and global market development.",
+    "stage": "天使轮 · 数千万元融资 · 数亿元估值",
+    "stageEn": "Angel Stage · Tens of Millions RMB Raised · Several-Hundred-Million RMB Valuation",
+    "location": "北京",
+    "locationEn": "Beijing",
+    "sort": 30
   }
 ]
