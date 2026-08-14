@@ -444,5 +444,21 @@
     "location": "北京",
     "locationEn": "Beijing",
     "sort": 30
+  },
+  {
+    "id": "global-digital-finance-trading-infrastructure",
+    "createdAt": "2026-08-14T09:30:00.000Z",
+    "industryId": "web3",
+    "name": "全球头部数字金融与交易基础设施平台",
+    "nameEn": "Leading Global Digital Finance & Trading Infrastructure Platform",
+    "logo": "",
+    "logoEmoji": "🌐",
+    "description": "一家全球领先的数字金融与交易基础设施平台，面向全球个人高净值用户、专业交易者与机构客户，提供数字资产交易、支付、资产管理、机构服务和 Web3 基础能力。平台拥有大规模国际用户和复杂金融系统的长期运营经验，产品团队直接参与 VIP 与机构服务、金融产品增长、支付及法币通道等核心业务。团队分布于亚太及多个国际市场，强调中英文双语协作、快速迭代、强结果导向与面向全球用户的产品判断。当前多个负责人岗位直接汇报产品一号位，能够在成熟业务规模之上主导关键产品体系的下一阶段升级。",
+    "descriptionEn": "A leading global digital-finance and trading-infrastructure platform serving high-net-worth individuals, active traders, and institutional clients worldwide. Its ecosystem spans digital-asset trading, payments, wealth products, institutional services, and Web3 infrastructure. The platform brings deep experience operating large-scale international user businesses and complex financial systems, while its product organization owns mission-critical areas including VIP and institutional experiences, financial-product growth, payments, and fiat access. Teams operate across APAC and global markets with bilingual collaboration, rapid iteration, strong accountability, and international product judgment. Several leadership roles report directly to the head of Product and offer the opportunity to shape the next stage of core platform capabilities at meaningful scale.",
+    "stage": "全球头部平台 · 成熟规模化业务",
+    "stageEn": "Leading Global Platform · Mature Business at Scale",
+    "location": "亚太地区 / 香港 / 新加坡",
+    "locationEn": "APAC / Hong Kong / Singapore",
+    "sort": 31
   }
 ]
