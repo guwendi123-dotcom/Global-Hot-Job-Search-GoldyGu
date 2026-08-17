@@ -2928,6 +2928,58 @@
     "sort": 6
   },
   {
+    "id": "personal-agi-job-006",
+    "companyId": "personal-agi",
+    "createdAt": "2026-08-17T04:01:00.000Z",
+    "title": "视觉设计师（品牌与宣传）",
+    "titleEn": "Visual Designer, Brand & Marketing",
+    "jobType": "product-design,mkt-growth",
+    "jobTypeEn": "Product & Design, MKT & Growth",
+    "workMode": "Palo Alto / Remote；直接汇报 Head of Design",
+    "workModeEn": "Palo Alto / Remote; reports directly to the Head of Design",
+    "location": "Palo Alto / Remote",
+    "locationEn": "Palo Alto / Remote",
+    "description": "岗位介绍：\n加入一家总部位于硅谷的 AI Agent 协作平台，负责让已成型的品牌视觉语言稳定、准确且有质感地落到每一次对外表达。团队由 AI 系统研究者创立，延续多年分布式与去中心化 AI 的开源和研究积累，累计融资约 1700 万美元。你将直接与 Head of Design 合作，覆盖官网、产品发布、社媒、广告及活动等关键触点。\n\n岗位职责：\n• 负责社媒视觉、图文、活动物料、产品发布素材等对外宣传内容。\n• 持续迭代并维护官网与落地页视觉。\n• 与市场团队协作，产出品牌形象及广告物料。\n• 独立完成社媒动图、产品 Demo 动效和宣传短片等动画与视频内容。\n• 完成产品配图、品牌插画、场景图以及产品级 3D 视觉。\n• 在现有品牌系统内稳定交付，并协助维护品牌资产库。\n\n任职要求：\n• 本科及以上学历，设计、视觉传达、动画、插画等相关专业。\n• 3 年以上视觉设计经验，Figma 熟练，版式与图文排布基本功扎实。\n• 具备较强的手绘或数字插画能力，作品集须包含独立完成的原创插画。\n• 熟悉 Blender、C4D 或同类 3D 工具，能够完成产品级视觉。\n• 熟悉 After Effects 或同类工具，能输出 GIF、Lottie 或视频动效。\n• 具备视频剪辑与完整交付能力，能够独立完成一支宣传短片。\n• 出活稳定、节奏快，能够并行推进多条任务。\n\n加分项：\n• 具备基础网页实现能力，可独立调整官网页面。\n• 已将 AI 工具深度融入日常工作流。\n• 英文可用于书面沟通。",
+    "descriptionEn": "Role Overview:\nJoin a Silicon Valley-based AI agent collaboration platform and help its established brand language land consistently and with exceptional craft across every external touchpoint. Founded by AI-systems researchers, the team builds on years of open-source and research work in distributed and decentralized AI and has raised approximately US$17M. You will work directly with the Head of Design across the website, product launches, social, advertising, and events.\n\nResponsibilities:\n• Create social visuals, editorial graphics, event materials, and launch assets.\n• Iterate and maintain website and landing-page visuals.\n• Partner with Marketing on brand imagery and advertising assets.\n• Produce social loops, product-demo motion, and promotional films.\n• Create product illustrations, brand artwork, scene art, and production-quality 3D visuals.\n• Deliver within the existing brand system and help maintain the brand asset library.\n\nQualifications:\n• Bachelor's degree or above in Design, Visual Communication, Animation, Illustration, or a related field.\n• 3+ years in visual design with strong Figma, typography, and layout craft.\n• Strong original hand-drawn or digital illustration represented clearly in your portfolio.\n• Production-level Blender, C4D, or equivalent 3D capability.\n• After Effects or equivalent skills for GIF, Lottie, and video motion.\n• End-to-end video editing and delivery, including the ability to produce a promotional film independently.\n• Reliable, fast, and comfortable managing several workstreams at once.\n\nNice to Have:\n• Basic web implementation skills and the ability to make site edits independently.\n• AI tools embedded in your daily workflow.\n• Working written English.",
+    "tags": ["视觉设计", "品牌设计", "插画", "3D与动效", "Figma", "Remote"],
+    "tagsEn": ["Visual Design", "Brand Design", "Illustration", "3D & Motion", "Figma", "Remote"],
+    "profile": {
+      "experience": "3年以上视觉设计经验",
+      "experienceEn": "3+ years in visual design",
+      "education": "本科及以上，设计相关专业",
+      "educationEn": "Bachelor's or above in a design-related field",
+      "skills": ["Figma与版式", "原创插画", "3D视觉", "动画与视频"],
+      "skillsEn": ["Figma & Layout", "Original Illustration", "3D Visuals", "Motion & Video"]
+    },
+    "sort": 7
+  },
+  {
+    "id": "personal-agi-job-007",
+    "companyId": "personal-agi",
+    "createdAt": "2026-08-17T04:02:00.000Z",
+    "title": "产品设计师（UI）",
+    "titleEn": "Product Designer, UI",
+    "jobType": "product-design",
+    "jobTypeEn": "Product & Design",
+    "workMode": "Palo Alto / Remote；直接汇报 Head of Design",
+    "workModeEn": "Palo Alto / Remote; reports directly to the Head of Design",
+    "location": "Palo Alto / Remote",
+    "locationEn": "Palo Alto / Remote",
+    "description": "岗位介绍：\n加入一家总部位于硅谷的 AI Agent 协作平台，在 Head of Design 直接指导下参与快速迭代的核心产品，并负责设计方案在团队内部的落地、扩展与延续。团队由 AI 系统研究者创立，拥有多年分布式与去中心化 AI 的开源及研究积累，累计融资约 1700 万美元。你将与北美一线设计伙伴和工程团队直接协作，在较短时间内经历完整产品周期。\n\n岗位职责：\n• 参与 onboarding、核心使用流程和 Agent 交互等产品界面设计。\n• 承接外部设计交付物，在内部完成落地、扩展和持续维护。\n• 维护并扩展组件、Design Token 和跨端规范等设计系统能力。\n• 设计状态转场、微交互等界面动效。\n• 完成 Web 与移动端的多语言、多端适配。\n• 与工程团队协作交付，并参与日常设计评审与上线验收。\n\n任职要求：\n• 本科及以上学历，设计、交互设计、数字媒体等相关专业。\n• 1–3 年产品或 UI 设计经验；作品集扎实的优秀应届生亦可。\n• 精通 Figma，熟练使用组件与 Variants，理解设计系统的维护方式。\n• 能使用 Figma、After Effects、Rive 或同类工具完成界面动效。\n• 英文流利，能够直接参加北美团队评审会并读写设计文档。\n• 执行准确、一致性意识强，重视状态、空态、错误和加载等细节。\n\n加分项：\n• 具备基础 HTML / CSS 能力，可自行验证实现效果。\n• 对 AI 产品有真实兴趣或相关设计实践。\n• 已使用 AI 工具提升设计流程和交付效率。",
+    "descriptionEn": "Role Overview:\nJoin a Silicon Valley-based AI agent collaboration platform and work directly under the Head of Design on a rapidly evolving core product. You will help translate design direction into durable in-house execution, extension, and system quality. Founded by AI-systems researchers, the team builds on years of open-source and research work in distributed and decentralized AI and has raised approximately US$17M. You will collaborate directly with leading North American design partners and Engineering and move through full product cycles quickly.\n\nResponsibilities:\n• Design product surfaces including onboarding, core workflows, and agent interactions.\n• Take external design deliverables and implement, extend, and maintain them in-house.\n• Maintain and grow the design system across components, design tokens, and platform guidelines.\n• Create state transitions and micro-interactions.\n• Adapt experiences across languages and Web/mobile platforms.\n• Ship closely with Engineering and participate in design reviews and launch validation.\n\nQualifications:\n• Bachelor's degree or above in Design, Interaction Design, Digital Media, or a related field.\n• 1–3 years in product or UI design; strong recent graduates are welcome.\n• Advanced Figma skills, including components and variants, with a practical understanding of design-system maintenance.\n• Ability to build interface motion with Figma, After Effects, Rive, or similar tools.\n• Fluent English for direct collaboration with North American teams, review calls, and design documentation.\n• Precise execution, consistency-first judgment, and serious attention to states, empty states, errors, and loading experiences.\n\nNice to Have:\n• Basic HTML/CSS skills for implementation validation.\n• Genuine interest or experimentation in AI products.\n• AI tools already used to improve your design workflow.",
+    "tags": ["产品设计", "UI设计", "Design System", "界面动效", "英文流利", "Remote"],
+    "tagsEn": ["Product Design", "UI Design", "Design Systems", "UI Motion", "Fluent English", "Remote"],
+    "profile": {
+      "experience": "1–3年；优秀应届生可考虑",
+      "experienceEn": "1–3 years; strong recent graduates considered",
+      "education": "本科及以上，设计相关专业",
+      "educationEn": "Bachelor's or above in a design-related field",
+      "skills": ["Figma组件与Variants", "设计系统", "界面动效", "英文协作"],
+      "skillsEn": ["Figma Components & Variants", "Design Systems", "UI Motion", "English Collaboration"]
+    },
+    "sort": 8
+  },
+  {
     "id": "global-ai-handwriting-productivity-platform-job-001",
     "companyId": "global-ai-handwriting-productivity-platform",
     "title": "产品设计师（视觉方向）",
