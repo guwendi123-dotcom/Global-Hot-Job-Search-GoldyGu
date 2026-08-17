@@ -93,6 +93,13 @@ export default function JobPage() {
   const education = language === "zh" ? job.profile.education : (job.profile.educationEn || job.profile.education);
   const language_ = language === "zh" ? job.profile.language : (job.profile.languageEn || job.profile.language);
   const skills = language === "zh" ? job.profile.skills : (job.profile.skillsEn || job.profile.skills);
+  const statusLabel = job.hiringStatus === "offer-stage"
+    ? (language === "zh" ? "Offer 阶段" : "Offer Stage")
+    : job.hiringStatus === "paused"
+      ? (language === "zh" ? "暂停招聘" : "Hiring Paused")
+      : job.hiringStatus === "closed"
+        ? (language === "zh" ? "已关闭" : "Closed")
+        : "";
 
   const trans = {
     back: language === "zh" ? "返回" : "Back",
@@ -143,6 +150,12 @@ export default function JobPage() {
               <span className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-accent-light text-accent rounded-full text-sm font-medium">
                 <Briefcase size={14} />
                 {jobTypeName}
+              </span>
+            )}
+            {statusLabel && (
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-50 px-3 py-1.5 text-sm font-medium text-amber-700">
+                <span className="h-2 w-2 rounded-full bg-amber-500" />
+                {statusLabel}
               </span>
             )}
           </div>

@@ -24,6 +24,13 @@ export default function JobCard({ job, company, index }: JobCardProps) {
   const salary = language === "zh" ? job.profile.salary : (job.profile.salaryEn || job.profile.salary);
   const experience = language === "zh" ? job.profile.experience : (job.profile.experienceEn || job.profile.experience);
   const lang = language === "zh" ? "语言要求" : "Language";
+  const statusLabel = job.hiringStatus === "offer-stage"
+    ? (language === "zh" ? "Offer 阶段" : "Offer Stage")
+    : job.hiringStatus === "paused"
+      ? (language === "zh" ? "暂停招聘" : "Hiring Paused")
+      : job.hiringStatus === "closed"
+        ? (language === "zh" ? "已关闭" : "Closed")
+        : "";
 
   return (
     <motion.div
@@ -41,6 +48,12 @@ export default function JobCard({ job, company, index }: JobCardProps) {
               <h3 className="text-lg font-semibold text-text-primary group-hover:text-accent transition-colors">
                 {title}
               </h3>
+              {statusLabel && (
+                <span className="mt-2 inline-flex items-center gap-1.5 rounded-full bg-amber-50 px-2.5 py-1 text-xs font-medium text-amber-700">
+                  <span className="h-1.5 w-1.5 rounded-full bg-amber-500" />
+                  {statusLabel}
+                </span>
+              )}
             </div>
             <ArrowRight className="w-5 h-5 text-text-secondary group-hover:text-accent group-hover:translate-x-1 transition-all flex-shrink-0" />
           </div>
