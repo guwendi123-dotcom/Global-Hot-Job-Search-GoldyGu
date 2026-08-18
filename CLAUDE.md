@@ -1,5 +1,9 @@
 # GoldyHire 协作规则
 
+## 上下文入口
+
+所有网站长期设置统一保存在 `WEBSITE_CONTEXT.md`。开始网站工作时必须先读取该文件和 `PROJECT_STATUS.md`。历史聊天中的候选人分析、招聘文案、海报过程及旧版发布方式均不作为网站操作依据。
+
 ## 唯一主版本
 
 - 唯一本地项目：`/Users/gugudechaojidanao/Documents/Codex/2026-07-20/nin/GoldyHire`
@@ -22,7 +26,7 @@
 
 新增公司或岗位必须写入 ISO 格式的 `createdAt`；通过管理后台新增时系统会自动生成。该字段用于首页“30 天热度 + 新鲜度”排序，编辑旧内容时不得覆盖原始创建时间。
 
-管理后台启用后，Cloudflare KV 中的 `content:companies`、`content:jobs`、`content:industries` 是线上实时内容源，项目内 JSON 是首次初始化与故障回退数据。不得用部署动作清空或覆盖 KV。后台使用方式见 `ADMIN_GUIDE.md`。
+Cloudflare KV 中的 `content:companies`、`content:jobs`、`content:industries` 是线上实时内容源，项目内 JSON 是 GitHub 版本与故障回退数据。不得用部署动作清空或覆盖 KV。默认不使用管理后台；除非用户明确要求，发布一律走 GitHub + Cloudflare 直接流程，并先读取线上 KV、只合并本次变更。后台仅作为备用工具，使用方式见 `ADMIN_GUIDE.md`。
 
 ## 真实公司名称（严格保密）
 
@@ -33,7 +37,7 @@
 
 ## 发布流程
 
-1. 读取本文件和 `PROJECT_STATUS.md`。
+1. 读取 `WEBSITE_CONTEXT.md`、本文件和 `PROJECT_STATUS.md`。
 2. 确认没有覆盖现有公司或岗位，只做用户要求的增删改。
 3. 检查 JSON、脱敏关键词和页面构建。
 4. 运行 `npm run build:cloudflare`。
