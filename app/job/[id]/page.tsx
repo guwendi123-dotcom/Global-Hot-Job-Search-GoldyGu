@@ -77,7 +77,9 @@ export default function JobPage() {
   const companyName = language === "zh" ? company?.name : (company?.nameEn || company?.name);
 
   // Get job type
-  const jobTypeId = job.jobType || (language === "en" ? job.jobTypeEn : job.jobType);
+  const jobTypeId = (job.jobType || (language === "en" ? job.jobTypeEn : job.jobType))
+    ?.split(",")[0]
+    ?.trim();
   const jobType = jobTypeId ? jobTypes.find((item) => item.id === jobTypeId) : null;
   const jobTypeName = language === "zh"
     ? (jobType?.nameZh || jobType?.name)
