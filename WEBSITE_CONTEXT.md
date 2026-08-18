@@ -2,6 +2,8 @@
 
 本文件只保留网站长期维护所需的信息。任何历史聊天、旧副本、招聘文案草稿、候选人分析和海报迭代，都不是网站操作依据。
 
+招聘海报和候选人沟通的可复用规则位于 `MARKETING_CONTEXT.md`，不得混入网站发布流程。
+
 ## 唯一版本
 
 - 本地项目：`/Users/gugudechaojidanao/Documents/Codex/2026-07-20/nin/GoldyHire`

@@ -4,6 +4,8 @@
 
 所有网站长期设置统一保存在 `WEBSITE_CONTEXT.md`。开始网站工作时必须先读取该文件和 `PROJECT_STATUS.md`。历史聊天中的候选人分析、招聘文案、海报过程及旧版发布方式均不作为网站操作依据。
 
+招聘海报、朋友圈、LinkedIn、邮件等可复用规则单独保存在 `MARKETING_CONTEXT.md`。营销素材与网站发布严格分开；只有用户明确要求时才读取该文件。
+
 ## 唯一主版本
 
 - 唯一本地项目：`/Users/gugudechaojidanao/Documents/Codex/2026-07-20/nin/GoldyHire`
