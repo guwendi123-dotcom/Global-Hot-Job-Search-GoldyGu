@@ -460,5 +460,21 @@
     "location": "亚太地区 / 香港 / 新加坡",
     "locationEn": "APAC / Hong Kong / Singapore",
     "sort": 31
+  },
+  {
+    "id": "global-physical-ai-human-experience-data-platform",
+    "createdAt": "2026-08-18T03:07:32.000Z",
+    "industryId": "embodied-ai",
+    "name": "全球 Physical AI 人类体验数据平台",
+    "nameEn": "Global Physical AI Human Experience Data Platform",
+    "logo": "",
+    "logoEmoji": "🦾",
+    "description": "一家总部位于新加坡、近期增长迅速的 Physical AI 与具身智能数据基础设施公司。团队通过自研可穿戴采集硬件与软件系统，记录真实世界中的第一视角视频、深度、动作与音频，并将人类完成复杂物理任务的过程转化为可供机器人、世界模型和空间智能系统训练的大规模多模态数据。公司成立于 2025 年，2026 年 7 月完成约 2,200 万美元 Pre-A 轮融资，累计融资约 3,000 万美元；其千万级真实人类物体交互公开数据集发布后短期内下载量突破 200 万次，验证了 Physical AI 对规模化真实世界数据的强需求。核心团队拥有清华、Meta、Google 与 UC Berkeley 等背景，目前约 60 名全职员工及实习生分布于新加坡、中国、马来西亚和美国，正持续扩大数据采集网络、设备量产和新加坡及美国交付能力。",
+    "descriptionEn": "A fast-growing Singapore-headquartered Physical AI and embodied-intelligence data infrastructure company. Its proprietary wearable capture hardware and software record first-person video, depth, motion, and audio from real-world tasks, converting human physical experience into large-scale multimodal training data for robotics, world models, and spatial-intelligence systems. Founded in 2025, the company completed an approximately US$22 million pre-Series A round in July 2026, bringing total funding to about US$30 million. Its public dataset covering ten million real human-object interactions surpassed two million downloads shortly after release, demonstrating strong demand for scalable real-world Physical AI data. The core team brings experience from Tsinghua, Meta, Google, and UC Berkeley, with approximately 60 employees and interns across Singapore, China, Malaysia, and the United States. The company is now expanding its data-collection network, device production, and delivery capacity in Singapore and the US.",
+    "stage": "Pre-A · 新融资约 2,200 万美元 · 累计约 3,000 万美元",
+    "stageEn": "Pre-Series A · Approx. US$22M New Round · US$30M Total Funding",
+    "location": "新加坡 / 中国 / 马来西亚 / 美国",
+    "locationEn": "Singapore / China / Malaysia / United States",
+    "sort": 32
   }
 ]
