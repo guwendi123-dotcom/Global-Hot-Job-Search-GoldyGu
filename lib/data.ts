@@ -79,6 +79,8 @@ export interface Job {
   sort?: number;
   createdAt?: string;
   hiringStatus?: "open" | "offer-stage" | "paused" | "closed";
+  hiringStatusNote?: string;
+  hiringStatusNoteEn?: string;
 }
 
 export function getProfile(): Profile {

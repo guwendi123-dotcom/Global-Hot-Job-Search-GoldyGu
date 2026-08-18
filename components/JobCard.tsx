@@ -27,7 +27,9 @@ export default function JobCard({ job, company, index }: JobCardProps) {
   const statusLabel = job.hiringStatus === "offer-stage"
     ? (language === "zh" ? "Offer 阶段" : "Offer Stage")
     : job.hiringStatus === "paused"
-      ? (language === "zh" ? "暂停招聘" : "Hiring Paused")
+      ? (language === "zh"
+          ? (job.hiringStatusNote || "暂停招聘")
+          : (job.hiringStatusNoteEn || "Hiring Paused"))
       : job.hiringStatus === "closed"
         ? (language === "zh" ? "已关闭" : "Closed")
         : "";

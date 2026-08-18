@@ -301,7 +301,10 @@
       "language": "中英文流利",
       "languageEn": "Fluent in Chinese and English"
     },
-    "sort": 90
+    "sort": 90,
+    "hiringStatus": "paused",
+    "hiringStatusNote": "因业务方向调整暂停招聘",
+    "hiringStatusNoteEn": "Hiring paused due to a change in business direction"
   },
   {
     "id": "job-009",
@@ -338,7 +341,10 @@
       "language": "中英文流利",
       "languageEn": "Fluent in Chinese and English"
     },
-    "sort": 100
+    "sort": 100,
+    "hiringStatus": "paused",
+    "hiringStatusNote": "因业务方向调整暂停招聘",
+    "hiringStatusNoteEn": "Hiring paused due to a change in business direction"
   },
   {
     "id": "gt-vp-platform",
@@ -480,7 +486,10 @@
       "language": "中英文流利",
       "languageEn": "Fluent in Chinese and English"
     },
-    "sort": 110
+    "sort": 110,
+    "hiringStatus": "paused",
+    "hiringStatusNote": "因业务方向调整暂停招聘",
+    "hiringStatusNoteEn": "Hiring paused due to a change in business direction"
   },
   {
     "id": "ai-shopping-agent-platform-job-001",
