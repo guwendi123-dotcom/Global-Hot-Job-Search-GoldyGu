@@ -9,6 +9,7 @@ import CompanyCard from "@/components/CompanyCard";
 import IndustryCard from "@/components/IndustryCard";
 import Footer from "@/components/Footer";
 import { useI18n } from "@/lib/i18n";
+import { getLocationGroup, jobMatchesLocation, LOCATION_GROUPS } from "@/lib/location-filters";
 
 const ITEMS_PER_PAGE = 8;
 
@@ -21,7 +22,8 @@ export default function Home() {
   const [jobTypes, setJobTypes] = useState<any[]>([]);
   const [homeRanking, setHomeRanking] = useState<{ jobOrder: string[]; companyOrder: string[] }>({ jobOrder: [], companyOrder: [] });
   const [query, setQuery] = useState("");
-  const [location, setLocation] = useState("");
+  const [region, setRegion] = useState("");
+  const [place, setPlace] = useState("");
   const [jobType, setJobType] = useState("");
 
   useEffect(() => {
@@ -60,10 +62,16 @@ export default function Home() {
     const company = companies.find((item) => item.id === job.companyId);
     const haystack = [job.title, job.titleEn, company?.name, company?.nameEn, job.location, job.locationEn, ...(job.tags || [])].join(" ").toLowerCase();
     const matchesQuery = !query.trim() || haystack.includes(query.trim().toLowerCase());
-    const matchesLocation = !location || `${job.location} ${job.locationEn}`.includes(location);
+    const matchesLocation = jobMatchesLocation(job, region, place);
     const matchesType = !jobType || job.jobType?.split(",").map((item: string) => item.trim()).includes(jobType);
     return matchesQuery && matchesLocation && matchesType;
-  }), [rankedJobs, companies, query, location, jobType]);
+  }), [rankedJobs, companies, query, region, place, jobType]);
+
+  const selectedRegion = getLocationGroup(region);
+  const homepageLocationGroups = LOCATION_GROUPS.map((group) => ({
+    ...group,
+    count: rankedJobs.filter((job) => jobMatchesLocation(job, group.id)).length,
+  })).filter((group) => group.count > 0);
 
   if (!profile) return null;
 
@@ -93,16 +101,29 @@ export default function Home() {
           <p className="hidden md:block text-sm text-text-secondary">{language === "zh" ? `共 ${filteredJobs.length} 个岗位` : `${filteredJobs.length} roles`}</p>
         </div>
 
-        <div className="grid md:grid-cols-[1fr_180px_180px] gap-3 mb-4">
+        <div className="grid md:grid-cols-[1fr_170px_170px_180px] gap-3 mb-4">
           <label className="filter-control">
             <Search size={18} />
             <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder={language === "zh" ? "搜索岗位、公司或关键词" : "Search roles, companies or skills"} aria-label={language === "zh" ? "搜索岗位" : "Search jobs"} />
           </label>
           <label className="filter-control">
             <MapPin size={17} />
-            <select value={location} onChange={(event) => setLocation(event.target.value)} aria-label={language === "zh" ? "筛选地点" : "Filter location"}>
-              <option value="">{language === "zh" ? "全部地点" : "All locations"}</option>
-              {["北京", "上海", "深圳", "杭州", "香港", "新加坡", "Remote"].map((item) => <option key={item} value={item}>{item}</option>)}
+            <select value={region} onChange={(event) => { setRegion(event.target.value); setPlace(""); }} aria-label={language === "zh" ? "筛选地区" : "Filter region"}>
+              <option value="">{language === "zh" ? "全部地区" : "All regions"}</option>
+              {homepageLocationGroups.map((group) => (
+                <option key={group.id} value={group.id}>{language === "zh" ? group.labelZh : group.labelEn} · {group.count}</option>
+              ))}
+            </select>
+            <ChevronDown size={15} />
+          </label>
+          <label className={`filter-control ${!region ? "opacity-60" : ""}`}>
+            <MapPin size={17} />
+            <select value={place} onChange={(event) => setPlace(event.target.value)} disabled={!region} aria-label={language === "zh" ? "筛选具体城市" : "Filter city or area"}>
+              <option value="">{region ? (language === "zh" ? "全部城市" : "All cities") : (language === "zh" ? "先选地区" : "Choose region")}</option>
+              {selectedRegion?.options.map((option) => {
+                const count = rankedJobs.filter((job) => jobMatchesLocation(job, selectedRegion.id, option.id)).length;
+                return count ? <option key={option.id} value={option.id}>{language === "zh" ? option.labelZh : option.labelEn} · {count}</option> : null;
+              })}
             </select>
             <ChevronDown size={15} />
           </label>
