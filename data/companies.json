@@ -476,5 +476,21 @@
     "location": "新加坡 / 中国 / 马来西亚 / 美国",
     "locationEn": "Singapore / China / Malaysia / United States",
     "sort": 32
+  },
+  {
+    "id": "cross-border-vla-physical-ai-foundation-platform",
+    "createdAt": "2026-08-21T09:45:00.000Z",
+    "industryId": "embodied-ai",
+    "name": "跨境 VLA 与 Physical AI 基础模型平台",
+    "nameEn": "Cross-Border VLA & Physical AI Foundation Platform",
+    "logo": "",
+    "logoEmoji": "🧭",
+    "description": "一家处于创始阶段的跨境 AI 公司，围绕计算机视觉、机器学习、多模态模型、垂直基础模型与大规模真实世界数据系统构建下一代智能基础设施。团队的短期重点并非直接制造机器人本体，而是先建立具有差异化和可防御性的模型、数据、评测与 AI 平台能力，并逐步延伸至 Vision-Language-Action、具身智能与 Physical AI。创始团队在技术创业、商业化、运营、投资和中美资源协同方面经验互补，能够提供差异化真实世界数据资源及硅谷与上海双地平台。公司正从零搭建核心技术班底，早期成员将直接参与技术路线、产品定位、组织建设、合作生态与融资叙事的定义。",
+    "descriptionEn": "An early-stage cross-border AI company building next-generation intelligence infrastructure across computer vision, machine learning, multimodal systems, vertical foundation models, and large-scale real-world data. Rather than beginning with robot hardware, the company is first establishing differentiated and defensible model, data, evaluation, and AI-platform capabilities, with a long-term roadmap toward Vision-Language-Action, embodied intelligence, and Physical AI. The founding team combines experience in technology entrepreneurship, commercialization, operations, investment, and US-China ecosystem development, with access to differentiated real-world data resources and a dual presence across Silicon Valley and Shanghai. The company is now assembling its founding technical team, giving early leaders meaningful influence over technology, product, organization, partnerships, and fundraising narrative.",
+    "stage": "创始阶段 · 硅谷与上海跨境团队",
+    "stageEn": "Founding Stage · Silicon Valley and Shanghai",
+    "location": "旧金山湾区 / 上海",
+    "locationEn": "San Francisco Bay Area / Shanghai",
+    "sort": 33
   }
 ]

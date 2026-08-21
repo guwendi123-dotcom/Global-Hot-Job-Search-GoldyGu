@@ -3790,5 +3790,61 @@
       "skillsEn": ["Process Design", "Cross-functional Programs", "Procurement & Vendor Management", "Operational Analysis", "Internal Systems"]
     },
     "sort": 1
+  },
+  {
+    "id": "cross-border-vla-physical-ai-foundation-platform-job-001",
+    "companyId": "cross-border-vla-physical-ai-foundation-platform",
+    "createdAt": "2026-08-21T09:46:00.000Z",
+    "title": "Founding CTO — AI / VLA / Physical AI",
+    "titleEn": "Founding CTO — AI / VLA / Physical AI",
+    "jobType": "cxo,engineering,algorithm",
+    "jobTypeEn": "CXO, Engineering, Algorithm",
+    "workMode": "灵活跨境办公；可考虑约 50% 美国 / 50% 中国；基础年薪 30–40 万美元 + 创始阶段股权/期权，具体依据经验与职责范围",
+    "workModeEn": "Flexible cross-border setup; approximately 50% US / 50% China may be considered; US$300K–400K base plus significant founding-stage equity/options, depending on experience and scope",
+    "location": "旧金山湾区 / 上海",
+    "locationEn": "San Francisco Bay Area / Shanghai",
+    "description": "岗位介绍：\n这是一家处于非常早期阶段的跨境 AI 公司，正在搭建面向真实世界应用的下一代智能基础设施。短期战略不是从机器人硬件切入，而是先建立计算机视觉、机器学习、多模态模型、垂直基础模型、大规模数据与评测系统的差异化能力，未来逐步演进至 Vision-Language-Action、具身智能与 Physical AI。\n\n作为 Founding CTO，你将直接与 CEO 及创始团队合作，既定义公司的长期技术愿景，也在早期保持高度亲自参与。该岗位融合技术战略、AI 研发领导、团队建设、产品判断与融资支持，是公司的最高技术负责人和关键创始级合伙人。\n\n核心职责：\n• 定义并负责公司整体技术战略、技术路线图及阶段性优先级。\n• 确立计算机视觉、机器学习、多模态 AI、基础模型、VLA 与未来具身智能系统的技术方向。\n• 设计公司的模型、数据、评测、训练、部署与 AI 基础设施架构，建立高质量的数据—模型—评测闭环。\n• 在团队规模尚小时亲自领导关键研究、原型与工程交付，把前沿研究转化为可扩展的商业产品。\n• 识别并建设公司在模型、数据、系统与应用层最具防御性的技术壁垒。\n• 从 0 招募并培养核心研究员和工程师，建立工程标准、技术文化、架构原则与高效执行机制。\n• 与 CEO 共同参与产品战略、公司定位、合作伙伴关系和商业化路径设计。\n• 面向投资人、战略伙伴、客户及候选人清晰表达技术差异、路线图、可防御性与长期愿景，支持融资与关键合作。\n• 领导旧金山湾区与上海团队的跨境协作，规划公司向 VLA、Embodied AI 与 Physical AI 演进的长期路径。\n\n任职要求：\n• 计算机科学、人工智能、机器学习、计算机视觉、机器人或相关领域的顶尖高校博士或硕士背景优先。\n• 在机器学习与计算机视觉方面具备扎实、可验证的技术深度；熟悉多模态 AI、VLM、基础模型、VLA、机器人智能或自动驾驶中的一个或多个方向。\n• 能够将复杂 AI 系统从研究、数据与评测推进至生产部署和商业应用，而非只停留在论文或 Demo。\n• 具备大规模数据、模型训练、评估、部署及 AI 基础设施的系统性理解。\n• 有带领或搭建技术团队的经验，能够吸引、判断并激励优秀研究与工程人才。\n• 能在高度不确定的早期环境中同时进行技术判断、亲自执行和组织建设。\n• 具备优秀的中英文沟通能力，能够与技术和非技术利益相关方交流，并胜任中美跨境协作。\n• 有创业者心态，愿意把技术、产品、组织与商业结果视为一个完整问题。\n\n重点考虑的背景：\n• 来自全球领先科技公司、AI 研究机构、自动驾驶公司、机器人公司或成功 AI 创业团队。\n• 兼具顶尖学术训练、头部科技公司 AI 经历、创业或 0 到 1 建设经验及团队领导能力。\n• 当前在硅谷工作的候选人优先；可接受未来约 50% 时间在美国、50% 时间在中国协作。\n• 既欢迎高潜技术领导者，也欢迎成熟的 Founding / Lead-level 人才；年龄和年限不是唯一判断标准，重点看 ML/CV 技术轨迹、组织潜力及对 VLA / Physical AI 的长期投入。\n\n阶段性成功标准：\n• 建立清晰且差异化的技术命题与长期路线图。\n• 完成第一代 AI 平台及数据—模型—评测闭环。\n• 招募初始核心技术团队并建立高标准研发文化。\n• 帮助公司在投资人和战略伙伴中建立技术可信度。\n• 将早期技术能力转化为可验证、可扩展的商业应用。\n\n岗位亮点：\n• 真正的创始级 CTO 席位，直接影响技术、产品、组织和公司长期方向。\n• 与 CEO 及创始团队直接合作，拥有从零搭建技术组织的完整所有权。\n• 可直接参与融资、战略合作与商业化，并获得具有意义的创始阶段股权。\n• 获得差异化真实世界数据资源及硅谷 + 上海跨境平台支持。\n• 薪酬为极具竞争力的高管方案：基础年薪 30–40 万美元，并配套显著的创始阶段股权或期权；最终方案依据候选人的经验、影响范围与合作方式确定。",
+    "descriptionEn": "About the Opportunity:\nJoin an early-stage cross-border AI company building next-generation intelligence for real-world applications. The initial strategy is not to begin with robot hardware, but to establish differentiated capabilities across computer vision, machine learning, multimodal models, vertical foundation models, large-scale data, and evaluation systems, with a long-term roadmap toward Vision-Language-Action, embodied intelligence, and Physical AI.\n\nAs Founding CTO, you will serve as the company's top technical leader and work directly with the CEO and founding team. You will define the long-term technical vision while remaining deeply hands-on during the early stage. The role combines technical strategy, AI leadership, team building, product judgment, commercialization, and fundraising support.\n\nKey Responsibilities:\n• Define and own the overall technology strategy, roadmap, and technical priorities.\n• Set direction across computer vision, machine learning, multimodal AI, foundation models, VLA, and future embodied-intelligence systems.\n• Architect the model, data, evaluation, training, deployment, and AI-infrastructure stack, creating a strong data-model-evaluation loop.\n• Lead critical research, prototyping, and engineering delivery while the team remains small, translating frontier research into scalable commercial products.\n• Identify and build the company's most defensible moat across models, data, systems, and applications.\n• Recruit and develop the initial research and engineering organization and establish engineering standards, technical culture, architecture principles, and execution processes.\n• Partner with the CEO on product strategy, company positioning, partnerships, and commercialization.\n• Represent the technical vision to investors, strategic partners, customers, and future hires; support fundraising through a clear articulation of differentiation and defensibility.\n• Lead collaboration across the San Francisco Bay Area and Shanghai and define the long-term roadmap toward VLA, Embodied AI, and Physical AI.\n\nIdeal Profile:\n• Ph.D. or Master's degree from a top university in Computer Science, AI, Machine Learning, Computer Vision, Robotics, or a related field is preferred.\n• Strong, demonstrable depth in machine learning and computer vision, with experience in multimodal AI, VLMs, foundation models, VLA, robotics AI, autonomous systems, or adjacent areas.\n• Proven ability to move sophisticated AI systems from research, data, and evaluation into production and commercial use.\n• Strong understanding of large-scale data, training, evaluation, deployment, and AI infrastructure.\n• Experience building or leading technical teams, with the ability to recruit and inspire exceptional researchers and engineers.\n• Entrepreneurial judgment and comfort combining strategy, hands-on execution, and organization building under high ambiguity.\n• Strong communication with technical and non-technical stakeholders and the ability to collaborate across the US and China.\n\nHighly Relevant Backgrounds:\nTalent from leading technology companies, AI labs, autonomous-driving companies, robotics companies, or successful AI startups is highly relevant. The most compelling profile combines top-tier academic training, leading AI industry experience, startup-building or zero-to-one execution, and team leadership. Candidates currently based in Silicon Valley are preferred, with a flexible approximately 50% US / 50% China setup possible. Both high-potential technical leaders and experienced founding/lead-level builders will be considered; ML/CV trajectory, leadership potential, and long-term commitment to VLA and Physical AI matter more than rigid years-of-experience thresholds.\n\nWhat Success Looks Like:\n• Establish a differentiated technical thesis and roadmap.\n• Build the first generation of the AI platform and data-model-evaluation loop.\n• Recruit the initial core technical team and establish a high-standard engineering culture.\n• Build technical credibility with investors and strategic partners.\n• Turn early technical capabilities into validated, scalable commercial applications.\n\nWhy Join:\nThis is a true founding-level opportunity with meaningful influence over technology, product, organization, and long-term direction. The role offers direct partnership with the CEO, ownership of the technical organization, exposure to investors and strategic partners, differentiated real-world data resources, a Silicon Valley + Shanghai platform, and significant founding-stage equity. Compensation includes a highly competitive US$300K–400K base plus meaningful equity/options, depending on experience, scope, and working arrangement.",
+    "tags": [
+      "Founding CTO",
+      "VLA",
+      "Physical AI",
+      "计算机视觉",
+      "多模态基础模型",
+      "技术组织搭建"
+    ],
+    "tagsEn": [
+      "Founding CTO",
+      "VLA",
+      "Physical AI",
+      "Computer Vision",
+      "Multimodal Foundation Models",
+      "Technical Organization Building"
+    ],
+    "profile": {
+      "experience": "年限不设死限制；重点看 ML/CV 技术深度、生产级系统、0 到 1 与团队领导经历",
+      "experienceEn": "No rigid tenure requirement; ML/CV depth, production systems, zero-to-one execution, and leadership matter most",
+      "education": "顶尖高校计算机、AI、机器学习、计算机视觉或机器人方向硕士/博士优先",
+      "educationEn": "Top-tier Master's or Ph.D. in CS, AI, ML, computer vision, robotics, or a related field preferred",
+      "language": "中英文跨境协作能力",
+      "languageEn": "Professional English and Chinese for cross-border collaboration",
+      "skills": [
+        "ML / CV",
+        "多模态 / VLM / VLA",
+        "数据—模型—评测闭环",
+        "技术战略与架构",
+        "团队招聘与领导",
+        "融资与技术叙事"
+      ],
+      "skillsEn": [
+        "ML / Computer Vision",
+        "Multimodal / VLM / VLA",
+        "Data-Model-Evaluation Loop",
+        "Technology Strategy & Architecture",
+        "Team Building & Leadership",
+        "Fundraising & Technical Narrative"
+      ]
+    },
+    "sort": 1
   }
 ]
