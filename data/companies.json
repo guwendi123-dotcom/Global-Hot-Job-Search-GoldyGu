@@ -492,5 +492,21 @@
     "location": "旧金山湾区 / 上海",
     "locationEn": "San Francisco Bay Area / Shanghai",
     "sort": 33
+  },
+  {
+    "id": "interactive-world-model-physical-ai-platform",
+    "createdAt": "2026-08-24T04:00:00.000Z",
+    "industryId": "embodied-ai",
+    "name": "交互式世界模型与 Physical AI 平台",
+    "nameEn": "Interactive World Models & Physical AI Platform",
+    "logo": "",
+    "logoEmoji": "🌌",
+    "description": "一家总部位于北美、处于早期阶段的 AI 公司，正在构建面向 Physical AI 的交互式世界基础模型。团队以世界模型、多模态生成、仿真与交互学习为核心，服务自动驾驶与机器人系统的闭环训练、模拟和评测，并在模型、数据、训练基础设施与图形仿真之间形成完整技术链路。公司拥有充足的算力资源和数据积累，技术路线强调真实任务价值、规模化训练效率与可复现的系统能力。研发协作覆盖北美、新加坡、苏黎世及中国远程，早期成员能够深度参与核心模型、数据和基础设施能力的从零建设。",
+    "descriptionEn": "An early-stage AI company headquartered in North America, building interactive world foundation models for Physical AI. Its work spans world models, multimodal generation, simulation, and interactive learning for closed-loop training, simulation, and evaluation of autonomous systems and robotics. The technical stack connects models, data, large-scale training infrastructure, and graphics simulation into an integrated platform. With substantial compute capacity and data resources, the team focuses on real task value, scalable training efficiency, and reproducible systems. R&D collaboration spans North America, Singapore, Zurich, and remote contributors in China, giving early technical hires significant ownership across core model, data, and infrastructure capabilities.",
+    "stage": "早期阶段 · 全球研发协作",
+    "stageEn": "Early Stage · Global R&D Collaboration",
+    "location": "北美 / 新加坡 / 苏黎世 / 中国远程",
+    "locationEn": "North America / Singapore / Zurich / China Remote",
+    "sort": 61
   }
 ]

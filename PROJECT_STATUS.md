@@ -3,8 +3,9 @@
 最后确认日期：2026-08-24
 
 - 正式站点：<https://www.goldyhire.com>
-- 当前 Cloudflare Version ID：`ffc8c330-4161-459d-91b1-4fba02604aa7`
-- 当前数据量：33 家公司、127 个岗位、7 个行业
+- 当前 Cloudflare Version ID：`96bb553a-0536-4565-b03b-d078b5fbbbe0`
+- 当前数据量：34 家公司、137 个岗位、7 个行业
+- 最近新增：脱敏的“交互式世界模型与 Physical AI 平台”及 10 个 Member of Technical Staff 岗位，覆盖 AI Infrastructure、Data Acquisition、Data、ML Operations、ML Performance、Simulation、Graphics Systems、Robotics、World Models 与 Generative Models。公开内容已删除真实公司名、高管/创始人信息、团队规模、融资、客户对焦、面试流程和推荐模板；算法岗位仅开放海外 Base，Data / Infra 等工程岗位可支持中国 Remote（EOR）
 - 最近新增：全球内容社区平台 Trust & Safety 团队 4 个岗位。前三个岗位 Base Palo Alto；Policy Specialist Base 旧金山湾区 / 新加坡，不含纽约岗位。全部明确要求中英文双语，美国可 Sponsor，新加坡优先 PR/SC；Policy 岗位 HC 充足并包含 POC 需求。公开页面已隐藏真实公司名与产品名
 - 最近新增：脱敏的“跨境 VLA 与 Physical AI 基础模型平台”，以及旧金山湾区 / 上海双 Base 的“Founding CTO — AI / VLA / Physical AI”；岗位支持灵活中美跨境安排，并展示高管薪酬与创始阶段股权信息
 - 最近新增：脱敏的“全球 Physical AI 人类体验数据平台”，以及新加坡“运营经理 / 高级运营经理”岗位；公开内容已隐藏真实公司名、数据集名与设备产品名
@@ -16,7 +17,7 @@
 - 地点筛选已重构为“大区 → 具体城市”两级结构：支持中国大陆经典城市、美国东西部、香港、新加坡、亚洲及中东其他、全球 Remote 等；每个岗位分类内独立计算地区与岗位数量，多 Base 岗位可同时命中多个地点
 - 最近更新：前沿密态计算与 AI 数据安全平台岗位升级为“海外增长负责人（C端 AI 产品）”，并按要求删除“理想候选人经历”及之后的模块
 - 最近发布验证：新公司页、3 个新增岗位及更新岗位均已上线并返回 200；公开页未泄露真实公司名
-- 当前 Cloudflare 正式版本：`ffc8c330-4161-459d-91b1-4fba02604aa7`
+- 当前 Cloudflare 正式版本：`96bb553a-0536-4565-b03b-d078b5fbbbe0`
 - 首页已采用“最近 30 天岗位访问热度 + 30 天逐日衰减的新鲜度”综合排序；每周稳定更新，新增或删除内容时自动重算。
 - 页面源码已恢复到新版 UI 基线，并合并最新公司与岗位数据。
 - 管理后台已启用：支持公司、岗位、行业的新增、编辑和删除；数据保存到 Cloudflare KV 并由前台实时读取。
