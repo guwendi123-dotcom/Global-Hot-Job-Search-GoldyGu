@@ -63,6 +63,11 @@
 - 网站主页 Goldy 插画：`public/art/goldy-hero.png`
 - 独立海报输出目录：`/Users/gugudechaojidanao/Documents/Codex/2026-07-20/nin/posters`
 - 历史营销源文件：`marketing-assets/`（用户素材目录，未经明确要求不得提交 GitHub）
+- AI 娱乐日系漫画插画素材组：`marketing-assets/illustration-library/ai-entertainment-manga-20260824/`
+  - 已经用户确认可长期复用，也可作为后续图片生成或变形设计的参考素材。
+  - 覆盖 AI 用户产品、模型策略、创作者社区和用户增长四类场景。
+  - 默认作为文字海报的小比例点缀，建议占画面 20%–30%，不要放大为主体。
+  - 可换色、裁切、镜像、替换周边元素或延展同系列角色；保留日系编辑漫画感、粗黑线条和透明背景。
 
 当前可参考的完成稿：
 
