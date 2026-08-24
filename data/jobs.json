@@ -2643,98 +2643,179 @@
   {
     "id": "consumer-ai-creative-expression-platform-job-001",
     "companyId": "consumer-ai-creative-expression-platform",
-    "title": "内容运营",
-    "titleEn": "Content Operations",
+    "title": "AI 漫画内容与推荐策略运营",
+    "titleEn": "AI Comics Content & Recommendation Strategy Operations",
     "jobType": "operations",
     "jobTypeEn": "Operations",
     "workMode": "上海办公，具体安排面议",
     "workModeEn": "Shanghai-based; work arrangement to be discussed",
     "location": "上海",
     "locationEn": "Shanghai",
-    "description": "岗位职责：\n• 深度参与平台内容生态建设，制定并执行内容策略，把控整体内容调性与审美标准。\n• 持续追踪国内外内容趋势，识别有潜力的内容方向和创作形式，并转化为可落地的运营动作。\n• 策划优质内容专题、话题与活动，提升用户创作热情和内容供给质量。\n• 与创作者、产品等团队协作，通过运营影响创作者行为和平台内容结构。\n• 建立内容评估体系，以数据与审美双重视角持续迭代策略。\n\n任职要求：\n• 3 年以上内容运营或内容策划经验，有图文、视频或创意内容平台背景优先。\n• 内容审美强，能清晰定义好内容并推动团队建立一致标准。\n• 对平台、社媒和文化趋势敏感，具备从 0 搭建内容策略框架的能力。\n• 数据意识强，能用数据验证内容判断。\n\n加分项：有 AI 内容工具或生成式内容经验；有 UGC 内容生态建设经验；本人是内容创作者并有账号或作品集。",
-    "descriptionEn": "Responsibilities:\n• Build the platform's content ecosystem, strategy, editorial tone, and quality standards.\n• Track global content trends and turn emerging formats into executable programs.\n• Launch topics, features, and campaigns that improve creator participation and content quality.\n• Partner with creators and Product to influence creator behavior and content structure.\n• Build evaluation systems combining data and editorial judgment.\n\nQualifications:\n• 3+ years in content operations or planning, ideally for image, video, or creative platforms.\n• Strong taste, trend sensitivity, strategic thinking, and data fluency.\n• AI-content experience, UGC ecosystem work, or a personal creator portfolio is a plus.",
-    "tags": ["内容策略", "UGC", "创意内容", "AI内容", "上海"],
-    "tagsEn": ["Content Strategy", "UGC", "Creative Content", "AI Content", "Shanghai"],
-    "profile": {"experience": "3年以上", "experienceEn": "3+ years", "skills": ["内容审美", "内容生态", "趋势洞察", "数据分析"], "skillsEn": ["Editorial Taste", "Content Ecosystems", "Trend Insight", "Analytics"]},
+    "description": "岗位职责：\n• 深度参与 AI 漫画与互动内容生态建设，制定并执行内容策略，把控整体内容调性与审美标准。\n• 围绕内容消费链路研究选题、内容组织、推荐分发与用户反馈，提升优质内容的发现效率和消费体验。\n• 持续追踪国内外内容趋势，识别有潜力的内容方向与创作形式，并转化为可落地的运营动作。\n• 策划优质内容专题、话题与活动，提升用户创作热情和内容供给质量。\n• 与产品、算法、创作者运营等团队协作，通过内容策略和推荐机制影响平台内容结构。\n• 建立内容评估体系，以数据与审美双重视角持续迭代策略。\n\n任职要求：\n• 3 年以上内容运营、内容策略或推荐策略相关经验，有漫画、图文、视频、创意内容或 UGC 平台背景优先。\n• 熟悉内容供给与消费链路，能够理解推荐分发逻辑；若内容运营与推荐策略二选一，优先具备推荐策略能力。\n• 内容审美强，对漫画、二次元与泛娱乐内容有理解，能清晰定义好内容。\n• 数据意识强，能通过内容数据、用户行为和分发结果发现问题并推动优化。\n• 聪明、灵活、学习速度快，能够在产品快速迭代阶段承担完整问题所有权。\n\n最新业务方向：核心产品已获得积极的市场反馈与用户验证，团队正在升级 AI 漫画产品体验，重点建设内容策略、推荐分发和消费效率能力。",
+    "descriptionEn": "Responsibilities:\n• Build the content strategy and editorial standards for AI comics and interactive entertainment.\n• Improve discovery and consumption through content organization, recommendation strategy, and user-feedback loops.\n• Track emerging formats and turn them into executable content programs, topics, and campaigns.\n• Partner with Product, AI, and Creator Operations to improve the supply, distribution, and structure of content.\n• Establish evaluation systems that combine data with strong editorial judgment.\n\nRequirements:\n• 3+ years in content operations, content strategy, or recommendation strategy, ideally in comics, visual content, video, creative tools, or UGC platforms.\n• Understanding of content supply and consumption funnels; recommendation-strategy experience is especially valuable.\n• Strong taste and genuine familiarity with comics, ACG, and entertainment content.\n• Data fluency, learning agility, and the ability to own ambiguous problems end to end.\n\nLatest focus: the product has received encouraging market and user validation, and the team is now strengthening content strategy, recommendation distribution, and consumption efficiency.",
+    "tags": [
+      "AI漫画",
+      "内容策略",
+      "推荐分发",
+      "泛娱乐",
+      "上海"
+    ],
+    "tagsEn": [
+      "AI Comics",
+      "Content Strategy",
+      "Recommendation",
+      "Entertainment",
+      "Shanghai"
+    ],
+    "profile": {
+      "experience": "3年以上内容运营、内容策略或推荐策略经验",
+      "experienceEn": "3+ years in content or recommendation strategy",
+      "skills": [
+        "内容策略",
+        "推荐分发",
+        "漫画审美",
+        "数据分析"
+      ],
+      "skillsEn": [
+        "Content Strategy",
+        "Recommendation",
+        "Comic Aesthetics",
+        "Analytics"
+      ]
+    },
     "sort": 1
   },
   {
     "id": "consumer-ai-creative-expression-platform-job-002",
     "companyId": "consumer-ai-creative-expression-platform",
-    "title": "AI 社区创作者运营",
-    "titleEn": "AI Creator Community Operations",
+    "title": "创作者运营（AI 泛娱乐社区）",
+    "titleEn": "Creator Operations, AI Entertainment Community",
     "jobType": "operations",
     "jobTypeEn": "Operations",
     "workMode": "上海办公，具体安排面议",
     "workModeEn": "Shanghai-based; work arrangement to be discussed",
     "location": "上海",
     "locationEn": "Shanghai",
-    "description": "岗位职责：\n• 从 0 到 1 搭建脑洞、梗文化与叙事漫画方向的 AI 创作者生态，发掘并邀请核心创作者。\n• 建立从专业创作者到入门爱好者的分层体系，通过社群和激励机制提升长期留存与活跃。\n• 亲自完成高质量 AI 叙事创作打样，定义社区内容调性和审美标准。\n• 收集创作者对控图、角色一致性、画风 LoRA 等模型能力的需求，推动产品快速迭代。\n• 策划 AI 创作大赛和主题征集，沉淀可复制的方法论，并建立留存、活跃与转化指标体系。\n\n任职要求：\n• 有规模化社群或内容社区运营经验，擅长通过机制和氛围提升用户粘性。\n• 深度理解漫画或二次元文化，熟悉构图、勾线、上色和分镜等创作痛点。\n• 视觉审美优秀，能够辨别模板化的 AI 味与真正有艺术感的内容。\n• 具备 0 到 1 拓荒精神，策略与执行兼备。\n• 熟练使用 Stable Diffusion、Midjourney、Flux、ComfyUI 等 AI 创作工具，具备角色一致性和分镜叙事实践。\n• 沟通和策略能力强，能与创作者建立长期信任。\n\n加分项：在 X、即刻、内容社区或 Discord 拥有 AI 创作账号及影响力；能通过 Prompt 或工作流解决创作者技术瓶颈，并用 AI 提升社群运营效率。",
-    "descriptionEn": "Own the zero-to-one launch of an AI creator ecosystem for visual humor and narrative comics. Build creator tiers, community programs, incentives, and retention systems; create high-quality examples yourself; translate creator needs around control, character consistency, and style models into product improvements; and run scalable challenges with clear retention and conversion metrics. Candidates should have community-operations experience, deep comics or ACG knowledge, excellent visual taste, a builder mindset, and hands-on command of tools such as Stable Diffusion, Midjourney, Flux, and ComfyUI. An influential AI-creation account or strong prompt/workflow skills is a plus.",
-    "tags": ["创作者运营", "AI漫画", "二次元", "ComfyUI", "上海"],
-    "tagsEn": ["Creator Operations", "AI Comics", "ACG", "ComfyUI", "Shanghai"],
-    "profile": {"experience": "社群或内容社区运营经验", "experienceEn": "Community or content-platform experience", "skills": ["创作者生态", "漫画审美", "AI创作工具", "用户留存"], "skillsEn": ["Creator Ecosystems", "Comic Aesthetics", "AI Creation Tools", "Retention"]},
+    "description": "岗位职责：\n• 从 0 到 1 搭建脑洞、梗文化、叙事漫画与泛娱乐方向的 AI 创作者生态，发掘并邀请核心创作者。\n• 建立从专业创作者到入门爱好者的分层体系，通过社群、激励和内容机制提升长期留存与活跃。\n• 亲自完成高质量 AI 叙事创作打样，定义社区内容调性和审美标准。\n• 收集创作者对控图、角色一致性、画风与工作流等模型能力的需求，推动产品快速迭代。\n• 策划 AI 创作大赛和主题征集，沉淀可复制的方法论，并建立留存、活跃与转化指标体系。\n\n任职要求：\n• 有内容社区、创作者运营或社区冷启动经验，真正参与过作者招募、分层、活跃和留存。\n• 不要求只做过垂直创作者运营，但必须能承担作者运营；创业公司多面手或大厂创新业务背景均可。\n• 深度理解漫画、二次元或泛娱乐圈层，科技知识、体育等差异较大的垂类经验不作为主要匹配方向。\n• 视觉审美优秀，熟悉主流 AI 创作工具，具备 0 到 1 拓荒精神与高执行力。\n• 能与创作者建立信任，并把一线需求转化为产品、模型和运营机制。\n\n最新岗位重点：这是当前运营方向的高优先级岗位。团队寻找能够独立承担完整问题、适应早期产品节奏的核心 IC。",
+    "descriptionEn": "Responsibilities:\n• Build an AI creator ecosystem from zero to one across visual humor, narrative comics, and broader entertainment categories.\n• Design creator tiers, communities, incentives, and content mechanisms that improve activation and retention.\n• Produce strong AI-native examples, define editorial standards, and translate creator needs into model and product improvements.\n• Run challenges and campaigns while building measurable retention, activity, and conversion systems.\n\nRequirements:\n• Hands-on experience in creator operations, content communities, or community cold starts, including creator acquisition, segmentation, activation, and retention.\n• Generalist startup operators and builders from innovative teams are welcome, but real creator-operations ownership is essential.\n• Deep familiarity with comics, ACG, or entertainment culture, strong visual taste, and practical use of AI creation tools.\n• High ownership, execution speed, and the ability to turn frontline insight into scalable product and operating mechanisms.\n\nLatest focus: this is a high-priority operations hire and a core individual-contributor role with end-to-end ownership.",
+    "tags": [
+      "创作者运营",
+      "AI泛娱乐",
+      "社区冷启",
+      "二次元",
+      "上海"
+    ],
+    "tagsEn": [
+      "Creator Operations",
+      "AI Entertainment",
+      "Community Launch",
+      "ACG",
+      "Shanghai"
+    ],
+    "profile": {
+      "experience": "创作者运营、内容社区或0-1创新业务经验",
+      "experienceEn": "Creator operations, content community, or zero-to-one experience",
+      "skills": [
+        "创作者生态",
+        "社区冷启",
+        "漫画与二次元",
+        "AI创作工具"
+      ],
+      "skillsEn": [
+        "Creator Ecosystems",
+        "Community Launch",
+        "Comics & ACG",
+        "AI Creation Tools"
+      ]
+    },
     "sort": 2
   },
   {
     "id": "consumer-ai-creative-expression-platform-job-003",
     "companyId": "consumer-ai-creative-expression-platform",
-    "title": "模型策略产品经理",
-    "titleEn": "Model Strategy Product Manager",
+    "title": "模型策略产品经理（通用模型与 Agent）",
+    "titleEn": "Model Strategy Product Manager, Foundation Models & Agents",
     "jobType": "product-design",
     "jobTypeEn": "Product & Design",
     "workMode": "上海办公，具体安排面议",
     "workModeEn": "Shanghai-based; work arrangement to be discussed",
     "location": "上海",
     "locationEn": "Shanghai",
-    "description": "岗位职责：\n• 以 AI Native 思维规划并落地生成式模型、大模型训练与 Agent 相关产品策略，理解技术边界并避免脱离能力范围的规划。\n• 承接业务判断，将目标拆解为产品模块，推进调研、设计、开发、上线和运营全生命周期。\n• 面对跨团队协作、技术瓶颈和市场变化，以全局视角快速完成判断与方案调整。\n• 深入挖掘内容平台用户需求，结合逻辑、同理心和想象力设计创新功能，持续提升留存和体验。\n\n任职要求：\n• 具备 AI Native 产品思维及生成式模型、模型训练或 Agent 产品的正向实践，能判断技术边界和演进方向。\n• 用户同理心、逻辑思维和想象力扎实，至少一项能力突出。\n• 能快速理解业务战略并转化为可执行任务，具备 Senior 级全局视角和体系化项目管理能力。\n\n加分项：有生成模型训练、Agent 策略产品、内容或游戏内容平台经验；熟悉海外产品，或长期关注泛游戏与休闲游戏。",
-    "descriptionEn": "Define and deliver AI-native product strategy around generative models, model training, and agents. Translate business goals into product modules, manage the full lifecycle, navigate technical bottlenecks and changing markets, and improve consumer content experiences through strong user insight. Candidates should have successful AI-product practice, clear judgment of technical boundaries, strong empathy, logic and imagination, and senior-level program leadership. Generative-model training, agent strategy, content-platform, gaming, or overseas-product experience is a plus.",
-    "tags": ["模型策略", "AI Native", "Agent", "内容产品", "上海"],
-    "tagsEn": ["Model Strategy", "AI Native", "Agent", "Content Product", "Shanghai"],
-    "profile": {"experience": "Senior 级产品经验", "experienceEn": "Senior-level product experience", "skills": ["生成式模型", "AI策略", "项目管理", "用户洞察"], "skillsEn": ["Generative Models", "AI Strategy", "Program Management", "User Insight"]},
+    "description": "岗位职责：\n• 负责通用模型与 Agent 方向的产品策略，连接模型训练能力、应用效果与真实用户体验。\n• 深入理解主流模型的能力边界与调优方式，围绕不同业务场景选择模型、设计策略并推动效果优化。\n• 将业务目标拆解为模型能力、Prompt、数据、评测、工作流与产品模块，推进从方案到上线的完整闭环。\n• 与算法、工程、设计及业务团队协作，建设可复用的模型策略、评测标准和效果迭代机制。\n• 支持核心产品及新孵化业务，识别生成式模型和 Agent 能力可以创造真实用户价值的机会。\n\n任职要求：\n• 具备 AI Native 产品思维，对大模型、生成式模型或 Agent 有真实产品实践。\n• 能判断模型能力边界，理解模型选择、Prompt、上下文、数据治理与效果评测之间的关系。\n• 优先考虑在头部产品、AI 团队或创业公司承担过核心模型策略产品的人选；纯标注、纯测评执行或偏数据运营画像不匹配。\n• 具备出色的逻辑、产品判断和跨团队推进能力，能在高不确定环境下独立形成闭环。\n• Senior 人选需具备战略拆解和团队影响力，优秀者可承担方向 POC。\n\n最新岗位重点：模型策略是当前最优先的招聘方向之一，团队希望尽快引入能够把前沿模型能力转化为产品效果的核心成员。",
+    "descriptionEn": "Responsibilities:\n• Own product strategy across foundation models and agents, connecting model training, application quality, and real user experience.\n• Understand model boundaries and tuning methods, select the right capabilities for each scenario, and drive measurable quality improvements.\n• Translate business goals into model capabilities, prompts, data, evaluation, workflows, and product modules.\n• Build reusable model strategies, evaluation standards, and iteration loops with Research, Engineering, Design, and Business teams.\n• Support both core products and new initiatives by identifying where generative models and agents create genuine user value.\n\nRequirements:\n• AI-native product judgment and real product experience with LLMs, generative models, or agents.\n• Strong understanding of model selection, prompting, context, data governance, and evaluation.\n• Core model-strategy product ownership is preferred; pure labeling, evaluation execution, or data-operations profiles are not the target.\n• Excellent logic, product judgment, and cross-functional execution under ambiguity.\n• Senior candidates should bring strategic decomposition and the potential to lead the direction as a POC.\n\nLatest focus: model strategy is among the team's highest-priority hiring areas.",
+    "tags": [
+      "模型策略",
+      "通用模型",
+      "Agent",
+      "模型训练",
+      "上海"
+    ],
+    "tagsEn": [
+      "Model Strategy",
+      "Foundation Models",
+      "Agents",
+      "Model Training",
+      "Shanghai"
+    ],
+    "profile": {
+      "experience": "AI模型策略或Agent产品经验；Senior可承担POC",
+      "experienceEn": "AI model-strategy or agent product experience; senior POC potential",
+      "skills": [
+        "模型边界",
+        "模型训练",
+        "Agent产品",
+        "评测闭环"
+      ],
+      "skillsEn": [
+        "Model Boundaries",
+        "Model Training",
+        "Agent Products",
+        "Evaluation Loops"
+      ]
+    },
     "sort": 3
   },
   {
     "id": "consumer-ai-creative-expression-platform-job-004",
     "companyId": "consumer-ai-creative-expression-platform",
-    "title": "AI 用户产品经理",
-    "titleEn": "AI Consumer Product Manager",
+    "title": "AI 用户产品经理（创新与创作工具）",
+    "titleEn": "AI Consumer Product Manager, Innovation & Creation Tools",
     "jobType": "product-design",
     "jobTypeEn": "Product & Design",
     "workMode": "上海办公，具体安排面议",
     "workModeEn": "Shanghai-based; work arrangement to be discussed",
     "location": "上海",
     "locationEn": "Shanghai",
-    "description": "岗位职责：\n• 深入理解 C 端用户需求与痛点，负责 AI 原生用户产品从需求洞察、方案设计、原型验证到上线迭代的完整过程。\n• 将模型能力转化为用户可理解、可控制且体验流畅的产品方案，设计 Prompt、工作流、交互与效果反馈机制。\n• 使用 Vibe Coding 与 AI Coding 工具快速完成基础原型或 Demo，在开发前验证产品逻辑、关键体验和技术可行性。\n• 结合用户行为和产品数据发现问题，持续优化核心使用率、创作成功率、用户体验与留存。\n• 将业务目标拆解为清晰的产品任务，与设计、研发、算法及运营团队高效协作，推动项目按计划交付。\n• 持续跟踪 AI 产品及交互范式的发展，在快速变化的环境中判断机会并推动落地。\n\n任职要求：\n• 用户思维突出，能够精准洞察 C 端需求，并完成结构化分析与拆解。\n• 产品基本功扎实，理解 AI 工作流，能够输出逻辑清晰、体验流畅的产品方案。\n• 具备 Vibe Coding、AI Coding 或快速原型能力，能够独立制作基础 Prototype / Demo。\n• 具备数据分析意识，能够通过数据判断问题并推动产品优化。\n• 同理心、逻辑思维和想象力均处于良好水平，且至少一项能力突出。\n• 业务理解、全局视角和项目管理能力强，能协调多团队推动复杂项目。\n• 对 AI 行业保持热情，自驱、执行力强，能够适应高不确定性和项目压力。\n\n加分项：有 C 端 UGC、内容创作、生成式 AI、多模态、Agent 或创作者工具产品经验；有完整的 0 到 1 产品案例。",
-    "descriptionEn": "Responsibilities:\n• Own consumer AI products from user insight and concept design through prototyping, launch, and iteration.\n• Translate model capabilities into intuitive and controllable experiences across prompts, workflows, interactions, and feedback loops.\n• Use vibe coding and AI coding tools to build lightweight prototypes or demos that validate logic, experience, and feasibility before development.\n• Use product and behavior data to improve adoption, creation success, user experience, and retention.\n• Translate business goals into clear product work and drive delivery across Design, Engineering, AI, and Operations.\n• Track emerging AI-product and interaction patterns and turn the right opportunities into shipped experiences.\n\nRequirements:\n• Exceptional consumer insight and structured problem analysis.\n• Strong product fundamentals, understanding of AI workflows, and the ability to design coherent end-to-end experiences.\n• Hands-on vibe-coding, AI-coding, or rapid-prototyping capability.\n• Data literacy and the ability to use evidence to improve products.\n• Strong empathy, logic, and imagination, with at least one of these capabilities standing out.\n• Business judgment, systems thinking, program leadership, cross-functional communication, ownership, and resilience.\n\nPreferred: consumer UGC, creative tools, generative AI, multimodal systems, agents, creator products, or a complete zero-to-one launch.",
+    "description": "岗位职责：\n• 负责成熟 C 端 AI 产品的核心功能创新与持续迭代，并参与生图、生视频等创作工具产品的探索。\n• 从用户需求、行为与内容消费场景中识别机会，将模糊问题转化为清晰的产品方向和可验证假设。\n• 将模型能力转化为用户可理解、可控制且体验流畅的产品方案，设计 Prompt、工作流、交互与效果反馈机制。\n• 使用 Vibe Coding 与 AI Coding 工具快速完成原型或 Demo，验证产品逻辑、关键体验和技术可行性。\n• 结合数据和用户反馈持续优化核心使用率、创作成功率、体验与留存。\n• 与设计、研发、算法及运营团队协作，推动从需求定义到上线复盘的完整闭环。\n\n任职要求：\n• 用户洞察与创新能力突出，能从模糊需求中提炼方向，并有真正落地验证过的产品想法。\n• 具备核心 C 端功能、创新产品或创作工具经验；只做常规功能迭代或局部策略优化不匹配。\n• 产品操盘能力扎实，具备完整 0 到 1 经历，或曾深度参与关键新产品建设。\n• 理解 AI 工作流和模型能力边界，具备 Vibe Coding、AI Coding 或快速原型能力。\n• 自驱、执行力强，能够在高不确定性环境中推动复杂项目。\n\n加分项：有生图、生视频、UGC、内容创作、多模态或 AI 原生 C 端产品经验。",
+    "descriptionEn": "Responsibilities:\n• Drive innovation and iteration for a mature consumer AI product while exploring image- and video-generation creation tools.\n• Identify opportunities from user behavior and content-consumption scenarios, turning ambiguity into clear product hypotheses.\n• Translate model capabilities into intuitive, controllable experiences across prompts, workflows, interactions, and feedback.\n• Use vibe coding and AI coding tools to build prototypes that validate logic, experience, and feasibility.\n• Improve adoption, creation success, experience, and retention through data and user feedback.\n• Own the complete loop from definition through launch and review with Design, Engineering, AI, and Operations.\n\nRequirements:\n• Exceptional consumer insight and product innovation, supported by ideas that have genuinely shipped and been validated.\n• Experience with core consumer features, innovative products, or creative tools; routine feature maintenance alone is not the target.\n• Strong end-to-end product ownership and either complete zero-to-one experience or deep involvement in a critical new product.\n• Understanding of AI workflows and model boundaries, plus rapid-prototyping capability.\n\nPreferred: image or video generation, UGC, creative tools, multimodal systems, or AI-native consumer products.",
     "tags": [
       "AI用户产品",
-      "Vibe Coding",
-      "C端产品",
-      "AI工作流",
+      "创作工具",
+      "生图生视频",
+      "0-1产品",
       "上海"
     ],
     "tagsEn": [
       "AI Consumer Product",
-      "Vibe Coding",
-      "Consumer Product",
-      "AI Workflows",
+      "Creative Tools",
+      "Image & Video Generation",
+      "Zero-to-One",
       "Shanghai"
     ],
     "profile": {
-      "experience": "AI或互联网产品经验；优秀0-1案例优先",
-      "experienceEn": "AI or internet product experience; strong zero-to-one work preferred",
+      "experience": "核心C端功能、创新产品或创作工具经验",
+      "experienceEn": "Core consumer features, innovative products, or creative tools",
       "skills": [
         "用户洞察",
+        "产品创新",
         "Vibe Coding",
-        "AI工作流",
-        "数据驱动"
+        "AI工作流"
       ],
       "skillsEn": [
         "User Insight",
+        "Product Innovation",
         "Vibe Coding",
-        "AI Workflows",
-        "Data-driven Product"
+        "AI Workflows"
       ]
     },
     "sort": 4
@@ -2742,19 +2823,46 @@
   {
     "id": "consumer-ai-creative-expression-platform-job-005",
     "companyId": "consumer-ai-creative-expression-platform",
-    "title": "用户增长",
-    "titleEn": "User Growth Lead",
+    "title": "信息流投放策略",
+    "titleEn": "Performance Media Strategy",
     "jobType": "mkt-growth",
     "jobTypeEn": "MKT & Growth",
     "workMode": "上海办公，具体安排面议",
     "workModeEn": "Shanghai-based; work arrangement to be discussed",
     "location": "上海",
     "locationEn": "Shanghai",
-    "description": "岗位职责：\n• 负责产品用户增长全链路，制定并落地增长策略。\n• 结合产品功能统筹投放、社媒传播、达人营销、热点与事件营销。\n• 研究相关品类和竞品增长玩法，持续实验和优化。\n• 与产品、内容、数据及增长团队跨职能协作，沉淀并输出方法论。\n\n任职要求：\n• 5 年以上用户增长经验，熟悉主流媒体投放方式。\n• 有 AI 或内容产品推广经验，熟悉国内外市场，并有 0 到 1 产品增长经历。\n• ROI 导向、数据敏感、执行力和抗压能力强。",
-    "descriptionEn": "Own the full user-growth journey, combining performance marketing, social, creators, cultural moments, and product-led growth. Research competitors, run experiments, and partner cross-functionally to build repeatable playbooks. Requires 5+ years of growth experience, strong media-buying knowledge, AI or content-product experience, exposure to both China and overseas markets, zero-to-one growth, and rigorous ROI discipline.",
-    "tags": ["用户增长", "投放", "达人营销", "AI产品", "上海"],
-    "tagsEn": ["User Growth", "Paid Acquisition", "Creator Marketing", "AI Product", "Shanghai"],
-    "profile": {"experience": "5年以上", "experienceEn": "5+ years", "skills": ["增长策略", "媒体投放", "ROI", "全球市场"], "skillsEn": ["Growth Strategy", "Media Buying", "ROI", "Global Markets"]},
+    "description": "岗位职责：\n• 独立负责 AI 原生娱乐与创作产品的信息流投放策略，对预算、渠道、素材、转化和复盘的完整链路负责。\n• 根据不同产品与人群制定渠道组合、投放节奏和优化策略，持续提升新增规模、用户质量与 ROI。\n• 深入分析素材、落地页、转化漏斗和用户留存数据，形成可重复的增长方法。\n• 与素材创意、达人营销、产品、内容和数据团队协作，推动增长策略快速验证和迭代。\n• 关注主流平台及内容、小说、短剧等相关行业的投放方法，持续拓展高效渠道。\n\n任职要求：\n• 具备成熟的信息流投放全链路策略与实操经验，能够独立操盘，而非仅承担中台支持或投放产品经理职责。\n• 熟悉主流媒体平台的账户、素材、归因、转化和预算优化逻辑。\n• 策略思考和落地能力强，能结合数据解释问题、形成判断并快速调整。\n• 有中型业务完整操盘经验，或来自优秀效果营销服务团队且具备强策略能力者均可。\n• 接受核心 IC 定位，不以管理团队为入职前提。\n\n最新岗位重点：团队已有成熟增长负责人和完整协作链路，多款产品及多渠道为该岗位提供充分的实战空间。",
+    "descriptionEn": "Responsibilities:\n• Own end-to-end performance-media strategy for AI-native entertainment and creation products across budget, channels, assets, conversion, and review.\n• Design channel mixes and optimization strategies that improve acquisition scale, user quality, and ROI.\n• Analyze creative performance, landing pages, conversion funnels, and retention to build repeatable growth methods.\n• Partner with Creative Strategy, Creator Marketing, Product, Content, and Data to run rapid experiments.\n• Track effective approaches across major platforms and adjacent content categories.\n\nRequirements:\n• Mature end-to-end performance-marketing strategy and hands-on execution; this is not a central-support or ad-product role.\n• Strong understanding of media platforms, attribution, conversion, creative testing, and budget optimization.\n• Data-driven strategic judgment and fast execution.\n• Operators from mid-sized businesses or strong performance agencies are welcome when they bring genuine strategy ownership.\n• Comfortable as a core individual contributor without requiring people-management scope.",
+    "tags": [
+      "信息流投放",
+      "增长策略",
+      "ROI",
+      "内容产品",
+      "上海"
+    ],
+    "tagsEn": [
+      "Performance Media",
+      "Growth Strategy",
+      "ROI",
+      "Content Products",
+      "Shanghai"
+    ],
+    "profile": {
+      "experience": "成熟的信息流投放全链路策略与实操经验",
+      "experienceEn": "Mature end-to-end performance-media strategy and execution",
+      "skills": [
+        "投放策略",
+        "渠道优化",
+        "素材复盘",
+        "转化分析"
+      ],
+      "skillsEn": [
+        "Media Strategy",
+        "Channel Optimization",
+        "Creative Analysis",
+        "Conversion Analytics"
+      ]
+    },
     "sort": 5
   },
   {
@@ -3373,13 +3481,14 @@
     "workModeEn": "Shanghai-based; work arrangement to be discussed",
     "location": "上海",
     "locationEn": "Shanghai",
-    "description": "岗位职责：\n• 负责 AI 互动内容方向，结合前沿 AI 能力探索娱乐内容的新形态、新玩法和新增长机会。\n• 基于对轻度游戏和泛娱乐生态的理解，定义核心内容品类、互动玩法及可准出的效果标准。\n• 设计并搭建互动内容核心 Agent 工作流，对关键链路和最终内容体验负责。\n• 建设标准化 Benchmark 评测集、评测方案和量化标准，持续评估并优化模型内容效果。\n• 通过 Prompt 调优、数据治理和用户反馈回流，与算法团队共同推动模型微调与迭代，建立效果优化闭环。\n• 协调算法、工程、设计和内容团队，独立推动互动内容项目从 0 到 1 上线。\n\n任职要求：\n• 2 年以上 AI 模型策略产品经验，具备 AI Native 思维，理解大模型与 Agent 的能力边界。\n• 具备 Agent 链路搭建、模型评测体系建设、Prompt 优化等核心策略实践。\n• 逻辑清晰、执行力强，能独立推进 0 到 1 项目并完成跨团队协作。\n• 日常关注或体验轻度游戏，理解小游戏和泛娱乐用户的核心需求。\n\n加分项：有游戏内容平台、互动娱乐或 UGC 游戏生态经验；熟悉轻度游戏玩法设计、内容评测、模型微调或多模态生成。",
-    "descriptionEn": "Responsibilities:\n• Own AI interactive-content strategy and explore new entertainment formats, gameplay, and growth opportunities enabled by frontier AI.\n• Define core content categories, interactive mechanics, and release-quality standards through a strong understanding of casual gaming and entertainment ecosystems.\n• Design and build the core agent workflows behind interactive content.\n• Establish benchmark datasets, evaluation methods, and quantitative standards for model-generated experiences.\n• Create a model-improvement loop through prompt optimization, data governance, user feedback, and close collaboration with AI researchers.\n• Lead cross-functional zero-to-one delivery across AI, Engineering, Design, and Content.\n\nRequirements:\n• 2+ years in AI model-strategy products, with AI-native judgment and understanding of LLM and agent boundaries.\n• Hands-on experience with agent workflows, model evaluation, benchmarks, and prompt optimization.\n• Strong logic, execution, ownership, and cross-functional leadership in zero-to-one projects.\n• Genuine familiarity with casual games and interactive-entertainment user needs.\n\nPreferred: game-content platforms, interactive entertainment, UGC gaming ecosystems, gameplay design, model tuning, or multimodal generation.",
+    "description": "岗位职责：\n• 负责 AI 互动内容方向，结合前沿 AI 能力探索娱乐内容的新形态、新玩法和新增长机会。\n• 基于对轻度游戏和泛娱乐生态的理解，定义核心内容品类、互动玩法及可准出的效果标准。\n• 设计并搭建互动内容核心 Agent 工作流，对关键链路和最终内容体验负责。\n• 建设标准化 Benchmark 评测集、评测方案和量化标准，持续评估并优化模型内容效果。\n• 通过 Prompt 调优、数据治理和用户反馈回流，与算法团队共同推动模型微调与迭代，建立效果优化闭环。\n• 协调算法、工程、设计和内容团队，独立推动互动内容项目从 0 到 1 上线。\n\n任职要求：\n• 2 年以上 AI 模型策略产品经验，具备 AI Native 思维，理解大模型与 Agent 的能力边界。\n• 具备 Agent 链路搭建、模型评测体系建设、Prompt 优化等核心策略实践。\n• 逻辑清晰、执行力强，能独立推进 0 到 1 项目并完成跨团队协作。\n• 日常关注或体验轻度游戏，理解小游戏和泛娱乐用户的核心需求。\n\n加分项：有游戏内容平台、互动娱乐或 UGC 游戏生态经验；熟悉轻度游戏玩法设计、内容评测、模型微调或多模态生成。\n\n最新岗位重点：该方向与用户产品的互动玩法岗位紧密协作，但更强调模型能力边界、Agent 链路、Prompt、数据与评测闭环。团队当前对模型策略人才需求紧急，优秀 Senior 人选可进一步承担方向 POC。",
+    "descriptionEn": "Responsibilities:\n• Own AI interactive-content strategy and explore new entertainment formats, gameplay, and growth opportunities enabled by frontier AI.\n• Define core content categories, interactive mechanics, and release-quality standards through a strong understanding of casual gaming and entertainment ecosystems.\n• Design and build the core agent workflows behind interactive content.\n• Establish benchmark datasets, evaluation methods, and quantitative standards for model-generated experiences.\n• Create a model-improvement loop through prompt optimization, data governance, user feedback, and close collaboration with AI researchers.\n• Lead cross-functional zero-to-one delivery across AI, Engineering, Design, and Content.\n\nRequirements:\n• 2+ years in AI model-strategy products, with AI-native judgment and understanding of LLM and agent boundaries.\n• Hands-on experience with agent workflows, model evaluation, benchmarks, and prompt optimization.\n• Strong logic, execution, ownership, and cross-functional leadership in zero-to-one projects.\n• Genuine familiarity with casual games and interactive-entertainment user needs.\n\nPreferred: game-content platforms, interactive entertainment, UGC gaming ecosystems, gameplay design, model tuning, or multimodal generation.\n\nLatest focus: this role partners closely with the consumer interactive-product team while placing greater emphasis on model boundaries, agent workflows, prompting, data, and evaluation loops. Model strategy is an urgent hiring area, and an exceptional senior candidate may grow into direction-level POC ownership.",
     "tags": [
       "互动内容",
       "模型策略",
       "Agent工作流",
       "模型评测",
+      "高优先级",
       "上海"
     ],
     "tagsEn": [
@@ -3387,6 +3496,7 @@
       "Model Strategy",
       "Agent Workflows",
       "Model Evaluation",
+      "High Priority",
       "Shanghai"
     ],
     "profile": {
@@ -4172,5 +4282,238 @@
     "tagsEn": ["Generative Models", "Video Generation", "3D Generation", "Post-Training", "Overseas", "Selective Hiring"],
     "profile": {"experience": "图像、视频、3D或世界模型核心研发经验", "experienceEn": "Core image, video, 3D, or world-model R&D experience", "education": "本科及以上或同等研究能力", "educationEn": "Bachelor's degree or equivalent research experience", "language": "英语可进行研究协作", "languageEn": "Professional research communication in English", "skills": ["生成模型", "后训练", "数据治理", "分布式训练"], "skillsEn": ["Generative Models", "Post-training", "Data Curation", "Distributed Training"]},
     "sort": 2
+  },
+  {
+    "id": "consumer-ai-creative-expression-platform-job-014",
+    "companyId": "consumer-ai-creative-expression-platform",
+    "createdAt": "2026-08-24T11:00:00.000Z",
+    "title": "资深用户产品经理（互动玩法）",
+    "titleEn": "Senior Consumer Product Manager, Interactive Experiences",
+    "jobType": "product-design",
+    "jobTypeEn": "Product & Design",
+    "workMode": "上海办公，具体安排面议",
+    "workModeEn": "Shanghai-based; work arrangement to be discussed",
+    "location": "上海",
+    "locationEn": "Shanghai",
+    "description": "岗位职责：\n• 负责 AI 原生互动玩法方向，将漫画、动效与视频等被动消费内容升级为可交互、可实时生成的用户体验。\n• 定义互动内容的核心机制、生成规则、用户路径和效果标准，探索内容消费与实时生成之间的新产品形态。\n• 从 0 到 1 完成机会判断、方案设计、原型验证、开发推动、上线和数据复盘。\n• 与模型策略、算法、工程、设计及内容团队协作，推动模型能力与互动体验共同演进。\n• 对用户参与度、互动深度、内容生成质量及产品长期方向负责。\n\n任职要求：\n• 资深 C 端产品经验，完整主导过 0 到 1 产品或关键创新业务，并有真实上线结果。\n• 用户洞察、创新能力和战略拆解能力突出，能够在模糊场景中定义产品方向。\n• 理解内容生产与消费规则，有互动内容、游戏玩法、创作工具或泛娱乐产品经验优先。\n• 产品操盘能力强，能平衡用户价值、模型能力、研发成本与业务节奏。\n• 对 AI 原生交互保持敏感，具备快速原型或 AI 工具实践者优先。",
+    "descriptionEn": "Own AI-native interactive experiences that turn comics, motion content, and video from passive consumption into real-time, generative interaction. Define mechanics, generation rules, user journeys, and quality standards; lead the full zero-to-one cycle; and partner with Model Strategy, AI, Engineering, Design, and Content. Requires senior consumer-product ownership, a validated zero-to-one launch, exceptional user insight and strategic decomposition, and ideally experience in interactive content, game mechanics, creative tools, or entertainment products.",
+    "tags": [
+      "互动玩法",
+      "AI原生交互",
+      "0-1产品",
+      "资深产品",
+      "上海"
+    ],
+    "tagsEn": [
+      "Interactive Experiences",
+      "AI-native Interaction",
+      "Zero-to-One",
+      "Senior Product",
+      "Shanghai"
+    ],
+    "profile": {
+      "experience": "资深C端产品经验，完整0-1操盘",
+      "experienceEn": "Senior consumer product with complete zero-to-one ownership",
+      "skills": [
+        "互动玩法",
+        "用户洞察",
+        "战略拆解",
+        "产品操盘"
+      ],
+      "skillsEn": [
+        "Interactive Mechanics",
+        "User Insight",
+        "Strategic Decomposition",
+        "Product Ownership"
+      ]
+    },
+    "sort": 14
+  },
+  {
+    "id": "consumer-ai-creative-expression-platform-job-015",
+    "companyId": "consumer-ai-creative-expression-platform",
+    "createdAt": "2026-08-24T11:01:00.000Z",
+    "title": "AI 用户产品经理（游戏化互动）",
+    "titleEn": "AI Consumer Product Manager, Gamified Interaction",
+    "jobType": "product-design",
+    "jobTypeEn": "Product & Design",
+    "workMode": "上海办公，具体安排面议",
+    "workModeEn": "Shanghai-based; work arrangement to be discussed",
+    "location": "上海",
+    "locationEn": "Shanghai",
+    "description": "岗位职责：\n• 负责 AI 内容产品中的游戏化互动方向，将游戏机制、轻度玩法与实时生成能力结合，设计新的用户体验。\n• 从用户动机、反馈循环、叙事节奏和内容生成规则出发，定义可持续迭代的玩法体系。\n• 快速完成玩法原型、用户验证与数据复盘，推动想法从概念走向真实上线。\n• 与算法、工程、设计、内容及运营团队协作，保障玩法质量与交付效率。\n\n任职要求：\n• 有游戏策划、游戏产品、小游戏、UGC 游戏或互动娱乐产品经验，并具备产品化落地能力。\n• 用户洞察和创新能力强，不只是优化已有功能，而是能提出并验证新玩法。\n• 理解基础 AI 产品与生成式内容逻辑，愿意快速学习模型能力边界。\n• 逻辑清晰、执行力强，能够在不确定环境中独立推进 0 到 1 项目。\n\n加分项：有轻度游戏、互动叙事、内容社区、创作者工具或 AI 原生产品经验。",
+    "descriptionEn": "Design gamified interaction for AI content products by combining game mechanics, casual play, and real-time generation. Build sustainable systems around user motivation, feedback loops, narrative pacing, and generation rules; prototype quickly; validate with users and data; and drive cross-functional delivery. Requires game design, game product, mini-game, UGC gaming, or interactive-entertainment experience, plus strong consumer insight, innovation, and zero-to-one execution.",
+    "tags": [
+      "游戏化互动",
+      "轻度游戏",
+      "AI内容",
+      "0-1产品",
+      "上海"
+    ],
+    "tagsEn": [
+      "Gamified Interaction",
+      "Casual Games",
+      "AI Content",
+      "Zero-to-One",
+      "Shanghai"
+    ],
+    "profile": {
+      "experience": "游戏策划、游戏产品或互动娱乐经验",
+      "experienceEn": "Game design, game product, or interactive entertainment experience",
+      "skills": [
+        "玩法设计",
+        "用户动机",
+        "原型验证",
+        "跨团队推进"
+      ],
+      "skillsEn": [
+        "Game Mechanics",
+        "User Motivation",
+        "Prototype Validation",
+        "Cross-functional Delivery"
+      ]
+    },
+    "sort": 15
+  },
+  {
+    "id": "consumer-ai-creative-expression-platform-job-016",
+    "companyId": "consumer-ai-creative-expression-platform",
+    "createdAt": "2026-08-24T11:02:00.000Z",
+    "title": "AI 用户产品经理（海外女性向互动娱乐）",
+    "titleEn": "AI Consumer Product Manager, Global Female-Focused Interactive Entertainment",
+    "jobType": "product-design",
+    "jobTypeEn": "Product & Design",
+    "workMode": "上海办公，面向海外市场",
+    "workModeEn": "Shanghai-based, serving global markets",
+    "location": "上海",
+    "locationEn": "Shanghai",
+    "description": "岗位职责：\n• 独立负责面向海外用户的 AI 互动娱乐产品，围绕互动漫画、互动叙事与陪伴体验完成产品闭环。\n• 深入理解以欧美为主的女性用户需求、内容偏好、情绪价值与付费动机，定义核心体验和产品路线。\n• 将生成式 AI 能力转化为稳定、可控、有情感吸引力的互动体验，并持续优化留存与用户价值。\n• 负责用户研究、竞品分析、方案设计、原型验证、开发推动和上线复盘。\n• 与模型、设计、研发、内容及海外增长团队协作，推动独立产品持续迭代。\n\n任职要求：\n• 以下三项至少具备两项，其中女性用户洞察最关键：女性向用户与内容洞察、海外市场产品经验、AI 产品经验。\n• 对欧美女性用户、互动叙事、陪伴产品或女性向娱乐有真实理解，而非只具备泛海外经验。\n• 产品闭环能力强，能够独立负责一个新产品或核心方向。\n• 英语能够支持海外研究与跨文化协作，数据意识和用户同理心突出。\n\n加分项：做过女性向游戏、互动小说、AI 陪伴、海外内容社区或其他创新 C 端产品；有相关内容创作或社区影响力。",
+    "descriptionEn": "Own an independent AI interactive-entertainment product for global audiences across interactive comics, narrative experiences, and companionship. Develop deep insight into primarily Western female users, translate generative AI into emotionally compelling and controllable experiences, and lead research, design, prototyping, delivery, and iteration. Candidates should bring at least two of three strengths—female-audience insight, global-market product experience, and AI-product experience—with audience insight being the most important. English, cross-cultural judgment, and end-to-end ownership are required.",
+    "tags": [
+      "海外产品",
+      "女性向",
+      "互动叙事",
+      "AI陪伴",
+      "上海"
+    ],
+    "tagsEn": [
+      "Global Product",
+      "Female-focused",
+      "Interactive Narrative",
+      "AI Companionship",
+      "Shanghai"
+    ],
+    "profile": {
+      "experience": "女性向洞察、海外产品、AI产品三项至少两项",
+      "experienceEn": "At least two of female-audience insight, global product, and AI product",
+      "skills": [
+        "女性用户洞察",
+        "海外市场",
+        "互动叙事",
+        "产品闭环"
+      ],
+      "skillsEn": [
+        "Female Audience Insight",
+        "Global Markets",
+        "Interactive Narrative",
+        "End-to-end Ownership"
+      ]
+    },
+    "sort": 16
+  },
+  {
+    "id": "consumer-ai-creative-expression-platform-job-017",
+    "companyId": "consumer-ai-creative-expression-platform",
+    "createdAt": "2026-08-24T11:03:00.000Z",
+    "title": "素材创意策略",
+    "titleEn": "Creative Asset Strategy",
+    "jobType": "mkt-growth",
+    "jobTypeEn": "MKT & Growth",
+    "workMode": "上海办公，具体安排面议",
+    "workModeEn": "Shanghai-based; work arrangement to be discussed",
+    "location": "上海",
+    "locationEn": "Shanghai",
+    "description": "岗位职责：\n• 负责 AI 原生娱乐与创作产品的增长素材方向、创意策略和迭代机制，对素材效果负责。\n• 连接内部素材策略、制作团队与达人内容，明确主题、创意角度、脚本框架与验证节奏。\n• 持续追踪平台热点、内容趋势和用户情绪，将文化信号转化为可投放、可传播的素材创意。\n• 使用 AIGC 工具提高素材研究、创意探索、生成与测试效率。\n• 与投放、达人营销、产品和内容团队协作，通过数据复盘持续优化素材策略。\n\n任职要求：\n• 内容 Sense 和创意判断突出，能够把控业务整体素材方向，而非仅负责拍摄、剪辑或现场执行。\n• 熟悉效果素材或内容增长链路，理解创意、受众、渠道与转化结果之间的关系。\n• 对热点与互联网内容文化敏感，能形成独立判断并快速落地。\n• 具备 AIGC 素材创作和工作流实践，数据意识与协作能力强。\n\n最新岗位重点：这是当前用户增长团队的高优先级岗位。",
+    "descriptionEn": "Own creative direction and iteration systems for growth assets across AI-native entertainment and creation products. Connect internal strategy, production, and creator content; translate cultural signals into scalable concepts; use AIGC tools to accelerate exploration and testing; and improve results through data. Requires exceptional content sense and creative judgment, understanding of performance creative, strong trend awareness, and practical AIGC workflows. This is a high-priority growth hire.",
+    "tags": [
+      "素材策略",
+      "内容创意",
+      "AIGC",
+      "效果增长",
+      "高优先级",
+      "上海"
+    ],
+    "tagsEn": [
+      "Creative Strategy",
+      "Content Creative",
+      "AIGC",
+      "Performance Growth",
+      "High Priority",
+      "Shanghai"
+    ],
+    "profile": {
+      "experience": "效果素材、内容增长或创意策略经验",
+      "experienceEn": "Performance creative, content growth, or creative strategy",
+      "skills": [
+        "内容Sense",
+        "创意策略",
+        "热点判断",
+        "AIGC素材"
+      ],
+      "skillsEn": [
+        "Content Sense",
+        "Creative Strategy",
+        "Trend Judgment",
+        "AIGC Assets"
+      ]
+    },
+    "sort": 17
+  },
+  {
+    "id": "consumer-ai-creative-expression-platform-job-018",
+    "companyId": "consumer-ai-creative-expression-platform",
+    "createdAt": "2026-08-24T11:04:00.000Z",
+    "title": "达人营销策略",
+    "titleEn": "Creator Marketing Strategy",
+    "jobType": "mkt-growth",
+    "jobTypeEn": "MKT & Growth",
+    "workMode": "上海办公，具体安排面议",
+    "workModeEn": "Shanghai-based; work arrangement to be discussed",
+    "location": "上海",
+    "locationEn": "Shanghai",
+    "description": "岗位职责：\n• 负责 AI 原生娱乐与创作产品的 KOL / KOC 达人营销全链路，从达人筛选、内容匹配、Brief 与脚本打磨到合作执行和效果复盘。\n• 根据产品定位、用户人群和渠道特点建立达人分层、筛选标准与合作策略。\n• 与达人共同打磨兼具内容感染力和产品转化力的创意，持续沉淀高质量案例与方法论。\n• 结合数据评估达人质量、内容表现和转化效果，优化达人组合与投入效率。\n• 与素材创意、投放、产品和内容团队协作，形成完整增长闭环。\n\n任职要求：\n• 有达人营销、内容营销或创作者合作经验，能够独立负责策略和完整链路。\n• 熟悉 KOL 与 KOC 生态，具备达人筛选、匹配、脚本和效果复盘能力。\n• 内容判断和用户洞察强，能够推动达人产出符合产品调性的高质量内容。\n• 不以纯电商带货、明星商务 BD 或单纯合作执行为主要经验；需要具备产品增长和内容策略思维。\n• 数据敏感、执行力强，能同时推进多个合作项目。\n\n加分项：有 AI 产品、内容社区、泛娱乐、游戏或年轻用户产品的达人营销经验。",
+    "descriptionEn": "Own the complete KOL and KOC marketing loop for AI-native entertainment and creation products, including creator discovery, matching, briefs, script development, execution, and performance review. Build creator segmentation and selection standards, develop content with both audience resonance and conversion value, and improve efficiency through data. Requires end-to-end creator-marketing strategy, strong content judgment, and product-growth thinking. Pure live-commerce, celebrity BD, or execution-only backgrounds are not the target.",
+    "tags": [
+      "达人营销",
+      "KOL/KOC",
+      "内容策略",
+      "增长闭环",
+      "上海"
+    ],
+    "tagsEn": [
+      "Creator Marketing",
+      "KOL/KOC",
+      "Content Strategy",
+      "Growth Loop",
+      "Shanghai"
+    ],
+    "profile": {
+      "experience": "达人营销或创作者合作全链路经验",
+      "experienceEn": "End-to-end creator marketing or creator partnership experience",
+      "skills": [
+        "达人筛选",
+        "Brief与脚本",
+        "内容匹配",
+        "效果复盘"
+      ],
+      "skillsEn": [
+        "Creator Selection",
+        "Briefs & Scripts",
+        "Content Matching",
+        "Performance Review"
+      ]
+    },
+    "sort": 18
   }
+
 ]
