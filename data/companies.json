@@ -508,5 +508,21 @@
     "location": "北美 / 新加坡 / 苏黎世 / 中国远程",
     "locationEn": "North America / Singapore / Zurich / China Remote",
     "sort": 61
+  },
+  {
+    "id": "global-ai-sports-imaging-hardware-platform",
+    "createdAt": "2026-08-25T03:28:52.000Z",
+    "industryId": "smart-hardware",
+    "name": "全球 AI 体育影像智能硬件公司",
+    "nameEn": "Global AI Sports Imaging Hardware Company",
+    "logo": "",
+    "logoEmoji": "🎥",
+    "description": "一家处于 B 轮阶段的全球化 AI 智能硬件公司，聚焦智能影像与体育科技，为全球消费者打造兼具技术创新与真实使用价值的产品。公司具备健康的自我造血能力和稳健现金流，业务连续多年保持高速增长；国内已形成数百人规模的产品、研发与商业化组织，并在美国硅谷设有创新实验团队，持续推进北美市场和前沿产品探索。核心管理与技术团队拥有国内顶尖高校、海外科研及国际头部科技企业背景，在软件、算法、影像、通信和全球化业务方面积累深厚。团队文化开放、平等、尊重专业判断，适合既理解成熟国际品牌方法、又愿意参与高速成长业务的管理者。",
+    "descriptionEn": "A Series B global AI smart-hardware company focused on intelligent imaging and sports technology, building differentiated consumer products for international markets. The business combines healthy self-generated cash flow with sustained high growth. Its China organization spans product, engineering, and commercialization at meaningful scale, while a Silicon Valley innovation team explores frontier products and the North American market. The leadership and technical organization brings experience from top universities, overseas research environments, and leading international technology companies across software, algorithms, imaging, communications, and global business. The culture is open, collaborative, and professionally driven, offering an attractive environment for leaders who combine global-brand discipline with an entrepreneurial operating mindset.",
+    "stage": "B轮 · 具备稳定造血能力",
+    "stageEn": "Series B · Healthy Self-Sustaining Business",
+    "location": "深圳 / 硅谷",
+    "locationEn": "Shenzhen / Silicon Valley",
+    "sort": 62
   }
 ]
