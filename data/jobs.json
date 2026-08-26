@@ -4638,6 +4638,54 @@
       "skillsEn": ["Research Roadmap", "Data-Model Loop", "Algorithm Team Building", "Research Translation"]
     },
     "sort": 3
+  },
+  {
+    "id": "leading-internet-video-content-ai-platform-job-001",
+    "companyId": "leading-internet-video-content-ai-platform",
+    "createdAt": "2026-08-26T06:30:00.000Z",
+    "title": "Agent 技术负责人",
+    "titleEn": "Agent Technology Lead",
+    "jobType": "engineering,leadership",
+    "jobTypeEn": "Engineering,Leadership",
+    "workMode": "北京办公",
+    "workModeEn": "Beijing-based",
+    "location": "北京",
+    "locationEn": "Beijing",
+    "description": "岗位定位：\n负责头部视频内容平台 AI Native 内容制作范式的技术重塑，面向影视、动画、漫剧、短片与互动影像等场景，搭建具备行业竞争力的 Agent 架构、技术底座与规模化交付机制。产品希望让创作者从一个想法出发，借助 Agent、Skills、Canvas 和可视化工作流完成从剧本、角色、多镜头生成到修改与成片的完整链路。你将同时承担技术路线、系统架构、团队协同和业务结果责任，把前沿 Agent 能力转化为稳定可用的内容生产力。\n\n岗位职责：\n• 规划并建设内容制作领域的 Agent 技术体系，支撑业务 Agent 持续创新与规模化落地。\n• 主导影视、动画、漫剧、短片及互动内容生产链路的 Agent 技术规划，打通故事理解、剧本生成、角色一致性、多镜头编排、局部与全局修改等关键环节。\n• 建设高可用、可扩展、可演进的工程体系，统筹知识库底座、模型能力、任务规划、记忆机制、技能与工具调用、评估体系及服务治理等关键模块。\n• 建立 Agent 全生命周期研发与交付机制，覆盖方案设计、开发、评测、上线、监控、迭代及成本优化。\n• 推动大模型、Multi-Agent、多模态理解与生成等前沿能力在真实内容制作场景中落地，形成技术突破与产品创新。\n• 与内容、产品、算法、工程和业务团队协作，明确目标、资源与交付节奏，对关键项目结果负责。\n\n任职要求：\n• 具备丰富的垂直领域 AI 复杂研发经验，有大型复杂系统架构与生产级交付经验，能够同时驾驭技术深度、组织复杂度与业务结果。\n• 对 AI Agent 体系具有系统性认知与实践，熟悉 LLM、Agent Loop、Tool Use、Planning、Memory、RAG、评测与服务治理等关键模块。\n• 理解多模态内容应用，对图像、视频、音频或内容生成链路有较强技术判断力。\n• 具备突出的业务 Sense 和协同推动能力，能够快速完成业务目标对齐、技术方案取舍与跨团队资源共识。\n• 有技术团队管理、核心架构 owner 或大型跨团队项目负责人经验。\n• 对 AI 前沿技术保持强烈热情与持续学习能力，愿意带领团队向高目标持续突破。\n\n加分项：\n• 有影视、动画、短剧、漫剧、互动影像、游戏或专业内容生产工具相关经验。\n• 有大规模 Agent 平台、Multi-Agent 系统、多模态生成、可视化工作流或内容工业化平台建设经验。",
+    "descriptionEn": "Lead the technical transformation of AIGC content production for a scaled video-content platform. Build a competitive Agent architecture, shared technical foundation, and delivery system for film, television, animation, and digital comic-drama workflows. Own technical direction, architecture, cross-team execution, and business outcomes, turning frontier Agent capabilities into reliable production tools.\n\nResponsibilities include planning the content-production Agent stack; building production-grade knowledge, model, planning, memory, evaluation, and service-governance modules; establishing the full development and delivery lifecycle; and applying LLM, Multi-Agent, and multimodal technologies to real creative workflows.\n\nRequires substantial experience delivering complex vertical AI systems, strong architecture depth, systematic knowledge of LLM and Agent systems, sound judgment in multimodal content applications, mature business sense, and experience leading technical teams or major cross-functional programs. Experience in professional content production, multimodal generation, or large-scale Agent platforms is preferred.",
+    "tags": ["Agent", "技术负责人", "AIGC内容制作", "Multi-Agent", "多模态", "北京"],
+    "tagsEn": ["Agent", "Technology Lead", "AIGC Production", "Multi-Agent", "Multimodal", "Beijing"],
+    "profile": {
+      "experience": "复杂 AI 系统架构与技术团队负责人经验",
+      "experienceEn": "Leadership in complex AI system architecture and delivery",
+      "skills": ["Agent架构", "大型系统设计", "多模态内容", "技术组织与业务落地"],
+      "skillsEn": ["Agent Architecture", "Large-Scale Systems", "Multimodal Content", "Technical Leadership & Delivery"]
+    },
+    "sort": 1
+  },
+  {
+    "id": "leading-internet-video-content-ai-platform-job-002",
+    "companyId": "leading-internet-video-content-ai-platform",
+    "createdAt": "2026-08-26T06:31:00.000Z",
+    "title": "AIGC 产品负责人",
+    "titleEn": "AIGC Product Leader",
+    "jobType": "pm,leadership",
+    "jobTypeEn": "Product Management,Leadership",
+    "workMode": "北京或深圳办公",
+    "workModeEn": "Beijing or Shenzhen-based",
+    "location": "北京 / 深圳",
+    "locationEn": "Beijing / Shenzhen",
+    "description": "岗位定位：\n负责将 AI 技术系统性应用到影视、动画和新型内容制作流程，建设面向专业创作者与大众用户的 AI Native 内容创作工作台，定义产品核心竞争力并推动规模化使用。产品覆盖从灵感输入、故事与剧本生成、角色设定、多镜头内容生产、编辑修改到短剧、短片和互动影像交付的完整链路，并通过 Agent、Skills、Canvas 与可视化工作流降低专业创作门槛。该岗位需要兼具内容行业理解、AI 产品判断、复杂产品规划和跨团队领导能力。\n\n岗位职责：\n• 负责 AI 在影视、动画、漫剧、短片和互动内容制作流程中的产品规划与落地，建设可持续演进的 AIGC 内容制作工具体系。\n• 深入理解从创意策划、剧本生成、角色与素材生成、多镜头编排、编辑协作到成片交付的内容生产链路，识别可被 AI 重构的关键环节。\n• 规划 Agent、Skills、Canvas 与可视化工作流等核心产品能力，让用户既能以自然语言启动创作，也能对风格、角色、镜头和局部细节进行可控调整。\n• 洞察国内外 AI 视频生成与专业内容制作趋势，与内容制作团队、创作者和行业伙伴深入沟通，形成具有竞争力的解决方案。\n• 定义产品愿景、路线图、核心能力与优先级，推动 Agent、多模态模型和智能工作流转化为清晰可用的产品体验。\n• 与算法、研发、设计和内容业务团队紧密协作，推动技术方案落地并对迭代质量、进度和业务效果负责。\n• 开展用户研究和数据分析，建立产品指标体系，通过使用率、制作效率、内容质量和用户反馈持续优化产品。\n• 统筹 B 端专业生产需求与 C 端创作体验，在可控性、生成质量、效率、成本和易用性之间做出合理权衡。\n\n任职要求：\n• 5 年及以上产品经验，其中 2 年及以上产品负责人或核心产品 owner 经验。\n• 熟悉传统影视、动画或专业内容制作流程，能够与创作者和制作团队深入讨论真实工作流。\n• 熟悉 AIGC 内容创作和 AI 视频生成行业趋势，理解主流视频生成模型的能力、限制与产品化方式。\n• 有影视、动画、内容创作工具、视频编辑、设计工具或生成式 AI 产品经验者优先。\n• 有 Agent、智能助手或 AI 工作流产品经验，能够将模型能力转化为稳定可用的产品机制。\n• 具备 B 端与 C 端复合产品经验者优先，能够平衡专业流程与大众用户体验。\n• 优秀的跨团队沟通、项目推进和资源协调能力，能够使用数据驱动产品决策。\n\n加分项：\n• 有 AI 视频、图像或多模态生成产品从 0 到 1 及规模化经验。\n• 有专业创作工具、互动内容、内容工业化平台或大型内容生态产品经验。",
+    "descriptionEn": "Own the product strategy and delivery of AI-powered production tools for film, television, animation, and emerging content formats. Build a scalable AIGC creation system for professional creators and content teams, define the product's competitive advantage, and drive adoption across real production workflows.\n\nResponsibilities include mapping the end-to-end creative workflow, identifying high-value AI opportunities, defining product vision and roadmap, translating Agent and multimodal-model capabilities into usable experiences, leading cross-functional delivery, and establishing product metrics around adoption, production efficiency, content quality, and user satisfaction.\n\nRequires 5+ years of product experience, including 2+ years as a product lead or core owner; understanding of film, animation, or professional content workflows; strong knowledge of AIGC and AI video generation; and excellent cross-functional leadership. Experience with creator tools, Agent products, multimodal generation, and combined B2B/B2C products is preferred.",
+    "tags": ["AIGC产品", "产品负责人", "AI视频生成", "影视动画", "Agent", "北京深圳"],
+    "tagsEn": ["AIGC Product", "Product Leader", "AI Video Generation", "Film & Animation", "Agent", "Beijing & Shenzhen"],
+    "profile": {
+      "experience": "5年以上产品经验，2年以上产品负责人经验",
+      "experienceEn": "5+ years in product, including 2+ years as a product lead",
+      "skills": ["AIGC内容工具", "影视动画工作流", "AI视频生成", "B端+C端产品"],
+      "skillsEn": ["AIGC Creator Tools", "Film & Animation Workflows", "AI Video Generation", "B2B + B2C Product"]
+    },
+    "sort": 2
   }
 
 ]

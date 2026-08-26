@@ -540,5 +540,21 @@
     "location": "北京",
     "locationEn": "Beijing",
     "sort": 63
+  },
+  {
+    "id": "leading-internet-video-content-ai-platform",
+    "createdAt": "2026-08-26T06:30:00.000Z",
+    "industryId": "internet",
+    "name": "头部互联网视频内容与 AI 创作平台",
+    "nameEn": "Leading Internet Video Content & AI Creation Platform",
+    "logo": "/logos/global-video-content-platform.jpg",
+    "logoEmoji": "🎬",
+    "description": "一家国内头部互联网视频内容平台，拥有覆盖影视、动画、漫剧等多元内容形态的大规模用户与内容生态。团队正在打造 AI Native 内容创作工作台，让创作者能够从一个想法出发，通过 Agent、Skills、Canvas 与可视化工作流完成剧本生成、角色设定、多镜头创作、内容修改以及短剧、短片和互动影像制作。依托成熟的内容业务、丰富的真实生产场景以及强大的工程与算法资源，团队正以大模型、多模态生成和智能工作流重塑从创意到成片的生产范式，并把有效能力沉淀为可复用、可规模化的产品与技术底座。",
+    "descriptionEn": "A leading internet video-content platform in China with a large user and creator ecosystem spanning film, television, animation, and digital comic drama. The team is building an AI-native creation workspace that helps creators move from an initial idea to scripts, characters, multi-shot content, iterative editing, short dramas, films, and interactive experiences through Agents, Skills, Canvas, and visual workflows. Backed by mature content operations, real production scenarios, and substantial engineering and algorithm resources, the team is reshaping the journey from concept to finished content with foundation models, multimodal generation, and reusable intelligent workflows.",
+    "stage": "成熟业务平台 · AI 内容生产升级",
+    "stageEn": "Scaled Content Platform · AI Production Transformation",
+    "location": "北京 / 深圳",
+    "locationEn": "Beijing / Shenzhen",
+    "sort": 64
   }
 ]
