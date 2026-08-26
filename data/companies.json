@@ -524,5 +524,21 @@
     "location": "深圳 / 硅谷",
     "locationEn": "Shenzhen / Silicon Valley",
     "sort": 62
+  },
+  {
+    "id": "embodied-ai-real-world-data-infrastructure-platform",
+    "createdAt": "2026-08-26T04:00:00.000Z",
+    "industryId": "embodied-ai",
+    "name": "具身智能真实场景数据基础设施平台",
+    "nameEn": "Embodied AI Real-World Data Infrastructure Platform",
+    "logo": "",
+    "logoEmoji": "🦾",
+    "description": "一家面向具身智能与 Physical AI 的真实场景数据基础设施公司，致力于解决机器人和智能系统从 Demo 走向规模化落地时面临的高质量交互数据瓶颈。平台围绕真实场景建立覆盖采集、标注、数据配比、模型评测与部署支持的端到端能力，为产业客户提供标准化、可复用、可规模扩展的数据产品与服务，并形成从真实任务到数据底座、模型迭代和本体落地的价值闭环。公司由具备大型产业平台、自动驾驶、AI 数据工程与具身智能创业经验的团队联合发起，兼具长期数据体系建设能力、产业资源与从 0 到 1 的产品化经验，目标是成为连接场景方、模型团队与机器人本体的重要中立基础设施。",
+    "descriptionEn": "A real-world data infrastructure company serving Embodied AI and Physical AI. The platform addresses the shortage of high-quality interaction data that limits robotics and intelligent systems as they move from demos to scalable deployment. Its end-to-end capabilities span real-world data collection, annotation, data-mixture design, model evaluation, and deployment support, delivering standardized, reusable, and scalable data products for industrial customers. The company was initiated by operators and technical leaders with broad experience across large-scale industry platforms, autonomous systems, AI data engineering, and embodied-intelligence ventures, combining long-term data-system expertise, industrial resources, and zero-to-one product-building capability.",
+    "stage": "早期阶段 · 产业与技术团队联合发起",
+    "stageEn": "Early Stage · Industry and Technology Team Collaboration",
+    "location": "北京",
+    "locationEn": "Beijing",
+    "sort": 63
   }
 ]

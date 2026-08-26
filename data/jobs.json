@@ -4564,6 +4564,80 @@
       ]
     },
     "sort": 1
+  },
+  {
+    "id": "embodied-ai-real-world-data-infrastructure-platform-job-001",
+    "companyId": "embodied-ai-real-world-data-infrastructure-platform",
+    "createdAt": "2026-08-26T04:00:00.000Z",
+    "title": "CEO / 首席执行官",
+    "titleEn": "Chief Executive Officer",
+    "jobType": "cxo",
+    "jobTypeEn": "CXO",
+    "workMode": "北京 Base，具体办公安排面议",
+    "workModeEn": "Beijing-based; exact working arrangement to be discussed",
+    "location": "北京",
+    "locationEn": "Beijing",
+    "description": "岗位定位：\n作为公司最高经营负责人，全面统筹战略、经营、商业化、组织建设与外部生态，向董事会汇报。你将带领公司把真实场景数据能力建设为可规模化的具身智能基础设施，在技术产品、客户价值、交付体系与长期竞争壁垒之间建立清晰闭环。\n\n核心职责：\n• 制定并推进公司中长期战略、年度经营计划和关键业务目标，对整体经营结果负责。\n• 明确商业模式、产品与市场路径，推动具身智能数据产品从项目验证走向标准化、规模化交付。\n• 统筹核心客户、产业伙伴与关键生态关系，代表公司开展重要商务、行业及外部沟通。\n• 搭建高效管理团队与组织机制，明确权责、目标、预算和经营节奏，持续提升组织效能。\n• 协调产品、研发、算法、数据交付与商业团队，保证战略目标转化为可执行计划和业务结果。\n• 建立关键经营指标、风险管理和董事会沟通机制，及时推动重大事项决策。\n• 识别行业趋势和竞争格局，持续构建数据网络、交付能力与产业协同壁垒。\n\n任职要求：\n• 具备成熟的公司经营、创业或事业部一号位经验，曾对战略、业务结果和组织管理承担完整责任。\n• 对 AI、机器人、具身智能、数据服务、自动驾驶或复杂产业科技业务有深入理解。\n• 有从 0 到 1 定义业务，并将产品或服务推进至规模化商业落地的成功经验。\n• 具备出色的商业判断、客户洞察和复杂谈判能力，能够同时处理董事会、客户、合作伙伴与内部团队关系。\n• 有较强的组织建设与高管团队管理能力，能够在高不确定性环境中建立清晰节奏并推动结果。\n• 具备长期主义、创业精神和成熟的公众沟通能力。\n\n薪酬与激励：\n• 千万元级及以上，具体现金、长期激励与职责范围根据候选人经验面议。",
+    "descriptionEn": "Role Overview:\nServe as the company's top operating executive, owning strategy, business performance, commercialization, organizational development, and the external ecosystem while reporting to the Board. The CEO will turn real-world data capabilities into scalable infrastructure for Embodied AI and connect technology, customer value, delivery, and long-term defensibility.\n\nResponsibilities:\n• Define and execute long-term strategy, annual operating plans, and company-level goals.\n• Establish the business model and product-market roadmap, moving data services from project validation to standardized and scalable delivery.\n• Lead strategic customers, industry partnerships, and critical external relationships.\n• Build the executive team and operating system across goals, accountability, budgeting, and execution cadence.\n• Align Product, Engineering, Algorithms, Data Delivery, and Commercial teams around measurable outcomes.\n• Establish operating metrics, risk management, and effective Board communication.\n\nRequirements:\n• Proven experience leading a company, startup, or major business unit with full ownership of strategy, results, and organization.\n• Strong understanding of AI, robotics, embodied intelligence, data services, autonomous systems, or complex industrial technology.\n• A demonstrated record of building a business from zero to scalable commercialization.\n• Excellent commercial judgment, stakeholder management, negotiation, and executive communication.\n• Mature organizational leadership and the ability to execute under significant ambiguity.\n\nCompensation:\n• Executive compensation at RMB 10 million or above, with the final cash, long-term incentives, and scope to be discussed based on the candidate.",
+    "tags": ["CEO", "具身智能", "公司经营", "商业化", "组织建设", "北京"],
+    "tagsEn": ["CEO", "Embodied AI", "Company Operations", "Commercialization", "Organization Building", "Beijing"],
+    "profile": {
+      "salary": "千万元级及以上，具体方案面议",
+      "salaryEn": "RMB 10M+ executive package; exact structure negotiable",
+      "experience": "公司、创业团队或大型事业部一号位经验",
+      "experienceEn": "CEO, founder, or major business-unit leadership experience",
+      "skills": ["战略与经营", "商业化", "高管团队建设", "董事会与外部沟通"],
+      "skillsEn": ["Strategy & Operations", "Commercialization", "Executive Team Building", "Board & External Communication"]
+    },
+    "sort": 1
+  },
+  {
+    "id": "embodied-ai-real-world-data-infrastructure-platform-job-002",
+    "companyId": "embodied-ai-real-world-data-infrastructure-platform",
+    "createdAt": "2026-08-26T04:01:00.000Z",
+    "title": "CTO / 首席技术官",
+    "titleEn": "Chief Technology Officer",
+    "jobType": "cxo,engineering",
+    "jobTypeEn": "CXO,Engineering",
+    "workMode": "北京 Base，具体办公安排面议",
+    "workModeEn": "Beijing-based; exact working arrangement to be discussed",
+    "location": "北京",
+    "locationEn": "Beijing",
+    "description": "岗位定位：\n全面负责公司的研发与工程体系，重点不是单纯追逐前沿研究，而是把数据、平台与算法能力转化为稳定、可复制、可规模交付的产品和基础设施。该岗位将连接业务需求、产品规划、技术架构与客户交付，汇报关系根据最终组织架构确定。\n\n核心职责：\n• 制定研发战略、技术架构与工程路线图，统筹数据平台、采集与标注系统、数据治理、评测及交付工具链。\n• 搭建并管理研发组织，建立工程标准、质量体系、项目机制与人才梯队。\n• 推动关键系统从原型走向生产，持续提升稳定性、扩展性、数据质量、交付效率和成本表现。\n• 将客户与业务需求转化为可复用的平台能力，减少一次性项目开发和人工依赖。\n• 与算法、产品、数据运营和商业团队协作，打通采集、处理、配比、评测与部署支持的完整链路。\n• 对重大架构选择、研发资源配置、技术风险与交付结果负责。\n• 建设安全、权限、审计和数据合规能力，满足复杂产业客户要求。\n\n任职要求：\n• 有大型数据平台、AI 基础设施、机器人/自动驾驶数据系统或复杂企业级平台的研发领导经验。\n• 具备扎实的系统架构与工程能力，理解数据管线、分布式系统、云基础设施、机器学习工程和质量体系。\n• 曾带领多职能研发团队交付生产级系统，并有从 0 到 1 搭建技术与组织体系的经验。\n• 能够在技术先进性、交付速度、可靠性、成本和客户需求之间做出成熟权衡。\n• 具备强执行力和业务理解，愿意深入关键项目推进落地，而非仅进行宏观管理。\n• 有具身智能、机器人、自动驾驶、数据采集标注或仿真相关经验者优先。",
+    "descriptionEn": "Role Overview:\nOwn the company's engineering and R&D organization, with a clear focus on turning data, platform, and algorithm capabilities into reliable, repeatable, and scalable products. This role connects business requirements, product planning, architecture, and customer delivery rather than focusing primarily on open-ended frontier research. Reporting lines will be finalized with the organization.\n\nResponsibilities:\n• Define engineering strategy and architecture across data platforms, collection and annotation systems, governance, evaluation, and delivery tooling.\n• Build and lead the R&D organization, engineering standards, quality systems, and talent structure.\n• Move critical systems from prototype to production while improving reliability, scalability, data quality, efficiency, and cost.\n• Convert customer needs into reusable platform capabilities and reduce one-off project work.\n• Connect the complete workflow across collection, processing, data mixtures, evaluation, and deployment support.\n• Own architectural decisions, technical risk, resource allocation, and delivery outcomes.\n\nRequirements:\n• Leadership experience across large-scale data platforms, AI infrastructure, robotics or autonomous-system data stacks, or complex enterprise platforms.\n• Strong systems architecture and engineering depth across pipelines, distributed systems, cloud infrastructure, ML engineering, and quality.\n• Proven success building production systems and multidisciplinary engineering organizations from zero.\n• Mature judgment across technical ambition, delivery speed, reliability, cost, and customer needs.\n• Embodied AI, robotics, autonomous-driving, data operations, or simulation experience is preferred.",
+    "tags": ["CTO", "研发体系", "数据平台", "工程落地", "具身智能", "北京"],
+    "tagsEn": ["CTO", "R&D Leadership", "Data Platform", "Engineering Delivery", "Embodied AI", "Beijing"],
+    "profile": {
+      "experience": "大型 AI / 数据平台或复杂技术系统研发负责人经验",
+      "experienceEn": "Senior R&D leadership in AI, data platforms, or complex technical systems",
+      "skills": ["研发组织建设", "系统架构", "平台产品化", "规模化交付"],
+      "skillsEn": ["R&D Organization", "Systems Architecture", "Platform Productization", "Scaled Delivery"]
+    },
+    "sort": 2
+  },
+  {
+    "id": "embodied-ai-real-world-data-infrastructure-platform-job-003",
+    "companyId": "embodied-ai-real-world-data-infrastructure-platform",
+    "createdAt": "2026-08-26T04:02:00.000Z",
+    "title": "首席科学家",
+    "titleEn": "Chief Scientist",
+    "jobType": "cxo,algorithm,research",
+    "jobTypeEn": "CXO,Algorithm,Research",
+    "workMode": "北京 Base，具体职责范围可商议",
+    "workModeEn": "Beijing-based; scope can be shaped with the candidate",
+    "location": "北京",
+    "locationEn": "Beijing",
+    "description": "岗位定位：\n负责抬高公司在具身智能前沿方向的技术上限，围绕算法与真实场景数据的结合建立研究判断、技术路线与算法体系。你将统筹算法模块，推动数据价值转化为模型能力，并与研发和业务团队共同寻找能够形成长期壁垒的技术方向；具体 scope 可结合候选人的专长进一步商议。\n\n核心职责：\n• 制定具身智能、机器人学习与数据驱动算法方向的中长期研究路线。\n• 统筹算法团队与核心研究项目，建立高标准的实验、评测、复现和技术决策机制。\n• 探索数据采集、数据配比、训练策略、模型评测与真实任务表现之间的关系，形成可持续的数据—模型闭环。\n• 推动多模态、VLA、机器人学习、模仿学习、强化学习或世界模型等能力与真实场景数据结合。\n• 将有价值的研究成果转化为平台能力、客户解决方案或可验证的产业应用。\n• 与 CTO、产品、数据和商业团队协作，在前沿探索与工程落地之间建立清晰接口。\n• 代表公司参与重要的学术、技术与产业合作，提升公司技术影响力和人才吸引力。\n\n任职要求：\n• 在机器学习、计算机视觉、机器人学习、多模态、VLA、强化学习、世界模型或 Data-Centric AI 等方向具备深厚积累。\n• 有高水平研究成果、核心算法系统建设或前沿团队领导经验，能够形成有判断力的技术路线。\n• 理解数据质量、分布、配比和评测对模型能力与真实任务表现的影响。\n• 具备将研究问题转化为实验、指标与工程协作计划的能力。\n• 能够吸引并培养优秀算法人才，推动跨学科团队在高不确定性问题上取得突破。\n• 有具身智能、机器人、自动驾驶或大规模真实世界数据经验者优先。",
+    "descriptionEn": "Role Overview:\nRaise the company's frontier research ceiling by defining how algorithms and real-world data should evolve together. The Chief Scientist will lead the algorithm organization, turn data advantages into model capabilities, and identify defensible long-term technical directions. The exact scope can be shaped around the candidate's strengths.\n\nResponsibilities:\n• Define the long-term research roadmap across embodied intelligence, robot learning, and data-driven algorithms.\n• Lead the algorithm team and establish rigorous experimentation, evaluation, reproducibility, and technical decision-making.\n• Build a sustainable data-model loop connecting collection, data mixtures, training strategies, evaluation, and real-task performance.\n• Advance multimodal systems, VLA, robot learning, imitation learning, reinforcement learning, or world models using real-world data.\n• Translate valuable research into platform capabilities, customer solutions, and measurable industrial applications.\n• Partner with Engineering, Product, Data, and Commercial teams to create a clear interface between frontier research and production.\n\nRequirements:\n• Deep expertise in machine learning, computer vision, robot learning, multimodal AI, VLA, reinforcement learning, world models, or data-centric AI.\n• Strong research record, core algorithm-system experience, or leadership in a frontier technical team.\n• A sophisticated understanding of how data quality, distribution, mixtures, and evaluation shape model capability and real-task performance.\n• Ability to translate research questions into experiments, metrics, and engineering plans.\n• Experience attracting and developing high-caliber algorithm talent.\n• Embodied AI, robotics, autonomous-driving, or large-scale real-world data experience is preferred.",
+    "tags": ["首席科学家", "具身智能", "算法与数据", "VLA", "机器人学习", "北京"],
+    "tagsEn": ["Chief Scientist", "Embodied AI", "Algorithms & Data", "VLA", "Robot Learning", "Beijing"],
+    "profile": {
+      "experience": "前沿 AI / 机器人算法研究与团队领导经验",
+      "experienceEn": "Frontier AI or robotics research and team leadership experience",
+      "skills": ["研究路线", "数据模型闭环", "算法团队建设", "产业化转化"],
+      "skillsEn": ["Research Roadmap", "Data-Model Loop", "Algorithm Team Building", "Research Translation"]
+    },
+    "sort": 3
   }
 
 ]
