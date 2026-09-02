@@ -6,6 +6,10 @@
 
 招聘海报、朋友圈、LinkedIn、邮件等可复用规则单独保存在 `MARKETING_CONTEXT.md`。营销素材与网站发布严格分开；只有用户明确要求时才读取该文件。
 
+候选人与岗位匹配、评分、推荐报告的通用方法保存在 `RECRUITING_CONTEXT.md`。具体候选人的简历结论属于一次性工作，不写回长期上下文。
+
+仍有复用价值、但不能公开或提交 GitHub 的客户内部口径保存在 `.private/CLIENT_CONTEXT.md`。只有任务确实涉及对应客户时才读取；不得将其中内容直接复制到网站、公开海报、社交媒体、群聊或候选人书面沟通中。
+
 ## 唯一主版本
 
 - 唯一本地项目：`/Users/gugudechaojidanao/Documents/Codex/2026-07-20/nin/GoldyHire`
