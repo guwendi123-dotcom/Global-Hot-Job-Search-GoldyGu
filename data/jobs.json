@@ -1127,8 +1127,9 @@
   {
     "id": "global-ai-creative-agent-product-manager",
     "companyId": "global-ai-creative-agent",
-    "title": "AI Agent 产品经理",
-    "titleEn": "AI Agent Product Manager",
+    "createdAt": "2026-09-02T00:00:00.000Z",
+    "title": "Agent 策略产品经理",
+    "titleEn": "Agent Strategy Product Manager",
     "jobType": "product-design",
     "jobTypeEn": "Product & Design",
     "workMode": "上海办公",
@@ -1152,6 +1153,8 @@
       "Shanghai"
     ],
     "profile": {
+      "salary": "20–40K CNY/月",
+      "salaryEn": "CNY 20K–40K/month",
       "experience": "2年以上",
       "experienceEn": "2+ years",
       "education": "本科及以上",
@@ -1170,6 +1173,58 @@
       ]
     },
     "sort": 1
+  },
+  {
+    "id": "global-ai-creative-agent-user-product-manager",
+    "companyId": "global-ai-creative-agent",
+    "createdAt": "2026-09-02T00:00:00.000Z",
+    "title": "AI 用户产品经理",
+    "titleEn": "AI User Product Manager",
+    "jobType": "product-design",
+    "jobTypeEn": "Product & Design",
+    "workMode": "上海办公",
+    "workModeEn": "Shanghai based",
+    "location": "上海",
+    "locationEn": "Shanghai",
+    "description": "岗位介绍：\n负责全球 AI 创意设计 Agent 平台的核心用户体验，通过用户研究、数据分析和快速实验，发现高频、高价值创意场景中的真实需求，并将多模态生成、Agent 与智能编辑等前沿能力转化为简单、直观、可规模化的 AI Native 产品体验。\n\n岗位职责：\n• 深入用户场景，结合访谈、观察与产品数据，主动发现并定义创意用户的真实需求和潜在机会。\n• 从海量、模糊的用户反馈和市场信息中提炼关键问题，形成清晰、可执行的产品方向与优先级。\n• 规划并持续优化“从灵感到创作”“从指令到成品”等核心用户路径，提高任务完成效率与创作体验。\n• 主导多模态生成、Agent、智能编辑等复杂 AI 功能的交互设计与信息架构，把前沿技术转化为符合直觉的产品体验。\n• 探索下一代人机协作范式，在用户控制感、创作效率、结果质量与惊喜感之间建立平衡。\n• 输出高质量 PRD，并与产品设计师共同打磨交互、状态、异常流程及体验细节。\n• 作为用户需求的代言人，与设计、研发、算法和运营团队协作，推动产品理念高质量落地。\n• 建立任务完成率、核心路径转化率、NPS、CSAT 等体验指标，通过数据和用户反馈持续迭代。\n• 深入参与 PMF 验证，通过小步快跑的实验持续验证产品方案的用户价值与商业价值。\n\n任职要求：\n• 5 年以上用户产品经验，必须有成功的 C 端产品，或兼具优秀 C 端体验的 To B 工具产品经验。\n• 有从 0 到 1 主导复杂功能模块或增长项目，并取得可验证结果的完整案例。\n• 在需求提炼与体验设计方面有突出能力，能够清楚展示如何从混沌信息中定义关键问题，并转化为优秀产品方案。\n• 对用户体验高度敏感，熟悉用户研究、访谈、观察和可用性测试等方法。\n• 具备强逻辑、结构化分析与系统思考能力，能够处理多线程、跨团队的复杂问题。\n• 英语可作为工作语言，能够独立进行英文用户访谈和海外用户研究。\n• 深度关注并持续使用 AIGC 产品，理解 AI 交互的前沿发展与能力边界。\n• 自驱、目标导向，能够在资源有限、高速变化和高不确定环境中主动建立秩序、推动落地。\n\n加分项：\n• 深入理解图像、视频、设计等专业创意工具及其用户工作流。\n• 是多个 AI 产品的深度用户，对 AI Native 交互有持续实践和独立判断。\n• 有创业团队、全球产品或海外用户产品经验。\n\n岗位亮点：\n• 服务全球用户与创作者，直接参与下一代 AI 创意 Agent 的核心体验定义。\n• 产品处于多模态生成、智能编辑与 Agent 工作流融合的前沿，拥有真实规模的用户反馈和验证场景。\n• 能够与产品设计、算法和工程团队共同探索新的 AI Native 人机协作范式。\n• 团队拥有成熟的多模态 AI 技术、全球化产品能力和高速增长的国际业务基础。",
+    "descriptionEn": "Role Overview:\nOwn core user experiences for a global AI creative-design agent platform. Through user research, product data, and rapid experimentation, you will uncover real needs in high-frequency, high-value creative scenarios and turn multimodal generation, agents, and intelligent editing into intuitive, scalable AI-native experiences.\n\nWhat You Will Do:\n• Conduct interviews, observation, and quantitative analysis to identify explicit and latent needs across creative workflows.\n• Distill noisy user feedback and market signals into clear product opportunities, problem definitions, and priorities.\n• Plan and continuously improve critical journeys such as inspiration-to-creation and instruction-to-finished-work.\n• Lead interaction design and information architecture for complex AI capabilities, including multimodal generation, agents, and intelligent editing.\n• Explore next-generation human-AI collaboration while balancing user control, creative efficiency, output quality, and delight.\n• Produce high-quality product requirements and partner with Product Design on interactions, states, edge cases, and experience details.\n• Represent the user across Design, Engineering, AI, and Operations, ensuring product intent is understood and delivered with quality.\n• Establish experience metrics such as task completion, critical-path conversion, NPS, and CSAT, then iterate through data and feedback.\n• Participate deeply in product-market-fit discovery through focused experiments that validate user and commercial value.\n\nQualifications:\n• 5+ years of user-product experience, with a successful consumer product or a B2B tool that delivers a strong consumer-grade experience.\n• A proven record of leading complex zero-to-one features or growth initiatives with measurable outcomes.\n• Exceptional ability in problem discovery and experience design, with clear examples of turning ambiguous information into strong product solutions.\n• Deep user empathy and hands-on command of interviews, observation, usability testing, and related research methods.\n• Strong logic, structured analysis, and systems thinking for complex, multi-threaded problems.\n• English as a working language, including the ability to conduct independent interviews and research with global users.\n• Sustained hands-on interest in AIGC products and a strong understanding of frontier AI interactions and capability boundaries.\n• High ownership, drive, and the ability to create clarity and execution momentum in a resource-constrained, fast-changing environment.\n\nPreferred:\n• Deep understanding of professional image, video, or design tools and creative workflows.\n• Advanced use of multiple AI products and independent judgment about AI-native interaction patterns.\n• Experience in startups, global products, or products serving international users.\n\nWhy Join:\n• Shape the core experience of a next-generation AI creative agent used by a global creator community.\n• Work at the frontier where multimodal generation, intelligent editing, and agent workflows converge, supported by real user scale and feedback.\n• Explore new human-AI collaboration patterns directly with Product Design, AI, and Engineering.\n• Join a team with mature multimodal AI capabilities, global product execution, and a rapidly expanding international business.",
+    "tags": [
+      "AI 用户产品",
+      "C端产品",
+      "AI Agent",
+      "多模态生成",
+      "用户研究",
+      "上海"
+    ],
+    "tagsEn": [
+      "AI User Product",
+      "Consumer Product",
+      "AI Agent",
+      "Multimodal Generation",
+      "User Research",
+      "Shanghai"
+    ],
+    "profile": {
+      "experience": "5年以上用户产品经验",
+      "experienceEn": "5+ years in user product management",
+      "language": "英语可作为工作语言",
+      "languageEn": "English as a working language",
+      "skills": [
+        "需求洞察",
+        "体验设计",
+        "用户研究",
+        "AI Native 交互",
+        "数据分析"
+      ],
+      "skillsEn": [
+        "User Discovery",
+        "Experience Design",
+        "User Research",
+        "AI-Native Interaction",
+        "Data Analysis"
+      ]
+    },
+    "sort": 2
   },
   {
     "id": "global-ai-creative-agent-regional-integrated-marketing-manager",

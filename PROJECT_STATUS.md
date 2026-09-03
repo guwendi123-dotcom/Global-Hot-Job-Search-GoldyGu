@@ -8,8 +8,8 @@
 - GitHub：<https://github.com/guwendi123-dotcom/Global-Hot-Job-Search-GoldyGu>
 - Cloudflare Worker：`headhunter-portfolio`
 - Cloudflare KV：`HEADHUNTER_CONTENT`
-- 当前正式版本：`5215885a-d50a-4a35-83f3-c9dd655d910d`
-- 当前公开数据：37 家公司、154 个岗位、7 个行业
+- 当前正式版本：`bb7780d9-8810-42b9-9326-f85c9070d4c6`
+- 当前公开数据：37 家公司、155 个岗位、7 个行业
 
 ## 当前产品能力
 
@@ -38,6 +38,7 @@
 - 新增跨境 VLA 与 Physical AI 基础模型平台的 Founding CTO。
 - 全球 Top 10 数字资产平台的平台产品岗位已区分香港 Head 与吉隆坡 IC 画像。
 - 全球 AI 视觉叙事创作平台新增 San Carlos“高级产品经理（企业产品）”，聚焦企业协作、管理权限、Billing、安全合规与专业创意工作流；支持符合条件候选人的签证及绿卡办理。
+- 全球 AI 创意设计 Agent 平台将原“AI Agent 产品经理”校准为上海“Agent 策略产品经理”，补充 20–40K CNY/月及模型评估、RL 奖励机制画像；新增上海“AI 用户产品经理”，聚焦 C 端体验、用户研究、多模态生成与 AI Native 人机协作。
 
 ## 接手提醒
 
