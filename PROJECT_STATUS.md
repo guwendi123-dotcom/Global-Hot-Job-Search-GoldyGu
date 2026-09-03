@@ -1,6 +1,6 @@
 # GoldyHire 当前状态
 
-最后整理日期：2026-09-02
+最后整理日期：2026-09-03
 
 ## 生产环境
 
@@ -8,8 +8,8 @@
 - GitHub：<https://github.com/guwendi123-dotcom/Global-Hot-Job-Search-GoldyGu>
 - Cloudflare Worker：`headhunter-portfolio`
 - Cloudflare KV：`HEADHUNTER_CONTENT`
-- 当前正式版本：`24d8b2e5-ff1c-4d01-94e5-52d90e316df8`
-- 当前公开数据：37 家公司、153 个岗位、7 个行业
+- 当前正式版本：`5215885a-d50a-4a35-83f3-c9dd655d910d`
+- 当前公开数据：37 家公司、154 个岗位、7 个行业
 
 ## 当前产品能力
 
@@ -37,6 +37,7 @@
 - 新增交互式世界模型与 Physical AI 平台的 10 个 Member of Technical Staff 岗位。
 - 新增跨境 VLA 与 Physical AI 基础模型平台的 Founding CTO。
 - 全球 Top 10 数字资产平台的平台产品岗位已区分香港 Head 与吉隆坡 IC 画像。
+- 全球 AI 视觉叙事创作平台新增 San Carlos“高级产品经理（企业产品）”，聚焦企业协作、管理权限、Billing、安全合规与专业创意工作流；支持符合条件候选人的签证及绿卡办理。
 
 ## 接手提醒
 
