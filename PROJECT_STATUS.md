@@ -8,7 +8,7 @@
 - GitHub：<https://github.com/guwendi123-dotcom/Global-Hot-Job-Search-GoldyGu>
 - Cloudflare Worker：`headhunter-portfolio`
 - Cloudflare KV：`HEADHUNTER_CONTENT`
-- 当前正式版本：`14f6f629-ad69-4633-adb9-7c49e5c3a4bd`
+- 当前正式版本：`9dec8387-a63e-4db1-a3a1-6b5ef0815a4c`
 - 当前公开数据：37 家公司、156 个岗位、7 个行业
 
 ## 当前产品能力
@@ -29,6 +29,7 @@
 
 ## 最近关键内容变更
 
+- Personal AGI“国际增长与社区运营”调整为高优先级拉美市场岗位：北美已有对应负责人，新人主攻拉美 PLG，西班牙语或葡萄牙语为必备，并兼顾用户社区、核心用户及 KOL/Creator 运营；同时修复岗位详情页项目符号与长行换行对齐。
 - 新增全球化旅游平台深圳“全球招聘负责人（R&D）”。
 - 新增新一代 AGI 模型与 Agent 平台的媒体关系、Agent Harness、AI Native 产品设计与前沿 AI 产品工程岗位。
 - 新增头部互联网视频内容与 AI 创作平台的 Agent 技术负责人及 AIGC 产品负责人。

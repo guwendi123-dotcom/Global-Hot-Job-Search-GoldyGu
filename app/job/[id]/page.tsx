@@ -243,19 +243,19 @@ export default function JobPage() {
                         const numberMatch = line.match(/^\d+\./);
                         if (numberMatch) {
                           return (
-                            <div key={lineIndex} className="flex gap-3 pl-3">
-                              <span className="text-accent font-semibold">{numberMatch[0]}</span>
-                              <span className="text-text-secondary">{line.replace(/^\d+\.\s*/, '')}</span>
+                            <div key={lineIndex} className="flex items-start gap-3 pl-3">
+                              <span className="w-6 shrink-0 text-right text-accent font-semibold">{numberMatch[0]}</span>
+                              <span className="min-w-0 flex-1 text-text-secondary leading-relaxed">{line.replace(/^\d+\.\s*/, '')}</span>
                             </div>
                           );
                         }
 
                         // Dash or bullet list
-                        if (line.match(/^[-●]\s/)) {
+                        if (line.match(/^[-●•]\s*/)) {
                           return (
-                            <div key={lineIndex} className="flex gap-3 pl-3">
-                              <span className="text-accent">•</span>
-                              <span className="text-text-secondary">{line.replace(/^[-●]\s*/, '')}</span>
+                            <div key={lineIndex} className="flex items-start gap-3 pl-3">
+                              <span className="w-3 shrink-0 text-accent leading-relaxed">•</span>
+                              <span className="min-w-0 flex-1 text-text-secondary leading-relaxed">{line.replace(/^[-●•]\s*/, '')}</span>
                             </div>
                           );
                         }
