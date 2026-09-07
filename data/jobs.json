@@ -172,8 +172,8 @@
     "workModeEn": "On-site",
     "location": "旧金山湾区",
     "locationEn": "San Francisco Bay Area",
-    "description": "You will be a founding member of our enterprise sales motion, selling Teamily AI for Teams to companies and teams of fewer than 50 people. You'll own the full sales cycle and help define the playbook that the next ten AEs will run.\n\nWhat you'll do\n- Own the full cycle — prospecting, discovery, demo, pilot, negotiation, and close — for SMB accounts.\n- Generate pipeline through outbound, inbound qualification, product-led signals, and community channels.\n- Run consultative discovery to map team workflows to Teamily AI's agentic capabilities, and land-and-expand within accounts.\n- Maintain rigorous CRM hygiene, forecast accurately, and consistently hit quota.\n- Feed customer insights back to product and shape our SMB go-to-market playbook from day one.\n\nWhat we look for\n- 2–5+ years of closing experience in SaaS / B2B AI / collaboration & productivity software (think Slack, Lark, Notion-style motions).\n- A track record of meeting or exceeding quota in high-velocity, transactional sales cycles.\n- Strong discovery and storytelling skills; comfortable demoing a technical AI product to both founders and operators.\n- Native-level English; Chinese proficiency is a plus.\n- Self-starter energy — you thrive with ambiguity and build process where none exists.",
-    "descriptionEn": "You will be a founding member of our enterprise sales motion, selling Teamily AI for Teams to companies and teams of fewer than 50 people. You'll own the full sales cycle and help define the playbook that the next ten AEs will run.\n\nWhat you'll do\n- Own the full cycle — prospecting, discovery, demo, pilot, negotiation, and close — for SMB accounts.\n- Generate pipeline through outbound, inbound qualification, product-led signals, and community channels.\n- Run consultative discovery to map team workflows to Teamily AI's agentic capabilities, and land-and-expand within accounts.\n- Maintain rigorous CRM hygiene, forecast accurately, and consistently hit quota.\n- Feed customer insights back to product and shape our SMB go-to-market playbook from day one.\n\nWhat we look for\n- 2–5+ years of closing experience in SaaS / B2B AI / collaboration & productivity software (think Slack, Lark, Notion-style motions).\n- A track record of meeting or exceeding quota in high-velocity, transactional sales cycles.\n- Strong discovery and storytelling skills; comfortable demoing a technical AI product to both founders and operators.\n- Native-level English; Chinese proficiency is a plus.\n- Self-starter energy — you thrive with ambiguity and build process where none exists.",
+    "description": "You will be a founding member of our enterprise sales motion, selling an AI collaboration product for teams to companies and teams of fewer than 50 people. You'll own the full sales cycle and help define the playbook that the next ten AEs will run.\n\nWhat you'll do\n- Own the full cycle — prospecting, discovery, demo, pilot, negotiation, and close — for SMB accounts.\n- Generate pipeline through outbound, inbound qualification, product-led signals, and community channels.\n- Run consultative discovery to map team workflows to the product's agentic capabilities, and land-and-expand within accounts.\n- Maintain rigorous CRM hygiene, forecast accurately, and consistently hit quota.\n- Feed customer insights back to product and shape our SMB go-to-market playbook from day one.\n\nWhat we look for\n- 2–5+ years of closing experience in SaaS / B2B AI / collaboration & productivity software (think Slack, Lark, Notion-style motions).\n- A track record of meeting or exceeding quota in high-velocity, transactional sales cycles.\n- Strong discovery and storytelling skills; comfortable demoing a technical AI product to both founders and operators.\n- Native-level English; Chinese proficiency is a plus.\n- Self-starter energy — you thrive with ambiguity and build process where none exists.",
+    "descriptionEn": "You will be a founding member of our enterprise sales motion, selling an AI collaboration product for teams to companies and teams of fewer than 50 people. You'll own the full sales cycle and help define the playbook that the next ten AEs will run.\n\nWhat you'll do\n- Own the full cycle — prospecting, discovery, demo, pilot, negotiation, and close — for SMB accounts.\n- Generate pipeline through outbound, inbound qualification, product-led signals, and community channels.\n- Run consultative discovery to map team workflows to the product's agentic capabilities, and land-and-expand within accounts.\n- Maintain rigorous CRM hygiene, forecast accurately, and consistently hit quota.\n- Feed customer insights back to product and shape our SMB go-to-market playbook from day one.\n\nWhat we look for\n- 2–5+ years of closing experience in SaaS / B2B AI / collaboration & productivity software (think Slack, Lark, Notion-style motions).\n- A track record of meeting or exceeding quota in high-velocity, transactional sales cycles.\n- Strong discovery and storytelling skills; comfortable demoing a technical AI product to both founders and operators.\n- Native-level English; Chinese proficiency is a plus.\n- Self-starter energy — you thrive with ambiguity and build process where none exists.",
     "tags": [
       "Sales",
       "SMB",
@@ -4973,6 +4973,58 @@
       ]
     },
     "sort": 2
+  },
+  {
+    "id": "personal-agi-job-008",
+    "companyId": "personal-agi",
+    "createdAt": "2026-09-03T10:53:45.000Z",
+    "title": "增长工程负责人（Senior Software Engineer）",
+    "titleEn": "Senior Software Engineer, Growth Engineering",
+    "jobType": "engineering",
+    "jobTypeEn": "Engineering",
+    "workMode": "Base 中国或美国；负责亚太增长工程团队，美国候选人需长期支持跨时区协作；具体办公模式面谈",
+    "workModeEn": "Based in China or the United States; leading an APAC growth-engineering team. U.S.-based candidates must support sustained cross-time-zone collaboration; specific work setup to be discussed",
+    "location": "中国 / 美国",
+    "locationEn": "China / United States",
+    "description": "岗位介绍：\n加入一家 A 轮 AI Native 创业公司，围绕 Personal AGI 产品建设全球化的产品驱动增长（PLG）工程体系。你将作为工程侧负责人，带领一支 10 人以内、主要分布在亚太地区的增长工程团队，覆盖从流量进入、注册激活、付费订阅到留存与召回的完整用户生命周期。\n\n这不是只负责活动页面或零散增长需求的开发岗位。你需要同时承担技术方向、团队管理和业务结果，对增长基础设施的架构、交付质量、实验效率与核心漏斗表现负责，并保持足够的 hands-on 深度参与关键系统设计和研发。\n\n岗位职责：\n• 带领 10 人以内的增长工程团队，制定技术路线、项目优先级和交付节奏，建设高效、可持续迭代的工程文化。\n• 负责 PLG 全链路研发，包括 Landing Page、注册登录、Onboarding、用户激活、支付订阅、增长漏斗、社区、Referral、邮件与短信触达等核心系统。\n• 建设可复用的增长基础设施，包括埋点与事件体系、A/B 测试、Feature Flag、用户分群、归因分析、生命周期触达和实验效果评估。\n• 持续优化流量承接效率、页面性能、SEO、注册转化、激活率、付费转化与留存表现，将业务目标转化为可验证的工程方案。\n• 负责支付、订阅、权益、优惠及相关服务的稳定性、准确性和可扩展性，保障全球用户的关键交易链路。\n• 与产品、设计、数据、市场和运营团队共同拆解漏斗问题，快速设计、上线并复盘增长实验。\n• 主导关键系统架构、技术选型、代码评审、质量保障和工程效率提升，平衡快速试验与长期可维护性。\n• 建立增长系统的监控、告警和指标体系，持续提升性能、稳定性、数据可信度与故障恢复能力。\n• 对美国与亚太团队之间的工程协作负责，建立清晰的异步沟通和跨时区决策机制。\n\n任职要求：\n• 资深全栈或后端工程背景，具备复杂互联网产品、SaaS 或全球化 Web 产品的完整研发经验。\n• 有 Growth Engineering、PLG、用户增长、商业化或核心交易链路相关经验，真正负责过注册、激活、支付、订阅、留存等至少多个环节。\n• 具备小型工程团队管理或 Tech Lead 经验，能够带领 10 人以内团队，同时愿意亲自参与架构和关键代码。\n• 熟悉现代 Web 技术栈、服务端 API、数据存储及云基础设施；能够对前端体验与后端系统做整体技术判断。\n• 有实验平台、A/B 测试、埋点、归因、漏斗分析或生命周期触达系统的实际建设经验。\n• 数据意识和产品 Sense 强，能够基于指标定位问题，并在业务收益、交付速度、技术质量与长期架构之间做合理取舍。\n• 具备良好的跨职能沟通与项目推进能力，能够与产品、设计、市场、数据和运营团队共同对增长结果负责。\n• 能在中英文及跨时区环境中顺畅协作。美国候选人需要稳定覆盖亚太团队的核心协作时段。\n\n加分项：\n• 从 0 到 1 建设过 Growth Platform、实验平台、支付订阅或全球化 PLG 基础设施。\n• 有 AI Native 产品、开发者工具、协作产品或全球 SaaS 产品经验。\n• 熟悉 Stripe 或同类支付平台、订阅计费、风控、税务及多地区商业化链路。\n• 有 SEO、Web 性能优化、营销技术栈、CRM、邮件或短信平台集成经验。\n• 在创业公司或高增长业务中带领团队完成过可量化的转化、收入或留存提升。\n\n岗位亮点：\n• 高优先级核心岗位，直接负责全球 PLG 增长工程体系与关键用户漏斗。\n• 不是局部功能负责人，而是同时拥有技术路线、团队建设和增长结果的完整 Ownership。\n• 产品处于 AI Native 与全球化增长的交汇点，可以从底层塑造未来增长基础设施。\n• 中国和美国均可考虑，拥有跨区域团队协作和全球产品建设的空间。",
+    "descriptionEn": "Role Overview:\nJoin a Series A AI-native startup building a global product-led growth engineering system around a Personal AGI product. You will lead an APAC-centered growth-engineering team of fewer than ten people and own the full user lifecycle from traffic acquisition and signup activation through monetization, retention, and re-engagement.\n\nThis is not a landing-page-only or campaign-development role. You will own technical direction, team leadership, delivery quality, experimentation velocity, and funnel outcomes while remaining hands-on in architecture and critical engineering work.\n\nWhat You Will Do:\n• Lead a growth-engineering team of fewer than ten, setting technical direction, priorities, delivery cadence, and engineering standards.\n• Own PLG engineering across landing pages, authentication, onboarding, activation, payments, subscriptions, growth funnels, community, referrals, email, and SMS.\n• Build reusable growth infrastructure including event instrumentation, experimentation, feature flags, segmentation, attribution, lifecycle messaging, and experiment measurement.\n• Continuously improve traffic conversion, web performance, SEO, signup, activation, paid conversion, and retention by turning business goals into measurable engineering initiatives.\n• Own the reliability, accuracy, and scalability of payment, subscription, entitlement, promotion, and other critical commercial systems.\n• Partner with Product, Design, Data, Marketing, and Operations to diagnose funnel problems and rapidly design, launch, and evaluate experiments.\n• Lead architecture, technical selection, code review, quality systems, and developer productivity while balancing experimentation speed with maintainability.\n• Establish monitoring, alerting, and metrics for performance, reliability, data integrity, and incident recovery.\n• Build effective asynchronous and cross-time-zone collaboration between U.S. and APAC teams.\n\nWhat We Look For:\n• Senior full-stack or backend engineering experience building complex internet, SaaS, or global web products.\n• Meaningful ownership in growth engineering, PLG, user growth, monetization, or critical transaction flows, covering multiple stages such as signup, activation, payment, subscription, and retention.\n• Experience managing a small engineering team or operating as a Tech Lead, with the ability to lead fewer than ten engineers while remaining hands-on.\n• Strong command of modern web stacks, server-side APIs, data systems, and cloud infrastructure, with sound judgment across frontend experience and backend architecture.\n• Hands-on experience building experimentation, A/B testing, instrumentation, attribution, funnel analytics, or lifecycle-engagement systems.\n• Strong data fluency and product judgment, with the ability to balance business impact, speed, engineering quality, and long-term architecture.\n• Excellent cross-functional leadership across Product, Design, Marketing, Data, and Operations.\n• Effective communication across Chinese, English, and multiple time zones. U.S.-based candidates must reliably overlap with core APAC collaboration hours.\n\nPreferred:\n• Zero-to-one experience with growth platforms, experimentation systems, subscription billing, or global PLG infrastructure.\n• Experience with AI-native products, developer tools, collaboration products, or global SaaS.\n• Familiarity with Stripe or similar payment platforms, subscription billing, risk controls, tax, and multi-region monetization.\n• Experience with SEO, web performance, marketing technology, CRM, email, or SMS integrations.\n• Quantifiable conversion, revenue, or retention impact in a startup or high-growth business.\n\nWhy Join:\n• A high-priority leadership role owning the global PLG engineering system and critical user funnel.\n• Full ownership across technical direction, team building, and growth outcomes rather than a narrow feature scope.\n• A chance to shape foundational growth infrastructure at the intersection of AI-native products and global expansion.\n• Candidates in both China and the United States will be considered, with meaningful cross-regional product and team impact.",
+    "tags": [
+      "Growth Engineering",
+      "PLG",
+      "Tech Lead",
+      "支付订阅",
+      "增长实验",
+      "中国/美国"
+    ],
+    "tagsEn": [
+      "Growth Engineering",
+      "PLG",
+      "Tech Lead",
+      "Payments & Subscriptions",
+      "Growth Experimentation",
+      "China/US"
+    ],
+    "profile": {
+      "experience": "资深工程师 / Tech Lead；具备 10 人以内团队管理经验",
+      "experienceEn": "Senior engineer or Tech Lead with experience leading a team of fewer than ten",
+      "language": "中英文跨团队协作；美国候选人需覆盖亚太时区",
+      "languageEn": "Chinese-English cross-team collaboration; U.S. candidates must overlap with APAC hours",
+      "skills": [
+        "全栈/后端工程",
+        "PLG 增长体系",
+        "实验与数据平台",
+        "支付订阅",
+        "团队管理"
+      ],
+      "skillsEn": [
+        "Full-stack/Backend Engineering",
+        "PLG Systems",
+        "Experimentation & Data",
+        "Payments & Subscriptions",
+        "Team Leadership"
+      ]
+    },
+    "sort": 8
   }
 
 ]

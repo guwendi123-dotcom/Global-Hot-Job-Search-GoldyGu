@@ -1,6 +1,6 @@
 # GoldyHire 当前状态
 
-最后整理日期：2026-09-03
+最后整理日期：2026-09-07
 
 ## 生产环境
 
@@ -8,8 +8,8 @@
 - GitHub：<https://github.com/guwendi123-dotcom/Global-Hot-Job-Search-GoldyGu>
 - Cloudflare Worker：`headhunter-portfolio`
 - Cloudflare KV：`HEADHUNTER_CONTENT`
-- 当前正式版本：`bb7780d9-8810-42b9-9326-f85c9070d4c6`
-- 当前公开数据：37 家公司、155 个岗位、7 个行业
+- 当前正式版本：`14f6f629-ad69-4633-adb9-7c49e5c3a4bd`
+- 当前公开数据：37 家公司、156 个岗位、7 个行业
 
 ## 当前产品能力
 
@@ -39,6 +39,7 @@
 - 全球 Top 10 数字资产平台的平台产品岗位已区分香港 Head 与吉隆坡 IC 画像。
 - 全球 AI 视觉叙事创作平台新增 San Carlos“高级产品经理（企业产品）”，聚焦企业协作、管理权限、Billing、安全合规与专业创意工作流；支持符合条件候选人的签证及绿卡办理。
 - 全球 AI 创意设计 Agent 平台将原“AI Agent 产品经理”校准为上海“Agent 策略产品经理”，补充 20–40K CNY/月及模型评估、RL 奖励机制画像；新增上海“AI 用户产品经理”，聚焦 C 端体验、用户研究、多模态生成与 AI Native 人机协作。
+- Personal AGI 新增高优先级“增长工程负责人（Senior Software Engineer）”，Base 中国或美国，带领 10 人以内亚太团队，负责 Landing Page、注册激活、支付订阅、实验平台、增长漏斗、社区及邮件/短信触达等完整 PLG 工程体系；美国候选人需稳定支持跨时区协作。
 
 ## 接手提醒
 
