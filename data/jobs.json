@@ -1701,7 +1701,10 @@
       "experience": "资深",
       "experienceEn": "Senior level"
     },
-    "sort": 120
+    "sort": 120,
+    "hiringStatus": "paused",
+    "hiringStatusNote": "因业务方向调整暂停招聘",
+    "hiringStatusNoteEn": "Hiring paused due to a change in business direction"
   },
   {
     "id": "aianimation-global-user-growth",
@@ -1752,7 +1755,10 @@
         "Creative Strategy"
       ]
     },
-    "sort": 130
+    "sort": 130,
+    "hiringStatus": "paused",
+    "hiringStatusNote": "因业务方向调整暂停招聘",
+    "hiringStatusNoteEn": "Hiring paused due to a change in business direction"
   },
   {
     "id": "ai-native-recommendation-infrastructure-job-001",
