@@ -556,5 +556,21 @@
     "location": "北京 / 深圳",
     "locationEn": "Beijing / Shenzhen",
     "sort": 64
+  },
+  {
+    "id": "top-tier-internet-urban-mobility-platform",
+    "createdAt": "2026-09-08T03:00:00.000Z",
+    "industryId": "internet",
+    "name": "超一线互联网大厂｜城市出行业务",
+    "nameEn": "Top-Tier Internet Company | Urban Mobility",
+    "logo": "",
+    "logoEmoji": "🚲",
+    "description": "国内超一线互联网平台旗下的核心城市出行业务，运营行业领先的共享两轮出行网络。不同于依赖外部司机供给的业务，这里的算法直接调度大规模自有车辆与电池资产，需要同时处理用户需求、车辆状态、电量、故障、天气、任务分配和路径规划等复杂约束。业务覆盖亿级用户，日订单量超过 2,000 万，已跑通健康盈利模型，并持续通过算法提升车辆可用率、订单转化、资产寿命与单位运营成本。算法团队在研发、产品和业务决策中拥有较强话语权，组织稳定、资源投入充足，适合希望用技术直接影响真实城市运行与经营结果的资深人才。",
+    "descriptionEn": "A core urban-mobility business within a top-tier internet company, operating one of the market's leading shared two-wheel transportation networks. Unlike platforms that depend primarily on external driver supply, its algorithms directly coordinate a large proprietary fleet and battery assets across demand, vehicle status, energy, faults, weather, task allocation, and route planning. The business serves hundreds of millions of users, handles more than 20 million daily orders, and has established a healthy profitable operating model. Its algorithm organization has meaningful influence across Engineering, Product, and Business, with stable teams and strong investment in technology that directly improves availability, conversion, asset life, and unit economics.",
+    "stage": "成熟业务 · 行业领先 · 健康盈利",
+    "stageEn": "Scaled Business · Market Leading · Profitable",
+    "location": "北京",
+    "locationEn": "Beijing",
+    "sort": 65
   }
 ]
