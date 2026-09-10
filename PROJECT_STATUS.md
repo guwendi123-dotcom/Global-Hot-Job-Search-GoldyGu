@@ -1,6 +1,6 @@
 # GoldyHire 当前状态
 
-最后整理日期：2026-09-08
+最后整理日期：2026-09-10
 
 ## 生产环境
 
@@ -8,7 +8,7 @@
 - GitHub：<https://github.com/guwendi123-dotcom/Global-Hot-Job-Search-GoldyGu>
 - Cloudflare Worker：`headhunter-portfolio`
 - Cloudflare KV：`HEADHUNTER_CONTENT`
-- 当前正式版本：`db2aa292-6f80-4ccb-8329-b56c12cad0a5`
+- 当前正式版本：`071970b4-c0b8-42b1-8c20-7abe88ba1591`
 - 当前公开数据：38 家公司、162 个岗位、7 个行业
 
 ## 当前产品能力
@@ -29,6 +29,7 @@
 
 ## 最近关键内容变更
 
+- Personal AGI 的增长工程岗位依据正式 JD 更新为高优急招“资深软件工程师（增长工程 Tech Lead）”：明确 5 年以上、全球候选人可看、上海/深圳优先，新增 Paid Ads 渠道工程、国际 SEO/GEO、多渠道支付与区域定价、Growth Dashboard/ROI 归因、社交裂变及高并发增长基础设施要求。
 - 新增“超一线互联网大厂｜城市出行业务”及 6 个北京岗位：城市运营算法负责人、预测算法专家、运筹调度算法专家、营销算法负责人、营销增长算法专家、营销产品 AI Builder；公开内容已移除真实公司名、内部职级与目标企业名单，并在每个 JD 下补充脱敏后的咕咕对焦画像。
 - Personal AGI 的“视觉设计师（品牌与宣传）”与“产品设计师（UI）”均明确支持中国远程办公，同时保留 Palo Alto 办公选项。
 - AI 动画创作工具的“资深产品设计师”和“海外用户增长”同步调整为暂停招聘；至此该公司网站内 5 个岗位全部为暂停状态，但不删除历史岗位。
