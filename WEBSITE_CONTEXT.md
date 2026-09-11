@@ -23,6 +23,8 @@
 - 页面：`app/`
 - 组件：`components/`
 - 真实公司名本机私密备份：`.private/company-identities.json`
+- 私密岗位画像本机备份：`.private/role-profiles.json`
+- 岗位职能与专业方向推断：`lib/job-taxonomy.ts`
 - 公开真实名称模板：`data/company-identities.json`，必须始终为空数组
 
 线上实时内容位于 Cloudflare KV：
@@ -31,6 +33,7 @@
 - `content:jobs`
 - `content:industries`
 - `admin:company-identities`（私密，仅后台登录后可见）
+- `admin:role-profiles`（私密，仅后台登录后可见）
 
 项目内 JSON 是 GitHub 版本和故障回退基线。修改内容时，必须先读取线上 KV，再仅合并本次增删改，避免覆盖线上较新的内容。
 
@@ -43,6 +46,8 @@
 - 新公司、新岗位必须写入 ISO 格式 `createdAt`，旧内容编辑时不得重置原创建时间。
 - 首页排序采用最近 30 天访问热度与新鲜度综合权重。
 - 岗位招聘进度使用 `hiringStatus`；当前支持 `open`、`offer-stage`、`paused`、`closed`。
+- 岗位检索采用“一级职能 → 二级专业方向”，职级、地区/城市、办公方式、招聘状态与关键词是独立维度；不要再把 CXO、负责人或 Director 当作职能分类。
+- 真实公司、优先级、HC、薪酬、汇报关系、内部画像、排除画像和相似岗位只允许出现在 `.private/role-profiles.json` 与 `admin:role-profiles`，公开岗位对象与页面不得包含。
 
 ## 默认发布方式
 

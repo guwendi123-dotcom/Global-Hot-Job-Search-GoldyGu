@@ -3,13 +3,14 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { ArrowRight, ChevronDown, MapPin, Search, Sparkles } from "lucide-react";
-import { getCompanies, getIndustries, getJobs, getJobTypes, getProfile } from "@/lib/data";
+import { getCompanies, getIndustries, getJobs, getProfile } from "@/lib/data";
 import Hero from "@/components/Hero";
 import CompanyCard from "@/components/CompanyCard";
 import IndustryCard from "@/components/IndustryCard";
 import Footer from "@/components/Footer";
 import { useI18n } from "@/lib/i18n";
 import { getLocationGroup, jobMatchesLocation, LOCATION_GROUPS } from "@/lib/location-filters";
+import { getFunctionOption, inferJobTaxonomy, JOB_FUNCTIONS, taxonomySearchText } from "@/lib/job-taxonomy";
 
 const ITEMS_PER_PAGE = 8;
 
@@ -19,7 +20,6 @@ export default function Home() {
   const [industries, setIndustries] = useState<any[]>([]);
   const [companies, setCompanies] = useState<any[]>([]);
   const [jobs, setJobs] = useState<any[]>([]);
-  const [jobTypes, setJobTypes] = useState<any[]>([]);
   const [homeRanking, setHomeRanking] = useState<{ jobOrder: string[]; companyOrder: string[] }>({ jobOrder: [], companyOrder: [] });
   const [query, setQuery] = useState("");
   const [region, setRegion] = useState("");
@@ -28,7 +28,6 @@ export default function Home() {
 
   useEffect(() => {
     setProfile(getProfile());
-    setJobTypes(getJobTypes());
     Promise.all([
       getIndustries(),
       getCompanies(),
@@ -60,10 +59,10 @@ export default function Home() {
 
   const filteredJobs = useMemo(() => rankedJobs.filter((job) => {
     const company = companies.find((item) => item.id === job.companyId);
-    const haystack = [job.title, job.titleEn, company?.name, company?.nameEn, job.location, job.locationEn, ...(job.tags || [])].join(" ").toLowerCase();
+    const haystack = [job.title, job.titleEn, company?.name, company?.nameEn, job.location, job.locationEn, ...(job.tags || []), taxonomySearchText(job)].join(" ").toLowerCase();
     const matchesQuery = !query.trim() || haystack.includes(query.trim().toLowerCase());
     const matchesLocation = jobMatchesLocation(job, region, place);
-    const matchesType = !jobType || job.jobType?.split(",").map((item: string) => item.trim()).includes(jobType);
+    const matchesType = !jobType || inferJobTaxonomy(job).functionId === jobType;
     return matchesQuery && matchesLocation && matchesType;
   }), [rankedJobs, companies, query, region, place, jobType]);
 
@@ -80,9 +79,9 @@ export default function Home() {
     return language === "zh" ? company?.name || id : company?.nameEn || company?.name || id;
   };
 
-  const typeName = (id: string) => {
-    const type = jobTypes.find((item) => item.id === id);
-    return language === "zh" ? type?.nameZh || id : type?.name || id;
+  const typeName = (job: any) => {
+    const type = getFunctionOption(inferJobTaxonomy(job).functionId);
+    return language === "zh" ? type?.labelZh : type?.labelEn;
   };
 
   const featuredCompanies = rankedCompanies.slice(0, 8);
@@ -131,7 +130,7 @@ export default function Home() {
             <Sparkles size={17} />
             <select value={jobType} onChange={(event) => setJobType(event.target.value)} aria-label={language === "zh" ? "筛选岗位方向" : "Filter role type"}>
               <option value="">{language === "zh" ? "岗位方向" : "Role type"}</option>
-              {jobTypes.map((type) => <option key={type.id} value={type.id}>{language === "zh" ? type.nameZh : type.name}</option>)}
+              {JOB_FUNCTIONS.map((type) => <option key={type.id} value={type.id}>{language === "zh" ? type.labelZh : type.labelEn}</option>)}
             </select>
             <ChevronDown size={15} />
           </label>
@@ -147,7 +146,7 @@ export default function Home() {
                 <tr key={job.id}>
                   <td><Link href={`/job/${job.id}`} className="font-semibold hover:text-accent">{language === "zh" ? job.title : job.titleEn || job.title}</Link></td>
                   <td>{companyName(job.companyId)}</td>
-                  <td>{typeName(job.jobType?.split(",")[0]?.trim())}</td>
+                  <td>{typeName(job)}</td>
                   <td>{language === "zh" ? job.location : job.locationEn || job.location}</td>
                   <td><span className="status-dot" />{index < 3 ? (language === "zh" ? "推荐" : "Featured") : (language === "zh" ? "持续招聘" : "Hiring")}</td>
                   <td><Link href={`/job/${job.id}`} aria-label={`查看 ${job.title}`} className="table-arrow"><ArrowRight size={17} /></Link></td>

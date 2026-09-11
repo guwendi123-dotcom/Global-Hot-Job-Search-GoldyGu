@@ -1,13 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { BarChart3, Building2, BriefcaseBusiness, Download, Layers3, LogOut } from "lucide-react";
+import { BarChart3, Building2, BriefcaseBusiness, Download, Layers3, LogOut, SearchCheck } from "lucide-react";
 
 const cards = [
   { href: "/admin/companies", title: "公司管理", copy: "维护公开代称、真实公司名、Logo、行业与排序", icon: Building2 },
   { href: "/admin/jobs", title: "岗位管理", copy: "发布岗位，保存后立即在前台显示", icon: BriefcaseBusiness },
   { href: "/admin/industries", title: "行业管理", copy: "维护行业分类、名称和介绍", icon: Layers3 },
   { href: "/admin/analytics", title: "数据看板", copy: "查看访问趋势、热门岗位公司与流量来源", icon: BarChart3 },
+  { href: "/admin/sourcing", title: "咕咕寻访模式", copy: "查看真实公司、私密画像、优先级与相似岗位", icon: SearchCheck },
 ];
 
 export default function AdminPage() {
@@ -27,7 +28,7 @@ export default function AdminPage() {
         <div className="rounded-2xl border border-green-200 bg-green-50 px-5 py-4 mb-7 text-sm text-green-800">
           保存成功后，数据会写入云端并立即供前台读取，无需重新部署网站。
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {cards.map(({ href, title, copy, icon: Icon }) => (
             <Link key={href} href={href} className="bg-white rounded-2xl border border-border p-6 hover:-translate-y-1 hover:shadow-md transition-all">
               <Icon size={24} className="mb-5 text-accent" /><h2 className="font-bold text-lg mb-2">{title}</h2><p className="text-sm text-text-secondary">{copy}</p>

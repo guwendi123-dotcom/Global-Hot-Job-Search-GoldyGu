@@ -23,6 +23,34 @@ export type CompanyIdentity = {
   realName: string;
 };
 
+export type RoleProfile = {
+  jobId: string;
+  internalCompanyName?: string;
+  publicJobTitle?: string;
+  priority?: "high" | "medium" | "normal" | "paused";
+  hc?: string;
+  compensation?: string;
+  reportingLine?: string;
+  teamScope?: string;
+  confirmedScope?: string;
+  sourcingAgentMustHave?: string;
+  targetBackgrounds?: string[];
+  excludedBackgrounds?: string[];
+  matchingPriority?: string[];
+  secondaryValue?: string[];
+  doNotOverweight?: string[];
+  hardConstraints?: string[];
+  lastAlignedAt?: string;
+  internalNotes?: string;
+  similarJobIds?: string[];
+};
+
+type RoleProfilesDocument = {
+  schemaVersion: number;
+  updatedAt: string;
+  roleProfiles: RoleProfile[];
+};
+
 export function getKv(): GoldyKV | null {
   try {
     const { env } = getCloudflareContext();
@@ -64,6 +92,25 @@ export async function writeCompanyIdentities(value: CompanyIdentity[]): Promise<
   const kv = getKv();
   if (!kv) throw new Error("Cloud storage is unavailable");
   await kv.put("admin:company-identities", JSON.stringify(value));
+}
+
+export async function readRoleProfiles(): Promise<RoleProfile[]> {
+  const kv = getKv();
+  if (!kv) return [];
+  const stored = await kv.get<RoleProfilesDocument | RoleProfile[]>("admin:role-profiles", "json");
+  if (Array.isArray(stored)) return stored;
+  return Array.isArray(stored?.roleProfiles) ? stored.roleProfiles : [];
+}
+
+export async function writeRoleProfiles(value: RoleProfile[]): Promise<void> {
+  const kv = getKv();
+  if (!kv) throw new Error("Cloud storage is unavailable");
+  const document: RoleProfilesDocument = {
+    schemaVersion: 1,
+    updatedAt: new Date().toISOString(),
+    roleProfiles: value,
+  };
+  await kv.put("admin:role-profiles", JSON.stringify(document));
 }
 
 export function validId(id: string): boolean {

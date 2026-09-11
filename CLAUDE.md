@@ -41,6 +41,12 @@ Cloudflare KV 中的 `content:companies`、`content:jobs`、`content:industries`
 - `data/company-identities.json` 只能保留空数组 `[]` 作为公开仓库模板，禁止写入任何真实公司名或产品名。
 - 新增或修改真实名称时，应通过管理后台保存，并同步更新本机 `.private/company-identities.json`；不得把私密映射同步到 GitHub。
 
+## 私密岗位画像（严格保密）
+
+- 线上岗位画像只保存在 Cloudflare KV 的 `admin:role-profiles`，仅登录后的“咕咕寻访模式”可见。
+- 本机协作备份位于 `.private/role-profiles.json`，不得提交 GitHub，也不得复制到公开岗位、海报、社交媒体或候选人书面沟通。
+- 公开岗位分类由 `lib/job-taxonomy.ts` 生成，采用“一级职能 → 二级专业方向”；职级、地区/城市、办公方式和招聘状态保持独立筛选。
+
 ## 发布流程
 
 1. 读取 `WEBSITE_CONTEXT.md`、本文件和 `PROJECT_STATUS.md`。

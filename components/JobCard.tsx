@@ -1,12 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, DollarSign, Clock, Languages } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import type { Job, Company } from "@/lib/data";
-import ProfileBadge from "./ProfileBadge";
 import { useI18n } from "@/lib/i18n";
 import { sendAnalyticsEvent } from "@/components/AnalyticsTracker";
+import { getFunctionOption, getSeniorityOption, getSpecialtyOption, inferJobTaxonomy } from "@/lib/job-taxonomy";
 
 interface JobCardProps {
   job: Job;
@@ -21,9 +21,10 @@ export default function JobCard({ job, company, index }: JobCardProps) {
   const title = language === "zh" ? job.title : (job.titleEn || job.title);
   const companyName = language === "zh" ? company?.name : (company?.nameEn || company?.name);
   const tags = language === "zh" ? job.tags : (job.tagsEn || job.tags);
-  const salary = language === "zh" ? job.profile.salary : (job.profile.salaryEn || job.profile.salary);
-  const experience = language === "zh" ? job.profile.experience : (job.profile.experienceEn || job.profile.experience);
-  const lang = language === "zh" ? "语言要求" : "Language";
+  const taxonomy = inferJobTaxonomy(job);
+  const functionOption = getFunctionOption(taxonomy.functionId);
+  const specialtyOption = getSpecialtyOption(taxonomy.functionId, taxonomy.specialtyId);
+  const seniorityOption = getSeniorityOption(taxonomy.seniorityId);
   const statusLabel = job.hiringStatus === "offer-stage"
     ? (language === "zh" ? "Offer 阶段" : "Offer Stage")
     : job.hiringStatus === "paused"
@@ -61,8 +62,21 @@ export default function JobCard({ job, company, index }: JobCardProps) {
           </div>
 
           {/* Tags */}
+          <div className="flex flex-wrap gap-2 mb-3">
+            <span className="text-xs px-3 py-1 bg-ink text-white rounded-full">
+              {language === "zh" ? functionOption?.labelZh : functionOption?.labelEn}
+            </span>
+            <span className="text-xs px-3 py-1 bg-accent-light text-accent rounded-full">
+              {language === "zh" ? specialtyOption?.labelZh : specialtyOption?.labelEn}
+            </span>
+            {taxonomy.seniorityId !== "ic" && (
+              <span className="text-xs px-3 py-1 border border-border text-text-secondary rounded-full">
+                {language === "zh" ? seniorityOption?.labelZh : seniorityOption?.labelEn}
+              </span>
+            )}
+          </div>
           <div className="flex flex-wrap gap-2 mb-4">
-            {tags?.map((tag: string) => (
+            {tags?.slice(0, 4).map((tag: string) => (
               <span
                 key={tag}
                 className="text-xs px-3 py-1 bg-bg-primary text-text-secondary rounded-full"
