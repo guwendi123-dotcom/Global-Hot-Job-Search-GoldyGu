@@ -5187,6 +5187,108 @@
       "skillsEn": ["AI Productization", "Marketing Decision Platforms", "Subsidy/Pricing Engines", "Data Validation", "Cross-Functional Leadership"]
     },
     "sort": 6
+  },
+  {
+    "id": "self-evolving-agent-data-infrastructure-job-001",
+    "companyId": "self-evolving-agent-data-infrastructure",
+    "createdAt": "2026-09-11T07:31:00.000Z",
+    "title": "AI 数据销售负责人",
+    "titleEn": "Head of AI Data Sales",
+    "jobType": "commercial",
+    "jobTypeEn": "commercial",
+    "workMode": "杭州 / 上海；办公室办公",
+    "workModeEn": "Hangzhou / Shanghai; office-based",
+    "location": "杭州 / 上海",
+    "locationEn": "Hangzhou / Shanghai",
+    "description": "岗位介绍：\n公司正处于 AI 数据业务快速发展阶段，希望寻找一位兼具行业认知、资源拓展能力与复杂项目操盘经验的业务负责人。该岗位直接向创始人汇报，全面负责头部客户拓展、重大项目推进与战略合作落地，并逐步搭建可复制的商业化体系和团队能力。\n\n业务与团队优势：\n• 聚焦 Self-Evolving Agent Infrastructure，覆盖数据采购、生产、训练轨迹、环境构建、验证评测与交付全链路。\n• 研究与工程一体化团队，在多智能体、模型后训练、评测和真实任务环境方向具备深厚积累。\n• 商业化已经获得验证，与多家头部互联网、基础模型及 AI 研究团队形成合作。\n• 既有成熟国内客户基础，也拥有明确的海外增量空间。\n\n主要职责：\n• 制定并执行 AI 数据业务的市场拓展与商业化策略，对业务增长及关键经营结果负责。\n• 负责头部互联网公司、基础模型厂商、云服务商、AI 研究机构及重点科技企业的客户拓展与关系经营。\n• 深入理解客户在预训练、后训练、SFT、RLHF、RL、模型评测、多模态及 Agent 场景中的数据需求，识别高价值合作机会。\n• 主导大型复杂项目的需求定义、解决方案设计、商务谈判、合同签署和跨部门推进。\n• 建立并维护客户管理层、战略、数据、算法与采购等关键决策关系。\n• 协同产品、技术和交付团队，将客户需求转化为可实施方案，保障交付质量、效率和客户满意度。\n• 建立重点客户管理、销售预测、商机管理与复盘机制，并根据业务需要搭建和管理 BD / 销售团队。\n\n任职要求：\n• 原则上具备 10 年以上相关经验；AI 行业经验深厚的优秀候选人可放宽至 5 年以上。\n• 对 AI 或数据产业至少一个领域有深入理解，能够把握行业趋势、客户需求和商业机会。\n• 熟悉大型科技企业的组织结构、采购流程与决策机制，能够触达并影响关键决策人。\n• 具备突出的客户开拓、资源整合与复杂大客户项目操盘能力。\n• 商业判断、谈判和跨组织协同能力成熟，能处理长周期、多角色参与的复杂决策。\n• 技术理解力和学习能力强，能够与客户管理层、业务团队和技术团队有效沟通。\n• 高度自驱、结果导向，适应早期公司的速度与不确定性。\n\n加分项：\n• 有 AI 数据、基础模型、云计算、企业服务或相关领域的大客户销售、战略合作或商业化经验。\n• 熟悉模型训练与后训练、模型评测、多模态数据或 AI Agent 业务场景。\n• 有从 0 到 1 商业化建设或高速增长团队管理经验。\n• 具备国际业务经验，可使用英语独立开展商务沟通与谈判。",
+    "descriptionEn": "Role Overview:\nThe company is entering a rapid growth phase in AI data services and is looking for a commercial leader with strong industry judgment, relationship development, and complex-program ownership. Reporting directly to the founder, this role owns strategic-account growth, major commercial programs, and partnership execution while building a repeatable go-to-market system and team.\n\nBusiness and Team Advantages:\n• Builds self-evolving agent infrastructure spanning data sourcing, production, training trajectories, environments, verification, evaluation, and delivery.\n• A research-engineering team with deep expertise in multi-agent systems, post-training, evaluation, and real-task environments.\n• Commercially validated with multiple leading internet, foundation-model, and AI research customers.\n• An established domestic customer base and a clear international growth opportunity.\n\nResponsibilities:\n• Define and execute the commercialization strategy for AI data services and own business growth and operating outcomes.\n• Develop and manage strategic relationships with leading internet companies, foundation-model developers, cloud providers, AI research organizations, and technology enterprises.\n• Understand customer needs across pre-training, post-training, SFT, RLHF, RL, model evaluation, multimodal data, and agent scenarios to identify high-value opportunities.\n• Lead complex enterprise programs across discovery, solution design, commercial negotiation, contracting, and cross-functional delivery.\n• Build relationships with executive, strategy, data, algorithm, and procurement stakeholders.\n• Translate customer needs into executable solutions with Product, Engineering, and Delivery teams.\n• Establish account planning, forecasting, pipeline management, and review mechanisms, and build a high-performing BD and sales team as the business grows.\n\nQualifications:\n• Typically 10+ years of relevant experience; exceptional candidates with deep AI-industry expertise may be considered from 5+ years.\n• Deep knowledge of at least one area within AI or data services.\n• Strong understanding of large technology-company structures, procurement processes, and decision-making.\n• Proven success in strategic-account development, resource orchestration, and complex enterprise deals.\n• Mature commercial judgment, negotiation, and cross-organizational leadership.\n• Strong technical learning ability and credibility with executive, business, and technical stakeholders.\n• Highly self-directed, outcome-oriented, and comfortable in an early-stage environment.\n\nPreferred:\n• Strategic sales, partnerships, or commercialization experience in AI data, foundation models, cloud, or enterprise technology.\n• Familiarity with model training and post-training, evaluation, multimodal data, or AI agents.\n• Zero-to-one commercialization or high-growth team-building experience.\n• International business experience and professional English negotiation capability.",
+    "tags": ["AI 数据", "大客户销售", "商业化负责人", "战略合作", "模型训练", "杭州", "上海"],
+    "tagsEn": ["AI Data", "Enterprise Sales", "Commercial Leadership", "Strategic Partnerships", "Model Training", "Hangzhou", "Shanghai"],
+    "profile": {
+      "experience": "原则上 10 年以上；深度 AI 行业背景可放宽至 5 年以上",
+      "experienceEn": "Typically 10+ years; 5+ years may be considered for deep AI expertise",
+      "language": "英语商务沟通能力为加分项",
+      "languageEn": "Business English is preferred",
+      "skills": ["AI 数据商业化", "战略大客户", "复杂项目谈判", "资源整合", "团队搭建"],
+      "skillsEn": ["AI Data Commercialization", "Strategic Accounts", "Complex Deal Negotiation", "Resource Orchestration", "Team Building"]
+    },
+    "sort": 1
+  },
+  {
+    "id": "self-evolving-agent-data-infrastructure-job-002",
+    "companyId": "self-evolving-agent-data-infrastructure",
+    "createdAt": "2026-09-11T07:32:00.000Z",
+    "title": "AI 数据销售 / BD（全职 / 实习）",
+    "titleEn": "AI Data Sales / Business Development",
+    "jobType": "commercial",
+    "jobTypeEn": "commercial",
+    "workMode": "杭州 / 上海；全职或实习",
+    "workModeEn": "Hangzhou / Shanghai; full-time or internship",
+    "location": "杭州 / 上海",
+    "locationEn": "Hangzhou / Shanghai",
+    "description": "岗位介绍：\n负责跟进国内外基础模型厂商、AI 研究机构与科技企业的数据采购和 AI 落地需求，参与从客户建联、需求挖掘、方案沟通到签约、交付与回款的完整 ToB 商业流程。团队已有成熟的国内客户资源与合作渠道，可为销售提供有效线索和商机支持。\n\n岗位职责：\n• 建立并维护基础模型厂商、AI 研究机构及科技企业的长期客户关系。\n• 理解客户在预训练、SFT、RLHF、模型评测等环节的数据需求，以及真实业务中的 AI 应用痛点。\n• 独立或协同推进商机挖掘、需求分析、解决方案沟通、报价、合同谈判、签约及回款。\n• 与产品、技术和交付团队协作，推动客户需求准确传递和项目顺利落地。\n• 跟踪基础模型、AI 数据和应用领域的行业动态，为产品优化与业务决策提供市场反馈。\n• 维护客户与商机信息，持续跟进项目进展并完成个人及团队业务目标。\n\n任职要求：\n• 对 AI、基础模型或企业数据服务有基本认知，理解预训练数据、SFT、RLHF 与模型 Benchmark 等核心概念。\n• 沟通表达、客户服务意识与商务情商出色，能够与算法、数据、采购和业务负责人有效沟通。\n• 需求理解与方案转化能力强，能识别客户痛点并推动内部资源形成解决方案。\n• 执行力、自驱力和抗压能力强，能够持续推进客户和商机。\n• 专业与学历不限；有 ToB 销售、商务 BD、企业咨询或客户成功经历者优先，优秀应届生和在校实习生也可投递。\n\n加分项：\n• 有 AI 数据、云服务、企业数据服务、基础模型或 AI 应用行业经验。\n• 熟悉数据生产、质量管理、交付 Pipeline 与项目落地流程。\n• 有独立拓展客户、推进复杂商机或完成 ToB 项目签约的案例。\n• 具备方案文档、项目提案、商务汇报或现场演示能力。\n• 能够使用英语参与海外客户沟通。\n\n岗位优势：\n• 可直接参与前沿模型训练、评测和 Agent 数据项目。\n• 有机会完整参与需求、方案、谈判、交付和回款全链路。\n• 国内客户基础成熟，优秀成员可参与海外增量业务。",
+    "descriptionEn": "Role Overview:\nSupport data-procurement and AI-implementation needs from foundation-model developers, AI research organizations, and technology companies in China and overseas. You will participate in the full B2B commercial cycle from prospecting and discovery through solutioning, contracting, delivery, and collection. The team already has an established domestic customer base and can provide qualified leads and opportunity support.\n\nResponsibilities:\n• Build long-term relationships with foundation-model companies, AI research organizations, and technology enterprises.\n• Understand customer needs across pre-training, SFT, RLHF, model evaluation, and real-world AI applications.\n• Independently or collaboratively advance opportunities through discovery, solution discussion, pricing, negotiation, contracting, and payment collection.\n• Partner with Product, Engineering, and Delivery to translate customer needs and ensure successful execution.\n• Track market, customer, and competitor developments across foundation models, AI data, and applications.\n• Maintain account and pipeline information and deliver individual and team targets.\n\nQualifications:\n• Basic knowledge of AI, foundation models, or enterprise data services, including pre-training data, SFT, RLHF, and model benchmarks.\n• Strong communication, service orientation, and commercial judgment with algorithm, data, procurement, and business stakeholders.\n• Ability to identify customer pain points and translate them into internal solutions.\n• Strong execution, initiative, resilience, and consistent opportunity follow-through.\n• No fixed major requirement. B2B sales, BD, consulting, or customer-success experience is preferred; strong graduates and interns are also welcome.\n\nPreferred:\n• Experience in AI data, cloud, enterprise data services, foundation models, or AI applications.\n• Familiarity with data production, quality management, delivery pipelines, and project execution.\n• Demonstrated success in prospecting, complex opportunity advancement, or B2B closing.\n• Strong proposals, business presentations, or solution-demo skills.\n• English capability for international customer discussions.\n\nWhy Join:\n• Work directly on frontier model-training, evaluation, and agent-data programs.\n• Gain exposure to the complete B2B lifecycle from discovery through delivery and collection.\n• Build on an established domestic customer base with opportunities to support international growth.",
+    "tags": ["AI 数据销售", "商务拓展", "ToB", "模型训练", "客户解决方案", "全职 / 实习"],
+    "tagsEn": ["AI Data Sales", "Business Development", "B2B", "Model Training", "Customer Solutions", "Full-time / Internship"],
+    "profile": {
+      "experience": "ToB 销售、BD、咨询或客户成功经历优先；优秀应届生 / 实习生可投",
+      "experienceEn": "B2B sales, BD, consulting, or customer success preferred; strong graduates and interns considered",
+      "language": "英语商务沟通能力为加分项",
+      "languageEn": "Business English is preferred",
+      "skills": ["客户拓展", "需求分析", "解决方案销售", "商务谈判", "项目跟进"],
+      "skillsEn": ["Prospecting", "Discovery", "Solution Selling", "Commercial Negotiation", "Project Follow-through"]
+    },
+    "sort": 2
+  },
+  {
+    "id": "self-evolving-agent-data-infrastructure-job-003",
+    "companyId": "self-evolving-agent-data-infrastructure",
+    "createdAt": "2026-09-11T07:33:00.000Z",
+    "title": "AI 数据采购负责人",
+    "titleEn": "AI Data Sourcing Lead",
+    "jobType": "commercial,operations",
+    "jobTypeEn": "commercial,operations",
+    "workMode": "杭州 / 上海；办公室办公",
+    "workModeEn": "Hangzhou / Shanghai; office-based",
+    "location": "杭州 / 上海",
+    "locationEn": "Hangzhou / Shanghai",
+    "description": "岗位介绍：\n负责为 Agent 训练与评测项目采购和建设高价值非标数据资源，包括合法授权的真实行业数据、版权内容、Raw Workspace、任务轨迹、垂直领域专家资源与高质量 Seed Data。你需要快速进入陌生行业、找到关键资源，并把一次性采购沉淀为可复用的长期供给网络。\n\n岗位职责：\n• 基于项目需求开展行业研究、专家访谈、渠道挖掘和交叉验证，识别真实数据、工作环境、Trajectory 与领域专家资源。\n• 通过陌拜、定向 BD、转介绍及行业网络，接触版权方、数据持有方、专业机构、垂直社区和领域专家。\n• 判断资源价值，推动样本获取、合作测试、商务谈判与正式采购。\n• 从 0 搭建并持续运营数据供应商、版权方、专业机构与 SME 专家网络。\n• 沉淀资源地图、价格体系、供应商档案和合规记录，提升采购效率与供给复用性。\n• 与研究、产品、数据生产和交付团队协作，保障资源质量、授权边界和按期到位。\n\n任职要求：\n• 2 年以上采购、供应链、商务 BD、猎头招募、专家网络、众包运营或渠道拓展经验。\n• 非标资源发现和主动触达能力强，能在陌生行业快速定位关键人物与真实资源。\n• 商务谈判与成本意识良好，能判断资源价值并设计灵活合作方式。\n• 对版权、隐私、数据来源和授权边界高度敏感。\n• 能同时推进多个供应方，并在不确定性下保障交付。\n• 具备结构化、台账化的工作习惯。\n• 对 AI 模型、训练数据、AI Agent 或合成数据有兴趣。\n\n加分项：\n• 拥有跨行业专家、版权机构、专业社区、数据供应商或众包人才渠道。\n• 有医疗、法律、金融、科研或软件工程等垂直领域资源。\n• 熟悉数据标注、数据生产、专家协作或内容版权采购。\n• 接触过真实任务环境、Agent Trajectory、计算机操作轨迹或过程数据。\n• 有数据授权、内容分销、商业再许可或海外资源采购经验。\n• 擅长使用爬虫、自动化工作流、数据库或 AI Agent 提升寻源效率。",
+    "descriptionEn": "Role Overview:\nSource and build high-value, non-standardized data resources for agent training and evaluation, including legally authorized industry data, copyrighted content, raw workspaces, task trajectories, domain experts, and high-quality seed data. You will enter unfamiliar sectors quickly, locate critical resources, and turn one-off sourcing into a reusable long-term supply network.\n\nResponsibilities:\n• Use industry research, expert interviews, channel discovery, and cross-validation to identify real-world data, work environments, trajectories, and subject-matter experts.\n• Reach copyright owners, data holders, professional institutions, vertical communities, and experts through outbound outreach, targeted BD, referrals, and industry networks.\n• Assess resource value and advance sampling, pilots, commercial negotiation, and procurement.\n• Build and operate supplier, rights-holder, institution, and SME networks from zero.\n• Maintain resource maps, pricing systems, supplier records, and compliance documentation.\n• Partner with Research, Product, Data Production, and Delivery on quality, authorization boundaries, and timing.\n\nQualifications:\n• 2+ years in procurement, supply chain, BD, recruiting, expert networks, crowdsourcing operations, or channel development.\n• Exceptional ability to discover non-standard resources and proactively reach the right people in unfamiliar sectors.\n• Strong negotiation and cost awareness, with the ability to design flexible partnership models.\n• High sensitivity to copyright, privacy, provenance, and authorization boundaries.\n• Ability to manage multiple suppliers and deliver under uncertainty.\n• Structured habits across records, resource maps, pricing, and supplier management.\n• Interest in AI models, training data, agents, or synthetic data.\n\nPreferred:\n• Existing networks across industry experts, copyright owners, professional communities, data vendors, or crowdsourced talent.\n• Resources in healthcare, legal, finance, research, or software engineering.\n• Experience in data annotation, data production, expert collaboration, or content-rights procurement.\n• Exposure to real-task environments, agent trajectories, computer-use traces, or process data.\n• Experience in data licensing, content distribution, commercial relicensing, or international sourcing.\n• Ability to use crawlers, automation, databases, or AI agents to improve sourcing efficiency.",
+    "tags": ["AI 数据采购", "非标资源寻源", "版权与授权", "专家网络", "Agent Trajectory", "供应商管理"],
+    "tagsEn": ["AI Data Sourcing", "Non-standard Resource Discovery", "Rights & Licensing", "Expert Networks", "Agent Trajectories", "Supplier Management"],
+    "profile": {
+      "experience": "2 年以上采购、供应链、BD、专家网络或渠道拓展经验",
+      "experienceEn": "2+ years in procurement, supply chain, BD, expert networks, or channel development",
+      "skills": ["非标寻源", "主动拓展", "商务谈判", "版权合规", "供应商网络"],
+      "skillsEn": ["Non-standard Sourcing", "Outbound Development", "Commercial Negotiation", "Rights Compliance", "Supplier Networks"]
+    },
+    "sort": 3
+  },
+  {
+    "id": "self-evolving-agent-data-infrastructure-job-004",
+    "companyId": "self-evolving-agent-data-infrastructure",
+    "createdAt": "2026-09-11T07:34:00.000Z",
+    "title": "AI 数据海外销售 / BD（GTM）",
+    "titleEn": "Overseas AI Data Sales / BD (GTM)",
+    "jobType": "commercial,marketing",
+    "jobTypeEn": "commercial,marketing",
+    "workMode": "可 Base 中国、新加坡或北美；需适应跨时区协作",
+    "workModeEn": "Based in China, Singapore, or North America; cross-time-zone collaboration required",
+    "location": "中国 / 新加坡 / 北美",
+    "locationEn": "China / Singapore / North America",
+    "description": "岗位介绍：\n负责面向海外科技企业、基础模型厂商和 AI 研发机构，推广公司的 AI 数据产品与服务，建立海外客户关系并推动业务从 0 到 1 和规模化增长。这是公司当前最重要的增量方向之一，适合拥有技术型 ToB 销售能力、海外资源和强执行力的人才。\n\n业务与团队优势：\n• 产品覆盖训练数据、任务环境、Agent 轨迹、模型评测与数据交付，可与技术客户展开深入方案讨论。\n• 研究与工程团队能够快速将客户问题转化为实验、环境、验证器和数据 Pipeline。\n• 国内商业化已经验证，海外市场仍处于从 0 到 1 的高 ownership 阶段。\n• 工作地点灵活，可连接中国、新加坡与北美市场。\n\n岗位职责：\n• 面向海外科技企业、基础模型厂商与 AI 研究机构，负责 AI 数据产品和服务的市场推广、客户建联与商务拓展。\n• 制定区域 GTM 与目标账户策略，持续拓展海外渠道和增量市场。\n• 依托自身行业网络加速客户触达，完成需求发现、方案沟通、报价谈判、签约及项目推进。\n• 与研究、产品、工程和交付团队协作，将海外客户需求转化为可落地的数据与评测解决方案。\n• 建设并持续优化 CRM、外拓工具链、Pipeline 与销售复盘机制。\n\n任职要求：\n• 2 年以上海外 B2B 技术产品销售经验；AI 数据、数据标注、模型评测、开发者工具、API 服务或云服务销售经验优先。\n• 英语可作为全职工作语言，能独立完成英文商务谈判、客户对接与方案沟通。\n• 跨文化沟通与商务情商优秀，擅长快速建立并维护海外客户信任。\n• 熟悉 HubSpot、Apollo、Clay、Outreach 等至少一种 CRM 或外拓工具。\n• 理解 LLM、模型后训练、强化学习和 AI Agent 生态，可与技术客户开展专业对话。\n• 有独立海外拓客、商务跟进和项目签单的成功经验。\n• 能配合海外客户节奏进行跨时区协作。\n\n加分项：\n• 有 AI 训练数据、数据标注、RLHF 或模型评测产品的海外销售成交经验。\n• 具备计算机或机器学习背景，能判断 Benchmark 与训练数据的技术价值。\n• 有海外外拓自动化工具链建设和运营经验。\n• 拥有海外 AI 行业人脉或客户资源。\n• 中文能力为加分项。",
+    "descriptionEn": "Role Overview:\nOwn international go-to-market for AI data products and services across technology companies, foundation-model developers, and AI research organizations. You will build overseas customer relationships and drive the business from zero to one and into repeatable scale. This is one of the company's most important growth opportunities and suits a technically credible B2B seller with international networks and strong execution.\n\nBusiness and Team Advantages:\n• Products span training data, task environments, agent trajectories, model evaluation, and delivery, enabling substantive conversations with technical buyers.\n• The research-engineering team can rapidly turn customer problems into experiments, environments, verifiers, and data pipelines.\n• Domestic commercialization is validated while international GTM remains a high-ownership zero-to-one opportunity.\n• Flexible location across China, Singapore, and North America.\n\nResponsibilities:\n• Develop international customers for AI data products and services across technology companies, foundation-model developers, and AI research institutions.\n• Define regional GTM and target-account strategies and expand overseas channels and markets.\n• Use industry networks to accelerate outreach and own discovery, solutioning, pricing, negotiation, contracting, and program advancement.\n• Partner with Research, Product, Engineering, and Delivery to translate customer needs into executable data and evaluation solutions.\n• Build and optimize CRM, outbound tooling, pipeline management, and sales review mechanisms.\n\nQualifications:\n• 2+ years of international B2B technology sales; experience in AI data, annotation, model evaluation, developer tools, APIs, or cloud services is preferred.\n• Full professional English for negotiation, customer communication, and solution discussions.\n• Excellent cross-cultural communication and commercial judgment.\n• Proficiency with at least one CRM or outbound platform such as HubSpot, Apollo, Clay, or Outreach.\n• Working knowledge of LLMs, post-training, reinforcement learning, and the AI-agent ecosystem.\n• Proven end-to-end success in international prospecting, opportunity advancement, and closing.\n• Comfortable collaborating across time zones.\n\nPreferred:\n• Closed international deals involving AI training data, annotation, RLHF, or model evaluation.\n• Computer Science or Machine Learning background with the ability to assess benchmark and training-data value.\n• Experience building and operating automated outbound tooling.\n• Existing international AI-industry networks or customer relationships.\n• Chinese is a plus.",
+    "tags": ["海外销售", "AI 数据", "GTM", "B2B", "模型评测", "英语工作语言", "全球 Base"],
+    "tagsEn": ["Overseas Sales", "AI Data", "GTM", "B2B", "Model Evaluation", "Professional English", "Global Location"],
+    "profile": {
+      "experience": "2 年以上海外 B2B 技术产品销售经验",
+      "experienceEn": "2+ years in international B2B technology sales",
+      "language": "英语为核心工作语言；中文为加分项",
+      "languageEn": "English is the core working language; Chinese is a plus",
+      "skills": ["海外客户拓展", "技术型解决方案销售", "CRM / 外拓工具", "AI 数据", "跨文化沟通"],
+      "skillsEn": ["International Prospecting", "Technical Solution Sales", "CRM / Outbound Tools", "AI Data", "Cross-cultural Communication"]
+    },
+    "sort": 4
   }
 
 ]

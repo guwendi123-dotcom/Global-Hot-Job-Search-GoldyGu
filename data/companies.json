@@ -572,5 +572,21 @@
     "location": "北京",
     "locationEn": "Beijing",
     "sort": 65
+  },
+  {
+    "id": "self-evolving-agent-data-infrastructure",
+    "createdAt": "2026-09-11T07:30:00.000Z",
+    "industryId": "ai-agent",
+    "name": "自进化 Agent 数据与评测基础设施平台",
+    "nameEn": "Self-Evolving Agent Data & Evaluation Infrastructure",
+    "logo": "/logos/self-evolving-agent-data-logo.svg",
+    "logoEmoji": "🧬",
+    "description": "一家成立于 2026 年的前沿 AI 数据服务与 Agent 基础设施公司，专注 Self-Evolving Agent Infrastructure，覆盖数据采购、数据生产、训练轨迹、环境构建、验证评测与商业化交付的完整链路。团队以研究与工程一体化方式，将 Task、Environment、Verifier 与 Experience 沉淀为可复用的训练和实验基础设施，帮助基础模型与 AI 企业更快发现能力边界并形成迭代闭环。团队成员均具备研究背景，在多智能体协作、模型后训练、评测与具身智能等方向拥有深厚积累，多项开源工作在 Agent 社区具有广泛影响力；公司已获得专业机构支持，并与多家头部互联网、基础模型及 AI 研究团队完成商业合作。",
+    "descriptionEn": "A frontier AI data services and agent-infrastructure company founded in 2026. It builds self-evolving agent infrastructure across data sourcing, production, training trajectories, environment construction, verification, evaluation, and commercial delivery. Its research-engineering team turns Tasks, Environments, Verifiers, and Experiences into reusable primitives for model training and experimentation, helping foundation-model and AI teams discover capability boundaries and create faster iteration loops. Team members bring strong research backgrounds across multi-agent systems, post-training, evaluation, and embodied intelligence; several open-source projects have gained meaningful recognition in the agent community. The company is backed by professional investors and has already delivered commercial programs for leading internet, foundation-model, and AI research organizations.",
+    "stage": "早期创业 · 商业化已验证 · 专业机构支持",
+    "stageEn": "Early Stage · Commercially Validated · Institutionally Backed",
+    "location": "杭州 / 上海 / 全球市场",
+    "locationEn": "Hangzhou / Shanghai / Global Markets",
+    "sort": 66
   }
 ]

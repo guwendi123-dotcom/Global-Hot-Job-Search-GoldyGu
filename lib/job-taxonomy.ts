@@ -145,14 +145,22 @@ export const WORK_MODE_OPTIONS: Array<TaxonomyOption & { id: WorkModeId }> = [
 ];
 
 const functionAliases: Record<string, JobFunctionId> = {
+  "ai-algorithm": "ai-algorithm",
   algorithm: "ai-algorithm",
   research: "ai-algorithm",
   engineering: "engineering",
+  product: "product",
   pm: "product",
   "product-design": "product",
+  design: "design",
+  marketing: "marketing",
   "mkt-growth": "marketing",
   operations: "operations",
+  commercial: "commercial",
   "bd-sales": "commercial",
+  hardware: "hardware",
+  people: "people",
+  management: "management",
   leadership: "management",
   cxo: "management",
 };
@@ -281,7 +289,7 @@ function inferSpecialty(job: Job, functionId: JobFunctionId): string {
   }
 
   if (functionId === "commercial") {
-    if (has(title, ["采购"]) || has(text, ["procurement", "供应商", "采买"])) return "procurement";
+    if (has(title, ["采购", "采买", "procurement", "sourcing"])) return "procurement";
     if (has(title, ["客户成功", "客户运营", "customer success", "account manager"])) return "customer-success";
     if (has(title, ["大客户", "企业销售", "account executive", "sales", "销售"])) return "enterprise-sales";
     if (has(title, ["区域商业", "商业化负责人", "regional commercial"])) return "regional-commercial";
