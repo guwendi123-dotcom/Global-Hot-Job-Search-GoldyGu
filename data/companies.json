@@ -588,5 +588,21 @@
     "location": "杭州 / 上海 / 全球市场",
     "locationEn": "Hangzhou / Shanghai / Global Markets",
     "sort": 66
+  },
+  {
+    "id": "top-tier-internet-us-frontier-ai-team",
+    "createdAt": "2026-09-14T06:40:00.000Z",
+    "industryId": "ai",
+    "name": "超一线互联网大厂｜美国前沿 AI 团队",
+    "nameEn": "Top-Tier Internet Company | US Frontier AI Team",
+    "logo": "",
+    "logoEmoji": "🧠",
+    "description": "一家超一线互联网大厂正在美国建设前沿 AI 核心团队，依托成熟的大规模技术平台、丰富的真实业务场景以及长期积累的数据与工程基础，探索基础模型与 Agent 的下一阶段突破。团队聚焦高价值复杂任务、长链路智能体系统和核心模型能力的规模化落地，既强调前沿研究判断，也重视训练、数据、评测、推理与 Agent 系统之间的完整工业化闭环。美国技术一号位将直接参与技术方向、核心团队和跨区域研发体系的建立，拥有高战略影响力与充分的技术空间。",
+    "descriptionEn": "A top-tier internet company is building a core frontier-AI organization in the United States. Backed by a mature large-scale technology platform, real-world product scenarios, substantial data, and deep engineering foundations, the team is exploring the next generation of foundation models and agents. Its work focuses on high-value complex tasks, long-horizon agent systems, and the industrialization of core model capabilities across training, data, evaluation, inference, and agent infrastructure. The US AI leader will shape the technical direction, build the core organization, and establish a cross-region R&D system with significant strategic influence and technical ownership.",
+    "stage": "成熟平台 · 美国前沿研发建设",
+    "stageEn": "Scaled Platform · Building a US Frontier AI Organization",
+    "location": "美国",
+    "locationEn": "United States",
+    "sort": 67
   }
 ]

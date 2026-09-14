@@ -5289,6 +5289,30 @@
       "skillsEn": ["International Prospecting", "Technical Solution Sales", "CRM / Outbound Tools", "AI Data", "Cross-cultural Communication"]
     },
     "sort": 4
+  },
+  {
+    "id": "top-tier-internet-us-frontier-ai-team-job-001",
+    "companyId": "top-tier-internet-us-frontier-ai-team",
+    "createdAt": "2026-09-14T06:41:00.000Z",
+    "title": "美国 AI 技术一号位（基础模型与 Agent）",
+    "titleEn": "Head of AI, US — Foundation Models & Agents",
+    "jobType": "engineering,algorithm,research",
+    "jobTypeEn": "engineering,algorithm,research",
+    "workMode": "美国；具体城市与办公安排面议",
+    "workModeEn": "United States; specific city and work arrangement to be discussed",
+    "location": "美国",
+    "locationEn": "United States",
+    "description": "岗位介绍：\n作为美国前沿 AI 团队的技术一号位，你将负责建立基础模型与 Agent 方向的技术路线、核心能力和组织体系。岗位面向真正做过核心模型主链路、能够同时驾驭前沿探索与超大规模工业化的人才，目标是让模型在复杂、长链路和高价值真实任务中形成稳定、可扩展的 Agent 能力。\n\n团队与机会：\n• 依托超大规模技术平台、真实业务场景、数据资源和成熟工程基础，具备把前沿模型能力推向工业级应用的条件。\n• 不是单一研究课题或边缘工具团队，而是围绕基础模型与 Agent 核心链路建设长期技术能力。\n• 作为美国技术一号位，可深度参与技术方向、团队组建、全球人才引进及跨区域研发协作。\n• 技术成果将直接作用于复杂任务处理、工作型 Agent 及下一代智能产品场景。\n\n岗位职责：\n• 制定美国团队在基础模型、后训练与 Agent 方向的技术战略、研究路线和工程规划。\n• 负责核心模型主链路建设，贯通数据处理、模型训练、后训练、评测、推理与 Agent 系统演进。\n• 推动大规模训练与推理负载、海量高质量数据处理及模型迭代闭环的工业化落地。\n• 面向复杂任务和长链路工作流，建设任务规划、工具使用、记忆、推理、执行与反馈优化等关键能力。\n• 定义具有代表性的技术成果和核心系统，形成团队在基础模型与 Agent 方向的长期壁垒。\n• 从零建设并领导高水平研究与工程团队，建立技术标准、研发机制和人才梯队。\n• 协同全球研究、工程、产品与业务团队，将技术突破转化为可规模运行的产品能力。\n\n任职要求：\n• 在全球前沿基础模型或 AI 研究团队中承担过核心技术与组织责任，拥有较强的行业影响力和技术判断力。\n• 必须深度负责过基础模型核心主链路，而非仅提供外围平台、工具、评测或业务支持。\n• 具备超大规模模型训练、推理基础设施、高质量数据处理或复杂模型系统的工业化经验。\n• 对 Agent、复杂任务处理、长程规划与工作型智能体有深入实践，能够判断模型能力与系统设计的边界。\n• 拥有可验证的代表性成果，例如核心模型、关键系统、重要产品、论文或具有行业影响力的技术项目。\n• 具备核心板块负责人或相当层级的组织领导经验，能够吸引和管理世界级研究与工程人才。\n• 能在高不确定性环境中做出技术取舍，并持续推动研究成果进入规模化生产系统。",
+    "descriptionEn": "Role Overview:\nAs the top AI leader for the US frontier-AI organization, you will define the technical roadmap, core capabilities, and organization across foundation models and agents. This role is designed for a leader who has owned the core model path and can combine frontier exploration with industrial execution at exceptional scale. The mission is to turn model capability into reliable, scalable agents for complex, long-horizon, high-value real-world tasks.\n\nTeam and Opportunity:\n• Leverage a large-scale technology platform, real production scenarios, substantial data resources, and mature engineering foundations.\n• Build long-term capability across the core foundation-model and agent stack rather than a narrow research topic or peripheral tooling function.\n• Shape technical direction, recruit the US team, attract global talent, and establish cross-region R&D collaboration.\n• Deliver technology that directly powers complex-task reasoning, work agents, and next-generation intelligent products.\n\nResponsibilities:\n• Define the US technical strategy and research roadmap across foundation models, post-training, and agents.\n• Own the core model path across data processing, training, post-training, evaluation, inference, and agent-system evolution.\n• Industrialize large-scale training and inference workloads, high-value data processing, and model iteration loops.\n• Build planning, tool use, memory, reasoning, execution, and feedback capabilities for complex and long-horizon workflows.\n• Establish representative technical systems and durable differentiation in foundation models and agents.\n• Build and lead a world-class research and engineering organization from the ground up.\n• Partner with global Research, Engineering, Product, and Business teams to turn technical breakthroughs into production capabilities.\n\nQualifications:\n• Core technical and organizational leadership within a globally recognized frontier foundation-model or AI research team.\n• Direct ownership of the core model path; peripheral platform, tooling, evaluation-only, or business-support experience is insufficient.\n• Proven industrial experience in extremely large-scale model training, inference infrastructure, high-quality data processing, or complex model systems.\n• Deep practical experience with agents, complex-task execution, long-horizon planning, and work-oriented agent systems.\n• Verifiable representative achievements such as core models, critical systems, major products, influential research, or recognized technical programs.\n• Leadership experience at the level of a major technical domain owner, with the ability to attract and lead exceptional researchers and engineers.\n• Strong judgment under ambiguity and a record of moving frontier research into scalable production systems.",
+    "tags": ["美国技术一号位", "基础模型", "Agent", "核心模型主链路", "超大规模工业化", "复杂任务"],
+    "tagsEn": ["US AI Leader", "Foundation Models", "Agents", "Core Model Path", "Large-scale Industrialization", "Complex Tasks"],
+    "profile": {
+      "experience": "全球前沿基础模型团队核心负责人级别",
+      "experienceEn": "Core leadership within a global frontier foundation-model team",
+      "skills": ["基础模型", "Agent 系统", "大规模训推", "高质量数据处理", "技术组织建设"],
+      "skillsEn": ["Foundation Models", "Agent Systems", "Large-scale Training & Inference", "High-value Data", "Technical Organization Building"]
+    },
+    "sort": 1
   }
 
 ]
