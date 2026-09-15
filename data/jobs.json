@@ -5339,6 +5339,131 @@
       "skillsEn": ["Visual Craft & Taste", "UI/UX", "Interaction & Motion", "Consumer Products", "Outstanding Portfolio"]
     },
     "sort": 2
+  },
+  {
+    "id": "global-proactive-ai-lifestyle-platform-job-006",
+    "companyId": "global-proactive-ai-lifestyle-platform",
+    "createdAt": "2026-09-15T10:45:00.000Z",
+    "title": "资深 Agent 后端开发工程师（Golang）",
+    "titleEn": "Senior Agent Backend Engineer (Golang)",
+    "jobType": "engineering",
+    "jobTypeEn": "engineering",
+    "workMode": "上海办公，具体安排面议",
+    "workModeEn": "Shanghai; specific work arrangement to be discussed",
+    "location": "上海",
+    "locationEn": "Shanghai",
+    "hiringStatus": "open",
+    "description": "岗位介绍：\n加入一家面向全球市场的 ToC 主动式 AI 产品团队，负责 Agent 产品核心后端与服务架构。产品已完成独立移动端上线，正在从早期验证进入技术体系扩张阶段。你将直接处理真实用户规模下的复杂任务编排、模型与工具调用、数据链路和高可用服务问题，而不是仅做模型 API 的简单封装。\n\n岗位职责：\n• 负责主动式 AI Agent 核心后端服务的设计、开发与长期演进。\n• 建设任务编排、上下文与记忆、工具调用、检索、异步任务、消息通知及用户状态等关键能力。\n• 设计高并发、高可用、可观测的分布式系统，保障全球化消费产品的稳定性、性能与成本效率。\n• 与算法、数据、客户端和产品团队协作，将模型能力转化为可持续运行的用户体验。\n• 参与关键技术选型、架构评审、代码质量与工程规范建设，解决复杂线上问题。\n• 结合业务增长与国际化需求，持续优化服务架构、数据链路和交付效率。\n\n任职要求：\n• 具备资深或专家级后端研发能力，不以工作年限机械卡人，重点看技术深度与复杂系统 Ownership。\n• 熟练掌握 Golang，具备扎实的数据结构、并发编程、网络和分布式系统基础。\n• 做过高并发消费级产品、平台型后端或复杂在线服务，并承担过核心模块设计与上线结果。\n• 熟悉 MySQL、Redis、消息队列、微服务、容器化、可观测性和云基础设施。\n• 对 LLM、Agent、Tool Use、RAG、Memory 或工作流编排有实践或深入理解。\n• 具备良好的产品与业务理解力，能在需求快速变化的环境中做出合理技术取舍。\n\n加分项：\n• 有国际化消费产品、内容社区、电商、增长平台或推荐场景经验。\n• 曾在头部互联网公司或高质量 AI 创业团队负责核心后端。\n• 做过 Agent 复杂任务链路、模型网关、实时推荐、用户画像或事件驱动系统。",
+    "descriptionEn": "Role Overview:\nJoin a global consumer-AI team building a proactive lifestyle agent. The standalone mobile product has launched and the engineering organization is now scaling. You will own core backend systems for complex agent workflows, model and tool execution, data flows, and production reliability rather than simply wrapping model APIs.\n\nResponsibilities:\n• Design, build, and evolve the core backend services for a proactive AI agent.\n• Develop task orchestration, context and memory, tool use, retrieval, asynchronous jobs, notifications, and user-state capabilities.\n• Build highly available, observable distributed systems for a global consumer product, balancing latency, reliability, and cost.\n• Partner with ML, Data, Client, and Product teams to turn model capabilities into durable user experiences.\n• Drive architecture reviews, engineering standards, code quality, and resolution of complex production issues.\n• Improve service architecture, data flows, and delivery velocity as the product expands internationally.\n\nQualifications:\n• Senior or staff-level backend engineering depth, demonstrated through ownership of complex production systems rather than tenure alone.\n• Strong Golang skills and solid foundations in data structures, concurrency, networking, and distributed systems.\n• Experience owning core modules for high-scale consumer products, platform backends, or complex online services.\n• Familiarity with MySQL, Redis, messaging systems, microservices, containers, observability, and cloud infrastructure.\n• Practical experience or strong understanding of LLMs, agents, tool use, RAG, memory, or workflow orchestration.\n• Strong product and business judgment in a fast-changing environment.\n\nPreferred:\nInternational consumer, content-community, commerce, growth-platform, or recommendation experience; core backend ownership at a leading internet or strong AI startup; or work on complex agent workflows, model gateways, real-time recommendation, user profiles, or event-driven systems.",
+    "tags": ["Golang", "Agent 后端", "分布式系统", "高并发", "ToC AI", "上海"],
+    "tagsEn": ["Golang", "Agent Backend", "Distributed Systems", "High Concurrency", "Consumer AI", "Shanghai"],
+    "profile": {
+      "experience": "资深 / 专家级，重点看复杂系统技术深度与 Ownership",
+      "experienceEn": "Senior / staff level, with emphasis on technical depth and system ownership",
+      "skills": ["Golang", "分布式系统", "Agent 工程", "高可用", "消费级产品"],
+      "skillsEn": ["Golang", "Distributed Systems", "Agent Engineering", "High Availability", "Consumer Products"]
+    },
+    "sort": 6
+  },
+  {
+    "id": "global-proactive-ai-lifestyle-platform-job-007",
+    "companyId": "global-proactive-ai-lifestyle-platform",
+    "createdAt": "2026-09-15T10:46:00.000Z",
+    "title": "数据开发负责人（增长平台与 AI 数据）",
+    "titleEn": "Data Engineering Lead, Growth Platform & AI Data",
+    "jobType": "engineering,leadership",
+    "jobTypeEn": "engineering,leadership",
+    "workMode": "上海办公，具体安排面议",
+    "workModeEn": "Shanghai; specific work arrangement to be discussed",
+    "location": "上海",
+    "locationEn": "Shanghai",
+    "hiringStatus": "open",
+    "description": "岗位介绍：\n这是上海技术团队的数据开发管理岗位，覆盖增长数据、业务数据平台与 AI 训练/评测数据三类方向。你将带领团队把分散的数据链路建设成统一、可靠、可规模化的数据能力，同时服务产品增长、业务决策和模型迭代。\n\n岗位职责：\n• 制定数据工程与平台技术路线，管理数据开发团队并建立稳定的交付和质量机制。\n• 建设增长数据体系，支持用户行为采集、指标口径、实验分析、漏斗与留存等核心场景。\n• 搭建统一业务数据平台，完善离线与实时计算、数据仓库、数据服务和权限治理。\n• 建设面向模型训练、后训练与评测的数据管线，覆盖采集、清洗、加工、版本、质量和回流闭环。\n• 与产品、增长、算法和工程团队共同定义关键数据资产及使用方式。\n• 负责架构升级、成本效率、数据稳定性、可观测性与数据合规。\n\n任职要求：\n• 具备资深数据工程或数据平台经验，并有团队管理、技术负责人或核心项目牵头经历。\n• 至少在增长数据平台、业务数据平台、AI 训练/评测数据中的一个方向有深度，能够理解另外两个方向。\n• 熟悉数据仓库、实时计算、湖仓、任务调度、数据质量、元数据或数据服务体系。\n• 能处理大规模、高复杂度数据链路，并对准确性、时效性、稳定性和成本结果负责。\n• 具备较强的业务理解和跨团队推动能力，能把抽象业务目标拆成数据架构与交付计划。\n\n加分项：\n• 有国际化消费产品、短视频、电商或用户增长数据平台经验。\n• 有基础模型、训练数据、评测数据、数据飞轮或多模态数据平台经验。\n• 兼具管理能力与一线架构判断，能够在早期组织中亲自推进关键问题。",
+    "descriptionEn": "Role Overview:\nLead data engineering for the Shanghai technology organization across three connected areas: growth data, business data platforms, and AI training and evaluation data. You will turn fragmented pipelines into reliable, scalable data capabilities that support product growth, business decisions, and model iteration.\n\nResponsibilities:\n• Define the data-engineering roadmap, lead the team, and establish delivery and quality standards.\n• Build growth-data capabilities for behavioral events, metric definitions, experimentation, funnels, and retention.\n• Develop a unified business-data platform spanning batch and streaming computation, warehousing, data services, and governance.\n• Build data pipelines for model training, post-training, and evaluation, including collection, cleaning, processing, versioning, quality control, and feedback loops.\n• Partner with Product, Growth, ML, and Engineering to define high-value data assets and how they are used.\n• Own architecture evolution, cost efficiency, reliability, observability, and data compliance.\n\nQualifications:\n• Senior data-engineering or data-platform experience with people management, technical leadership, or ownership of major programs.\n• Deep expertise in at least one of growth platforms, business data platforms, or AI training and evaluation data, with working knowledge of the others.\n• Strong knowledge of warehousing, streaming, lakehouse systems, orchestration, data quality, metadata, or data services.\n• Experience owning large, complex data pipelines and their accuracy, freshness, reliability, and cost.\n• Strong business judgment and cross-functional execution.\n\nPreferred:\nInternational consumer, short-video, commerce, or growth-data experience; foundation-model training data, evaluation data, data flywheels, or multimodal data platforms; and the ability to combine team leadership with hands-on architectural judgment.",
+    "tags": ["数据开发负责人", "增长数据", "数据平台", "训练数据", "评测数据", "上海"],
+    "tagsEn": ["Data Engineering Lead", "Growth Data", "Data Platform", "Training Data", "Evaluation Data", "Shanghai"],
+    "profile": {
+      "experience": "资深数据负责人，具备团队管理或核心技术项目领导经验",
+      "experienceEn": "Senior data leader with people or major technical-program leadership",
+      "skills": ["数据平台", "实时与离线计算", "增长分析", "AI 数据", "团队管理"],
+      "skillsEn": ["Data Platforms", "Batch & Streaming", "Growth Analytics", "AI Data", "Team Leadership"]
+    },
+    "sort": 7
+  },
+  {
+    "id": "global-proactive-ai-lifestyle-platform-job-008",
+    "companyId": "global-proactive-ai-lifestyle-platform",
+    "createdAt": "2026-09-15T10:47:00.000Z",
+    "title": "工程效能与基础设施负责人 / 专家",
+    "titleEn": "Engineering Productivity & Infrastructure Lead / Staff Engineer",
+    "jobType": "engineering,leadership",
+    "jobTypeEn": "engineering,leadership",
+    "workMode": "上海办公，具体安排面议",
+    "workModeEn": "Shanghai; specific work arrangement to be discussed",
+    "location": "上海",
+    "locationEn": "Shanghai",
+    "hiringStatus": "open",
+    "description": "岗位介绍：\n负责快速增长的消费级 AI 产品研发效能与工程基础设施。岗位既需要理解研发流程，也需要具备扎实的平台开发和线上运维能力，覆盖 CI/CD、稳定性、SRE、Infra 平台及必要的前后端工具建设，不是只维护脚本或执行发布的传统运维岗位。\n\n岗位职责：\n• 规划并建设研发效能平台，提升开发、测试、构建、发布、回滚和问题定位效率。\n• 建设标准化 CI/CD 流程、环境与制品管理、自动化测试和质量门禁。\n• 完善服务可观测性、容量管理、告警、On-call、故障响应与复盘机制。\n• 开发内部 Infra 与工程平台，为后端、客户端、算法和数据团队提供可靠的自助式工具。\n• 推动云资源、容器、服务治理、权限和成本体系持续演进。\n• 识别研发链路中的效率与稳定性瓶颈，用工程系统而非人工流程解决重复问题。\n\n任职要求：\n• 有大型互联网产品、云平台或 AI 团队的工程效能、DevOps、SRE 或基础设施开发经验。\n• 深入理解 CI/CD，并实际建设过可规模运行的流水线、发布系统或研发平台。\n• 具备线上运维、稳定性治理和故障处理经验，熟悉监控、日志、链路追踪和容量规划。\n• 具备较强编码能力，能够独立完成平台后端、自动化工具或必要的 Web 界面开发。\n• 熟悉 Kubernetes、容器、云服务、IaC、微服务治理或内部开发者平台中的多项能力。\n• 能跨团队推动工程标准落地，并对研发效率和系统稳定性结果负责。\n\n加分项：\n• 做过 AI/ML 研发平台、模型服务、GPU 资源或数据基础设施。\n• 既有 SRE 经验，又有完整的平台产品开发能力。\n• 有从 0 到 1 建设内部开发者平台或改造大型研发流程的经历。",
+    "descriptionEn": "Role Overview:\nOwn engineering productivity and infrastructure for a fast-growing consumer AI product. This role combines developer-workflow design with hands-on platform engineering and production operations across CI/CD, reliability, SRE, infrastructure platforms, and internal tools. It is not a traditional operations-only position.\n\nResponsibilities:\n• Build developer-productivity systems across development, testing, builds, deployment, rollback, and debugging.\n• Establish scalable CI/CD pipelines, environment and artifact management, automated testing, and quality gates.\n• Improve observability, capacity planning, alerting, on-call, incident response, and postmortem practices.\n• Develop self-service infrastructure and engineering platforms for Backend, Client, ML, and Data teams.\n• Evolve cloud, container, service-governance, access-control, and cost systems.\n• Identify workflow and reliability bottlenecks and solve repetitive problems through durable engineering systems.\n\nQualifications:\n• Engineering productivity, DevOps, SRE, or infrastructure-development experience in a scaled internet, cloud, or AI organization.\n• Deep CI/CD knowledge and direct experience building production pipelines, release systems, or developer platforms.\n• Strong production-operations and reliability experience across monitoring, logs, tracing, incidents, and capacity.\n• Strong coding ability across platform backends, automation tools, or supporting web interfaces.\n• Familiarity with Kubernetes, containers, cloud services, IaC, service governance, or internal developer platforms.\n• Ability to drive cross-team engineering standards and own measurable productivity and reliability outcomes.\n\nPreferred:\nAI/ML platforms, model serving, GPU resources, or data infrastructure; combined SRE and platform-product engineering depth; or 0-to-1 internal developer-platform experience.",
+    "tags": ["工程效能", "CI/CD", "SRE", "Infra 平台", "稳定性", "上海"],
+    "tagsEn": ["Engineering Productivity", "CI/CD", "SRE", "Infrastructure Platform", "Reliability", "Shanghai"],
+    "profile": {
+      "experience": "资深 / 专家级工程效能、SRE 或基础设施开发经验",
+      "experienceEn": "Senior / staff-level engineering productivity, SRE, or infrastructure experience",
+      "skills": ["CI/CD", "SRE", "平台开发", "稳定性", "云与容器"],
+      "skillsEn": ["CI/CD", "SRE", "Platform Engineering", "Reliability", "Cloud & Containers"]
+    },
+    "sort": 8
+  },
+  {
+    "id": "global-proactive-ai-lifestyle-platform-job-009",
+    "companyId": "global-proactive-ai-lifestyle-platform",
+    "createdAt": "2026-09-15T10:48:00.000Z",
+    "title": "资深安全工程师（应用与平台安全）",
+    "titleEn": "Senior Security Engineer, Application & Platform",
+    "jobType": "engineering",
+    "jobTypeEn": "engineering",
+    "workMode": "上海办公，具体安排面议",
+    "workModeEn": "Shanghai; specific work arrangement to be discussed",
+    "location": "上海",
+    "locationEn": "Shanghai",
+    "hiringStatus": "open",
+    "description": "岗位介绍：\n负责全球化消费级 AI 产品的应用、平台与数据安全建设，将安全能力嵌入产品研发和线上运营全流程。你将与后端、客户端、算法、数据及工程基础设施团队协作，在产品快速迭代的同时建立可持续的安全基线。\n\n岗位职责：\n• 建设面向应用、API、云基础设施和数据链路的安全体系及工程能力。\n• 开展架构安全评审、威胁建模、代码与依赖风险治理，推动 Secure SDLC 落地。\n• 完善身份、权限、密钥、敏感数据与隐私保护机制。\n• 建设漏洞发现、风险监控、事件响应和复盘闭环，并推动自动化安全工具落地。\n• 评估 LLM 与 Agent 场景中的提示注入、越权工具调用、数据泄露和模型服务风险。\n• 与研发团队共同制定安全标准，在用户体验、迭代速度和风险控制之间做出合理取舍。\n\n任职要求：\n• 有互联网产品、云平台、移动应用或 AI 系统的安全工程经验。\n• 熟悉应用安全、API 安全、云安全、数据安全或基础设施安全中的多个方向。\n• 具备良好编码与自动化能力，能够把安全策略转化为工具、平台或研发流程。\n• 熟悉常见攻击面、漏洞原理、身份权限体系和安全事件处置。\n• 能与工程团队深入协作并推动问题闭环，而非只输出审计报告。\n\n加分项：\n• 有国际化 ToC 产品、隐私合规或大规模用户系统安全经验。\n• 做过 LLM/Agent 安全、红队测试、模型服务安全或 AI 数据安全。\n• 有安全平台、SDL、DevSecOps 或自动化风险检测体系建设经验。",
+    "descriptionEn": "Role Overview:\nBuild application, platform, and data-security capabilities for a global consumer AI product. You will embed security into product development and operations while partnering closely with Backend, Client, ML, Data, and Infrastructure teams.\n\nResponsibilities:\n• Build security systems across applications, APIs, cloud infrastructure, and data flows.\n• Drive architecture reviews, threat modeling, code and dependency risk management, and Secure SDLC practices.\n• Improve identity, access, secrets, sensitive-data, and privacy controls.\n• Establish vulnerability discovery, monitoring, incident response, and post-incident improvement loops, supported by automation.\n• Assess prompt injection, excessive tool permissions, data leakage, and model-serving risks in LLM and agent scenarios.\n• Define practical standards that balance user experience, delivery speed, and risk.\n\nQualifications:\n• Security engineering experience in internet products, cloud platforms, mobile applications, or AI systems.\n• Breadth across application, API, cloud, data, or infrastructure security.\n• Strong coding and automation skills, with the ability to turn policy into tools, platforms, or development workflows.\n• Knowledge of common attack surfaces, vulnerability classes, identity and access systems, and incident response.\n• Ability to partner deeply with engineering teams and drive remediation to closure.\n\nPreferred:\nInternational consumer-product security, privacy, or large-scale user systems; LLM or agent security, red teaming, model-serving security, or AI data security; and experience building security platforms, SDL, DevSecOps, or automated detection systems.",
+    "tags": ["应用安全", "平台安全", "DevSecOps", "Agent 安全", "数据安全", "上海"],
+    "tagsEn": ["Application Security", "Platform Security", "DevSecOps", "Agent Security", "Data Security", "Shanghai"],
+    "profile": {
+      "experience": "资深安全工程经验，能亲自建设工程化安全能力",
+      "experienceEn": "Senior security engineering experience with hands-on platform and automation capability",
+      "skills": ["应用与 API 安全", "云与数据安全", "安全工程化", "事件响应", "Agent 风险"],
+      "skillsEn": ["Application & API Security", "Cloud & Data Security", "Security Engineering", "Incident Response", "Agent Risk"]
+    },
+    "sort": 9
+  },
+  {
+    "id": "global-proactive-ai-lifestyle-platform-job-010",
+    "companyId": "global-proactive-ai-lifestyle-platform",
+    "createdAt": "2026-09-15T10:49:00.000Z",
+    "title": "大模型后训练算法专家",
+    "titleEn": "LLM Post-Training Research Engineer / Scientist",
+    "jobType": "algorithm,engineering,research",
+    "jobTypeEn": "algorithm,engineering,research",
+    "workMode": "上海办公，具体安排面议",
+    "workModeEn": "Shanghai; specific work arrangement to be discussed",
+    "location": "上海",
+    "locationEn": "Shanghai",
+    "hiringStatus": "open",
+    "description": "岗位介绍：\n围绕主动式 AI Agent 的真实消费场景开展大模型后训练与能力优化。岗位长期面向高质量人才开放，重点不是单一论文指标，而是把数据、训练、评测和产品反馈连成可验证的模型迭代闭环，使模型更好地完成复杂任务、理解用户偏好并稳定调用工具。\n\n岗位职责：\n• 负责面向 Agent 与垂直场景的后训练方案设计、实验和规模化落地。\n• 建设 SFT、偏好优化、强化学习、Reward Model、数据筛选与合成等关键能力。\n• 设计训练数据与评测体系，分析模型在推理、规划、工具调用、长期任务和个性化场景中的失败模式。\n• 与数据、工程和产品团队合作，将真实用户反馈转化为训练信号和模型改进方向。\n• 推进训练、评测、部署与线上回流之间的闭环，持续提升效果、稳定性与成本效率。\n• 跟踪前沿研究并形成适合真实产品的技术判断和可复现结果。\n\n任职要求：\n• 在基础模型、后训练、强化学习、偏好学习或垂直模型优化方向有扎实研究与工程实践。\n• 熟悉 PyTorch 及大规模训练流程，能够独立完成假设、实验、消融、评测和结论。\n• 理解训练数据质量、模型能力边界和评测设计之间的关系。\n• 有较强的算法基础、工程落地能力和问题拆解能力。\n• 具备高质量研究、模型或产品成果，能够清晰说明本人贡献。\n\n加分项：\n• 来自基础模型预训练或后训练核心团队。\n• 做过 Reward Model、RLHF/RLAIF、DPO/PPO/GRPO、CoT 数据或复杂任务 Agent 训练。\n• 有面向真实 ToC 产品的模型上线、在线实验和用户反馈闭环经验。\n• 在重要论文、开源项目、竞赛或规模化模型系统中有代表性成果。",
+    "descriptionEn": "Role Overview:\nAdvance post-training for a proactive AI agent in real consumer scenarios. This long-term search prioritizes exceptional talent over a narrow tenure requirement. The goal is to connect data, training, evaluation, and product feedback into a measurable iteration loop so models can handle complex tasks, understand user preferences, and use tools reliably.\n\nResponsibilities:\n• Design and scale post-training approaches for agents and vertical scenarios.\n• Build capabilities across SFT, preference optimization, reinforcement learning, reward modeling, data selection, and synthetic data.\n• Develop training data and evaluation systems and analyze failures in reasoning, planning, tool use, long-horizon tasks, and personalization.\n• Convert real user feedback into training signals and model-improvement priorities with Data, Engineering, and Product teams.\n• Connect training, evaluation, deployment, and production feedback while improving quality, stability, and cost.\n• Track frontier research and translate it into reproducible results for real products.\n\nQualifications:\n• Strong research and engineering practice in foundation models, post-training, reinforcement learning, preference learning, or vertical-model optimization.\n• Proficiency with PyTorch and large-scale training workflows, including independent hypothesis formation, experimentation, ablation, evaluation, and conclusion.\n• Strong understanding of the relationship among data quality, model capability boundaries, and evaluation design.\n• Excellent algorithmic foundations, implementation ability, and problem decomposition.\n• High-quality research, model, or product outcomes with clearly explainable individual contribution.\n\nPreferred:\nCore pre-training or post-training experience; reward models, RLHF/RLAIF, DPO/PPO/GRPO, chain-of-thought data, or complex-agent training; production model launches and online experimentation for consumer products; or representative papers, open-source work, competitions, or large-scale model systems.",
+    "tags": ["大模型后训练", "SFT", "RLHF", "Reward Model", "Agent 训练", "上海"],
+    "tagsEn": ["LLM Post-Training", "SFT", "RLHF", "Reward Modeling", "Agent Training", "Shanghai"],
+    "profile": {
+      "experience": "资深 / 专家级，优先看基础模型核心训练经历与代表成果",
+      "experienceEn": "Senior / expert level, prioritizing core foundation-model training and representative outcomes",
+      "skills": ["后训练", "强化学习", "训练数据", "模型评测", "Agent"],
+      "skillsEn": ["Post-Training", "Reinforcement Learning", "Training Data", "Model Evaluation", "Agents"]
+    },
+    "sort": 10
   }
 
 ]

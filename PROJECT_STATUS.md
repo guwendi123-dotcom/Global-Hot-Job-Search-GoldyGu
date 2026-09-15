@@ -8,8 +8,8 @@
 - GitHub：<https://github.com/guwendi123-dotcom/Global-Hot-Job-Search-GoldyGu>
 - Cloudflare Worker：`headhunter-portfolio`
 - Cloudflare KV：`HEADHUNTER_DATA`
-- 当前正式版本：`0e21e3cd-cc5e-4273-93c8-27404d027aa1`
-- 当前公开数据：40 家公司、168 个岗位、7 个行业
+- 当前正式版本：`13364f19-4333-4e27-b2db-9f5d40863411`
+- 当前公开数据：40 家公司、173 个岗位、7 个行业
 
 ## 当前产品能力
 
@@ -25,6 +25,7 @@
 - 隐私优先 AI 对话平台：“增长负责人”为 `Offer 阶段`。
 - AI 动画创作工具：网站现有 5 个岗位均因业务方向调整暂停招聘，岗位记录继续保留。
 - 全球内容社区 Trust & Safety：前三个岗位 Base Palo Alto；Policy Specialist 为旧金山湾区 / 新加坡，四个岗位均不含纽约。
+- 全球主动式 AI 生活平台：上海新增 Agent 后端、数据开发负责人、工程效能、安全和后训练算法 5 个技术岗位；前四个为当前高优，后训练算法长期优中择优。安全岗细分 Scope 仍需客户进一步确认，未确认前不得向候选人承诺。
 - 全球 Physical AI 人类体验数据平台：新加坡运营经理 / 高级运营经理为成熟人选，预算 SGD 6,000–8,000/月，优秀人选可向上讨论，不提供签证；市场负责人覆盖中国、美国、新加坡。
 - 全球 AI 达人营销平台：当前重点为北京 AI 应用工程师、达人营销产品经理、大客户销售，以及中国 Remote 客户运营；详细内部口径见 `.private/CLIENT_CONTEXT.md`。
 
