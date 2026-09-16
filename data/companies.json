@@ -33,13 +33,14 @@
     "name": "具身智能训练数据平台",
     "nameEn": "Embodied AI Training Data Platform",
     "industryId": "embodied-ai",
-    "description": "高速成长的种子轮具身智能初创公司，致力于构建下一代机器人智能基础设施。End-to-End Data Solutions For Embodied AI，做数据为主，针对机器人/具身智能行业，数据是从真实生活中获取手部数据、人体数据，给大模型使用。在北京、苏州和Santa Clara都有Office，目前全职员工超过100人。",
-    "descriptionEn": "A fast-growing seed-stage embodied AI startup committed to building the next generation of robotics intelligent infrastructure. End-to-End Data Solutions For Embodied AI, focusing on data solutions for robotics/embodied AI industry. Data is collected from real-life scenarios including hand data and human body data for LLM training. Offices in Beijing, Suzhou, and Santa Clara, with over 100 full-time employees.",
-    "stage": "种子轮",
-    "stageEn": "Seed",
-    "location": "北京/苏州/Santa Clara",
-    "locationEn": "Beijing / Suzhou / Santa Clara",
-    "logo": "/logos/embodied-ai-training-data-platform.ico?v=1",
+    "description": "一家诞生于硅谷、面向全球市场的具身智能数据基础设施公司，围绕机器人基础模型、VLA 与世界模型，提供端到端的真实世界多模态数据解决方案，覆盖任务设计、数据采集、结构化处理、质量评估与规模化交付。团队在自动驾驶、工业机器人、大规模数据工程和全球化创业方面积累深厚，并形成可适配不同客户需求的多工艺数据管线与 AI Native 研发体系。公司已在苏州建立完整的技术、数据运营与交付能力，并在北京和美国开展业务，正处于商业化与全球市场加速阶段。",
+    "descriptionEn": "A Silicon Valley-born embodied-AI data infrastructure company serving global markets. It provides end-to-end, real-world multimodal data solutions for robotics foundation models, VLA systems, and world models, spanning task design, collection, structured processing, quality evaluation, and scaled delivery. The team brings deep experience in autonomous driving, industrial robotics, large-scale data engineering, and global company building, supported by adaptable data pipelines and an AI-native R&D system. With established technology, data-operations, and delivery capabilities in Suzhou and operations in Beijing and the United States, the company is accelerating commercialization and global expansion.",
+    "stage": "高速成长 · 商业化加速",
+    "stageEn": "High Growth · Commercial Expansion",
+    "location": "苏州 / 北京 / 美国加州",
+    "locationEn": "Suzhou / Beijing / California",
+    "logo": "",
+    "logoEmoji": "🦾",
     "sort": 25
   },
   {
@@ -604,5 +605,21 @@
     "location": "美国",
     "locationEn": "United States",
     "sort": 67
+  },
+  {
+    "id": "ai-native-people-search-global-marketing-platform",
+    "createdAt": "2026-09-16T03:30:00.000Z",
+    "industryId": "ai-agent",
+    "name": "AI 原生人脉搜索与全球营销平台",
+    "nameEn": "AI-Native People Search & Global Marketing Platform",
+    "logo": "",
+    "logoEmoji": "🧲",
+    "description": "一家面向全球市场的 AI Agent 与应用智能公司，围绕‘找到合适的人并建立有效连接’构建产品与服务。核心平台将目标识别、多源搜索、智能评估、联系方式验证、个性化外联与持续跟进串成完整工作流，覆盖海外红人营销、B2B 获客、人才与专家搜索、合作伙伴发现等场景；同时为跨境电商品牌、AI 硬件与消费科技客户提供从达人策略、内容共创到效果转化的全球营销解决方案。团队采用大模型、数据平台与多智能体架构，成员拥有头部互联网和 AI 产品研发经验，已获得多轮专业机构支持，正加速拓展中国、北美及其他海外市场。",
+    "descriptionEn": "A global AI-agent and applied-intelligence company building products and services around finding the right people and creating meaningful connections. Its platform unifies target definition, multi-source discovery, AI evaluation, verified contact data, personalized outreach, and follow-up into a single workflow across influencer marketing, B2B prospecting, talent and expert search, and partnership discovery. It also delivers global creator-marketing solutions for cross-border commerce brands, AI hardware, and consumer-technology companies, spanning creator strategy, content collaboration, and performance conversion. Built on large language models, data platforms, and multi-agent architecture, the team brings experience from leading internet and AI-product organizations, has received multiple rounds of institutional backing, and is expanding across China, North America, and other international markets.",
+    "stage": "多轮融资 · 全球化扩张",
+    "stageEn": "Multi-Round Funding · Global Expansion",
+    "location": "深圳 / 杭州 / 新加坡 / 美国 / Remote",
+    "locationEn": "Shenzhen / Hangzhou / Singapore / United States / Remote",
+    "sort": 68
   }
 ]
