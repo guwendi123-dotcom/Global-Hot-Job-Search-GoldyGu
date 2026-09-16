@@ -84,6 +84,20 @@ export default function Home() {
     return language === "zh" ? type?.labelZh : type?.labelEn;
   };
 
+  const hiringLabel = (job: any, index: number) => {
+    if (job.hiringStatus === "paused") return language === "zh" ? "暂停招聘" : "Hiring paused";
+    if (job.hiringStatus === "offer-stage") return language === "zh" ? "Offer 阶段" : "Offer stage";
+    if (job.hiringStatus === "closed") return language === "zh" ? "已关闭" : "Closed";
+    if (index < 3) return language === "zh" ? "重点推荐" : "Featured";
+    return language === "zh" ? "持续招聘" : "Hiring";
+  };
+
+  const hiringTone = (job: any, index: number) => {
+    if (job.hiringStatus === "paused" || job.hiringStatus === "closed") return "muted";
+    if (job.hiringStatus === "offer-stage") return "warm";
+    return index < 3 ? "featured" : "active";
+  };
+
   const featuredCompanies = rankedCompanies.slice(0, 8);
 
   return (
@@ -136,32 +150,43 @@ export default function Home() {
           </label>
         </div>
 
-        <div className="hidden md:block overflow-hidden rounded-2xl border border-ink/15 bg-white/65">
-          <table className="w-full text-sm">
-            <thead className="bg-white/70 text-text-secondary">
-              <tr><th>{language === "zh" ? "岗位" : "Role"}</th><th>{language === "zh" ? "公司" : "Company"}</th><th>{language === "zh" ? "方向" : "Track"}</th><th>{language === "zh" ? "地点" : "Location"}</th><th>{language === "zh" ? "更新" : "Updated"}</th><th aria-label="查看详情" /></tr>
-            </thead>
-            <tbody>
-              {filteredJobs.slice(0, ITEMS_PER_PAGE).map((job, index) => (
-                <tr key={job.id}>
-                  <td><Link href={`/job/${job.id}`} className="font-semibold hover:text-accent">{language === "zh" ? job.title : job.titleEn || job.title}</Link></td>
-                  <td>{companyName(job.companyId)}</td>
-                  <td>{typeName(job)}</td>
-                  <td>{language === "zh" ? job.location : job.locationEn || job.location}</td>
-                  <td><span className="status-dot" />{index < 3 ? (language === "zh" ? "推荐" : "Featured") : (language === "zh" ? "持续招聘" : "Hiring")}</td>
-                  <td><Link href={`/job/${job.id}`} aria-label={`查看 ${job.title}`} className="table-arrow"><ArrowRight size={17} /></Link></td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+        <div className="home-job-list hidden md:block">
+          <div className="home-job-list-head" aria-hidden="true">
+            <span>{language === "zh" ? "岗位与团队" : "Role & team"}</span>
+            <span>{language === "zh" ? "方向" : "Track"}</span>
+            <span>{language === "zh" ? "工作地点" : "Location"}</span>
+            <span>{language === "zh" ? "招聘状态" : "Status"}</span>
+            <span />
+          </div>
+          <div>
+            {filteredJobs.slice(0, ITEMS_PER_PAGE).map((job, index) => (
+              <Link key={job.id} href={`/job/${job.id}`} className="home-job-row group" aria-label={`${language === "zh" ? job.title : job.titleEn || job.title} · ${companyName(job.companyId)}`}>
+                <div className="home-job-primary">
+                  <h3>{language === "zh" ? job.title : job.titleEn || job.title}</h3>
+                  <p>{companyName(job.companyId)}</p>
+                </div>
+                <div><span className="home-job-track">{typeName(job)}</span></div>
+                <div className="home-job-location"><MapPin size={15} /><span>{language === "zh" ? job.location : job.locationEn || job.location}</span></div>
+                <div><span className={`home-job-status home-job-status-${hiringTone(job, index)}`}><i />{hiringLabel(job, index)}</span></div>
+                <span className="home-job-arrow"><ArrowRight size={17} /></span>
+              </Link>
+            ))}
+          </div>
         </div>
 
         <div className="grid md:hidden gap-3">
-          {filteredJobs.slice(0, ITEMS_PER_PAGE).map((job) => (
+          {filteredJobs.slice(0, ITEMS_PER_PAGE).map((job, index) => (
             <Link key={job.id} href={`/job/${job.id}`} className="mobile-job-card">
-              <div><span>{companyName(job.companyId)}</span><h3>{language === "zh" ? job.title : job.titleEn || job.title}</h3></div>
-              <p><MapPin size={14} />{language === "zh" ? job.location : job.locationEn || job.location}</p>
-              <ArrowRight className="text-ink" size={20} />
+              <div className="mobile-job-main">
+                <span className="mobile-job-company">{companyName(job.companyId)}</span>
+                <h3>{language === "zh" ? job.title : job.titleEn || job.title}</h3>
+              </div>
+              <ArrowRight className="mobile-job-arrow" size={19} />
+              <div className="mobile-job-meta">
+                <span className="mobile-job-track">{typeName(job)}</span>
+                <span className="mobile-job-location"><MapPin size={13} />{language === "zh" ? job.location : job.locationEn || job.location}</span>
+              </div>
+              <span className={`home-job-status home-job-status-${hiringTone(job, index)}`}><i />{hiringLabel(job, index)}</span>
             </Link>
           ))}
         </div>
