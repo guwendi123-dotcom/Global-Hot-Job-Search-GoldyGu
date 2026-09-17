@@ -1,6 +1,6 @@
 # GoldyHire 当前状态
 
-最后整理日期：2026-09-16
+最后整理日期：2026-09-17
 
 ## 生产环境
 
@@ -8,8 +8,8 @@
 - GitHub：<https://github.com/guwendi123-dotcom/Global-Hot-Job-Search-GoldyGu>
 - Cloudflare Worker：`headhunter-portfolio`
 - Cloudflare KV：`HEADHUNTER_DATA`
-- 当前正式版本：`518b994f-c38d-4818-a3a7-f3dcfda00a4a`
-- 当前公开数据：41 家公司、190 个岗位、7 个行业
+- 当前正式版本：`a0db8522-a22f-4ab2-886e-4250bb34cd66`
+- 当前公开数据：41 家公司、193 个岗位、7 个行业
 
 ## 当前产品能力
 
@@ -22,7 +22,7 @@
 
 ## 仍需持续关注的招聘状态
 
-- 隐私优先 AI 对话平台：“增长负责人”为 `Offer 阶段`。
+- 隐私优先 AI 对话平台：“增长负责人”为 `Offer 阶段`；新增搜索与答案引擎负责人、创作者生态与社区负责人、创作者合作与联盟营销负责人 3 个开放岗位，均优先旧金山湾区并接受 Remote。
 - AI 动画创作工具：网站现有 5 个岗位均因业务方向调整暂停招聘，岗位记录继续保留。
 - 全球内容社区 Trust & Safety：前三个岗位 Base Palo Alto；Policy Specialist 为旧金山湾区 / 新加坡，四个岗位均不含纽约。
 - 全球主动式 AI 生活平台：上海新增 Agent 后端、数据开发负责人、工程效能、安全和后训练算法 5 个技术岗位；前四个为当前高优，后训练算法长期优中择优。安全岗细分 Scope 仍需客户进一步确认，未确认前不得向候选人承诺。
