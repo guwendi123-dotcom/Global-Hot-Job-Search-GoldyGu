@@ -6458,6 +6458,116 @@
       ]
     },
     "sort": 4
+  },
+  {
+    "id": "privacy-first-ai-chat-platform-job-005",
+    "companyId": "privacy-first-ai-chat-platform",
+    "createdAt": "2026-09-17T08:40:00.000Z",
+    "title": "后端工程师（Agent 方向）",
+    "titleEn": "Backend Engineer, AI Agents",
+    "jobType": "engineering",
+    "jobTypeEn": "Engineering",
+    "workMode": "全球远程；需适应跨时区协作，具体安排面议",
+    "workModeEn": "Global remote; cross-time-zone collaboration required; specifics to be discussed",
+    "location": "全球远程",
+    "locationEn": "Global Remote",
+    "hiringStatus": "open",
+    "description": "岗位概览：\n这是一个兼具 Agent 产品工程与隐私推理基础设施建设的后端岗位。工作重心约为 Agent 产品 60%、隐私大模型聚合 API 与开发者平台 40%。你将参与从 Agent Harness、工具调用和评测体系，到多模型路由、计量计费与高并发推理网关的完整链路。\n\nAgent 产品方向（约 60%）：\n• 设计和迭代 Agent Harness，包括任务拆解、工具调用循环、多步执行状态管理、异常恢复与循环检测。\n• 建设可插拔的 Tool / Skill 体系，负责工具 Schema、注册、版本管理及类似 MCP 的配置机制。\n• 设计编排层与执行层的模型分工，包括路由策略、Fallback、上下文管理与压缩。\n• 建设可观测性体系，覆盖工具调用错误率、重试、任务终态、用户重新生成，以及 vLLM Metrics、KV Cache、吞吐与成本等服务指标。\n• 接入 BFCL、τ²-bench、MCP 系列等公开 Benchmark，并基于真实流量搭建内部评测集，比较不同“编排模型 × 执行模型”组合的效果与成本。\n• 负责自托管推理服务的部署、压测、扩缩容与成本优化。\n\n隐私大模型聚合 API 与开发者平台（约 40%）：\n• 从 0 到 1 建设面向开发者的 OpenAI 兼容 API、多供应商路由、故障切换与负载均衡。\n• 建设 API Key、配额、限流、按 Token 计量计费及用量看板。\n• 设计零数据留存、日志脱敏与可审计的数据流路径，让隐私能力具备清晰、可验证的技术边界。\n• 优化网关性能、流式响应、超时与重试策略，并建立 SLA 监控与告警。\n• 完善开发者文档、SDK 示例与接入支持。\n\n任职要求：\n• 3 年以上后端开发经验，以 Python 为主，熟悉 FastAPI 与 asyncio；具备 Go、Java 或 TypeScript 经验加分。\n• 真正做过 LLM Agent 或 Tool Use 系统，理解 Function Calling、多轮工具调用与上下文窗口管理中的工程问题，而不只是调用过 Chat API。\n• 部署过 vLLM、SGLang 或 TGI 等开源推理服务，能够分析并优化吞吐、延迟和显存占用。\n• 做过 API 网关、计量计费或限流中的至少一个方向，理解高并发流式请求。\n• 有 Prometheus、Grafana 或同类可观测性实践，能够独立设计指标与埋点。\n• 能独立拆解模糊问题、作出技术判断并对最终效果与成本负责。\n\n加分项：\n• 参与过 Agent Benchmark、内部 Eval、MCP Server 或 Skill 建设。\n• 使用过 RunPod、Lambda、Modal 等 GPU 云，或做过 GPU 成本优化。\n• 了解 TEE、机密计算、零留存架构或合规数据流设计。\n• 有开发者平台、开放 API、对外技术文档或多模态模型接入经验。",
+    "descriptionEn": "Role Overview:\nThis backend role combines AI-agent product engineering with privacy-oriented inference infrastructure. The expected split is approximately 60% agent product work and 40% private multi-model API and developer-platform work. You will operate across the full stack, from agent harnesses, tool use, and evaluations to multi-provider routing, usage billing, and high-concurrency inference gateways.\n\nAgent Product — Approximately 60%:\n• Design and iterate on the agent harness, including task decomposition, tool-call loops, multi-step execution state, failure recovery, and loop detection.\n• Build a pluggable tool and skill system covering schemas, registration, versioning, and MCP-like configuration.\n• Design the division of labour between orchestration and execution models, including routing, fallback, context management, and compression.\n• Build observability across tool-call errors, retries, task outcomes, user regeneration, vLLM metrics, KV-cache usage, throughput, and cost.\n• Integrate public benchmarks such as BFCL, tau2-bench, and MCP-related suites, while building internal evaluations from real usage to compare orchestration-model and execution-model combinations.\n• Deploy, benchmark, scale, and optimise self-hosted inference services.\n\nPrivate Multi-Model API & Developer Platform — Approximately 40%:\n• Build an OpenAI-compatible developer API, multi-provider routing, failover, and load balancing from zero.\n• Develop API-key management, quotas, rate limiting, token-based metering and billing, and usage dashboards.\n• Design zero-retention handling, redacted logging, and auditable data flows with clear and verifiable privacy boundaries.\n• Improve gateway performance, streaming responses, timeout and retry strategies, SLA monitoring, and alerting.\n• Produce developer documentation, SDK examples, and integration support.\n\nRequirements:\n• 3+ years of backend engineering experience, primarily in Python, with strong FastAPI and asyncio skills. Go, Java, or TypeScript is a plus.\n• Hands-on experience building an LLM agent or tool-use system, with practical knowledge of function calling, multi-step tool execution, and context-window management.\n• Experience deploying an open-source inference stack such as vLLM, SGLang, or TGI, with the ability to optimise throughput, latency, and memory usage.\n• Experience in at least one of API gateways, usage metering and billing, or rate limiting, and an understanding of high-concurrency streaming requests.\n• Practical observability experience with Prometheus, Grafana, or similar tools, including designing metrics rather than only consuming dashboards.\n• Ability to break down ambiguous problems, make technical decisions independently, and own both outcomes and cost.\n\nNice to Have:\n• Experience with agent benchmarks, internal evaluations, MCP servers, or skill systems.\n• Experience with GPU clouds such as RunPod, Lambda, or Modal, or with GPU-cost optimisation.\n• Familiarity with TEE, confidential computing, zero-retention architecture, or compliant data-flow design.\n• Developer-platform, public-API, external technical-writing, or multimodal-model integration experience.",
+    "tags": [
+      "Agent Harness",
+      "Python",
+      "LLM 推理",
+      "开发者平台",
+      "隐私计算",
+      "评测体系"
+    ],
+    "tagsEn": [
+      "Agent Harness",
+      "Python",
+      "LLM Inference",
+      "Developer Platform",
+      "Private Computing",
+      "Evaluation"
+    ],
+    "profile": {
+      "experience": "3 年以上后端开发经验，实际建设过 Agent / Tool Use 系统",
+      "experienceEn": "3+ years in backend engineering with hands-on Agent or Tool Use system experience",
+      "language": "能够阅读英文技术资料并参与跨时区协作",
+      "languageEn": "Able to work with English technical material and cross-time-zone teams",
+      "skills": [
+        "FastAPI / asyncio",
+        "Agent Loop",
+        "vLLM / SGLang / TGI",
+        "API 网关与计费",
+        "可观测性",
+        "隐私数据流"
+      ],
+      "skillsEn": [
+        "FastAPI / asyncio",
+        "Agent Loops",
+        "vLLM / SGLang / TGI",
+        "API Gateway & Billing",
+        "Observability",
+        "Privacy Data Flows"
+      ]
+    },
+    "sort": 5
+  },
+  {
+    "id": "privacy-first-ai-chat-platform-job-006",
+    "companyId": "privacy-first-ai-chat-platform",
+    "createdAt": "2026-09-17T08:41:00.000Z",
+    "title": "Coding Agent 研发工程师",
+    "titleEn": "Coding Agent Engineer",
+    "jobType": "engineering",
+    "jobTypeEn": "Engineering",
+    "workMode": "全球远程；英文为主要工作语言，需适应跨时区协作",
+    "workModeEn": "Global remote; English is a primary working language; cross-time-zone collaboration required",
+    "location": "全球远程",
+    "locationEn": "Global Remote",
+    "hiringStatus": "open",
+    "description": "岗位背景：\n团队正在建设面向开发者的高自由度、可验证 AI 推理与自主执行平台。这个岗位负责模型之外最关键的 Coding Agent 系统：让模型能够在真实代码仓库、真实工具链和真实研发流程中可靠完成任务，而不只是生成代码片段。\n\n今天的 Coding Agent 仍会迷失目标、重复执行、误解上下文、错误调用工具，并在长任务中失去状态。你需要通过 Agent Loop、Repo Tool Use、沙箱与权限、失败恢复、Trace 和评测，让系统变得更稳定、更可靠、更可验证，并能从真实数据中持续进化。\n\n你将负责：\n• 设计和优化 Coding Agent 执行循环，包括任务拆解、工具调用、结果观察、错误恢复、长任务续跑与最终验证。\n• 建设面向真实代码仓库的工具系统，包括文件编辑、命令执行、代码搜索、测试运行、Git 工作流、沙箱与远程执行。\n• 研究仓库级 Context Engineering，包括代码检索、文件选择、上下文压缩、历史轨迹、任务状态和长期记忆。\n• 基于真实用户任务与 Agent Trace 构建失败样本、评测集和分析工具，定位失败原因并验证改进。\n• 从 Agent 侧探索模型能力边界，推动模型与 Coding Agent 系统共同演进。\n• 高频使用 Claude Code、Codex、Cursor 等工具，把使用过程中的摩擦和失败模式转化为产品机会。\n• 参与核心工程架构建设，并负责 Web、CLI 与 SDK 中的开发者体验，包括 Chat、多模型选择、会话、流式响应与开发工作流。\n\n任职要求：\n• 具备扎实的软件工程或前端工程能力；有 5 年以上头部互联网公司或同等复杂度团队经验者优先。\n• 熟悉 TypeScript、Python、Go、Rust 或 Java 中至少一种语言，能够快速进入新技术栈并独立交付复杂、长期维护的功能。\n• 深度使用 Claude Code、Codex、Cursor，以及 OpenClaw、Hermes Agent、Pi 等至少一种 Agent Harness，能具体分析其上下文、规划、代码编辑、工具调用与恢复机制。\n• 理解 Agent Loop、Tool Use、Context Engineering、Planning、Memory、Prompt Engineering、MCP、Subagent、Multi-Agent、Evaluation 与 Observability。\n• 能处理流式传输、并发状态、长内容渲染、可中断交互、错误恢复以及不可信代码和命令的执行边界。\n• 对安全、隔离、最小权限和用户确认机制有系统判断。\n• 有良好的产品 Sense 和工程质量意识，不把模型输出直接当成答案，而是作为需要验证的假设。\n• 英文可以作为主要工作语言，能够持续跟进全球技术社区和前沿项目。\n\n加分项：\n• 拥有自己的开源项目，或深度参与过高质量开源项目。\n• 做过 CLI、IDE 插件、开发者工具、代码分析、沙箱、远程执行或插件系统。\n• 做过 Agent / LLM 应用、Evaluation、Benchmark、Observability 或 Trace Analysis。\n• 能从用户反馈、Agent Trace 与评测结果中发现真正的问题，并快速验证改进方案。\n\n我们喜欢的人：\n你不需要什么都会，但需要真正热爱 AI 编程工具。你使用 AI 是为了更快、更大胆地解决问题，而不是因为离开 AI 就无法写代码；你既能写 AI 会写的代码，也愿意处理 AI 目前写不好的部分。你不只是实现需求，还会持续追问：这个能力解决了什么真实问题，是否真的让 Agent 变强，以及它能否被观测、评测和持续改进。",
+    "descriptionEn": "Role Context:\nThe team is building a high-agency, verifiable AI reasoning and autonomous-execution platform for developers. This role owns the critical coding-agent systems beyond the model, enabling models to complete real tasks in real repositories, toolchains, and software-development workflows rather than merely generating snippets.\n\nToday's coding agents still lose goals, repeat work, misread context, call tools incorrectly, and fail to recover during long-running tasks. You will improve reliability and verifiability through agent loops, repository tool use, sandboxes and permissions, failure recovery, traces, and evaluation, while helping the system learn from real data.\n\nWhat You Will Do:\n• Design and optimise the coding agent's execution loop: task decomposition, tool calls, result observation, error recovery, resuming long-running tasks, and final verification.\n• Build tools for real repositories, including file editing, command execution, code search, test execution, Git workflows, sandboxing, and remote execution.\n• Research repository-level context engineering across code retrieval, file selection, context compression, trajectory history, task state, and long-term memory.\n• Build failure samples, evaluation sets, and analysis tools from real user tasks and agent traces to identify failure causes and validate improvements.\n• Explore model capability boundaries from the agent side and drive model and coding-agent systems to evolve together.\n• Use tools such as Claude Code, Codex, and Cursor intensively, turning friction and failure modes into product opportunities.\n• Contribute to the core engineering architecture and own developer experience across Web, CLI, and SDK surfaces, including chat, multi-model selection, sessions, streaming responses, and development workflows.\n\nWhat We Are Looking For:\n• Strong software or frontend engineering fundamentals; 5+ years at a leading internet company or an organisation with comparable engineering complexity is preferred.\n• Fluency in at least one of TypeScript, Python, Go, Rust, or Java, with the ability to enter new stacks quickly and independently ship complex, long-lived features.\n• Power-user experience with Claude Code, Codex, and Cursor, plus deep hands-on experience with at least one agent harness such as OpenClaw, Hermes Agent, or Pi. You can analyse strengths and weaknesses in context, planning, editing, tool calling, and recovery.\n• Understanding of agent loops, tool use, context engineering, planning, memory, prompt engineering, MCP, subagents, multi-agent systems, evaluation, and observability.\n• Ability to handle streaming, concurrent state, long-content rendering, interruptible interactions, recovery, and execution boundaries for untrusted code and commands.\n• Sound judgment around security, isolation, least privilege, and user-confirmation mechanisms.\n• Strong product judgment and engineering standards. You treat model output as a hypothesis to verify, not as the answer.\n• English can serve as a primary working language, and you actively follow the global technical community and frontier projects.\n\nBonus Points:\n• Your own open-source project or deep involvement in a high-quality open-source project.\n• Experience with CLIs, IDE plugins, developer tools, code analysis, sandboxes, remote execution, or plugin systems.\n• Experience with agent or LLM applications, evaluation, benchmarks, observability, or trace analysis.\n• Ability to find meaningful problems in user feedback, agent traces, and evaluation results and validate improvements quickly.\n\nPeople We Like:\nYou do not need to know everything, but you genuinely love AI coding tools. You use AI to solve problems faster and more boldly, not because you cannot code without it. You can write the code AI can write and are willing to own the parts AI still cannot. You do more than implement requirements: you keep asking what real problem a capability solves, whether it truly makes the agent stronger, and whether it can be observed, evaluated, and continuously improved.",
+    "tags": [
+      "Coding Agent",
+      "开发者工具",
+      "Context Engineering",
+      "Tool Use",
+      "沙箱与权限",
+      "Agent Eval"
+    ],
+    "tagsEn": [
+      "Coding Agents",
+      "Developer Tools",
+      "Context Engineering",
+      "Tool Use",
+      "Sandbox & Permissions",
+      "Agent Evaluation"
+    ],
+    "profile": {
+      "experience": "资深软件工程师，优先 5 年以上头部互联网或同等复杂系统经验",
+      "experienceEn": "Senior software engineer; 5+ years at a leading internet company or comparable complex-systems environment preferred",
+      "language": "英文可作为主要工作语言",
+      "languageEn": "English can be used as a primary working language",
+      "skills": [
+        "TypeScript / Python / Go / Rust / Java",
+        "Agent Loop",
+        "Repo Tool Use",
+        "CLI / SDK",
+        "沙箱与权限",
+        "Trace / Evaluation"
+      ],
+      "skillsEn": [
+        "TypeScript / Python / Go / Rust / Java",
+        "Agent Loops",
+        "Repository Tool Use",
+        "CLI / SDK",
+        "Sandbox & Permissions",
+        "Trace / Evaluation"
+      ]
+    },
+    "sort": 6
   }
 
 ]
