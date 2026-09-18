@@ -621,5 +621,21 @@
     "location": "深圳 / 杭州 / 新加坡 / 美国 / Remote",
     "locationEn": "Shenzhen / Hangzhou / Singapore / United States / Remote",
     "sort": 68
+  },
+  {
+    "id": "ai-training-data-task-environment-infrastructure",
+    "createdAt": "2026-09-18T08:20:00.000Z",
+    "industryId": "ai-agent",
+    "name": "AI 模型训练数据与任务环境基础设施",
+    "nameEn": "AI Training Data & Task Environment Infrastructure",
+    "logo": "",
+    "logoEmoji": "🧪",
+    "description": "一家面向下一代 AI 模型训练的数据与任务环境基础设施公司，专注把真实世界中的复杂知识工作流转化为可训练、可评测、可持续迭代的数据与环境系统。业务覆盖后训练数据、Agent Training、模型评测、Benchmark、RL Environment、专家数据与训练反馈闭环。团队已获得一线机构首轮投资，处于产品、客户网络与组织能力从 0 到 1 的关键阶段，并为早期核心成员提供有竞争力的现金回报与 ESOP。",
+    "descriptionEn": "An early-stage AI infrastructure company turning complex real-world knowledge workflows into trainable, evaluable, and continuously improving data and task environments. Its work spans post-training data, agent training, model evaluation, benchmarks, RL environments, expert data, and training-feedback loops. Backed by a leading institutional investor, the company is building its product system, customer network, and core organization from zero to one, with competitive cash compensation and ESOP for early key hires.",
+    "stage": "首轮融资 · 0→1",
+    "stageEn": "Seed-Stage · 0-to-1",
+    "location": "国内 · On-site",
+    "locationEn": "China · On-site",
+    "sort": 69
   }
 ]
