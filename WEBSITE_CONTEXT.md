@@ -53,6 +53,13 @@
 
 除非用户明确要求，否则不要通过管理后台发布。默认使用 GitHub + Cloudflare 直接发布：
 
+### Cloudflare 重新授权提醒
+
+- `wrangler` 授权过期、发布前需要重新登录 Cloudflare 时，主动提醒用户接管登录。
+- Cloudflare 登录方式选择 **Continue with GitHub**。
+- GitHub 使用用户自己的国内 Apple ID 登录；不得猜测或代填账号、密码、验证码，也不得保存这些凭据。
+- 用户完成登录后，先运行 `npx wrangler whoami`，核对邮箱为 `guwendi123@icloud.com`，并确认可访问 Worker `headhunter-portfolio`，再写入 KV 或部署。
+
 1. 确认位于唯一主目录，读取本文件、`CLAUDE.md` 和 `PROJECT_STATUS.md`。
 2. 检查 Git 状态，保留用户未提交内容；`marketing-assets/` 不得擅自提交。
 3. 从 Cloudflare KV 读取线上集合，只合并本次变更。
