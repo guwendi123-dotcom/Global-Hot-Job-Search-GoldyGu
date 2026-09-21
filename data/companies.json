@@ -637,5 +637,21 @@
     "location": "国内 · On-site",
     "locationEn": "China · On-site",
     "sort": 69
+  },
+  {
+    "id": "global-ai-native-product-studio",
+    "createdAt": "2026-09-21T08:30:00.000Z",
+    "industryId": "ai-agent",
+    "name": "全球化 AI Native 产品公司",
+    "nameEn": "Global AI-Native Product Company",
+    "logo": "",
+    "logoEmoji": "⚡",
+    "description": "一家成立于 2023 年的早期 AI First 创业公司，面向全球用户和企业打造 AI Native 产品。公司同时运营消费级 AI 效率产品与企业级 AI 增长解决方案，已通过付费订阅验证用户需求并形成稳定收入，不是仍在等待商业化验证的纯研发项目。团队分布于中国、北美和亚洲其他地区，以英文进行跨区域协作，强调快速迭代、Owner 意识和用 AI 工具重构工作方式。公司已完成超额认购的种子轮融资，并获得专业早期投资机构与多位天使投资人的支持，正处于产品、市场和团队加速扩张阶段。",
+    "descriptionEn": "An early-stage AI-first company founded in 2023, building AI-native products for global consumers and businesses. The company operates both a paid consumer AI productivity product and B2B AI growth solutions. Its subscription business has validated demand and generated recurring revenue, giving the team a stronger commercial foundation than a pre-revenue research project. The organization works across China, North America, and other parts of Asia, using English for cross-regional collaboration and emphasizing rapid iteration, ownership, and AI-native ways of working. Following an oversubscribed seed round backed by an established early-stage fund and angel investors, the company is accelerating product development, market expansion, and hiring.",
+    "stage": "种子轮 · 收入已验证 · 全球化",
+    "stageEn": "Seed Stage · Revenue Validated · Global",
+    "location": "中国 / 北美 / 亚洲",
+    "locationEn": "China / North America / Asia",
+    "sort": 70
   }
 ]
