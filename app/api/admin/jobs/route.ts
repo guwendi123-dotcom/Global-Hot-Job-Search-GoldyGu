@@ -43,6 +43,7 @@ function normalize(input: Partial<Job>): Job {
     sort: Number.isFinite(Number(input.sort)) ? Number(input.sort) : 999,
     createdAt: String(input.createdAt || "").trim() || undefined,
     hiringStatus: input.hiringStatus,
+    homepageFeatured: Boolean(input.homepageFeatured),
     hiringStatusNote: String(input.hiringStatusNote || "").trim() || undefined,
     hiringStatusNoteEn: String(input.hiringStatusNoteEn || "").trim() || undefined,
   };

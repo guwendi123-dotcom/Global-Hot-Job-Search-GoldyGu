@@ -79,6 +79,7 @@ export interface Job {
   sort?: number;
   createdAt?: string;
   hiringStatus?: "open" | "offer-stage" | "paused" | "closed";
+  homepageFeatured?: boolean;
   hiringStatusNote?: string;
   hiringStatusNoteEn?: string;
 }
