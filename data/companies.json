@@ -653,5 +653,21 @@
     "location": "中国 / 北美 / 亚洲",
     "locationEn": "China / North America / Asia",
     "sort": 70
+  },
+  {
+    "id": "carharbor",
+    "createdAt": "2026-09-29T08:00:00.000Z",
+    "industryId": "web3",
+    "name": "CarHarbor",
+    "nameEn": "CarHarbor",
+    "logo": "",
+    "logoEmoji": "🚘",
+    "description": "CarHarbor 是一个处于 MVP 收尾阶段的 Web3 数字汽车交易平台，探索以区块链支持数字车辆所有权、安全交易与汽车资产代币化。产品由 React、TypeScript 与 Node.js 技术栈构建，并计划接入钱包、多签托管式交易、链上与链下状态同步、车辆资产元数据及 Ethereum / Polygon 多网络能力。团队采用全球远程协作方式，正在补齐技术领导、协议、智能合约、区块链后端和 Web3 前端等核心能力，推动产品从演示流程走向安全、稳定且可扩展的生产系统。",
+    "descriptionEn": "CarHarbor is a Web3-enabled digital automotive marketplace in the final stage of MVP development. It is building blockchain-supported digital vehicle ownership, secure transactions, and tokenized automotive assets. The product uses a React and TypeScript frontend with Node.js services and is progressing toward wallet connectivity, multisignature escrow-style transactions, on-chain/off-chain state synchronization, vehicle-asset metadata, and multi-network support across Ethereum and Polygon. The globally distributed team is hiring technical leadership and core protocol, smart-contract, blockchain-backend, and Web3-frontend talent to move the product from simulated flows to a secure, scalable production platform.",
+    "stage": "MVP 收尾 · 全球远程",
+    "stageEn": "MVP Completion · Global Remote",
+    "location": "全球 Remote",
+    "locationEn": "Global Remote",
+    "sort": 71
   }
 ]
