@@ -2037,6 +2037,33 @@
     "sort": 3
   },
   {
+    "id": "aitrip-job-003",
+    "companyId": "aitrip",
+    "createdAt": "2026-09-30T06:30:00.000Z",
+    "title": "移动端全栈工程师",
+    "titleEn": "Full Stack Engineer, Mobile",
+    "jobType": "engineering,frontend,mobile",
+    "jobTypeEn": "Engineering, Frontend, Mobile",
+    "workMode": "上海 / Sunnyvale 双地团队，具体办公安排面议",
+    "workModeEn": "Distributed across Shanghai and Sunnyvale; exact work arrangement to be discussed",
+    "location": "上海 / Sunnyvale, CA",
+    "locationEn": "Shanghai / Sunnyvale, CA",
+    "hiringStatus": "open",
+    "description": "岗位介绍：\n加入一家 AI 驱动的本地生活探索平台，参与网站与 iOS / Android App 的核心体验建设。产品通过对话式 AI、交互地图和社区内容，帮助用户发现餐厅、景点和独特的城市体验。这个岗位以前端和移动端为主要重心，同时负责支撑用户功能的后端接口与服务，适合重视产品品质、执行速度和端到端 Ownership 的工程师。\n\n岗位职责：\n• 构建并交付高质量 Web、iOS 与 Android 用户体验。\n• 开发响应式网站体验和直观、流畅的移动端产品流程。\n• 建设和维护支持用户侧功能的后端接口、服务与第三方集成。\n• 与产品、设计及后端团队紧密合作，快速将新想法转化为可上线功能。\n• 端到端负责功能交付，包括前端架构、UI 质量、性能优化和持续迭代。\n• 通过快速实验与高质量执行参与产品方向和体验打磨。\n\n任职要求：\n• 3 年以上前端、全栈或产品工程经验。\n• 熟练掌握 React 与 Next.js。\n• 具备扎实的 React Native 实践经验。\n• 有高质量、生产级 Web 产品和移动 App 的完整交付经历。\n• 熟悉后端 API 与服务的开发和集成。\n• 熟悉 Redux 或 Zustand；使用过 Jotai 者优先。\n• 对产品质量、可用性、交互细节和视觉还原有较高标准。\n• 能适应快速迭代、高自主和高 Ownership 的创业环境。\n• 对 AI 与下一代消费级产品有浓厚兴趣。",
+    "descriptionEn": "About the Role:\nJoin an AI-powered local discovery platform and help build its website and iOS/Android app experiences. The product combines conversational AI, interactive maps, and community-driven content to help people discover restaurants, attractions, and unique local experiences. This role has a strong frontend and mobile focus while also owning backend endpoints and services that support user-facing features. It is ideal for builders who move quickly, care about craft, and want to create polished AI-native consumer products.\n\nResponsibilities:\n• Build and ship high-quality user experiences across web and iOS/Android apps.\n• Develop responsive website experiences and intuitive mobile product flows.\n• Build and maintain backend endpoints, services, and integrations that support user-facing features.\n• Work closely with Product, Design, and Backend Engineering to bring new ideas to life quickly.\n• Own features end to end, including frontend architecture, UI quality, performance, and iteration speed.\n• Help shape the product through fast experimentation and strong execution.\n\nRequirements:\n• 3+ years of experience in frontend, full-stack, or product engineering.\n• Strong experience with React and Next.js.\n• Strong hands-on experience with React Native.\n• Experience building polished, production-grade web products and mobile apps.\n• Experience working with backend APIs and services.\n• Familiarity with Redux or Zustand; Jotai is a plus.\n• Strong judgment around product quality, usability, interaction detail, and visual execution.\n• Comfort in a fast-moving startup environment with high ownership.\n• Passion for AI and next-generation consumer products.",
+    "tags": ["移动端全栈", "React Native", "React", "Next.js", "AI消费产品", "上海", "Sunnyvale"],
+    "tagsEn": ["Mobile Full Stack", "React Native", "React", "Next.js", "AI Consumer Products", "Shanghai", "Sunnyvale"],
+    "profile": {
+      "experience": "3 年以上前端、全栈或产品工程经验",
+      "experienceEn": "3+ years in frontend, full-stack, or product engineering",
+      "language": "英文可支持跨团队技术协作",
+      "languageEn": "English for cross-functional technical collaboration",
+      "skills": ["React", "Next.js", "React Native", "后端 API", "移动端产品体验"],
+      "skillsEn": ["React", "Next.js", "React Native", "Backend APIs", "Mobile Product Experience"]
+    },
+    "sort": 4
+  },
+  {
     "id": "personal-agi-job-001",
     "companyId": "personal-agi",
     "title": "国际增长与社区运营（拉美市场）",
