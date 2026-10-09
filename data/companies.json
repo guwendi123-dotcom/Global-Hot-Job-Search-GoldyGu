@@ -669,5 +669,21 @@
     "location": "全球 Remote",
     "locationEn": "Global Remote",
     "sort": 71
+  },
+  {
+    "id": "global-ai-product-portfolio-company",
+    "createdAt": "2026-10-09T02:00:00.000Z",
+    "industryId": "ai-agent",
+    "name": "全球化 AI 产品矩阵公司",
+    "nameEn": "Global AI Product Portfolio Company",
+    "logo": "",
+    "logoEmoji": "🧠",
+    "description": "一家由成熟产业体系孵化、面向全球市场的 AI Native 产品公司，围绕 AI Coding、AI Creative、AI Game、AI Marketing 与 AI for Work 等场景打造多条产品线。公司正进一步统一产品战略、资源与底层能力，持续提升核心产品的 PMF、用户体验、留存、增长和商业化表现，并推动账户、上下文、知识、工作流与 Agent 能力在产品矩阵中形成协同。团队兼具稳定资源基础与创业型执行节奏，重视产品判断、用户洞察、技术转化和全球化增长。",
+    "descriptionEn": "A global AI-native product company incubated within an established technology ecosystem. Its portfolio spans AI coding, creative tools, games, marketing, and AI for work. The company is unifying product strategy, resources, and shared capabilities to strengthen product-market fit, user experience, retention, growth, and monetization across its core products. It is also building portfolio-level synergies across identity, context, knowledge, workflows, and agent capabilities. The organization combines a strong resource base with a builder-oriented operating culture and a focus on product judgment, user insight, technology translation, and global growth.",
+    "stage": "成长期 · 全球化产品矩阵",
+    "stageEn": "Growth Stage · Global Product Portfolio",
+    "location": "北京 / 上海 / 深圳 / 杭州",
+    "locationEn": "Beijing / Shanghai / Shenzhen / Hangzhou",
+    "sort": 72
   }
 ]

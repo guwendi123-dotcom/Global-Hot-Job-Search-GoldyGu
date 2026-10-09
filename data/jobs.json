@@ -7100,6 +7100,33 @@
     "tagsEn": ["React", "TypeScript", "Wagmi", "RainbowKit", "Web3 UX", "Global Remote"],
     "profile": {"experience": "高级 React / TypeScript 与 Web3 前端经验","experienceEn": "Advanced React/TypeScript and Web3 frontend experience","language": "英文可支持远程协作","languageEn": "English for remote collaboration","skills": ["React 18", "TypeScript", "Wagmi", "钱包集成", "Web3交互", "前端性能"],"skillsEn": ["React 18", "TypeScript", "Wagmi", "Wallet Integration", "Web3 UX", "Frontend Performance"],"salary": "USD 5,000–10,000 / 月；合约 USD 40–70 / 小时","salaryEn": "USD 5,000–10,000/month; USD 40–70/hour contract"},
     "sort": 6
+  },
+  {
+    "id": "global-ai-product-portfolio-cpo",
+    "companyId": "global-ai-product-portfolio-company",
+    "createdAt": "2026-10-09T02:01:00.000Z",
+    "title": "首席产品官（CPO）",
+    "titleEn": "Chief Product Officer (CPO)",
+    "jobType": "product,ai-agent,executive",
+    "jobTypeEn": "Product, AI Agent, Executive",
+    "workMode": "国内多城市办公，具体安排面议",
+    "workModeEn": "China-based across multiple cities; detailed arrangement to be discussed",
+    "location": "北京 / 上海 / 深圳 / 杭州",
+    "locationEn": "Beijing / Shanghai / Shenzhen / Hangzhou",
+    "hiringStatus": "open",
+    "description": "岗位介绍：\n加入一家面向全球市场的 AI Native 产品公司，统筹覆盖 AI Coding、AI Creative、AI Game、AI Marketing 与 AI for Work 等方向的产品矩阵。你将作为核心管理团队成员，统一多条产品线的战略、资源与底层能力，提升核心产品 PMF，并推动产品矩阵形成更强协同。\n\n岗位职责：\n• 负责公司整体产品战略、产品组合规划及中长期 Roadmap。\n• 统筹多条 AI 产品线，明确产品优先级、资源投入与阶段性目标。\n• 深入核心产品，持续提升用户体验、留存、增长及商业化表现。\n• 推动不同产品在 Account、Context、Knowledge、Workflow 与 Agent 能力等层面的复用和协同。\n• 协同工程、算法、设计与 Growth 团队，提升产品决策质量及交付效率。\n• 搭建并管理约 7–8 人的高质量产品团队，提升团队的产品判断、执行与创新能力。\n• 持续跟踪基础模型、Agent、Multimodal 等技术演进，推动前沿能力转化为可验证的产品机会。\n• 作为核心管理团队成员，参与公司关键战略与产品方向决策。\n\n任职要求：\n• 具备成熟的 C 端互联网或 AI 产品经验，以及突出的产品判断与用户洞察能力。\n• 有成功的 0→1 产品经历，并亲历产品增长、PMF 验证或规模化阶段。\n• 深入理解 AI Native 产品、Agent、Multimodal、Context / Memory 等方向。\n• 具备多产品管理与 Portfolio Thinking，能够进行清晰的产品取舍、资源配置和优先级判断。\n• 具备较强的 Builder Mentality，愿意深入产品、用户和数据，而非仅承担组织管理职责。\n• 具备优秀的跨团队推动、团队建设与人才管理能力。\n\n优先考虑：\n• AI Native Consumer Product 经验。\n• AI Agent、AI Coding、AI Creative、Creator Tool 或 PLG 产品经验。\n• 全球化产品、大厂内部创业或 AI Startup 经历。\n• 曾担任成熟产品负责人、VP Product、CPO，或拥有创业经历。\n\n薪酬：\n• 高管级综合薪酬方案，具体根据候选人经验和匹配度面议。",
+    "descriptionEn": "Role Overview:\nJoin a global AI-native product company and lead a portfolio spanning AI coding, creative tools, games, marketing, and AI for work. As a member of the core leadership team, you will align strategy, investment, and shared capabilities across multiple product lines, strengthen product-market fit, and create greater portfolio-level synergy.\n\nResponsibilities:\n• Own the company-wide product strategy, portfolio planning, and medium- to long-term roadmap.\n• Lead multiple AI product lines, setting priorities, resource allocation, and stage-specific goals.\n• Work deeply in core products to improve user experience, retention, growth, and monetization.\n• Drive shared capabilities and coordination across identity, context, knowledge, workflows, and agent systems.\n• Partner with Engineering, AI/ML, Design, and Growth to improve product decisions and delivery velocity.\n• Build and lead a high-caliber product organization of approximately 7–8 people, strengthening product judgment, execution, and innovation.\n• Track advances in foundation models, agents, and multimodal systems, translating new capabilities into validated product opportunities.\n• Participate in critical company strategy and product decisions as a member of the leadership team.\n\nQualifications:\n• Mature consumer-internet or AI product leadership experience, with exceptional product judgment and user insight.\n• A successful record of building products from zero to one and taking them through growth, product-market-fit validation, or scale.\n• Deep understanding of AI-native products, agents, multimodal systems, context, and memory.\n• Strong portfolio thinking, with the ability to make clear product trade-offs and resource-prioritization decisions across multiple businesses.\n• A strong builder mentality and willingness to stay close to products, users, and data rather than operating only as an organizational manager.\n• Proven cross-functional leadership, team-building, and people-management capability.\n\nPreferred Backgrounds:\n• AI-native consumer products.\n• AI agents, AI coding, AI creative tools, creator products, or product-led growth.\n• Global products, internal ventures at scaled technology companies, or AI startups.\n• Experience as a senior product leader, VP Product, CPO, or founder.\n\nCompensation:\n• Executive-level total compensation, tailored to the candidate's experience and fit.",
+    "tags": ["CPO", "AI Native", "产品矩阵", "Agent", "多模态", "全球化产品", "高管岗位"],
+    "tagsEn": ["CPO", "AI Native", "Product Portfolio", "AI Agents", "Multimodal", "Global Products", "Executive Role"],
+    "profile": {
+      "experience": "成熟 C 端或 AI 产品负责人经历；成功 0→1、PMF、增长或规模化经验",
+      "experienceEn": "Senior consumer or AI product leadership; successful 0-to-1, PMF, growth, or scaling experience",
+      "skills": ["产品战略", "Portfolio Thinking", "AI Native", "Agent", "Context / Memory", "团队管理", "全球化产品"],
+      "skillsEn": ["Product Strategy", "Portfolio Thinking", "AI Native", "AI Agents", "Context / Memory", "Team Leadership", "Global Products"],
+      "salary": "高管级综合薪酬，具体面议",
+      "salaryEn": "Executive-level total compensation; negotiable"
+    },
+    "sort": 1
   }
 
 ]
