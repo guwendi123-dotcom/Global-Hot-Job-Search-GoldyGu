@@ -685,5 +685,21 @@
     "location": "北京 / 上海 / 深圳 / 杭州",
     "locationEn": "Beijing / Shanghai / Shenzhen / Hangzhou",
     "sort": 72
+  },
+  {
+    "id": "stepfun",
+    "createdAt": "2026-10-12T03:00:00.000Z",
+    "industryId": "ai-agent",
+    "name": "阶跃星辰（StepFun）",
+    "nameEn": "StepFun",
+    "logo": "",
+    "logoEmoji": "🌌",
+    "description": "阶跃星辰是一家专注于基础大模型与 AI 原生应用的人工智能公司，持续探索语言、多模态及智能体能力，并推动模型技术进入真实产品与全球开发者生态。公司正在建设美国创始团队，通过技术活动、开发者社区、行业合作和高质量内容扩大在旧金山湾区 AI 生态中的影响力。",
+    "descriptionEn": "StepFun is an artificial-intelligence company focused on foundation models and AI-native applications. The company develops language, multimodal, and agent capabilities and works to bring model advances into real products and the global developer ecosystem. StepFun is now building its founding U.S. team to expand its presence in the San Francisco Bay Area through technical events, developer communities, ecosystem partnerships, and high-quality AI content.",
+    "stage": "基础模型 · 全球化拓展",
+    "stageEn": "Foundation Models · Global Expansion",
+    "location": "中国 / 美国湾区",
+    "locationEn": "China / San Francisco Bay Area",
+    "sort": 73
   }
 ]
