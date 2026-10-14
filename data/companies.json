@@ -701,5 +701,21 @@
     "location": "中国 / 美国湾区",
     "locationEn": "China / San Francisco Bay Area",
     "sort": 73
+  },
+  {
+    "id": "askdodo",
+    "createdAt": "2026-10-14T03:00:00.000Z",
+    "industryId": "ai-agent",
+    "name": "AskDoDo",
+    "nameEn": "AskDoDo",
+    "logo": "",
+    "logoEmoji": "🦤",
+    "description": "AskDoDo 是一家面向欧美、日韩等全球市场的前沿 AIGC 与 AI Agent 平台，提供从文本、图像、视频到小说的端到端生成体验。公司以高自由度、用户自主和隐私优先为产品原则，结合匿名机制、端到端加密、透明路由与开源模型，尽量减少数据收集与平台锁定。长期愿景是建设强大的多模型 Coding Agent，使 AI 能在真实代码与工具环境中自主完成复杂任务，成为开发者与创作者可信赖的生产力平台。团队处于早期阶段，上海设有办公室，并具备经过验证的海外 B2C 产品经验与清晰的商业化路径。",
+    "descriptionEn": "AskDoDo is a frontier AIGC and AI-agent platform serving global markets across North America, Europe, Japan, Korea, and other regions. It provides end-to-end generation experiences spanning text, images, video, and long-form storytelling. The company is built around user agency, high creative freedom, and privacy by design, combining anonymity, end-to-end encryption, transparent routing, and open-source models to reduce data collection and platform lock-in. Its long-term vision is a powerful multi-model coding agent capable of completing complex tasks in real codebases and tool environments. The early-stage team operates from Shanghai and brings proven global B2C product experience and a clear commercialization path.",
+    "stage": "早期阶段 · 全球化 B2C",
+    "stageEn": "Early Stage · Global B2C",
+    "location": "上海 / 旧金山湾区",
+    "locationEn": "Shanghai / San Francisco Bay Area",
+    "sort": 74
   }
 ]
