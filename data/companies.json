@@ -717,5 +717,21 @@
     "location": "上海 / 旧金山湾区",
     "locationEn": "Shanghai / San Francisco Bay Area",
     "sort": 74
+  },
+  {
+    "id": "global-3d-ai-world-model-platform",
+    "createdAt": "2026-10-14T06:00:00.000Z",
+    "industryId": "ai",
+    "name": "全球 3D AI 与世界模型平台",
+    "nameEn": "Global 3D AI & World Model Platform",
+    "logo": "",
+    "logoEmoji": "🌐",
+    "description": "一家全球化 3D AI 与世界模型公司，面向创作者、开发者与企业提供生成式 3D 产品、模型及 API 能力，可将文本、单图或多视图输入快速转化为可用于生产的 3D 资产，并持续探索世界模型、交互式内容和开放空间生成技术。公司的产品与研究体系覆盖创作者工作台、开发者 API、开源 3D 模型，以及面向游戏、电商和新型 AI 应用的基础能力，目前正在进一步拓展全球创新业务与商业化版图。",
+    "descriptionEn": "A global 3D AI and world-model company providing generative 3D products, models, and APIs for creators, developers, and businesses. Its technology turns text, single images, or multi-view inputs into production-ready 3D assets and continues to advance world models, interactive content, and open spatial-generation systems. The product and research portfolio spans creator workspaces, developer APIs, open-source 3D models, and foundational capabilities for games, commerce, and emerging AI applications, with continued expansion across global markets.",
+    "stage": "全球化 3D AI · 创新业务扩张",
+    "stageEn": "Global 3D AI · New Business Expansion",
+    "location": "中国 / 美国 / 欧洲 / 日本 / 韩国",
+    "locationEn": "China / United States / Europe / Japan / South Korea",
+    "sort": 75
   }
 ]
