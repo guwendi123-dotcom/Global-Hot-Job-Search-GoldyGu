@@ -7195,8 +7195,8 @@
     "sort": 2
   },
   {
-    "id": "askdodo-ai-video-agent-orchestration-engineer",
-    "companyId": "askdodo",
+    "id": "open-model-ai-video-agent-orchestration-engineer",
+    "companyId": "global-open-model-ai-platform",
     "createdAt": "2026-10-14T03:01:00.000Z",
     "title": "AI 视频 / 短剧 Agent 编排工程师（高级 / 资深）",
     "titleEn": "Senior AI Video & Short-Drama Agent Orchestration Engineer",
@@ -7224,8 +7224,8 @@
     "sort": 1
   },
   {
-    "id": "askdodo-marketing-growth-lead",
-    "companyId": "askdodo",
+    "id": "open-model-ai-marketing-growth-lead",
+    "companyId": "global-open-model-ai-platform",
     "createdAt": "2026-10-14T03:02:00.000Z",
     "title": "Marketing / Growth Lead",
     "titleEn": "Marketing / Growth Lead",
@@ -7278,6 +7278,33 @@
       "skillsEn": ["Business Strategy", "P&L Ownership", "Product-to-Commercial Loop", "Global GTM", "Organization Building", "Cross-Functional Leadership", "AI Market Judgment"]
     },
     "sort": 1
+  },
+  {
+    "id": "open-model-ai-platform-product-manager",
+    "companyId": "global-open-model-ai-platform",
+    "createdAt": "2026-10-14T09:00:00.000Z",
+    "title": "AI 平台产品经理（多模型 / Agent / Developer Tools）",
+    "titleEn": "AI Platform Product Manager, Multi-Model / Agents / Developer Tools",
+    "jobType": "product,ai-agent,developer-tools",
+    "jobTypeEn": "Product, AI Agents, Developer Tools",
+    "workMode": "全球 Remote；可配合上海办公室短期线下办公者优先",
+    "workModeEn": "Global remote; candidates able to work from the Shanghai office for short periods are preferred",
+    "location": "全球 Remote",
+    "locationEn": "Global Remote",
+    "hiringStatus": "open",
+    "description": "岗位概述：\n加入一家面向全球用户的多模型 AI 平台，负责 AI 平台、开发者工具、模型体验与商业化相关产品。产品覆盖 Chat、模型目录、多模态生成、Agent 工具、API、CLI / SDK、订阅及套餐等能力。\n\n这不是只写 PRD 和协调排期的传统产品岗位。你需要理解模型能力、推理链路、API 形态、成本结构、技术边界和商业策略，并把前沿模型与高自由度 Agent 能力转化为稳定、易理解、可规模化和可持续商业化的产品体验。岗位不要求日常写产品代码，但必须具备足够的技术背景，能够与工程和算法团队深入讨论方案。\n\n你将负责：\n• 负责多模型 Chat、模型目录、多模态生成、Agent 工具、API、CLI / SDK、订阅、套餐及商业化相关产品。\n• 将新模型、新模态、Tool Calling 与 Agent Workflow 等技术能力转化为清晰、可规模化并能持续迭代的用户体验。\n• 深入研究内容创作、开发者工作流、研究探索、自动化任务及高自由度 Agent 等核心用户场景。\n• 设计模型能力标签、模型比较、使用引导、Prompt 模板、场景推荐、默认配置和用户教育机制。\n• 建设模型评测体系，覆盖能力、体验、成本、稳定性、延迟、上下文、多轮一致性及用户满意度。\n• 推动 API、CLI / SDK、开发者文档、示例工程、计费方式、限流策略、错误提示及开发者接入体验优化。\n• 参与订阅、套餐、Credits、API 计费、模型定价、试用机制及增长转化路径设计。\n• 端到端负责需求探索、用户访谈、竞品研究、PRD、原型、研发协作、上线验收、数据复盘和持续迭代。\n• 跟踪 LLM、Agent、多模态模型、开源模型、推理优化、模型路由、Context Engineering、RAG 与 AI 工具链趋势。\n• 在资源有限和技术快速变化的环境中拆解问题、明确优先级、推动决策并对结果负责。\n\n任职要求：\n• 3 年及以上 AI 相关产品经验，有 AI 产品、Developer Tools、API、云平台、模型平台、Agent、自动化工具或其他技术产品经验。\n• 必须具备一定技术背景，可来自工程、算法、后端、前端、基础设施、安全、数据分析或相近方向；不要求在岗位中承担日常产品 Coding。\n• 理解 LLM、Prompt、Context、Token、Tool / Function Calling、模型路由、RAG、推理成本、流式 API、上下文窗口及多轮对话等核心概念。\n• 能读懂 API 文档、接口定义和技术方案，并与工程团队讨论可行性、边界条件、优先级与实现路径。\n• 能将复杂技术能力转化为清晰的信息架构、用户流程、功能模块和迭代路线图。\n• 具备数据意识和用户研究能力，能够定义指标、分析漏斗，并结合访谈、数据和社区反馈进行决策。\n• 具备强 Ownership，能够在信息不完整、资源有限和变化快速的环境中独立推动结果。\n• 英文阅读能力良好，能够持续跟踪海外技术文档、GitHub、论文、产品更新和开发者讨论。\n• 表达与文档能力强，能够产出高质量 PRD、产品方案、调研报告和复盘材料。\n\n加分项：\n• 曾在大型互联网或科技公司担任产品经理，或参与过内部创新业务。\n• 做过 AI Chat、AI 创作工具、Agent、Coding 工具、模型 API、推理平台、开发者平台、自动化平台或云服务产品。\n• 深度使用 Claude Code、Codex、OpenAI / Anthropic API、开源或本地模型、ComfyUI、LangChain、LlamaIndex、Cursor 等工具。\n• 熟悉模型评测、供应商管理、推理成本优化、模型路由、限流、队列、Credits、API 商业化或开发者增长。\n• 有全球产品、英文社区、开发者社区、Reddit、Discord、X 或 GitHub 运营与调研经验。\n• 有从 0 到 1 产品、创业公司或小团队经历。\n• 能配合上海办公室进行阶段性短期线下办公。\n\n工作方式：\n• 关注真实上线、激活、转化、留存、收入、成本和用户满意度，而非只完成需求文档。\n• 理解模型与系统的真实边界，在产品自由度、平台责任、用户体验与商业可持续之间形成判断。\n• 全球 Remote 协作，岗位自主度高，可直接影响核心产品方向。",
+    "descriptionEn": "Role Overview:\nJoin a global multi-model AI platform and own products across AI infrastructure, developer tools, model experience, and monetization. The product surface includes chat, model discovery, multimodal generation, agent tools, APIs, CLI and SDK experiences, subscriptions, and packaging.\n\nThis is not a traditional role limited to writing PRDs and coordinating timelines. You will need to understand model capability, inference paths, API design, cost structures, technical boundaries, and business strategy, then turn frontier models and high-agency agent capabilities into reliable, understandable, scalable, and commercially sustainable products. Product coding is not an everyday requirement, but meaningful technical depth and the ability to engage Engineering and Research teams are essential.\n\nWhat You Will Own:\n• Product areas across multi-model chat, model catalogs, multimodal generation, agent tools, APIs, CLI and SDK experiences, subscriptions, plans, and monetization.\n• Translation of new models, modalities, tool calling, and agent workflows into clear, scalable, continuously improving user experiences.\n• User discovery across content creation, developer workflows, research, automation, and high-agency agent use cases.\n• Model capability labels, comparisons, onboarding, prompt templates, scenario recommendations, default settings, and user education.\n• Model evaluation across capability, experience quality, cost, stability, latency, context handling, multi-turn consistency, and user satisfaction.\n• API and developer experience, including documentation, examples, pricing, rate limits, error handling, and onboarding.\n• Subscriptions, plans, credits, API billing, model pricing, trials, packaging, and conversion journeys.\n• The complete lifecycle from discovery, interviews, competitive research, PRDs, and prototypes through delivery, launch review, and iteration.\n• Ongoing tracking of LLMs, agents, multimodal systems, open models, inference optimization, routing, context engineering, RAG, and AI tooling.\n• Prioritization and execution in a fast-changing environment with limited resources and high ambiguity.\n\nQualifications:\n• 3+ years of AI-related product experience across AI products, developer tools, APIs, cloud platforms, model platforms, agents, automation, or other technical products.\n• A meaningful technical background in engineering, algorithms, backend, frontend, infrastructure, security, data analysis, or a related area. Daily product coding is not required.\n• Working knowledge of LLMs, prompts, context, tokens, tool and function calling, model routing, RAG, inference cost, streaming APIs, context windows, and multi-turn conversations.\n• Ability to read API documentation, interface definitions, and technical proposals and discuss feasibility, edge cases, priorities, and implementation paths with engineers.\n• Strong structured product thinking, translating complex technical capabilities into information architecture, user flows, modules, and roadmaps.\n• Strong data and user-research judgment, including metric definition, funnel analysis, interviews, and community feedback.\n• Strong ownership and the ability to deliver amid ambiguity, limited resources, and rapid technical change.\n• Strong English reading skills for global technical documentation, GitHub, papers, product updates, and developer discussions.\n• Clear communication and high-quality written work across PRDs, proposals, research, and post-launch reviews.\n\nPreferred Qualifications:\n• Product-management experience at a major internet or technology company or within an internal venture.\n• Experience with AI chat, creative tools, agents, coding tools, model APIs, inference platforms, developer platforms, automation, or cloud services.\n• Deep use of Claude Code, Codex, OpenAI or Anthropic APIs, open or local models, ComfyUI, LangChain, LlamaIndex, Cursor, or related tools.\n• Familiarity with model evaluation, vendor management, inference-cost optimization, routing, rate limiting, queues, credits, API monetization, or developer growth.\n• Experience with global products and developer communities across Reddit, Discord, X, or GitHub.\n• Zero-to-one product, startup, or small-team experience.\n• Ability to work periodically from the Shanghai office for short, focused periods.\n\nHow We Work:\nWe care about launches, activation, conversion, retention, revenue, cost, and user satisfaction—not simply completed requirement documents. We expect strong judgment around real model and system boundaries and the balance among user freedom, platform responsibility, product experience, and commercial sustainability. The role is globally remote, highly autonomous, and directly influential on core product direction.",
+    "tags": ["AI 产品经理", "多模型平台", "Agent", "Developer Tools", "API", "技术产品", "全球 Remote"],
+    "tagsEn": ["AI Product Manager", "Multi-Model Platform", "AI Agents", "Developer Tools", "APIs", "Technical Product", "Global Remote"],
+    "profile": {
+      "experience": "3 年以上 AI 或技术产品经验",
+      "experienceEn": "3+ years in AI or technical product management",
+      "language": "英文阅读与全球技术信息跟踪能力",
+      "languageEn": "Strong English reading and global technical research skills",
+      "skills": ["技术产品能力", "LLM / Agent", "API / Developer Tools", "模型评测", "商业化设计", "用户研究", "数据分析"],
+      "skillsEn": ["Technical Product Management", "LLM / Agents", "API / Developer Tools", "Model Evaluation", "Monetization", "User Research", "Data Analysis"]
+    },
+    "sort": 3
   }
 
 ]
