@@ -39,7 +39,7 @@
     "stageEn": "High Growth · Commercial Expansion",
     "location": "苏州 / 北京 / 美国加州",
     "locationEn": "Suzhou / Beijing / California",
-    "logo": "",
+    "logo": "/logos/embodied-ai-training-data-platform.ico?v=2",
     "logoEmoji": "🦾",
     "sort": 25
   },
@@ -207,7 +207,7 @@
     "industryId": "ai-agent",
     "name": "全球 AI 达人营销平台",
     "nameEn": "Global AI Creator Marketing Platform",
-    "logo": "",
+    "logo": "/logos/global-ai-creator-marketing-platform.ico?v=1",
     "logoEmoji": "🎯",
     "description": "全球领先的 AI 原生达人营销双边平台，连接中国出海及海外品牌与全球科技创作者资源，汇聚超过 5 万名认证科技创作者，重点覆盖美国及其他主要海外市场。平台服务 AI 与软件、消费电子、电商、游戏及消费品牌，帮助客户完成达人发现、建联、Campaign 执行、内容管理与效果分析。公司已实现健康造血并进入盈利增长阶段，已完成机构融资并正在推进新一轮融资，持续投入产品研发、AI 能力、品牌建设与全球市场拓展。",
     "descriptionEn": "A leading AI-native two-sided creator marketing platform connecting China-based global brands and international advertisers with more than 50,000 verified technology creators worldwide, with particularly strong coverage in the United States and other major overseas markets. The platform serves AI and software, consumer electronics, e-commerce, gaming, and consumer brands across creator discovery, outreach, campaign execution, content management, and performance analysis. The company is profitable with healthy operating cash flow, has completed institutional financing, and is advancing a new round while continuing to invest in product, AI, brand, and global expansion.",
@@ -468,7 +468,7 @@
     "industryId": "embodied-ai",
     "name": "全球 Physical AI 人类体验数据平台",
     "nameEn": "Global Physical AI Human Experience Data Platform",
-    "logo": "",
+    "logo": "/logos/global-physical-ai-human-experience-data-platform.ico?v=1",
     "logoEmoji": "🦾",
     "description": "一家总部位于新加坡、近期增长迅速的 Physical AI 与具身智能数据基础设施公司。团队通过自研可穿戴采集硬件与软件系统，记录真实世界中的第一视角视频、深度、动作与音频，并将人类完成复杂物理任务的过程转化为可供机器人、世界模型和空间智能系统训练的大规模多模态数据。公司成立于 2025 年，2026 年 7 月完成约 2,200 万美元 Pre-A 轮融资，累计融资约 3,000 万美元；其千万级真实人类物体交互公开数据集发布后短期内下载量突破 200 万次，验证了 Physical AI 对规模化真实世界数据的强需求。核心团队拥有清华、Meta、Google 与 UC Berkeley 等背景，目前约 60 名全职员工及实习生分布于新加坡、中国、马来西亚和美国，正持续扩大数据采集网络、设备量产和新加坡及美国交付能力。",
     "descriptionEn": "A fast-growing Singapore-headquartered Physical AI and embodied-intelligence data infrastructure company. Its proprietary wearable capture hardware and software record first-person video, depth, motion, and audio from real-world tasks, converting human physical experience into large-scale multimodal training data for robotics, world models, and spatial-intelligence systems. Founded in 2025, the company completed an approximately US$22 million pre-Series A round in July 2026, bringing total funding to about US$30 million. Its public dataset covering ten million real human-object interactions surpassed two million downloads shortly after release, demonstrating strong demand for scalable real-world Physical AI data. The core team brings experience from Tsinghua, Meta, Google, and UC Berkeley, with approximately 60 employees and interns across Singapore, China, Malaysia, and the United States. The company is now expanding its data-collection network, device production, and delivery capacity in Singapore and the US.",
@@ -733,5 +733,21 @@
     "location": "中国 / 美国 / 欧洲 / 日本 / 韩国",
     "locationEn": "China / United States / Europe / Japan / South Korea",
     "sort": 75
+  },
+  {
+    "id": "physical-ai-labor-data-platform",
+    "createdAt": "2026-10-15T08:30:00.000Z",
+    "industryId": "embodied-ai",
+    "name": "全球 Physical AI 劳动数据基础设施平台",
+    "nameEn": "Global Physical AI Labor Data Infrastructure Platform",
+    "logo": "/logos/physical-ai-labor-data-platform.ico?v=1",
+    "logoEmoji": "🦾",
+    "description": "一家面向全球 Physical AI 与机器人基础模型的数据基础设施公司，围绕真实劳动场景构建从采集硬件、现场运营、物流交付、数据质量到模型训练的端到端能力。平台将工厂、仓储、餐饮、零售及其他真实业务环境中的第一视角视频与人体运动信息，转化为机器人可学习、可评测和可规模扩展的训练数据。团队采用软硬件与运营垂直整合模式，兼具前沿研究能力和高强度全球化执行力，正在深圳持续建设产品、现场运营与数据规模化能力。",
+    "descriptionEn": "A global data-infrastructure company for Physical AI and robotics foundation models, building end-to-end capabilities across collection hardware, field operations, logistics, data quality, and model training. The platform transforms first-person video and human-motion signals from real factories, warehouses, kitchens, retail environments, and other workplaces into scalable training and evaluation data for robots. Its vertically integrated model combines frontier research with high-agency global execution, with product, field-operations, and data-scaling capabilities growing in Shenzhen.",
+    "stage": "早期高速增长 · 全球化",
+    "stageEn": "Early High-Growth Stage · Global",
+    "location": "深圳 / 全球业务",
+    "locationEn": "Shenzhen / Global Operations",
+    "sort": 76
   }
 ]
