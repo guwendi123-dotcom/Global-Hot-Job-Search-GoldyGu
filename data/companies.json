@@ -749,5 +749,21 @@
     "location": "深圳 / 全球业务",
     "locationEn": "Shenzhen / Global Operations",
     "sort": 76
+  },
+  {
+    "id": "realtime-interactive-multimodal-ai-platform",
+    "createdAt": "2026-10-26T08:00:00.000Z",
+    "industryId": "ai-agent",
+    "name": "实时交互式多模态智能平台",
+    "nameEn": "Real-Time Interactive Multimodal Intelligence Platform",
+    "logo": "",
+    "logoEmoji": "✨",
+    "description": "一家面向全球市场的前沿 AI 公司，专注实时交互式多模态智能，正在构建能够持续倾听、理解、回应、行动和演化的 AI 角色与数字世界。不同于以离线生成为主的传统内容工具，平台强调低延迟、连续交互和多模态协同，并通过 API 与企业级能力服务开发者及商业客户。团队在基础模型、多模态生成和大规模 AI 基础设施方面积累深厚，已获得专业机构支持，当前正从技术与产品验证进入国际商业化从 0 到 1 的关键阶段。",
+    "descriptionEn": "A frontier AI company building real-time interactive multimodal intelligence for global markets. Its technology powers AI characters and digital worlds that can continuously listen, understand, respond, act, and evolve through live interaction. Unlike traditional content tools centered on offline generation, the platform emphasizes low-latency, persistent, multimodal experiences delivered through APIs and enterprise capabilities. The team brings deep expertise across foundation models, multimodal generation, and large-scale AI infrastructure, is backed by established institutional investors, and is entering the critical zero-to-one phase of international commercialization.",
+    "stage": "高成长阶段 · 国际商业化 0→1",
+    "stageEn": "High Growth · International Commercialization 0-to-1",
+    "location": "全球市场",
+    "locationEn": "Global Markets",
+    "sort": 77
   }
 ]
