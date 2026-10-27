@@ -3,17 +3,18 @@
 import { useI18n } from "@/lib/i18n";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import GoldyLogo from "@/components/GoldyLogo";
 
 export default function LanguageSwitcher() {
   const { language, setLanguage } = useI18n();
   const pathname = usePathname();
 
-  if (pathname.startsWith("/shijie-ai")) return null;
+  if (pathname === "/" || pathname.startsWith("/shijie-ai")) return null;
 
   return (
     <><header className="fixed inset-x-0 top-0 z-50 border-b border-ink/10 bg-[#fffaf4]/90 backdrop-blur-xl">
       <div className="max-w-6xl mx-auto h-16 px-4 flex items-center justify-between gap-4">
-        <Link href="/" className="font-bold text-2xl tracking-tight text-ink">GoldyHire<span className="text-coral">✦</span></Link>
+        <GoldyLogo />
         <nav className="hidden md:flex items-center gap-7 text-sm font-semibold text-ink">
           <Link href="/#jobs" className="hover:text-accent">{language === "zh" ? "找岗位" : "Jobs"}</Link>
           <Link href="/companies" className="hover:text-accent">{language === "zh" ? "合作公司" : "Companies"}</Link>

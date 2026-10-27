@@ -2,17 +2,25 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { ArrowRight, ChevronDown, MapPin, Search, Sparkles } from "lucide-react";
+import { ArrowRight, BarChart3, BookOpen, Building2, Check, ChevronDown, Copy, Globe2, Linkedin, Mail, MapPin, MessageCircle, Search, ShieldCheck, Sparkles, Target, Phone, X } from "lucide-react";
 import { getCompanies, getIndustries, getJobs, getProfile } from "@/lib/data";
 import Hero from "@/components/Hero";
-import CompanyCard from "@/components/CompanyCard";
-import IndustryCard from "@/components/IndustryCard";
 import Footer from "@/components/Footer";
 import { useI18n } from "@/lib/i18n";
 import { getLocationGroup, jobMatchesLocation, LOCATION_GROUPS } from "@/lib/location-filters";
 import { getFunctionOption, inferJobTaxonomy, JOB_FUNCTIONS, taxonomySearchText } from "@/lib/job-taxonomy";
 
 const ITEMS_PER_PAGE = 8;
+
+const INDUSTRY_DISPLAY: Record<string, { zh: string; en: string }> = {
+  "ai-agent": { zh: "AI Agent", en: "AI Agent" },
+  "embodied-ai": { zh: "Embodied AI", en: "Embodied AI" },
+  ai: { zh: "LLM / Foundation Models", en: "LLM / Foundation Models" },
+  web3: { zh: "Web3", en: "Web3" },
+  semiconductor: { zh: "Semi / Chips", en: "Semi / Chips" },
+  "smart-hardware": { zh: "Smart HW", en: "Smart HW" },
+  internet: { zh: "Internet / SaaS", en: "Internet / SaaS" },
+};
 
 export default function Home() {
   const { language } = useI18n();
@@ -25,6 +33,8 @@ export default function Home() {
   const [region, setRegion] = useState("");
   const [place, setPlace] = useState("");
   const [jobType, setJobType] = useState("");
+  const [showWechat, setShowWechat] = useState(false);
+  const [wechatCopied, setWechatCopied] = useState(false);
 
   useEffect(() => {
     setProfile(getProfile());
@@ -98,14 +108,22 @@ export default function Home() {
     return index < 3 ? "featured" : "active";
   };
 
-  const featuredCompanies = rankedCompanies.slice(0, 8);
+  const featuredCompanies = [
+    ...rankedCompanies.filter((company) => Boolean(company.logo)),
+    ...rankedCompanies.filter((company) => !company.logo),
+  ].slice(0, 8);
+
+  const copyWechat = async () => {
+    await navigator.clipboard.writeText(profile.contact.wechat);
+    setWechatCopied(true);
+    window.setTimeout(() => setWechatCopied(false), 1600);
+  };
 
   return (
-    <main className="min-h-screen bg-bg-primary">
-      <Hero profile={profile} jobCount={jobs.length} companyCount={companies.length} industryCount={industries.length} />
+    <main className="home-academy-page min-h-screen" data-language={language}>
+      <Hero jobCount={jobs.length} companyCount={companies.length} industryCount={industries.length} />
 
-      <section id="jobs" className="relative max-w-6xl mx-auto px-5 pt-10 md:pt-16 scroll-mt-24">
-        <img src="/art/cat-sitting-v3.png" alt="" className="pointer-events-none absolute left-8 -top-[88px] hidden h-[116px] w-[82px] object-contain md:block" />
+      <section id="jobs" className="academy-content-section academy-jobs-section relative max-w-7xl mx-auto px-5 pt-10 md:pt-14 scroll-mt-24">
         <div className="flex items-end justify-between gap-4 mb-5">
           <div>
             <p className="eyebrow">{language === "zh" ? "每天发现新机会" : "Fresh opportunities"}</p>
@@ -150,6 +168,7 @@ export default function Home() {
           </label>
         </div>
 
+        <div className="home-main-grid">
         <div className="home-job-list hidden md:block">
           <div className="home-job-list-head" aria-hidden="true">
             <span>{language === "zh" ? "岗位与团队" : "Role & team"}</span>
@@ -191,32 +210,89 @@ export default function Home() {
           ))}
         </div>
 
+        <aside className="goldy-why-card">
+          <div className="goldy-why-heading"><span>✦</span><div><p>{language === "zh" ? "不仅是岗位列表" : "More than a job board"}</p><h3>{language === "zh" ? "为什么选择 GoldyHire" : "Why GoldyHire"}</h3></div></div>
+          <div className="goldy-why-grid">
+            <div><Globe2 /><strong>{language === "zh" ? "全球优质机会" : "Global roles"}</strong><span>{language === "zh" ? "精选高成长团队与核心岗位" : "Curated high-growth teams"}</span></div>
+            <div><Target /><strong>{language === "zh" ? "深度匹配" : "Thoughtful matching"}</strong><span>{language === "zh" ? "结合画像与职业目标推荐" : "Beyond keyword matching"}</span></div>
+            <div><ShieldCheck /><strong>{language === "zh" ? "专业可靠" : "Trusted context"}</strong><span>{language === "zh" ? "公开信息脱敏，私密画像完整" : "Useful context, handled carefully"}</span></div>
+            <div><BarChart3 /><strong>{language === "zh" ? "持续更新" : "Always current"}</strong><span>{language === "zh" ? "招聘状态与优先级持续维护" : "Live hiring priorities"}</span></div>
+          </div>
+          <div className="goldy-contact-block">
+            <div><span>{language === "zh" ? "联系咕咕" : "Talk to Goldy"}</span><small>{language === "zh" ? "聊岗位，也聊你真正想去的方向" : "Discuss roles and your next move"}</small></div>
+            <div className="goldy-contact-actions">
+              <button type="button" onClick={() => setShowWechat(true)}><MessageCircle />{language === "zh" ? "微信" : "WeChat"}</button>
+              <a href={profile.contact.linkedin} target="_blank" rel="noreferrer"><Linkedin />LinkedIn</a>
+              <a href={`mailto:${profile.contact.email}`}><Mail />Email</a>
+              <a href={`tel:+${profile.contact.phone}`}><Phone />{language === "zh" ? "电话" : "Phone"}</a>
+            </div>
+          </div>
+          <img src="/art/cat-sitting-final.png" alt="" className="goldy-why-cat" />
+        </aside>
+        </div>
+
         {filteredJobs.length === 0 && <div className="empty-state">{language === "zh" ? "没有找到匹配岗位，换个关键词试试。" : "No matching roles. Try another search."}</div>}
         <div className="flex justify-center mt-6"><Link href="/jobs" className="primary-pill">{language === "zh" ? "查看全部岗位" : "View all jobs"}<ArrowRight size={17} /></Link></div>
-        <img src="/art/cat-sleeping-v3.png" alt="" className="hidden md:block w-[118px] h-[92px] object-contain ml-auto mr-8 -mt-12" />
       </section>
 
-      <section id="industries" className="max-w-6xl mx-auto px-5 py-14 scroll-mt-24">
-        <p className="eyebrow">{language === "zh" ? "按赛道探索" : "Explore by track"}</p>
-        <h2 className="section-title mb-6">{language === "zh" ? "探索行业" : "Explore industries"}</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-          {industries.map((industry, index) => <IndustryCard key={industry.id} industry={industry} index={index} compact />)}
-        </div>
-      </section>
-
-      <section id="companies" className="max-w-6xl mx-auto px-5 pb-14 scroll-mt-24">
+      <section id="companies" className="academy-content-section academy-companies-section max-w-7xl mx-auto px-5 pt-14 scroll-mt-24">
         <div className="flex items-end justify-between gap-4 mb-6">
-          <div><p className="eyebrow">{language === "zh" ? "近期关注与新团队" : "Trending and new teams"}</p><h2 className="section-title">{language === "zh" ? "热门合作公司" : "Trending companies"}</h2></div>
-          <span className="hidden md:block text-sm text-text-secondary">{language === "zh" ? "更多公司与岗位持续更新" : "More teams added regularly"}</span>
+          <div><p className="eyebrow">{language === "zh" ? "正在招聘的团队" : "Teams hiring now"}</p><h2 className="section-title">{language === "zh" ? "值得关注的团队" : "Teams worth watching"}</h2></div>
+          <Link href="/companies" className="section-link">{language === "zh" ? "查看全部" : "View all"}<ArrowRight size={15} /></Link>
         </div>
-        <div className="grid md:grid-cols-2 gap-4">
-          {featuredCompanies.map((company, index) => <CompanyCard key={company.id} company={company} index={index} jobCount={jobs.filter((job) => job.companyId === company.id).length} />)}
-        </div>
-        <div className="text-center mt-7">
-          <Link href="/companies" className="primary-pill">{language === "zh" ? "查看全部公司" : "View all companies"}<ArrowRight size={17} /></Link>
-          <p className="text-xs text-text-secondary mt-3">{language === "zh" ? "更多合作公司及岗位持续更新" : "More companies and roles are added regularly"}</p>
+        <div className="featured-logo-grid">
+          {featuredCompanies.map((company) => (
+            <Link key={company.id} href={`/company/${company.id}`} className="featured-logo-card">
+              <span className="featured-logo-box">{company.logo ? <img src={company.logo} alt="" /> : <b>{company.logoEmoji || company.name.slice(0, 1)}</b>}</span>
+              <span><strong>{language === "zh" ? company.name : company.nameEn || company.name}</strong><small>{language === "zh" ? company.stage : company.stageEn || company.stage}</small></span>
+              <em><b>{jobs.filter((job) => job.companyId === company.id).length}</b>{language === "zh" ? "个岗位" : " roles"}<ArrowRight size={14} /></em>
+            </Link>
+          ))}
         </div>
       </section>
+
+      <section id="industries" className="academy-content-section academy-industries-section max-w-7xl mx-auto px-5 py-14 scroll-mt-24">
+        <div className="academy-section-heading">
+          <p className="eyebrow">{language === "zh" ? "按赛道探索" : "Explore by track"}</p>
+          <h2 className="section-title">{language === "zh" ? "探索行业" : "Explore industries"}</h2>
+        </div>
+        <div className="industry-guide-grid">
+          {industries.map((industry, index) => {
+            const relatedCompanies = companies.filter((company) => company.industryId === industry.id);
+            const relatedCompanyIds = new Set(relatedCompanies.map((company) => company.id));
+            const relatedJobs = jobs.filter((job) => relatedCompanyIds.has(job.companyId));
+            return (
+              <Link key={industry.id} href={`/industry/${industry.id}`} className="industry-guide-card">
+                <span className="industry-guide-number">{String(index + 1).padStart(2, "0")}</span>
+                <span className="industry-guide-icon"><BookOpen size={22} /></span>
+                <div>
+                  <h3>{INDUSTRY_DISPLAY[industry.id]?.[language] || (language === "zh" ? industry.name : industry.nameEn || industry.name)}</h3>
+                  <p>{language === "zh" ? industry.description : industry.descriptionEn || industry.description}</p>
+                </div>
+                <span className="industry-guide-meta"><Building2 size={13} />{relatedCompanies.length} {language === "zh" ? "个团队" : "teams"}<i />{relatedJobs.length} {language === "zh" ? "个岗位" : "roles"}</span>
+                <ArrowRight className="industry-guide-arrow" size={17} />
+              </Link>
+            );
+          })}
+        </div>
+      </section>
+
+      {showWechat && (
+        <div className="wechat-modal" role="presentation" onClick={() => setShowWechat(false)}>
+          <div className="wechat-card wechat-copy-card" role="dialog" aria-modal="true" aria-labelledby="wechat-title" onClick={(event) => event.stopPropagation()}>
+            <button type="button" className="wechat-close" onClick={() => setShowWechat(false)} aria-label={language === "zh" ? "关闭" : "Close"}><X size={17} /></button>
+            <span className="wechat-dialog-icon"><MessageCircle size={24} /></span>
+            <p className="eyebrow">{language === "zh" ? "联系咕咕" : "Talk to Goldy"}</p>
+            <h2 id="wechat-title">{language === "zh" ? "复制微信号添加好友" : "Copy WeChat ID"}</h2>
+            <p>{language === "zh" ? "点击下方按钮即可复制，去微信搜索添加。" : "Copy the ID below and search for it in WeChat."}</p>
+            <code>{profile.contact.wechat}</code>
+            <button type="button" className={`wechat-copy-button ${wechatCopied ? "copied" : ""}`} onClick={copyWechat}>
+              {wechatCopied ? <Check size={17} /> : <Copy size={17} />}
+              {wechatCopied ? (language === "zh" ? "已复制" : "Copied") : (language === "zh" ? "复制微信号" : "Copy WeChat ID")}
+            </button>
+          </div>
+        </div>
+      )}
 
       <Footer profile={profile} />
     </main>

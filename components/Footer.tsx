@@ -5,6 +5,7 @@ import { ArrowRight, Linkedin, Mail } from "lucide-react";
 import type { Profile } from "@/lib/data";
 import { useI18n } from "@/lib/i18n";
 import { sendAnalyticsEvent } from "@/components/AnalyticsTracker";
+import GoldyLogo from "@/components/GoldyLogo";
 
 export default function Footer({ profile }: { profile: Profile }) {
   const { language } = useI18n();
@@ -20,7 +21,7 @@ export default function Footer({ profile }: { profile: Profile }) {
       </section>
       <footer className="border-t border-ink/10 px-5 py-10">
         <div className="max-w-6xl mx-auto grid md:grid-cols-[1.4fr_1fr_1fr] gap-8">
-          <div><div className="text-2xl font-bold text-ink">GoldyHire<span className="text-coral">✦</span></div><p className="text-sm text-text-secondary mt-3 max-w-xs">{language === "zh" ? "连接全球科技人才与机会，让优秀的人遇见更好的未来。" : "Connecting global technology talent with better opportunities."}</p></div>
+          <div><GoldyLogo /><p className="text-sm text-text-secondary mt-3 max-w-xs">{language === "zh" ? "连接全球科技人才与机会，让优秀的人遇见更好的未来。" : "Connecting global technology talent with better opportunities."}</p></div>
           <div className="footer-links"><strong>{language === "zh" ? "探索" : "Explore"}</strong><Link href="/#jobs">{language === "zh" ? "找岗位" : "Jobs"}</Link><Link href="/#industries">{language === "zh" ? "行业" : "Industries"}</Link><Link href="/#companies">{language === "zh" ? "合作公司" : "Companies"}</Link></div>
           <div className="footer-links"><strong>{language === "zh" ? "联系" : "Contact"}</strong><a onClick={() => sendAnalyticsEvent("contact_email", "footer")} href={`mailto:${profile.contact.email}`}><Mail size={14} />{profile.contact.email}</a><a onClick={() => sendAnalyticsEvent("contact_linkedin", "footer")} href={profile.contact.linkedin} target="_blank" rel="noreferrer"><Linkedin size={14} />LinkedIn</a></div>
         </div>
