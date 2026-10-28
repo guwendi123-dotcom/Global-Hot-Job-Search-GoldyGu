@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, Linkedin, Mail, Send } from "lucide-react";
+import { Linkedin, Mail, Send, Sparkles } from "lucide-react";
 import { getJobsSync, getProfile } from "@/lib/data";
 import { useI18n } from "@/lib/i18n";
 import { sendAnalyticsEvent } from "@/components/AnalyticsTracker";
@@ -55,37 +55,42 @@ export default function ContactPage() {
   };
 
   return (
-    <main className="min-h-screen bg-bg-primary">
-      <header className="bg-white border-b border-border">
-        <div className="max-w-3xl mx-auto px-4 py-4">
-          <Link href="/" className="inline-flex items-center gap-2 text-text-secondary hover:text-accent">
-            <ArrowLeft size={18} /> {text.back}
-          </Link>
+    <main className="academy-subpage">
+      <section className="subpage-intro">
+        <div className="subpage-intro-inner">
+          <Link href="/" className="subpage-back">{language === "zh" ? "← 返回首页" : "← Back home"}</Link>
+          <p className="eyebrow">{language === "zh" ? "和咕咕聊聊" : "Talk to Goldy"}</p>
+          <h1 className="subpage-title">{text.title}</h1>
+          <p className="subpage-lede">{text.subtitle}</p>
         </div>
-      </header>
-      <section className="max-w-2xl mx-auto px-4 py-14">
-        <div className="bg-white rounded-2xl border border-border p-7 md:p-10">
-          <h1 className="text-3xl font-bold text-text-primary mb-2">{text.title}</h1>
-          <p className="text-text-secondary mb-8">{text.subtitle}</p>
-          <form onSubmit={submit} className="space-y-5">
-            <input required value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} placeholder={text.name} className="w-full px-4 py-3 rounded-xl border border-border focus:border-accent focus:outline-none" />
-            <input required type="email" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} placeholder={text.email} className="w-full px-4 py-3 rounded-xl border border-border focus:border-accent focus:outline-none" />
+      </section>
+      <section className="subpage-content-wrap">
+        <div className="subpage-contact-grid">
+          <div className="subpage-panel subpage-form-panel">
+            <div className="subpage-panel-title"><Sparkles size={20} /><div><p>{language === "zh" ? "岗位与合作咨询" : "Role & partnership inquiry"}</p><span>{language === "zh" ? "填写后会打开你的邮件应用" : "Your email app will open when ready"}</span></div></div>
+          <form onSubmit={submit} className="subpage-form">
+            <input required value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} placeholder={text.name} />
+            <input required type="email" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} placeholder={text.email} />
             <label className="block text-sm font-medium text-text-primary">
               <span className="block mb-2">{text.job}</span>
-              <select value={form.interestedJob} onChange={(e) => setForm({ ...form, interestedJob: e.target.value })} className="w-full px-4 py-3 rounded-xl border border-border bg-white focus:border-accent focus:outline-none">
+              <select value={form.interestedJob} onChange={(e) => setForm({ ...form, interestedJob: e.target.value })}>
                 <option value="">{text.choose}</option>
                 {jobs.map((job) => <option key={job.id} value={job.id}>{language === "zh" ? job.title : job.titleEn || job.title}</option>)}
               </select>
             </label>
-            <textarea required rows={6} value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} placeholder={text.message} className="w-full px-4 py-3 rounded-xl border border-border focus:border-accent focus:outline-none" />
-            <button type="submit" className="w-full inline-flex justify-center items-center gap-2 px-6 py-3 bg-accent text-white rounded-full hover:bg-orange-600">
+            <textarea required rows={6} value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} placeholder={text.message} />
+            <button type="submit" className="subpage-primary-button">
               <Send size={18} /> {text.send}
             </button>
           </form>
-          <div className="grid sm:grid-cols-2 gap-3 mt-5">
-            <a onClick={() => sendAnalyticsEvent("contact_email", "contact-page")} href={`mailto:${profile.contact.email}`} className="inline-flex justify-center items-center gap-2 px-4 py-3 rounded-full border border-border hover:border-accent"><Mail size={17} /> Email</a>
-            <a onClick={() => sendAnalyticsEvent("contact_linkedin", "contact-page")} href={profile.contact.linkedin} target="_blank" rel="noopener noreferrer" className="inline-flex justify-center items-center gap-2 px-4 py-3 rounded-full border border-border hover:border-accent"><Linkedin size={17} /> LinkedIn</a>
           </div>
+          <aside className="subpage-contact-aside">
+            <p className="eyebrow">{language === "zh" ? "直接联系" : "Direct contact"}</p>
+            <h2>{language === "zh" ? "选择你顺手的方式" : "Choose what works for you"}</h2>
+            <p>{language === "zh" ? "岗位匹配、团队咨询或合作需求，都可以直接联系。" : "Reach out about a role, a team or a partnership."}</p>
+            <a onClick={() => sendAnalyticsEvent("contact_email", "contact-page")} href={`mailto:${profile.contact.email}`}><Mail size={18} /><span><strong>Email</strong><small>{profile.contact.email}</small></span></a>
+            <a onClick={() => sendAnalyticsEvent("contact_linkedin", "contact-page")} href={profile.contact.linkedin} target="_blank" rel="noopener noreferrer"><Linkedin size={18} /><span><strong>LinkedIn</strong><small>{language === "zh" ? "查看咕咕的职业主页" : "View Goldy's profile"}</small></span></a>
+          </aside>
         </div>
       </section>
     </main>

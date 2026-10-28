@@ -54,7 +54,7 @@ export default function JobPage() {
 
   if (loading) {
     return (
-      <main className="min-h-screen bg-bg-primary flex items-center justify-center">
+      <main className="academy-subpage subpage-state">
         <div className="text-text-secondary">Loading...</div>
       </main>
     );
@@ -62,7 +62,7 @@ export default function JobPage() {
 
   if (!job) {
     return (
-      <main className="min-h-screen bg-bg-primary flex items-center justify-center">
+      <main className="academy-subpage subpage-state">
         <div className="text-center">
           <h1 className="text-2xl font-bold text-text-primary mb-4">岗位未找到</h1>
           <Link href="/" className="text-accent hover:underline">返回首页</Link>
@@ -115,26 +115,12 @@ export default function JobPage() {
   };
 
   return (
-    <main className="min-h-screen bg-bg-primary">
-      {/* Header */}
-      <header className="bg-white border-b border-border">
-        <div className="max-w-5xl mx-auto px-4 py-4">
-          <Link
-            href={company ? `/company/${company.id}` : "/"}
-            className="inline-flex items-center gap-2 text-text-secondary hover:text-accent transition-colors"
-          >
-            <ArrowLeft size={18} />
-            {trans.back}
-          </Link>
-        </div>
-      </header>
-
-      {/* Job Detail */}
-      <section className="max-w-5xl mx-auto px-4 py-16">
-        <div className="bg-white rounded-2xl border border-border p-8 md:p-12">
-          {/* Breadcrumb */}
+    <main className="academy-subpage">
+      <section className="subpage-intro subpage-intro-wide">
+        <div className="subpage-intro-inner">
+          <Link href={company ? `/company/${company.id}` : "/"} className="subpage-back">← {trans.back}</Link>
           {company && (
-            <div className="flex items-center gap-2 text-sm text-text-secondary mb-6">
+            <div className="subpage-breadcrumb">
               <Link href="/" className="hover:text-accent">{trans.home}</Link>
               <ChevronRight size={14} />
               <Link href={`/company/${company.id}`} className="hover:text-accent">
@@ -145,9 +131,9 @@ export default function JobPage() {
             </div>
           )}
 
-          {/* Title and Job Type Badge */}
-          <div className="flex flex-wrap items-center gap-3 mb-2">
-            <h1 className="text-3xl md:text-4xl font-bold text-text-primary font-display">
+          <p className="eyebrow">{language === "zh" ? "岗位档案" : "Role profile"}</p>
+          <div className="subpage-title-row">
+            <h1 className="subpage-title">
               {title}
             </h1>
             {jobTypeName && (
@@ -164,16 +150,15 @@ export default function JobPage() {
             )}
           </div>
 
-          {/* Work Mode & Location Tags */}
-          <div className="flex flex-wrap gap-2 mb-4">
+          <div className="subpage-meta-row">
             {workMode && (
-              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-blue-50 text-blue-600 rounded-full text-sm">
+              <span>
                 <Building size={14} />
                 {workMode}
               </span>
             )}
             {location && (
-              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-green-50 text-green-600 rounded-full text-sm">
+              <span>
                 <MapPin size={14} />
                 {location}
               </span>
@@ -183,11 +168,19 @@ export default function JobPage() {
           {company && (
             <Link
               href={`/company/${company.id}`}
-              className="inline-flex items-center gap-2 text-lg text-accent hover:underline mb-6"
+              className="subpage-company-link"
             >
               🏢 {companyName}
             </Link>
           )}
+
+        </div>
+      </section>
+
+      <section className="subpage-content-wrap">
+        <div className="subpage-detail-layout">
+          <article className="subpage-panel job-description-card">
+            <div className="subpage-panel-title"><Briefcase size={20} /><div><p>{language === "zh" ? "职位描述" : "Job description"}</p><span>{companyName}</span></div></div>
 
           {/* Profile Badges - Hidden as per user request */}
           {/* {(salary || experience || language_ || education) && (
@@ -297,29 +290,24 @@ export default function JobPage() {
             </div>
           )}
 
-          {/* CTA - LinkedIn button */}
-          <div className="mt-12 pt-8 border-t border-border">
-            <div className="bg-accent-light rounded-xl p-6 flex flex-col md:flex-row items-center justify-between gap-4">
-              <div>
-                <h3 className="text-xl font-semibold text-text-primary mb-1">
-                  {trans.interested}
-                </h3>
-                <p className="text-text-secondary">
-                  {trans.contactMe}
-                </p>
-              </div>
+          </article>
+          <aside className="subpage-detail-aside">
+            <div className="subpage-aside-icon"><Mail size={22} /></div>
+            <p className="eyebrow">{language === "zh" ? "下一步" : "Next step"}</p>
+            <h2>{trans.interested}</h2>
+            <p>{trans.contactMe}</p>
               <a
                 href={profile?.contact?.linkedin}
                 onClick={() => sendAnalyticsEvent("contact_linkedin", job.id)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-full hover:bg-orange-600 transition-colors shadow-md"
+                className="subpage-primary-button"
               >
                 <Linkedin size={18} />
                 {trans.applyNow}
               </a>
-            </div>
-          </div>
+            <Link href="/contact" className="subpage-secondary-link">{language === "zh" ? "或发送岗位咨询" : "Or send a role inquiry"}</Link>
+          </aside>
         </div>
       </section>
     </main>

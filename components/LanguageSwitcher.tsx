@@ -12,10 +12,10 @@ export default function LanguageSwitcher() {
   if (pathname === "/" || pathname.startsWith("/shijie-ai")) return null;
 
   return (
-    <><header className="fixed inset-x-0 top-0 z-50 border-b border-ink/10 bg-[#fffaf4]/90 backdrop-blur-xl">
-      <div className="max-w-6xl mx-auto h-16 px-4 flex items-center justify-between gap-4">
+    <><header className="public-site-header">
+      <div className="public-site-header-inner">
         <GoldyLogo />
-        <nav className="hidden md:flex items-center gap-7 text-sm font-semibold text-ink">
+        <nav className="public-site-nav">
           <Link href="/#jobs" className="hover:text-accent">{language === "zh" ? "找岗位" : "Jobs"}</Link>
           <Link href="/companies" className="hover:text-accent">{language === "zh" ? "合作公司" : "Companies"}</Link>
           <Link href="/#industries" className="hover:text-accent">{language === "zh" ? "行业" : "Industries"}</Link>
@@ -29,7 +29,7 @@ export default function LanguageSwitcher() {
           </Link>
           <Link href="/contact" className="hover:text-accent">{language === "zh" ? "联系咕咕" : "Contact"}</Link>
         </nav>
-        <div className="flex items-center gap-1 border border-ink/15 bg-white/60 rounded-full p-1">
+        <div className="public-language-toggle">
       <button
         onClick={() => setLanguage("zh")}
         className={`px-3 py-1.5 rounded-full text-sm font-medium transition-all ${
@@ -52,6 +52,6 @@ export default function LanguageSwitcher() {
       </button>
         </div>
       </div>
-    </header><div className="h-16" aria-hidden="true" /></>
+    </header><div className="public-site-header-spacer" aria-hidden="true" /></>
   );
 }

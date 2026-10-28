@@ -42,7 +42,7 @@ export default function JobCard({ job, company, index }: JobCardProps) {
       transition={{ delay: index * 0.1, duration: 0.4 }}
     >
       <Link href={`/job/${job.id}`} onClick={() => sendAnalyticsEvent("company_to_job", company?.id || "jobs-list")}>
-        <div className="group bg-bg-card rounded-2xl p-6 border border-border hover:border-accent hover:shadow-lg transition-all cursor-pointer h-full">
+        <div className="academy-job-card group bg-bg-card rounded-2xl p-6 border border-border hover:border-accent hover:shadow-lg transition-all cursor-pointer h-full">
           <div className="flex justify-between items-start mb-4">
             <div>
               {company && (

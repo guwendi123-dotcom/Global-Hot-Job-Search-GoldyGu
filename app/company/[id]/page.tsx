@@ -4,17 +4,19 @@ import { useEffect, useState } from "react";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { ArrowLeft, MapPin, Building2 } from "lucide-react";
+import { MapPin, Building2 } from "lucide-react";
 import {
   getCompanies,
   getJobs,
   getIndustries,
+  getProfile,
   type Company,
   type Job,
   type Industry
 } from "@/lib/data";
 import JobCard from "@/components/JobCard";
 import { useI18n } from "@/lib/i18n";
+import Footer from "@/components/Footer";
 
 export default function CompanyPage() {
   const params = useParams();
@@ -39,7 +41,7 @@ export default function CompanyPage() {
 
   if (loading) {
     return (
-      <main className="min-h-screen bg-bg-primary flex items-center justify-center">
+      <main className="academy-subpage subpage-state">
         <div className="text-text-secondary">Loading...</div>
       </main>
     );
@@ -47,7 +49,7 @@ export default function CompanyPage() {
 
   if (!company) {
     return (
-      <main className="min-h-screen bg-bg-primary flex items-center justify-center">
+      <main className="academy-subpage subpage-state">
         <div className="text-center">
           <h1 className="text-2xl font-bold text-text-primary mb-4">{language === "zh" ? "公司未找到" : "Company Not Found"}</h1>
           <Link href="/" className="text-accent hover:underline">{t.back}</Link>
@@ -63,45 +65,35 @@ export default function CompanyPage() {
   const industryName = language === "zh" ? industry?.name : (industry?.nameEn || industry?.name);
 
   return (
-    <main className="min-h-screen bg-bg-primary">
-      <header className="bg-white border-b border-border">
-        <div className="max-w-5xl mx-auto px-4 py-4">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-text-secondary hover:text-accent transition-colors"
-          >
-            <ArrowLeft size={18} />
-            {language === "zh" ? "返回首页" : "Back to Home"}
-          </Link>
-        </div>
-      </header>
-
-      <section className="bg-white border-b border-border">
-        <div className="max-w-5xl mx-auto px-4 py-16">
-          <div className="flex items-start gap-6">
-            <div className="w-20 h-20 rounded-2xl bg-white border border-border shadow-sm flex items-center justify-center text-3xl flex-shrink-0 overflow-hidden">
+    <main className="academy-subpage">
+      <section className="subpage-intro">
+        <div className="subpage-intro-inner">
+          <Link href="/companies" className="subpage-back">{language === "zh" ? "← 返回合作公司" : "← Back to companies"}</Link>
+          <div className="subpage-entity-hero">
+            <div className="subpage-entity-logo">
               {company.logo ? <img src={company.logo} alt="" className="w-14 h-14 object-contain" /> : company.logoEmoji || "🏢"}
             </div>
-            <div>
-              <h1 className="text-4xl font-bold text-text-primary mb-2 font-display">
+            <div className="min-w-0">
+              <p className="eyebrow">{language === "zh" ? "合作团队档案" : "Partner team profile"}</p>
+              <h1 className="subpage-title">
                 {name}
               </h1>
-              <p className="text-lg text-text-secondary mb-4">
+              <p className="subpage-lede">
                 {description}
               </p>
-              <div className="flex gap-6 text-text-secondary">
-                <span className="flex items-center gap-2">
+              <div className="subpage-meta-row">
+                <span>
                   <Building2 size={16} />
                   {stage}
                 </span>
-                <span className="flex items-center gap-2">
+                <span>
                   <MapPin size={16} />
                   {location}
                 </span>
                 {industry && (
                   <Link
                     href={`/industry/${industry.id}`}
-                    className="flex items-center gap-2 text-accent hover:underline"
+                    className="subpage-meta-link"
                   >
                     {industryName}
                   </Link>
@@ -112,13 +104,12 @@ export default function CompanyPage() {
         </div>
       </section>
 
-      <section className="max-w-5xl mx-auto px-4 py-16">
-        <h2 className="text-2xl font-bold text-text-primary mb-8 font-display">
-          {t.jobs} ({jobs.length})
-        </h2>
+      <section className="subpage-content-wrap">
+        <div className="subpage-panel">
+          <div className="subpage-section-heading compact"><div><p className="eyebrow">{language === "zh" ? "团队机会" : "Team opportunities"}</p><h2>{t.jobs}</h2></div><span>{jobs.length}</span></div>
 
         {jobs.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="subpage-card-grid">
             {jobs.map((job, index) => (
               <JobCard key={job.id} job={job} company={company} index={index} />
             ))}
@@ -128,7 +119,9 @@ export default function CompanyPage() {
             <p className="text-text-secondary">{t.noJobs}</p>
           </div>
         )}
+        </div>
       </section>
+      <Footer profile={getProfile()} />
     </main>
   );
 }

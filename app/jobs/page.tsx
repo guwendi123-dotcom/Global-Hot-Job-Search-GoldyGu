@@ -3,11 +3,11 @@
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import {
-  ArrowLeft, Binary, BriefcaseBusiness, Building2, ChevronDown, CircleUserRound,
-  Code2, Filter, MapPin, Megaphone, Palette, RotateCcw, Search, Settings2,
+  Binary, BriefcaseBusiness, Building2, ChevronDown, CircleUserRound,
+  Code2, Filter, MapPin, Megaphone, Palette, RotateCcw, Search,
   ShieldCheck, Sparkles, UsersRound, Wrench,
 } from "lucide-react";
-import { getJobs, getCompanies, type Job } from "@/lib/data";
+import { getJobs, getCompanies, getProfile, type Job } from "@/lib/data";
 import { getLocationGroup, jobMatchesLocation, LOCATION_GROUPS } from "@/lib/location-filters";
 import {
   getFunctionOption, getSpecialtyOption, inferJobTaxonomy, JOB_FUNCTIONS,
@@ -17,6 +17,7 @@ import {
 import { useI18n } from "@/lib/i18n";
 import { Suspense, useEffect, useMemo, useState } from "react";
 import JobCard from "@/components/JobCard";
+import Footer from "@/components/Footer";
 
 type Filters = {
   q?: string; function?: string; specialty?: string; level?: string; mode?: string;
@@ -115,27 +116,16 @@ function JobsExplorer() {
   const currentSpecialty = selectedFunction ? getSpecialtyOption(selectedFunction, selectedSpecialty) : undefined;
 
   return (
-    <main className="min-h-screen bg-bg-primary">
-      <header className="bg-white/90 border-b border-border sticky top-0 z-30 backdrop-blur">
-        <div className="max-w-6xl mx-auto px-5 py-4 flex items-center justify-between gap-4">
-          <Link href="/" className="inline-flex items-center gap-2 text-sm text-text-secondary hover:text-accent">
-            <ArrowLeft size={18} />{t.backToHome}
-          </Link>
-          <div className="hidden sm:flex items-center gap-2 text-xs text-text-secondary">
-            <Settings2 size={15} />
-            {language === "zh" ? "按职能、方向、职级与地区组合筛选" : "Combine function, specialty, level and location"}
-          </div>
-        </div>
-      </header>
-
-      <section className="border-b border-border bg-white">
-        <div className="max-w-6xl mx-auto px-5 pt-10 pb-8">
+    <main className="academy-subpage">
+      <section className="subpage-intro subpage-intro-wide">
+        <div className="subpage-intro-inner">
+          <Link href="/" className="subpage-back">{language === "zh" ? "← 返回首页" : "← Back home"}</Link>
           <div className="max-w-3xl">
             <p className="eyebrow">{language === "zh" ? "更准确地找到适合你的机会" : "A clearer way to find your next role"}</p>
-            <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-ink">
+            <h1 className="subpage-title">
               {language === "zh" ? "先选职能，再看具体方向" : "Start with function, then narrow by specialty"}
             </h1>
-            <p className="mt-3 text-sm md:text-base leading-7 text-text-secondary">
+            <p className="subpage-lede">
               {language === "zh" ? "负责人、Director 和 CXO 不再与职能混在一起；你可以单独叠加职级、城市和办公方式。" : "Leadership level is separated from job function, so you can combine it with city and work mode."}
             </p>
           </div>
@@ -151,12 +141,12 @@ function JobsExplorer() {
             <button className="px-6 py-3 rounded-xl bg-ink text-white text-sm font-semibold hover:-translate-y-0.5">{language === "zh" ? "搜索" : "Search"}</button>
           </form>
 
-          <div className="mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2.5">
+          <div className="subpage-function-grid">
             {JOB_FUNCTIONS.map((item) => {
               const count = functionCounts.get(item.id) || 0;
               const active = item.id === selectedFunction;
               return (
-                <Link key={item.id} href={active ? buildHref({}, ["function", "specialty"]) : buildHref({ function: item.id }, ["specialty"])} className={`group rounded-2xl border px-3.5 py-3.5 text-left transition-all ${active ? "bg-ink text-white border-ink shadow-md" : "bg-bg-primary/50 text-ink border-border hover:border-accent hover:-translate-y-0.5"}`}>
+                <Link key={item.id} href={active ? buildHref({}, ["function", "specialty"]) : buildHref({ function: item.id }, ["specialty"])} className={`subpage-function-card group ${active ? "active" : ""}`}>
                   <div className="flex items-center justify-between gap-2">
                     <span className={active ? "text-white" : "text-accent"}>{functionIcons[item.id]}</span>
                     <span className={`text-xs ${active ? "text-white/65" : "text-text-secondary"}`}>{count}</span>
@@ -168,7 +158,7 @@ function JobsExplorer() {
           </div>
 
           {selectedFunction && specialtyOptions.length > 0 && (
-            <div className="mt-6 rounded-2xl border border-border bg-bg-primary/70 p-4">
+            <div className="subpage-specialty-panel">
               <div className="flex items-center justify-between gap-3 mb-3">
                 <p className="text-sm font-semibold text-ink">{language === "zh" ? `${currentFunction?.labelZh} · 二级方向` : `${currentFunction?.labelEn} · Specialties`}</p>
                 {selectedSpecialty && <Link href={buildHref({}, ["specialty"])} className="text-xs text-accent hover:underline">{language === "zh" ? "查看全部方向" : "All specialties"}</Link>}
@@ -185,8 +175,8 @@ function JobsExplorer() {
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto px-5 py-7">
-        <div className="rounded-2xl border border-border bg-white p-4 md:p-5">
+      <section className="subpage-content-wrap">
+        <div className="subpage-panel subpage-filter-panel">
           <div className="flex items-center justify-between mb-4">
             <h2 className="inline-flex items-center gap-2 font-bold text-ink"><Filter size={17} className="text-accent" />{language === "zh" ? "组合筛选" : "Refine"}</h2>
             {activeFilterCount > 0 && <Link href="/jobs" className="inline-flex items-center gap-1.5 text-xs text-text-secondary hover:text-accent"><RotateCcw size={13} />{language === "zh" ? `清除 ${activeFilterCount} 项` : `Clear ${activeFilterCount}`}</Link>}
@@ -216,7 +206,7 @@ function JobsExplorer() {
           )}
         </div>
 
-        <div className="flex items-end justify-between gap-4 mt-9 mb-5">
+        <div className="subpage-section-heading">
           <div>
             <p className="eyebrow">{language === "zh" ? "筛选结果" : "Results"}</p>
             <h2 className="text-2xl md:text-3xl font-extrabold text-ink">
@@ -228,7 +218,7 @@ function JobsExplorer() {
         </div>
 
         {filteredJobs.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="subpage-card-grid">
             {filteredJobs.map((job, index) => <JobCard key={job.id} job={job} company={companies.find((company) => company.id === job.companyId)} index={index} />)}
           </div>
         ) : (
@@ -239,6 +229,7 @@ function JobsExplorer() {
           </div>
         )}
       </section>
+      <Footer profile={getProfile()} />
     </main>
   );
 }
