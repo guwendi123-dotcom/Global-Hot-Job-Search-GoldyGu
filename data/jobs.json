@@ -7816,5 +7816,376 @@
     },
     "sort": 10,
     "createdAt": "2026-11-02T03:59:59.532Z"
+  },
+  {
+    "companyId": "global-science-intelligence-data-lab",
+    "hiringStatus": "open",
+    "createdAt": "2026-11-02T09:00:00.000Z",
+    "sort": 10,
+    "id": "global-science-intelligence-data-lab-pr-operations-specialist",
+    "title": "PR 运营专员",
+    "titleEn": "PR & Content Operations Specialist",
+    "jobType": "marketing,communications,public-relations",
+    "jobTypeEn": "Marketing / Communications / PR",
+    "workMode": "远程 / 混合办公，具体地点面议",
+    "workModeEn": "Remote / Hybrid, location negotiable",
+    "location": "中国（地点面议）",
+    "locationEn": "China (Location Negotiable)",
+    "description": "岗位介绍：\n加入一家快速成长的科学智能实验室，与创始团队共同从 0 到 1 建设品牌叙事、内容矩阵与 PR 体系。你需要把复杂的 AI 与科研成果转化为清晰、有可信度且适合不同渠道的内容。\n\n岗位职责：\n• 负责公司公众号的选题、撰写、排版、发布与日常运营。\n• 负责创始人个人 IP 账号运营，围绕行业观点、技术进展与团队故事持续产出内容。\n• 围绕行业大会、技术成果发布和重要合作等节点策划传播主题与排期。\n• 搭建媒体关系、通稿分发、品牌物料与基础舆情响应机制。\n• 协助整理融资及合作沟通材料，维护统一、准确、可追溯的对外口径。\n• 建立内容数据复盘机制，持续优化选题与渠道策略。\n\n任职要求：\n• 本科及以上学历，2 年以上新媒体、品牌内容或 PR 运营经验。\n• 有公众号深度运营经验，可独立完成内容全流程。\n• 熟悉小红书等内容平台，有创始人或专家 IP 运营经验优先。\n• 文字功底扎实，能够快速理解 AI 与科学技术并完成大众化表达。\n• 自驱、可靠，能够独立搭建内容生产与传播流程。\n\n加分项：科技 / AI 行业经验；科技媒体资源；海外传播经验；中英双语；基础设计或视频剪辑能力。\n\n投递建议：请附代表性文章、账号或传播案例。",
+    "descriptionEn": "About the Role:\nWork directly with the founding team of a fast-growing scientific-intelligence lab to build its narrative, content engine, and PR system from zero to one.\n\nResponsibilities:\n• Own editorial planning, writing, publishing, and performance review for the company's primary content channels.\n• Build founder-led thought leadership across social platforms.\n• Plan communications around conferences, research releases, and major partnerships.\n• Develop media relationships, press materials, brand assets, and basic issues-response processes.\n• Support consistent external narratives for financing and strategic partnerships.\n• Use content data to improve topics, formats, and channel strategy.\n\nQualifications:\n• Bachelor's degree or above and 2+ years in content, communications, or PR operations.\n• Strong long-form writing and end-to-end editorial execution.\n• Familiarity with creator-led platforms and founder or expert personal branding.\n• Ability to translate complex AI and scientific work for broader audiences.\n• High ownership and comfort building systems in an early-stage environment.\n\nPreferred: AI/technology communications, media relationships, international communications, bilingual writing, design, or video editing. Please include a portfolio.",
+    "tags": [
+      "PR",
+      "内容运营",
+      "创始人IP",
+      "AI for Science",
+      "远程/混合"
+    ],
+    "tagsEn": [
+      "PR",
+      "Content Operations",
+      "Founder Brand",
+      "AI for Science",
+      "Remote / Hybrid"
+    ],
+    "profile": {
+      "experience": "2 年以上内容或 PR 运营经验",
+      "experienceEn": "2+ years in content or PR operations",
+      "language": "中文写作优秀，英语加分",
+      "languageEn": "Excellent Chinese writing; English preferred",
+      "education": "本科及以上",
+      "educationEn": "Bachelor's degree or above",
+      "skills": [
+        "内容策划",
+        "深度写作",
+        "社媒运营",
+        "媒体传播",
+        "数据复盘"
+      ],
+      "skillsEn": [
+        "Editorial Strategy",
+        "Long-form Writing",
+        "Social Operations",
+        "Media Relations",
+        "Content Analytics"
+      ]
+    }
+  },
+  {
+    "companyId": "global-science-intelligence-data-lab",
+    "hiringStatus": "open",
+    "createdAt": "2026-11-02T09:00:00.000Z",
+    "sort": 10,
+    "id": "global-science-intelligence-data-lab-ai-data-business-development",
+    "title": "AI 数据商务拓展（BD）",
+    "titleEn": "AI Data Business Development Manager",
+    "jobType": "bd-sales,partnerships",
+    "jobTypeEn": "Business Development / Sales",
+    "workMode": "全职；根据 Base 与客户覆盖协作",
+    "workModeEn": "Full-time; work model aligned with base and market coverage",
+    "location": "上海 / 北京 / 旧金山湾区",
+    "locationEn": "Shanghai / Beijing / SF Bay Area",
+    "description": "岗位介绍：\n负责面向国内外大模型公司与 AI 实验室的科学数据、模型训练数据、评测及智能体环境业务，从客户发现、需求诊断到签约回款和复购扩单完成销售闭环。\n\n岗位职责：\n• 开拓大模型预训练、后训练、评测与 Agent 团队，建立数据和采购决策人关系。\n• 理解 SFT、偏好数据、评测集、RL 环境等需求，联合研究与交付团队设计方案和报价。\n• 推动样本试用、合同、法务、采购、签约与回款，并经营复购和跨团队扩展。\n• 通过学术会议、技术活动和行业网络拓展高质量客户线索。\n• 维护渠道伙伴、客户登记、销售 Pipeline 与市场反馈。\n\n任职要求：\n• 1 年以上 ToB 销售或 BD 经验，具备 AI 数据服务或向大模型团队销售技术产品的经验。\n• 有独立签单记录，能讲清客户、合同规模、推进过程与本人贡献。\n• 理解大模型数据基本概念，能与研究员和技术决策人沟通。\n• 能在销售体系尚未成熟时自主搭建 Pipeline。\n• 英语可作为工作语言者优先。\n\n加分项：与国内外模型团队的数据或采购负责人有直接联系；生物、医学、化学等理科背景；有国际会议和跨境商务经验。",
+    "descriptionEn": "About the Role:\nOwn business development for scientific and model-training data, evaluation, and agent environments across frontier model companies and AI labs.\n\nResponsibilities:\n• Build relationships with pre-training, post-training, evaluation, agent, data, and procurement leaders.\n• Diagnose needs across SFT, preference data, benchmarks, and RL environments, then develop proposals with research and delivery teams.\n• Drive trials, pricing, legal and procurement processes, contracting, payment, renewals, and account expansion.\n• Source opportunities through research conferences, technical communities, and industry networks.\n• Maintain channel partners, account registration, pipeline discipline, and market feedback.\n\nQualifications:\n• 1+ years in B2B sales or BD with experience in AI data services or technical products sold to model teams.\n• Evidence of personally closing deals and clear ownership of the sales process.\n• Working knowledge of model-training data and the ability to engage technical stakeholders.\n• Ability to build pipeline in an early-stage environment.\n• Professional English preferred.\n\nPreferred: direct model-lab relationships, science background, and cross-border commercial experience.",
+    "tags": [
+      "AI数据",
+      "BD",
+      "大模型",
+      "RL环境",
+      "全球客户"
+    ],
+    "tagsEn": [
+      "AI Data",
+      "Business Development",
+      "Foundation Models",
+      "RL Environments",
+      "Global Customers"
+    ],
+    "profile": {
+      "experience": "1 年以上 ToB 销售或 BD 经验",
+      "experienceEn": "1+ years in B2B sales or BD",
+      "language": "英语工作能力优先",
+      "languageEn": "Professional English preferred",
+      "education": "本科及以上",
+      "educationEn": "Bachelor's degree or above",
+      "skills": [
+        "全周期销售",
+        "AI数据",
+        "方案销售",
+        "大模型客户",
+        "Pipeline"
+      ],
+      "skillsEn": [
+        "Full-cycle Sales",
+        "AI Data",
+        "Solution Selling",
+        "Model Labs",
+        "Pipeline Management"
+      ]
+    }
+  },
+  {
+    "companyId": "global-science-intelligence-data-lab",
+    "hiringStatus": "open",
+    "createdAt": "2026-11-02T09:00:00.000Z",
+    "sort": 10,
+    "id": "global-science-intelligence-data-lab-go-to-market-product-manager",
+    "title": "Go-to-Market PM｜商业化产品经理",
+    "titleEn": "Go-to-Market Product Manager",
+    "jobType": "product,mkt-growth,bd-sales",
+    "jobTypeEn": "Product / GTM / Commercialization",
+    "workMode": "上海办公",
+    "workModeEn": "On-site in Shanghai",
+    "location": "上海",
+    "locationEn": "Shanghai",
+    "description": "岗位介绍：\n与创始团队共同搭建科学智能产品的商业化与生态体系，重点推动生物医药，并覆盖化学、材料等科学领域的产业合作、联合研发和模型训练项目。\n\n岗位职责：\n• 拓展科研机构、高校和产业伙伴，推动产品在真实科研场景落地。\n• 识别合作方的数据、场景与算力资源，设计联合训练垂类模型的合作模式。\n• 主导从线索、需求、方案、报价和合同到交付、回款的完整商业化流程。\n• 针对不同科学领域设计差异化合作方案与生态策略。\n• 与研究、研发和创始团队共同提炼产品价值和商业叙事。\n• 与法务和专业机构协作，保障交易结构、交付和收入确认合规。\n\n任职要求：\n• 本科及以上学历，3 年以上科技或 AI 行业 GTM、商业化、BD、生态合作或客户成功经验。\n• 有与产业方、科研机构或高校建立合作并推动签约落地的案例。\n• 理解从商务模式、合同、交付到回款的完整链路。\n• 能同时管理多个外部伙伴和内部团队，推动复杂项目落地。\n• 对 AI 前沿技术和科研场景有真实兴趣，能把技术转化为商业语言。\n\n加分项：生物医药、生命科学、化学或材料背景；产学研合作；联合训练模型；渠道与生态体系建设；跨境合作。",
+    "descriptionEn": "About the Role:\nBuild the commercialization and ecosystem motion for scientific-intelligence products alongside the founding team, with an initial focus on biopharma and additional work across chemistry and materials.\n\nResponsibilities:\n• Develop partnerships with research institutions, universities, and industry organizations.\n• Identify partner data, use cases, and compute resources and structure joint vertical-model training programs.\n• Own the path from opportunity and solution design through pricing, contracting, delivery, payment, and expansion.\n• Design domain-specific commercialization and ecosystem strategies.\n• Translate product and research differentiation into credible commercial narratives.\n• Work with legal and professional advisers on compliant transaction and delivery structures.\n\nQualifications:\n• Bachelor's degree or above and 3+ years in technology/AI GTM, commercialization, BD, partnerships, or customer success.\n• Proven ability to build and close partnerships with industry, research, or university stakeholders.\n• Understanding of the full commercial lifecycle.\n• Strong cross-functional execution across multiple complex projects.\n• Genuine interest in frontier AI and scientific workflows.\n\nPreferred: biopharma, life science, chemistry, materials, joint R&D, channel ecosystems, or cross-border partnerships.",
+    "tags": [
+      "GTM",
+      "商业化产品",
+      "生态合作",
+      "AI for Science",
+      "生物医药"
+    ],
+    "tagsEn": [
+      "GTM",
+      "Commercial Product",
+      "Ecosystem Partnerships",
+      "AI for Science",
+      "Biopharma"
+    ],
+    "profile": {
+      "experience": "3 年以上 GTM、商业化或生态合作经验",
+      "experienceEn": "3+ years in GTM, commercialization, or partnerships",
+      "language": "英语加分",
+      "languageEn": "English preferred",
+      "education": "本科及以上",
+      "educationEn": "Bachelor's degree or above",
+      "skills": [
+        "商业模式",
+        "生态合作",
+        "产业客户",
+        "复杂项目推进",
+        "科研场景"
+      ],
+      "skillsEn": [
+        "Business Models",
+        "Ecosystem Partnerships",
+        "Industry Customers",
+        "Complex Delivery",
+        "Scientific Workflows"
+      ]
+    }
+  },
+  {
+    "companyId": "global-science-intelligence-data-lab",
+    "hiringStatus": "open",
+    "createdAt": "2026-11-02T09:00:00.000Z",
+    "sort": 10,
+    "id": "global-science-intelligence-data-lab-science-data-product-manager",
+    "title": "科学数据产品经理｜生物医学 / 化学与材料",
+    "titleEn": "Science Data Product Manager",
+    "jobType": "product,data,ai-agent",
+    "jobTypeEn": "Product / Scientific Data",
+    "workMode": "重庆 On-site · 全职",
+    "workModeEn": "On-site in Chongqing · Full-time",
+    "location": "重庆",
+    "locationEn": "Chongqing",
+    "description": "岗位介绍：\n把模型需要的科学数据转化为可执行、可验收、可规模化的数据生产项目，并带领标注与专家团队高质量交付。岗位按生物医学、化学与材料方向招聘。\n\n岗位职责：\n• 对接模型客户和研究团队，理解 SFT、RL 与评测目标并拆解数据任务。\n• 设计题目、推理链、评分 Rubric、可验证答案与 Verifier 规则。\n• 编写标注指南和示例，组织试标、校准、质检与标准迭代。\n• 管理进度、产能和质量指标，协调硕博与行业专家网络。\n• 跟踪前沿论文和高难评测，提出新数据品类与生产方法。\n• 建设科学评测基准，控制难度分布、数据泄漏和污染。\n\n任职要求：\n• 硕士及以上学历，生物、医学、药学、化学、材料、物理、数学等专业；特别优秀的本科生可考虑。\n• 接受过正规科研训练，可独立阅读英文文献并判断科学问题质量。\n• 理解预训练、SFT、RLHF / RLVR 等基本流程。\n• 结构化和文档能力强，有项目管理或带人经验。\n• 深度使用主流大模型产品，对科学能力边界有一手判断。\n\n加分项：模型数据、评测或标注项目；湿实验；Python 数据处理；论文发表。",
+    "descriptionEn": "About the Role:\nTranslate scientific model needs into executable, measurable, and scalable data-production programs, leading annotation and expert teams across biomedicine or chemistry/materials.\n\nResponsibilities:\n• Convert SFT, RL, and evaluation goals into clear scientific data tasks.\n• Design prompts, reasoning requirements, rubrics, verifiable answers, and verifier rules.\n• Create guidelines, run pilots and calibration, and improve quality standards.\n• Manage throughput and quality while coordinating graduate-level and industry experts.\n• Track frontier research and propose new data products and benchmarks.\n• Control benchmark difficulty, leakage, and contamination.\n\nQualifications:\n• Master's degree or above in a scientific discipline; exceptional bachelor's candidates considered.\n• Formal research training and ability to evaluate English-language scientific literature.\n• Understanding of pre-training, SFT, RLHF/RLVR, and model evaluation.\n• Strong structured writing, project management, and team coordination.\n• Deep hands-on use of leading language models for scientific work.\n\nPreferred: model-data or evaluation projects, wet-lab experience, Python, or publications.",
+    "tags": [
+      "科学数据",
+      "产品经理",
+      "Benchmark",
+      "生物医学",
+      "化学材料"
+    ],
+    "tagsEn": [
+      "Scientific Data",
+      "Product Manager",
+      "Benchmarks",
+      "Biomedicine",
+      "Chemistry & Materials"
+    ],
+    "profile": {
+      "experience": "科研训练 + 项目管理能力",
+      "experienceEn": "Research training plus project management",
+      "language": "可独立阅读英文文献",
+      "languageEn": "Independent English literature review",
+      "education": "硕士及以上，优秀本科可考虑",
+      "educationEn": "Master's preferred; exceptional bachelor's considered",
+      "skills": [
+        "科学数据设计",
+        "Rubric",
+        "Verifier",
+        "Benchmark",
+        "质量管理"
+      ],
+      "skillsEn": [
+        "Scientific Data Design",
+        "Rubrics",
+        "Verifiers",
+        "Benchmarks",
+        "Quality Management"
+      ]
+    }
+  },
+  {
+    "companyId": "global-science-intelligence-data-lab",
+    "hiringStatus": "open",
+    "createdAt": "2026-11-02T09:00:00.000Z",
+    "sort": 10,
+    "id": "global-science-intelligence-data-lab-agent-data-product-manager",
+    "title": "智能体数据产品经理｜Agent Data PM",
+    "titleEn": "Agent Data Product Manager",
+    "jobType": "product,ai-agent,data",
+    "jobTypeEn": "Product / Agent Data",
+    "workMode": "重庆 On-site · 全职",
+    "workModeEn": "On-site in Chongqing · Full-time",
+    "location": "重庆",
+    "locationEn": "Chongqing",
+    "description": "岗位介绍：\n负责智能体训练数据与 RL 环境的生产，从任务设计、环境搭建到轨迹采集、奖励与评测设计，推动 Agent 在真实工具环境中学习复杂任务。\n\n岗位职责：\n• 围绕科研工具、代码与数据分析、文献检索及软件操作设计任务分布与难度梯度。\n• 定义 RL 环境的初始状态、工具、终止条件、自动奖励 / Verifier 与人工 Rubric。\n• 设计长程轨迹采集、模型轨迹评审、错误标记和纠正流程。\n• 与工程团队完善环境与标注工具链，提升生产效率和可复现性。\n• 分析 Agent 失败模式并反推下一批数据和环境设计。\n• 建设可复现的 Agent 评测任务、环境与判分脚本。\n\n任职要求：\n• 本科及以上学历，计算机、软件、自动化、数学或其他具备编程能力的理科专业。\n• 重度使用 AI Coding、Deep Research 等 Agent 产品，能解释其失败模式。\n• 理解 Tool Use、Function Calling、ReAct、多轮规划、MCP 及 RL 环境 / 奖励 / 轨迹。\n• 能读写 Python 与基础 Shell，并理解 JSON 轨迹数据。\n• 结构化思维强，有项目管理或带人经验。\n\n加分项：Agent / RL 数据、SWE 环境或评测集；个人 Agent 项目；Docker、虚拟机或浏览器自动化；科研软件经验。",
+    "descriptionEn": "About the Role:\nOwn production of agent-training data and RL environments, spanning task design, environment construction, trajectory collection, rewards, and evaluation.\n\nResponsibilities:\n• Design task distributions for scientific tools, coding, data analysis, literature research, and software interaction.\n• Specify initial state, tools, termination conditions, automated rewards/verifiers, and human rubrics.\n• Build long-horizon trajectory collection and review workflows.\n• Improve environment and annotation tooling with engineers.\n• Analyze agent failures and convert them into the next data and environment priorities.\n• Build reproducible agent benchmarks and scoring scripts.\n\nQualifications:\n• Bachelor's degree or above in computing, automation, mathematics, or another quantitative field with programming ability.\n• Heavy user of coding and research agents with clear judgment about failure modes.\n• Understanding of tool use, function calling, ReAct, planning, MCP, and RL environments/rewards/trajectories.\n• Working Python, shell, and JSON skills.\n• Strong structured thinking and project leadership.\n\nPreferred: Agent/RL data, SWE environments, open-source agent work, Docker/VM/browser automation, or scientific software.",
+    "tags": [
+      "Agent数据",
+      "RL环境",
+      "产品经理",
+      "轨迹",
+      "评测"
+    ],
+    "tagsEn": [
+      "Agent Data",
+      "RL Environments",
+      "Product Manager",
+      "Trajectories",
+      "Evaluation"
+    ],
+    "profile": {
+      "experience": "Agent 深度实践与项目管理能力",
+      "experienceEn": "Deep agent practice plus project management",
+      "language": "可阅读英文技术资料",
+      "languageEn": "English technical reading",
+      "education": "本科及以上",
+      "educationEn": "Bachelor's degree or above",
+      "skills": [
+        "Agent",
+        "RL环境",
+        "轨迹设计",
+        "Python",
+        "Verifier"
+      ],
+      "skillsEn": [
+        "Agents",
+        "RL Environments",
+        "Trajectory Design",
+        "Python",
+        "Verifiers"
+      ]
+    }
+  },
+  {
+    "companyId": "global-science-intelligence-data-lab",
+    "hiringStatus": "open",
+    "createdAt": "2026-11-02T09:00:00.000Z",
+    "sort": 10,
+    "id": "global-science-intelligence-data-lab-agent-trajectory-annotation-engineer",
+    "title": "智能体轨迹标注工程师",
+    "titleEn": "Agent Trajectory Annotation Engineer",
+    "jobType": "engineering,ai-agent,data",
+    "jobTypeEn": "Engineering / Agent Data",
+    "workMode": "重庆 On-site · 全职",
+    "workModeEn": "On-site in Chongqing · Full-time",
+    "location": "重庆",
+    "locationEn": "Chongqing",
+    "description": "岗位介绍：\n在真实的软件和工具环境中完成复杂任务、评审模型操作过程，生产让智能体学会做事的高质量训练与评测数据。接受优秀应届生。\n\n岗位职责：\n• 在终端、代码仓库、浏览器和科研软件中完成多步任务，记录规范示范轨迹。\n• 评审模型轨迹，判断完成情况、标记错误或低效步骤并提出更优方案。\n• 编写新任务、测试用例和验证脚本，参与 RL 环境搭建与验证。\n• 设计与验证可复现、可判分且有区分度的 Agent 评测任务。\n• 反馈环境与工具问题，参与交叉质检和标准优化。\n\n任职要求：\n• 本科及以上学历，计算机、软件工程、数据科学等专业优先。\n• 熟练使用 Python、Linux 命令行和 Git，能够独立完成中等难度编程任务。\n• 经常使用 AI 编程助手或 Agent 产品，对常见错误有一手经验。\n• 严谨、有耐心，能够专注完成长任务并清晰记录过程。\n\n加分项：算法竞赛、开源项目或技术实习；Docker、浏览器自动化；生物信息或计算化学软件。",
+    "descriptionEn": "About the Role:\nComplete complex tasks in real software and tool environments and evaluate model behavior to create high-quality training and evaluation trajectories. Strong new graduates are welcome.\n\nResponsibilities:\n• Complete multi-step tasks in terminals, repositories, browsers, and scientific software while recording clear demonstrations.\n• Review model trajectories, identify errors and inefficiency, and propose better approaches.\n• Write tasks, test cases, and verification scripts and help validate RL environments.\n• Design reproducible and discriminating agent evaluation tasks.\n• Report environment/tool issues and participate in cross-quality review.\n\nQualifications:\n• Bachelor's degree or above, preferably in computer science, software engineering, or data science.\n• Practical Python, Linux command line, and Git skills.\n• Frequent use of AI coding assistants or agents and first-hand understanding of their errors.\n• Rigor, patience, and clear written reasoning for long tasks.\n\nPreferred: competitions, open source, technical internships, Docker, browser automation, or scientific software.",
+    "tags": [
+      "轨迹标注",
+      "Agent",
+      "Python",
+      "Linux",
+      "接受应届生"
+    ],
+    "tagsEn": [
+      "Trajectory Annotation",
+      "Agents",
+      "Python",
+      "Linux",
+      "New Graduates Welcome"
+    ],
+    "profile": {
+      "experience": "接受优秀应届生",
+      "experienceEn": "Strong new graduates welcome",
+      "language": "可阅读英文技术资料",
+      "languageEn": "English technical reading",
+      "education": "本科及以上",
+      "educationEn": "Bachelor's degree or above",
+      "skills": [
+        "Python",
+        "Linux",
+        "Git",
+        "Agent评审",
+        "测试脚本"
+      ],
+      "skillsEn": [
+        "Python",
+        "Linux",
+        "Git",
+        "Agent Review",
+        "Verification Scripts"
+      ]
+    }
+  },
+  {
+    "companyId": "global-science-intelligence-data-lab",
+    "hiringStatus": "open",
+    "createdAt": "2026-11-02T09:00:00.000Z",
+    "sort": 10,
+    "id": "global-science-intelligence-data-lab-science-agent-data-intern",
+    "title": "科学与 Agent 数据标注实习生 / 兼职",
+    "titleEn": "Scientific & Agent Data Intern / Part-time Annotator",
+    "jobType": "operations,ai-agent,data",
+    "jobTypeEn": "Data Operations / Internship",
+    "workMode": "重庆驻场优先，支持远程；实习 / 兼职",
+    "workModeEn": "Chongqing on-site preferred; remote supported · Internship / Part-time",
+    "location": "重庆 / 远程",
+    "locationEn": "Chongqing / Remote",
+    "description": "岗位介绍：\n面向在读学生和具备专业背景的兼职伙伴，在资深标注与数据 PM 带领下参与真实的大模型科学数据和 Agent 数据项目。\n\n岗位职责：\n• 科学方向：为训练集与评测集出题、解题，评审并修正模型在专业问题上的回答。\n• Agent 方向：在代码、浏览器或科研软件环境中完成任务、记录并评审轨迹。\n• 参与试标、交叉质检和规范反馈，确保数据准确、完整、可复现。\n\n任职要求：\n• 在读本科高年级、硕士、博士，或已毕业并具备相关专业背景。\n• 科学方向要求理工科基础扎实；Agent 方向要求 Python 和基本命令行能力。\n• 认真、守时，能够严格遵守项目规范和数据保密要求。\n• 每周投入时间和合作周期在沟通中确认。\n\n你将获得：真实前沿模型数据项目经验、内部方法培训与实习证明；表现优秀者优先获得长期或全职发展机会。",
+    "descriptionEn": "About the Role:\nJoin real scientific and agent data projects under experienced annotators and data PMs. Open to current students and qualified part-time contributors.\n\nResponsibilities:\n• Science track: create and solve domain questions and review model answers for training and evaluation sets.\n• Agent track: complete tasks in code, browser, or scientific software environments and record/review trajectories.\n• Participate in pilots, cross-review, and guideline improvement.\n\nQualifications:\n• Senior undergraduate, master's, doctoral student, or graduate with a relevant professional background.\n• Strong scientific fundamentals for the science track; Python and command-line basics for the agent track.\n• Reliable, detail-oriented, and able to follow project and confidentiality requirements.\n• Weekly availability and engagement duration confirmed during the process.\n\nYou will gain hands-on frontier model-data experience, internal training, internship certification, and priority consideration for longer-term opportunities.",
+    "tags": [
+      "实习",
+      "兼职",
+      "科学数据",
+      "Agent数据",
+      "支持远程"
+    ],
+    "tagsEn": [
+      "Internship",
+      "Part-time",
+      "Scientific Data",
+      "Agent Data",
+      "Remote Supported"
+    ],
+    "profile": {
+      "experience": "在读学生或相关专业兼职人员",
+      "experienceEn": "Students or qualified part-time contributors",
+      "language": "可阅读专业资料",
+      "languageEn": "Able to read domain materials",
+      "education": "本科高年级 / 硕士 / 博士优先",
+      "educationEn": "Senior undergraduate / master's / doctoral preferred",
+      "skills": [
+        "专业知识",
+        "数据标注",
+        "模型评审",
+        "Python（Agent方向）",
+        "质量意识"
+      ],
+      "skillsEn": [
+        "Domain Expertise",
+        "Data Annotation",
+        "Model Review",
+        "Python (Agent Track)",
+        "Quality Discipline"
+      ]
+    }
   }
 ]

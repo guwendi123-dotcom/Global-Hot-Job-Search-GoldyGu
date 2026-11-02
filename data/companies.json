@@ -765,5 +765,21 @@
     "location": "全球市场",
     "locationEn": "Global Markets",
     "sort": 77
+  },
+  {
+    "id": "global-science-intelligence-data-lab",
+    "createdAt": "2026-11-02T09:00:00.000Z",
+    "industryId": "ai-agent",
+    "name": "全球科学智能模型与数据基础设施实验室",
+    "nameEn": "Global Scientific Intelligence Model & Data Infrastructure Lab",
+    "logo": "",
+    "logoEmoji": "🧬",
+    "description": "一家面向全球市场的 AI for Science 新型实验室，专注科学发现基础模型、智能体训练环境与高质量科研数据基础设施。团队由来自国际一流高校的 AI、生物医学与自然科学研究者共同组建，将计算设计、真实实验和模型训练连接为持续迭代的闭环，并与前沿模型团队、科研机构及产业客户开展合作。公司已具备从科学数据设计、RL 环境和长程轨迹生产，到实验验证与产业落地的完整能力，正处于产品化与全球商业化加速阶段。",
+    "descriptionEn": "A global AI-for-Science neo-lab building scientific discovery foundation models, agent training environments, and high-quality research data infrastructure. Founded by AI, biomedical, and natural-science researchers from leading universities, the team connects computational design, real-world experimentation, and model training into a continuously improving loop. It works with frontier model teams, research institutions, and industry partners, with capabilities spanning scientific data design, RL environments, long-horizon trajectories, experimental validation, and commercial deployment.",
+    "stage": "快速成长阶段 · 科学智能商业化",
+    "stageEn": "High Growth · Scientific Intelligence Commercialization",
+    "location": "上海 / 重庆 / 北京 / 美国湾区",
+    "locationEn": "Shanghai / Chongqing / Beijing / SF Bay Area",
+    "sort": 91
   }
 ]
