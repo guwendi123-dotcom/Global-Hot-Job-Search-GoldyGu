@@ -8,7 +8,7 @@
 - GitHub：<https://github.com/guwendi123-dotcom/Global-Hot-Job-Search-GoldyGu>
 - Cloudflare Worker：`headhunter-portfolio`
 - Cloudflare KV：`HEADHUNTER_DATA`
-- 当前正式版本：`b9fa6bc8-6338-40f4-ab7b-9480a7f54987`
+- 当前正式版本：`39e1a292-5a26-462e-98ec-bec0d75a2f54`
 - 当前公开数据：51 家公司、238 个岗位、7 个行业
 
 ## 当前产品能力
@@ -19,6 +19,7 @@
 - 管理后台可维护公司、岗位、行业及私密公司映射，但默认发布仍走 GitHub + Cloudflare 正式流程。
 - Cloudflare KV 是线上实时数据源；项目内 `data/*.json` 是 GitHub 版本与故障回退数据，发布前必须先读取线上数据并合并本次变更。
 - 真实公司名只保存在 Cloudflare 私密 KV 与本机 `.private/`，公开仓库、网页、URL、图片文字及岗位文案不得出现。
+- 主站与全部公开子页面统一使用 `public/goldy-mark.png` 作为唯一“咕”品牌标识，并由同一源文件生成浏览器与 Apple 图标，禁止在组件中另画不同版本。
 
 ## 仍需持续关注的招聘状态
 
