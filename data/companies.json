@@ -781,5 +781,20 @@
     "location": "上海 / 重庆 / 北京 / 美国湾区",
     "locationEn": "Shanghai / Chongqing / Beijing / SF Bay Area",
     "sort": 91
-  }
+  },
+{
+  "id": "global-embodied-ai-data-solutions-platform",
+  "industryId": "embodied-ai",
+  "name": "全球具身智能机器人与数据解决方案公司",
+  "nameEn": "Global Embodied AI Robotics & Data Solutions Company",
+  "logoEmoji": "🤖",
+  "description": "一家面向全球市场的具身智能与机器人公司，围绕机器人本体、智能系统及真实世界数据能力持续拓展产品与商业化布局。公司已在北美建立销售团队，并正加速服务具身智能、自动驾驶与 AI 客户，将客户需求、数据标准、数据产品和规模化交付能力连接起来。",
+  "descriptionEn": "A global embodied-AI and robotics company expanding across robotic systems, intelligent platforms, and real-world data capabilities. With a North American sales team already in place, the company is accelerating its work with embodied AI, autonomous-driving, and AI customers by connecting customer needs with data standards, data products, and scalable delivery.",
+  "stage": "全球化业务拓展期",
+  "stageEn": "Global Expansion",
+  "location": "中国 / 北美",
+  "locationEn": "China / North America",
+  "sort": 9,
+  "createdAt": "2026-11-02T00:00:00.000Z"
+}
 ]

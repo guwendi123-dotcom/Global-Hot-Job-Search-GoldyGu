@@ -8199,5 +8199,45 @@
         "Quality Discipline"
       ]
     }
-  }
+  },
+{
+  "id": "global-embodied-ai-data-solutions-platform-job-001",
+  "companyId": "global-embodied-ai-data-solutions-platform",
+  "title": "北美数据解决方案经理",
+  "titleEn": "Data Solutions Manager, North America",
+  "jobType": "bd-sales,data,product",
+  "jobTypeEn": "BD & Sales,Data,Product",
+  "workMode": "北美 Remote；偶尔客户拜访或出差",
+  "workModeEn": "Remote across North America; occasional client visits and travel",
+  "location": "北美（优先旧金山湾区 / San Jose）",
+  "locationEn": "North America (SF Bay Area / San Jose preferred)",
+  "description": "岗位概述：\n我们正在为北美业务招聘一名数据解决方案经理。该岗位不是纯销售，也不是单纯的数据项目交付，而是连接客户需求、数据标准、数据产品与销售团队的关键角色。你需要理解客户需要什么样的数据，判断数据可用性和质量，并把相对模糊的业务需求转化为可落地的数据解决方案。\n\n核心职责：\n• 与销售团队共同对接北美具身智能、自动驾驶及 AI 客户，理解应用场景与技术要求，设计对应的数据解决方案。\n• 根据客户需求定义数据规格、采集与标注标准、质量标准、有效数据比例及验收规则。\n• 参与客户会议、技术交流和售前方案讨论，准确拆解需求并清晰说明公司的数据能力。\n• 连接北美销售团队与国内数据、产品及交付团队，推动方案形成并落地。\n• 持续跟踪北美具身智能、自动驾驶和 AI 数据市场，为产品及业务团队提供一线反馈。\n\n任职要求：\n• 具备 AI 数据、数据采集、数据标注或数据解决方案相关经验，能够独立参与客户需求分析与方案设计。\n• 理解数据标准、数据可用性、质量指标、有效数据比例和标注规范。\n• 具身智能、L4 自动驾驶、图像/视频/多模态数据或数据采购经验优先。\n• 具备 Solutions、Pre-sales、Technical Sales 或客户侧项目经验者优先。\n• 能直接与北美客户沟通，中英文沟通顺畅。\n• 能够独立工作，适应快速变化的业务节奏。\n• 具备北美合法工作身份，可根据客户需要进行线下拜访或出差。",
+  "descriptionEn": "Role Overview:\nWe are hiring a Data Solutions Manager for the North American business. This is neither a pure sales role nor a delivery-only data role. You will connect customer needs, data standards, data products, and the sales organization—turning ambiguous business requests into practical data solutions and determining what data is usable, how quality should be measured, and how delivery specifications should be designed.\n\nKey Responsibilities:\n• Partner with the North American sales team to understand customer use cases and technical requirements across embodied AI, autonomous driving, and AI, then design fit-for-purpose data solutions.\n• Define data specifications, collection and annotation standards, quality metrics, usable-data ratios, and acceptance criteria.\n• Join customer meetings, technical discussions, and presales engagements; translate ambiguous requirements into clear data needs and explain the company's capabilities.\n• Coordinate North American sales with data, product, and delivery teams in China to turn proposals into executable plans.\n• Track customer needs, market trends, and the competitive landscape across North American AI data markets.\n\nQualifications:\n• Relevant experience in AI data, data collection, data annotation, or data solutions, with the ability to independently support discovery and solution design.\n• Practical understanding of data standards, usability, quality metrics, valid-data ratios, and annotation specifications.\n• Experience in robotics data, L4 autonomous-driving data, image/video/multimodal data, or data sourcing is preferred.\n• Solutions consulting, presales, technical sales, or customer-facing project experience is preferred.\n• Strong Chinese and English communication skills for direct engagement with North American customers.\n• Able to work independently in a fast-moving environment.\n• Must have authorization to work in North America and be available for occasional client visits or travel.",
+  "tags": [
+    "AI Data",
+    "具身智能",
+    "自动驾驶",
+    "数据解决方案",
+    "Pre-sales",
+    "北美 Remote"
+  ],
+  "tagsEn": [
+    "AI Data",
+    "Embodied AI",
+    "Autonomous Driving",
+    "Data Solutions",
+    "Pre-sales",
+    "North America Remote"
+  ],
+  "profile": {
+    "experience": "具备 AI 数据或数据解决方案相关实战经验",
+    "experienceEn": "Hands-on AI data or data-solutions experience",
+    "language": "中英文可作为工作语言",
+    "languageEn": "Professional Chinese and English",
+    "workAuthorization": "需具备北美合法工作身份或签证",
+    "workAuthorizationEn": "Must be authorized to work in North America"
+  },
+  "sort": 7,
+  "hiringStatus": "open"
+}
 ]
