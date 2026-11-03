@@ -1,60 +1,26 @@
-# GoldyHire 协作规则
+# GoldyHire 协作入口
 
-## 上下文入口
+## 开始任务时只读必要文件
 
-所有网站长期设置统一保存在 `WEBSITE_CONTEXT.md`。开始网站工作时必须先读取该文件和 `PROJECT_STATUS.md`。历史聊天中的候选人分析、招聘文案、海报过程及旧版发布方式均不作为网站操作依据。
+- 网站维护或发布：`WEBSITE_CONTEXT.md` + `PROJECT_STATUS.md`
+- 候选人匹配：另读 `RECRUITING_CONTEXT.md`
+- 邮件、LinkedIn、朋友圈与海报：另读 `MARKETING_CONTEXT.md`
+- 只有涉及客户内部画像时：按需读取 `.private/CLIENT_CONTEXT.md`、`.private/role-profiles.json`、`.private/company-identities.json`
 
-招聘海报、朋友圈、LinkedIn、邮件等可复用规则单独保存在 `MARKETING_CONTEXT.md`。营销素材与网站发布严格分开；只有用户明确要求时才读取该文件。
+历史聊天、已完成的上传过程、旧文案、候选人单次结论和登录故障不作为后续工作依据。
 
-候选人与岗位匹配、评分、推荐报告的通用方法保存在 `RECRUITING_CONTEXT.md`。具体候选人的简历结论属于一次性工作，不写回长期上下文。
+## 唯一项目
 
-仍有复用价值、但不能公开或提交 GitHub 的客户内部口径保存在 `.private/CLIENT_CONTEXT.md`。只有任务确实涉及对应客户时才读取；不得将其中内容直接复制到网站、公开海报、社交媒体、群聊或候选人书面沟通中。
+- 本地：`/Users/gugudechaojidanao/Documents/Codex/2026-07-20/nin/GoldyHire`
+- GitHub：`https://github.com/guwendi123-dotcom/Global-Hot-Job-Search-GoldyGu`
+- 正式站：`https://www.goldyhire.com`
+- Worker：`headhunter-portfolio`
 
-## 唯一主版本
+不得使用其他同名旧目录。Cloudflare KV 是线上实时数据源，本地 `data/*.json` 是版本与故障回退数据；发布前先读取线上集合，只合并本次变更。
 
-- 唯一本地项目：`/Users/gugudechaojidanao/Documents/Codex/2026-07-20/nin/GoldyHire`
-- 唯一 GitHub 仓库：`https://github.com/guwendi123-dotcom/Global-Hot-Job-Search-GoldyGu`
-- 正式网站：`https://www.goldyhire.com`
-- Cloudflare Worker：`headhunter-portfolio`
-- 恢复新版 UI 的主线基准提交：`016e70ef0edfe8d06a3ed350df8df83154cdab23`
+## 不可违反
 
-不要使用用户主目录或其他同名目录中的旧代码。开始修改前，必须确认当前目录与上面的路径完全一致，并检查 Git 状态与远端版本。
-正确页面应包含米白色新版 UI、Goldy 与三只猫主插画、公司目录，以及 Wechat 和 LinkedIn 入口；如果这些特征不存在，必须停止发布并检查版本。
-
-## 内容数据
-
-- 公司：`data/companies.json`
-- 岗位：`data/jobs.json`
-- 行业：`data/industries.json`
-- 页面与组件：`app/`、`components/`
-
-所有公司和岗位内容以这三个 `data/` 文件为准。客户要求脱敏时，不得在中英文公司介绍、岗位说明、标签、URL ID 或图片文字中出现真实公司名或产品名。
-
-新增公司或岗位必须写入 ISO 格式的 `createdAt`；通过管理后台新增时系统会自动生成。该字段用于首页“30 天热度 + 新鲜度”排序，编辑旧内容时不得覆盖原始创建时间。
-
-Cloudflare KV 中的 `content:companies`、`content:jobs`、`content:industries` 是线上实时内容源，项目内 JSON 是 GitHub 版本与故障回退数据。不得用部署动作清空或覆盖 KV。默认不使用管理后台；除非用户明确要求，发布一律走 GitHub + Cloudflare 直接流程，并先读取线上 KV、只合并本次变更。后台仅作为备用工具，使用方式见 `ADMIN_GUIDE.md`。
-
-## 真实公司名称（严格保密）
-
-- 线上真实名称只保存在 Cloudflare KV 的 `admin:company-identities`，仅登录后的管理后台可见。
-- 本机协作备份位于 `.private/company-identities.json`，该目录已被 Git 忽略，Codex 与 Claude 可以在本机读取，但绝不能提交、上传或粘贴到公开页面。
-- `data/company-identities.json` 只能保留空数组 `[]` 作为公开仓库模板，禁止写入任何真实公司名或产品名。
-- 新增或修改真实名称时，应通过管理后台保存，并同步更新本机 `.private/company-identities.json`；不得把私密映射同步到 GitHub。
-
-## 私密岗位画像（严格保密）
-
-- 线上岗位画像只保存在 Cloudflare KV 的 `admin:role-profiles`，仅登录后的“咕咕寻访模式”可见。
-- 本机协作备份位于 `.private/role-profiles.json`，不得提交 GitHub，也不得复制到公开岗位、海报、社交媒体或候选人书面沟通。
-- 公开岗位分类由 `lib/job-taxonomy.ts` 生成，采用“一级职能 → 二级专业方向”；职级、地区/城市、办公方式和招聘状态保持独立筛选。
-
-## 发布流程
-
-1. 读取 `WEBSITE_CONTEXT.md`、本文件和 `PROJECT_STATUS.md`。
-2. 确认没有覆盖现有公司或岗位，只做用户要求的增删改。
-3. 检查 JSON、脱敏关键词和页面构建。
-4. 运行 `npm run build:cloudflare`。
-5. 运行 `npx wrangler deploy`。
-6. 用正式域名验证公司页和岗位页。
-7. 提交并同步 GitHub，使线上、GitHub 和本地保持一致。
-
-禁止从旧副本直接发布，禁止用 GitHub 的旧提交覆盖 Cloudflare 当前线上版本。
+- 公开页面、公开 JSON、URL、Logo 与图片不得泄露真实公司、产品、薪资、HC、汇报关系和定向画像。
+- 私密真实名称与画像只能保存在 `.private/` 和 Cloudflare 私密 KV，绝不提交 GitHub。
+- 保留用户已有未提交内容；不要提交 `marketing-assets/` 或无关素材。
+- 发布前校验 JSON、脱敏、构建和 Git diff；发布后验证正式页面、更新 `PROJECT_STATUS.md`，再提交并推送 GitHub。
