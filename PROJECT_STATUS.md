@@ -1,6 +1,6 @@
 # GoldyHire 当前状态
 
-最后整理日期：2026-11-03
+最后整理日期：2026-11-04
 
 ## 生产环境
 
@@ -8,8 +8,8 @@
 - GitHub：<https://github.com/guwendi123-dotcom/Global-Hot-Job-Search-GoldyGu>
 - Cloudflare Worker：`headhunter-portfolio`
 - Cloudflare KV：`HEADHUNTER_DATA`（`49ce5f1fc2f24e63b808bb6aecab5df7`）
-- 当前正式版本：`cb899998-160c-4cfa-9879-f2a5a0f33ea7`
-- 当前公开数据：51 家公司、238 个岗位、7 个行业
+- 当前正式版本：`5e3e9fa6-a806-4981-9341-064365fc27a9`
+- 当前公开数据：52 家公司、243 个岗位、7 个行业
 
 ## 当前有效产品规则
 

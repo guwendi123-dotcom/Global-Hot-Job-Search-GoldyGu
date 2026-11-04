@@ -30,18 +30,19 @@
   },
   {
     "id": "embodied-ai-training-data-platform",
+    "industryId": "embodied-ai",
     "name": "具身智能训练数据平台",
     "nameEn": "Embodied AI Training Data Platform",
-    "industryId": "embodied-ai",
+    "logo": "https://maxinsights.ai/favicon.ico",
+    "logoEmoji": "🦾",
     "description": "一家诞生于硅谷、面向全球市场的具身智能数据基础设施公司，围绕机器人基础模型、VLA 与世界模型，提供端到端的真实世界多模态数据解决方案，覆盖任务设计、数据采集、结构化处理、质量评估与规模化交付。团队在自动驾驶、工业机器人、大规模数据工程和全球化创业方面积累深厚，并形成可适配不同客户需求的多工艺数据管线与 AI Native 研发体系。公司已在苏州建立完整的技术、数据运营与交付能力，并在北京和美国开展业务，正处于商业化与全球市场加速阶段。",
     "descriptionEn": "A Silicon Valley-born embodied-AI data infrastructure company serving global markets. It provides end-to-end, real-world multimodal data solutions for robotics foundation models, VLA systems, and world models, spanning task design, collection, structured processing, quality evaluation, and scaled delivery. The team brings deep experience in autonomous driving, industrial robotics, large-scale data engineering, and global company building, supported by adaptable data pipelines and an AI-native R&D system. With established technology, data-operations, and delivery capabilities in Suzhou and operations in Beijing and the United States, the company is accelerating commercialization and global expansion.",
     "stage": "高速成长 · 商业化加速",
     "stageEn": "High Growth · Commercial Expansion",
     "location": "苏州 / 北京 / 美国加州",
     "locationEn": "Suzhou / Beijing / California",
-    "logo": "https://maxinsights.ai/favicon.ico",
-    "logoEmoji": "🦾",
-    "sort": 25
+    "sort": 25,
+    "createdAt": "2026-10-15T08:44:14.431Z"
   },
   {
     "id": "aitrip",
@@ -215,7 +216,8 @@
     "stageEn": "Profitable High-growth Stage",
     "location": "北京总部 / 北美 / 全球协作",
     "locationEn": "Beijing HQ / North America / Global Collaboration",
-    "sort": 5
+    "sort": 5,
+    "createdAt": "2026-10-15T08:44:15.166Z"
   },
   {
     "id": "privacy-first-ai-chat-platform",
@@ -464,7 +466,6 @@
   },
   {
     "id": "global-physical-ai-human-experience-data-platform",
-    "createdAt": "2026-08-18T03:07:32.000Z",
     "industryId": "embodied-ai",
     "name": "全球 Physical AI 人类体验数据平台",
     "nameEn": "Global Physical AI Human Experience Data Platform",
@@ -476,7 +477,8 @@
     "stageEn": "Pre-Series A · Approx. US$22M New Round · US$30M Total Funding",
     "location": "新加坡 / 中国 / 马来西亚 / 美国",
     "locationEn": "Singapore / China / Malaysia / United States",
-    "sort": 32
+    "sort": 32,
+    "createdAt": "2026-08-18T03:07:32.000Z"
   },
   {
     "id": "cross-border-vla-physical-ai-foundation-platform",
@@ -655,24 +657,7 @@
     "sort": 70
   },
   {
-    "id": "carharbor",
-    "createdAt": "2026-09-29T08:00:00.000Z",
-    "industryId": "web3",
-    "name": "CarHarbor",
-    "nameEn": "CarHarbor",
-    "logo": "",
-    "logoEmoji": "🚘",
-    "description": "CarHarbor 是一个处于 MVP 收尾阶段的 Web3 数字汽车交易平台，探索以区块链支持数字车辆所有权、安全交易与汽车资产代币化。产品由 React、TypeScript 与 Node.js 技术栈构建，并计划接入钱包、多签托管式交易、链上与链下状态同步、车辆资产元数据及 Ethereum / Polygon 多网络能力。团队采用全球远程协作方式，正在补齐技术领导、协议、智能合约、区块链后端和 Web3 前端等核心能力，推动产品从演示流程走向安全、稳定且可扩展的生产系统。",
-    "descriptionEn": "CarHarbor is a Web3-enabled digital automotive marketplace in the final stage of MVP development. It is building blockchain-supported digital vehicle ownership, secure transactions, and tokenized automotive assets. The product uses a React and TypeScript frontend with Node.js services and is progressing toward wallet connectivity, multisignature escrow-style transactions, on-chain/off-chain state synchronization, vehicle-asset metadata, and multi-network support across Ethereum and Polygon. The globally distributed team is hiring technical leadership and core protocol, smart-contract, blockchain-backend, and Web3-frontend talent to move the product from simulated flows to a secure, scalable production platform.",
-    "stage": "MVP 收尾 · 全球远程",
-    "stageEn": "MVP Completion · Global Remote",
-    "location": "全球 Remote",
-    "locationEn": "Global Remote",
-    "sort": 71
-  },
-  {
     "id": "global-ai-product-portfolio-company",
-    "createdAt": "2026-10-09T02:00:00.000Z",
     "industryId": "ai-agent",
     "name": "全球化 AI 产品矩阵公司",
     "nameEn": "Global AI Product Portfolio Company",
@@ -684,11 +669,11 @@
     "stageEn": "Growth Stage · Global Product Portfolio",
     "location": "北京 / 上海 / 深圳 / 杭州",
     "locationEn": "Beijing / Shanghai / Shenzhen / Hangzhou",
-    "sort": 72
+    "sort": 72,
+    "createdAt": "2026-10-09T02:00:00.000Z"
   },
   {
     "id": "frontier-multimodal-model-company",
-    "createdAt": "2026-10-12T03:00:00.000Z",
     "industryId": "ai-agent",
     "name": "全球前沿多模态大模型公司",
     "nameEn": "Global Frontier Multimodal Model Company",
@@ -700,27 +685,11 @@
     "stageEn": "Foundation Models · Global Expansion",
     "location": "中国 / 美国湾区",
     "locationEn": "China / San Francisco Bay Area",
-    "sort": 73
-  },
-  {
-    "id": "global-open-model-ai-platform",
-    "createdAt": "2026-10-14T03:00:00.000Z",
-    "industryId": "ai-agent",
-    "name": "全球开放模型与高自由度 AI 平台",
-    "nameEn": "Global Open-Model & High-Agency AI Platform",
-    "logo": "",
-    "logoEmoji": "🦤",
-    "description": "一家面向欧美、日韩等全球市场的前沿 AIGC 与 AI Agent 平台，提供从文本、图像、视频到长内容创作的端到端生成体验。公司以高自由度、用户自主、开放模型和隐私保护为产品原则，结合匿名机制、端到端加密、透明路由与多模型能力，减少数据收集和单一模型平台锁定。长期愿景是建设强大的多模型 Coding Agent，使 AI 能在真实代码与工具环境中自主完成复杂任务，成为开发者与创作者可信赖的生产力平台。团队处于早期阶段，采用远程协作方式，并在上海设有办公室，创始团队具备经过验证的海外 B2C 产品经验。",
-    "descriptionEn": "A frontier AIGC and AI-agent platform serving global markets across North America, Europe, Japan, Korea, and other regions. It provides end-to-end generation experiences spanning text, images, video, and long-form content. The company is built around user agency, high creative freedom, open models, and privacy by design, combining anonymity, end-to-end encryption, transparent routing, and multi-model capabilities to reduce data collection and single-provider lock-in. Its long-term vision is a powerful multi-model coding agent capable of completing complex tasks in real codebases and tool environments. The early-stage team works remotely, maintains an office in Shanghai, and brings proven global B2C product experience.",
-    "stage": "早期阶段 · 全球化 B2C",
-    "stageEn": "Early Stage · Global B2C",
-    "location": "上海 / 旧金山湾区",
-    "locationEn": "Shanghai / San Francisco Bay Area",
-    "sort": 74
+    "sort": 73,
+    "createdAt": "2026-10-12T03:00:00.000Z"
   },
   {
     "id": "global-3d-ai-world-model-platform",
-    "createdAt": "2026-10-14T06:00:00.000Z",
     "industryId": "ai",
     "name": "全球 3D AI 与世界模型平台",
     "nameEn": "Global 3D AI & World Model Platform",
@@ -732,11 +701,27 @@
     "stageEn": "Global 3D AI · New Business Expansion",
     "location": "中国 / 美国 / 欧洲 / 日本 / 韩国",
     "locationEn": "China / United States / Europe / Japan / South Korea",
-    "sort": 75
+    "sort": 75,
+    "createdAt": "2026-10-14T06:00:00.000Z"
+  },
+  {
+    "id": "global-open-model-ai-platform",
+    "industryId": "ai-agent",
+    "name": "全球开放模型与高自由度 AI 平台",
+    "nameEn": "Global Open-Model & High-Agency AI Platform",
+    "logo": "",
+    "logoEmoji": "🦤",
+    "description": "一家面向欧美、日韩等全球市场的前沿 AIGC 与 AI Agent 平台，提供从文本、图像、视频到长内容创作的端到端生成体验。公司以高自由度、用户自主、开放模型和隐私保护为产品原则，结合匿名机制、端到端加密、透明路由与多模型能力，减少数据收集和单一模型平台锁定。长期愿景是建设强大的多模型 Coding Agent，使 AI 能在真实代码与工具环境中自主完成复杂任务，成为开发者与创作者可信赖的生产力平台。团队处于早期阶段，采用远程协作方式，并在上海设有办公室，创始团队具备经过验证的海外 B2C 产品经验。",
+    "descriptionEn": "A frontier AIGC and AI-agent platform serving global markets across North America, Europe, Japan, Korea, and other regions. It provides end-to-end generation experiences spanning text, images, video, and long-form content. The company is built around user agency, high creative freedom, open models, and privacy by design, combining anonymity, end-to-end encryption, transparent routing, and multi-model capabilities to reduce data collection and single-provider lock-in. Its long-term vision is a powerful multi-model coding agent capable of completing complex tasks in real codebases and tool environments. The early-stage team works remotely, maintains an office in Shanghai, and brings proven global B2C product experience.",
+    "stage": "早期阶段 · 全球化 B2C",
+    "stageEn": "Early Stage · Global B2C",
+    "location": "上海 / 旧金山湾区",
+    "locationEn": "Shanghai / San Francisco Bay Area",
+    "sort": 74,
+    "createdAt": "2026-10-14T03:00:00.000Z"
   },
   {
     "id": "physical-ai-labor-data-platform",
-    "createdAt": "2026-10-15T08:30:00.000Z",
     "industryId": "embodied-ai",
     "name": "全球 Physical AI 劳动数据基础设施平台",
     "nameEn": "Global Physical AI Labor Data Infrastructure Platform",
@@ -748,11 +733,11 @@
     "stageEn": "Early High-Growth Stage · Global",
     "location": "深圳 / 全球业务",
     "locationEn": "Shenzhen / Global Operations",
-    "sort": 76
+    "sort": 76,
+    "createdAt": "2026-10-15T08:30:00.000Z"
   },
   {
     "id": "realtime-interactive-multimodal-ai-platform",
-    "createdAt": "2026-10-26T08:00:00.000Z",
     "industryId": "ai-agent",
     "name": "实时交互式多模态智能平台",
     "nameEn": "Real-Time Interactive Multimodal Intelligence Platform",
@@ -764,7 +749,8 @@
     "stageEn": "High Growth · International Commercialization 0-to-1",
     "location": "全球市场",
     "locationEn": "Global Markets",
-    "sort": 77
+    "sort": 77,
+    "createdAt": "2026-10-26T08:00:00.000Z"
   },
   {
     "id": "global-science-intelligence-data-lab",
@@ -782,19 +768,35 @@
     "locationEn": "Shanghai / Chongqing / Beijing / SF Bay Area",
     "sort": 91
   },
-{
-  "id": "global-embodied-ai-data-solutions-platform",
-  "industryId": "embodied-ai",
-  "name": "全球具身智能机器人与数据解决方案公司",
-  "nameEn": "Global Embodied AI Robotics & Data Solutions Company",
-  "logoEmoji": "🤖",
-  "description": "一家面向全球市场的具身智能与机器人公司，围绕机器人本体、智能系统及真实世界数据能力持续拓展产品与商业化布局。公司已在北美建立销售团队，并正加速服务具身智能、自动驾驶与 AI 客户，将客户需求、数据标准、数据产品和规模化交付能力连接起来。",
-  "descriptionEn": "A global embodied-AI and robotics company expanding across robotic systems, intelligent platforms, and real-world data capabilities. With a North American sales team already in place, the company is accelerating its work with embodied AI, autonomous-driving, and AI customers by connecting customer needs with data standards, data products, and scalable delivery.",
-  "stage": "全球化业务拓展期",
-  "stageEn": "Global Expansion",
-  "location": "中国 / 北美",
-  "locationEn": "China / North America",
-  "sort": 9,
-  "createdAt": "2026-11-02T00:00:00.000Z"
-}
+  {
+    "id": "global-embodied-ai-data-solutions-platform",
+    "industryId": "embodied-ai",
+    "name": "全球具身智能机器人与数据解决方案公司",
+    "nameEn": "Global Embodied AI Robotics & Data Solutions Company",
+    "logoEmoji": "🤖",
+    "description": "一家面向全球市场的具身智能与机器人公司，围绕机器人本体、智能系统及真实世界数据能力持续拓展产品与商业化布局。公司已在北美建立销售团队，并正加速服务具身智能、自动驾驶与 AI 客户，将客户需求、数据标准、数据产品和规模化交付能力连接起来。",
+    "descriptionEn": "A global embodied-AI and robotics company expanding across robotic systems, intelligent platforms, and real-world data capabilities. With a North American sales team already in place, the company is accelerating its work with embodied AI, autonomous-driving, and AI customers by connecting customer needs with data standards, data products, and scalable delivery.",
+    "stage": "全球化业务拓展期",
+    "stageEn": "Global Expansion",
+    "location": "中国 / 北美",
+    "locationEn": "China / North America",
+    "sort": 9,
+    "createdAt": "2026-11-02T00:00:00.000Z"
+  },
+  {
+    "id": "global-short-drama-content-monetization-platform",
+    "industryId": "internet",
+    "name": "全球短剧内容与商业化平台",
+    "nameEn": "Global Short-Drama Content & Monetization Platform",
+    "logo": "",
+    "logoEmoji": "🎬",
+    "description": "一家面向全球市场的数字内容公司，核心产品位于出海短剧赛道头部梯队，已形成覆盖内容管理、本地化生产、全球分发、广告变现与支付基础设施的完整业务链路。团队服务多区域、多语言用户，并持续通过数据、自动化与 AI 提升内容运营和商业化效率。当前正围绕成熟内容产品继续强化 IAA 变现、全球支付与中后台平台能力，为产品与商业化人才提供直接影响全球业务指标的空间。",
+    "descriptionEn": "A global digital-content company operating a leading short-form drama product for international markets. The business has built an integrated stack spanning content management, localization, global distribution, advertising monetization, and payment infrastructure. It serves users across multiple regions and languages while applying data, automation, and AI to improve content operations and monetization efficiency. The team is now strengthening IAA monetization, global payments, and internal platform capabilities around an established product with meaningful global reach.",
+    "stage": "成熟出海产品 · 全球化增长期",
+    "stageEn": "Established Global Product · Growth Stage",
+    "location": "北京 / 杭州 / 成都",
+    "locationEn": "Beijing / Hangzhou / Chengdu",
+    "sort": 92,
+    "createdAt": "2026-11-04T08:00:00.000Z"
+  }
 ]
