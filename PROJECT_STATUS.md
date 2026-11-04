@@ -8,7 +8,7 @@
 - GitHub：<https://github.com/guwendi123-dotcom/Global-Hot-Job-Search-GoldyGu>
 - Cloudflare Worker：`headhunter-portfolio`
 - Cloudflare KV：`HEADHUNTER_DATA`（`49ce5f1fc2f24e63b808bb6aecab5df7`）
-- 当前正式版本：`dd1186fb-d0f7-422c-bb50-1e6b1441a8ef`
+- 当前正式版本：`2d21e956-7647-4b37-b842-8f60ce8516ac`
 - 当前公开数据：53 家公司、244 个岗位、7 个行业
 
 ## 当前有效产品规则
