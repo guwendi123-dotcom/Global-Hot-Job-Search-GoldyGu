@@ -11994,5 +11994,52 @@
     "hiringStatus": "open",
     "sort": 6,
     "createdAt": "2026-11-04T08:00:00.000Z"
+  },
+  {
+    "id": "global-ai-video-refinement-creation-platform-overseas-product-manager",
+    "companyId": "global-ai-video-refinement-creation-platform",
+    "title": "海外 AI 视频产品经理",
+    "titleEn": "Product Manager, Global AI Video",
+    "jobType": "product,ai-agent",
+    "jobTypeEn": "Product,AI Agent",
+    "workMode": "全职 · 办公形式待确认",
+    "workModeEn": "Full-time · Work arrangement to be confirmed",
+    "location": "深圳",
+    "locationEn": "Shenzhen",
+    "description": "岗位介绍：\n加入一家已完成产品 0→1 验证、正在进入规模化阶段的全球 AI 视频团队。你将直接参与新一代视频修改 Agent 的产品建设，把多模态生成与视频编辑能力转化为海外创作者和商业用户真正愿意持续使用、付费的产品体验。\n\n这个岗位需要兼具产品判断、AI 理解和商业化意识。你需要能够形成独立观点，与创始团队进行高质量讨论，并对产品结果负责，而不是只承接需求或推动排期。\n\n核心职责：\n• 独立负责 AI 视频产品或核心模块，从用户研究、需求判断和产品规划推进到研发上线及结果复盘。\n• 深入海外创作者、营销团队和中小商家的工作流，识别视频局部修改、主体一致性、生成质量、操作复杂度、耗时与成本等关键问题。\n• 将文生视频、图生视频、多模态生成、Prompt 与 Agent 能力转化为用户容易理解和使用的产品功能。\n• 负责订阅、额度、付费转化、增购、续订等商业化机制，持续优化收入、转化、留存与用户价值。\n• 搭建和分析用户漏斗、行为路径及商业化指标，通过实验验证产品假设并解释指标变化。\n• 推动算法、工程、设计和运营团队协作，对优先级、上线质量和业务结果负责。\n• 持续研究全球 AI 视频、创作者工具和内容平台生态，形成有依据的产品判断。\n\n任职要求：\n• 3 年以上 AI 产品、AI 工具或相关互联网产品经验，具备独立负责产品模块或项目的经历。\n• 有从需求分析、方案设计到研发落地和上线复盘的完整产品经验。\n• 数据分析能力扎实，能够理解并使用漏斗、转化、留存及商业化指标。\n• 对 AIGC 产品有实际理解，能够平衡模型能力、生成效果、用户体验和技术成本。\n• 具备强主动性、Owner 意识和独立解决问题能力，适应快速变化的创业环境。\n• 能够形成独立产品观点，既能与创始团队充分讨论，也能在形成共识后高质量落地。\n\n优先考虑：\n• 做过海外 To C AI、AI 视频/图像、创作者工具或消费类 AI 产品。\n• 直接推动过产品收入增长、订阅转化、留存或续订优化，并能说明真实业务结果。\n• 熟悉海外创作者社区与主流视频、社交平台生态。\n• 有多模型接入、模型效果评估、生成质量优化或 AI 工作流编排经验。\n• 能使用 Prompt、Agent、低代码或原型工具快速验证产品方案。\n\n我们更看重能够将 AI 技术转化为用户价值和商业结果的产品经理，而不只是熟悉 AI 概念或完成需求交付。",
+    "descriptionEn": "About the Role:\nJoin a global AI video team that has already validated product-market demand and is now entering a scaling phase. You will help build a next-generation video-editing agent, translating multimodal generation and editing capabilities into a product that global creators and business users adopt, retain, and pay for.\n\nThis role requires independent product judgment, practical AI understanding, and commercial thinking. You should be able to challenge and refine ideas with the founding team while remaining accountable for outcomes—not simply receive requirements or coordinate delivery.\n\nResponsibilities:\n• Own an AI video product or core module end to end, from user research, problem definition, and roadmap decisions through launch and outcome review.\n• Understand workflows for global creators, marketers, and small businesses, including localized edits, subject consistency, generation quality, usability, latency, and cost.\n• Translate text-to-video, image-to-video, multimodal generation, prompting, and agent capabilities into intuitive product experiences.\n• Improve subscriptions, credits, paid conversion, expansion, and renewal while balancing revenue, retention, user value, and product cost.\n• Build and analyze funnels, behavioral journeys, and monetization metrics; design experiments and explain performance changes.\n• Drive alignment across AI, engineering, design, and operations, owning prioritization, launch quality, and business outcomes.\n• Develop informed product judgment through continuous research on global AI video, creator tools, and content platforms.\n\nRequirements:\n• 3+ years of product experience in AI products, AI tools, or relevant internet products, including independent ownership of a product module or initiative.\n• Proven end-to-end experience from discovery and solution design through engineering delivery, launch, and review.\n• Strong analytical skills across funnels, conversion, retention, and monetization.\n• Practical understanding of AIGC products and the trade-offs among model capability, output quality, user experience, and technical cost.\n• High ownership, initiative, and independent problem-solving in a fast-changing startup environment.\n• Ability to form and defend a product point of view, debate constructively with founders, and execute decisively after alignment.\n\nPreferred:\n• Global consumer AI, AI video/image, creator-tool, or consumer-software experience.\n• Direct ownership of revenue growth, subscription conversion, retention, or renewal outcomes.\n• Familiarity with global creator communities and major video and social platforms.\n• Experience with multi-model integration, model evaluation, generation-quality optimization, or AI workflow orchestration.\n• Ability to validate ideas quickly using prompts, agents, low-code tools, or interactive prototypes.\n\nWe value product managers who turn AI technology into user value and measurable business results—not those who only understand AI terminology or complete assigned requirements.",
+    "tags": [
+      "海外 To C",
+      "AI 视频",
+      "商业化",
+      "订阅增长",
+      "Product Owner"
+    ],
+    "tagsEn": [
+      "Global Consumer",
+      "AI Video",
+      "Monetization",
+      "Subscription Growth",
+      "Product Ownership"
+    ],
+    "profile": {
+      "skills": [
+        "AI 产品 0→1",
+        "海外 To C",
+        "订阅商业化",
+        "数据驱动",
+        "多模态生成"
+      ],
+      "skillsEn": [
+        "AI Product 0-to-1",
+        "Global Consumer",
+        "Subscription Monetization",
+        "Data-driven Product",
+        "Multimodal Generation"
+      ]
+    },
+    "hiringStatus": "open",
+    "sort": 10,
+    "createdAt": "2026-11-04T10:00:00.000Z"
   }
 ]

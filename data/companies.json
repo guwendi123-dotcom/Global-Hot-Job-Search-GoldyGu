@@ -798,5 +798,21 @@
     "locationEn": "Beijing / Hangzhou / Chengdu",
     "sort": 92,
     "createdAt": "2026-11-04T08:00:00.000Z"
+  },
+  {
+    "id": "global-ai-video-refinement-creation-platform",
+    "industryId": "ai-agent",
+    "name": "全球 AI 视频精修与创作平台",
+    "nameEn": "Global AI Video Refinement & Creation Platform",
+    "logo": "",
+    "logoEmoji": "🎞️",
+    "description": "一家面向全球创作者与中小商家的 AI 视频产品公司，致力于打造视频领域更可控、更精细的专业创作与编辑工作流。团队从 2021 年开始持续探索 AI 视觉产品，已拥有经过市场验证、具备真实用户规模和商业收入的成熟产品，并正在重点推进新一代视频修改 Agent。相较于只追求一键生成的通用视频工具，公司聚焦局部精修、主体一致性、可控修改与营销素材迭代，希望让创作者像使用专业图像编辑软件一样准确地修改视频。目前业务已从 0→1 验证进入产品规模化阶段，团队兼具连续创业、全球产品和商业化经验。",
+    "descriptionEn": "A global AI video company building more controllable and precise creation and editing workflows for creators and small businesses. Since 2021, the team has launched commercially validated visual-AI products with meaningful user adoption and is now focused on a next-generation video-editing agent. Rather than competing only on one-click generation, the product differentiates through localized refinement, subject consistency, controllable edits, and rapid iteration of marketing assets—bringing Photoshop-like precision to video creation. The business has moved beyond zero-to-one validation and is entering a product-scaling phase, supported by repeat-founder, global product, and commercialization experience.",
+    "stage": "多轮融资 · 产品规模化阶段",
+    "stageEn": "Multi-round Funding · Product Scaling Stage",
+    "location": "深圳 / San Jose",
+    "locationEn": "Shenzhen / San Jose",
+    "sort": 93,
+    "createdAt": "2026-11-04T10:00:00.000Z"
   }
 ]
